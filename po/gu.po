@@ -1,0 +1,3345 @@
+# translation of ekiga.gnome-2-26.gu.po to Gujarati
+# Copyright (C) 2004, 2005, 2006, 2008, 2009, 2010 Free Software Foundation, Inc.
+#: ../lib/engine/components/resource-list/rl-entry.cpp:161
+# MagNet <magnet@magnet-i.com>, 2004.
+# Ankit Patel <ankit@redhat.com>, 2004, 2005, 2008, 2009.
+# Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
+# Sweta Kothari <swkothar@redhat.com>, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: ekiga.gnome-2-26.gu\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=ekiga&component=general\n"
+"POT-Creation-Date: 2009-12-14 15:59+0000\n"
+"PO-Revision-Date: 2010-03-24 12:05+0530\n"
+"Last-Translator: Sweta Kothari <swkothar@redhat.com>\n"
+"Language-Team: Gujarati\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"<magnet@magnet-i.com>\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../ekiga.desktop.in.in.h:1
+msgid "Ekiga Softphone"
+msgstr "Ekiga સોફ્ટફોન"
+
+#: ../ekiga.desktop.in.in.h:2
+msgid "IP Telephony, VoIP and Video Conferencing"
+msgstr "IP ટેલીફોની, VoIP અને વિડિઓ કોન્ફરન્સીંગ"
+
+#: ../ekiga.desktop.in.in.h:3
+msgid "Talk to people over the Internet"
+msgstr "ઇન્ટરનેટ પર લોકો સાથે વાત કરો"
+
+#: ../ekiga.schemas.in.in.h:1
+msgid "0: 56Kbps, 1: ISDN, 2:DSL, 3: LAN, 4: Custom"
+msgstr "0: 56Kbps, 1: ISDN, 2:DSL, 3: LAN, 4: Custom"
+
+#: ../ekiga.schemas.in.in.h:2
+msgid ""
+"Allow Ekiga to fall back to software scaling the picture-in-picture if "
+"hardware support is not available. If this is set to false, Ekiga will not "
+"try to open the PIP if hardware support is not available."
+msgstr ""
+"જો હાર્ડવેર આધાર ઉપલબ્ધ નહિં હોય તો Ekiga ને ચિત્રનું સોફ્ટવેર સ્કેલીંગ કરવા દો. જો આ "
+"ખોટા તરીકે સુયોજીત હોય, તો Ekiga એ PIP ખોલવાનો પ્રયાસ કરશે નહિં જો હાર્ડવેર આધાર "
+"ઉપલબ્ધ નહિં હોય."
+
+#: ../ekiga.schemas.in.in.h:3
+msgid "Allow picture-in-picture software scaling"
+msgstr "ચિત્ર-માં-ચિત્ર સોફ્ટવેર માપનની પરવાનગી આપો"
+
+#: ../ekiga.schemas.in.in.h:4
+msgid "Alternative audio output device"
+msgstr "વૈકલ્પિક ઓડિયો આઉટપુટ ઉપકરણ"
+
+#: ../ekiga.schemas.in.in.h:5
+msgid "Always forward calls to the given host"
+msgstr "હંમેશા કોલને આપેલ યજમાન તરફ ધકેલો"
+
+#: ../ekiga.schemas.in.in.h:6
+msgid "Audio input device"
+msgstr "ઓડિયો ઈનપુટ ઉપકરણો"
+
+#: ../ekiga.schemas.in.in.h:7
+msgid "Audio output device"
+msgstr "ઓડિયો આઉટપુટ ઉપકરણો"
+
+#: ../ekiga.schemas.in.in.h:8 ../src/gui/preferences.cpp:516
+msgid ""
+"Automatically reject or forward incoming calls if no answer is given after "
+"the specified amount of time (in seconds)"
+msgstr ""
+"સ્પષ્ટ કરેલ સમય દરમ્યાન જો કોલનો જવાબ આપવામાં નહિ આવે તો આવતા કોલોને આપોઆપ નકારો "
+"અથવા આગળ ધપાવો (સેકન્ડોમાં)"
+
+#: ../ekiga.schemas.in.in.h:9
+msgid "Calls history"
+msgstr "કોલ ઇતિહાસ"
+
+#: ../ekiga.schemas.in.in.h:10
+msgid "Change the main window panel section"
+msgstr "મુખ્ય વિન્ડો પેનલ વિભાગ બદલો"
+
+#: ../ekiga.schemas.in.in.h:11
+msgid ""
+"Connection will be established in Fast Start mode. Fast Start is a new way "
+"to start calls faster that was introduced in H.323v2. It is not supported by "
+"Netmeeting and using both Fast Start and H.245 Tunneling can crash some "
+"versions of Netmeeting"
+msgstr ""
+"જોડાણ ઝડપી શરૂઆત સ્થિતિમાં અધિષ્ઠાપિત થશે. ઝડપી શરૂઆત એ H.323v2 માં અમલમાં આવેલ કોલને "
+"ઝડપી શરૂ કરવાનો નવો માર્ગ છે. તે Netmeeting દ્વારા આધારભૂત નથી અને બંને ઝડપી શરૂઆત અને "
+"H.245 ટનલીંગ વાપરે છે જે Netmeeting ની અમુક આવૃત્તિઓ બગાડી શકે છે"
+
+#: ../ekiga.schemas.in.in.h:12
+msgid "Contact long status"
+msgstr "લાંબી સ્થિતી નો સંપર્ક કરો"
+
+#: ../ekiga.schemas.in.in.h:13
+msgid "Contact short status"
+msgstr "ટૂંકી સ્થિતીનો સંપર્ક કરો"
+
+#: ../ekiga.schemas.in.in.h:14
+msgid "DTMF sending"
+msgstr "DTMF મોકલાઈ રહ્યુ છે"
+
+#: ../ekiga.schemas.in.in.h:15
+msgid "Disable STUN network detection"
+msgstr "STUN નેટવર્ક શોધને નિષ્ક્રિય કરો"
+
+#: ../ekiga.schemas.in.in.h:16 ../src/gui/preferences.cpp:492
+msgid "Disable the automatic network setup resulting from the STUN test"
+msgstr "STUN ચકાસણી માંથી નેટવર્ક સુયોજન પરિણામને આપમેળે નિષ્ક્રિય કરો"
+
+#: ../ekiga.schemas.in.in.h:17
+msgid "Disable video hardware acceleration"
+msgstr "વિડિઓ હાર્ડવેર પ્રવેગ નિષ્ક્રિય કર"
+
+#: ../ekiga.schemas.in.in.h:18 ../src/gui/main.cpp:3596
+msgid "Display images from your camera device"
+msgstr "તમારા કેમેરા ઉપકરણમાંથી ચિત્રો દર્શાવો"
+
+#: ../ekiga.schemas.in.in.h:19
+msgid "Enable 'Fast Start'"
+msgstr "'ઝડપી શરુઆત' ને કાર્યરત કરો"
+
+#: ../ekiga.schemas.in.in.h:20
+msgid "Enable H.245 tunneling"
+msgstr "H.245 ટનલીંગ સક્રિય કરો"
+
+#: ../ekiga.schemas.in.in.h:21
+msgid "Enable early H.245"
+msgstr "વહેલા H.245 ને કાર્યરત કરો"
+
+#: ../ekiga.schemas.in.in.h:22
+msgid "Enable echo cancelation"
+msgstr "પડધો રદ કરવાનું સક્રિય કરો"
+
+#: ../ekiga.schemas.in.in.h:23
+msgid "Enable silence detection"
+msgstr "શાંતિ શોધને કાર્યરત કરો"
+
+#: ../ekiga.schemas.in.in.h:24
+msgid ""
+"Enter the number of seconds after which Ekiga should try refreshing the NAT "
+"binding when STUN is being used"
+msgstr ""
+"સેકન્ડોની સંખ્યા દાખલ કરો કે જેના પછી Ekigaએ NAT બાઈન્ડીંગને પુનઃતાજું કરવાનો પ્રયાસ કરવો "
+"જોઈએ જ્યારે STUN વપરાઈ રહેલ હોય"
+
+#: ../ekiga.schemas.in.in.h:25 ../src/gui/preferences.cpp:459
+msgid "Enter your full name"
+msgstr "તમારા સંપૂર્ણ નામને દાખલ કરો"
+
+#: ../ekiga.schemas.in.in.h:26
+msgid "Forward calls to host"
+msgstr "કોલને યજમાન તરફ ધકેલો"
+
+#: ../ekiga.schemas.in.in.h:27
+msgid "Forward calls to the given host if busy"
+msgstr "જો વ્યસ્ત હોય તો કોલને આપેલ યજમાન તરફ ધકેલો"
+
+#: ../ekiga.schemas.in.in.h:28
+msgid "Forward calls to the given host if no answer"
+msgstr "જો જવાબ ન હોય તો કોલને આપેલ યજમાન તરફ ધકેલો"
+
+#: ../ekiga.schemas.in.in.h:29 ../src/gui/preferences.cpp:1018
+msgid "Frame Rate"
+msgstr "ચોકઠાંનો દર"
+
+#: ../ekiga.schemas.in.in.h:30
+msgid "Full name"
+msgstr "સંપૂર્ણ નામ"
+
+#: ../ekiga.schemas.in.in.h:31 ../src/gui/preferences.cpp:477
+msgid ""
+"If enabled, Ekiga will start hidden provided that the notification area is "
+"present in the GNOME panel"
+msgstr ""
+"જો સક્રિય કરેલ હોય, તો Ekiga છુપી રીતે પૂરું પાડવામાં શરૂ થશે કે જે જીનોમ પેનલમાં સૂચક "
+"વિસ્તાર હાજર છે"
+
+#: ../ekiga.schemas.in.in.h:32
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below"
+msgstr "જો કાર્યરત હોય તો, બધાં આવેલ કોલો નીચે સ્પષ્ટ કરેલ ક્ષેત્રનાં યજમાન તરફ ધકેલાય છે"
+
+#: ../ekiga.schemas.in.in.h:33
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you already are in a call or if you are in "
+"Do Not Disturb mode"
+msgstr ""
+"જો કાર્યરત હોય તો, જો તમે કોલમાં પહેલાથી હોવ અથવા 'હેરાન કરશો નહીં' સ્થિતિમાં હોય તો "
+"બધાં આવેલ કોલો નીચે સ્પષ્ટ કરેલ ક્ષેત્રનાં યજમાન તરફ ધકેલો"
+
+#: ../ekiga.schemas.in.in.h:34
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you do not answer the call"
+msgstr ""
+"જો કાર્યરત હોય તો, જો તમે કોલ નો જવાબ ન આપ્યો હોય તો બધાં આવેલ કોલો નીચે સ્પષ્ટ કરેલ "
+"ક્ષેત્રનાં યજમાન તરફ ધકેલો"
+
+#: ../ekiga.schemas.in.in.h:35 ../src/gui/preferences.cpp:479
+msgid "If enabled, offline contacts will be shown in the roster"
+msgstr "જો સક્રિય હોય તો, ઓફલાઇન સંપર્કો આ રોસ્ટરમાં બતાવેલ હશે"
+
+#: ../ekiga.schemas.in.in.h:36
+msgid "If enabled, use echo cancelation"
+msgstr "જો સક્રિય કરેલ હોય, તો પડઘો રદ કરવાનું વાપરો"
+
+#: ../ekiga.schemas.in.in.h:37
+msgid "If enabled, use silence detection with the codecs supporting it"
+msgstr "જો સક્રિય કરેલ હોય, તો શાંતિ શોધને તેને આધાર આપતા કોડેક સાથે વાપરો"
+
+#: ../ekiga.schemas.in.in.h:38
+msgid "Kind of network selected in the druid"
+msgstr "druid માં પસંદ કરેલ નેટવકૅનો પ્રકાર"
+
+#: ../ekiga.schemas.in.in.h:39
+msgid "LDAP servers"
+msgstr "LDAP સર્વરો"
+
+#: ../ekiga.schemas.in.in.h:40
+msgid "List of configured LDAP servers"
+msgstr "રૂપરેખાંકિત થયેલ LDAP સર્વરોની યાદી"
+
+#: ../ekiga.schemas.in.in.h:41
+msgid "List of folded groups in the roster"
+msgstr "રોસ્ટરમાં વળેલ જૂથોની યાદી"
+
+#: ../ekiga.schemas.in.in.h:42
+msgid "Listen port"
+msgstr "સાંભળનાર પોર્ટ"
+
+#: ../ekiga.schemas.in.in.h:43
+msgid "Local video window size"
+msgstr "સ્થાનિક વિડિઓ વિન્ડોની પહોળાઇ"
+
+#: ../ekiga.schemas.in.in.h:44
+msgid "Maximum RX video bitrate"
+msgstr "મહત્તમ RX વિડિઓ બીટદર"
+
+#: ../ekiga.schemas.in.in.h:45
+msgid "Maximum TX video bitrate"
+msgstr "મહત્તમ TX વિડિઓ બીટદર"
+
+#: ../ekiga.schemas.in.in.h:46
+msgid "Maximum jitter buffer"
+msgstr "જીટર માટેની મહત્તમ બફર"
+
+#: ../ekiga.schemas.in.in.h:47
+msgid "NAT Binding Timeout"
+msgstr "NAT બાઈન્ડીંગ સમયસમાપ્તિ"
+
+#: ../ekiga.schemas.in.in.h:48
+msgid "No answer timeout"
+msgstr "સમયસમાપ્તિનો કોઈ જવાબ નથી"
+
+#: ../ekiga.schemas.in.in.h:49
+msgid "Outbound Proxy"
+msgstr "આઉટબાઉન્ડ પ્રોક્સી"
+
+#: ../ekiga.schemas.in.in.h:50 ../src/gui/preferences.cpp:486
+msgid "Place windows displaying video above other windows during calls"
+msgstr "વિડિઓ પ્રદર્શિત કરતી વિન્ડોને બીજા કોલોની વિન્ડોની ઉપર મૂકો"
+
+#: ../ekiga.schemas.in.in.h:51 ../src/gui/preferences.cpp:371
+msgid "Play busy tone"
+msgstr "વ્યસ્ત ટોન વગાડો"
+
+#: ../ekiga.schemas.in.in.h:52 ../src/gui/preferences.cpp:361
+msgid "Play ring tone"
+msgstr "રીંગ ટોન વગાડો"
+
+#: ../ekiga.schemas.in.in.h:53 ../src/gui/preferences.cpp:351
+msgid "Play sound on incoming calls"
+msgstr "આવતા કોલ માટે ધ્વનિ વગાડો"
+
+#: ../ekiga.schemas.in.in.h:54
+msgid "Play sound on new message"
+msgstr "નવા સંદેશા પર ધ્વનિ વગાડો"
+
+#: ../ekiga.schemas.in.in.h:55
+msgid "Play sound on new voice mail"
+msgstr "નવા અવાજ મેઈલ પર ધ્વનિ વગાડો"
+
+#: ../ekiga.schemas.in.in.h:56
+msgid "Position of the local video window"
+msgstr "સ્થાનિક વિડિઓ વિન્ડોની સ્થિતિ"
+
+#: ../ekiga.schemas.in.in.h:57
+msgid "Position on the screen of the address book window"
+msgstr "સરનામા પોથી વિન્ડોની સ્ક્રીન પરની સ્થિતિ"
+
+#: ../ekiga.schemas.in.in.h:58
+msgid "Position on the screen of the audio settings window"
+msgstr "ઓડિયો સુયોજનો વિન્ડોની સ્ક્રીન પરની સ્થિતિ"
+
+#: ../ekiga.schemas.in.in.h:59
+msgid "Position on the screen of the chat window"
+msgstr "ચેટ વિન્ડોની સ્ક્રીન પરનું સ્થાન"
+
+#: ../ekiga.schemas.in.in.h:60
+msgid "Position on the screen of the druid window"
+msgstr "druid વિન્ડોની સ્ક્રીન પરની સ્થિતિ"
+
+#: ../ekiga.schemas.in.in.h:61
+msgid "Position on the screen of the log window"
+msgstr "લોગ વિન્ડોની સ્ક્રીન પરની સ્થિતિ"
+
+#: ../ekiga.schemas.in.in.h:62
+msgid "Position on the screen of the main window"
+msgstr "મુખ્ય વિન્ડોની સ્ક્રીન પરની સ્થિતિ"
+
+#: ../ekiga.schemas.in.in.h:63
+msgid "Position on the screen of the preferences window"
+msgstr "પસંદગી વિન્ડોની સ્ક્રીન પરની સ્થિતિ"
+
+#: ../ekiga.schemas.in.in.h:64
+msgid "Position on the screen of the video settings window"
+msgstr "વિડિઓ સુયોજનો વિન્ડોની સ્ક્રીન પરની સ્થિતિ"
+
+#: ../ekiga.schemas.in.in.h:65
+msgid "Remote video window position"
+msgstr "દૂરનાં વિડિઓ વિન્ડોની સ્થિતિ"
+
+#: ../ekiga.schemas.in.in.h:66
+msgid "Remote video window size"
+msgstr "દૂરનાં વિડિઓ વિન્ડોનુ માપ"
+
+#: ../ekiga.schemas.in.in.h:67
+msgid "Select an alternative audio output device to use for sound events."
+msgstr "ધ્વનિ ઘટનાઓ માટે વૈકલ્પિક ઓડિયો આઉટપુટ ઉપકરણ પસંદ કરો."
+
+#: ../ekiga.schemas.in.in.h:68 ../src/gui/preferences.cpp:777
+msgid "Select the audio input device to use"
+msgstr "ઓડિયો ઈનપુટ ઉપકરણ વાપરવા માટે પસંદ કરો"
+
+#: ../ekiga.schemas.in.in.h:69 ../src/gui/preferences.cpp:770
+msgid "Select the audio output device to use"
+msgstr "ઓડિયો આઉટપુટ ઉપકરણ વાપરવા માટે પસંદ કરો"
+
+#: ../ekiga.schemas.in.in.h:70 ../src/gui/preferences.cpp:936
+msgid "Select the format for video cameras (does not apply to most USB cameras)"
+msgstr "વિડિઓ કેમેરાઓ માટે બંધારણ પસંદ કરો. (મોટાભાગનાં USB કેમેરાઓ માટે લાગુ પડતું નથી)"
+
+#: ../ekiga.schemas.in.in.h:71
+msgid ""
+"Select the transmitted video size: Small (QCIF 176x144) or Large (CIF "
+"352x288)"
+msgstr "પ્રસારિત કરેલ વિડિઓનું કદ પસંદ કરો: નાનું (QCIF 176x144) અથવા મોટું (CIF 352x288)"
+
+#: ../ekiga.schemas.in.in.h:72 ../src/gui/preferences.cpp:928
+msgid ""
+"Select the video input device to use. If an error occurs when using this "
+"device a test picture will be transmitted."
+msgstr ""
+"વિડિઓ ઈનપુટ ઉપકરણ વાપરવા માટે પસંદ કરો. આ ઉપકરણ વાપરતાં જો ભૂલ ઉદભવે તો ચકાસણી "
+"ચિત્ર મોકલવામાં આવશે."
+
+#: ../ekiga.schemas.in.in.h:73
+msgid "Show offline contacts"
+msgstr "ઓફલાઇન સંપર્કોને બતાવો"
+
+#: ../ekiga.schemas.in.in.h:74 ../src/gui/main.cpp:3225
+msgid "Show the call panel"
+msgstr "કોલ પેનલ ને બતાવો"
+
+#: ../ekiga.schemas.in.in.h:75
+msgid "Size of the address book window"
+msgstr "સરનામા પુસ્તિકા વિન્ડોનું માપ"
+
+#: ../ekiga.schemas.in.in.h:76
+msgid "Size of the audio settings window"
+msgstr "ઓડિયો સુયોજનો વિન્ડોનું માપ"
+
+#: ../ekiga.schemas.in.in.h:77
+msgid "Size of the chat window"
+msgstr "ચેટ વિન્ડોનું માપ"
+
+#: ../ekiga.schemas.in.in.h:78
+msgid "Size of the druid window"
+msgstr "druid વિન્ડોનું માપ"
+
+#: ../ekiga.schemas.in.in.h:79
+msgid "Size of the preferences window"
+msgstr "પસંદગી વિન્ડોનું માપ"
+
+#: ../ekiga.schemas.in.in.h:80
+msgid "Size of the video settings window"
+msgstr "વિડિઓ સુયોજનો વિન્ડોનું માપ"
+
+#: ../ekiga.schemas.in.in.h:81
+msgid "Specify the software scaling algorithm"
+msgstr "સોફ્ટવેર માપન અલગોરિધમ સ્પષ્ટ કરો"
+
+#: ../ekiga.schemas.in.in.h:82
+msgid ""
+"Specify the software scaling algorithm: 0: nearest neighbor, 1: nearest "
+"neighbor with box filter, 2: bilinear filtering, 3: hyperbolic filtering. "
+"Does not apply on windows systems."
+msgstr ""
+"સોફ્ટવેર સ્કેલીંગ અલગોરિધમ સ્પષ્ટ કરો: ૦: નજીકતમ પડોશી, ૧: બોક્સ ગાળક સાથે નજીકતમ "
+"પડોશી, ૨: દ્વીરેખીય ગાળણ, ૩: હાયપરબોલીક ગાળણ. windows સિસ્ટમો પર લાગુ પડતું નથી."
+
+#: ../ekiga.schemas.in.in.h:83
+msgid "Start hidden"
+msgstr "અદ્રશ્ય શરુ કરો"
+
+#: ../ekiga.schemas.in.in.h:84
+msgid "TCP port range"
+msgstr "TCP પોર્ટ વિસ્તાર"
+
+#: ../ekiga.schemas.in.in.h:85
+msgid "Temporal Spatial Trade Off"
+msgstr "કામચલાઉ સ્પેશીયલ ટ્રેડ ઓફ"
+
+#: ../ekiga.schemas.in.in.h:86
+msgid "The Audio Codecs List"
+msgstr "ધ્વનિ કોડેક યાદી"
+
+#: ../ekiga.schemas.in.in.h:87 ../src/gui/preferences.cpp:727
+msgid "The SIP Outbound Proxy to use for outgoing calls"
+msgstr "જતા કોલ માટે વાપરવાનું SIP આઉટબાઉન્ડ પ્રોક્સી"
+
+#: ../ekiga.schemas.in.in.h:88
+msgid "The STUN Server"
+msgstr "STUN સર્વર"
+
+#: ../ekiga.schemas.in.in.h:89
+msgid ""
+"The STUN server to use for STUN Support. STUN is a technology that permits "
+"passage through some types of NAT gateway"
+msgstr ""
+"STUN આધાર માટે વાપરવા માટે વાપરવાનું STUN સર્વર. STUN એ એવી ટેક્નોલોજી છે કે જે NAT "
+"ગેટવેના અમુક પ્રકાર મારફતે પરવાનગી આપે છે"
+
+#: ../ekiga.schemas.in.in.h:90
+msgid "The Video Codecs List"
+msgstr "વિડિઓ કોડેક યાદી"
+
+#: ../ekiga.schemas.in.in.h:91
+msgid "The accounts list"
+msgstr "ખાતાઓની યાદી"
+
+#: ../ekiga.schemas.in.in.h:92
+msgid "The audio codecs list"
+msgstr "ઓડિયો કોડેક યાદી"
+
+#: ../ekiga.schemas.in.in.h:93
+msgid "The busy tone sound"
+msgstr "વ્યસ્ત ટોનનો ધ્વનિ"
+
+#: ../ekiga.schemas.in.in.h:94
+msgid ""
+"The chosen sound will be played at the end of calls or calling somebody who "
+"is busy, if enabled"
+msgstr "પસંદિત ધ્વનિ કોલોના અંતે વગાડાશે અથવા જો સક્રિય હોય તો કોઈક કે જે વ્યસ્ત હોય તેને બોલાવશે"
+
+#: ../ekiga.schemas.in.in.h:95
+msgid "The chosen sound will be played on incoming calls, if enabled"
+msgstr "જો સક્રિય હોય તો, પસંદિત ધ્વનિ કોલો આવે ત્યારે વગાડાશે"
+
+#: ../ekiga.schemas.in.in.h:96
+msgid ""
+"The chosen sound will be played when a new instant message is received, if "
+"enabled"
+msgstr "જ્યારે નવો તુરંત સંદેશો મેળવાય ત્યારે પસંદ કરેલ ધ્વનિ વગાડવામાં આવશે, જો સક્રિય કરેલ હોય"
+
+#: ../ekiga.schemas.in.in.h:97
+msgid "The chosen sound will be played when a new voice mail is received, if enabled"
+msgstr "પસંદ કરેલ ધ્વનિ વગાડવામાં આવશે જ્યારે નવો અવાજ મેઈલ મેળવાય, જો સક્રિય કરેલ હોય"
+
+#: ../ekiga.schemas.in.in.h:98
+msgid "The chosen sound will be played when calling somebody, if enabled"
+msgstr "જો સક્રિય હોય તો, પસંદિત ધ્વનિ કોઈકને બોલાવવામાં આવે ત્યારે વગાડાશે"
+
+#: ../ekiga.schemas.in.in.h:99
+msgid "The default video view"
+msgstr "મૂળભૂત વિડિઓ દેખાવ"
+
+#: ../ekiga.schemas.in.in.h:100
+msgid ""
+"The default video view (0: Local, 1: Remote, 2: Both layered, 3: Both with "
+"local video in a separate window, 4: Both)"
+msgstr ""
+"મૂળભૂત વિડિઓ દેખાવ (૦: સ્થાનિક, ૧: દૂરનાં, ૨: બંને ભેગા, ૩: બંને સ્થાનિક વિડિયો સાથે "
+"પોતાની વિન્ડોમાં, ૪: બંને)"
+
+#: ../ekiga.schemas.in.in.h:101
+msgid "The dial tone sound"
+msgstr "ડાયલ ટોન ધ્વનિ"
+
+#: ../ekiga.schemas.in.in.h:102
+msgid "The history of the 100 last calls"
+msgstr "છેલ્લા ૧૦૦ કોલોનો ઈતિહાસ"
+
+#: ../ekiga.schemas.in.in.h:103 ../src/gui/preferences.cpp:676
+#: ../src/gui/preferences.cpp:730
+msgid "The host where calls should be forwarded if call forwarding is enabled"
+msgstr "યજમાન કે જ્યાં કોલો આગળ ધપાવવામાં આવે છે જો કોલ આગળ ધપાવવાનું સક્રિય કરેલ હોય"
+
+#: ../ekiga.schemas.in.in.h:104
+msgid "The incoming call sound"
+msgstr "આવેતા કોલનો ધ્વનિ"
+
+#: ../ekiga.schemas.in.in.h:105
+msgid "The list of accounts to which Ekiga should register"
+msgstr "ખાતાઓની યાદી કે જેમાંથી Ekiga રજીસ્ટર થવું જોઈએ"
+
+#: ../ekiga.schemas.in.in.h:106
+msgid "The long status information"
+msgstr "લાંબી સ્થિતી જાણકારી"
+
+#: ../ekiga.schemas.in.in.h:107
+msgid ""
+"The maximum RX video bitrate in kbit/s. This value will be signaled to the "
+"peer endpoint that can adjust (if it supports it) its TX bitrate if it is "
+"above the signaled value"
+msgstr ""
+"મહત્તમ RX વીડિયો બીટદર kbit/s માં. આ કિંમત સમકક્ષ અંત્યબિંદુને સંકેત કરવામાં આવશે કે જે તેનો "
+"TX બીટદર સંતુલિત કરી શકે (જો તે તેને આધાર આપે) જો તે સહી થયેલ મૂલ્ય કરતાં ઉપર હોય"
+
+#: ../ekiga.schemas.in.in.h:108
+msgid ""
+"The maximum TX video bitrate in kbit/s. The video quality and the number of "
+"transmitted frames per second (depends on selected codec) will be "
+"dynamically adjusted above their minimum during calls to try to minimize the "
+"bandwidth to the given value"
+msgstr ""
+"મહત્તમ TX વીડિયો બીટદર kbit/s માં. વીડિયો ગુણવત્તા અને સેકન્ડ પ્રતિ પરિવહન થયેલ "
+"ચોકઠાંઓની સંખ્યા (પસંદિત કોડેક પર આધારિત છે) બેન્ડવિડ્થને આપેલ કિંમત સુધી ન્યૂનતમ કરવાનો "
+"પ્રયાસ કરવા માટે કોલ દરમ્યાન વૈશ્વિકપણે સંતુલિત થશે"
+
+#: ../ekiga.schemas.in.in.h:109
+msgid "The maximum jitter buffer size for audio reception (in ms)"
+msgstr "ઓડિયો મેળવવા માટે જીટર બફરનુ મહત્તમ માપ (ms માં)"
+
+#: ../ekiga.schemas.in.in.h:110
+msgid ""
+"The maximum transmitted frame rate in frames/s. This rate may not be reached "
+"in case a minimum quality was configure via a TSTO value smaller than 31 and "
+"the bitrate selected is not sufficient to support this minimum quality"
+msgstr ""
+"મહત્તમ પરિવહન થયેલ ચોકઠાં દર frames/s માં. આ દર પહોંચી શકાશે નહિં જો TSTO મારફતે "
+"રૂપરેખાંકિત થયેલ ન્યૂનતમ ગુણવત્તા ૩૧ કરતાં નાની હોય અને પસંદ થયેલ બીટદર આ ન્યૂનતમ ગુણવત્તાને "
+"આધાર આપવા માટે પૂરતો નહિં હોય"
+
+#: ../ekiga.schemas.in.in.h:111
+msgid "The new instant message sound"
+msgstr "નવો તુરંત સંદેશા ધ્વનિ"
+
+#: ../ekiga.schemas.in.in.h:112
+msgid "The new voice mail sound"
+msgstr "નવો અવાજ મેઈલ ધ્વનિ"
+
+#: ../ekiga.schemas.in.in.h:113
+msgid ""
+"The port to listen to for incoming connections. Ekiga needs to be restarted "
+"for the new value to take effect"
+msgstr ""
+"આવતા જોડાણો માટે સાંભળવાનો પોર્ટ. Ekigaને નવી કિંમત અસરમાં લાવવા માટે પુનઃશરૂ કરવાની "
+"જરૂર છે"
+
+#: ../ekiga.schemas.in.in.h:114
+msgid ""
+"The port to listen to for incoming connections. Ekiga needs to be restarted "
+"for the new value to take effect."
+msgstr ""
+"આવતા જોડાણો માટે સાંભળવાનો પોર્ટ. Ekigaને નવી કિંમત અસરમાં લાવવા માટે પુનઃશરૂ કરવાની "
+"જરૂર છે."
+
+#: ../ekiga.schemas.in.in.h:115
+msgid "The position of the local video window"
+msgstr "સ્થાનિક વિડિઓ વિન્ડોની સ્થિતિ"
+
+#: ../ekiga.schemas.in.in.h:116
+msgid "The position of the remote video window"
+msgstr "દૂરસ્થ વિડિઓ વિન્ડોની સ્થિતિ"
+
+#: ../ekiga.schemas.in.in.h:117
+msgid ""
+"The range of TCP ports that Ekiga will use for the H.323 H.245 channel. This "
+"port range has no effect if both participants to the conference are using "
+"H.245 Tunneling."
+msgstr ""
+"TCP પોર્ટોનો વિસ્તાર કે જેનો Ekiga એ H.323 H.245 ચેનલ માટે ઉપયોગ કરશે. આ પોર્ટ "
+"વિસ્તારની કોઈ અસર થતી નથી જો કોન્ફરન્સના બંને સ્પર્ધકો H.245 ટનલીંગ વાપરી રહ્યા હોય."
+
+#: ../ekiga.schemas.in.in.h:118
+msgid "The range of UDP ports that Ekiga will use."
+msgstr "UDP પોર્ટોનો વિસ્તાર કે જે Ekiga વાપરશે."
+
+#: ../ekiga.schemas.in.in.h:119
+msgid "The short status information"
+msgstr "ટૂંકી સ્થિતી જાણકારી"
+
+#: ../ekiga.schemas.in.in.h:120
+msgid "The size of the local video window"
+msgstr "સ્થાનિક વિડિઓ વિન્ડોનું માપ"
+
+#: ../ekiga.schemas.in.in.h:121
+msgid "The size of the remote video window"
+msgstr "દૂરસ્થ વિડિઓ વિન્ડોનુ માપ"
+
+#: ../ekiga.schemas.in.in.h:122
+msgid ""
+"The sound that will be played at the end of calls or when calling somebody "
+"who is busy, if enabled"
+msgstr ""
+"જો સક્રિય હોય તો, કોલોને અંતે અથવા જ્યારે કોઈકને બોલાવવામાં આવે ત્યારે ધ્વનિ વગાડવામાં આવે "
+"છે"
+
+#: ../ekiga.schemas.in.in.h:123
+msgid "The sound that will be played on incoming calls, if enabled"
+msgstr "જો સક્રિય હોય તો, કોલો આવે ત્યારે ધ્વનિ વગાડવામાં આવે છે"
+
+#: ../ekiga.schemas.in.in.h:124
+msgid "The sound that will be played when calling somebody, if enabled"
+msgstr "જો સક્રિય હોય તો, જ્યારે કોઈકને બોલાવવામાં આવે ત્યારે ધ્વનિ વગાડવામાં આવે છે"
+
+#: ../ekiga.schemas.in.in.h:125
+msgid "The sound that will be played when there is a new instant message, if enabled"
+msgstr "ધ્વનિ કે જે વગાડવામાં આવશે જ્યારે ત્યાં નવો તુરંત સંદેશો હોય, જો સક્રિય કરેલ હોય"
+
+#: ../ekiga.schemas.in.in.h:126
+msgid "The sound that will be played when there is a new voice mail, if enabled"
+msgstr "ધ્વનિ કે જે વગાડવામાં આવશે કે જ્યારે ત્યાં નવો અવાજ મેઈલ હોય, જો સક્રિય કરેલ હોય"
+
+#: ../ekiga.schemas.in.in.h:127 ../src/gui/preferences.cpp:932
+msgid "The video channel number to use (to select camera, tv or other sources)"
+msgstr "વાપરવા માટેના વિડિઓ માધ્યમનો ક્રમ (કેમેરા, ટીવી અથવા બીજા સ્રોતો પસંદ કરવા માટે)"
+
+#: ../ekiga.schemas.in.in.h:128
+msgid "The video codecs list"
+msgstr "વિડિઓ કોડેક યાદી"
+
+#: ../ekiga.schemas.in.in.h:129
+msgid "The video view before having switched to fullscreen"
+msgstr "પૂર્ણ સ્ક્રીનમાં બદલવા પહેલાંનો વીડિયો દેખાવ"
+
+#: ../ekiga.schemas.in.in.h:130
+msgid ""
+"The video view before having switched to fullscreen (same values as "
+"video_view)"
+msgstr "પૂર્ણ સ્ક્રીનમાં બદલવા પહેલાંનો વીડિયો દેખાવ (વીડિયો દેખાવ જેવી જ કિંમતો)"
+
+#: ../ekiga.schemas.in.in.h:131
+msgid "The zoom value"
+msgstr "નાનુમોટુ કરવાની કિંમત"
+
+#: ../ekiga.schemas.in.in.h:132
+msgid ""
+"The zoom value in percent to apply to images displayed in the main GUI (can "
+"be 50, 100, or 200)"
+msgstr ""
+"મુખ્ય GUI માં દેખાડવા માટેના ચિત્રો પર અમલમાં મૂકવાની નાનુમોટુ કરવાની કિંમત (૫૦, ૧૦૦ "
+"અથવા ૨૦૦ હોઇ શકે)"
+
+#: ../ekiga.schemas.in.in.h:133
+msgid ""
+"This allows you to set the mode for sending DTMFs. The values can be "
+"\"RFC2833\" (0), \"INFO\" (1)"
+msgstr ""
+"આ તમને DTMFs મોકલવા માટે સ્થિતિ સુયોજીત કરવા માટે પરવાનગી આપે છે. \"RFC2833\" (0), "
+"\"INFO\" (1) કિંમતો હોઈ શકે"
+
+#: ../ekiga.schemas.in.in.h:134
+msgid ""
+"This allows you to set the mode for sending DTMFs. The values can be \"String"
+"\" (0), \"Tone\" (1), \"RFC2833\" (2), \"Q.931\" (3) (default is \"String"
+"\"). Choosing other values than \"String\" disables the Text Chat"
+msgstr ""
+"આ તમને DTMF મોકલવાની સ્થિતિ સુયોજીત કરવા માટે પરવાનગી આપે છે. \"શબ્દમાળા\" (0), "
+"\"ટોન\" (1), \"RFC2833\" (2), \"Q.931\" (3) (\"શબ્દમાળા\" એ મૂળભૂત છે) કિંમતો હોઈ "
+"શકે. \"શબ્દમાળા\" સિવાયની અન્ય કિંમતો પસંદ કરવાનું લખાણ સંવાદ નિષ્ક્રિય કરે છે"
+
+#: ../ekiga.schemas.in.in.h:135 ../src/gui/preferences.cpp:688
+msgid ""
+"This enables H.245 Tunneling mode. In H.245 Tunneling mode H.245 messages "
+"are encapsulated into the H.225 channel (port 1720). This saves one TCP "
+"connection during calls. H.245 Tunneling was introduced in H.323v2 and "
+"Netmeeting does not support it. Using both Fast Start and H.245 Tunneling "
+"can crash some versions of Netmeeting."
+msgstr ""
+"આ H.245 ટનલીંગ સ્થિતિને સક્રિય કરે છે. H.245 ટનલીંગ સ્થિતિમાં H.245 સંદેશાઓ H.225 ચેનલ "
+"(પોર્ટ 1720) માં એકઠા થયેલ હોય છે. આ કોલ દરમ્યાન એક TCP જોડાણનો સંગ્રહ કરે છે. H.245 "
+"ટનલીંગ H.323v2 માં પરિચયમાં આવ્યું હતું અને Netmeeting તેને આધાર આપતું નથી. ઝડપી શરૂઆત અને "
+"H.245 ટનલીંગ બંને વાપરવાનું Netmeeting ની અમુક આવૃત્તિઓને ભાંગી શકે છે."
+
+#: ../ekiga.schemas.in.in.h:136 ../src/gui/preferences.cpp:690
+msgid "This enables H.245 early in the setup"
+msgstr "આ H.245 ને સુયોજનામા સક્રિય કરે છે"
+
+#: ../ekiga.schemas.in.in.h:137
+msgid ""
+"This key disables DirectX (on win32) and XVideo (on Linux) video hardware "
+"acceleration"
+msgstr "આ કી DirectX (win32 પર) અને XVideo (Linux પર) વિડીઓ હાર્ડવેર પ્રવેગને નિષ્ક્રિય કરે છે"
+
+#: ../ekiga.schemas.in.in.h:138
+msgid "UDP port range"
+msgstr "UDP પોર્ટ વિસ્તાર"
+
+#: ../ekiga.schemas.in.in.h:139
+msgid "Video channel"
+msgstr "વિડિઓ માધ્યમ"
+
+#: ../ekiga.schemas.in.in.h:140
+msgid "Video format"
+msgstr "વિડિઓ બંધારણ"
+
+#: ../ekiga.schemas.in.in.h:141 ../src/gui/assistant.cpp:1144
+msgid "Video input device"
+msgstr "વિડિઓ ઈનપુટ ઉપકરણ"
+
+#: ../ekiga.schemas.in.in.h:142
+msgid "Video preview"
+msgstr "વિડિઓ પૂર્વદર્શન"
+
+#: ../ekiga.schemas.in.in.h:143
+msgid "Video size"
+msgstr "વિડિઓ માપ"
+
+#: ../ekiga.schemas.in.in.h:144
+msgid ""
+"Whether to prefer to sustain the max. frame rate or lower it possibly in "
+"order to keep a minimum level of (spatial) quality for all frames. 0: "
+"Highest minimal quality, 31: lowest minimal quality"
+msgstr ""
+"શું મહત્તમ ચોકઠાં દર જાળવવાને પ્રાધાન્ય આપવું કે પછી તેને બધા ચોકઠાંઓ માટે ગુણવત્તાના ન્યૂનતમ "
+"સ્તરે જાળવવાનું ધ્યાન રાખવું. ૦: ઉચ્ચતમ ઓછામાં ઓછી ગુણવત્તા, ૩૧: ન્યૂનતમ ઓછામાં ઓછી ગુણવત્તા"
+
+# #-#-#-#-#  gnome-control-center.HEAD.hi.po (control center)  #-#-#-#-#
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+# #-#-#-#-#  gnumeric.HEAD.hi.po (gnumeric HEAD)  #-#-#-#-#
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui-2.0.hi)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+#: ../lib/engine/addressbook/contact-core.cpp:60
+msgid "_Find"
+msgstr "શોધો (_F)"
+
+#: ../lib/engine/components/avahi/avahi-heap.cpp:125
+#: ../lib/engine/components/avahi/avahi-heap.cpp:319
+msgid "Neighbours"
+msgstr "પાડોશીઓ"
+
+#: ../lib/engine/components/call-history/history-book.cpp:137
+#: ../lib/engine/gui/gtk-frontend/call-history-view-gtk.cpp:162
+msgid "Clear List"
+msgstr "યાદી સાફ કરો"
+
+#: ../lib/engine/components/call-history/history-contact.cpp:155
+msgid "Received"
+msgstr "મેળવેલ છે"
+
+#: ../lib/engine/components/call-history/history-contact.cpp:158
+msgid "Placed"
+msgstr "જગ્યા થયેલ છે"
+
+#: ../lib/engine/components/call-history/history-contact.cpp:161
+msgid "Missed"
+msgstr "ચૂકી ગયેલ છે"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:76
+#: ../lib/engine/components/ldap/ldap-book.cpp:897
+#, c-format
+msgid "%d user found"
+msgid_plural "%d users found"
+msgstr[0] "%d વપરાશકર્તા મળ્યો નહીં"
+msgstr[1] "%d વપરાશકર્તાઓ મળ્યો નહીં"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:281
+msgid "New _Contact"
+msgstr "નવો સંપર્ક (_C)"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:317
+#: ../lib/engine/components/local-roster/local-cluster.cpp:82
+#: ../lib/engine/components/local-roster/local-heap.cpp:117
+msgid "New contact"
+msgstr "નવો સંપર્ક"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:319
+#: ../lib/engine/components/evolution/evolution-contact.cpp:327
+#: ../lib/engine/components/opal/opal-account.cpp:365
+msgid "Please update the following fields:"
+msgstr "મહેરબાની કરીને નીચેના ક્ષેત્રોમાં સુધારો:"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:321
+msgid "_Name:"
+msgstr "નામ (_N):"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:322
+#: ../lib/engine/components/evolution/evolution-contact.cpp:338
+msgid "VoIP _URI:"
+msgstr "VoIP URL (_U):"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:323
+#: ../lib/engine/components/evolution/evolution-contact.cpp:339
+msgid "_Home phone:"
+msgstr "ઘરનો ફોન (_H):"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:324
+#: ../lib/engine/components/evolution/evolution-contact.cpp:340
+msgid "_Office phone:"
+msgstr "ઓફિસ નો ફોન (_O):"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:325
+#: ../lib/engine/components/evolution/evolution-contact.cpp:341
+msgid "_Cell phone:"
+msgstr "સેલ ફોન (_C):"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:326
+#: ../lib/engine/components/evolution/evolution-contact.cpp:342
+msgid "_Pager:"
+msgstr "પેજર (_P):"
+
+# #-#-#-#-#  gnome-control-center.HEAD.hi.po (control center)  #-#-#-#-#
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:303
+# gnome-session/session-properties-capplet.c:376
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:84 libgnomeui/gnome-app-helper.h:516
+# #-#-#-#-#  gnome-session.HEAD.hi.po (gnome-session 2.4)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:303
+# gnome-session/session-properties-capplet.c:376
+# #-#-#-#-#  gnumeric.HEAD.hi.po (gnumeric HEAD)  #-#-#-#-#
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (PACKAGE VERSION)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:84 libgnomeui/gnome-app-helper.h:516
+# #-#-#-#-#  gnome-session.HEAD.hi.po (gnome-session VERSION)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:303
+# gnome-session/session-properties-capplet.c:376
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:84 libgnomeui/gnome-app-helper.h:516
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui-2.0.hi)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:84 libgnomeui/gnome-app-helper.h:516
+#: ../lib/engine/components/evolution/evolution-contact.cpp:234
+#: ../lib/engine/components/local-roster/local-presentity.cpp:199
+#: ../lib/engine/components/opal/opal-account.cpp:322
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:204
+#: ../src/gui/main.cpp:3183
+msgid "_Edit"
+msgstr "ફેરફાર (_E)"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:236
+#: ../lib/engine/components/local-roster/local-presentity.cpp:201
+#: ../lib/engine/components/opal/opal-account.cpp:324
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:206
+msgid "_Remove"
+msgstr "દૂર કરો (_R)"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:325
+msgid "Edit contact"
+msgstr "સંપર્ક માં ફેરફાર કરો"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:329
+#: ../lib/engine/components/local-roster/local-presentity.cpp:226
+#: ../lib/engine/components/local-roster/local-heap.cpp:229
+#: ../lib/engine/components/local-roster/local-heap.cpp:433
+#: ../lib/engine/components/opal/opal-account.cpp:367
+#: ../lib/engine/components/opal/opal-bank.cpp:122
+#: ../lib/engine/components/opal/opal-bank.cpp:132
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:169
+#: ../lib/engine/components/resource-list/rl-heap.cpp:535
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:225
+msgid "Name:"
+msgstr "નામ:"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:386
+msgid "Remove contact"
+msgstr "સંપર્કને દૂર કરો"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:388
+#, c-format
+msgid "Are you sure you want to remove %s from the addressbook?"
+msgstr "શું તમે ખરેખર સરનામાં પુસ્તિકા માંથી %s ને દૂર કરવા માંગો છો?"
+
+#: ../lib/engine/components/gstreamer/gst-audioinput.cpp:270
+msgid "Audio test"
+msgstr "ઓડિયો ચકાસણી"
+
+#: ../lib/engine/components/gstreamer/gst-audiooutput.cpp:320
+msgid "Silent"
+msgstr "શાંત"
+
+#: ../lib/engine/components/gstreamer/gst-videoinput.cpp:226
+msgid "Video test"
+msgstr "વિડિઓ ચકાસણી"
+
+#. Translators: "Screencast" means the video input device will be your screen -- the other end will see your desktop
+#: ../lib/engine/components/gstreamer/gst-videoinput.cpp:378
+#: ../lib/engine/components/gstreamer/gst-videoinput.cpp:383
+msgid "Crazy"
+msgstr "ઉત્તેજિત"
+
+#: ../lib/engine/components/gstreamer/gst-videoinput.cpp:383
+msgid "Screencast"
+msgstr "સ્ક્રીનકાસ્ટ"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:411
+#: ../lib/engine/components/resource-list/rl-entry.cpp:144
+#: ../lib/engine/components/resource-list/rl-entry-ref.cpp:132
+msgid "_Refresh"
+msgstr "તાજુ કરો (_R)"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:414
+msgid "_Remove addressbook"
+msgstr "સરનામાંપોથી ને દૂર કરો (_R)"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:416
+msgid "Addressbook _properties"
+msgstr "સરનામાપુસ્તિકા ગુણધર્મો (_p)"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:541
+msgid "LDAP SASL Interaction"
+msgstr "LDAP SASL અરસપરસ"
+
+#. Translators, Howard explained : "Challenge" is a generic term
+#. * in authentication. It's a prompt from the authentication mechanism
+#. * for some type of credential. Exactly what kind of challenge and
+#. * what kind of credential depends on the specific authentication
+#. * mechanism. Since SASL is a generic interface, and can dynamically
+#. * load arbitrary mechanisms, there's not much more specific you can
+#. * say about it. You might google for "challenge response
+#. * authentication" if you'd like more background context.
+#.
+#: ../lib/engine/components/ldap/ldap-book.cpp:583
+msgid "Challenge: "
+msgstr "પડકાર: "
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:591
+msgid "Interact"
+msgstr "અરસપરસ"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:660
+msgid "Refreshing"
+msgstr "તાજુ કરી રહ્યા છે"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:666
+msgid "Could not initialize server"
+msgstr "સર્વરને શરૂ કરી શકાતુ નથી"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:680
+#: ../lib/engine/components/ldap/ldap-book.cpp:725
+msgid "LDAP Error: "
+msgstr "LDAP ભૂલ: "
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:734
+msgid "Contacted server"
+msgstr "સંપર્ક થયેલ સર્વર"
+
+#. patience == 0
+#: ../lib/engine/components/ldap/ldap-book.cpp:773
+msgid "Could not connect to server"
+msgstr "સર્વરનો સંપર્ક કરી શકાતો નથી"
+
+#. patience == 0
+#: ../lib/engine/components/ldap/ldap-book.cpp:821
+#: ../lib/engine/components/ldap/ldap-book.cpp:870
+msgid "Could not search"
+msgstr "શોધી શકાતુ નથી"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:829
+msgid "Waiting for search results"
+msgstr "શોધ પરિણામો માટે રાહ જોઇ રહ્યા છે"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:919
+msgid "Please edit the following fields"
+msgstr "મહેરબાની કરીને નીચેના ક્ષેત્રોમાં ફેરફાર કરો"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:921
+msgid "Book _Name"
+msgstr "ચોપડીનું નામ (_N)"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:922
+msgid "Server _URI"
+msgstr "સર્વર URI (_U)"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:923
+msgid "_Base DN"
+msgstr "આધાર DN (_B)"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:929
+msgid "Subtree"
+msgstr "ઉપટ્રી"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:930
+msgid "Single Level"
+msgstr "એક સ્તર"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:931
+msgid "_Search Scope"
+msgstr "અવકાશ શોધો (_S)"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:940
+msgid "_DisplayName Attribute"
+msgstr "દર્શાવનામ ગુણધર્મ (_D)"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:941
+msgid "Call _Attributes"
+msgstr "કોલ લક્ષણો (_A)"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:943
+#: ../lib/engine/components/ldap/ldap-book.cpp:945
+msgid "_Filter Template"
+msgstr "ગાળક ટેમ્પલેટ (_F)"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:947
+msgid "Bind _ID"
+msgstr "બાઈન્ડ _ID"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:948
+msgid "_Password"
+msgstr "પાસવર્ડ (_P)"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:949
+msgid "Use TLS"
+msgstr "TLS ને વાપરો"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:950
+msgid "Use SASL"
+msgstr "SASL ને વાપરો"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:964
+msgid "SASL _Mechanism"
+msgstr "SASL પદ્દતિ (_M)"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:974
+msgid "Edit LDAP directory"
+msgstr "LDAP ડિરેક્ટરીમાં ફેરફાર કરો"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:1003
+msgid "Please provide a Book Name for this directory\n"
+msgstr "મહેરબાની કરીને આ ડિરેક્ટરી માટે ચોપડીનું નામ પૂરુ પાડો\n"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:1006
+msgid "Please provide a Server URI\n"
+msgstr "મહેરબાની કરીને સર્વર URI પૂરુ પાડો\n"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:1009
+msgid "Please provide a DisplayName Attribute\n"
+msgstr "મહેરબાની કરીને દર્શાવનામ ગુણધર્મ ને પૂરુ પાડો\n"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:1012
+msgid "Please provide a Call Attribute\n"
+msgstr "મહેરબાની કરીને કોલ ગુણધર્મ પૂરુ પાડો\n"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:1015
+msgid "Invalid Server URI\n"
+msgstr "અયોગ્ય સર્વર URI\n"
+
+#: ../lib/engine/components/ldap/ldap-source.cpp:130
+msgid "Add an LDAP Address Book"
+msgstr "LDAP સરનામાપુસ્તિકા ને ઉમેરો"
+
+#: ../lib/engine/components/ldap/ldap-source.cpp:132
+msgid "Add the Ekiga.net Directory"
+msgstr "Ekiga.net ડિરેક્ટરીને ઉમેરો"
+
+#: ../lib/engine/components/ldap/ldap-source.cpp:152
+msgid "Create LDAP directory"
+msgstr "LDAP ડિરેક્ટરીને બનાવો"
+
+#: ../lib/engine/components/ldap/ldap-source.cpp:167
+msgid "Ekiga.net Directory"
+msgstr "Ekiga.net ડિરેક્ટરી"
+
+#: ../lib/engine/components/local-roster/local-presentity.cpp:223
+msgid "Edit roster element"
+msgstr "રોસ્ટર ઘટકમાં ફેરફાર કરો"
+
+#: ../lib/engine/components/local-roster/local-presentity.cpp:224
+msgid ""
+"Please fill in this form to change an existing element of ekiga's internal "
+"roster"
+msgstr "ekiga નું આંતરિક રોસ્ટરનાં હાલનાં ઘટકને બદલવા માટે મહેરબાની કરીને આ ફોર્મને ભરો"
+
+#: ../lib/engine/components/local-roster/local-presentity.cpp:227
+#: ../lib/engine/components/local-roster/local-heap.cpp:238
+#: ../lib/engine/components/local-roster/local-heap.cpp:240
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:170
+#: ../lib/engine/components/resource-list/rl-heap.cpp:536
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:226
+msgid "Address:"
+msgstr "સરનામું:"
+
+#: ../lib/engine/components/local-roster/local-presentity.cpp:229
+#: ../lib/engine/components/resource-list/rl-heap.cpp:537
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:228
+msgid "Choose groups:"
+msgstr "જૂથો પસંદ કરો:"
+
+#: ../lib/engine/components/local-roster/local-roster-bridge.cpp:93
+#: ../lib/engine/components/local-roster/local-heap.cpp:226
+msgid "Add to local roster"
+msgstr "સ્થાનીય રોસ્ટર ને ઉમેરો"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:94
+msgid "Services"
+msgstr "સેવાઓ"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:95
+msgid "Echo test"
+msgstr "પડઘાની ચકાસણી"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:96
+msgid "Conference room"
+msgstr "પરિષદ રુમ"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:110
+msgid "Local roster"
+msgstr "સ્થાનીય રોસ્ટર"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:127
+msgid "Rename"
+msgstr "નામને બદલો"
+
+# #-#-#-#-#  gnome-control-center.HEAD.hi.po (control center)  #-#-#-#-#
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+# #-#-#-#-#  gnumeric.HEAD.hi.po (gnumeric HEAD)  #-#-#-#-#
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui-2.0.hi)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+#: ../lib/engine/components/local-roster/local-heap.cpp:190
+msgid "Family"
+msgstr "પરિવાર"
+
+# #-#-#-#-#  gnome-control-center.HEAD.hi.po (control center)  #-#-#-#-#
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+# #-#-#-#-#  gnumeric.HEAD.hi.po (gnumeric HEAD)  #-#-#-#-#
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui-2.0.hi)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+#: ../lib/engine/components/local-roster/local-heap.cpp:191
+msgid "Friend"
+msgstr "મિત્ર"
+
+#. Translator: http://www.ietf.org/rfc/rfc4480.txt proposes several
+#. relationships between you and your contact; associate means
+#. someone who is at the same "level" than you.
+#.
+#: ../lib/engine/components/local-roster/local-heap.cpp:196
+msgid "Associate"
+msgstr "સંકળાયેલુ"
+
+#. Translator: http://www.ietf.org/rfc/rfc4480.txt proposes several
+#. relationships between you and your contact; assistant means
+#. someone who is at a lower "level" than you.
+#.
+#: ../lib/engine/components/local-roster/local-heap.cpp:201
+msgid "Assistant"
+msgstr "સહાયક"
+
+#. Translator: http://www.ietf.org/rfc/rfc4480.txt proposes several
+#. relationships between you and your contact; supervisor means
+#. someone who is at a higher "level" than you.
+#.
+#: ../lib/engine/components/local-roster/local-heap.cpp:206
+msgid "Supervisor"
+msgstr "અધ્યક્ષ"
+
+#. Translator: http://www.ietf.org/rfc/rfc4480.txt proposes several
+#. relationships between you and your contact; self means yourself.
+#.
+#: ../lib/engine/components/local-roster/local-heap.cpp:210
+msgid "Self"
+msgstr "પોતે"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:227
+msgid "Please fill in this form to add a new contact to ekiga's internal roster"
+msgstr "ekiga ના આંતરિક રોસ્ટરમાં નવો સંપર્ક ઉમેરવા માટે મહેરબાની કરીને આ ફોર્મ ભરો"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:244
+msgid "Put contact in groups:"
+msgstr "જૂથોમાં સંપર્કને મૂકો:"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:411
+msgid "You supplied an unsupported address"
+msgstr "તમે બિનઆધારિત સરનામાંને પૂરુ પાડેલ છે"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:413
+msgid "You already have a contact with this address!"
+msgstr "આ સરનામાં સાથે તમારી પાસે પહેલેથી જ સંપર્ક છે!"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:431
+msgid "Rename group"
+msgstr "જૂથના નામને ફરીથી બદલો"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:432
+msgid "Please edit this group name"
+msgstr "મહેરબાની કરીને આ જૂથ નામને બદલો"
+
+#: ../lib/engine/components/opal/h323-endpoint.cpp:131
+#: ../lib/engine/components/opal/sip-endpoint.cpp:234
+#: ../lib/engine/components/opal/sip-endpoint.cpp:238
+msgid "Call"
+msgstr "કોલ"
+
+#: ../lib/engine/components/opal/h323-endpoint.cpp:134
+#: ../lib/engine/components/opal/sip-endpoint.cpp:235
+#: ../lib/engine/components/opal/sip-endpoint.cpp:239 ../src/gui/main.cpp:2957
+msgid "Transfer"
+msgstr "મોકલો"
+
+#. Translators : The alias we are registering already exists : failure
+#: ../lib/engine/components/opal/h323-endpoint.cpp:309
+msgid "Duplicate alias"
+msgstr "નકલી ઉપનામ"
+
+#: ../lib/engine/components/opal/h323-endpoint.cpp:312
+msgid "Bad username/password"
+msgstr "ખરાબ વપરાશકર્તા નામ/પાસવર્ડ "
+
+#: ../lib/engine/components/opal/h323-endpoint.cpp:315
+#: ../lib/engine/components/opal/sip-endpoint.cpp:822
+msgid "Transport error"
+msgstr "પરિવહન ભૂલ"
+
+# #-#-#-#-#  gnome-control-center.HEAD.hi.po (control center)  #-#-#-#-#
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+# #-#-#-#-#  gnumeric.HEAD.hi.po (gnumeric HEAD)  #-#-#-#-#
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui-2.0.hi)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+#: ../lib/engine/components/opal/h323-endpoint.cpp:326
+#: ../lib/engine/components/opal/h323-endpoint.cpp:331
+#: ../lib/engine/components/opal/sip-endpoint.cpp:829
+msgid "Failed"
+msgstr "નિષ્ફળતા"
+
+#: ../lib/engine/components/opal/opal-account.cpp:314
+msgid "_Disable"
+msgstr "નિષ્ક્રિય (_D)"
+
+#: ../lib/engine/components/opal/opal-account.cpp:317
+msgid "_Enable"
+msgstr "સક્રિય (_E)"
+
+#: ../lib/engine/components/opal/opal-account.cpp:338
+#: ../src/gui/assistant.cpp:716
+msgid "Recharge the account"
+msgstr "ખાતું પાછું ચાર્જ કરાવો"
+
+#: ../lib/engine/components/opal/opal-account.cpp:343
+#: ../src/gui/assistant.cpp:728
+msgid "Consult the balance history"
+msgstr "શેષ ઈતિહાસની પૂછપરછ કરો"
+
+#: ../lib/engine/components/opal/opal-account.cpp:348
+msgid "Consult the call history"
+msgstr "કોલના ઈતિહાસની પૂછપરછ કરો"
+
+#: ../lib/engine/components/opal/opal-account.cpp:363
+#: ../lib/engine/components/opal/opal-bank.cpp:95
+msgid "Edit account"
+msgstr "ખાતામાં ફેરફાર કરો"
+
+#: ../lib/engine/components/opal/opal-account.cpp:369
+#: ../lib/engine/components/opal/opal-bank.cpp:133
+msgid "Registrar:"
+msgstr "રજીસ્ટ્રાર:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:371
+#: ../lib/engine/components/opal/opal-bank.cpp:123
+msgid "Gatekeeper:"
+msgstr "દરવાન:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:372
+#: ../lib/engine/components/opal/opal-bank.cpp:104
+#: ../lib/engine/components/opal/opal-bank.cpp:124
+#: ../lib/engine/components/opal/opal-bank.cpp:134
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:174
+msgid "User:"
+msgstr "વપરાશકર્તા:"
+
+#. Translators:
+#. * SIP knows two usernames: The name for the client ("User") and the name
+#. * for the authentication procedure ("Authentication User")
+#: ../lib/engine/components/opal/opal-account.cpp:377
+#: ../lib/engine/components/opal/opal-bank.cpp:135
+msgid "Authentication User:"
+msgstr "સત્તાધિકરણ વપરાશકર્તા:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:378
+#: ../lib/engine/components/opal/opal-bank.cpp:106
+#: ../lib/engine/components/opal/opal-bank.cpp:126
+#: ../lib/engine/components/opal/opal-bank.cpp:136
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:173
+msgid "Password:"
+msgstr "પાસવર્ડ:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:379
+#: ../lib/engine/components/opal/opal-bank.cpp:127
+#: ../lib/engine/components/opal/opal-bank.cpp:137
+msgid "Timeout:"
+msgstr "સમયસમાપ્તિ:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:380
+#: ../lib/engine/components/opal/opal-bank.cpp:140
+msgid "Enable Account"
+msgstr "ખાતાને સક્રિય કરો"
+
+#: ../lib/engine/components/opal/opal-account.cpp:413
+#: ../lib/engine/components/opal/opal-bank.cpp:179
+msgid "You did not supply a name for that account."
+msgstr "પેલા ખાતા માટે તમે નામને આપતા નથી."
+
+#: ../lib/engine/components/opal/opal-account.cpp:415
+#: ../lib/engine/components/opal/opal-bank.cpp:181
+msgid "You did not supply a host to register to."
+msgstr "રજીસ્ટર કરવા માટે તમે યજમાનને આપતા નથી."
+
+#: ../lib/engine/components/opal/opal-account.cpp:417
+#: ../lib/engine/components/opal/opal-bank.cpp:183
+msgid "You did not supply a user name for that account."
+msgstr "પેલા ખાતા માટે તમે વપરાશકર્તા નામ ને આપતા નથી."
+
+#: ../lib/engine/components/opal/opal-account.cpp:419
+#: ../lib/engine/components/opal/opal-bank.cpp:185
+msgid "The timeout should have a bigger value."
+msgstr "સમયસમાપ્તિ એ સૌથી મોટી કિંમત હોવા જોઇએ."
+
+#: ../lib/engine/components/opal/opal-bank.cpp:75
+msgid "_Add an Ekiga.net Account"
+msgstr "Ekiga.net ખાતાને ઉમેરો (_A)"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:77
+msgid "_Add an Ekiga Call Out Account"
+msgstr "Ekiga કોલ આઉટ ખાતા ને ઉમેરો"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:79
+msgid "_Add a SIP Account"
+msgstr "SIP ખાતાને ઉમેરો (_A)"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:81
+msgid "_Add an H.323 Account"
+msgstr "H.323 ખાતાને ઉમેરો (_A)"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:96
+msgid "Please update the following fields."
+msgstr "નીચેના ક્ષેત્રો મહેરબાની કરીને સુધારો."
+
+#: ../lib/engine/components/opal/opal-bank.cpp:101
+#: ../src/gui/assistant.cpp:596
+msgid "Get an Ekiga.net SIP account"
+msgstr "Ekiga.net SIP ખાતાને મેળવો"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:111
+#: ../src/gui/assistant.cpp:704
+msgid "Get an Ekiga Call Out account"
+msgstr "Ekiga કોલ આઉટ ખાતાને ઉમેરો"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:115 ../src/gui/main.cpp:2711
+#: ../src/gui/main.cpp:2806
+msgid "Account ID:"
+msgstr "ખાતા ID:"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:117
+msgid "PIN Code:"
+msgstr "PIN કોડ:"
+
+#: ../lib/engine/components/opal/opal-call.cpp:405
+msgid "Local user cleared the call"
+msgstr "સ્થાનિક વપરાશકર્તાએ કોલ દૂર કર્યો"
+
+#: ../lib/engine/components/opal/opal-call.cpp:408
+#: ../lib/engine/components/opal/opal-call.cpp:411
+msgid "Local user rejected the call"
+msgstr "સ્થાનિક વપરાશકર્તાએ કોલ અવગણ્યો"
+
+#: ../lib/engine/components/opal/opal-call.cpp:414
+msgid "Remote user cleared the call"
+msgstr "દૂરના વપરાશકર્તાએ કોલ દૂર કર્યો"
+
+#: ../lib/engine/components/opal/opal-call.cpp:417
+msgid "Remote user rejected the call"
+msgstr "દૂરસ્થ વપરાશકર્તાએ કોલ અવગણ્યો"
+
+#: ../lib/engine/components/opal/opal-call.cpp:420
+msgid "Remote user has stopped calling"
+msgstr "દૂરનો વપરાશકર્તા કોલ કરવાનું બંધ કરી રહ્યો છે"
+
+#: ../lib/engine/components/opal/opal-call.cpp:423
+msgid "Abnormal call termination"
+msgstr "કોલનો અસામાન્ય અંત"
+
+#: ../lib/engine/components/opal/opal-call.cpp:426 ../src/gui/main.cpp:1501
+msgid "Could not connect to remote host"
+msgstr "દૂરના યજમાન સાથે જોડાણ થઇ શકતું નથી"
+
+#: ../lib/engine/components/opal/opal-call.cpp:429
+msgid "The Gatekeeper cleared the call"
+msgstr "દરવાને કોલ દૂર દૂર કર્યો"
+
+#: ../lib/engine/components/opal/opal-call.cpp:432
+msgid "User not found"
+msgstr "વપરાશકર્તા મળ્યો નહીં"
+
+#: ../lib/engine/components/opal/opal-call.cpp:435
+msgid "Insufficient bandwidth"
+msgstr "અપૂરતી બેન્ડવિડ્થ"
+
+#: ../lib/engine/components/opal/opal-call.cpp:438
+msgid "No common codec"
+msgstr "સામાન્ય કોડેક નહીં"
+
+#: ../lib/engine/components/opal/opal-call.cpp:441
+msgid "Call forwarded"
+msgstr "કોલ આગળ મોકલાયેલ છે"
+
+#: ../lib/engine/components/opal/opal-call.cpp:444
+msgid "Security check failed"
+msgstr "સુરક્ષા ચકાસણી નિષ્ફળ"
+
+#: ../lib/engine/components/opal/opal-call.cpp:447
+msgid "Local user is busy"
+msgstr "સ્થાનિક વપરાશકર્તા વ્યસ્ત છે"
+
+#: ../lib/engine/components/opal/opal-call.cpp:450
+#: ../lib/engine/components/opal/opal-call.cpp:456
+msgid "Congested link to remote party"
+msgstr "દૂરના વપરાશકર્તા માટે ગીચ કડી છે"
+
+#: ../lib/engine/components/opal/opal-call.cpp:453
+msgid "Remote user is busy"
+msgstr "દૂરનો વપરાશકર્તા વ્યસ્ત છે"
+
+#: ../lib/engine/components/opal/opal-call.cpp:459
+msgid "Remote host is offline"
+msgstr "દૂરનો યજમાન ઓફલાઇન છે"
+
+#: ../lib/engine/components/opal/opal-call.cpp:465
+msgid "User is not available"
+msgstr "વપરાશકર્તા ઉપલબ્ધ નથી"
+
+#: ../lib/engine/components/opal/opal-call.cpp:477
+msgid "Call completed"
+msgstr "કોલ પૂરો થયો"
+
+#: ../lib/engine/components/opal/opal-call-manager.cpp:731
+msgid ""
+"Ekiga did not manage to configure your network settings automatically. You "
+"can still use it, but you need to configure your network settings manually.\n"
+"\n"
+"Please see http://wiki.ekiga.org/index.php/Enable_port_forwarding_manually "
+"for instructions"
+msgstr ""
+"Ekiga તમારા નેટવર્ક સુયોજનો આપોઆપ રૂપરેખાંકિત કરવાનું સંભાળી શક્યું નહિં. તમે તેને હજુ પણ "
+"વાપરી શકો છો, પરંતુ તમારે તમારા નેટવર્ક સુયોજનો જાતે રૂપરેખાંકિત કરવાની જરૂર છે.\n"
+"\n"
+"સૂચનો માટે મહેરબાની કરીને http://wiki.ekiga.org/index.php/"
+"Enable_port_forwarding_manually જુઓ"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:259
+#: ../lib/engine/components/opal/sip-endpoint.cpp:261
+msgid "Message"
+msgstr "સંદેશ"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:636
+msgid "Bad request"
+msgstr "ખરાબ માંગણી"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:640
+msgid "Payment required"
+msgstr "ચૂકવણી જરૂરિયાત"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:644
+msgid "Unauthorized"
+msgstr "બિનસત્તાધિકાર"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:648
+msgid "Forbidden"
+msgstr "ભૂલી ગયેલ"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:652
+msgid "Timeout"
+msgstr "સમયસમાપ્તિ ગાળો"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:656
+msgid "Conflict"
+msgstr "તકરાર"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:660
+msgid "Temporarily unavailable"
+msgstr "કામચલાઉ બિનઉપલબ્ધ"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:664
+msgid "Not acceptable"
+msgstr "સ્વીકાર્ય નથી"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:668
+msgid "Illegal status code"
+msgstr "ગેરકાયદેસર સ્થિતી કોડ"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:672
+msgid "Multiple choices"
+msgstr "ઘણીબધી પસંદગીઓ"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:676
+msgid "Moved permanently"
+msgstr "કાયમ માટે ખસેડેલ છે"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:680
+msgid "Moved temporarily"
+msgstr "થોડા વખત માટે ખસેડેલ છે"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:684
+msgid "Use proxy"
+msgstr "પ્રોક્સી વાપરો"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:688
+msgid "Alternative service"
+msgstr "વૈકલ્પિક સેવા"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:692
+msgid "Not found"
+msgstr "શોધાયો નથી"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:696
+msgid "Method not allowed"
+msgstr "પધ્ધત્તિ ને પરવાનગી નથી"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:700
+msgid "Proxy authentication required"
+msgstr "પ્રોક્સી સત્તાધિકરણ જરરિયાત"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:704
+msgid "Length required"
+msgstr "લંબાઇ જરૂરિયાત"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:708
+msgid "Request entity too big"
+msgstr "સૂચના સ્થિતી ઘણી લાંબી છે"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:712
+msgid "Request URI too long"
+msgstr "સૂચના URI ઘણી લાંબી છે"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:716
+msgid "Unsupported media type"
+msgstr "બિનઆધારિત મિડીઆ પ્રકાર"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:720
+msgid "Unsupported URI scheme"
+msgstr "બિનઆધારિત URI યોજના"
+
+#. Translators : The extension we are trying to register does not exist
+#: ../lib/engine/components/opal/sip-endpoint.cpp:725
+msgid "Bad extension"
+msgstr "ખરાબ લંબાણ"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:729
+msgid "Extension required"
+msgstr "લંબાણ જરૂરિયાત"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:733
+msgid "Interval too brief"
+msgstr "અંતરાલ ખૂબ ટૂંકો છે"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:737
+msgid "Loop detected"
+msgstr "લુપ ને શોધી કાઢ્યું"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:741
+msgid "Too many hops"
+msgstr "ઘણા બધા હોપ"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:745
+msgid "Address incomplete"
+msgstr "સરનામાપુસ્તિકા અપૂરતી છે"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:749
+msgid "Ambiguous"
+msgstr "અસ્પષ્ટ"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:753
+msgid "Busy Here"
+msgstr "અહિંયા વ્યસ્ત છે"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:757
+msgid "Request terminated"
+msgstr "સૂચનાનો અંત આવેલ છે"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:761
+msgid "Not acceptable here"
+msgstr "અહિંયા સ્વીકાર્ય નથી"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:765
+msgid "Bad event"
+msgstr "ખરાબ ઘટના"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:769
+msgid "Request pending"
+msgstr "સૂચના અટકેલ છે"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:773
+msgid "Undecipherable"
+msgstr "ડીસાયફર નહિં કરી શકાય એવું"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:777
+msgid "Internal server error"
+msgstr "આંતરિક સર્વર ભૂલ"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:781
+msgid "Not implemented"
+msgstr "અમલીકરણ થયેલ નથી"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:785
+msgid "Bad gateway"
+msgstr "ખરાબ ગેટવે"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:789
+msgid "Service unavailable"
+msgstr "સેવા બિનઉપલબ્ધ"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:793
+msgid "Server timeout"
+msgstr "સર્વર સમયસમાપ્તિ"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:797
+msgid "SIP version not supported"
+msgstr "SIP આવૃત્તિ આધારભૂત નથી"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:801
+msgid "Message too large"
+msgstr "સંદેશ બહુજ લાંબો છે"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:805
+msgid "Busy everywhere"
+msgstr "દરેક જગ્યાએ વ્યસ્ત છે"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:809
+msgid "Decline"
+msgstr "ઘટાડો"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:813
+msgid "Does not exist anymore"
+msgstr "આનાથી વધારે અસ્તિત્વ ધરાવતુ નથી"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:817
+msgid "Globally not acceptable"
+msgstr "વિશ્ર્વવ્યાપી સ્વીકાર્ય નથી"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:954
+msgid "Could not send message"
+msgstr "સંદેશને મોકલી શકાતો નથી"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:1049
+#, c-format
+msgid "Incoming call from %s"
+msgstr "%s માંથી આવેલ કોલ"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:1051
+#, c-format
+msgid "Incoming call"
+msgstr "ઇનકમિંગ કોલ"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:1057
+#, c-format
+msgid "In a call with %s"
+msgstr "%s સાથે કોલ માં"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:1059
+#, c-format
+msgid "In a call"
+msgstr "કોલ માં"
+
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:102
+msgid "New resource list"
+msgstr "નવાં સ્ત્રોત ની યાદી"
+
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:166
+msgid "Add new resource-list"
+msgstr "નવી સ્ત્રોત-યાદી ને ઉમેરો"
+
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:167
+msgid "Please fill in this form to add a new contact list to ekiga's remote roster"
+msgstr "ekiga ના દૂરસ્થ રોસ્ટરમાં નવી સંપર્ક યાદી ઉમેરવા માટે મહેરબાની કરીને આ ફોર્મ ભરો"
+
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:171
+msgid "Writable:"
+msgstr "લખાય તેવુ:"
+
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:172
+msgid "Username:"
+msgstr "વપરાશકર્તાનામ:"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:104
+#: ../lib/engine/components/resource-list/rl-heap.cpp:146
+#: ../lib/engine/components/resource-list/rl-heap.cpp:178
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:134
+#: ../lib/engine/components/resource-list/rl-entry.cpp:131
+msgid "Unnamed"
+msgstr "નામ ન થયેલ"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:200
+msgid "_Add a new contact"
+msgstr "નવા સંપર્ક સંપર્ક ને ઉમેરો (_A)"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:202
+msgid "_Refresh contact list"
+msgstr "સંપર્ક યાદી ને તાજી કરો (_R)"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:204
+msgid "Contact list _properties"
+msgstr "સંપર્ક યાદી ગુણધર્મો (_p)"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:464
+msgid "Edit contact list properties"
+msgstr "સંપર્ક યાદી ગુણધર્મોમાં ફેરફાર કરો"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:466
+msgid "Please edit the following fields (no identifier means global)"
+msgstr "મહેરબાની કરીને નીચેના ક્ષેત્રોમાં ફેરફાર કરો (કોઈ ઓળખાવનાર નહિં એટલે કે વૈશ્વિક)"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:469
+msgid "Contact list's name"
+msgstr "સંપર્ક યાદીનું નામ"
+
+#. "Document" used as a name -- uri point to the root of a document tree
+#: ../lib/engine/components/resource-list/rl-heap.cpp:471
+msgid "Document root"
+msgstr "દસ્તાવેજ રુટ"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:472
+msgid "Identifier"
+msgstr "ઓળખનાર"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:473
+msgid "Writable"
+msgstr "લખી શકાય તેવુ"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:474
+msgid "Server username"
+msgstr "સર્વર વપરાશકર્તાનામ"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:475
+msgid "Server password"
+msgstr "સર્વર પાસવર્ડ"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:521
+msgid "Add a remote contact"
+msgstr "દૂરસ્થ સંપર્કને ઉમેરો"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:522
+msgid "Please fill in this form to create a new contact on a remote server"
+msgstr "દૂરસ્થ સર્વર પર નવો સંપર્ક બનાવવા માટે મહેરબાની કરીને આ ફોર્મ ભરો"
+
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:222
+msgid "Edit remote contact"
+msgstr "દૂરસ્થ સંપર્ક માં ફેરફાર કરો"
+
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:223
+msgid "Please fill in this form to change an existing contact on a remote server"
+msgstr "દૂરસ્થ સર્વર પર હાલનો સંપર્ક બદલવા માટે મહેરબાની કરીને આ ફોર્મ ભરો"
+
+#: ../lib/engine/components/resource-list/rl-entry.cpp:187
+msgid "Invalid server data"
+msgstr "અયોગ્ય સર્વર માહિતી"
+
+#: ../lib/engine/components/resource-list/rl-entry-ref.cpp:53
+msgid "Click to fetch"
+msgstr "લાવવા પર ક્લિક કરો"
+
+#: ../lib/engine/components/resource-list/rl-entry-ref.cpp:120
+msgid "Distant contact"
+msgstr "અંતર સંપર્ક"
+
+#: ../lib/engine/components/resource-list/rl-list.cpp:182
+#, c-format
+msgid "%s / List #%d"
+msgstr "%s / યાદી #%d"
+
+#: ../lib/engine/components/resource-list/rl-list.cpp:186
+#, c-format
+msgid "List #%d"
+msgstr "યાદી #%d"
+
+#: ../lib/engine/gui/gtk-core/form-dialog-gtk.cpp:660
+msgid "Advanced"
+msgstr "ઉન્નત થયેલ"
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:659
+msgid "Address Book"
+msgstr "સરનામાપુસ્તિકા"
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:675
+#: ../src/gui/main.cpp:3132
+msgid "Address _Book"
+msgstr "સરનામાપુસ્તિકા (_B)"
+
+# libgnomeprintui/gnome-printer-dialog.c:126
+#. This will add static and dynamic actions
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:684
+msgid "_Action"
+msgstr "ક્રિયા (_A)"
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:729
+msgid "Category"
+msgstr "વર્ગ"
+
+#: ../lib/engine/gui/gtk-frontend/book-view-gtk.cpp:590
+#: ../src/gui/assistant.cpp:1368
+msgid "Full Name"
+msgstr "સંપૂર્ણ નામ"
+
+#: ../lib/engine/gui/gtk-frontend/book-view-gtk.cpp:601
+msgid "_Search Filter:"
+msgstr "ગાળણ શોધો (_S):"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:247
+msgid "says:"
+msgstr "કહે છે:"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:370
+msgid "Open link in browser"
+msgstr "બ્રાઉઝરમાં કડી ખોલો"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:376
+msgid "Copy link"
+msgstr "કડીની નકલ કરો"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:907
+msgid "_Smile..."
+msgstr "હસવું (_S)..."
+
+#. we can't do much here since we get the Chat as reference...
+#: ../lib/engine/gui/gtk-frontend/chat-window.cpp:432
+msgid "Chat Window"
+msgstr "સંવાદ વિન્ડો"
+
+#: ../lib/engine/gui/gtk-frontend/roster-view-gtk.cpp:989
+#: ../lib/engine/gui/gtk-frontend/roster-view-gtk.cpp:1024
+msgid "Unsorted"
+msgstr "ક્રમમાં નહિં ગોઠવાયેલ"
+
+#: ../lib/gui/codecsbox.cpp:478
+msgid "Move selected codec priority upwards"
+msgstr "પસંદિત કોડેક પ્રાધાન્ય ઉપર ખસેડો"
+
+#: ../lib/gui/codecsbox.cpp:488
+msgid "Move selected codec priority downwards"
+msgstr "પસંદિત કોડેક પ્રાધાન્ય નીચે ખસેડો"
+
+#: ../lib/gui/gmdialog.c:462
+msgid "Do not show this dialog again"
+msgstr "આ સંવાદ ફરી દર્શાવશો નહીં"
+
+#: ../src/gui/accounts.cpp:230
+msgid "Registered"
+msgstr "રજીસ્ટર થયેલ"
+
+#: ../src/gui/accounts.cpp:234
+msgid "Unregistered"
+msgstr "નહિં રજીસ્ટર થયેલ"
+
+#: ../src/gui/accounts.cpp:238
+msgid "Could not unregister"
+msgstr "નોંધણી દૂર કરી શક્યા નહિં"
+
+#: ../src/gui/accounts.cpp:244
+msgid "Could not register"
+msgstr "રજીસ્ટર કરી શકાતુ નથી"
+
+#: ../src/gui/accounts.cpp:250
+msgid "Processing..."
+msgstr "પ્રક્રિયા થઇ રહી છે..."
+
+#: ../src/gui/accounts.cpp:636
+msgid "Account Name"
+msgstr "ખાતા નામ"
+
+#: ../src/gui/accounts.cpp:637
+msgid "Voice Mails"
+msgstr "અવાજ મેઈલો"
+
+#: ../src/gui/accounts.cpp:638
+msgid "Status"
+msgstr "પરિસ્થિતિ"
+
+#: ../src/gui/accounts.cpp:649 ../src/gui/accounts.cpp:692
+msgid "Accounts"
+msgstr "ખાતાઓ"
+
+#: ../src/gui/accounts.cpp:663 ../src/gui/main.cpp:3193
+msgid "_Accounts"
+msgstr "ખાતાઓ (_A)"
+
+# #-#-#-#-#  gnome-control-center.HEAD.hi.po (control center)  #-#-#-#-#
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# #-#-#-#-#  gtk+.gtk-2-0.hi.po (PACKAGE VERSION)  #-#-#-#-#
+# gtk/gtkstock.c:298
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (PACKAGE VERSION)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:96 libgnomeui/gnome-app-helper.h:531
+# test-gnome/testgnome.xml.h:6
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:96 libgnomeui/gnome-app-helper.h:531
+# test-gnome/testgnome.xml.h:6
+# #-#-#-#-#  gnome-panel.HEAD.hi.po (gnome-panel-2.0.hi)  #-#-#-#-#
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# #-#-#-#-#  gtk+.gtk-2-0.hi.po (PACKAGE VERSION)  #-#-#-#-#
+# gtk/gtkstock.c:298
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (PACKAGE VERSION)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:96 libgnomeui/gnome-app-helper.h:531
+# test-gnome/testgnome.xml.h:6
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:96 libgnomeui/gnome-app-helper.h:531
+# test-gnome/testgnome.xml.h:6
+# #-#-#-#-#  gnumeric.HEAD.hi.po (gnumeric HEAD)  #-#-#-#-#
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# #-#-#-#-#  gtk+.gtk-2-0.hi.po (PACKAGE VERSION)  #-#-#-#-#
+# gtk/gtkstock.c:298
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (PACKAGE VERSION)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:96 libgnomeui/gnome-app-helper.h:531
+# test-gnome/testgnome.xml.h:6
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:96 libgnomeui/gnome-app-helper.h:531
+# test-gnome/testgnome.xml.h:6
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui-2.0.hi)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:96 libgnomeui/gnome-app-helper.h:531
+# test-gnome/testgnome.xml.h:6
+#: ../src/gui/accounts.cpp:667 ../src/gui/main.cpp:3276
+msgid "_Help"
+msgstr "મદદ (_H)"
+
+#. Translators:
+#. * The following string "A" means "activated" or "active". It's a column
+#. * description in the list of configured accounts, it shows if an account
+#. * is activated or not (a status the user can choose).
+#.
+#: ../src/gui/accounts.cpp:700 ../src/gui/preferences.cpp:586
+msgid "A"
+msgstr "A"
+
+#: ../src/gui/assistant.cpp:321
+msgid ""
+"This is the Ekiga general configuration assistant. The following steps will "
+"set up Ekiga by asking a few simple questions.\n"
+"\n"
+"Once you have completed these steps, you can always change them later by "
+"selecting Preferences in the Edit menu."
+msgstr ""
+"આ Ekiga સામાન્ય રૂપરેખાંકન સહાયક છે. નીચેનાં પગલાંઓ Ekiga ને થોડા સામાન્ય પ્રશ્નો પૂછીને "
+"સુયોજિત કરશે.\n"
+"\n"
+"એકવાર તમે આ પગલાંઓ પૂર્ણ કરી દીધા, પછી તમે તેમને પછીથી હંમેશા બદલી શકો છો ફેરફાર મેનુમાં "
+"પસંદગીઓ ક્લિક કરીને."
+
+#: ../src/gui/assistant.cpp:329
+msgid "Welcome to Ekiga"
+msgstr "Ekiga માં સ્વાગત છે"
+
+#: ../src/gui/assistant.cpp:353 ../src/gui/preferences.cpp:454
+msgid "Personal Information"
+msgstr "અંગત જાણકારી"
+
+#. The user fields
+#: ../src/gui/assistant.cpp:356
+msgid "Please enter your first name and your surname:"
+msgstr "મહેરબાની કરીને તમારુ પ્રથમ નામ અને તમારી અટક દાખલ કરો:"
+
+#: ../src/gui/assistant.cpp:365
+msgid ""
+"Your first name and surname will be used when connecting to other VoIP and "
+"videoconferencing software."
+msgstr "બીજા VoIP અને વિડીયો પરિષદ સોફ્ટવેર સાથે સંપર્ક સાધવામાં તમારુ પ્રથમ નામ અને અટક વપરાશે."
+
+#: ../src/gui/assistant.cpp:559
+msgid "Ekiga.net Account"
+msgstr "Ekiga.net ખાતુ"
+
+#: ../src/gui/assistant.cpp:561
+msgid "Please enter your username:"
+msgstr "મહેરબાની કરીને તમારું વપરાશકર્તા નામ દાખલ કરો:"
+
+#: ../src/gui/assistant.cpp:569
+msgid "Please enter your password:"
+msgstr "મહેરબાની કરીને તમારો પાસવર્ડ દાખલ કરો:"
+
+#: ../src/gui/assistant.cpp:579
+msgid ""
+"The username and password are used to login to your existing account at the "
+"ekiga.net free SIP service. If you do not have an ekiga.net SIP address yet, "
+"you may first create an account below. This will provide a SIP address that "
+"allows people to call you.\n"
+"\n"
+"You may skip this step if you use an alternative SIP service, or if you "
+"would prefer to specify the login details later."
+msgstr ""
+"વપરાશકર્તાનામ અને પાસવર્ડ એ તમારા હાલના ખાતામાં ekiga.net મુક્ત SIP સેવા આગળ પ્રવેશ "
+"કરવા માટે વપરાય છે. જો તમારી પાસે ekiga.net SIP સરનામું હજુ નહિં હોય, તો તમારે પ્રથમ "
+"ખાતું નીચે બનાવવું જોઈએ. આ SIP સરનામું પૂરું પાડશે કે જે લોકોને તમને બોલાવવા માટે પરવાનગી "
+"આપશે.\n"
+"\n"
+"તમે આ પગલું રદ કરી શકશો જો તમે વૈકલ્પિક SIP સેવા વાપરો, અથવા જો તમે પ્રવેશ વિગતો પછીથી "
+"સ્પષ્ટ કરવા માંગો."
+
+#: ../src/gui/assistant.cpp:606
+msgid "I do not want to sign up for the ekiga.net free service"
+msgstr "હું ekiga.net મુક્ત સેવામાં તમને રજીસ્ટર કરવા માંગતો નથી"
+
+#: ../src/gui/assistant.cpp:669
+msgid "Ekiga Call Out Account"
+msgstr "Ekiga કોલ આઉટ ખાતુ"
+
+#: ../src/gui/assistant.cpp:671
+msgid "Please enter your account ID:"
+msgstr "મહેરબાની કરીને તમારું ખાતા ID દાખલ કરો:"
+
+#: ../src/gui/assistant.cpp:679
+msgid "Please enter your PIN code:"
+msgstr "મહેરબાની કરીને તમારો PIN કોડ દાખલ કરો:"
+
+#: ../src/gui/assistant.cpp:690
+msgid ""
+"You can make calls to regular phones and cell numbers worldwide using "
+"Ekiga.\n"
+"\n"
+"To enable this, you need to do two things:\n"
+"- First buy an account at the URL below.\n"
+"- Then enter your account ID and PIN code.\n"
+"The service will work only if your account is created using the URL in this "
+"dialog.\n"
+msgstr ""
+"તમે નિયમિત ફોનો અને સેલ નંબરોને વિશ્વવ્યાપી ગમે ત્યાં Ekigaની મદદથી કોલ કરી શકો છો. આ "
+"સક્રિય કરવા માટે, તમારે નીચેની URL ની મદદથી ખાતાને રજીસ્ટર કરવું પડશે, પછી તમારો ખાતા "
+"નંબર અને પાસવર્ડ દાખલ કરો, અને નીચે રજીસ્ટ્રેશન સક્રિય કરો.\n"
+"\n"
+"મહેરબાની કરીને ખાતરી કરો કે તમે નીચેની URL ને તમારું ખાતું મેળવવા માટે વાપરી રહ્યા છો "
+"નહિંતર સેવા કામ આપશે નહિં.\n"
+
+#: ../src/gui/assistant.cpp:740
+msgid "Consult the calls history"
+msgstr "કોલના ઈતિહાસની પૂછપરછ કરો"
+
+#: ../src/gui/assistant.cpp:750
+msgid "I do not want to sign up for the Ekiga Call Out service"
+msgstr "હું Ekiga બહાર કોલ કરો સેવા માટે રજીસ્ટર કરવા માંગતો નથી"
+
+#: ../src/gui/assistant.cpp:816 ../src/gui/assistant.cpp:1379
+msgid "Connection Type"
+msgstr "જોડાણ પ્રકાર"
+
+#. The connection type
+#: ../src/gui/assistant.cpp:819
+msgid "Please choose your connection type:"
+msgstr "મહેરબાની કરીને તમારા સંપર્કનો પ્રકાર પસંદ કરો:"
+
+#: ../src/gui/assistant.cpp:836
+msgid "56k Modem"
+msgstr "56K મોડેમ"
+
+#: ../src/gui/assistant.cpp:841
+msgid "ISDN"
+msgstr "ISDN"
+
+#: ../src/gui/assistant.cpp:846
+msgid "DSL/Cable (128 kbit/s uplink)"
+msgstr "DSL/કેબલ (128 kbit/s uplink)"
+
+#: ../src/gui/assistant.cpp:851
+msgid "DSL/Cable (512 kbit/s uplink)"
+msgstr "DSL/કેબલ (512 kbit/s uplink)"
+
+#: ../src/gui/assistant.cpp:856
+msgid "LAN"
+msgstr "LAN"
+
+#: ../src/gui/assistant.cpp:861
+msgid "Keep current settings"
+msgstr "હાલનાં સુયોજનો સાચવી રાખો"
+
+#: ../src/gui/assistant.cpp:866
+msgid ""
+"The connection type will permit determining the best quality settings that "
+"Ekiga will use during calls. You can later change the settings individually "
+"in the preferences window."
+msgstr ""
+"સંપર્ક પ્રકાર કોલ દરમ્યાન Ekiga શ્રેષ્ઠ ગુણવત્તા સુયોજનોને નક્કી કરવાની પરવાનગી આપે છે. તમે "
+"પછી પસંદગી વિન્ડોમાં સુયોજનો દરેકને બદલી શકો છો."
+
+#: ../src/gui/assistant.cpp:960 ../src/gui/main.cpp:3022
+#: ../src/gui/main.cpp:3026 ../src/gui/preferences.cpp:760
+msgid "Audio Devices"
+msgstr "ઓડિયો ઉપકરણો"
+
+#: ../src/gui/assistant.cpp:962
+msgid "Please choose the audio ringing device:"
+msgstr "મહેરબાની કરીને ઓડિયો રીગીંગ ઉપકરણ પસંદ કરો:"
+
+#: ../src/gui/assistant.cpp:982
+msgid ""
+"The audio ringing device is the device that will be used to play the ringing "
+"sound on incoming calls."
+msgstr "ઓડિયો રીંગીંગ ઉપકરણ એ એવું ઉપકરણ છે કે જે આવતા કોલ પર ધ્વનિ વગાડવા માટે વાપરવામાં આવશે."
+
+#. ---
+#: ../src/gui/assistant.cpp:993
+msgid "Please choose the audio output device:"
+msgstr "મહેરબાની કરીને ઓડિયો આઉટપુટ ઉપકરણ પસંદ કરો:"
+
+#: ../src/gui/assistant.cpp:1013
+msgid ""
+"The audio output device is the device that will be used to play audio during "
+"calls."
+msgstr "ઓડિયો આઉટપુટ ઉપકરણ એ એવું ઉપકરણ છે કે જે કોલ દરમ્યાન ઓડિયો વગાડવા માટે વાપરવામાં આવશે."
+
+#. ---
+#: ../src/gui/assistant.cpp:1024
+msgid "Please choose the audio input device:"
+msgstr "મહેરબાની કરીને ઓડિયો ઈનપુટ ઉપકરણ પસંદ કરો:"
+
+#: ../src/gui/assistant.cpp:1044
+msgid ""
+"The audio input device is the device that will be used to record your voice "
+"during calls."
+msgstr ""
+"ઓડિયો ઈનપુટ ઉપકરણ એ એવું ઉપકરણ છે કે જે કોલ દરમ્યાન તમારો અવાજ રેકોર્ડ કરવા માટે "
+"વાપરવામાં આવશે."
+
+#: ../src/gui/assistant.cpp:1146
+msgid "Please choose your video input device:"
+msgstr "મહેરબાની કરીને તમારુ વિડિયો ઈનપુટ ઉપકરણ પસંદ કરો:"
+
+#: ../src/gui/assistant.cpp:1166
+msgid ""
+"The video input device is the device that will be used to capture video "
+"during calls."
+msgstr ""
+"વીડિયો ઈનપુટ ઉપકરણ એ એવું ઉપકરણ છે કે જે કોલ દરમ્યાન વીડિયો કેપ્ચર કરવા માટે વાપરવામાં "
+"આવશે."
+
+#: ../src/gui/assistant.cpp:1231 ../src/gui/assistant.cpp:1255
+#: ../src/gui/assistant.cpp:1279 ../src/gui/preferences.cpp:805
+#: ../src/gui/preferences.cpp:830 ../src/gui/preferences.cpp:854
+msgid "No device found"
+msgstr "કોઈ ઉપકરણ મળ્યુ નથી"
+
+#: ../src/gui/assistant.cpp:1310
+msgid "Configuration Complete"
+msgstr "રુપરેખાંકન પૂર્ણ"
+
+#: ../src/gui/assistant.cpp:1312
+msgid ""
+"You have now finished the Ekiga configuration. All the settings can be "
+"changed in the Ekiga preferences. Enjoy!"
+msgstr ""
+"તમે હવે Ekiga રૂપરેખાંકન ને સમાપ્ત કરેલ છે. બધા સુયોજનો એ Ekiga પસંદગીઓમાં બદલી શકાય છે. "
+"આનંદ કરો!"
+
+#: ../src/gui/assistant.cpp:1319
+msgid "Configuration summary:"
+msgstr "રૂપરેખાંકન સારાંશ:"
+
+#: ../src/gui/assistant.cpp:1389
+msgid "Audio Ringing Device"
+msgstr "ઓડિયો રીગીંગ ઉપકરણ"
+
+#: ../src/gui/assistant.cpp:1398
+msgid "Audio Output Device"
+msgstr "ઓડિયો આઉટપુટ ઉપકરણ"
+
+#: ../src/gui/assistant.cpp:1407
+msgid "Audio Input Device"
+msgstr "ઓડિયો ઈનપુટ ઉપકરણ"
+
+#: ../src/gui/assistant.cpp:1416
+msgid "Video Input Device"
+msgstr "વિડિયો ઈનપુટ ઉપકરણ"
+
+#: ../src/gui/assistant.cpp:1429
+msgid "SIP URI"
+msgstr "SIP URI"
+
+#: ../src/gui/assistant.cpp:1441
+msgid "Ekiga Call Out"
+msgstr "Ekiga કોલ આઉટ"
+
+#: ../src/gui/assistant.cpp:1485
+#, c-format
+msgid "Ekiga Configuration Assistant (%d of %d)"
+msgstr "Ekiga રૂપરેખાંકન સહાયક (%d નું %d)"
+
+#: ../src/gui/callbacks.cpp:131
+msgid "Contributors:"
+msgstr "ફાળો આપનાર:"
+
+#: ../src/gui/callbacks.cpp:143
+msgid "Artwork:"
+msgstr "કલાકારી:"
+
+#: ../src/gui/callbacks.cpp:151
+msgid "See AUTHORS file for full credits"
+msgstr "સંપૂર્ણ યશો માટે AUTHORS ફાઈલ જુઓ"
+
+#: ../src/gui/callbacks.cpp:167
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version. "
+msgstr ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version. "
+
+#: ../src/gui/callbacks.cpp:171
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for "
+"more details. You should have received a copy of the GNU General Public "
+"License along with this program; if not, write to the Free Software "
+"Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for "
+"more details. You should have received a copy of the GNU General Public "
+"License along with this program; if not, write to the Free Software "
+"Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
+
+#: ../src/gui/callbacks.cpp:178
+msgid ""
+"Ekiga is licensed under the GPL license and as a special exception, you have "
+"permission to link or otherwise combine this program with the programs OPAL, "
+"OpenH323 and PWLIB, and distribute the combination, without applying the "
+"requirements of the GNU GPL to the OPAL, OpenH323 and PWLIB programs, as "
+"long as you do follow the requirements of the GNU GPL for all the rest of "
+"the software thus combined."
+msgstr ""
+"Ekiga is licensed under the GPL license and as a special exception, you have "
+"permission to link or otherwise combine this program with the programs OPAL, "
+"OpenH323 and PWLIB, and distribute the combination, without applying the "
+"requirements of the GNU GPL to the OPAL, OpenH323 and PWLIB programs, as "
+"long as you do follow the requirements of the GNU GPL for all the rest of "
+"the software thus combined."
+
+#. Translators: Please write translator credits here, and
+#. * separate names with \n
+#: ../src/gui/callbacks.cpp:190
+msgid "translator-credits"
+msgstr "અંકિત પટેલ <ankit644@yahoo.com>, શ્ર્વેતા કોઠારી <swkothar@redhat.com>"
+
+#: ../src/gui/callbacks.cpp:195
+msgid ""
+"Ekiga is full-featured SIP and H.323 compatible VoIP, IP-Telephony and "
+"Videoconferencing application that allows you to make audio and video calls "
+"to remote users with SIP and H.323 hardware or software."
+msgstr ""
+"Ekiga એ વિડીયો પરિષદની H.323 ને સુસંગત પૂર્ણ લાક્ષણિકતાવાળુ છે, VoIP અને IP-ટેલીફોની કે "
+"જે તમને દૂરસ્થ વપરાશકર્તા સાથે H.323 હાર્ડવેર અને સોફટવેરના ઓડિયો અને વિડીયો બનાવવાની "
+"પરવાનગી આપે છે."
+
+#: ../src/gui/callbacks.cpp:269
+msgid "Help display is not supported by your GTK+ version"
+msgstr "મદદ દર્શાવ એ તમારા GTK+ આવૃત્તિ દ્દારા આધારભૂત નથી"
+
+#: ../src/gui/callbacks.cpp:277
+msgid "Unable to open help file."
+msgstr "મદદ ફાઇલ ને ખોલવામાં નિષ્ફળતા."
+
+#: ../src/gui/dialpad.cpp:55
+msgid "abc"
+msgstr "abc"
+
+#: ../src/gui/dialpad.cpp:56
+msgid "def"
+msgstr "def"
+
+#: ../src/gui/dialpad.cpp:57
+msgid "ghi"
+msgstr "ghi"
+
+#: ../src/gui/dialpad.cpp:58
+msgid "jkl"
+msgstr "jkl"
+
+#: ../src/gui/dialpad.cpp:59
+msgid "mno"
+msgstr "mno"
+
+#: ../src/gui/dialpad.cpp:60
+msgid "pqrs"
+msgstr "pqrs"
+
+#: ../src/gui/dialpad.cpp:61
+msgid "tuv"
+msgstr "tuv"
+
+#: ../src/gui/dialpad.cpp:62
+msgid "wxyz"
+msgstr "wxyz"
+
+#. Translators: Is displayed once an account "%s" is registered.
+#: ../src/gui/main.cpp:526
+#, c-format
+msgid "Registered %s"
+msgstr "%s માં રજીસ્ટર થયેલ"
+
+#. Translators: Is displayed once an account "%s" is unregistered.
+#: ../src/gui/main.cpp:533
+#, c-format
+msgid "Unregistered %s"
+msgstr "%s માં નહિં રજીસ્ટર થયેલ"
+
+#: ../src/gui/main.cpp:538
+#, c-format
+msgid "Could not unregister %s"
+msgstr "%s ની નોંધણી દૂર કરી શક્યા નહિં"
+
+#: ../src/gui/main.cpp:542
+#, c-format
+msgid "Could not register %s"
+msgstr "%s ને રજીસ્ટર કરી શકાતુ નથી"
+
+#: ../src/gui/main.cpp:612
+#, c-format
+msgid "A:%.1f/%.1f   V:%.1f/%.1f   FPS:%d/%d"
+msgstr "A:%.1f/%.1f   V:%.1f/%.1f   FPS:%d/%d"
+
+#: ../src/gui/main.cpp:658
+#, c-format
+msgid "Connected with %s"
+msgstr "%s સાથે જોડાયેલ"
+
+#: ../src/gui/main.cpp:699 ../src/gui/main.cpp:3522
+msgid "Standby"
+msgstr "ઊભુંરાખેલ"
+
+#: ../src/gui/main.cpp:760
+msgid "Call on hold"
+msgstr "કોલ ને અટકાવેલ છે"
+
+#: ../src/gui/main.cpp:771
+msgid "Call retrieved"
+msgstr "કોલને મેળવેલ છે"
+
+#: ../src/gui/main.cpp:787
+#, c-format
+msgid "Missed call from %s"
+msgstr "%s માંથી ગુમ થયેલ કોલ"
+
+#: ../src/gui/main.cpp:924
+msgid "Error"
+msgstr "ભૂલ"
+
+#: ../src/gui/main.cpp:989
+msgid "Error while initializing video output"
+msgstr "જ્યારે વિડિયો આઉટપુટ ની શરૂઆત દરમ્યાન ભૂલ"
+
+#: ../src/gui/main.cpp:990
+msgid "No video will be displayed during this call->"
+msgstr "આ કોલ દરમ્યાન વિડિયો દર્શાવેલ હશે નહિં->    "
+
+#: ../src/gui/main.cpp:1000
+msgid ""
+"There was an error opening or initializing the video output. Please verify "
+"that no other application is using the accelerated video output."
+msgstr ""
+"વીડિયો આઉટપુટ ખોલવામાં કે આરંભ કરવામાં ભૂલ હતી. મહેરબાની કરીને ખાતરી કરો કે અન્ય કોઈ "
+"કાર્યક્રમ પ્રવેગીય વીડિયો આઉટપુટ વાપરતી નથી."
+
+#: ../src/gui/main.cpp:1002
+msgid ""
+"There was an error opening or initializing the video output. Please verify "
+"that you are using a color depth of 24 or 32 bits per pixel."
+msgstr ""
+"વીડિયો આઉટપુટ ખોલવામાં કે આરંભ કરવામાં ભૂલ હતી. મહેરબાની કરીને ખાતરી કરો કે તમે પિક્સેલ "
+"પ્રતિ ૨૪ કે ૩૨ બીટની રંગ ઊંડાઈ વારી રહ્યા છો."
+
+#. Translators: This is a hotplug status
+#: ../src/gui/main.cpp:1115
+#, c-format
+msgid "Added video input device %s"
+msgstr "ઓડિયો ઈનપુટ ઉપકરણ %s ઉમેરાયેલ છે"
+
+#. Translators: This is a hotplug status
+#: ../src/gui/main.cpp:1127
+#, c-format
+msgid "Removed video input device %s"
+msgstr "વિડિયો ઈનપુટ ઉપકરણ %s દૂર કરાયેલ છે"
+
+#: ../src/gui/main.cpp:1144
+#, c-format
+msgid "Error while accessing video device %s"
+msgstr "વિડિયો ઉપકરણ %s પ્રવેશ દરમિયાન ભૂલ"
+
+#: ../src/gui/main.cpp:1147
+msgid ""
+"A moving logo will be transmitted during calls. Notice that you can always "
+"transmit a given image or the moving logo by choosing \"Picture\" as video "
+"plugin and \"Moving logo\" or \"Static picture\" as device."
+msgstr ""
+"કોલ દરમ્યાન ખસતો લોગો પરિવહન કરવામાં આવશે. નોંધ કરો કે તમે હંમેશા આપેલ ઈમેજનું પરિવહન "
+"કરી શકશો અથવા \"ચિત્ર\" ને વીડિયો પ્લગઈન તરીકે અને \"ખસતો લોગો\" અથવા \"સ્ટેટિક ચિત્ર"
+"\" ને ઉપકરણ તરીકે પસંદ કરીને કરી શકો છો."
+
+#: ../src/gui/main.cpp:1151
+msgid ""
+"There was an error while opening the device. In case it is a pluggable "
+"device it may be sufficient to reconnect it. If not, or if it still is not "
+"accessible, please check your permissions and make sure that the appropriate "
+"driver is loaded."
+msgstr ""
+"ઉપકરણ ખોલતી વખતે ભૂલ હતી. જો તે પ્લગ કરી શકાય તેવું ઉપકરણ હોય તો તેનું પુનઃજોડાણ કરવાનું "
+"પૂરતું હોઈ શકે. જો નહિં, અથવા જો તે હજુ પણ સુલભ નહિં હોય, તો મહેરબાની કરીને તમારી "
+"પરવાનગીઓ ચકાસો અને ખાતરી કરો કે યોગ્ય ડ્રાઈવર લાવવામાં આવેલ છે."
+
+#: ../src/gui/main.cpp:1155
+msgid "Your video driver doesn't support the requested video format."
+msgstr "તમારા વિડિયો ડ્રાઇવર વિનંતિ કરેલ વિડિયો માળખાને ટેકો આપતા નથી."
+
+#: ../src/gui/main.cpp:1159
+msgid "Could not open the chosen channel."
+msgstr "પસંદ કરેલ માધ્યમ ખોલી શકાયુ નથી."
+
+#: ../src/gui/main.cpp:1163
+msgid ""
+"Your driver doesn't seem to support any of the color formats supported by "
+"Ekiga.\n"
+" Please check your kernel driver documentation in order to determine which "
+"Palette is supported."
+msgstr ""
+"તમારું ડ્રાઈવર Ekiga દ્વારા આધારભૂત કોઈપણ રંગ બંધારણોને આધાર આપતું હોય એવું લાગતું નથી.\n"
+" કઈ પેલેટ આધારભૂત છે તે નક્કી કરવા માટે મહેરબાની કરીને તમારું કર્નલ ડ્રાઈવર દસ્તાવેજીકરણ "
+"ચકાસો."
+
+#: ../src/gui/main.cpp:1167
+msgid "Error while setting the frame rate."
+msgstr "ચોકઠાનો દર ગોઠવતી વખતે ભૂલ."
+
+#: ../src/gui/main.cpp:1171
+msgid "Error while setting the frame size."
+msgstr "ચોકઠાનું કદ ગોઠવતી વખતે ભૂલ."
+
+#: ../src/gui/main.cpp:1176 ../src/gui/main.cpp:1278 ../src/gui/main.cpp:1393
+msgid "Unknown error."
+msgstr "અજ્ઞાત ભૂલ."
+
+#. Translators: This is a hotplug status
+#: ../src/gui/main.cpp:1226
+#, c-format
+msgid "Added audio input device %s"
+msgstr "ઓડિયો ઈનપુટ ઉપકરણ %s ઉમેરાયેલ છે"
+
+#. Translators: This is a hotplug status
+#: ../src/gui/main.cpp:1243
+#, c-format
+msgid "Removed audio input device %s"
+msgstr "ઓડિયો ઈનપુટ ઉપકરણ %s દૂર કરાયેલ છે"
+
+#: ../src/gui/main.cpp:1260
+#, c-format
+msgid "Error while opening audio input device %s"
+msgstr "ઓડિયો ઇનપુટ ઉપકરણ %s ખોલવા દરમિયાન ભૂલ"
+
+#. Translators: This happens when there is an error with audio input:
+#. * Nothing ("silence") will be transmitted
+#: ../src/gui/main.cpp:1265
+msgid "Only silence will be transmitted."
+msgstr "માત્ર શાંતિનું પરિવહન થઈ જશે."
+
+#: ../src/gui/main.cpp:1269
+msgid ""
+"Unable to open the selected audio device for recording. In case it is a "
+"pluggable device it may be sufficient to reconnect it. If not, or if it "
+"still is not accessible, please check your audio setup, the permissions and "
+"that the device is not busy."
+msgstr ""
+"રેકોર્ડીંગ માટે પસંદિત ઓડિયો ઉપકરણ ખોલવામાં અસમર્થ. જો તે પ્લગ કરી શકાય તેવું ઉપકરણ હોય "
+"તો તેનું પુનઃજોડાણ કરવાનું પૂરતું હોઈ શકે. જો નહિં, અથવા જો તે હજુ પણ સુલભ નહિં હોય, તો "
+"મહેરબાની કરીને તમારું ઓડિયો સુયોજન ચકાસે, પરવાનગીઓ અને ચકાસો કે ઉપકરણ વ્યસ્ત નથી."
+
+#: ../src/gui/main.cpp:1273
+msgid ""
+"The selected audio device was successfully opened but it is impossible to "
+"read data from this device. In case it is a pluggable device it may be "
+"sufficient to reconnect it. If not, or if it still is not accessible, please "
+"check your audio setup."
+msgstr ""
+"પસંદિત ઓડિયો ઉપકરણ સફળતાપૂર્વક ખોલવામાં આવ્યું હતું પરંતુ આ ઉપકરણમાંથી માહિતી વાંચવાનું "
+"અશક્ય છે. જો તે પ્લગ કરી શકાય તેવું ઉપકરણ હોય તો તેનું પુનઃજોડાણ કરવાનું પૂરતું હશે. જો નહિં, "
+"અથવા જો તે સુલભ નહિં હોય, તો મહેરબાની કરીને તમારા ઓડિયો સુયોજન ચકાસો."
+
+#: ../src/gui/main.cpp:1340
+#, c-format
+msgid "Added audio output device %s"
+msgstr "ઓડિયો આઉટપુટ ઉપકરણ %s ઉમેરાયેલ છે"
+
+#: ../src/gui/main.cpp:1356
+#, c-format
+msgid "Removed audio output device %s"
+msgstr "ઓડિયો આઉટપુટ ઉપકરણ %s દૂર કરાયેલ છે"
+
+#: ../src/gui/main.cpp:1377
+#, c-format
+msgid "Error while opening audio output device %s"
+msgstr "ઓડિયો આઉટપુટ ઉપકરણ %s ખોલવા દરમિયાન ભૂલ"
+
+#: ../src/gui/main.cpp:1380
+msgid "No incoming sound will be played."
+msgstr "ઇનકમિંગ સાઇન્ડ વાગશે નહિં."
+
+#: ../src/gui/main.cpp:1384
+msgid ""
+"Unable to open the selected audio device for playing. In case it is a "
+"pluggable device it may be sufficient to reconnect it. If not, or if it "
+"still is not accessible, please check your audio setup, the permissions and "
+"that the device is not busy."
+msgstr ""
+"વગાડવા માટે પસંદિત ઓડિયો ઉપકરણ ખોલવામાં અસમર્થ. જો તે પ્લગ કરી શકાય તેવું ઉપકરણ હોય "
+"તો તેનું પુનઃજોડાણ કરવાનું પૂરતું હશે. જો નહિં, અથવા જો તે સુલભ નહિં હોય, તો મહેરબાની કરીને "
+"તમારું ઓડિયો સુયોજન ચકાસે, પરવાનગીઓ અને ચકાસો કે તે ઉપકરણ વ્યસ્ત નથી."
+
+#: ../src/gui/main.cpp:1388
+msgid ""
+"The selected audio device was successfully opened but it is impossible to "
+"write data to this device. In case it is a pluggable device it may be "
+"sufficient to reconnect it. If not, or if it still is not accessible, please "
+"check your audio setup."
+msgstr ""
+"પસંદિત ઓડિયો ઉપકરણ સફળતાપૂર્વક ખોલવામાં આવ્યું હતું પરંતુ આ ઉપકરણમાં માહિતી લખવાનું અશક્ય "
+"છે. જો તે પ્લગ કરી શકાય તેવું ઉપકરણ હોય તો તેનું પુનઃજોડાણ કરવાનું પૂરતું હોઈ શકે. જો નહિં, "
+"અથવા જો તે હજુ પણ સુલભ નહિં હોય, તો મહેરબાની કરીને તમારા ઓડિયો સુયોજન ચકાસો."
+
+#: ../src/gui/main.cpp:1579
+msgid "Video Settings"
+msgstr "વિડિયો સુયોજનો"
+
+#: ../src/gui/main.cpp:1606
+msgid "Adjust brightness"
+msgstr "ઊજાસપણાને વ્યવસ્થિત કરો"
+
+#: ../src/gui/main.cpp:1627
+msgid "Adjust whiteness"
+msgstr "સફેદીપણું વ્યવસ્થિત કરો"
+
+#: ../src/gui/main.cpp:1648
+msgid "Adjust color"
+msgstr "રંગ વ્યવસ્થિત કરો"
+
+#: ../src/gui/main.cpp:1669
+msgid "Adjust contrast"
+msgstr "વિરોધાભાસ રંગ વ્યવસ્થિત કરો"
+
+#: ../src/gui/main.cpp:1715
+msgid "Audio Settings"
+msgstr "ઓડિયો સુયોજનો"
+
+#: ../src/gui/main.cpp:2326
+msgid "_Retrieve Call"
+msgstr "કોલ મેળવવો (_R)"
+
+#: ../src/gui/main.cpp:2339
+msgid "_Hold Call"
+msgstr "કોલ ચાલુ રાખવો (_H)"
+
+#: ../src/gui/main.cpp:2371 ../src/gui/main.cpp:3159
+msgid "Suspend _Audio"
+msgstr "ઓડિયો બંધ કરવો (_A)"
+
+#: ../src/gui/main.cpp:2373 ../src/gui/main.cpp:3164
+msgid "Suspend _Video"
+msgstr "વિડિયો બંધ કરો (_V)"
+
+#: ../src/gui/main.cpp:2375
+msgid "Resume _Audio"
+msgstr "ઓડિયો શરુ કરવો (_A)"
+
+#: ../src/gui/main.cpp:2377
+msgid "Resume _Video"
+msgstr "વિડિયો શરુ કરો (_V)"
+
+#: ../src/gui/main.cpp:2660 ../src/gui/main.cpp:2812
+msgid "Reject"
+msgstr "નકારવું"
+
+#: ../src/gui/main.cpp:2662 ../src/gui/main.cpp:2811
+msgid "Accept"
+msgstr "સ્વીકારવું"
+
+#: ../src/gui/main.cpp:2668 ../src/gui/main.cpp:2799
+msgid "Incoming call from"
+msgstr "માંથી આવેલ કોલ"
+
+#: ../src/gui/main.cpp:2686 ../src/gui/main.cpp:2802
+msgid "Remote URI:"
+msgstr "દૂરસ્થ URI:"
+
+#: ../src/gui/main.cpp:2698 ../src/gui/main.cpp:2804
+msgid "Remote Application:"
+msgstr "દૂરસ્થ કાર્યક્રમ:"
+
+#: ../src/gui/main.cpp:2719
+#, c-format
+msgid "Call from %s"
+msgstr "%s તરફથી કોલ"
+
+#: ../src/gui/main.cpp:2925
+#, c-format
+msgid "Call Duration: %s\n"
+msgstr "કોલની સમય અવધિ: %s\n"
+
+#: ../src/gui/main.cpp:2956
+msgid "Transfer call to:"
+msgstr "કોલને આમાં મોકલાય છે:"
+
+#: ../src/gui/main.cpp:3008
+msgid "No"
+msgstr "ના"
+
+#: ../src/gui/main.cpp:3010
+msgid "Yes"
+msgstr "હા"
+
+#: ../src/gui/main.cpp:3021
+msgid "Detected new audio input device:"
+msgstr "નવી ઓડિયો ઇનપુટ ઉપકરણ શોધાઇ ગયેલ છે:"
+
+#: ../src/gui/main.cpp:3025
+msgid "Detected new audio output device:"
+msgstr "નવી ઓડિયો આઉટપુટ ઉપકરણ શોધાઇ ગયેલ છે:"
+
+#: ../src/gui/main.cpp:3029
+msgid "Detected new video input device:"
+msgstr "નવી વિડીયો ઇનપુટ ઉપકરણ શોધાઇ ગયેલ છે:"
+
+#: ../src/gui/main.cpp:3030 ../src/gui/preferences.cpp:921
+msgid "Video Devices"
+msgstr "વિડિયો ઉપકરણો"
+
+#: ../src/gui/main.cpp:3048
+msgid "Do you want to use it as default device?"
+msgstr "શું મૂળભૂત ઉપકરણ તરીકે તેને વાપરવા માંગો છો?"
+
+#: ../src/gui/main.cpp:3116
+msgid "_Chat"
+msgstr "સંવાદ (_C)"
+
+#: ../src/gui/main.cpp:3118
+msgid "Ca_ll"
+msgstr "કોલ (_l)"
+
+#: ../src/gui/main.cpp:3118
+msgid "Place a new call"
+msgstr "નવો કોલ કરો"
+
+#: ../src/gui/main.cpp:3121
+msgid "_Hang up"
+msgstr "અટકી રહો (_H)"
+
+#: ../src/gui/main.cpp:3122
+msgid "Terminate the current call"
+msgstr "વર્તમાન કોલ બંધ કરો"
+
+#: ../src/gui/main.cpp:3128
+msgid "A_dd Contact"
+msgstr "સંપર્ક ને ઉમેરો (_d)"
+
+#: ../src/gui/main.cpp:3128
+msgid "Add a contact to the roster"
+msgstr "રોસ્ટરનાં સપર્કને ઉમેરો"
+
+#: ../src/gui/main.cpp:3133
+msgid "Find contacts"
+msgstr "સંપર્કોને શોધો"
+
+#: ../src/gui/main.cpp:3140
+msgid "_Contact"
+msgstr "સંપર્ક (_C)"
+
+#: ../src/gui/main.cpp:3141
+msgid "Act on selected contact"
+msgstr "પસંદિત સંપર્ક પર ક્રિયા લો"
+
+#: ../src/gui/main.cpp:3147
+msgid "H_old Call"
+msgstr "કોલ ચાલુ રાખવો (_o)"
+
+#: ../src/gui/main.cpp:3147 ../src/gui/main.cpp:3616
+msgid "Hold the current call"
+msgstr "હાલનાં કોલને રોકી રાખો"
+
+#: ../src/gui/main.cpp:3151
+msgid "_Transfer Call"
+msgstr "કોલ સ્થળાંતર કરવો (_T)"
+
+#: ../src/gui/main.cpp:3152
+msgid "Transfer the current call"
+msgstr "હાલનાં કોલને બીજાને મોકલો"
+
+#: ../src/gui/main.cpp:3160
+msgid "Suspend or resume the audio transmission"
+msgstr "ઓડિયો પ્રસારણ અટકાવો અથવા આગળ મોકલો"
+
+#: ../src/gui/main.cpp:3165
+msgid "Suspend or resume the video transmission"
+msgstr "વિડિયો પ્રસારણ અટકાવો અથવા આગળ મોકલો"
+
+#: ../src/gui/main.cpp:3172
+msgid "Close the Ekiga window"
+msgstr "Ekiga વિન્ડો બંધ કરો"
+
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui-2.0.hi)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:155
+#: ../src/gui/main.cpp:3179 ../src/gui/statusicon.cpp:414
+msgid "Quit"
+msgstr "બહાર નીકળો"
+
+#: ../src/gui/main.cpp:3185
+msgid "_Configuration Assistant"
+msgstr "રૂપરેખાંકન સહાયક (_C)"
+
+#: ../src/gui/main.cpp:3186
+msgid "Run the configuration assistant"
+msgstr "રૂપરેખાંકન સહાયકને ચલાવો"
+
+#: ../src/gui/main.cpp:3194
+msgid "Edit your accounts"
+msgstr "તમારા ખાતાઓમાં ફેરફાર કરો"
+
+#: ../src/gui/main.cpp:3200
+msgid "Change your preferences"
+msgstr "તમારી પસંદગીઓ બદલો"
+
+# #-#-#-#-#  gnumeric.HEAD.hi.po (gnumeric HEAD)  #-#-#-#-#
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:86 libgnomeui/gnome-app-helper.h:519
+# #-#-#-#-#  gpdf.HEAD.hi.po (Nautilus media HEAD)  #-#-#-#-#
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:86 libgnomeui/gnome-app-helper.h:519
+# #-#-#-#-#  libgnomeui.HEAD.hi.po (libgnomeui-2.0.hi)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:86 libgnomeui/gnome-app-helper.h:519
+#: ../src/gui/main.cpp:3205
+msgid "_View"
+msgstr "દેખાવ (_V)"
+
+#: ../src/gui/main.cpp:3207
+msgid "Con_tacts"
+msgstr "સંપર્કો (_t)"
+
+#: ../src/gui/main.cpp:3207
+msgid "View the contacts list"
+msgstr "સંપર્કો યાદીને જુઓ"
+
+#: ../src/gui/main.cpp:3212
+msgid "_Dialpad"
+msgstr "ડાયલપેડ (_D)"
+
+#: ../src/gui/main.cpp:3212
+msgid "View the dialpad"
+msgstr "ડાયલપેડ જુઓ"
+
+#: ../src/gui/main.cpp:3217
+msgid "_Call History"
+msgstr "કોલ ઇતિહાસ (_C)"
+
+#: ../src/gui/main.cpp:3217
+msgid "View the call history"
+msgstr "કોલ ઇતિહાસ જુઓ"
+
+#: ../src/gui/main.cpp:3225
+msgid "_Show Call Panel"
+msgstr "કોલ પેનલને બતાવો (_S)"
+
+#: ../src/gui/main.cpp:3233
+msgid "_Local Video"
+msgstr "સ્થાનિક વિડિયો (_L)"
+
+#: ../src/gui/main.cpp:3234
+msgid "Local video image"
+msgstr "સ્થાનિક વિડિયો ચિત્ર"
+
+#: ../src/gui/main.cpp:3239
+msgid "_Remote Video"
+msgstr "દૂરસ્થ વિડિયો (_R)"
+
+#: ../src/gui/main.cpp:3240
+msgid "Remote video image"
+msgstr "દૂર વિડિયો ચિત્ર"
+
+#: ../src/gui/main.cpp:3245
+msgid "_Picture-in-Picture"
+msgstr "ચિત્ર-થી-ચિત્ર (_P)"
+
+#: ../src/gui/main.cpp:3246 ../src/gui/main.cpp:3252
+msgid "Both video images"
+msgstr "બંને વિડિયો ચિત્ર"
+
+#: ../src/gui/main.cpp:3251
+msgid "Picture-in-Picture in Separate _Window"
+msgstr "ચિત્ર-થી-ચિત્ર અલગ વિન્ડોમાં (_W)"
+
+#: ../src/gui/main.cpp:3259
+msgid "Zoom in"
+msgstr "મોટુ કરો"
+
+#: ../src/gui/main.cpp:3263
+msgid "Zoom out"
+msgstr "નાનુ કરો"
+
+#: ../src/gui/main.cpp:3267
+msgid "Normal size"
+msgstr "સામાન્ય માપ"
+
+#: ../src/gui/main.cpp:3271
+msgid "_Fullscreen"
+msgstr "સંપૂર્ણ સ્ક્રીન (_F)"
+
+#: ../src/gui/main.cpp:3271
+msgid "Switch to fullscreen"
+msgstr "પૂર્ણ સ્ક્રીનમાં બદલો"
+
+#: ../src/gui/main.cpp:3279 ../src/gui/statusicon.cpp:402
+msgid "Get help by reading the Ekiga manual"
+msgstr "Ekiga મદદગ્રંથ વાંચીને મદદ મેળવો"
+
+#: ../src/gui/main.cpp:3284 ../src/gui/statusicon.cpp:407
+msgid "View information about Ekiga"
+msgstr "Ekiga વિશેની જાણકારી જુઓ"
+
+#: ../src/gui/main.cpp:3358
+msgid "Enter a URI on the left, and click this button to place a call or to hangup"
+msgstr "ડાબી બાજુએ URI દાખલ કરો, અને કોલ કરવા માટે કે મૂકવા માટે આ બટન ક્લિક કરો"
+
+#: ../src/gui/main.cpp:3409
+msgid "Contacts"
+msgstr "સંપર્કો"
+
+#: ../src/gui/main.cpp:3432
+msgid "Dialpad"
+msgstr "ડાયલપેડ"
+
+#: ../src/gui/main.cpp:3451
+msgid "Call history"
+msgstr "કોલ ઇતિહાસ"
+
+#: ../src/gui/main.cpp:3554
+msgid "Change the volume of your soundcard"
+msgstr "તમારા સાઉન્ડકાર્ડનું વોલ્યુમ બદલો"
+
+#: ../src/gui/main.cpp:3574
+msgid "Change the color settings of your video device"
+msgstr "તમારા વીડિયો ઉપકરણના રંગ સુયોજનો બદલો"
+
+#: ../src/gui/main.cpp:3685
+msgid "Ekiga"
+msgstr "Ekiga"
+
+#. Translators:
+#. * TX is a common abbreviation for "transmit"
+#: ../src/gui/main.cpp:4297
+#, c-format
+msgid "TX: %dx%d "
+msgstr "TX: %dx%d "
+
+#. Translators:
+#. * RX is a common abbreviation for "receive"
+#: ../src/gui/main.cpp:4302
+#, c-format
+msgid "RX: %dx%d "
+msgstr "RX: %dx%d "
+
+#: ../src/gui/main.cpp:4304
+#, c-format
+msgid ""
+"Lost packets: %.1f %%\n"
+"Late packets: %.1f %%\n"
+"Out of order packets: %.1f %%\n"
+"Jitter buffer: %d ms%s%s%s"
+msgstr ""
+"ખોવાયેલ પેકેટો: %.1f %%\n"
+"મોડા પડેલ પેકેટો: %.1f %%\n"
+"ક્રમ બહારના પેકેટો: %.1f %%\n"
+"જીટર બફર: %d ms%s%s%s"
+
+#: ../src/gui/main.cpp:4425
+msgid "Prints debug messages in the console (level between 1 and 5)"
+msgstr "કન્સોલમાં ડિબગ સંદેશાઓ છાપે છે (૧ અને ૫ વચ્ચેનું સ્તર)"
+
+#: ../src/gui/main.cpp:4430
+msgid "Prints user plane debug messages in the console (level between 1 and 4)"
+msgstr "કન્સોલમાં વપરાશકર્તા સાદા ડિબગ સંદેશાઓ છાપે છે (સ્તર ૧ અને ૪ વચ્ચે)"
+
+#: ../src/gui/main.cpp:4435
+msgid "Makes Ekiga call the given URI"
+msgstr "Ekiga કોલ આપેલ URI ને કરે છે"
+
+#: ../src/gui/main.cpp:4554
+msgid "No usable audio plugin detected"
+msgstr "કોઈ ઉપયોગી ઓડિયો પ્લગઈન મળ્યું નથી"
+
+#: ../src/gui/main.cpp:4555
+msgid ""
+"Ekiga didn't find any usable audio plugin. Make sure that your installation "
+"is correct."
+msgstr "Ekiga કોઈ ઉપયોગી ઓડિયો પ્લગઈન શોધી શક્યુ નથી. ખાતરી કરો કે સ્થાપન સાચું છે."
+
+#: ../src/gui/main.cpp:4558
+msgid "No usable audio codecs detected"
+msgstr "કોઈ વાપરી શકાય તેવા ઓડિયો કોડેક મળ્યા નહિં"
+
+#: ../src/gui/main.cpp:4559
+msgid ""
+"Ekiga didn't find any usable audio codec. Make sure that your installation "
+"is correct."
+msgstr "Ekiga ને ઉપયોગી ઓડિયો કોડેક મળ્યા નહિં. ખાતરી કરો કે તમારું સ્થાપન યોગ્ય છે."
+
+#: ../src/gui/preferences.cpp:381
+msgid "Play sound for new voice mails"
+msgstr "નવા અવાજ મેઈલો માટે ધ્વનિ વગાડો"
+
+#: ../src/gui/preferences.cpp:391
+msgid "Play sound for new instant messages"
+msgstr "નવા તુરંત સંદેશાઓ માટે ધ્વનિ વગાડો"
+
+#: ../src/gui/preferences.cpp:457
+msgid "_Full name:"
+msgstr "સંપૂર્ણ નામ (_F):"
+
+#: ../src/gui/preferences.cpp:475
+msgid "User Interface"
+msgstr "વપરાશકર્તા ઈન્ટરફેસ"
+
+#: ../src/gui/preferences.cpp:477
+msgid "Start _hidden"
+msgstr "અદ્રશ્ય શરુ કરો (_h)"
+
+#: ../src/gui/preferences.cpp:479
+msgid "Show offline _contacts"
+msgstr "ઓફલાઇન સંપર્કોને બતાવો (_c)"
+
+#: ../src/gui/preferences.cpp:484
+msgid "Video Display"
+msgstr "વિડિયો દેખાવ"
+
+#: ../src/gui/preferences.cpp:486
+msgid "Place windows displaying video _above other windows"
+msgstr "બીજી વિન્ડોની ઉપર વિડીયો દર્શાવવા માટે વિન્ડો મૂકો"
+
+#: ../src/gui/preferences.cpp:490
+msgid "Network Settings"
+msgstr "નેટવર્ક સુયોજનો"
+
+#: ../src/gui/preferences.cpp:492
+msgid "Disable network _detection"
+msgstr "નેટવર્ક શોધક નિષ્ક્રિય કરો (_d)"
+
+#: ../src/gui/preferences.cpp:503
+msgid "Call Forwarding"
+msgstr "કોલને આગળ ધપાવો"
+
+#: ../src/gui/preferences.cpp:505
+msgid "_Always forward calls to the given host"
+msgstr "કોલને હંમેશા આપેલ યજમાન તરફ આગળ ધપાવો (_A)"
+
+#: ../src/gui/preferences.cpp:505
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the protocol settings"
+msgstr ""
+"જો સક્રિય કરેલ હોય, તો બધા આવતા કોલ યજમાનને આગળ ધપાવવામાં આવશે કે જે પ્રોટોકોલ "
+"સુયોજનોમાં સ્પષ્ટ થયેલ છે"
+
+#: ../src/gui/preferences.cpp:507
+msgid "Forward calls to the given host if _no answer"
+msgstr "જો કોઇ જવાબ ના મળે તો કોલને આપેલ યજમાન તરફ આગળ ધપાવો (_n)"
+
+#: ../src/gui/preferences.cpp:507
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the protocol settings if you do not answer the call"
+msgstr ""
+"જો સક્રિય કરેલ હોય, તો બધા આવતા કોલ યજમાનને આગળ ધપાવવામાં આવશે કે જે પ્રોટોકોલ "
+"સુયોજનોમાં સ્પષ્ટ થયેલ હોય જો તમે કોલને જવાબ આપશો નહિં"
+
+#: ../src/gui/preferences.cpp:509
+msgid "Forward calls to the given host if _busy"
+msgstr "જો વ્યસ્ત હોય તો કોલ ને આપેલ યજમાન તરફ આગળ ધપાવો (_b)"
+
+#: ../src/gui/preferences.cpp:509
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the protocol settings if you already are in a call or if you "
+"are in Do Not Disturb mode"
+msgstr ""
+"જો સક્રિય કરેલ હોય, બધા આવતા કોલ યજમાનને આગળ ધપાવવામાં આવશે કે જે પ્રોટોકોલ સુયોજનોમાં "
+"સ્પષ્ટ થયેલ હોય છે જો તમે કોલમાં પહેલાથી જ હોય અથવા જો તમે હેરાન કરશો નહિં સ્થિતિમાં હોય"
+
+#: ../src/gui/preferences.cpp:513 ../src/gui/preferences.cpp:1361
+msgid "Call Options"
+msgstr "કોલ વિકલ્પો"
+
+#. Add all the fields
+#: ../src/gui/preferences.cpp:516
+msgid "Timeout to reject or forward unanswered incoming calls (in seconds):"
+msgstr ""
+"નહિં જવાબ અપાયેલ આવતા કોલને અવગણવા અથવા આગળ ધપાવવા માટેનો સમયસમાપ્તિ ગાળો "
+"(સેકન્ડોમાં):"
+
+#: ../src/gui/preferences.cpp:548
+msgid "Ekiga Sound Events"
+msgstr "Ekiga ધ્વનિ ઘટનાઓ"
+
+#: ../src/gui/preferences.cpp:598
+msgid "Event"
+msgstr "ઘટના"
+
+#: ../src/gui/preferences.cpp:610
+msgid "Choose a sound"
+msgstr "સાઉન્ડ પસંદ કરો"
+
+#: ../src/gui/preferences.cpp:615
+msgid "Wavefiles"
+msgstr "Wavefiles"
+
+#: ../src/gui/preferences.cpp:624 ../src/gui/preferences.cpp:643
+msgid "Play"
+msgstr "વગાડો"
+
+# src/gconf-key-editor.c:94
+#: ../src/gui/preferences.cpp:664
+msgid "String"
+msgstr "શબ્દમાળા"
+
+#: ../src/gui/preferences.cpp:665
+msgid "Tone"
+msgstr "ટોન"
+
+#: ../src/gui/preferences.cpp:666 ../src/gui/preferences.cpp:715
+msgid "RFC2833"
+msgstr "RFC2833"
+
+#: ../src/gui/preferences.cpp:667
+msgid "Q.931"
+msgstr "Q.931"
+
+#: ../src/gui/preferences.cpp:673 ../src/gui/preferences.cpp:725
+msgid "Misc Settings"
+msgstr "મિશ્રિત સુયોજનો"
+
+#: ../src/gui/preferences.cpp:676 ../src/gui/preferences.cpp:730
+msgid "Forward _URI:"
+msgstr "URL આગળ ધપાવો (_U):"
+
+#: ../src/gui/preferences.cpp:685
+msgid "Advanced Settings"
+msgstr "ઉન્નત ગોઠવણી"
+
+#. The toggles
+#: ../src/gui/preferences.cpp:688
+msgid "Enable H.245 _tunneling"
+msgstr "H.245 ટનલિંગ કાર્યરત કરો (_t)"
+
+#: ../src/gui/preferences.cpp:690
+msgid "Enable _early H.245"
+msgstr "વહેલુ H.245 કાર્યરત કરો (_e)"
+
+#: ../src/gui/preferences.cpp:692
+msgid "Enable fast _start procedure"
+msgstr "ઝડપી શરુઆત પ્રક્રિયા કાર્યરત કરો (_s)"
+
+#: ../src/gui/preferences.cpp:692
+msgid ""
+"Connection will be established in Fast Start mode. Fast Start is a new way "
+"to start calls faster that was introduced in H.323v2. It is not supported by "
+"Netmeeting and using both Fast Start and H.245 Tunneling can crash some "
+"versions of Netmeeting."
+msgstr ""
+"ઝડપી શરુઆતની સ્થિતીમાં સંપર્ક સાધો. ઝડપી કોલની શરુઆત માટેનોનવો રસ્તો ઝડપી શરુઆત છે કે જે "
+"H.323v2 માં દર્શાવાયો હતો. તેને નેટ મંત્રણાનો ટેકો નથી અને ઝડપી શરુઆત અને H.245 ટનલિંગના "
+"ઉપયોગથી નેટ મંત્રણાની અમુક આવૃતિઓ નાશ પામી શકે છે."
+
+#: ../src/gui/preferences.cpp:698 ../src/gui/preferences.cpp:738
+msgid "DTMF Mode"
+msgstr "DTMF સ્થિતિ"
+
+#: ../src/gui/preferences.cpp:700 ../src/gui/preferences.cpp:740
+msgid "_Send DTMF as:"
+msgstr "DTMF આ રીતે મોકલો (_S):"
+
+#: ../src/gui/preferences.cpp:700 ../src/gui/preferences.cpp:740
+msgid "This allows you to set the mode for DTMFs sending."
+msgstr "આ DTMFs મોકલવા માટે સ્થિતિ સુયોજિત કરવા માટે પરવાનગી આપે છે."
+
+#: ../src/gui/preferences.cpp:716
+msgid "INFO"
+msgstr "INFO"
+
+#: ../src/gui/preferences.cpp:727
+msgid "_Outbound Proxy:"
+msgstr "આઉટબાઉન્ડ પ્રોક્સી (_O):"
+
+#: ../src/gui/preferences.cpp:768
+msgid "Ringing Device"
+msgstr "રીગીંગ ઉપકરણ"
+
+#: ../src/gui/preferences.cpp:768
+msgid "Select the ringing audio device to use"
+msgstr "ઓડિયો ઉપકરણ વાપરવા માટે રીગીંગ પસંદ કરો"
+
+#: ../src/gui/preferences.cpp:770
+msgid "Output device:"
+msgstr "આઉટપુટ ઉપકરણ:"
+
+#: ../src/gui/preferences.cpp:777 ../src/gui/preferences.cpp:928
+msgid "Input device:"
+msgstr "ઈનપુટ ઉપકરણ:"
+
+#. That button will refresh the device list
+#: ../src/gui/preferences.cpp:782 ../src/gui/preferences.cpp:939
+msgid "_Detect devices"
+msgstr "ઉપકરણો શોધો (_D)"
+
+#: ../src/gui/preferences.cpp:782 ../src/gui/preferences.cpp:939
+msgid "Click here to refresh the device list."
+msgstr "ઉપકરણની યાદી ફરી તાજી કરવા માટે અહીં ક્લિક કરો."
+
+#: ../src/gui/preferences.cpp:906
+msgid "PAL (Europe)"
+msgstr "PAL (યુરોપ)"
+
+#: ../src/gui/preferences.cpp:907
+msgid "NTSC (America)"
+msgstr "NTSC (અમેરિકા)"
+
+#: ../src/gui/preferences.cpp:908
+msgid "SECAM (France)"
+msgstr "SECAM (ફ્રાંસ)"
+
+#: ../src/gui/preferences.cpp:909
+msgid "Auto"
+msgstr "આપોઆપ"
+
+#. Video Channel
+#: ../src/gui/preferences.cpp:932
+msgid "Channel:"
+msgstr "માધ્યમ:"
+
+#: ../src/gui/preferences.cpp:934
+msgid "Size:"
+msgstr "માપ:"
+
+#: ../src/gui/preferences.cpp:934
+msgid "Select the transmitted video size"
+msgstr "પરિવહન થયેલ વીડિયો માપ પસંદ કરો"
+
+#: ../src/gui/preferences.cpp:936
+msgid "Format:"
+msgstr "બંધારણ:"
+
+#: ../src/gui/preferences.cpp:963 ../src/gui/preferences.cpp:1002
+#: ../src/gui/preferences.cpp:1386 ../src/gui/preferences.cpp:1396
+msgid "Codecs"
+msgstr "કોડેકો"
+
+#: ../src/gui/preferences.cpp:976 ../src/gui/preferences.cpp:1015
+msgid "Settings"
+msgstr "સુયોજનો"
+
+#. Translators: the full sentence is Automatically adjust jitter buffer
+#. between X and Y ms
+#: ../src/gui/preferences.cpp:980
+msgid "Enable silence _detection"
+msgstr "શાંતિ શોધક કાર્યરત કરો (_d)"
+
+#: ../src/gui/preferences.cpp:980
+msgid "If enabled, use silence detection with the codecs supporting it."
+msgstr "જો સક્રિય કરેલ હોય, તો તેને આધાર આપતા કોડેક માટે શાંતિ શોધ વાપરો."
+
+#: ../src/gui/preferences.cpp:982
+msgid "Enable echo can_celation"
+msgstr "પડઘા રદ કરવાનું સક્રિય કરો (_c)"
+
+#: ../src/gui/preferences.cpp:982
+msgid "If enabled, use echo cancelation."
+msgstr "જો સક્રિય કરેલ હોય, તો પડઘા રદ કરવાનું વાપરો."
+
+#: ../src/gui/preferences.cpp:984
+msgid "Maximum _jitter buffer (in ms):"
+msgstr "જીટર માટેની મહત્તમ (_j) (ms માં):"
+
+#: ../src/gui/preferences.cpp:984
+msgid "The maximum jitter buffer size for audio reception (in ms)."
+msgstr "ઓડિયો મેળવવા માટે જીટર માટેની મહત્તમ અનામત જગ્યાનું કદ."
+
+#. Translators: the full sentence is Keep a minimum video quality of X %
+#: ../src/gui/preferences.cpp:1018
+msgid "Picture Quality"
+msgstr "ચિત્રની ગુણવત્તા"
+
+#: ../src/gui/preferences.cpp:1018
+msgid ""
+"Choose if you want to guarantee a minimum image quality (possibly leading to "
+"dropped frames in order not to surpass the bitrate limit) or if you prefer "
+"to keep the frame rate."
+msgstr ""
+"પસંદ કરો કે શું તમે ન્યૂનતમ ચિત્ર ગુણવત્તાની ગેરંટી આપવા માંગો છો (સંભવિતપણે બીટદર મર્યાદા "
+"નહિં ઓળંગવામાં મૂકાયેલ ચોકઠાંઓની આગેવાની લઈને) કે પછી શું તમે એ જ ચોકઠાં દર જાળવવા માંગો "
+"છો."
+
+#: ../src/gui/preferences.cpp:1020
+msgid "Maximum video _bitrate (in kbits/s):"
+msgstr "મહત્તમ વિડિઓ બીટદર (_b) (kbits/s માં):"
+
+#: ../src/gui/preferences.cpp:1020
+msgid ""
+"The maximum video bitrate in kbits/s. The video quality and the effective "
+"frame rate will be dynamically adjusted to keep the bitrate at the given "
+"value."
+msgstr ""
+"મહત્તમ વીડિયો બીટદર kbits/s માં. વીડિયો ગુણવત્તા અને અસરકારક ચોકઠાં દર આપેલ કિંમતે "
+"બીટદર જાળવવા માટે વૈશ્વિકપણે સંતુલિત કરવામાં આવશે."
+
+#: ../src/gui/preferences.cpp:1333
+msgid "Ekiga Preferences"
+msgstr "Ekiga પસંદગીઓ"
+
+#: ../src/gui/preferences.cpp:1351
+msgid "General"
+msgstr "સામાન્ય"
+
+#: ../src/gui/preferences.cpp:1352
+msgid "Personal Data"
+msgstr "અંગત માહિતીિ"
+
+#: ../src/gui/preferences.cpp:1357
+msgid "General Settings"
+msgstr "સામાન્ય સુયોજનો"
+
+#: ../src/gui/preferences.cpp:1366
+msgid "Sound Events"
+msgstr "ધ્વનિ ઘટનાઓ"
+
+#: ../src/gui/preferences.cpp:1370
+msgid "Protocols"
+msgstr "પ્રોટોકોલો"
+
+#: ../src/gui/preferences.cpp:1372
+msgid "SIP Settings"
+msgstr "SIP સુયોજનો"
+
+#: ../src/gui/preferences.cpp:1377
+msgid "H.323 Settings"
+msgstr "H.323 સુયોજનો"
+
+#: ../src/gui/preferences.cpp:1381
+msgid "Audio"
+msgstr "ઓડિયો"
+
+#: ../src/gui/preferences.cpp:1382 ../src/gui/preferences.cpp:1392
+msgid "Devices"
+msgstr "ઉપકરણો"
+
+#: ../src/gui/preferences.cpp:1391
+msgid "Video"
+msgstr "વિડિયો"
+
+#: ../src/gui/statusicon.cpp:306
+#, c-format
+msgid "You have %d message"
+msgid_plural "You have %d messages"
+msgstr[0] "તમારી પાસે %d સંદેશો છે"
+msgstr[1] "તમારી પાસે %d સંદેશાઓ છે"
+
+#: ../src/gui/statusmenu.cpp:87
+msgid "Online"
+msgstr "ઓનલાઇન"
+
+#: ../src/gui/statusmenu.cpp:88
+msgid "Away"
+msgstr "દૂર"
+
+#: ../src/gui/statusmenu.cpp:89
+msgid "Do Not Disturb"
+msgstr "પરેશાન કરશો નહિં"
+
+#: ../src/gui/statusmenu.cpp:387
+msgid "Custom message..."
+msgstr "કસ્ટમ સંદેશ..."
+
+#: ../src/gui/statusmenu.cpp:430
+msgid "Clear"
+msgstr "સાફ કરો"
+
+#. Build the dialog
+#: ../src/gui/statusmenu.cpp:521 ../src/gui/statusmenu.cpp:671
+msgid "Custom Message"
+msgstr "કસ્ટમ સંદેશ"
+
+#: ../src/gui/statusmenu.cpp:537
+msgid "Delete custom messages:"
+msgstr "કસ્ટમ સંદેશાઓને દૂર કરો:"
+
+#: ../src/gui/statusmenu.cpp:692
+msgid "Define a custom message:"
+msgstr "કસ્ટમ સંદેશને વ્યાખ્યાયિત કરો:"
+

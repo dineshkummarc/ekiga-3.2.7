@@ -1,0 +1,3312 @@
+# translation of gnomemeeting.gnome_2_4.po to belarusian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Vital Khilko <dojlid@mova.org>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomemeeting.gnome_2_4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-08-20 12:34+0200\n"
+"PO-Revision-Date: 2003-08-25 17:20+0300\n"
+"Last-Translator: Vital Khilko <dojlid@mova.org>\n"
+"Language-Team: belarusian <i18n@mova.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0\n"
+
+#. Add the window icon and title
+#: gnomemeeting.desktop.in.h:1 src/main_window.cpp:1274
+msgid "GnomeMeeting"
+msgstr "Нарада для Gnome"
+
+#: gnomemeeting.desktop.in.h:2
+msgid "Talk to people over the internet"
+msgstr "Размова з людзьмі праз інтарнэт"
+
+#: gnomemeeting.desktop.in.h:3
+msgid "Video Conferencing"
+msgstr "Відэа-канфэрэнцыя"
+
+#: gnomemeeting.schemas.in.in.h:1
+msgid "1: 56Kbps, 2: ISDN, 3:DSL, 4: LAN, 5: Custom"
+msgstr "1: 56Kб/с, 2: ISDN, 3:DSL, 4: LAN, 5: Асабісты выбар"
+
+#: gnomemeeting.schemas.in.in.h:2
+msgid "Always forward calls to the given host"
+msgstr "Заўсёды перанакіроўваць выклікі даны вузел"
+
+#: gnomemeeting.schemas.in.in.h:3
+msgid "Audio player"
+msgstr "Прайграваньне гуку"
+
+#: gnomemeeting.schemas.in.in.h:4
+msgid "Audio player mixer"
+msgstr "Мікшар прайграваньня гуку"
+
+#: gnomemeeting.schemas.in.in.h:5
+msgid "Audio recorder"
+msgstr "Запіс гуку"
+
+#: gnomemeeting.schemas.in.in.h:6
+msgid "Audio recorder mixer"
+msgstr "Мікшар запісу гуку"
+
+#: gnomemeeting.schemas.in.in.h:7
+msgid "Automatic echo cancellation"
+msgstr "Аўтаматычнае падаўленьне рэха"
+
+#: gnomemeeting.schemas.in.in.h:8 src/menu.cpp:911
+msgid "Automatically answer calls"
+msgstr "Аўтаматычна адказваць на выклікі"
+
+#: gnomemeeting.schemas.in.in.h:9 src/pref_window.cpp:829
+msgid "Automatically clear the text chat at the end of calls"
+msgstr "Аўтаматычна ачышчаць тэкст"
+
+#: gnomemeeting.schemas.in.in.h:10
+msgid "Change the control panel section"
+msgstr "Зьмяніць падзел панэлі кіраваньня"
+
+#: gnomemeeting.schemas.in.in.h:11
+msgid "Change the control panel section (4 means that the control panel is off)"
+msgstr "Зьмяняе падзел панэлі кіраваньня (4 выключае панэлю кіраваньня)"
+
+#: gnomemeeting.schemas.in.in.h:12 src/pref_window.cpp:1391
+msgid ""
+"Choose the number of blocks (that have not changed) transmitted with each "
+"frame. These blocks fill in the background."
+msgstr "Выбярыце колькасьць блёкаў якія будуць перадавацца ў адным кадры. Гэтыя блёкі запаўняюць тло."
+
+#: gnomemeeting.schemas.in.in.h:13
+msgid "Color Format"
+msgstr "Фармат колеру"
+
+#: gnomemeeting.schemas.in.in.h:14
+msgid "Color Format for the video palette"
+msgstr "Фармат колеру для палітры відарыса"
+
+#: gnomemeeting.schemas.in.in.h:15 src/ldap_window.cpp:2572
+msgid "Comment"
+msgstr "Камэнтар"
+
+#: gnomemeeting.schemas.in.in.h:16 src/pref_window.cpp:936
+msgid ""
+"Connection will be established in Fast Start mode. Fast Start is a new way "
+"to start calls faster that was introduced in H.323v2. It is not supported by "
+"Netmeeting and using both Fast Start and H.245 Tunnelling can crash some "
+"versions of Netmeeting."
+msgstr ""
+"Злучэньне будзе ўсталявана ў рэжыме \"Хуткі старт\". Гэта новы рэжым "
+"хуткай усталёўкі злучэньня, які ўпершыню быў прадстаўлены ў H.323v2. Ён "
+"не падтрымліваецца Netmeeting, і адначасовае выкарыстаньне хуткага старту "
+"й тунэляваньня H.245 можа прывесьці да абвалу пэўных вэрсыяў Netmeeting."
+
+#: gnomemeeting.schemas.in.in.h:17
+msgid "Country code"
+msgstr "Код краіны"
+
+#: gnomemeeting.schemas.in.in.h:18
+msgid "Display a popup window when receiving a call"
+msgstr "Адлюстроўваць раптоўнае акно калі атрыманы выклік"
+
+#: gnomemeeting.schemas.in.in.h:19 src/menu.cpp:446
+msgid "Do not disturb"
+msgstr "Не турбаваць"
+
+#: gnomemeeting.schemas.in.in.h:20
+msgid "E-mail address"
+msgstr "Электроная скрыня"
+
+#: gnomemeeting.schemas.in.in.h:21
+msgid "Enable 'Fast Start'"
+msgstr "Уключыць \"Хуткі старт\""
+
+#: gnomemeeting.schemas.in.in.h:22
+msgid "Enable H.245 tunnelling"
+msgstr "Уключыць тунэляваньне H.245"
+
+#: gnomemeeting.schemas.in.in.h:23
+msgid "Enable IP translation"
+msgstr "Уключыць трансьляцыю ІР"
+
+#: gnomemeeting.schemas.in.in.h:24
+msgid "Enable bilinear filtering on displayed video"
+msgstr "Уключыць білінейную фільтрацыю відэа"
+
+#: gnomemeeting.schemas.in.in.h:25 src/pref_window.cpp:824
+msgid ""
+"Enable or disable bilinear interpolation when rendering video images (this "
+"has no effect in fullscreen mode)."
+msgstr ""
+"Уключэньне ці выключэньне білінейнае інтэрпаляцыі відарыса (не мае эфэкту ў часе "
+"адлюстраваньня відэа на ўвесь экран."
+
+#: gnomemeeting.schemas.in.in.h:26
+msgid "Enable registering"
+msgstr "Уключыць рэгістраваньне"
+
+#: gnomemeeting.schemas.in.in.h:27
+msgid "Enable silence detection"
+msgstr "Уключыць вызначэньне цішыні"
+
+#: gnomemeeting.schemas.in.in.h:28
+msgid "Enable video reception"
+msgstr "Уключыць атрыманьне відэа"
+
+#: gnomemeeting.schemas.in.in.h:29
+msgid "Enable video transmission"
+msgstr "Уключыць перадачу відэа"
+
+#: gnomemeeting.schemas.in.in.h:30 src/pref_window.cpp:747
+msgid "Enter a comment about yourself for the user directory."
+msgstr "Увядзіце камэнтар аб сабе для каталёга карыстальніка."
+
+#: gnomemeeting.schemas.in.in.h:31 src/pref_window.cpp:1022
+msgid ""
+"Enter the public IP of your NAT/PAT router if you want to use IP "
+"translation. If you are registered to ils.seconix.com, GnomeMeeting will "
+"automatically fetch the public IP using the ILS service."
+msgstr ""
+"Увядзіце публічны ІР шляхавіка NAT/PAT калі вы жадаеце выкарыстоўваць "
+"трансьляваньне ІР. Калі вы зарэгістраваныя на ils.seconix.com, GnomeMeeting "
+"будзе аўтаматычна атрымліваць ІР карыстаючыся паслугай ILS."
+
+#: gnomemeeting.schemas.in.in.h:32 src/pref_window.cpp:742
+msgid "Enter your e-mail address."
+msgstr "Пазначце вашу электроную скрыню."
+
+#: gnomemeeting.schemas.in.in.h:33 src/pref_window.cpp:732
+msgid "Enter your first name."
+msgstr "Пазначце вашае імя."
+
+#: gnomemeeting.schemas.in.in.h:34 src/pref_window.cpp:737
+msgid "Enter your last name."
+msgstr "Пазначце ваша прозьвішча."
+
+#: gnomemeeting.schemas.in.in.h:35 src/pref_window.cpp:752
+msgid "Enter your location (country or city) for the user directory."
+msgstr "Увядзіце вашае разьмяшчэньне (краіна ці горад) для каталёга карыстальнікаў."
+
+#: gnomemeeting.schemas.in.in.h:36
+msgid "First name"
+msgstr "Імя"
+
+#: gnomemeeting.schemas.in.in.h:37
+msgid "Forward calls to host"
+msgstr "Перанакіроўваць выклік да вузла"
+
+#: gnomemeeting.schemas.in.in.h:38
+msgid "Forward calls to the given host if busy"
+msgstr "Перанакіроўваць выклікі на даны вузел, калі лінія занятая"
+
+#: gnomemeeting.schemas.in.in.h:39
+msgid "Forward calls to the given host if no answer"
+msgstr "Перанакіроўваць выклікі на даны вузел, калі няма адказу"
+
+#: gnomemeeting.schemas.in.in.h:40
+msgid "Fullscreen height"
+msgstr "Вышыня экрана"
+
+#: gnomemeeting.schemas.in.in.h:41
+msgid "Fullscreen width"
+msgstr "Шырыня экрана"
+
+#: gnomemeeting.schemas.in.in.h:42 src/pref_window.cpp:963
+msgid "Gatekeeper ID"
+msgstr "Gatekeeper ID"
+
+#: gnomemeeting.schemas.in.in.h:43
+msgid "Gatekeeper alias"
+msgstr "Мянушка Gatekeeper"
+
+#: gnomemeeting.schemas.in.in.h:44 src/pref_window.cpp:962
+msgid "Gatekeeper host"
+msgstr "Вузел Gatekeeper"
+
+#: gnomemeeting.schemas.in.in.h:45
+msgid "Gatekeeper password"
+msgstr "Пароль Gatekeeper"
+
+#: gnomemeeting.schemas.in.in.h:46
+msgid ""
+"If enabled, GnomeMeeting will play a sound when receiving an incoming call "
+"(the sound to play is chosen in the Gnome Control Center)."
+msgstr ""
+"Калі выключана, пры атрыманьні уваходнага выкліку нарада для Gnome будзе "
+"аднаўляць гук (гук выбіраецца ў Цэнтары кіраваньня GNOME)."
+
+#: gnomemeeting.schemas.in.in.h:47 src/pref_window.cpp:788
+msgid "If enabled, GnomeMeeting will start hidden. The docklet must be enabled."
+msgstr ""
+"Калі гэты парамэтар уключаны, нарада для Gnome будзе запускацца мінімізаванай. "
+"Пры гэтым значка панэлі мусіць быць уключана."
+
+#: gnomemeeting.schemas.in.in.h:48 src/pref_window.cpp:802
+msgid "If enabled, a popup window will be displayed when receiving an incoming call."
+msgstr "Калі уключана, раптоўнае акенца будзе зьяўляцца кожнага разу ў час атрыманьня выкліку."
+
+#: gnomemeeting.schemas.in.in.h:49 src/pref_window.cpp:901
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you already are in a call or if you are in "
+"Do Not Disturb mode."
+msgstr ""
+"Калі ўключана, усе ўваходныя выклікі будуць перанакіроўвацца на пазначаны "
+"вузел, калі актыўны іншы выклік (лінія занята) ці вы ў рэжыме \"Не турбаваць\"."
+
+#: gnomemeeting.schemas.in.in.h:50 src/pref_window.cpp:898
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you do not answer the call."
+msgstr ""
+"Калі уключана, усе ўваходныя выклікі будуць перанакіроўвацца да вузла які пазначаны "
+" ў гэтым поле ў выпадку калі вы не адказваеце на выклік."
+
+#: gnomemeeting.schemas.in.in.h:51 src/pref_window.cpp:895
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below."
+msgstr ""
+"Калі уключана, усе ўваходныя выклікі будуць перанакіроўвацца да вузла які пазначаны "
+" ў гэтым поле."
+
+#: gnomemeeting.schemas.in.in.h:52 src/pref_window.cpp:1365
+msgid "If enabled, allows video to be received during a call."
+msgstr "Калі ўключана, дазваляецца атрымліваць відэа ў часе далучэньня."
+
+#: gnomemeeting.schemas.in.in.h:53 src/pref_window.cpp:796
+msgid "If enabled, incoming calls will be automatically answered."
+msgstr "Калі ўключана, уваходныя выклікі будуць прыймаюцца аўтаматычна."
+
+#: gnomemeeting.schemas.in.in.h:54 src/pref_window.cpp:799
+msgid "If enabled, incoming calls will be automatically refused."
+msgstr "Калі ўключана, уваходныя выклікі будуць аўтаматычна адкідацца."
+
+#: gnomemeeting.schemas.in.in.h:55 src/pref_window.cpp:858
+msgid "If enabled, register with the selected user directory."
+msgstr "Калі ўключана, рэгіструецца ў выбраным каталёзе карыстальніка."
+
+#: gnomemeeting.schemas.in.in.h:56 src/pref_window.cpp:785
+msgid "If enabled, the splash screen will be displayed when GnomeMeeting starts."
+msgstr "Калі ўключана, адлюстроўваецца застаўка пад час загрузкі GnomeMeeting."
+
+#: gnomemeeting.schemas.in.in.h:57 src/pref_window.cpp:829
+msgid "If enabled, the text chat will automatically be cleared at the end of calls."
+msgstr "Калі ўключана, акно тэкставае размовы будзе аўтаматычна ачышчацца пасьля завяршэньня сэанса."
+
+#: gnomemeeting.schemas.in.in.h:58 src/pref_window.cpp:1335
+msgid "If enabled, use silence detection with the GSM and G.711 codecs."
+msgstr "Калі ўключана, выкарыстоўваецца вызначэньне цішыні з выкарыстаньнем кодэкаў GSM і G.711."
+
+#: gnomemeeting.schemas.in.in.h:59 src/pref_window.cpp:1362
+msgid "If enabled, video is transmitted during a call."
+msgstr "Калі ўключана, відарыс перадаецца ўвесь час сэансу."
+
+#: gnomemeeting.schemas.in.in.h:60 src/pref_window.cpp:861
+msgid ""
+"If enabled, your details are shown to people browsing the user directory. If "
+"disabled, you are not visible to users browsing the user directory, but they "
+"can still use the callto URL to call you."
+msgstr ""
+"Калі ўключана, вашыя зьвесткі можна будзе прагледзіць іншымі людзьмі ў "
+"каталёзе карыстальніка. Калі выключана, вы не будзіце бачныя іншымі асобамі, але яны "
+"й не здолеюць выклікаць вас."
+
+#: gnomemeeting.schemas.in.in.h:61
+msgid "Kind of network selected in the druid"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:62
+msgid "Last name"
+msgstr "Прозьвішча"
+
+#: gnomemeeting.schemas.in.in.h:63
+msgid "Listen Port"
+msgstr "Слухаць порт"
+
+#: gnomemeeting.schemas.in.in.h:64
+msgid "Local video window height"
+msgstr "Вышыня акна мясцовага відэа"
+
+#: gnomemeeting.schemas.in.in.h:65
+msgid "Local video window width"
+msgstr "Шырыня акна мясцовага відэа"
+
+#: gnomemeeting.schemas.in.in.h:66 src/ldap_window.cpp:2585
+msgid "Location"
+msgstr "Разьмяшчэньне"
+
+#: gnomemeeting.schemas.in.in.h:67
+msgid "Maximum jitter buffer"
+msgstr "Максымальны памер буфэра дрыжаньня"
+
+#: gnomemeeting.schemas.in.in.h:68
+msgid "Maximum video bandwidth"
+msgstr "Максымальная паласа прапусканьня відэа"
+
+#: gnomemeeting.schemas.in.in.h:69
+msgid "Minimum jitter buffer"
+msgstr "Мінімальны памер буфэра дрыжаньня"
+
+#: gnomemeeting.schemas.in.in.h:70
+msgid "Minimum transmitted FPS"
+msgstr "Мінімальная часьціня кадраў для перадачы"
+
+#: gnomemeeting.schemas.in.in.h:71
+msgid "Minimum transmitted video quality"
+msgstr "Мінімальная якасьць відэа для перадачы"
+
+#: gnomemeeting.schemas.in.in.h:72
+msgid "Number of entries to store in history boxes"
+msgstr "Колькасьць запісаў для захаваньня ў часопісе"
+
+#: gnomemeeting.schemas.in.in.h:73
+msgid "Number of frames for G.711"
+msgstr "Колькасьць кадраў для G.711"
+
+#: gnomemeeting.schemas.in.in.h:74
+msgid "Number of frames for GSM"
+msgstr "Колькасьць кадраў для GSM"
+
+#: gnomemeeting.schemas.in.in.h:75
+msgid "Number of frames transmitted in each packet for the G.711 codec."
+msgstr "Колькасьць кадраў перадачы ў кожным пакеце для G.711 кадаваньня"
+
+#: gnomemeeting.schemas.in.in.h:76
+msgid "Number of frames transmitted in each packet for the GSM codec."
+msgstr "Колькасьць кадраў перадачы ў кожным пакеце для GSM кадаваньня"
+
+#: gnomemeeting.schemas.in.in.h:77
+msgid "Play a sound on incoming calls"
+msgstr "Граць гук у час уваходных выклікаў"
+
+#: gnomemeeting.schemas.in.in.h:78
+msgid "Public IP of the NAT/PAT router"
+msgstr "Публічны ІР шляхавіка NAT/PAT"
+
+#: gnomemeeting.schemas.in.in.h:79
+msgid "Received Video Quality Hint"
+msgstr "Якасьць відэа, якое прыймаецца"
+
+#: gnomemeeting.schemas.in.in.h:80
+msgid "Registering method"
+msgstr "Мэтад рэгістрацыі"
+
+#: gnomemeeting.schemas.in.in.h:81 src/pref_window.cpp:990
+msgid "Registering method to use"
+msgstr "Мэтад рэгістрацыі для выкарыстаньня"
+
+#: gnomemeeting.schemas.in.in.h:82
+msgid "Remote video window height"
+msgstr "Вышыня акна аддаленага відэа"
+
+#: gnomemeeting.schemas.in.in.h:83
+msgid "Remote video window width"
+msgstr "Шырыня акна аддаленага відэа"
+
+#: gnomemeeting.schemas.in.in.h:84
+msgid "Revision of the schema file"
+msgstr "Вэрсыя файла схемы"
+
+#: gnomemeeting.schemas.in.in.h:85 src/druid.cpp:792 src/pref_window.cpp:1060
+msgid "Select the audio player device to use."
+msgstr "Выбярыце прыладу прайграваньня гуку для выкарыстаньня."
+
+#: gnomemeeting.schemas.in.in.h:86 src/druid.cpp:799 src/pref_window.cpp:1067
+msgid "Select the audio recorder device to use."
+msgstr "Выбярыце прыладу запісу гуку для выкарыстаньня."
+
+#: gnomemeeting.schemas.in.in.h:87 src/pref_window.cpp:1140
+msgid "Select the format for video cameras. (Does not apply to most USB cameras)."
+msgstr "Выбярыце фармат для відэакамэраў. (Не ўжываецца на большасьці камэраў USB)."
+
+#: gnomemeeting.schemas.in.in.h:88 src/druid.cpp:795 src/pref_window.cpp:1063
+msgid "Select the mixer to use to change the volume of the audio player."
+msgstr "Выбярыце мікшар для зьмены гучнасьці прайграваньня."
+
+#: gnomemeeting.schemas.in.in.h:89 src/druid.cpp:802 src/pref_window.cpp:1070
+msgid "Select the mixer to use to change the volume of the audio recorder."
+msgstr "Выбярыце мікшар для зьмены гучнасьці запісу."
+
+#: gnomemeeting.schemas.in.in.h:90 src/pref_window.cpp:1137
+msgid ""
+"Select the transmitted video size: Small (QCIF 176x144) or Large (CIF "
+"352x288)."
+msgstr ""
+"Выбярыце памер відарысу для перадачы: малы (QCIF 176x144) ці вялікі (CIF "
+"352x288)."
+
+#: gnomemeeting.schemas.in.in.h:91 src/pref_window.cpp:1130
+msgid ""
+"Select the video device to use. Using an invalid video device or \"Picture\" "
+"for video transmission will transmit a test picture."
+msgstr ""
+"Выбярыце прыладу відэа. Выкарыстаньне нерэчаіснае прылады ці \"Карцінка\" "
+"для перадачы будзе перадаваць тэставую карцінку."
+
+#: gnomemeeting.schemas.in.in.h:92
+msgid "Show a status bar at the bottom of the main window"
+msgstr "Паказываць радок стану ўнізе асноўнага акна"
+
+#: gnomemeeting.schemas.in.in.h:93
+msgid "Show chat window"
+msgstr "Паказываць акно размовы"
+
+#: gnomemeeting.schemas.in.in.h:94
+msgid "Show my details to other registered users"
+msgstr "Паказаць мае зьвесткі іншым зарэгістраваным карыстальнікам"
+
+#: gnomemeeting.schemas.in.in.h:95
+msgid "Show splash screen"
+msgstr "Паказываць застаўку"
+
+#: gnomemeeting.schemas.in.in.h:96
+msgid "Show status bar"
+msgstr "Паказываць радок стану"
+
+#: gnomemeeting.schemas.in.in.h:97
+msgid "Show the chat window in the main window"
+msgstr "Паказываць акно размовы ў галоўным акне"
+
+#: gnomemeeting.schemas.in.in.h:98
+msgid "Start hidden"
+msgstr "Запускацца ў схаваным стане"
+
+#: gnomemeeting.schemas.in.in.h:99 src/menu.cpp:616 src/menu.cpp:860
+msgid "Switch to fullscreen"
+msgstr "Пераключыць на ўвесь экран"
+
+#: gnomemeeting.schemas.in.in.h:100
+msgid "Switch to fullscreen for images displayed in the main GUI."
+msgstr "Пераключае у поўнаэкраны рэжым адлюстраваньня відарыса."
+
+#: gnomemeeting.schemas.in.in.h:101
+msgid "TCP Port Range"
+msgstr "Дыяпазон TCP-партоў"
+
+#: gnomemeeting.schemas.in.in.h:102
+msgid "The Audio Codecs List"
+msgstr "Сьпіс гукавых кодакаў"
+
+#: gnomemeeting.schemas.in.in.h:103 src/pref_window.cpp:1078
+msgid ""
+"The Automatic Echo Cancellation level: Off, Low, Medium, High, Automatic "
+"Gain Compensation. Choosing Automatic Gain Compensation modulates the volume "
+"for best quality."
+msgstr ""
+"Узровень аўтаматычнага падаўленьня рэха: Выкл, Нізкі, Сярэдні, "
+"Аўтаматычнае рэгуляваньне узроўня. Аўтаматычнае рэгуляваньне узроўня "
+"зьмяняе гучнасьць для дасягненьня найлепшае якасьці."
+
+#: gnomemeeting.schemas.in.in.h:104 src/pref_window.cpp:983
+msgid ""
+"The Gatekeeper alias to use when registering (string, or E164 ID if only "
+"0123456789#)."
+msgstr "Мянушка Gatekeeper для рэгістрацыі (радок, ці E164 ID калі толькі 0123456789#)."
+
+#: gnomemeeting.schemas.in.in.h:105 src/pref_window.cpp:980
+msgid "The Gatekeeper host to register with."
+msgstr "Вузел Gatekeeper для рэгістрацыі."
+
+#: gnomemeeting.schemas.in.in.h:106 src/pref_window.cpp:977
+msgid "The Gatekeeper identifier to register with."
+msgstr "Ідэнтыфікатар Gatekeeper для рэгістрацыі на ім."
+
+#: gnomemeeting.schemas.in.in.h:107 src/pref_window.cpp:986
+msgid "The Gatekeeper password to use for H.235 authentication to the Gatekeeper."
+msgstr "Пароль Gatekeeper для выкарыстаньня аўтарызацыі H.235 да Gatekeeper."
+
+#: gnomemeeting.schemas.in.in.h:108
+msgid "The Video Quality to request to the remote"
+msgstr "Парамэтар якасьці відэа, які перадаецца аддаленым бокам"
+
+#: gnomemeeting.schemas.in.in.h:109
+msgid "The default video view"
+msgstr "Дапомны выгляд відэа"
+
+#: gnomemeeting.schemas.in.in.h:110
+msgid ""
+"The default video view (0: Local, 1: Remote, 2: Both incrusted, 3: Both with "
+"local video in a separate window, 4: Both)"
+msgstr "Дапомны прагляд відэа (0: Мясцовае, 1: Аддаленае, 2: Абодва ў адным, 3: Абодва ў розных вокнах, 4: Абодва)"
+
+#: gnomemeeting.schemas.in.in.h:111
+msgid "The height of the local video window"
+msgstr "Вышыня акна мясцовага відэа"
+
+#: gnomemeeting.schemas.in.in.h:112
+msgid "The height of the remote video window"
+msgstr "Вышыня акна аддаленага відэа"
+
+#: gnomemeeting.schemas.in.in.h:113 src/pref_window.cpp:888
+msgid "The host where calls should be forwarded to in the cases selected above."
+msgstr "Вузел да якога будуць перанакіроўвацца выклікі пры выкананьні выбраных ніжэй умоваў."
+
+#: gnomemeeting.schemas.in.in.h:114 src/pref_window.cpp:819
+msgid "The image height for fullscreen."
+msgstr "Вышыня відарысу для поўнаэкранага рэжыму."
+
+#: gnomemeeting.schemas.in.in.h:115 src/pref_window.cpp:1143
+msgid ""
+"The image to transmit if \"Picture\" is selected for the video device or if "
+"the opening of the device fails. Leave blank to use the default GnomeMeeting "
+"logo."
+msgstr ""
+"Відарыс для перадачы \"Карцінка\" выбіраецца для прылады відэа ці калі "
+"адкрыцьцё прылады не было пасьпяховым. Пакіньце гэты выбар пустым калі жадаеце "
+"выкарыстоўваць дапомны лягатып GnomeMeeting."
+
+#: gnomemeeting.schemas.in.in.h:116 src/pref_window.cpp:818
+msgid "The image width for fullscreen."
+msgstr "Шырыня відарысу для поўнаэкранага рэжыму."
+
+#: gnomemeeting.schemas.in.in.h:117
+msgid "The list of called URLs"
+msgstr "Сьпіс выкліканых URL"
+
+#: gnomemeeting.schemas.in.in.h:118
+msgid "The list of groups"
+msgstr "Сьпіс груп"
+
+#: gnomemeeting.schemas.in.in.h:119 src/pref_window.cpp:1331
+msgid "The maximum jitter buffer size for audio reception (in ms)."
+msgstr "Максымальны памер буфэра дрыжаньня для атрыманае плыні гуку (у мс)."
+
+#: gnomemeeting.schemas.in.in.h:120 src/pref_window.cpp:1373
+msgid ""
+"The maximum video bandwidth in kbytes/s. The video quality and the number of "
+"transmitted frames per second will be dynamically adjusted above their "
+"minimum during calls to try to minimize the bandwidth to the given value."
+msgstr ""
+"Максымальная паласа прапусканьня ў кб/с. Якасьць відэа й часьціня кадраў "
+"будуць аўтаматычна рэгулявацца ў часе сэансу ў пазначаных межах."
+
+#: gnomemeeting.schemas.in.in.h:121 src/pref_window.cpp:1330
+msgid "The minimum jitter buffer size for audio reception (in ms)."
+msgstr "Мінімальны памер буфэра дрыжаньня для атрыманае плыні гуку (у мс)."
+
+#: gnomemeeting.schemas.in.in.h:122 src/pref_window.cpp:1386
+msgid ""
+"The minimum number of video frames to transmit each second when trying to "
+"minimize the bandwidth."
+msgstr "Мінімальная часьціня кадраў для перадачы калі адбываецца спроба мінімізаваць паласу прапусканьня."
+
+#: gnomemeeting.schemas.in.in.h:124
+#, no-c-format
+msgid ""
+"The minimum transmitted video quality to keep when trying to minimize the "
+"used bandwidth: choose 100% on a LAN for the best quality, 1% being the "
+"worst quality."
+msgstr ""
+"Мінімальная якасьць перадачы відэа: 100% у мясцовае вылічальнае сетцы для найлепшае якасьці, "
+"1% найгоршая якасьць."
+
+#: gnomemeeting.schemas.in.in.h:125
+msgid ""
+"The port to listen to for incoming connections. GnomeMeeting needs to be "
+"restarted for the new value to take effect."
+msgstr ""
+"Порт для прыйманьня ўваходных злучэньняў. Каб зьмяненьне ўступіла ў моц, "
+"неабходна перазапусьціць нараду для Gnome."
+
+#: gnomemeeting.schemas.in.in.h:126
+msgid ""
+"The prefix that will be used to save pictures of the conversation. That "
+"prefix is followed by the snapshot number."
+msgstr ""
+"Прэфікс, які будзе выкарыстоўвацца пры захаваньні стоп-кадраў. За "
+"прэфіксам будзе сьледаваць нумар здымка."
+
+#: gnomemeeting.schemas.in.in.h:127
+msgid ""
+"The range of TCP ports beside the listen_port that GnomeMeeting will use for "
+"the H.245 channel. You can change the TCP port range if you are using IP "
+"translation and if you need to have several GnomeMeeting running behind your "
+"NAT/PAT router. GnomeMeeting needs to be restarted for the new values to "
+"take effect. This port range has no effect if both participants to the "
+"conference are using H.245 Tunneling."
+msgstr ""
+"Дыяпазон партоў TCP якіе будзе выкарыстоўваць нарада для Gnome для "
+"каналу H.245. Вы можаце зьмяніць гэты дыяпазон калі выкарыстоўваеце ІР "
+"трансьляваньне і калі вам патрэбна мець розныя GnomeMeeting паміж вашым шляхавіком "
+"NAT/PAT. Нарада для Gnome запатрабуе перазапуск каб унесеныя зьмены замелі эфэкт. "
+"Гэты дыяпазон партоў будзе безсэнсоўным калі для канфэрэнцыі выкарыстоўваецца тунэляваньне "
+"H.245."
+
+#: gnomemeeting.schemas.in.in.h:128
+msgid ""
+"The range of UDP ports that GnomeMeeting will use for RTP (audio and video "
+"communication channels). You can change the UDP port range if you are using "
+"IP translation and if you need to have several GnomeMeeting running behind "
+"your NAT/PAT router. GnomeMeeting needs to be restarted for the new values "
+"to take effect."
+msgstr ""
+"Дыяпазон партоў UDP якіе нарада будзе выкарыстоўваць для RTP (аўдыё й відэа каналаў перадачы). "
+"Вы можаце зьмяніць гэты дыяпазон калі выкарыстоўваеце ІР "
+"трансьляваньне і калі вам патрэбна мець розныя GnomeMeeting паміж вашым шляхавіком "
+"NAT/PAT. Нарада для Gnome запатрабуе перазапуск каб унесеныя зьмены замелі эфэкт. "
+"Гэты дыяпазон партоў будзе безсэнсоўным калі для канфэрэнцыі выкарыстоўваецца тунэляваньне "
+"H.245."
+
+#: gnomemeeting.schemas.in.in.h:129
+msgid ""
+"The range of UDP ports that GnomeMeeting will use when registering to "
+"gatekeepers. You can change the UDP port range if you are using IP "
+"translation and if you need to have several GnomeMeeting running behind your "
+"NAT/PAT router. GnomeMeeting needs to be restarted for the new values to "
+"take effect. This port range has no effect if you are not registering to a "
+"gatekeeper."
+msgstr ""
+"Дыяпазон партоў  UDP якія выкарыстоўвае нарада для Gnome калі выкарыстоўвае "
+"рэгістрацыю gatekeeper. Вы можаце зьмяніць гэты дыяпазон калі выкарыстоўваеце ІР "
+"трансьляваньне і калі вам патрэбна мець розныя GnomeMeeting паміж вашым шляхавіком "
+"NAT/PAT. Нарада для Gnome запатрабуе перазапуск каб унесеныя зьмены замелі эфэкт. "
+"Гэты дыяпазон партоў будзе безсэнсоўным калі вы не выкарыстоўваеце рэгістрацыю "
+"gatekeeper."
+
+#: gnomemeeting.schemas.in.in.h:130
+msgid "The save prefix"
+msgstr "Прэфікс захаваньня"
+
+#: gnomemeeting.schemas.in.in.h:131 src/pref_window.cpp:1081
+msgid "The two-letter country code of your country (e.g.: BE, UK, FR, DE, ...)."
+msgstr "Дзьве літары коду вашае краіны ( г.з. BY, UA, RU, ...)"
+
+#: gnomemeeting.schemas.in.in.h:132 src/pref_window.cpp:855
+msgid "The user directory server to register with."
+msgstr "Каталёг карыстальнікаў для рэгістрацыі на ім."
+
+#: gnomemeeting.schemas.in.in.h:133 src/pref_window.cpp:1134
+msgid "The video channel number to use (to select camera, tv or other sources)."
+msgstr "Канал відэа ( для выбару між камэрай, ТВ ці іншай крыніцай)."
+
+#: gnomemeeting.schemas.in.in.h:134
+msgid "The width of the local video window"
+msgstr "Шырыня акна мясцовага відэа"
+
+#: gnomemeeting.schemas.in.in.h:135
+msgid "The width of the remote video window"
+msgstr "Шырыня акна аддаленага відэа"
+
+#: gnomemeeting.schemas.in.in.h:136
+msgid "The zoom value"
+msgstr "Значэньне маштабаваньня"
+
+#: gnomemeeting.schemas.in.in.h:137
+msgid ""
+"The zoom value to apply to images displayed in the main GUI (can be 0.50, "
+"1.00, or 2.00)."
+msgstr ""
+"Узровень маштабаваньня відарысу (можа быць be 0.50, "
+"1.00, ці 2.00)."
+
+#: gnomemeeting.schemas.in.in.h:138 src/pref_window.cpp:933
+msgid ""
+"This enables H.245 Tunnelling mode. In H.245 Tunnelling mode H.245 messages "
+"are encapsulated into the the H.225 channel (port 1720). This saves one TCP "
+"connection during calls. H.245 Tunnelling was introduced in H.323v2 and "
+"Netmeeting does not support it. Using both Fast Start and H.245 Tunnelling "
+"can crash some versions of Netmeeting."
+msgstr ""
+"Гэта уключае рэжым тунэляваньня H.245. У рэжыме тунэляваньня H.245 паведамленьне "
+"ўкладаецца у канал H.225 (port 1720). Гэта абараняе ТСР далучэньне ў часе сэанса. "
+"Тунэляваньне прысутнічае ў H.323v2 і Netmeeting НЕ ПАДТРЫМЛІВАЕ яго. Выкарыстаньне "
+"разам \"хуткага старту\" й тунэляваньня можа АБРЫНУЦЬ пэўныя вэрсыі Netmeeting."
+
+#: gnomemeeting.schemas.in.in.h:139 src/pref_window.cpp:1019
+msgid ""
+"This enables IP translation. IP translation is useful if GnomeMeeting is "
+"running behind a NAT/PAT router. You have to put the public IP of the router "
+"in the field below. If you are registered to ils.seconix.com, GnomeMeeting "
+"will automatically fetch the public IP using the ILS service. If your router "
+"natively supports H.323, you can disable this."
+msgstr ""
+"Гэта ўключае ІР трансьляваньне. ІР трансьляваньне падтрымліваецца цалкам калі "
+"GnomeMeeting працуе за шляхавіком NAT/PAT. Вы мусіце пазначыць публічны ІР шляхавіка "
+"ў поле ніжэй. Калі вы зарэгіструецеся на ils.seconix.com, GnomeMeeting будзе аўтаматычна "
+"атрымліваць ІР карыстаючыся паслугай ILS. Калі ваш шляхавік падтрымлівае H.323, "
+"вы можаце выключыць гэтую магчымасьць."
+
+#: gnomemeeting.schemas.in.in.h:140
+msgid ""
+"This permits to set the mode for User Input Capabilities. The values can be "
+"\"All\" (0), \"None\" (1), \"rfc2833\" (2), \"Signal\" (3) or \"String\" (4) "
+"(default is \"All\"). Choosing other values than \"All\", \"String\" or "
+"\"rfc2833\" disables the Text Chat."
+msgstr ""
+"Гэты выбар усталёўвае рэжым магчымасьцяў уводу карыстальніка. Значэньне можа быць "
+"\"Усе\" (0), \"Нічога\" (1), \"rfc2833\" (2), \"Сыгнал\" (3), \"Радок\"(4) (дапомна \"Усе\"). Выбар іншага за "
+"\"Усе\", \"Радок\" ці \"rfc2833\" значэньня выключыць тэкставую размову."
+
+#: gnomemeeting.schemas.in.in.h:141
+msgid "Transmitted background blocks"
+msgstr "Блёкаў перадачы тла"
+
+#: gnomemeeting.schemas.in.in.h:142
+msgid "UDP Port Range"
+msgstr "Дыяпазон партоў UDP"
+
+#: gnomemeeting.schemas.in.in.h:143
+msgid "User Input Capabilities type"
+msgstr "Тып магчымасьцяў уводу карыстальніка"
+
+#: gnomemeeting.schemas.in.in.h:144
+msgid "User directory"
+msgstr "Каталёг карыстальнікаў"
+
+#: gnomemeeting.schemas.in.in.h:145 src/ldap_window.cpp:2609
+msgid "Version"
+msgstr "Вэрсыя"
+
+#: gnomemeeting.schemas.in.in.h:146
+msgid "Video Preview"
+msgstr "Перадпрагляд відэа"
+
+#: gnomemeeting.schemas.in.in.h:147
+msgid "Video channel"
+msgstr "Канал відэа"
+
+#: gnomemeeting.schemas.in.in.h:148
+msgid "Video device"
+msgstr "Прылада відэа"
+
+#: gnomemeeting.schemas.in.in.h:149
+msgid "Video format"
+msgstr "Фармат відэа"
+
+#: gnomemeeting.schemas.in.in.h:150
+msgid "Video image"
+msgstr "Відарыс відэа"
+
+#: gnomemeeting.schemas.in.in.h:151
+msgid "Video size"
+msgstr "Памер відэа"
+
+#: lib/dialog.c:182
+msgid "Do not show this dialog again"
+msgstr "Не адлюстроўваць гэты дыялёг у далейшым"
+
+#: sounds/gnomemeeting.soundlist.in.h:1
+msgid "Incoming Call"
+msgstr "Уваходны выклік"
+
+#: sounds/gnomemeeting.soundlist.in.h:2
+msgid "gnomemeeting"
+msgstr "нарада дл Gnome"
+
+#: src/callbacks.cpp:87
+msgid "_Retrieve Call"
+msgstr "_Атрыманьне выкліку"
+
+#: src/callbacks.cpp:100 src/menu.cpp:458
+msgid "_Hold Call"
+msgstr "_Спыненьне выкліку"
+
+#: src/callbacks.cpp:141 src/ldap_window.cpp:708
+msgid "Edit the contact information"
+msgstr "Рэдагаваньне кантактных зьвестак"
+
+#: src/callbacks.cpp:144 src/menu.cpp:463
+msgid "_Transfer Call"
+msgstr "_Перадача выкліку"
+
+#: src/callbacks.cpp:165
+msgid "Forward call to:"
+msgstr "Перанакіраваньне выкліка да:"
+
+#: src/callbacks.cpp:260 src/menu.cpp:470
+msgid "Suspend _Audio"
+msgstr "Прыпыніць _гук"
+
+#: src/callbacks.cpp:261
+msgid "Resume _Audio"
+msgstr "Аднавіць _гук"
+
+#: src/callbacks.cpp:262
+msgid "Audio transmission: suspended"
+msgstr "Перадача гуку: прыпынена"
+
+#: src/callbacks.cpp:263
+msgid "Audio transmission: resumed"
+msgstr "Перадача гуку: адноўлена"
+
+#: src/callbacks.cpp:272 src/menu.cpp:475
+msgid "Suspend _Video"
+msgstr "Прыпыніць _відэа"
+
+#: src/callbacks.cpp:273
+msgid "Resume _Video"
+msgstr "Аднавіць _відэа"
+
+#: src/callbacks.cpp:274
+msgid "Video transmission: suspended"
+msgstr "Перадача відэа: прыпынена"
+
+#: src/callbacks.cpp:275
+msgid "Video transmission: resumed"
+msgstr "Перадача відэа: адноўлена"
+
+#: src/callbacks.cpp:381
+msgid "Code Contributors:"
+msgstr "Распрацоўшчыкі кода:"
+
+#: src/callbacks.cpp:389
+msgid "Artwork:"
+msgstr "Дызайн:"
+
+#: src/callbacks.cpp:392
+msgid "Contributors:"
+msgstr "Распрацоўшчыкі:"
+
+#: src/callbacks.cpp:418
+msgid "Internationalisation Maintainer:"
+msgstr "Каардынатар інтэрнацыяналізацыі:"
+
+#. Translators: Please write translator credits here, and
+#. * seperate names with \n
+#: src/callbacks.cpp:436
+msgid "translator_credits"
+msgstr ""
+"Belarusian Language Linux Team\n"
+"Пляцоўка: http://mova.linux.by\n"
+"Э. пошта:  <i18n@mova.org>"
+
+#. Translators: Please test to see if your translation
+#. * looks OK and fits within the box
+#: src/callbacks.cpp:447
+msgid ""
+"GnomeMeeting is a full-featured H.323\n"
+"video conferencing application."
+msgstr ""
+"GnomeMeeting -- поўнафункцыянальнае дастасаваньне\n"
+"для відэаканфэрэнцыяў па пратаколе H.323."
+
+#: src/chat_window.cpp:205
+msgid "Send Message:"
+msgstr "Даслаць паведамленьне:"
+
+#: src/config-tool-i18n.h:1
+msgid "YES"
+msgstr "ТАК"
+
+#: src/config-tool-i18n.h:2
+msgid "Sorry, this script won't work while GnomeMeeting is running"
+msgstr "Выбачайце, гэты скрыпт не будзе працаваць, калі нарада для Gnome запушчана"
+
+#: src/config-tool-i18n.h:3
+msgid "  WARNING!!!"
+msgstr "  УВАГА!!!"
+
+#: src/config-tool-i18n.h:4
+msgid ""
+"  This script will delete all user GnomeMeeting configuration,\n"
+"  including preferences that may be important! \n"
+"  The GConf daemon will be shut down, so make sure you have no\n"
+"  applications depending on it running.\n"
+"\n"
+"  Do you really want to do this?\n"
+"\n"
+"  If so, say \"YES\".\n"
+"\n"
+msgstr ""
+"  Гэты скрыпт выдаліць усе парамэтры карыстальніка нарады для Gnome,\n"
+"  з улікам тых, якія могуць быць важнымі!\n"
+"  Дэман GConf будзе спынены, таму запэўніцеся, што\n"
+"  няма дастасаваньняў, якія выконваюцца й залежаць ад GConf.\n"
+"\n"
+"  Вы сапраўды жадаеце выдаліць парамэтры?\n"
+"\n"
+"  Калі гэдак, скажыце \"ТАК\".\n"
+"\n"
+
+#: src/config-tool-i18n.h:5
+msgid "Removing $HOME/.gconf/apps/gnomemeeting"
+msgstr "Выдаленьне $HOME/.gconf/apps/gnomemeeting"
+
+#: src/config-tool-i18n.h:6 src/config-tool-i18n.h:11
+#: src/config-tool-i18n.h:13
+msgid "Shutting down GConf daemon"
+msgstr "Спыняецца дэман GConf"
+
+#: src/config-tool-i18n.h:7
+msgid "...Done."
+msgstr "...Зроблена."
+
+#: src/config-tool-i18n.h:8
+msgid "Leaving configuration alone."
+msgstr "Парамэтры застаюцца без зьменаў."
+
+#: src/config-tool-i18n.h:9
+msgid "Have a nice day."
+msgstr "Удалага вам дня."
+
+#: src/config-tool-i18n.h:10
+msgid ""
+"  The GConf daemon will be shut down, so make sure you have no\n"
+"  applications depending on it running.\n"
+"\n"
+"  Do you really want to do this?\n"
+"\n"
+"  If so, say \"YES\".\n"
+"\n"
+msgstr ""
+"  Дэман GConf будзе спынены, таму запэўніцеся, што\n"
+"  няма дастасаваньняў якія выконваюцца й залежаць ад GConf.\n"
+"\n"
+"  Вы сапраўды жадаеце спыніць GConf?\n"
+"\n"
+"  Калі гэдак, скажыце \"ТАК\".\n"
+"\n"
+
+#: src/config-tool-i18n.h:12
+msgid "Removing schemas"
+msgstr "Выдаляюцца схемы"
+
+#: src/config-tool-i18n.h:14
+msgid "Installing schemas"
+msgstr "Усталёўваюцца схемы"
+
+#: src/config-tool-i18n.h:15
+msgid ""
+"CRITICAL ERROR -- Schema installation failed.\n"
+"Most probably you have the GConf daemon running as root.\n"
+"\n"
+"Run \"gnomemeeting-config-tool --install-schemas\" as root.\n"
+msgstr ""
+"КРЫТЫЧНАЯ ПАМЫЛКА -- збой усталёўкі Shema.\n"
+"Хутчэй за ўсё дэман GConf выконваецца ад root.\n"
+"\n"
+"Выканайце \"gnomemeeting-config-tool --install-schemas\" як root.\n"
+
+#: src/config-tool-i18n.h:16
+msgid "Usage:  gnomemeeting-config-tool OPTION"
+msgstr "Выкананьне:  gnomemeeting-config-tool ВЫБАР"
+
+#: src/config-tool-i18n.h:17
+msgid "Fixes problems with the GnomeMeeting settings"
+msgstr "Выпраўляе праблемы ў парамэтрах нарады для Gnome"
+
+#: src/config-tool-i18n.h:18
+msgid "  --clean                remove all user settings"
+msgstr "  --clean                выдаляе ўсе парамэтры карыстальніка"
+
+#: src/config-tool-i18n.h:19
+msgid "  --install-schemas      install schemas with default settings (run as root)"
+msgstr ""
+"  --install-schemas      усталёўвае схемы з дапомнымі наладкамі\n"
+"                          (выконваецца ад root)"
+
+#: src/config-tool-i18n.h:20
+msgid "  --clean-schemas        remove schemas with default settings (run as root)"
+msgstr ""
+"  --clean-schemas        выдаляе схемы з дапомнымі наладкамі\n"
+"                          (выконваецца ад root)"
+
+#: src/config-tool-i18n.h:21
+msgid "  --fix-permissions      fix permissions of GConf repository (run as root)"
+msgstr ""
+"  --fix-permissions      выпраўляе правы ў сховішчы GConf\n"
+"                         (выконваецца ад root)"
+
+#: src/config.cpp:409
+msgid "Changing this setting will only affect new calls"
+msgstr "Зьмяненьне гэтага парамэтру паўплывае толькі на наступныя выклікі"
+
+#: src/config.cpp:409
+msgid ""
+"You have changed a setting that doesn't permit to GnomeMeeting to apply the "
+"new change to the current call. Your new setting will only take effect for "
+"the next call."
+msgstr ""
+
+#: src/config.cpp:591
+msgid "Disabled Silence Detection"
+msgstr "Адключана вызначэньне цішыні"
+
+#: src/config.cpp:597
+msgid "Enabled Silence Detection"
+msgstr "Уключана вызначэньне цішыні"
+
+#: src/config.cpp:1259
+msgid ""
+"You need to specify an host to forward calls to!\n"
+"Disabling forwarding."
+msgstr ""
+"Неабходна пазначыць вузел для перанакіраваньня выклікаў!\n"
+"Перанакіраваньне забаронена."
+
+#: src/config.cpp:1459
+msgid ""
+"An error has happened in the configuration backend.\n"
+"Maybe some of your settings won't be saved."
+msgstr ""
+"Памылка у праграме наладкі.\n"
+"Магчыма пэўныя ўсталёўкі не будуць захаваныя."
+
+#: src/connection.cpp:112
+msgid "Started New Logical Channel..."
+msgstr "Запушчаны новы лягічны канал..."
+
+#: src/connection.cpp:119
+#, c-format
+msgid "Sending %s"
+msgstr "Перадаецца %s"
+
+#: src/connection.cpp:138
+#, c-format
+msgid "Enabled silence detection for %s"
+msgstr "Уключана вызначэньне цішыні для %s"
+
+#: src/connection.cpp:141
+#, c-format
+msgid "Disabled silence detection for %s"
+msgstr "Адключана вызначэньне цішыні для %s"
+
+#: src/connection.cpp:157
+#, c-format
+msgid "Receiving %s"
+msgstr "Прыймаецца %s"
+
+#: src/connection.cpp:187
+#, c-format
+msgid "Requesting remote to send video quality: %d%%"
+msgstr "Запыт якасьці відэа на аддаленым баку: %d%%"
+
+#: src/connection.cpp:212
+msgid "Request ok"
+msgstr "Запыт падцьверджаны"
+
+#: src/connection.cpp:244 src/connection.cpp:246
+msgid "Auto Answering Incoming Call"
+msgstr "Аўтаматычна адказваць на ўваходныя выклікі"
+
+#: src/connection.cpp:337 src/connection.cpp:338 src/urlhandler.cpp:76
+#: src/urlhandler.cpp:77
+msgid "Call transfer failed"
+msgstr "Збой перадачы выкліка"
+
+#: src/connection.cpp:337
+msgid "The remote user tried to transfer your call to another user, but it failed."
+msgstr "Аддалены карыстальнік спрабаваў перадаць ваш выклік іншаму карыстальніку, але адбыўся збой."
+
+#: src/druid.cpp:517 src/druid.cpp:699
+msgid "56K modem"
+msgstr "Мадэм 56К"
+
+#: src/druid.cpp:521 src/druid.cpp:703
+msgid "ISDN"
+msgstr "ISDN"
+
+#: src/druid.cpp:525
+msgid "xDSL/Cable"
+msgstr "xDSL/Cable"
+
+#: src/druid.cpp:529 src/druid.cpp:711
+msgid "T1/LAN"
+msgstr "T1/LAN"
+
+#: src/druid.cpp:533 src/druid.cpp:715
+msgid "Other"
+msgstr "Іншае"
+
+#: src/druid.cpp:566
+#, c-format
+msgid ""
+"You have now finished the GnomeMeeting configuration. All the settings can "
+"be changed in the GnomeMeeting preferences. Enjoy!\n"
+"\n"
+"\n"
+"Configuration Summary:\n"
+"\n"
+"Username:  %s %s\n"
+"Connection type:  %s\n"
+"Audio player:  %s\n"
+"Audio recorder:  %s\n"
+"Video player: %s\n"
+"My Callto URL: %s\n"
+"PC-To-Phone calls: %s"
+msgstr ""
+"Зараз вы скончылі наладку нарады для Gnome. Усе ўсталёўкі могуць быць "
+"змененыя ў часе карыстаньня, праз пункт мэню \"Перавагі\". Атрымліваеце асалоду!\n"
+"\n"
+"\n"
+"Канфігурацыя агулам:\n"
+"\n"
+"Імя карыстальніка:  %s %s\n"
+"Тып далучэньня:  %s\n"
+"Прайграваньне гуку:  %s\n"
+"Запіс гуку:  %s\n"
+"Прайграваньне відэа: %s\n"
+"Мой URL для выкліка: %s\n"
+"PC-To-Phone выклікі: %s"
+
+#: src/druid.cpp:566
+msgid "Enabled"
+msgstr "Уключана"
+
+#: src/druid.cpp:566
+msgid "Disabled"
+msgstr "Выключана"
+
+#: src/druid.cpp:600
+#, c-format
+msgid "Personal Information - page %d/%d"
+msgstr "Асабістыя зьвесткі - старонка %d/%d"
+
+#: src/druid.cpp:609
+msgid ""
+"Please enter your first name and surname, they will be used when connecting "
+"to other audio/video conferencing software.\n"
+"\n"
+"Your e-mail address is used to provide you with a callto address that your "
+"friends can use to call you without knowing your IP address.\n"
+"\n"
+"No information is made public unless you allow it to be published on the "
+"directory of online GnomeMeeting users."
+msgstr ""
+"Калі ласка пазначце вашае імя й прозьвішча, гэтыя зьвесткі будуць выкарыстоўвацца "
+"ў часе далучэньня да іншага кліента.\n"
+"\n"
+"Ваша э. скрыня будзе выкарыстоўвацца замест адрэсы выкліка, калі вашыя сябры ня "
+"ведаюць вашае ІР адрэсы.\n"
+"\n"
+"Ніякія з гэтых зьвестак не будуць апублікаваныя у каталёзе карыстальнікаў GnomeMeeting "
+"без вашага дазволу."
+
+#. The user fields
+#: src/druid.cpp:613 src/pref_window.cpp:728
+msgid "Personal Information"
+msgstr "Асабістыя зьвесткі"
+
+#: src/druid.cpp:616
+msgid "First _name:"
+msgstr "_Імя:"
+
+#: src/druid.cpp:622
+msgid "_Surname:"
+msgstr "_Прозьвішча:"
+
+#. The callto url
+#: src/druid.cpp:630
+msgid "Callto URL"
+msgstr "URL для выкліку"
+
+#: src/druid.cpp:633 src/pref_window.cpp:742
+msgid "E-_mail address:"
+msgstr "Э. _скрыня:"
+
+#. The ILS registering
+#: src/druid.cpp:640
+msgid "Directory of Online GnomeMeeting Users"
+msgstr "Каталёг карыстальнікаў нарады для Gnome"
+
+#: src/druid.cpp:642
+msgid "Publish my information on the directory of online GnomeMeeting users"
+msgstr "Апублікаваць мае зьвесткі ў каталёзе карыстальнікаў GnomeMeeting"
+
+#: src/druid.cpp:683
+#, c-format
+msgid "Network Connection - page %d/%d"
+msgstr "Сеткавае далучэньне - старонка %d/%d"
+
+#: src/druid.cpp:694
+msgid ""
+"Please select your network connection type. This is used to set default "
+"video settings for your bandwidth. It is possible to change these defaults "
+"later."
+msgstr ""
+"Калі ласка выбярыце тып вашага сеткавага далучэньня. Гэта будзе выкарыстоўвацца для "
+"ўсталяваньня дапомныга ўсталяваньня паласы прапусканьня відэа."
+
+#. Connection type
+#: src/druid.cpp:698
+msgid "Connection Type"
+msgstr "Тып далучэньня"
+
+#: src/druid.cpp:707
+msgid "DSL/Cable"
+msgstr "DSL/Cable"
+
+#: src/druid.cpp:775
+#, c-format
+msgid "Audio Devices - page %d/%d"
+msgstr "Прылады гуку - старонка %d/%d"
+
+#: src/druid.cpp:785
+msgid ""
+"Please choose the audio devices to use during the GnomeMeeting session. You "
+"can also choose to use a Quicknet device instead of the soundcard, but the "
+"\"Test Audio\" button will only work for soundcards. Notice that some "
+"webcams models have an internal microphone that can be used with "
+"GnomeMeeting."
+msgstr ""
+"Калі ласка выбярыце гукавую прыладу якая будзе выкарыстоўвацца ў часе сэанса "
+"нарадай для Gnome. Вы можаце таксама выкарыстоўваць прыладу Quicknet, замест гукавае карткі, "
+"але кнопка \"Праверыць гук\" працуе ТОЛЬКІ з гукавымі карткамі. Заўважце што пэўныя "
+"вэб-камэры маюць убудаваны мікрафон які можа выкарыстоўвацца ў GnomeMeeting."
+
+#. The Audio devices
+#: src/druid.cpp:789 src/pref_window.cpp:1055 src/pref_window.cpp:1572
+msgid "Audio Devices"
+msgstr "Прылады гуку"
+
+#: src/druid.cpp:792
+msgid "Audio player:"
+msgstr "Прайграваньне гуку:"
+
+#: src/druid.cpp:795
+msgid "Audio player mixer:"
+msgstr "Мікшар прайграваньня гуку:"
+
+#: src/druid.cpp:799
+msgid "Audio recorder:"
+msgstr "Запіс гуку:"
+
+#: src/druid.cpp:802
+msgid "Audio recorder mixer:"
+msgstr "Мікшар запісу гуку:"
+
+#. Test button
+#: src/druid.cpp:806
+msgid "Click here to test your audio devices:"
+msgstr "Націсьніце тутака каб праверыць гукавую прыладу:"
+
+#: src/druid.cpp:808
+msgid "Test Audio"
+msgstr "Праверка гуку"
+
+#: src/druid.cpp:851
+#, c-format
+msgid "Video Devices - page %d/%d"
+msgstr "Прылады відэа - старонка %d/%d"
+
+#: src/druid.cpp:861
+msgid ""
+"Please choose the video device to use during the GnomeMeeting session. Click "
+"on the \"Test Video\" button to check if your setup is correct and if your "
+"driver is supported by GnomeMeeting. You can only test the correctness of "
+"your driver if the selected device is not already in use."
+msgstr ""
+"Калі ласка выбярыце прыладу відэа якая будзе выкарыстоўвацца ў часе сэансаў нарады для Gnome. "
+"Націсьніце кнопку \"Праверыць відэа\" каб праверыць правільнасьць наладкі і падтрымку вашага драйвэра ў GnomeMeeting. "
+" Вы можаце праверыць карэктнасьць выбару прылады толькі калі яна не выкарыстоўваецца ў бягучы момант."
+
+#. The Video device
+#: src/druid.cpp:865 src/pref_window.cpp:1126 src/pref_window.cpp:1577
+msgid "Video Devices"
+msgstr "Прылады відэа"
+
+#: src/druid.cpp:868 src/pref_window.cpp:1130
+msgid "Video device:"
+msgstr "Прылада відэа:"
+
+#: src/druid.cpp:868
+msgid ""
+"Enter the video device to use. Using an invalid video device for video "
+"transmission will transmit a test picture."
+msgstr ""
+"Пазначце прыладу відэа. Калі прылада пазначана памылкова, будзе "
+"перадавацца відарыс праверкі."
+
+#. Test button
+#: src/druid.cpp:872
+msgid "Test Video"
+msgstr "Праверка відэа"
+
+#: src/druid.cpp:916
+#, c-format
+msgid "PC-To-Phone Setup - page %d/%d"
+msgstr "Усталёўка PC-To-Phone - старонка %d/%d"
+
+#: src/druid.cpp:926
+msgid ""
+"You can make calls to regular phones and cell numbers worldwide using "
+"GnomeMeeting and the MicroTelco service from Quicknet Technologies. To "
+"enable this you need to enter your MicroTelco Account number and PIN below, "
+"then enable registering to the MicroTelco service. Please visit the "
+"GnomeMeeting website for more information."
+msgstr ""
+"Вы можаце рабіць тэлефанаваньні на звычайныя тэлефоны карыстаючыся нарадай для Gnome і паслугай ад "
+"Quicknet Technologies. Каб уключыць гэтую магчымасьць вы мусіце пазначыць нумар уліковага запісу MicroTelco і "
+"PIN а затым зарэгістравацца на паслуге MicroTelco. Калі ласка наведайце пляцоўку GnomeMeeting для атрыманьня больш падрабязнае інфармацыі."
+
+#: src/druid.cpp:931
+msgid "PC-To-Phone Setup"
+msgstr "Усталёўка PC-To-Phone"
+
+#: src/druid.cpp:934
+msgid "Account number:"
+msgstr "Уліковы нумар:"
+
+#: src/druid.cpp:937
+msgid "Password:"
+msgstr "Пароль:"
+
+#: src/druid.cpp:944
+msgid "Register to the MicroTelco service"
+msgstr "Зарэгістравацца на паслуге MicroTelco"
+
+#: src/druid.cpp:962
+msgid ""
+"Click on one of the following links to get more information about your "
+"existing MicroTelco account, or to create a new account."
+msgstr ""
+"Націсьніце на наступнае лучыва каб атрымаць болей інфармацыі аб вашым "
+"уліковым запісе MicroTelco, ці стварыце новы ўліковы запіс."
+
+#: src/druid.cpp:966
+msgid "Get an account"
+msgstr "Атрымаць уліковы запіс"
+
+#: src/druid.cpp:968
+msgid "Buy a card"
+msgstr "Набыць картку"
+
+#: src/druid.cpp:998
+msgid "First Time Configuration Druid"
+msgstr "Чараўнік першаснае наладкі"
+
+#: src/druid.cpp:1005
+#, c-format
+msgid "Configuration Druid - page %d/%d"
+msgstr "Чараўнік наладкі - старонка %d/%d"
+
+#: src/druid.cpp:1008
+msgid ""
+"This is the GnomeMeeting general configuration druid. The following steps "
+"will set up GnomeMeeting by asking a few simple questions.\n"
+"\n"
+"Once you have completed these steps, you can always change them later by "
+"selecting Preferences in the Edit menu."
+msgstr ""
+"Гэта чараўнік наладкі нарады для Gnomе. Ён правядзе вас па кроках каб "
+"вы адказалі на колькі простых пытаньняў.\n"
+"\n"
+"Калі будзе завершаны апошні крок, вы заўсёды будзіце мець магчымасьць  "
+"унесьці зьмены ў наладкі скарыстаўшыся пунктам мэню \"Перавагі\"."
+
+#: src/druid.cpp:1047
+#, c-format
+msgid "Configuration complete - page %d/%d"
+msgstr "Наладка завершана - старонка %d/%d"
+
+#: src/endpoint.cpp:117
+#, c-format
+msgid "Forwarding Call to %s (No Answer)"
+msgstr "Перанакіраваньне выклікаў на %s (няма адказу)"
+
+#: src/endpoint.cpp:121 src/endpoint.cpp:1468
+msgid "Call forwarded"
+msgstr "Выклік перанакіраваны"
+
+#. Player is always a correct sound device, thanks to
+#. gnomemeeting_add_string_option_menu
+#: src/endpoint.cpp:314
+#, c-format
+msgid "Set Audio player device to %s"
+msgstr "Усталявана прылада аднаўленьня гука %s"
+
+#: src/endpoint.cpp:325
+#, c-format
+msgid "Set Audio recorder device to %s"
+msgstr "Усталявана прылада запісу гука %s"
+
+#: src/endpoint.cpp:342
+msgid "Enabling H.245 Tunnelling"
+msgstr "Уключаецца тунэляваньне H.245"
+
+#: src/endpoint.cpp:343
+msgid "Disabling H.245 Tunnelling"
+msgstr "Адключаецца тунэляваньне H.245"
+
+#: src/endpoint.cpp:353
+msgid "Enabling Fast Start"
+msgstr "Уключаецца \"Хуткі старт\""
+
+#: src/endpoint.cpp:354
+msgid "Disabling Fast Start"
+msgstr "Выключаецца \"Хуткі старт\""
+
+#. Update the history and status bar
+#: src/endpoint.cpp:945
+#, c-format
+msgid "Call from %s using %s"
+msgstr "Выклік ад %s з выкарыстаньнем %s"
+
+#: src/endpoint.cpp:960
+#, c-format
+msgid "Forwarding call from %s to %s (Forward all calls)"
+msgstr "Перанакіраваньне выкліку ад %s да %s (Перанакіраваньне усіх выклікаў)"
+
+#: src/endpoint.cpp:968
+#, c-format
+msgid "Auto rejecting incoming call from %s (Do not disturb)"
+msgstr "Аўтаматычнае адкіданьне выклікаў ад %s (Не турбаваць)"
+
+#: src/endpoint.cpp:980
+#, c-format
+msgid "Forwarding call from %s to %s (Busy)"
+msgstr "Перанакіраваньне выкліку ад %s да %s (Заняты)"
+
+#. there is no forwarding, so reject the call
+#: src/endpoint.cpp:989
+#, c-format
+msgid "Auto rejecting incoming call from %s (Busy)"
+msgstr "Аўтаматычнае адкіданьне уваходнага выкліку ад%s (Заняты) "
+
+#: src/endpoint.cpp:1013
+msgid "Auto Rejected"
+msgstr "Аўтаматычнае адкіданьне"
+
+#: src/endpoint.cpp:1022
+msgid "Call Forwarded"
+msgstr "Выклік перанакіраваны"
+
+#: src/endpoint.cpp:1226
+#, c-format
+msgid "Connected with %s using %s"
+msgstr "Далучаны да %s з выкарыстаньнем %s"
+
+#: src/endpoint.cpp:1228
+msgid "Connected"
+msgstr "Далучаны"
+
+#: src/endpoint.cpp:1231
+msgid "Fast start disabled"
+msgstr "Хуткі старт адключаны"
+
+#: src/endpoint.cpp:1232
+msgid "Fast start enabled"
+msgstr "Хуткі старт уключаны"
+
+#: src/endpoint.cpp:1235
+msgid "H.245 Tunnelling disabled"
+msgstr "Тунэляваньне H.245 адключана"
+
+#: src/endpoint.cpp:1236
+msgid "H.245 Tunnelling enabled"
+msgstr "Тунэляваньне H.245 уключана"
+
+#: src/endpoint.cpp:1432
+msgid "Local user cleared the call"
+msgstr "Мясцовы карыстальнік ачысьціў выклік"
+
+#: src/endpoint.cpp:1435
+msgid "Remote user cleared the call"
+msgstr "Аддалены карыстальнік ачысьціў выклік"
+
+#: src/endpoint.cpp:1438 src/endpoint.cpp:1441
+msgid "Remote user did not accept the call"
+msgstr "Аддалены карыстальнік не адказвае на выклік"
+
+#: src/endpoint.cpp:1444
+msgid "Local user did not accept the call"
+msgstr "Мясцовы карыстальнік не адказвае на выклік"
+
+#: src/endpoint.cpp:1447
+msgid "The Gatekeeper cleared the call"
+msgstr "Gatekeeper ачысьціў выклік"
+
+#: src/endpoint.cpp:1450
+msgid "Call not answered in the required time"
+msgstr "Не было адказу ў патрэбны тэрмін"
+
+#: src/endpoint.cpp:1453
+msgid "Remote user has stopped calling"
+msgstr "Аддалены карыстальнік спыніў сэанс сувязі"
+
+#: src/endpoint.cpp:1456
+msgid "Abnormal call termination"
+msgstr "Аварыйнае завяршэньне выкліку"
+
+#: src/endpoint.cpp:1459
+msgid "Could not connect to remote host"
+msgstr "Немагчыма далучыцца да аддаленага вузла"
+
+#: src/endpoint.cpp:1462
+msgid "Insufficient bandwidth"
+msgstr "Недахоп паласы прапусканьня"
+
+#: src/endpoint.cpp:1465
+msgid "No common codec"
+msgstr "Няма кодэкаў"
+
+#: src/endpoint.cpp:1471
+msgid "Security check Failed"
+msgstr "Збой праверкі бясьпекі"
+
+#: src/endpoint.cpp:1474
+msgid "Local user is busy"
+msgstr "Мясцовы карыстальнік заняты"
+
+#: src/endpoint.cpp:1477
+msgid "Remote user is busy"
+msgstr "Аддалены карыстальнік заняты"
+
+#: src/endpoint.cpp:1480 src/endpoint.cpp:1483
+msgid "Congested link to remote party"
+msgstr "Загружаны канал да аддаленага абанэнта"
+
+#: src/endpoint.cpp:1486
+msgid "Remote user is unreachable"
+msgstr "Аддалены карыстальнік нечытальны"
+
+#: src/endpoint.cpp:1489
+msgid "Remote user is not running GnomeMeeting"
+msgstr "Аддалены карыстальнік не запусьціў нараду для Gnome"
+
+#: src/endpoint.cpp:1492
+msgid "Remote host is offline"
+msgstr "Аддалены вузел адключаны"
+
+#: src/endpoint.cpp:1495
+msgid "Temporary failure"
+msgstr "Часовы збой"
+
+#: src/endpoint.cpp:1498 src/urlhandler.cpp:366
+msgid "User not found"
+msgstr "Карыстальнік не адшуканы"
+
+#: src/endpoint.cpp:1502
+msgid "Call completed"
+msgstr "Выклік выкананы"
+
+#: src/endpoint.cpp:1594 src/main_window.cpp:1364
+msgid ""
+"Lost packets:\n"
+"Late packets:\n"
+"Round-trip delay:\n"
+"Jitter buffer:"
+msgstr ""
+"Пакетаў згублена:\n"
+"Пакетаў спазьнілася:\n"
+"Затрымка \"туды-назад\":\n"
+"Буфэр дрыжаньня:"
+
+#: src/endpoint.cpp:1773
+msgid "Attaching lid hardware to codec"
+msgstr "Абсталяваньне lid далучаецца да кодэка"
+
+#: src/endpoint.cpp:1788
+msgid "Could not open audio channel for audio transmission"
+msgstr "Немагчыма адкрыць канал гуку для перадачы гука"
+
+#: src/endpoint.cpp:1788
+msgid ""
+"An error occured while trying to record from the soundcard for the audio "
+"transmission. Please check that your soundcard is not busy and that your "
+"driver supports full-duplex.\n"
+"The audio transmission has been disabled."
+msgstr ""
+"Адбылася памылка ў часе спробы запісу з гукавае прылады для перадачы гуку. \n"
+"Калі ласка праверце што прылада не занятая і што яе драйвэр падтрымлівае рэжым\n"
+"поўнага дуплексу. Перадача гуку выключана."
+
+#: src/endpoint.cpp:1790
+msgid "Could not open audio channel for audio reception"
+msgstr "Немагчыма адкрыць канал гуку для атрыманьня гука"
+
+#: src/endpoint.cpp:1790
+msgid ""
+"An error occured while trying to play audio to the soundcard for the audio "
+"reception. Please check that your soundcard is not busy and that your driver "
+"supports full-duplex.\n"
+"The audio reception has been disabled."
+msgstr ""
+"Адбылася памылка ў часе спробы прайграваньня з гукавае прылады для атрыманага гуку. \n"
+"Калі ласка праверце што прылада не занятая і што яе драйвэр падтрымлівае рэжым\n"
+"поўнага дуплексу. Перадача гуку выключана."
+
+#: src/gatekeeper.cpp:137
+#, c-format
+msgid "Unregistered from gatekeeper %s"
+msgstr "Адмена рэгістрацыі на gatekeeper %s"
+
+#: src/gatekeeper.cpp:151
+msgid "Invalid gatekeeper hostname"
+msgstr "Нерэчаісная назва вузла gatekeeper"
+
+#: src/gatekeeper.cpp:151
+msgid ""
+"Please provide a hostname to use for the gatekeeper.\n"
+"Disabling registering."
+msgstr ""
+"Пазначце назву вузла, дзе працуе Gatekeeper.\n"
+"Регістрацыя забараняецца."
+
+#: src/gatekeeper.cpp:159
+msgid "Invalid gatekeeper ID"
+msgstr "Нерэчаісны gatekeeper ID"
+
+#: src/gatekeeper.cpp:159
+msgid ""
+"Please provide a valid ID for the gatekeeper.\n"
+"Disabling registering."
+msgstr ""
+"Пазначце правільны ідэнтыфікатар gatekeeper.\n"
+"Рэгістрацыя забараняецца."
+
+#: src/gatekeeper.cpp:206
+msgid "Another user already exists with the same alias, please use another alias."
+msgstr "Ужо існуе іншы карыстальнік з такой сама мянушкай, калі ласка скарыстайце іншую мянушку."
+
+#: src/gatekeeper.cpp:209
+msgid ""
+"You are not allowed to register to the gatekeeper. Please check your login, "
+"password and firewall."
+msgstr ""
+"Вам недазволена рэгістравацца на gatekeeper. Калі ласка праверце ваш уліковы запіс, "
+"пароль і сыстэму фільтраваньня пакетаў (firewall)."
+
+#: src/gatekeeper.cpp:212
+msgid "There was a transport error."
+msgstr "Памылка перадачы."
+
+#: src/gatekeeper.cpp:215 src/gatekeeper.cpp:220
+msgid "No gatekeeper corresponding to your options has been found."
+msgstr "Няма gatekeeper які б задавальняў выбарам якія вы пазначылі."
+
+#: src/gatekeeper.cpp:222
+msgid "Error while registering with gatekeeper"
+msgstr "Памылка рэгістрацыі gatekeeper"
+
+#: src/gatekeeper.cpp:240
+#, c-format
+msgid "Gatekeeper set to %s"
+msgstr "Усталяваны Gatekeeper %s"
+
+#: src/gnomemeeting.cpp:86
+msgid "Notification area not detected"
+msgstr "Прастора паведамленьняў не вызначана"
+
+#: src/gnomemeeting.cpp:86
+msgid ""
+"You have chosen to start GnomeMeeting hidden, however the notification area "
+"is not present in your panel, GnomeMeeting can thus not start hidden."
+msgstr "Вы выбралі запуск нарады ў схаваным стане, але прастора паведамленьняў адсутнічае на вашае панэлі, таму нарада для Gnome не можа запускацца ў схаваным стане."
+
+#: src/gnomemeeting.cpp:182
+msgid "Answering incoming call"
+msgstr "Адказ на ўваходны выклік"
+
+#: src/gnomemeeting.cpp:253
+msgid "Trying to stop calling"
+msgstr "Спроба спыніць выклік"
+
+#: src/gnomemeeting.cpp:266
+msgid "Stopping current call"
+msgstr "Спыненьне бягучага выкліку"
+
+#: src/gnomemeeting.cpp:278
+msgid "Refusing Incoming call"
+msgstr "Адкідаецца ўваходны выклік"
+
+#. no error if Picture is choosen as video device
+#: src/gnomemeeting.cpp:309 src/videograbber.cpp:366 src/videograbber.cpp:683
+msgid "Picture"
+msgstr "Карцінка"
+
+#: src/gnomemeeting.cpp:417
+msgid "Error while starting the listener"
+msgstr "Памылка ў час запуску слухача"
+
+#: src/gnomemeeting.cpp:417
+msgid ""
+"You will not be able to receive incoming calls. Please check that no other "
+"program is already running on the port used by GnomeMeeting."
+msgstr ""
+"Вы не можаце атрымліваць уваходныя выклікі. Калі ласка праверце, "
+" ці не выкарыстоўвае іншая праграма тыя сама парты што і GnomeMeeting."
+
+#. GM is started
+#: src/gnomemeeting.cpp:494
+#, c-format
+msgid "Started GnomeMeeting V%d.%d for %s\n"
+msgstr "Запушчана нарада для Gnome вэрсыі %d.%d для %s\n"
+
+#: src/ils.cpp:119
+msgid "Parse error"
+msgstr "Памылка разбору"
+
+#: src/ils.cpp:119
+#, c-format
+msgid ""
+"There was an error while processing the registering to the user directory: %"
+"d %s."
+msgstr ""
+"Адбылася памылка ў часе рэгістрацыі ў каталёзе карыстальніка: %"
+"d %s."
+
+#. No need to display that for unregistering
+#: src/ils.cpp:233
+msgid "Invalid parameters"
+msgstr "Памылковыя парамэтры"
+
+#: src/ils.cpp:233
+msgid ""
+"Please provide your first name and e-mail in the Personal Data section in "
+"order to be able to register to the user directory."
+msgstr ""
+"Калі ласка пазначце вашае імя й э. скрыню ў падзеле асабістых зьвестак каб мець магчымасьць "
+"зарэгістравацца ў каталёзе карыстальнікаў."
+
+#: src/ils.cpp:268
+msgid "Invalid user directory"
+msgstr "Нерэчаісны каталёг карыстальнікаў"
+
+#: src/ils.cpp:268
+msgid "Operation impossible since there is no user directory specified."
+msgstr ""
+
+#: src/ils.cpp:334 src/ils.cpp:921
+#, c-format
+msgid "Contacting %s..."
+msgstr "Кантактаваньне з %s..."
+
+#: src/ils.cpp:347
+msgid "Failed to parse XML file"
+msgstr "Збой разбору файла XML"
+
+#: src/ils.cpp:347
+msgid ""
+"There was an error while parsing the XML file. Please make sure that it is "
+"correctly installed in your system."
+msgstr "Адбылася памылка разбору файла XML. Калі ласка ўпэўніцеся што усталяваньне гэтага на вашую сыстэму было карэктным."
+
+#: src/ils.cpp:358
+msgid "Bad information"
+msgstr "Кепскія зьвесткі"
+
+#: src/ils.cpp:358
+#, c-format
+msgid "Bad ldap information from XML file: %s."
+msgstr "Кепскія зьвесткі ldap з файла XML: %s."
+
+#: src/ils.cpp:367 src/ils.cpp:377 src/ils.cpp:386
+msgid "Cannot contact the user directory"
+msgstr "Немагчыма далучыцца да каталёга карыстальніка"
+
+#: src/ils.cpp:367
+#, c-format
+msgid "Failed to contact the user directory %s:%d."
+msgstr "Збой далучэньня да каталёга карыстальніка %s:%d."
+
+#: src/ils.cpp:377
+msgid "Failed to set a time limit on operations."
+msgstr "Збой усталёўкі тэрміна апэрацыяў."
+
+#: src/ils.cpp:386
+#, c-format
+msgid "Failed to bind to user directory: %s."
+msgstr "Памылка вызначэньня адрэсы каталега карыстальнікаў: %s."
+
+#: src/ils.cpp:417
+#, c-format
+msgid "Successfully registered to %s."
+msgstr "Пасьпяховая рэгістрацыя на %s."
+
+#: src/ils.cpp:453
+#, c-format
+msgid "Updated information on %s."
+msgstr "Абнаўленьне звестак на %s."
+
+#: src/ils.cpp:463
+#, c-format
+msgid "Successfully unregistered from %s."
+msgstr "Пасьпяховая адмена рэгістрацыі на %s."
+
+#: src/ils.cpp:495
+#, c-format
+msgid "Error while registering to %s."
+msgstr "Памылка у часе рэгістрацыі на %s."
+
+#: src/ils.cpp:498
+#, c-format
+msgid "Error while unregistering from %s."
+msgstr "Памылка ў часе адмены рэгістрацыі на %s."
+
+#: src/ils.cpp:929
+#, c-format
+msgid "Failed to contact LDAP server %s:%d."
+msgstr "Збой далучэньня да паслужніка LDAP %s:%d."
+
+#: src/ils.cpp:942
+msgid "Failed to set time limit on LDAP operations."
+msgstr "Збой усталёўкі тэрміна апэрацыяў LDAP."
+
+#: src/ils.cpp:952
+#, c-format
+msgid "Failed to contact to LDAP server %s: %s."
+msgstr "Збой далучэньня да паслужніка LDAP %s: %s."
+
+#: src/ils.cpp:962
+#, c-format
+msgid "Fetching online users list from %s."
+msgstr "Атрыманьне спісаў карыстальніка з %s."
+
+#: src/ils.cpp:981
+#, c-format
+msgid "Connection to %s lost..."
+msgstr "Далучэньне да %s згублена..."
+
+#: src/ils.cpp:984
+msgid "Could not fetch online users list."
+msgstr "Немагчыма атрымаць сьпіс карыстальнікаў."
+
+#: src/ils.cpp:1210
+#, c-format
+msgid "Search completed: %d user(s) listed on a total of %d user(s) from %s."
+msgstr "Пошук скончаны: маецца %d карыстальнікаў з %d з %s."
+
+#: src/ils.cpp:1215
+#, c-format
+msgid "Search completed: %d user(s) found on %s."
+msgstr "Пошук скончаны: на%2$s адшуканы %1$d карыстальнік(і)."
+
+#: src/ldap_window.cpp:725
+msgid "Name:"
+msgstr "Імя:"
+
+#: src/ldap_window.cpp:745
+msgid "URL:"
+msgstr "URL:"
+
+#: src/ldap_window.cpp:772
+msgid "Speed Dial:"
+msgstr "Хуткі набор:"
+
+#: src/ldap_window.cpp:796
+msgid "Groups:"
+msgstr "Групы:"
+
+#: src/ldap_window.cpp:912
+msgid "Invalid user name or URL"
+msgstr "Нерэчаіснае імя карыстальніка ці URL"
+
+#: src/ldap_window.cpp:912
+msgid ""
+"Please provide a valid name and URL for the contact you want to add to the "
+"address book."
+msgstr "Калі ласка пазначце правільнае імя й URL кантакту які вы жадаеце дадаць да кнігі адрэсаў."
+
+#: src/ldap_window.cpp:920
+msgid "Invalid group"
+msgstr "Нерэчаісная група"
+
+#: src/ldap_window.cpp:920
+msgid "You have to select a group to which you want to add your contact."
+msgstr "Вы мусіце выбраць групу калі жадаеце дадаць кантакт."
+
+#: src/ldap_window.cpp:934
+msgid "Invalid speed dial"
+msgstr "Нерэчаісны хуткі набор"
+
+#: src/ldap_window.cpp:934
+msgid "Another contact with the same speed dial already exists in the address book."
+msgstr "Іншы кантакт з гэткай жа ж хуткасьцю сувязі ўжо існуе ў кнізе адрэсаў."
+
+#: src/ldap_window.cpp:946
+msgid "Invalid URL"
+msgstr "Некарэктны URL"
+
+#: src/ldap_window.cpp:946
+msgid "Another contact with the same URL already exists in the address book."
+msgstr "Іншы кантак з гэткім жа сама URL ужо існуе ў кнізе адрэсаў."
+
+#: src/ldap_window.cpp:1073
+#, c-format
+msgid "Add %s to Address Book"
+msgstr "Дадаць %s да кнігі адрэсаў"
+
+#: src/ldap_window.cpp:1093 src/ldap_window.cpp:2258
+msgid "C_all Contact"
+msgstr "_Выклікаць кантакт"
+
+#: src/ldap_window.cpp:1098 src/ldap_window.cpp:2262
+msgid "_Tranfer Call to Contact"
+msgstr "Выклікае абанэнта гэтага _кантакту"
+
+#: src/ldap_window.cpp:1109 src/ldap_window.cpp:2280
+msgid "Contact _Properties"
+msgstr "_Уласьцівасьці кантакта"
+
+#: src/ldap_window.cpp:1115 src/ldap_window.cpp:2244
+msgid "_Delete"
+msgstr "Вы_даліць"
+
+#: src/ldap_window.cpp:1220
+msgid "Add a new server"
+msgstr "Дадаць новы паслужнік"
+
+#: src/ldap_window.cpp:1221
+msgid "Enter the server name:"
+msgstr "Увядзіце назву паслужніка:"
+
+#: src/ldap_window.cpp:1222
+msgid "Sorry but there is already a server with the same name in the address book."
+msgstr "Выбачайце але там ужо маецца паслужнік з гэткай сама назвай у кнізе адрэсаў."
+
+#: src/ldap_window.cpp:1227
+msgid "Add a new group"
+msgstr "Дадаць новую групу"
+
+#: src/ldap_window.cpp:1228
+msgid "Enter the group name:"
+msgstr "Увядзіце назву групы:"
+
+#: src/ldap_window.cpp:1229
+msgid "Sorry but there is already a group with the same name in the address book."
+msgstr "Выбачайце але там ужо ёсьць група з гэткай сама назвай у кнізе адрэсаў."
+
+#: src/ldap_window.cpp:1264
+msgid "Invalid server or group name"
+msgstr "Нерэчаісны паслужнік ці назва групы"
+
+#: src/ldap_window.cpp:1350
+#, c-format
+msgid "Are you sure you want to delete server %s?"
+msgstr "Вы ўпэўненыя што жадаеце выдаліць паслужнік %s?"
+
+#: src/ldap_window.cpp:1356
+#, c-format
+msgid "Are you sure you want to delete group %s and all its contacts?"
+msgstr "Вы ўпэўненыя што жадаеце выдаліць групу %s і ўсе яе кантакты?"
+
+#: src/ldap_window.cpp:1539
+msgid "New server"
+msgstr "Новы паслужнік"
+
+#: src/ldap_window.cpp:1548
+msgid "New group"
+msgstr "Новая група"
+
+#: src/ldap_window.cpp:1557
+msgid "_Find"
+msgstr "_Шукаць"
+
+#: src/ldap_window.cpp:1562 src/ldap_window.cpp:1576
+msgid "Delete"
+msgstr "Выдаліць"
+
+#: src/ldap_window.cpp:1571
+msgid "New contact"
+msgstr "Новы кантакт"
+
+#: src/ldap_window.cpp:2212
+msgid "GnomeMeeting Address Book"
+msgstr "Кніга адрэсаў нарады для Gnome"
+
+#: src/ldap_window.cpp:2230
+msgid "_File"
+msgstr "_Файл"
+
+#: src/ldap_window.cpp:2232
+msgid "New _Server"
+msgstr "Новы _паслужнік"
+
+#: src/ldap_window.cpp:2237
+msgid "New _Group"
+msgstr "Новая _група"
+
+#: src/ldap_window.cpp:2250
+msgid "_Close"
+msgstr "За_крыць"
+
+#: src/ldap_window.cpp:2256
+msgid "C_ontact"
+msgstr "_Кантакт"
+
+#: src/ldap_window.cpp:2268
+msgid "New _Contact"
+msgstr "Новы _кантакт"
+
+#: src/ldap_window.cpp:2273
+msgid "Add Contact to _Address Book"
+msgstr "Дадаць кантакт да кнігі _адрэсаў"
+
+#. Translators: This is "S" as in "Status"
+#: src/ldap_window.cpp:2530
+msgid "S"
+msgstr "С"
+
+#. Translators: This is "A" as in "Audio"
+#: src/ldap_window.cpp:2540 src/pref_window.cpp:1218
+msgid "A"
+msgstr "Г"
+
+#. Translators: This is "V" as in "Video"
+#: src/ldap_window.cpp:2550
+msgid "V"
+msgstr "В"
+
+#: src/ldap_window.cpp:2559 src/ldap_window.cpp:2633 src/pref_window.cpp:1232
+msgid "Name"
+msgstr "Назва"
+
+#: src/ldap_window.cpp:2597 src/ldap_window.cpp:2645 src/tools.cpp:248
+msgid "URL"
+msgstr "URL"
+
+#: src/ldap_window.cpp:2620
+msgid "IP"
+msgstr "IP"
+
+#: src/ldap_window.cpp:2658
+msgid "Speed Dial"
+msgstr "Хуткі набор"
+
+#: src/ldap_window.cpp:2711
+msgid "Find all contacts"
+msgstr "Шукаць усе кантакты"
+
+#: src/ldap_window.cpp:2716
+msgid "First name contains"
+msgstr "Імя ўтрымлівае"
+
+#: src/ldap_window.cpp:2720
+msgid "Last name contains"
+msgstr "Прозьвішча ўтрымлівае"
+
+#: src/ldap_window.cpp:2724
+msgid "E-mail contains"
+msgstr "Э. скрыня ўтрымлівае"
+
+#: src/ldap_window.cpp:2909
+msgid "Servers"
+msgstr "Паслужнікі"
+
+#: src/ldap_window.cpp:2955
+msgid "Groups"
+msgstr "Групы"
+
+#: src/lid.cpp:132
+#, c-format
+msgid "Using Quicknet device %s"
+msgstr "Выкарыстоўваецца прылада Quicknet %s"
+
+#: src/lid.cpp:174
+msgid "Error while opening the Quicknet device."
+msgstr "Памылка у час адкрыцьця прылады Quicknet."
+
+#: src/lid.cpp:174
+msgid ""
+"Please check that your driver is correctly installed and that the device is "
+"working correctly."
+msgstr "Кали ласка праверце што ваш драйвэр усталяваны карэктна й прылада так сама карэктна працуе."
+
+#: src/lid.cpp:279 src/lid.cpp:280
+msgid "Phone is off hook"
+msgstr "Слухаўка пакладзена"
+
+#: src/lid.cpp:309 src/lid.cpp:310
+msgid "Phone is on hook"
+msgstr "Слухаўка паднята"
+
+#: src/main_window.cpp:255
+#, c-format
+msgid "%.2ld:%.2ld:%.2ld  A:%.2f/%.2f   V:%.2f/%.2f"
+msgstr "%.2ld:%.2ld:%.2ld  Г:%.2f/%.2f   В:%.2f/%.2f"
+
+#: src/main_window.cpp:292
+#, c-format
+msgid ""
+"Lost packets: %.1f %%\n"
+"Late packets: %.1f %%\n"
+"Round-trip delay: %d ms\n"
+"Jitter buffer: %d ms"
+msgstr ""
+"Пакетаў згублена: %.1f %%\n"
+"Пакетаў спазьнілася: %.1f %%\n"
+"Затрымка \"туды-назад\": %d мс\n"
+"Буфэр дрыжаньня: %d мс"
+
+#: src/main_window.cpp:486
+#, c-format
+msgid "Total: %.2f MB"
+msgstr "Агулам: %.2f MБ"
+
+#: src/main_window.cpp:605
+msgid "Cannot run GnomeMeeting"
+msgstr "Немагчыма запусьціць нараду для Gnome"
+
+#: src/main_window.cpp:605
+msgid ""
+"GnomeMeeting is already running, if you want it to call a given callto URL, "
+"please use \"gnomemeeting -c URL\"."
+msgstr ""
+"Нарада для Gnome ўжо працуе, калі вы жадаеце выклікаць пэўны URL, "
+"калі ласка скарыстайце загад \"gnomemeeting -c URL\"."
+
+#: src/main_window.cpp:657
+msgid ""
+"It appears that you do not have gnomemeeting.server installed in a valid "
+"location. Factory mode disabled.\n"
+msgstr ""
+
+#: src/main_window.cpp:661
+msgid ""
+"Error registering GnomeMeeting with the activation service; factory mode "
+"disabled.\n"
+msgstr ""
+"Памылка рэгістрацыі нарады для Gnome паслугай актывацыі; рэжым вытворчасьці"
+" выключаны.\n"
+
+#: src/main_window.cpp:701
+msgid "Failed to retrieve gnomemeeting server from activation server\n"
+msgstr "Збой атрыманьня паслужніка gnomemeeting з паслужніка актываваньня\n"
+
+#: src/main_window.cpp:1196 src/menu.cpp:566 src/menu.cpp:815
+msgid "Local Video"
+msgstr "Мясцовае відэа"
+
+#: src/main_window.cpp:1202 src/menu.cpp:572 src/menu.cpp:820
+msgid "Remote Video"
+msgstr "Аддаленае відэа"
+
+#: src/main_window.cpp:1369 src/menu.cpp:526
+msgid "Statistics"
+msgstr "Статыстыка"
+
+#: src/main_window.cpp:1430
+msgid "Dialpad"
+msgstr "Панэля нобору"
+
+#: src/main_window.cpp:1484
+msgid "Adjust brightness"
+msgstr "Наладка зыркасьці"
+
+#: src/main_window.cpp:1506
+msgid "Adjust whiteness"
+msgstr "Наладка узроўню белага"
+
+#: src/main_window.cpp:1528
+msgid "Adjust color"
+msgstr "Наладка колеру"
+
+#: src/main_window.cpp:1550
+msgid "Adjust contrast"
+msgstr "Наладка кантрасту"
+
+#: src/main_window.cpp:1558
+msgid "Video"
+msgstr "Відэа"
+
+#: src/main_window.cpp:1638
+msgid "Audio"
+msgstr "Гук"
+
+#: src/main_window.cpp:1680
+msgid "Prints debug messages in the console (level between 1 and 6)"
+msgstr "Друкуе паведамленьні адладкі ў кансолі (узровень між 1 і 6)"
+
+#: src/main_window.cpp:1683
+msgid "Makes GnomeMeeting call the given URL"
+msgstr "Выклікае пэўны URL"
+
+#: src/main_window.cpp:1729
+msgid "No usable audio devices detected"
+msgstr "Не вызначана гукавае прылады якую можна выкарыстоўваць"
+
+#: src/main_window.cpp:1729
+msgid ""
+"GnomeMeeting didn't find any usable sound devices. You need to install and "
+"setup a soundcard or a Quicknet card in order to be able to use "
+"GnomeMeeting. Please check your driver settings and permissions."
+msgstr ""
+"Нарада ня можа адшукаць нуводнае прыдатнае гукавае прылады. Вы мусіце ўсталяваць і наладзіць гукавую прыладу "
+"ці прыладу Quicknet каб мець магчымасьць карыстацца нарадай для Gnome. "
+"Калі ласка праверце ўсталёўкі вашага драйвэра й правы доступу."
+
+#: src/main_window.cpp:1749
+msgid "Gconf key error"
+msgstr "Памылка ключа Gconf"
+
+#: src/main_window.cpp:1749
+#, fuzzy
+msgid ""
+"GnomeMeeting got an invalid value for the GConf key \"/apps/gnomemeeting/"
+"gconf_test_age\".\n"
+"\n"
+"It probably means that your GConf schemas have not been correctly installed "
+"or the that permissions are not correct.\n"
+"\n"
+"Please check the FAQ (http://www.gnomemeeting.org/faq.php), the "
+"throubleshoot section of the GConf site (http://www.gnome.org/projects/"
+"gconf/) or the mailing list archives for more information (http://mail.gnome."
+"org) about this problem."
+msgstr ""
+"GnomeMeeting атрымала нерэчаіснае значэньня ключа GConf \"/apps/gnomemeeting/"
+"gconf_test_age\".\n"
+"\n"
+"It probably means that your GConf schemas have not been correctly installed "
+"or the that permissions are not correct.\n"
+"\n"
+"Please check the FAQ (http://www.gnomemeeting.org/faq.php), the "
+"throubleshoot section of the GConf site (http://www.gnome.org/projects/"
+"gconf/) or the mailing list archives for more information (http://mail.gnome."
+"org) about this problem."
+
+#: src/menu.cpp:432
+msgid "C_all"
+msgstr "_Выклік"
+
+#: src/menu.cpp:434
+msgid "C_onnect"
+msgstr "Да_лучэньне"
+
+#: src/menu.cpp:434 src/menu.cpp:894
+msgid "Create a new connection"
+msgstr "Стварыць новае далучэньне"
+
+#: src/menu.cpp:439 src/menu.cpp:899
+msgid "_Disconnect"
+msgstr "_Адлучыцца"
+
+#: src/menu.cpp:439 src/menu.cpp:899
+msgid "Close the current connection"
+msgstr "Закрыць бягучае далучэньне"
+
+#: src/menu.cpp:446 src/menu.cpp:906
+msgid "Do _Not Disturb"
+msgstr "_Не турбаваць"
+
+#: src/menu.cpp:451 src/menu.cpp:911
+msgid "Aut_o Answer"
+msgstr "_Аўтаматычны адказ"
+
+#: src/menu.cpp:451
+msgid "Auto answer incoming call"
+msgstr "Аўтаматычна адказваць на ўваходныя выклікі"
+
+#: src/menu.cpp:458
+msgid "Hold the current call"
+msgstr "Прыпыненьне бягучага выкліку"
+
+#: src/menu.cpp:463
+msgid "Transfer the current call"
+msgstr "Перадача бягучага выкліку"
+
+#: src/menu.cpp:470
+msgid "Suspend or resume the audio transmission"
+msgstr "Прыпыняе ці аднаўляе перадачу гуку"
+
+#: src/menu.cpp:475
+msgid "Suspend or resume the video transmission"
+msgstr "Прыпыняе ці аднаўляе перадачу відэа"
+
+#: src/menu.cpp:482
+msgid "_Save Current Picture"
+msgstr "_Захаваць бягучую карцінку"
+
+#: src/menu.cpp:482
+msgid "Save a snapshot of the current video"
+msgstr "Захаваць здымак з бягучага відарыса"
+
+#: src/menu.cpp:488 src/menu.cpp:951
+msgid "_Quit"
+msgstr "В_ыйсьці"
+
+#: src/menu.cpp:488 src/menu.cpp:951
+msgid "Quit GnomeMeeting"
+msgstr "Высьці з нарады для Gnome"
+
+#: src/menu.cpp:491
+msgid "_Edit"
+msgstr "_Рэдагаваньне"
+
+#: src/menu.cpp:494 src/menu.cpp:499
+msgid "Configuration Druid"
+msgstr "Чараўнік наладкі"
+
+#: src/menu.cpp:494 src/menu.cpp:499
+msgid "Run the configuration druid"
+msgstr "Запускае чараўніка наладкі"
+
+#: src/menu.cpp:506 src/menu.cpp:932
+msgid "_Preferences..."
+msgstr "_Перавагі..."
+
+#: src/menu.cpp:506 src/menu.cpp:932
+msgid "Change your preferences"
+msgstr "Зьмяняе вашыя перавагі"
+
+#: src/menu.cpp:511
+msgid "_View"
+msgstr "_Выгляд"
+
+#. Text Chat
+#: src/menu.cpp:513 src/pref_window.cpp:827
+msgid "Text Chat"
+msgstr "Тэкставая размова"
+
+#: src/menu.cpp:513
+msgid "View/Hide the text chat window"
+msgstr "Паказаць/схаваць акно тэкставае размовы"
+
+#: src/menu.cpp:518
+msgid "Status Bar"
+msgstr "Радок стану"
+
+#: src/menu.cpp:518
+msgid "View/Hide the status bar"
+msgstr "Паказаць/схаваць панэлю стану"
+
+#: src/menu.cpp:524
+msgid "Control Panel"
+msgstr "Панэля кіраваньня"
+
+#: src/menu.cpp:527
+msgid "View audio/video transmission and reception statistics"
+msgstr "Паказаць статыстыку перадачы й атрыманьня гуку й відэа"
+
+#: src/menu.cpp:533
+msgid "_Dialpad"
+msgstr "Панэля _набору"
+
+#: src/menu.cpp:533
+msgid "View the dialpad"
+msgstr "Паказаць панэлю набору"
+
+#: src/menu.cpp:539
+msgid "_Audio Settings"
+msgstr "Усталяваньні _гуку"
+
+#: src/menu.cpp:539
+msgid "View audio settings"
+msgstr "Паказаць усталёўкі гуку"
+
+#: src/menu.cpp:545
+msgid "_Video Settings"
+msgstr "Усталяваньні _відэа"
+
+#: src/menu.cpp:545
+msgid "View video settings"
+msgstr "Паказаць усталёўкі гуку"
+
+#: src/menu.cpp:551 src/pref_window.cpp:1039
+msgid "Off"
+msgstr "Выкл"
+
+#: src/menu.cpp:551
+msgid "Hide the control panel"
+msgstr "Схаваць панэлю кіраваньня"
+
+#: src/menu.cpp:559
+msgid "_Clear text chat"
+msgstr "_Ачысьціць тэкст размовы"
+
+#: src/menu.cpp:559
+msgid "Clear the text chat"
+msgstr "Ачысьціць тэкст размовы"
+
+#: src/menu.cpp:566
+msgid "Local video image"
+msgstr "Відарыс мясцовага відэа"
+
+#: src/menu.cpp:572
+msgid "Remote video image"
+msgstr "Відарыс аддаленага відэа"
+
+#: src/menu.cpp:578 src/menu.cpp:825
+msgid "Both (Local Video Incrusted)"
+msgstr "Абодва (Мясцовае відэа ў адным акне з аддаленым)"
+
+#: src/menu.cpp:578 src/menu.cpp:584 src/menu.cpp:591
+msgid "Both video images"
+msgstr "Абодва відарысы відэа"
+
+#: src/menu.cpp:584 src/menu.cpp:830
+msgid "Both (Local Video in New Window)"
+msgstr "Абодва (Мясцовае відэа ў новым акне)"
+
+#: src/menu.cpp:590
+msgid "Both (Both in New Windows)"
+msgstr "Абодва (Абодва ў новых вокнах)"
+
+#: src/menu.cpp:599 src/menu.cpp:843
+msgid "Zoom In"
+msgstr "Маштаб +"
+
+#: src/menu.cpp:599
+msgid "Zoom in"
+msgstr "Маштаб +"
+
+#: src/menu.cpp:604 src/menu.cpp:848
+msgid "Zoom Out"
+msgstr "Маштаб -"
+
+#: src/menu.cpp:604
+msgid "Zoom out"
+msgstr "Маштаб -"
+
+#: src/menu.cpp:609 src/menu.cpp:853
+msgid "Normal Size"
+msgstr "Нармальны памер"
+
+#: src/menu.cpp:609
+msgid "Normal size"
+msgstr "Нармальны памер"
+
+#: src/menu.cpp:616 src/menu.cpp:860
+msgid "Fullscreen"
+msgstr "На ўвесь экран"
+
+#: src/menu.cpp:621
+msgid "_Tools"
+msgstr "_Інструмэнты"
+
+#: src/menu.cpp:623 src/menu.cpp:918
+msgid "Address _Book"
+msgstr "_Кніга адрэсаў"
+
+#: src/menu.cpp:623 src/menu.cpp:918
+msgid "Open the address book"
+msgstr "Адкрыць кнігу адрэсаў"
+
+#: src/menu.cpp:630 src/tools.cpp:329
+msgid "General History"
+msgstr "Асноўная гісторыя"
+
+#: src/menu.cpp:630
+msgid "View the operations history"
+msgstr "Паказаць гісторыю апэрацыяў"
+
+#: src/menu.cpp:635 src/menu.cpp:925 src/tools.cpp:200
+msgid "Calls History"
+msgstr "Гісторыя выклікаў"
+
+#: src/menu.cpp:635 src/menu.cpp:925
+msgid "View the calls history"
+msgstr "Прагледзіць гісторыю выклікаў"
+
+#: src/menu.cpp:642
+msgid "Consult MicroTelco Account"
+msgstr "Прагледзіць уліковы запіс MicroTelco"
+
+#: src/menu.cpp:642
+msgid "View the details of your account"
+msgstr "Паказаць падрабязнасьці вашага ўліковага запіса"
+
+#: src/menu.cpp:647
+msgid "_Help"
+msgstr "_Дапамога"
+
+#: src/menu.cpp:650 src/menu.cpp:655 src/menu.cpp:940 src/menu.cpp:945
+msgid "_About GnomeMeeting"
+msgstr "_Пра праграму GnomeMeeting"
+
+#: src/menu.cpp:650 src/menu.cpp:655 src/menu.cpp:940 src/menu.cpp:945
+msgid "View information about GnomeMeeting"
+msgstr "Прагляд зьвестак аб праграме GnomeMeeting"
+
+#: src/menu.cpp:815
+msgid "Local Video Image"
+msgstr "Відарыс мясцовага відэа"
+
+#: src/menu.cpp:820
+msgid "Remote Video Image"
+msgstr "Відарыс аддаленага відэа"
+
+#: src/menu.cpp:825 src/menu.cpp:830 src/menu.cpp:836
+msgid "Both Video Images"
+msgstr "Абодва відарысы"
+
+#: src/menu.cpp:835
+msgid "Both (Local and Remote Video in New Windows)"
+msgstr "Абодва (Мясцовае й аддаленае відэа ў новых вокнах)"
+
+#: src/menu.cpp:894
+msgid "_Connect"
+msgstr "_Выклікаць"
+
+#: src/menu.cpp:906
+msgid "Do not disturb (reject incoming calls)"
+msgstr "Не турбаваць (адкідаць уваходныя выклікі)"
+
+#: src/misc.cpp:175
+#, c-format
+msgid "Error: %s\n"
+msgstr "Памылка: %s\n"
+
+#: src/misc.cpp:219
+#, c-format
+msgid ""
+"Call from %s\n"
+"using %s"
+msgstr ""
+"Выклік ад %s\n"
+"з выкарыстаньнем %s"
+
+#: src/misc.cpp:227
+msgid "Reject"
+msgstr "Адкінуць"
+
+#: src/misc.cpp:229
+msgid "Accept"
+msgstr "Прыняць"
+
+#: src/pref_window.cpp:410
+msgid "Please choose the video image"
+msgstr "Калі ласка выбярыце відарыс відэа"
+
+#: src/pref_window.cpp:444
+msgid "Okay"
+msgstr "Добра"
+
+#: src/pref_window.cpp:449 src/pref_window.cpp:464 src/pref_window.cpp:469
+msgid "Excellent"
+msgstr "Выключна"
+
+#: src/pref_window.cpp:454 src/pref_window.cpp:459 src/pref_window.cpp:474
+#: src/pref_window.cpp:479
+msgid "Good Quality"
+msgstr "Добрая якасьць"
+
+#: src/pref_window.cpp:484
+msgid "Excellent Quality"
+msgstr "Выключная якасьць"
+
+#: src/pref_window.cpp:732
+msgid "_First name:"
+msgstr "_Імя:"
+
+#: src/pref_window.cpp:737
+msgid "Sur_name:"
+msgstr "_Прозьвішча:"
+
+#: src/pref_window.cpp:747
+msgid "_Comment:"
+msgstr "_Камэнтар:"
+
+#: src/pref_window.cpp:752
+msgid "_Location:"
+msgstr "_Разьмяшчэньне:"
+
+#: src/pref_window.cpp:758 src/pref_window.cpp:993
+msgid "_Apply"
+msgstr "_Ужыць"
+
+#: src/pref_window.cpp:758
+msgid ""
+"Click here to update the user directory you are registered to with the new "
+"First Name, Last Name, E-Mail, Comment and Location or to update your alias "
+"on the Gatekeeper."
+msgstr "Еацісьніце тутака каб абнавіць рэгістрацыю ў каталёзе карыстальнікаў з новымі імем, прозьвішчам, э. скрыняй і камэнтарам ці каб абнавіць вашу мянушку на Gatekeeper."
+
+#: src/pref_window.cpp:782
+msgid "GnomeMeeting GUI"
+msgstr "ГІК нарады для Gnome"
+
+#: src/pref_window.cpp:785
+msgid "_Show splash screen"
+msgstr "Паказываць _застаўку"
+
+#: src/pref_window.cpp:788
+msgid "Start _hidden"
+msgstr "Запускацца ў _схаваным стане"
+
+#. Packing widget
+#: src/pref_window.cpp:792
+msgid "Behavior"
+msgstr "Паводзіны"
+
+#: src/pref_window.cpp:796
+msgid "_Automatically answer calls"
+msgstr "_Аўтаматычна адказваць на выклікі"
+
+#: src/pref_window.cpp:799
+msgid "Do _not disturb"
+msgstr "Не _турбаваць"
+
+#: src/pref_window.cpp:802
+msgid "Display a po_pup window when receiving a call"
+msgstr "Адлюстроўваць раптоўнае акно калі атрыманы выклік"
+
+#. Packing widget
+#: src/pref_window.cpp:806
+msgid "Video Display"
+msgstr "Адлюстраваньне відэа"
+
+#. Translators: the full sentence is Use a fullscreen size
+#. of X by Y pixels
+#: src/pref_window.cpp:811
+msgid "Use a fullscreen size of"
+msgstr "Выкарыстоўваць поўнаэкраны памер"
+
+#: src/pref_window.cpp:813
+msgid "by"
+msgstr "ад "
+
+#: src/pref_window.cpp:815
+msgid "pixels"
+msgstr "піксэляў"
+
+#: src/pref_window.cpp:824
+msgid "Enable bilinear _filtering on displayed video"
+msgstr "Уключыць біленейнае фільтраваньне для адлюстраваньня відэа"
+
+#: src/pref_window.cpp:850
+msgid "User Directory"
+msgstr "Каталёг карыстальнікаў"
+
+#: src/pref_window.cpp:855
+msgid "User directory:"
+msgstr "Каталёг карыстальнікаў:"
+
+#: src/pref_window.cpp:858
+msgid "Enable _registering"
+msgstr "Уключыць _рэгістрацыю"
+
+#: src/pref_window.cpp:861
+msgid "_Publish my details in the users directory"
+msgstr "_Апублікаваць мае зьвесткі ў каталёзе карыстальнікаў"
+
+#: src/pref_window.cpp:883 src/pref_window.cpp:1523
+msgid "Call Forwarding"
+msgstr "Перанакіраваньне выкліка"
+
+#: src/pref_window.cpp:888
+msgid "Forward calls to _host:"
+msgstr "Перанакіраваньне выклікаў на _вузел:"
+
+#: src/pref_window.cpp:895
+msgid "_Always forward calls to the given host"
+msgstr "_Заўсёды перанакіроўваць выклікі да пазначанага вузла"
+
+#: src/pref_window.cpp:898
+msgid "Forward calls to the given host if _no answer"
+msgstr "Перанакіроўваць выклікі да пазначанага вузла калі _няма адказу"
+
+#: src/pref_window.cpp:901
+msgid "Forward calls to the given host if _busy"
+msgstr "Перанакіроўваць выклікі да пазначанага вузла калі _заняты"
+
+#: src/pref_window.cpp:915
+msgid "All"
+msgstr "Усе"
+
+#: src/pref_window.cpp:916
+msgid "None"
+msgstr "Нічога"
+
+#: src/pref_window.cpp:917
+msgid "rfc2833"
+msgstr "rfc2833"
+
+#: src/pref_window.cpp:918
+msgid "Signal"
+msgstr "Сыгнал"
+
+#: src/pref_window.cpp:919
+msgid "String"
+msgstr "Радковае"
+
+#: src/pref_window.cpp:929
+msgid "H.323 Version 2 Settings"
+msgstr "Усталёўкі H.323 Вэрсыі 2"
+
+#: src/pref_window.cpp:933
+msgid "Enable H.245 _tunnelling"
+msgstr "Уключыць _тунэляваньне H.245"
+
+#: src/pref_window.cpp:936
+msgid "Enable fast _start procedure"
+msgstr "Уключыць працэдуру хуткага старту"
+
+#: src/pref_window.cpp:941
+msgid "User Input Capabilities"
+msgstr "Магчымасьці ўводу карыстальнікам"
+
+#: src/pref_window.cpp:944
+msgid "User Input Capabilities _type:"
+msgstr "_Тып магчымасьцяў уводу карыстальнікам:"
+
+#: src/pref_window.cpp:944
+msgid ""
+"This permits to set the mode for User Input Capabilities. The values can be "
+"\"All\", \"None\", \"rfc2833\", \"Signal\" or \"String\" (default is \"All"
+"\"). Choosing other values than \"All\", \"String\" or \"rfc2833\" disables "
+"the Text Chat."
+msgstr ""
+"Гэты выбар усталёўвае рэжым магчымасьцяў уводу карыстальніка. Значэньне можа быць "
+"\"Усе\", \"Нічога\", \"rfc2833\", \"Сыгнал\", \"Радок\" (дапомна \"Усе\"). Выбар іншага за "
+"\"Усе\", \"Радок\" ці \"rfc2833\" значэньня выключыць тэкставую размову."
+
+#: src/pref_window.cpp:961
+msgid "Do not register"
+msgstr "Не рэгістравацца"
+
+#: src/pref_window.cpp:964
+msgid "Automatically discover"
+msgstr "Аўтаматычнае адкрыцьцё"
+
+#: src/pref_window.cpp:974
+msgid "Gatekeeper"
+msgstr "Gatekeeper"
+
+#: src/pref_window.cpp:977
+msgid "Gatekeeper _ID:"
+msgstr "Gatekeeper _ID:"
+
+#: src/pref_window.cpp:980
+msgid "Gatekeeper _host:"
+msgstr "_Вузел Gatekeeper:"
+
+#: src/pref_window.cpp:983
+msgid "Gatekeeper _alias:"
+msgstr "_Мянушка Gatekeeper:"
+
+#: src/pref_window.cpp:986
+msgid "Gatekeeper _password:"
+msgstr "_Пароль Gatekeeper:"
+
+#: src/pref_window.cpp:990
+msgid "Registering method:"
+msgstr "Мэтад рэгістрацыі:"
+
+#: src/pref_window.cpp:993
+msgid "Click here to update your Gatekeeper settings."
+msgstr "Націсьніце тутака каб абнавіць усталёўкі Gatekeeper."
+
+#: src/pref_window.cpp:1016
+msgid "NAT/PAT Router Support"
+msgstr "Падтрымка шляхаваньня NAT/PAT"
+
+#: src/pref_window.cpp:1019
+msgid "Enable IP _translation"
+msgstr "Уключыць _трансьляцыю ІР"
+
+#: src/pref_window.cpp:1022
+msgid "Public _IP of the NAT/PAT router:"
+msgstr "Публічны _ІР шляхавіка NAT/PAT:"
+
+#: src/pref_window.cpp:1040
+msgid "Low"
+msgstr "Нізка"
+
+#: src/pref_window.cpp:1041
+msgid "Medium"
+msgstr "Сярэдне"
+
+#: src/pref_window.cpp:1042
+msgid "High"
+msgstr "Высока"
+
+#: src/pref_window.cpp:1043
+msgid "AGC"
+msgstr "АРУ"
+
+#: src/pref_window.cpp:1060
+msgid "Playing device:"
+msgstr "Прылада прайграваньня:"
+
+#: src/pref_window.cpp:1063
+msgid "Playing mixer:"
+msgstr "Мікшар прайграваньня:"
+
+#: src/pref_window.cpp:1067
+msgid "Recording device:"
+msgstr "Прылада запісу:"
+
+#: src/pref_window.cpp:1070
+msgid "Recording mixer:"
+msgstr "Мікшар запісу:"
+
+#. The Quicknet devices related options
+#: src/pref_window.cpp:1075
+msgid "Quicknet Device"
+msgstr "Прылада Quicknet"
+
+#: src/pref_window.cpp:1078
+msgid "Echo _cancellation:"
+msgstr "Падаўленьне рэха:"
+
+#: src/pref_window.cpp:1081
+msgid "Country _code:"
+msgstr "Код _краіны:"
+
+#. That button will refresh the devices list
+#: src/pref_window.cpp:1088 src/pref_window.cpp:1159
+msgid "_Detect devices"
+msgstr "_Вызначэньне прыладаў"
+
+#: src/pref_window.cpp:1088 src/pref_window.cpp:1159
+msgid "Click here to refresh the devices list."
+msgstr "Націсьніце сюды каб абнавіць сьпіс прыладаў."
+
+#: src/pref_window.cpp:1105
+msgid "Small"
+msgstr "Малы"
+
+#: src/pref_window.cpp:1106
+msgid "Large"
+msgstr "Вялікі"
+
+#: src/pref_window.cpp:1108
+msgid "PAL (Europe)"
+msgstr "PAL (Эўропа)"
+
+#: src/pref_window.cpp:1109
+msgid "NTSC (America)"
+msgstr "NTSC (Амэрыка)"
+
+#: src/pref_window.cpp:1110
+msgid "SECAM (France)"
+msgstr "SECAM (Беларусь)"
+
+#: src/pref_window.cpp:1111
+msgid "Auto"
+msgstr "Аўтаматычна"
+
+#: src/pref_window.cpp:1134
+msgid "Video channel:"
+msgstr "Канал відэа:"
+
+#: src/pref_window.cpp:1137
+msgid "Video size:"
+msgstr "Памер відэа:"
+
+#: src/pref_window.cpp:1140
+msgid "Video format:"
+msgstr "Фармат відэа:"
+
+#: src/pref_window.cpp:1143
+msgid "Video image:"
+msgstr "Відарыс відэа:"
+
+#. The file selector button
+#: src/pref_window.cpp:1147
+msgid "Choose a picture"
+msgstr "Выбяр карцінкі"
+
+#: src/pref_window.cpp:1193
+msgid "Available Audio Codecs"
+msgstr "Даступныя гукавыя кодэкі"
+
+#: src/pref_window.cpp:1243
+msgid "Info"
+msgstr "Зьвесткі"
+
+#: src/pref_window.cpp:1255
+msgid "Bandwidth"
+msgstr "Шырыня паласы прапусканьня"
+
+#. Here we add the audio codecs options
+#: src/pref_window.cpp:1318
+msgid "Audio Codecs Settings"
+msgstr "Усталёўкі гукавых кодэкаў"
+
+#: src/pref_window.cpp:1323
+msgid "Automatically adjust _jitter buffer between"
+msgstr "Аўтаматычнае _рэгуляваньне буфэру дрыжаньня між"
+
+#: src/pref_window.cpp:1325
+msgid "and"
+msgstr "і"
+
+#: src/pref_window.cpp:1327
+msgid "ms"
+msgstr "мс"
+
+#: src/pref_window.cpp:1335
+msgid "Enable silence _detection"
+msgstr "Уключыць вызначэньне _цішыні"
+
+#: src/pref_window.cpp:1357 src/pref_window.cpp:1513
+msgid "General Settings"
+msgstr "Агульныя ўсталёўкі"
+
+#: src/pref_window.cpp:1362
+msgid "Enable video _transmission"
+msgstr "Уключыць _перадачу відэа"
+
+#: src/pref_window.cpp:1365
+msgid "Enable video _reception"
+msgstr "Уключыць _атрыманьне відэа"
+
+#. H.261 Settings
+#: src/pref_window.cpp:1369
+msgid "Bandwidth Control"
+msgstr "Кіраваньне шырынёй паласы прапусканьня"
+
+#: src/pref_window.cpp:1373
+msgid "Maximum video _bandwidth of"
+msgstr "Максымальная _паласа прапусканьня відэа"
+
+#: src/pref_window.cpp:1373
+msgid "KB/s"
+msgstr "КБ/С"
+
+#: src/pref_window.cpp:1377
+msgid "Advanced Quality Settings"
+msgstr "Адмысловыя наладкі якасьці"
+
+#: src/pref_window.cpp:1382
+msgid "Keep a minimum video _quality of"
+msgstr "Трымацца мінімальнае _якасьці відэа"
+
+#: src/pref_window.cpp:1382
+msgid ""
+"The minimum transmitted video quality to keep when trying to minimize the "
+"used bandwidth:  choose 100% on a LAN for the best quality, 1% being the "
+"worst quality."
+msgstr ""
+"Мінімальная якасьць відэа для перадачы для трыманьня паласы прапусканьня ў зададзеных межах: "
+"выбярыце 100% у мясцовае вылічальнае сетцы для найлепшае якасьці, 1% для найгоршай."
+
+#: src/pref_window.cpp:1382
+msgid "%"
+msgstr "%"
+
+#: src/pref_window.cpp:1386
+msgid "Transmit at least"
+msgstr "Перадаваць як мінімум"
+
+#: src/pref_window.cpp:1386
+msgid "_frames per second"
+msgstr "_кадраў у сэкунду"
+
+#: src/pref_window.cpp:1391
+msgid "Transmit"
+msgstr "Перадача"
+
+#: src/pref_window.cpp:1391
+msgid "background _blocks with each frame"
+msgstr "background _blocks з кожным кадрам"
+
+#: src/pref_window.cpp:1432
+msgid "GnomeMeeting Settings"
+msgstr "Усталёўкі нарады для Gnome"
+
+#: src/pref_window.cpp:1504
+msgid "General"
+msgstr "Асноўнае"
+
+#: src/pref_window.cpp:1508
+msgid "Personal Data"
+msgstr "Асабістыя даньні"
+
+#: src/pref_window.cpp:1518
+msgid "Directory Settings"
+msgstr "Усталёўкі каталёга"
+
+#: src/pref_window.cpp:1530
+msgid "H.323 Settings"
+msgstr "Усталёўкі H.323"
+
+#: src/pref_window.cpp:1534
+msgid "Advanced Settings"
+msgstr "Адмысловыя ўсталёўкі"
+
+#: src/pref_window.cpp:1539
+msgid "Gatekeeper Settings"
+msgstr "Усталёўкі Gatekeeper"
+
+#: src/pref_window.cpp:1544
+msgid "NAT Settings"
+msgstr "Усталёўкі NAT"
+
+#: src/pref_window.cpp:1551
+msgid "Codecs"
+msgstr "Кодэкі"
+
+#: src/pref_window.cpp:1555
+msgid "Audio Codecs"
+msgstr "Гукавыя кодэкі"
+
+#: src/pref_window.cpp:1561
+msgid "Video Codecs"
+msgstr "Кодэкі відэа"
+
+#: src/pref_window.cpp:1568
+msgid "Devices"
+msgstr "Прылады"
+
+#: src/pref_window.cpp:1583
+msgid "Section"
+msgstr "Падзел"
+
+#: src/sound_handling.cpp:414
+msgid "Failed to open the device"
+msgstr "Збой адкрыцьця прылады"
+
+#: src/sound_handling.cpp:414
+#, c-format
+msgid ""
+"Impossible to open the selected audio device (%s) for playing. Please check "
+"your audio setup, the permissions and that the device is not busy."
+msgstr ""
+"Немагчыма адкрыць выбраную гукавую прыладу (%s) для прайграваньня. Калі ласка "
+" праверце вашыя ўсталёўкі гуку, правы доступу й упэўніцеся што прылада не занятая."
+
+#: src/sound_handling.cpp:426
+msgid "Failed to open the audio device"
+msgstr "Збой адкрыцьця гукавае прылады"
+
+#: src/sound_handling.cpp:426
+#, c-format
+msgid ""
+"Impossible to open the selected audio device (%s) for recording. Please "
+"check your audio setup, the permissions and that the device is not busy."
+msgstr ""
+"Немагчыма адкрыць выбраную гукавую прыладу (%s) для запісу. Калі ласка "
+" праверце вашыя ўсталёўкі гуку, правы доступу й упэўніцеся што прылада не занятая."
+
+#: src/sound_handling.cpp:445 src/sound_handling.cpp:454
+msgid "Cannot use the audio device"
+msgstr "Немагчыма выкарыстоўваць гукавую прыладу"
+
+#: src/sound_handling.cpp:445
+#, c-format
+msgid ""
+"The selected audio device (%s) was successfully opened but it is impossible "
+"to read data from this device. Please check your audio setup."
+msgstr ""
+"Абраная гукавая прылада (%s) пасьпяхова адкрыта, але немагчыма прачытаць даньні з гэтае прылады. "
+"Калі ласка праверце вашыя ўсталёўкі гуку."
+
+#: src/sound_handling.cpp:454
+#, c-format
+msgid ""
+"The selected audio device (%s) was successfully opened but it is impossible "
+"to write data to this device. Please check your audio setup."
+msgstr ""
+"Абраная гукавая прылада (%s) пасьпяхова адкрыта, але немагчыма запісаць даньні ў гэтую прыладу. "
+"Калі ласка праверце вашыя ўсталёўкі гуку."
+
+#: src/sound_handling.cpp:471
+#, c-format
+msgid ""
+"GnomeMeeting is now recording from %s and playing back to %s. Please say \"1 "
+"2 3\" in your microphone, you should hear yourself back into the speakers in "
+"5 seconds.\n"
+"\n"
+"Recording... Please talk."
+msgstr ""
+"Нарада для Gnome зараз выкарыстоўвае %s для запісу й %s для прайграваньня гуку. Калі ласка скажыце \"1 2 3\" у "
+"ваш мікрафон, і вы мусіце пачуць сябе ў калёнках праз 5 сэкунд.\n"
+"\n"
+"Запіс... Калі ласка, кажыце."
+
+#: src/sound_handling.cpp:500
+msgid ""
+"GnomeMeeting is now playing what it is recording with a 5 seconds delay. If "
+"you don't hear yourself with the delay, you will have to fix your audio "
+"setup and probably install a full-duplex driver before calling other "
+"GnomeMeeting users.\n"
+"\n"
+"Recording and playing... Please talk."
+msgstr ""
+"Нарада для Gnome зараз прайграе тое што было запісана 5 сэкундаў таму. Калі "
+"вы непачулі запіс, вы мусіце выправіць вашыя наладкі гукавае прылады і паспрабаваць "
+"усталяваць поўнадуплексны драйвэр, і зрабіць гэта да выклікаў іншых карыстальніка нарады "
+" для Gnome.\n"
+"\n"
+"Запіс і прайграваньне... Калі ласка, кажыце."
+
+#: src/toolbar.cpp:178
+msgid ""
+"Enter an URL to call on the left, and click on this button to connect to the "
+"given URL."
+msgstr "Увядзіце URL для выкліку й націсьніце гэтую кнопку каб далучыцца да яго."
+
+#: src/toolbar.cpp:225
+msgid "Open text chat."
+msgstr "Адкрые тэкставую размову."
+
+#: src/toolbar.cpp:236
+msgid "Open control panel"
+msgstr "Адкрые панэлю кіраваньня"
+
+#: src/toolbar.cpp:248
+msgid "Open address book"
+msgstr "Адкрые кнігу адрэсаў"
+
+#: src/toolbar.cpp:278
+msgid "Display images from your camera device."
+msgstr "Адлюстроўвае відарыс з вашае камэры."
+
+#: src/toolbar.cpp:300
+msgid ""
+"Audio transmission status. During a call, click here to suspend or resume "
+"the audio transmission."
+msgstr ""
+"Стан перадачы гуку. У часе сэансу, націсьніце тутака каб прыпыніць ці аднавіць перадачу "
+"гуку."
+
+#: src/toolbar.cpp:320
+msgid ""
+"Video transmission status. During a call, click here to suspend or resume "
+"the video transmission."
+msgstr ""
+"Стан перадачы відарысу. У часе сэансу, націсьніце тутака каб прыпыніць ці аднавіць перадачу "
+"відэа."
+
+#: src/tools.cpp:186
+msgid "Received calls"
+msgstr "Атрыманыя выклікі"
+
+#: src/tools.cpp:186
+msgid "Given calls"
+msgstr "Даныя выклікі"
+
+#: src/tools.cpp:186
+msgid "Unanswered calls"
+msgstr "Выклікі на якія не было адказана"
+
+#: src/tools.cpp:231
+msgid "Date"
+msgstr "Дата"
+
+#: src/tools.cpp:239
+msgid "Remote user"
+msgstr "Аддалены карыстальнік"
+
+#: src/tools.cpp:258
+msgid "Call duration"
+msgstr "Працягласьць выкліку"
+
+#: src/tools.cpp:269
+msgid "Software"
+msgstr "Праграмовае"
+
+#: src/tray.cpp:190
+msgid "GnomeMeeting Tray Icon"
+msgstr "Значка нарады для Gnome ў панэлі паведамленьняў"
+
+#: src/urlhandler.cpp:76
+msgid ""
+"The call transfer failed, the user was either unreachable, or simply busy "
+"when he received the call transfer request."
+msgstr ""
+"Збой перадачы выкліку, карыстальнік альбо нечытальны, альбо проста быў заняты ў "
+"часе атрыманьня выкліку."
+
+#: src/urlhandler.cpp:268
+#, c-format
+msgid "No contact with speed dial %s# found, will call number %s instead"
+msgstr "Не адшукана кантактаў з хуткасьцю %s#, замест яго будзе выкліканы нумар %s"
+
+#: src/urlhandler.cpp:286
+msgid "Invalid URL handler"
+msgstr "Нерэчаісны апрацоўшчык URL"
+
+#: src/urlhandler.cpp:286
+msgid ""
+"Please specify a valid URL handler. Currently both h323: and callto: are "
+"supported."
+msgstr "Калі ласка пазначце правільны апрацоўшчык URL. Зараз падтрымліваюцца абодва: \"h323:\" і \"callto:\"."
+
+#: src/urlhandler.cpp:314
+#, c-format
+msgid "Calling %s"
+msgstr "Выклік %s"
+
+#: src/urlhandler.cpp:318
+#, c-format
+msgid "Transferring call to %s"
+msgstr "Перадача выкліка да %s"
+
+#: src/videograbber.cpp:331 src/videograbber.cpp:332
+msgid "Opening Video device"
+msgstr "Адкрыцьцё прылады відэа"
+
+#: src/videograbber.cpp:396
+#, c-format
+msgid "Successfully opened video device %s, channel %d"
+msgstr "Пасьпяхова адкрыта прылада відэа %s, канал %d"
+
+#: src/videograbber.cpp:399
+msgid "Video Device Opened"
+msgstr "Прылада відэа адкрыта"
+
+#: src/videograbber.cpp:412
+#, c-format
+msgid "Error while opening video device %s"
+msgstr "Памылка у час адкрыцьця прылады відэа %s"
+
+#: src/videograbber.cpp:414
+msgid ""
+"The chosen Video Image will be transmitted during calls. If you didn't "
+"choose any image, then the default GnomeMeeting logo will be transmitted. "
+"Notice that you can always transmit a given image or the GnomeMeeting logo "
+"by choosing \"Picture\" as video device."
+msgstr ""
+"Абраны відарыс будзе перадавацца ў часе сэанса. Калі вы не выбіралі "
+"свой відарыс, будзе перадавацца дапомны лягатып GnomeMeeting. Заўважце "
+"што вы можаце заўсёды перадаваць пазначаную карцінку ці лягатып GnomeMeeting "
+"калі выбярыце \"Карцінка\" як прылада відэа."
+
+#: src/videograbber.cpp:415
+msgid "Can't open the Video Device"
+msgstr "Немагчыма адкрыць прыладу відэа"
+
+#: src/videograbber.cpp:420
+msgid ""
+"There was an error while opening the device. Please check your permissions "
+"and make sure that the appropriate driver is loaded."
+msgstr ""
+"Адбылася памылка у часе адкрыцьця прылады. Калі ласка праверце вашыя правы доступу "
+"і упэўніцеся што загружаны адпаведны драйвэр."
+
+#: src/videograbber.cpp:425 src/videograbber.cpp:727
+msgid "Your video driver doesn't support the requested video format."
+msgstr "Ваш драйвэр відэа не падтрымлівае запытаны фармат відэа."
+
+#: src/videograbber.cpp:429 src/videograbber.cpp:731
+msgid "Could not open the chosen channel with the chosen video format."
+msgstr "Немагчыма адкрыць выбраны канал з абраным фарматам відэа."
+
+#: src/videograbber.cpp:433
+#, fuzzy
+msgid ""
+"Your driver doesn't seem to support any of the colour formats supported by "
+"GnomeMeeting.\n"
+" Please check your kernel driver documentation in order to determine which "
+"Palette is supported. Set it as GnomeMeeting default with:\n"
+" gconftool --set \"/apps/gnomemeeting/devices/color_format\" YOURPALETTE --"
+"type string"
+msgstr ""
+"Ваш драйвэр не падтрымлівае ніводнага фармата колераў які маецца ў GnomeMeeting.\n"
+"Калі ласка праверце "
+
+#: src/videograbber.cpp:437
+msgid "Error while setting the frame rate."
+msgstr "Памылка ў час усталяваньня часьціні кадраў."
+
+#: src/videograbber.cpp:441
+msgid "Error while setting the frame size."
+msgstr "Памылка ў час усталяваньня памеру кадра."
+
+#: src/videograbber.cpp:574
+msgid "Video Device Closed"
+msgstr "Прылада відэа закрыта"
+
+#: src/videograbber.cpp:706
+#, c-format
+msgid "Test %d done"
+msgstr "Праверка %d завершана"
+
+#: src/videograbber.cpp:723
+#, c-format
+msgid "Error while opening %s."
+msgstr "Памылка у час адкрыцьця %s."
+
+#: src/videograbber.cpp:735
+msgid "Your driver doesn't support the YUV420P color format"
+msgstr "Ваш драйвэр не падтрымлівае фармат колеру YUV420P"
+
+#: src/videograbber.cpp:739
+msgid "Error with the frame rate."
+msgstr "Памылка з часьцінёй кадраў!"
+
+#: src/videograbber.cpp:743
+msgid "Error with the frame size."
+msgstr "Памылка з памерам кадра."
+
+#: src/videograbber.cpp:748
+msgid "Tests OK!"
+msgstr "Праверка завершана пасьпяхова!"
+

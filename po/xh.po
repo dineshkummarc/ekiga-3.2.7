@@ -1,0 +1,4211 @@
+# Xhosa translation of gnomemeeting
+# Copyright (C) 2005 Canonical Ltd.
+# This file is distributed under the same license as the gnomemeeting package.
+# Translation by Canonical Ltd <translations@canonical.com> with thanks to
+# Translation World CC in South Africa, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomemeeting\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-03-30 14:58+0200\n"
+"PO-Revision-Date: 2005-03-23 16:54+0200\n"
+"Last-Translator: Canonical Ltd <translations@canonical.com>\n"
+"Language-Team: Xhosa <xh-translate@ubuntu.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+
+#. Add the window icon and title
+#: ../gnomemeeting.desktop.in.h:1 ../src/main_window.cpp:3717
+#: ../src/main_window.cpp:3909
+msgid "GnomeMeeting"
+msgstr "I-GnomeMeeting"
+
+#: ../gnomemeeting.desktop.in.h:2
+msgid "Talk to people over the Internet"
+msgstr "Thetha nabantu kwi-Intanethi"
+
+#: ../gnomemeeting.desktop.in.h:3
+msgid "Videoconferencing"
+msgstr "Kubanjwa inkomfa ngevidiyo"
+
+#: ../gnomemeeting.schemas.in.in.h:1
+msgid "1: 56Kbps, 2: ISDN, 3:DSL, 4: LAN, 5: Custom"
+msgstr "1: 56Kbps, 2: ISDN, 3:DSL, 4: LAN, 5: Ozenzeleyo"
+
+#: ../gnomemeeting.schemas.in.in.h:2
+msgid "Address of public IP detector"
+msgstr "Idilesi yomfumanisi we-IP kawonke-wonke"
+
+#: ../gnomemeeting.schemas.in.in.h:3
+msgid "Always forward calls to the given host"
+msgstr "Gqithisa rhoqo ugqithisa unxulumano kumququzeleli onikiweyo"
+
+#: ../gnomemeeting.schemas.in.in.h:4
+msgid "Audio input device"
+msgstr "Isixhobo sekhompyutha enesandi esingenisiweyo"
+
+#: ../gnomemeeting.schemas.in.in.h:5
+msgid "Audio output device"
+msgstr "Isixhobo sekhompyutha enesandi esiphumayo"
+
+#: ../gnomemeeting.schemas.in.in.h:6
+msgid "Audio plugin"
+msgstr "Ingenisa isandi"
+
+#: ../gnomemeeting.schemas.in.in.h:7
+msgid "Automatic echo cancellation"
+msgstr "Urhoxiso oluzenzekelayo lwentlokomo"
+
+#: ../gnomemeeting.schemas.in.in.h:8 ../src/pref_window.cpp:716
+msgid "Automatically clear the text chat at the end of calls"
+msgstr "Iyazicimela incoko yombhalo ekupheleni konxulumano"
+
+#: ../gnomemeeting.schemas.in.in.h:9 ../src/pref_window.cpp:784
+msgid ""
+"Automatically reject or forward incoming calls if no answer is given after "
+"the specified amount of time (in seconds)"
+msgstr ""
+"Iyayala ngokwayo okanye igqithisele unxulumano olungenayo ukuba akukho "
+"mpendulo inikiweyo kubungakanani bexesha elichaziweyo (kwimizuzwana)"
+
+#: ../gnomemeeting.schemas.in.in.h:10
+msgid ""
+"Automatically switch to fullscreen for images displayed in the main GUI at "
+"the beginning of the call"
+msgstr ""
+"Guqukela kwiskrini esiphepheleyo ufumane imifanekiso eboniswa kwi-GUI enkulu,"
+"ekuqaleni konxulumano"
+
+#: ../gnomemeeting.schemas.in.in.h:11
+msgid "Change the control panel section"
+msgstr "Guqula indawo yolawulo"
+
+#: ../gnomemeeting.schemas.in.in.h:12
+msgid ""
+"Change the control panel section (4 means that the control panel is off)"
+msgstr "Guqula indawo yolawulo (4 uthetha ukuba indawo yolawulo icimile)"
+
+#: ../gnomemeeting.schemas.in.in.h:13
+msgid ""
+"Choose the number of blocks (that have not changed) transmitted with each "
+"frame. These blocks fill in the background"
+msgstr ""
+"Khetha inani leebhloko (ezinga guqukanga) ezithunyelwe ne-frame nganye. "
+"Ezibhloko zigcwalisa okungemva"
+
+#: ../gnomemeeting.schemas.in.in.h:14
+msgid "Clear inactive calls"
+msgstr "Cima unxulumano olungasebenziyo"
+
+#: ../gnomemeeting.schemas.in.in.h:15 ../src/addressbook_window.cpp:974
+msgid "Comment"
+msgstr "Yenza izwi"
+
+#: ../gnomemeeting.schemas.in.in.h:16
+msgid ""
+"Connection will be established in Fast Start mode. Fast Start is a new way "
+"to start calls faster that was introduced in H.323v2. It is not supported by "
+"Netmeeting and using both Fast Start and H.245 Tunnelling can crash some "
+"versions of Netmeeting"
+msgstr ""
+"Unxibelelwano luza kumiselwa kwindlela ye-Fast Start. I-Fast Start yindlela "
+"entsha yokuqala unxulumano ngokukhawuleza eyayaziswe kwi-H.323v2. "
+"Ayixhaswanga yi-Netmeeting yaye zombini i-Fast Start ne-H.245 zingenza "
+"ezinye iintlobo ze-Netmeeting zingasebenzi"
+
+#: ../gnomemeeting.schemas.in.in.h:17
+msgid "Country code"
+msgstr "Ikhowudi yelizwe"
+
+#: ../gnomemeeting.schemas.in.in.h:18
+msgid "DTMF sending"
+msgstr "DTMF iya-thumela"
+
+#: ../gnomemeeting.schemas.in.in.h:19
+msgid "Display a popup window when receiving a call"
+msgstr "Makuvele ifestile xa ufumana unxumelwano"
+
+#: ../gnomemeeting.schemas.in.in.h:20
+msgid "E-mail address"
+msgstr "Idilesi ye-imeyile"
+
+#: ../gnomemeeting.schemas.in.in.h:21
+msgid "Enable 'Fast Start'"
+msgstr "Yenza ukuba isebenze ngo-'Fast Start'"
+
+#: ../gnomemeeting.schemas.in.in.h:22
+msgid "Enable H.245 tunnelling"
+msgstr "Yenza ukuba isebenze nge-H.245 tunneling"
+
+#: ../gnomemeeting.schemas.in.in.h:23
+msgid "Enable IP checking"
+msgstr "Ukwenza isiqinisekiso se-IP sisebenze"
+
+#: ../gnomemeeting.schemas.in.in.h:24
+msgid "Enable IP translation"
+msgstr "Ukwenza uguqulo lwe-IP lusebenze"
+
+#: ../gnomemeeting.schemas.in.in.h:25
+msgid "Enable STUN Support"
+msgstr "Ukwenza ukuba isebenze Inkxaso ye-STUN"
+
+#: ../gnomemeeting.schemas.in.in.h:26
+msgid "Enable bilinear filtering on displayed video"
+msgstr "I-Iveza ibilinear filternig kwividiyo"
+
+#: ../gnomemeeting.schemas.in.in.h:27
+msgid "Enable early H.245"
+msgstr "Ukwenza ukuba i-H.245 isebenze kwangoko"
+
+#: ../gnomemeeting.schemas.in.in.h:28
+msgid ""
+"Enable or disable bilinear interpolation when rendering video images (this "
+"has no effect in fullscreen mode)"
+msgstr ""
+"Yenza okanye inqanda i-bilinear interpolation logama kunikezelwa "
+"ngemifanekiso yevidiyo (oku akuyiphazamisi inkqubo yokuvezwe kwiskrini)"
+
+#: ../gnomemeeting.schemas.in.in.h:29
+msgid "Enable registering"
+msgstr "Ukwenza ubhaliso lusebenze"
+
+#: ../gnomemeeting.schemas.in.in.h:30
+msgid "Enable silence detection"
+msgstr "Yenza ukuba ikwazi ukufumanisa inzolo"
+
+#: ../gnomemeeting.schemas.in.in.h:31
+msgid "Enable video reception"
+msgstr "Ukwenza ulwamkelo lwevidiyo lusebenze"
+
+#: ../gnomemeeting.schemas.in.in.h:32
+msgid "Enable video transmission"
+msgstr "Ukwenza ukuba kusebenze ijelo le vidiyo"
+
+#: ../gnomemeeting.schemas.in.in.h:33
+msgid "Enter a comment about yourself for the user directory"
+msgstr "Nika inkcazelo ngawe ulungiselela uvimba weeefayili zomsebenzisi"
+
+#: ../gnomemeeting.schemas.in.in.h:34
+msgid ""
+"Enter a valid URL to connect to a web application that outputs the public IP "
+"of your host"
+msgstr ""
+"Faka i-URL efanelekileyo ukuze unxulumane kwinkqubo ye-web ekhuphela "
+"ngaphandle i-IP kawonke-wonke yomququzeleli wakho"
+
+#: ../gnomemeeting.schemas.in.in.h:35
+msgid ""
+"Enter the public IP of your NAT/PAT router if you want to use IP "
+"translation. If you are registered to ils.seconix.com, GnomeMeeting will "
+"automatically fetch the public IP using the ILS service"
+msgstr ""
+"Faka i-IP kawonke-wonke ye-NAT/PAT router eyeyakho ukuba ufuna ukusebenzisa "
+"uguqulo lwe-IP. Ukuba ubhalisile kwi ils.seconix.com, i-GnomeMeeting iza "
+"kulanda ngokwayo i-IP kawonke-wonke isebenzisa inkonzo ye-ILS"
+
+#: ../gnomemeeting.schemas.in.in.h:36 ../src/pref_window.cpp:663
+msgid "Enter your e-mail address"
+msgstr "Nika idilesi ye-imeyile yakho"
+
+#: ../gnomemeeting.schemas.in.in.h:37 ../src/pref_window.cpp:649
+msgid "Enter your first name"
+msgstr "Nika igama lakho lokuqala"
+
+#: ../gnomemeeting.schemas.in.in.h:38
+msgid "Enter your last name"
+msgstr "Nika igama lakho lokugqibela"
+
+#: ../gnomemeeting.schemas.in.in.h:39
+msgid "Enter your location (country or city) for the user directory"
+msgstr ""
+"Nika indawo yakho (ilizwe okanye isixeko) ulungiselela uvimba weefayili "
+"yomsebenzisi"
+
+#: ../gnomemeeting.schemas.in.in.h:40
+msgid "First name"
+msgstr "Igama lokuqala"
+
+#: ../gnomemeeting.schemas.in.in.h:41
+msgid "Forward calls to host"
+msgstr "Gqithisa unxibelelwano oluya kumququzeleli"
+
+#: ../gnomemeeting.schemas.in.in.h:42
+msgid "Forward calls to the given host if busy"
+msgstr "Gqithisa unxibelelwano oluya kumququzeleli onikiweyo ukuba uxakekile"
+
+#: ../gnomemeeting.schemas.in.in.h:43
+msgid "Forward calls to the given host if no answer"
+msgstr ""
+"Gqithisa unxibelelwano oluya kumququzeleli onikiweyo ukuba akukho mpendulo"
+
+#: ../gnomemeeting.schemas.in.in.h:44 ../src/pref_window.cpp:986
+msgid "Gatekeeper ID"
+msgstr "I-ID yomgcini-sango"
+
+#: ../gnomemeeting.schemas.in.in.h:45
+msgid "Gatekeeper alias"
+msgstr "Isiteketiso somgcini-sango"
+
+#: ../gnomemeeting.schemas.in.in.h:46
+msgid "Gatekeeper alias as primary alias"
+msgstr "Isiteketiso sikamgcini-sango sinjenge siteketiso sokuqala"
+
+#: ../gnomemeeting.schemas.in.in.h:47 ../src/pref_window.cpp:985
+msgid "Gatekeeper host"
+msgstr "Umququzeleli womgcini-sango"
+
+#: ../gnomemeeting.schemas.in.in.h:48
+msgid "Gatekeeper password"
+msgstr "I-Password yomgcini-sango"
+
+#: ../gnomemeeting.schemas.in.in.h:49
+msgid "Gateway/proxy host"
+msgstr "Isixhobo sothungelwano/umququzeleli wenkqubo esebenza njengomqobo"
+
+#: ../gnomemeeting.schemas.in.in.h:50 ../src/pref_window.cpp:701
+msgid ""
+"If enabled, GnomeMeeting will start hidden provided that the notification "
+"area is present in the GNOME panel"
+msgstr ""
+"Ukuba yenziwe ukuba isebenze, i-GnomeMeeting iza kuqala ifihlakele "
+"ngaphandle kokuba indawo yokwazisa ikhona kwindawo yolawulo ye-GNOME"
+
+#: ../gnomemeeting.schemas.in.in.h:51
+msgid ""
+"If enabled, a popup window will be displayed when receiving an incoming call"
+msgstr ""
+"Ukuba yenziwe ukuba isebenze, ifestille yokuvelayo iza kuba sesikrinini xa "
+"ufumana unxulumano olungenayo"
+
+#: ../gnomemeeting.schemas.in.in.h:52
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below"
+msgstr ""
+"Ukuba iyasebenze, lonke unxulumano ngefowuni ezingenayo luza kugqithiselwa "
+"kumququzeleli obaluliweyo kwindawo engezansi"
+
+#: ../gnomemeeting.schemas.in.in.h:53
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you already are in a call or if you are in "
+"Do Not Disturb mode"
+msgstr ""
+"Ukuba iyasebenze, lonke unxulumano ngefowuni ezingenayoluza kugqithiselwa "
+"kumququzeleli obaluliweyo kwindawo engezansi ukuba sowukulunxulumano okanye "
+"sowu kwinkqubo eyi Do Not Disturb"
+
+#: ../gnomemeeting.schemas.in.in.h:54
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you do not answer the call"
+msgstr ""
+"Ukuba iyasebenze, lonke unxulumano ngeefowuni ezingenayo luza kugqithiselwa "
+"kumququzeleli obaluliweyo kwindawo engezansi ukuba awuphenduli unxulumano"
+
+#: ../gnomemeeting.schemas.in.in.h:55
+msgid "If enabled, allows video to be received during a call"
+msgstr "Ukuba iyasebenza, ivumela ividiyo ifumaneke ngexesha lonxulumano"
+
+#: ../gnomemeeting.schemas.in.in.h:56 ../src/pref_window.cpp:780
+msgid ""
+"If enabled, calls for which no audio and video has been received in the last "
+"30 seconds are automatically cleared"
+msgstr ""
+"Ukuba yenziwe ukuba isebenze, unxulumano olungenasandi navidiyo "
+"olufunyenweyo kwimizuzwana engama-30 luza kuzicimela"
+
+#: ../gnomemeeting.schemas.in.in.h:57
+msgid "If enabled, register with the selected user directory"
+msgstr ""
+"Ukuba yenziwe isebenze, bhalisa novimba weefayili yomsebenzisi okhethiweyo"
+
+#: ../gnomemeeting.schemas.in.in.h:58 ../src/pref_window.cpp:699
+msgid ""
+"If enabled, the splash screen will be displayed when GnomeMeeting starts"
+msgstr ""
+"Ukuba yenziwe ukuba isebenze, kuza kudanyaza isikrini xa kuqala i-"
+"GnomeMeeting"
+
+#: ../gnomemeeting.schemas.in.in.h:59 ../src/pref_window.cpp:716
+msgid ""
+"If enabled, the text chat will automatically be cleared at the end of calls"
+msgstr ""
+"Ukuba yenziwe ukuba isebenze, incoko yombhalo iza kuzicimela ekupheleni "
+"konxibelelwano"
+
+#: ../gnomemeeting.schemas.in.in.h:60
+msgid "If enabled, use silence detection with the GSM and G.711 codecs"
+msgstr ""
+"Ukuba yenziwe isebenze, sebenzisa ingxelo yokufumaneke kwikhompyutha "
+"engenasandi nge GSM ne G.711 codecs"
+
+#: ../gnomemeeting.schemas.in.in.h:61
+msgid "If enabled, video is transmitted during a call"
+msgstr "Ukuba yenziwe ukuba isebenze, ividiyo iyasasaswa ngethuba lonxulumano"
+
+#: ../gnomemeeting.schemas.in.in.h:62
+msgid ""
+"If enabled, your details are shown to people browsing the user directory. If "
+"disabled, you are not visible to users browsing the user directory, but they "
+"can still use the callto URL to call you"
+msgstr ""
+"Ukuba yenzelwe ukuba isebenze, iinkcukacha zakho ziboniswa kubantu "
+"abakhangela uvimba weefayili zabasebenzisi. Ukuba yenziwe ukuba ingasebenzi, "
+"awubonakali kubasebenzisi abakhangela uvimba weefayili zabasebenzisi, kodwa "
+"basengakwazi ukusebenzisa i-URL ye-callto ukunxulumana nawe"
+
+#: ../gnomemeeting.schemas.in.in.h:63
+msgid "Incoming call mode"
+msgstr "Inkqubo yonxulumano olungenayo"
+
+#: ../gnomemeeting.schemas.in.in.h:64
+msgid "Kind of network selected in the druid"
+msgstr "Uhlobo lothungelwano olukhethwe kwi-druid"
+
+#: ../gnomemeeting.schemas.in.in.h:65
+msgid "Last name"
+msgstr "Igama lokugqibela"
+
+#: ../gnomemeeting.schemas.in.in.h:66
+msgid "Listen port"
+msgstr "Indawo yonxulumano yokumamela"
+
+#: ../gnomemeeting.schemas.in.in.h:67
+msgid "Local video window size"
+msgstr "Ubungakanani befestile yevidiyo yangaphakathi"
+
+#: ../gnomemeeting.schemas.in.in.h:68 ../src/addressbook_window.cpp:1028
+msgid "Location"
+msgstr "Indawo"
+
+#: ../gnomemeeting.schemas.in.in.h:69
+msgid "Maximum jitter buffer"
+msgstr "Ubukhulu bobuphaku-phaku besigcini sethutyana"
+
+#: ../gnomemeeting.schemas.in.in.h:70
+msgid "Maximum video bandwidth"
+msgstr "Ubukhulu bothungelwano losasazo lwevidiyo"
+
+#: ../gnomemeeting.schemas.in.in.h:71
+msgid "Minimum jitter buffer"
+msgstr "Ubuncinane bobuphaku-phaku besigcini sethutyana"
+
+#: ../gnomemeeting.schemas.in.in.h:72
+msgid "Minimum transmitted video quality"
+msgstr "Ubuncinane bexabiso levidiyo esasaziweyo"
+
+#: ../gnomemeeting.schemas.in.in.h:73
+msgid "Missed calls history"
+msgstr "Imbali ngefowuni oluphosiweyo"
+
+#: ../gnomemeeting.schemas.in.in.h:74
+msgid "No answer timeout"
+msgstr "Ukuphela kwexesha kungekho mpendulo"
+
+#: ../gnomemeeting.schemas.in.in.h:75
+msgid "Number of frames for G.711"
+msgstr "Inani le-frames ze-G.711"
+
+#: ../gnomemeeting.schemas.in.in.h:76
+msgid "Number of frames for GSM"
+msgstr "Inani le-frames ze-GSM"
+
+#: ../gnomemeeting.schemas.in.in.h:77
+msgid "Number of frames transmitted in each packet for the G.711 codec"
+msgstr "Inani lee-frames ezisasaziweyo kwipakethe nganye ye G.711 codec"
+
+#: ../gnomemeeting.schemas.in.in.h:78
+msgid "Number of frames transmitted in each packet for the GSM codec"
+msgstr "Inani lee-frames ezisasaziweyo kwipakethe nganye ye GSM codec"
+
+#: ../gnomemeeting.schemas.in.in.h:79
+msgid "Output device type"
+msgstr "Isixhobo sekhompyutha uhlobo iziphumo"
+
+#: ../gnomemeeting.schemas.in.in.h:80 ../src/pref_window.cpp:709
+msgid "Place windows displaying video above other windows during calls"
+msgstr ""
+"Beka iifestile ezibonisa ividiyo ngaphezulu kwezinye ngexesha lonxibelelwano"
+
+#: ../gnomemeeting.schemas.in.in.h:81
+msgid "Placed calls history"
+msgstr "Imbali yonxulumano ngefowuni olumiselweyo"
+
+#: ../gnomemeeting.schemas.in.in.h:82 ../src/pref_window.cpp:1855
+msgid "Play busy tone"
+msgstr "Dlala isandi sokuxakeka"
+
+#: ../gnomemeeting.schemas.in.in.h:83 ../src/pref_window.cpp:1846
+msgid "Play ring tone"
+msgstr "Dlala isandi sengxolo"
+
+#: ../gnomemeeting.schemas.in.in.h:84 ../src/pref_window.cpp:1837
+msgid "Play sound on incoming calls"
+msgstr "Dlala isandi kunxulumano ngefowuni olungenayo"
+
+#: ../gnomemeeting.schemas.in.in.h:85
+msgid "Position of the local video window"
+msgstr "Indawo yefestile yevidiyo engaphakathi"
+
+#: ../gnomemeeting.schemas.in.in.h:86
+msgid "Position on the screen of the PC-To-Phone window"
+msgstr "Indawo esesikrinini yefestile ye-PC-To-Phone"
+
+#: ../gnomemeeting.schemas.in.in.h:87
+msgid "Position on the screen of the address book window"
+msgstr "Indawo esesikrinini yefestile yencwadi yedilesi"
+
+#: ../gnomemeeting.schemas.in.in.h:88
+msgid "Position on the screen of the calls history window"
+msgstr "Indawo esesikrinini yefestile enika imbali ngonxibelelwano"
+
+#: ../gnomemeeting.schemas.in.in.h:89
+msgid "Position on the screen of the druid window"
+msgstr "Indawo eseskrinini yefestile ye-druid"
+
+#: ../gnomemeeting.schemas.in.in.h:90
+msgid "Position on the screen of the log window"
+msgstr "Indawo esesikrinini yefestile enika ingxelo yokwenzekileyo"
+
+#: ../gnomemeeting.schemas.in.in.h:91
+msgid "Position on the screen of the main window"
+msgstr "Indawo esesikrinini yefestile enkulu"
+
+#: ../gnomemeeting.schemas.in.in.h:92
+msgid "Position on the screen of the preferences window"
+msgstr "Indawo ekwiskrini sefestile yoluhlu lwezinto ezikhethwayo"
+
+#: ../gnomemeeting.schemas.in.in.h:93
+msgid "Public IP of the NAT/PAT router"
+msgstr "i-IP kawonke-wonke ye NAT/PAT router"
+
+#: ../gnomemeeting.schemas.in.in.h:94
+msgid "Received calls history"
+msgstr "Imbali yonxulumano ngefowuni olufunyenwe"
+
+#: ../gnomemeeting.schemas.in.in.h:95
+msgid "Registering method"
+msgstr "Indlela yokubhalisa"
+
+#: ../gnomemeeting.schemas.in.in.h:96
+msgid "Registration timeout"
+msgstr "Ukuphela kwexesha lobhaliso"
+
+#: ../gnomemeeting.schemas.in.in.h:97
+msgid "Remote video window position"
+msgstr "Indawo yefestile yevidiyo ekwenye indawo"
+
+#: ../gnomemeeting.schemas.in.in.h:98
+msgid "Remote video window size"
+msgstr "Ubungakanani befestile yevidiyo ekwenye indawo"
+
+#: ../gnomemeeting.schemas.in.in.h:99
+msgid "Revision of the schema file"
+msgstr "Uqwalaselo kwakhona lwefayili yenkcazelo"
+
+#: ../gnomemeeting.schemas.in.in.h:100 ../src/pref_window.cpp:1118
+msgid "Select the audio input device to use"
+msgstr "Khetha isixhobo sekhompyutha enesandi olungenisiweyo esiza kusebenza"
+
+#: ../gnomemeeting.schemas.in.in.h:101 ../src/pref_window.cpp:1111
+msgid "Select the audio output device to use"
+msgstr "Khetha isixhobo sekhompyutha enesandi esiphumayo esiza kusebenza"
+
+#: ../gnomemeeting.schemas.in.in.h:102
+msgid "Select the audio output device to use for the ring sound event."
+msgstr "Khetha isixhobo esinesandi esiphumayo usisebenzise xa kukhala isandi."
+
+#: ../gnomemeeting.schemas.in.in.h:103 ../src/pref_window.cpp:1195
+msgid ""
+"Select the format for video cameras (does not apply to most USB cameras)"
+msgstr ""
+"Khetha inkqubo elungiselela iikhamera zevidiyo (ayisebenzi kuninzi "
+"lweekhamera ze-USB)"
+
+#: ../gnomemeeting.schemas.in.in.h:104 ../src/pref_window.cpp:1193
+msgid ""
+"Select the transmitted video size: Small (QCIF 176x144) or Large (CIF "
+"352x288)"
+msgstr ""
+"Khetha ubungakanani bevidiyo esasaziweyo: Encinci (QCIF 176x144) okanye "
+"enkulu (CIF 352x288)"
+
+#: ../gnomemeeting.schemas.in.in.h:105 ../src/pref_window.cpp:1187
+msgid ""
+"Select the video input device to use. If an error occurs when using this "
+"device a test picture will be transmitted."
+msgstr ""
+"Khetha isixhobo songeniso kwividiyo emasisetyenziswe. Ukuba kukho impazamo "
+"logama usebenzisa esi sixhobo umfanekiso wovavanyo uza kusasazwa."
+
+#: ../gnomemeeting.schemas.in.in.h:106
+msgid "Show chat window"
+msgstr "Bonisa ifestile yokuncokola"
+
+#: ../gnomemeeting.schemas.in.in.h:107
+msgid "Show my details to other registered users"
+msgstr "Bonisa iinkcukacha zam kwabanye abasebenzisi ababhalisiweyo"
+
+#: ../gnomemeeting.schemas.in.in.h:108
+msgid "Show splash screen at startup"
+msgstr "Bonisa isikrini esidanyazayo xa uvula"
+
+#: ../gnomemeeting.schemas.in.in.h:109
+msgid "Show the chat window in the main window"
+msgstr "Bonisa ifestile yokuncokola kwifestile enkulu"
+
+#: ../gnomemeeting.schemas.in.in.h:110
+msgid "Size of the PC-To-Phone window"
+msgstr "Ubungakanani befestile ye PC-To-Phone"
+
+#: ../gnomemeeting.schemas.in.in.h:111
+msgid "Size of the address book window"
+msgstr "Ubungakanani befestile yencwadi yedilesi"
+
+#: ../gnomemeeting.schemas.in.in.h:112
+msgid "Size of the calls history window"
+msgstr "Ubungakanani befestile yembali yonxulumano"
+
+#: ../gnomemeeting.schemas.in.in.h:113
+msgid "Size of the druid window"
+msgstr "Ubungakanani befestile ye-druid"
+
+#: ../gnomemeeting.schemas.in.in.h:114
+msgid "Size of the log window"
+msgstr "Ubungakanani befestile yengxelo yokwenzekileyo"
+
+#: ../gnomemeeting.schemas.in.in.h:115
+msgid "Size of the preferences window"
+msgstr "Ubungakanani befestile yoluhlu lwezinto ezikhethwayo"
+
+#: ../gnomemeeting.schemas.in.in.h:116
+msgid "Start hidden"
+msgstr "U-Qala ufihlakele"
+
+#: ../gnomemeeting.schemas.in.in.h:117 ../src/main_window.cpp:1143
+#: ../src/main_window.cpp:1649 ../src/main_window.cpp:1674
+msgid "Switch to fullscreen"
+msgstr "Tshintshela kwiskrini esipheleleyo"
+
+#: ../gnomemeeting.schemas.in.in.h:118
+msgid "TCP port range"
+msgstr "Uluhlu lwendawo yonxulumano lwe-TCP"
+
+#: ../gnomemeeting.schemas.in.in.h:119
+msgid "The Audio Codecs List"
+msgstr "Uluhlu lwe Codecs ezinesandi"
+
+#: ../gnomemeeting.schemas.in.in.h:120 ../src/pref_window.cpp:1126
+msgid ""
+"The Automatic Echo Cancellation level: Off, Low, Medium, High, Automatic "
+"Gain Compensation. Choosing Automatic Gain Compensation modulates the volume "
+"for best quality."
+msgstr ""
+"Iqondo lokuzicimela kwentlokoma: Phuma, Ezantsi, Phakathi, Phezulu, i-"
+"Automatic Gain Compensation. Ukukhetha i-Automatic Gain Compensation "
+"ilungisa isandi esiphezulu ukuba ibe sesisemgangathweni."
+
+#: ../gnomemeeting.schemas.in.in.h:121 ../src/pref_window.cpp:999
+msgid ""
+"The Gatekeeper alias to use when registering (string, or E164 ID if only "
+"0123456789#)"
+msgstr ""
+"Isiteketiso somgcini-sango sokusetyenziswa xa kubhaliswa (uluhlu lwamagama, "
+"okanye E164 ID ukuba kuphela 0123456789#)"
+
+#: ../gnomemeeting.schemas.in.in.h:122 ../src/pref_window.cpp:997
+msgid "The Gatekeeper host to register with"
+msgstr "Umququzeleli womgcini-sango onokubhalisa naye"
+
+#: ../gnomemeeting.schemas.in.in.h:123 ../src/pref_window.cpp:995
+msgid "The Gatekeeper identifier to register with"
+msgstr "Ileyibhile-sichongi yomgcini-sango onokubhalisa kuyo"
+
+#: ../gnomemeeting.schemas.in.in.h:124 ../src/pref_window.cpp:1002
+msgid ""
+"The Gatekeeper password to use for H.235 authentication to the Gatekeeper"
+msgstr ""
+"I-password yomgcini-sango yokusetyenziswa kuqinisekiso lwe-H.235 eya "
+"kumgcini-sango"
+
+#: ../gnomemeeting.schemas.in.in.h:125 ../src/pref_window.cpp:1027
+msgid ""
+"The Gateway host is the host to use to do H.323 calls through a gateway that "
+"will relay calls"
+msgstr ""
+"Umququzeleli wezixhobo zothungelwano ukusebenzisa ukwenza unxulumano lwe-"
+"H.323 ngesixhobo sothungelwano esiza kudibanisa unxulumano"
+
+#: ../gnomemeeting.schemas.in.in.h:126
+msgid "The STUN Server"
+msgstr "I-STUN Seva"
+
+#: ../gnomemeeting.schemas.in.in.h:127 ../src/pref_window.cpp:1059
+msgid ""
+"The STUN server to use for STUN Support. STUN is a technic that permits to "
+"go through some types of NAT gateways."
+msgstr ""
+"I-STUN seva esisetyenziselwa inkxaso ye-STUN. I-STUN yindlela evumela ukuba "
+"ubone inxalenye yeentlobo zezixhobo zothungelwano lwe-NAT."
+
+#: ../gnomemeeting.schemas.in.in.h:128
+msgid ""
+"The audio plugin that will be used to detect the devices and manage them"
+msgstr ""
+"Ungeniso-sandi oluzakusetyenziswa xa kufunyaniswa izixhobo nokuzilawula"
+
+#: ../gnomemeeting.schemas.in.in.h:129
+msgid "The busy tone sound"
+msgstr "Isandi esixakekileyo"
+
+#: ../gnomemeeting.schemas.in.in.h:130
+msgid ""
+"The chosen sound will be played at the end of calls or calling somebody who "
+"is busy, if enabled"
+msgstr ""
+"Isandi esikhethiweyo siza kudlalwa ekupheleni konxibelelwano okanye "
+"kunxulumano nomntu oxakekileyo, ukuba yenziwe isebenze"
+
+#: ../gnomemeeting.schemas.in.in.h:131
+msgid "The chosen sound will be played on incoming calls, if enabled"
+msgstr ""
+"Isandi esikhethiweyo siza kudlalwa xa kungena unxulumano, ukuba yenziwe "
+"isebenze"
+
+#: ../gnomemeeting.schemas.in.in.h:132
+msgid "The chosen sound will be played when calling somebody, if enabled"
+msgstr ""
+"Isandi esikhethiweyo siza kudlalwa xa unxulumana nomnye umntu, ukuba yenziwe "
+"isebenze"
+
+#: ../gnomemeeting.schemas.in.in.h:133
+msgid "The default video view"
+msgstr "Emiselweyo okubona ividiyo"
+
+#: ../gnomemeeting.schemas.in.in.h:134
+msgid ""
+"The default video view (0: Local, 1: Remote, 2: Both incrusted, 3: Both with "
+"local video in a separate window, 4: Both)"
+msgstr ""
+"Indlela yokubona emiselweyo yokubona ividiyo (0: Indawo engaphakathi, 1: "
+"Indawo engaphandle, 2: Zombini zidibene, 3: Zombini ngevidiyo yangaphakathi "
+"kwifestile eyahlukileyo, 4: Zombini)"
+
+#: ../gnomemeeting.schemas.in.in.h:135
+msgid "The history of the last 100 missed calls"
+msgstr "Imbali yonxulumano ezili-100 zokugqibela eziphosiweyo"
+
+#: ../gnomemeeting.schemas.in.in.h:136
+msgid "The history of the last 100 placed calls"
+msgstr "Imbali yonxulumano ka-100 olwenzekileyo ngefowuni"
+
+#: ../gnomemeeting.schemas.in.in.h:137
+msgid "The history of the last 100 received calls"
+msgstr "Imbali yonxulumano ezili-100 zokugqibela ezifunyenweyo"
+
+#: ../gnomemeeting.schemas.in.in.h:138 ../src/pref_window.cpp:755
+msgid "The host where calls should be forwarded to in the cases selected above"
+msgstr ""
+"Umququzeleli apho unxulumano kufuneka lugqithiselwe khona kula mabakala "
+"angasentla akhethiweyo"
+
+#: ../gnomemeeting.schemas.in.in.h:139 ../src/pref_window.cpp:1198
+msgid ""
+"The image to transmit if \"Picture\" is selected as video plugin or if the "
+"opening of the device fails. Leave blank to use the default GnomeMeeting "
+"logo."
+msgstr ""
+"Umfanekiso omawusasazwe ukuba \"Umfanekiso\" ukhethwe ngevidiyo engeniswayo "
+"okanye ukuba ukuvulwa kwesixhobo akuphumeleli. Yishiye ingenanto ukuze "
+"usebenzise uphawu olumiselweyo lwe-GnomeMeeting."
+
+#: ../gnomemeeting.schemas.in.in.h:140
+msgid "The incoming call sound"
+msgstr "Iisandi sonxulumano ngefowuni engenayo"
+
+#: ../gnomemeeting.schemas.in.in.h:141
+msgid "The local zoom value"
+msgstr "Ixabiso lokwandisa lwangaphakathi"
+
+#: ../gnomemeeting.schemas.in.in.h:142
+msgid "The maximum jitter buffer size for audio reception (in ms)"
+msgstr ""
+"Ubukhulu besigcini sethutyana esi siphaku-phaku solwamnkelo lwesandi (in ms)"
+
+#: ../gnomemeeting.schemas.in.in.h:143
+msgid ""
+"The maximum video bandwidth in kbytes/s. The video quality and the number of "
+"transmitted frames per second will be dynamically adjusted above their "
+"minimum during calls to try to minimize the bandwidth to the given value"
+msgstr ""
+"Ubukhulu bothungelwano losasazo lwevidiyo kwi-kbytes/s. Umgangatho wevidiyo "
+"nenani lee-frames ezisasaziweyo ngomzuzu ziza kuhlenga-hlengiselwa "
+"ngaphezulu kobuncinci bazo ngexesha lonxulumano ukuzama ukunciphisa "
+"uthungelwano losasazo kwixabiso elinikiweyo"
+
+#: ../gnomemeeting.schemas.in.in.h:144
+msgid "The minimum jitter buffer size for audio reception (in ms)"
+msgstr ""
+"Ubuncinane bobungakanani besigcini sethutyana kulwamnkelo olunesandi (in ms)"
+
+#: ../gnomemeeting.schemas.in.in.h:146
+#, no-c-format
+msgid ""
+"The minimum transmitted video quality to keep when trying to minimize the "
+"used bandwidth: choose 100% on a LAN for the best quality, 1% being the "
+"worst quality"
+msgstr ""
+"Ukugcinwa kobuncikane bosasazo lwexabiso lwevidiyo xa uzama ukunciphisa "
+"uthungelwano lwamaza: khetha i100% kwi-LAN ukufumana ixabiso eliphambili. I-"
+"1% ngowonamgagatho wakhe waphantsi"
+
+#: ../gnomemeeting.schemas.in.in.h:147 ../src/pref_window.cpp:1128
+msgid ""
+"The output device type is the type of device connected to your Quicknet "
+"card. It can be either a POTS (Plain Old Telephone System) or a headset."
+msgstr ""
+"Isixhobo sohlobo oluphumayo luhlobo lwesixhobo esifakwa kwi-khadi lakho le-"
+"Quicknet. Ingayi POTS (Plain Old Telephone System) okanyeumnxeba walamaxesha "
+"ofakwa entloko unomboko wokuthetha."
+
+#: ../gnomemeeting.schemas.in.in.h:148
+msgid ""
+"The port to listen to for incoming connections. GnomeMeeting needs to be "
+"restarted for the new value to take effect."
+msgstr ""
+"Indawo yonxibelelwano yokuphulaphula unxibelelwano olungenayo. I-"
+"GnomeMeeting ifuna ukuba iqaliswe kwakhona ukuze kuqalise ixabiso elitsha."
+
+#: ../gnomemeeting.schemas.in.in.h:149
+msgid "The position of the local video window"
+msgstr "Indawo yefestile yevidiyo yangaphakathi"
+
+#: ../gnomemeeting.schemas.in.in.h:150
+msgid "The position of the remote video window"
+msgstr "Indawo yefestile yevidiyo ekwenye indawo"
+
+#: ../gnomemeeting.schemas.in.in.h:151
+msgid ""
+"The prefix that will be used to save pictures of the conversation. That "
+"prefix is followed by the snapshot number."
+msgstr ""
+"Isimaphambili esiza kusetyenziwa ekugcineni imifanekiso yencoko. Eso "
+"simaphambili silandelwa yinombolo yendlela yokuthatha umfanekiso."
+
+#: ../gnomemeeting.schemas.in.in.h:152
+msgid ""
+"The range of TCP ports beside the listen_port that GnomeMeeting will use for "
+"the H.245 channel. You can change the TCP port range if you are using IP "
+"translation and if you need to have several GnomeMeeting running behind your "
+"NAT/PAT router. GnomeMeeting needs to be restarted for the new values to "
+"take effect. This port range has no effect if both participants to the "
+"conference are using H.245 Tunneling."
+msgstr ""
+"Uluhlu lwendawo zonxibelelwano ze-TCP ecaleni kwe-listen_port eza "
+"kusetyenziswa yi-GnomeMeeting kwisiqhagamshelanisi se-H.245. Ungaluguqula "
+"uluhlu lwesixhobo sonxibelelwano ukuba usebenzisa uguqulo lwe-IP ukanti "
+"nokuba ufuna uninzi lwe-GnomeMeeting isebenze kunxibelelwano oluncinane lwe-"
+"NAT/PAT yakho. I-GnomeMeeting ifuna ukuphinda iqalwe ekuqaleni kwakhona "
+"ukuze imigangatho emitsha isebenze. Olu luhlu lwesi sixhobo alusebenzi ukuba "
+"abathabathi-nxaxheba kwinkomfa basebenzisa i-H.245 Tunneling."
+
+#: ../gnomemeeting.schemas.in.in.h:153
+msgid ""
+"The range of UDP ports that GnomeMeeting will use for RTP (audio and video "
+"communication channels). You can change the UDP port range if you are using "
+"IP translation and if you need to have several GnomeMeeting running behind "
+"your NAT/PAT router. GnomeMeeting needs to be restarted for the new values "
+"to take effect."
+msgstr ""
+"Uluhlu lwendawo zonxibelelwano ze-UDP eziza kusetyenziswa yiGnomeMeeting kwi "
+"RTP (iziqhagamshelanisi zonxibelelwano ezinesandi nevidiyo). Ungaluguqula "
+"uluhlu lwendawo yonxibelewano lwe-UDP ukuba usebenzisa uguqulo lwe-IP naxa "
+"ufuna ukuba nee-GnomeMeeting ezininzi eziqhuba ngasemva isixhobo sakho "
+"sonxibelelwano oluncinci i-NAT/PAT. i-GnomeMeeting ifuna ukuba iqalwe "
+"ekuqaleni kwakhona ukuze imigangatho emitsha isebenze."
+
+#: ../gnomemeeting.schemas.in.in.h:154
+msgid ""
+"The range of UDP ports that GnomeMeeting will use when registering to "
+"gatekeepers. You can change the UDP port range if you are using IP "
+"translation and if you need to have several GnomeMeeting running behind your "
+"NAT/PAT router. GnomeMeeting needs to be restarted for the new values to "
+"take effect. This port range has no effect if you are not registering to a "
+"gatekeeper."
+msgstr ""
+"Uluhlu lwendawo zonxibelelwano ze-UDP eziza kusetyenziswa yiGnomeMeeting xa "
+"kubhaliswa kubagcini-sango. Ungaluguqula uluhlu lwendawo yonxibelewano lwe-"
+"UDP ukuba usebenzisa uguqulo lwe-IP naxa ufuna ukuba nee-GnomeMeeting "
+"ezininzi eziqhuba ngasemva isixhobo sakho sonxibelelwano oluncinci i-NAT/"
+"PAT. i-GnomeMeeting ifuna ukuba iqalwe ekuqaleni kwakhona ukuze imigangatho "
+"emitsha isebenze. Oluluhlu lwendawo yonxibelelwano alukuphazamisi nganto "
+"ukuba ngaba akubhalisanga kumgcini-sango."
+
+#: ../gnomemeeting.schemas.in.in.h:155 ../src/pref_window.cpp:1010
+msgid "The registering method to use"
+msgstr "Indlela yokubhali emayisetyenziswe"
+
+#: ../gnomemeeting.schemas.in.in.h:156
+msgid "The remote zoom value"
+msgstr "Ixabiso lokwandisa usuka kwenye indawo"
+
+#: ../gnomemeeting.schemas.in.in.h:157
+msgid "The ring tone sound"
+msgstr "Isandi sendlela yokukhala komnxeba"
+
+#: ../gnomemeeting.schemas.in.in.h:158
+msgid "The save prefix"
+msgstr "Isimaphambili sokugcina"
+
+#: ../gnomemeeting.schemas.in.in.h:159
+msgid "The size of the local video window"
+msgstr "Ubangakanani befestile yevidiyo yangaphakathi"
+
+#: ../gnomemeeting.schemas.in.in.h:160
+msgid "The size of the remote video window"
+msgstr "Ubungakanani befestile yevidiyo ekwenye indawo"
+
+#: ../gnomemeeting.schemas.in.in.h:161
+msgid ""
+"The sound that will be played at the end of calls or when calling somebody "
+"who is busy, if enabled"
+msgstr ""
+"Isandi esiza kudlalwa ekupheleni konxibelelwano okanye kunxulumano nomntu "
+"oxakekileyo, ukuba yenziwe isebenze"
+
+#: ../gnomemeeting.schemas.in.in.h:162
+msgid "The sound that will be played on incoming calls, if enabled"
+msgstr "Isandi esiza kudlalwa xa kungena unxulumano, ukuba yenziwe isebenze"
+
+#: ../gnomemeeting.schemas.in.in.h:163
+msgid "The sound that will be played when calling somebody, if enabled"
+msgstr ""
+"Isandi esizodlalwa xa unxulumanisa umntu othile, ukuba yenziwe isebenze"
+
+#: ../gnomemeeting.schemas.in.in.h:164 ../src/pref_window.cpp:1006
+msgid ""
+"The time after which GnomeMeeting will renew its registration with the "
+"gatekeeper"
+msgstr ""
+"Ixesha elisemva kokuba i-GnomeMeeting izaku hlaziya ubhaliso lwayo "
+"nomgcinisango"
+
+#: ../gnomemeeting.schemas.in.in.h:165
+msgid "The two-letter country code of your country (e.g.: BE, UK, FR, DE, ...)"
+msgstr ""
+"Ikhowudi yelizwe lakho enonobumba ababini (umzekelo: BE, UK, FR, DE, ...)"
+
+#: ../gnomemeeting.schemas.in.in.h:166
+msgid "The user directory server to register with"
+msgstr "I-Server yovimba weefayili zomsebenzisi onokubhalisa ngayo"
+
+#: ../gnomemeeting.schemas.in.in.h:167 ../src/pref_window.cpp:1191
+msgid "The video channel number to use (to select camera, tv or other sources)"
+msgstr ""
+"Inombolo yesiqhagamshelanisi sevidiyo yokusetyenziswa (ukukhetha ikhamera, i-"
+"tv okanye abanye ovimba)"
+
+#: ../gnomemeeting.schemas.in.in.h:168 ../src/pref_window.cpp:1175
+msgid ""
+"The video plugin that will be used to detect the devices and manage them"
+msgstr ""
+"Isingeniso vidiyo esizaku setyenziswa ukufumanisa izixhobo nokuzilawula"
+
+#: ../gnomemeeting.schemas.in.in.h:169
+msgid ""
+"The way to react to incoming calls: 0 displays a popup, 1 automatically "
+"answers the call, 2 automatically rejects the call and 3 forwards the call "
+"to the given URL, if any"
+msgstr ""
+"Indlela yokwamnkela unxulumano olungenayo: u-0 uveza esikrini, u-1 "
+"uziphendulela umnxeba, u-2 wala unxulumano ze -3 agqithise unxulumano lwe-"
+"URL enikiweyo, ukuba lukhona"
+
+#: ../gnomemeeting.schemas.in.in.h:170
+msgid "The zoom value"
+msgstr "Ixabiso lokwandisa"
+
+#: ../gnomemeeting.schemas.in.in.h:171
+msgid ""
+"The zoom value to apply to images displayed in the local video window (can "
+"be 0.50, 1.00, or 2.00)"
+msgstr ""
+"Ixabiso lokwandisa elisetyenziswa kwifestile eboniswa eskrinini kwifestile "
+"yevidiyo yangaphakathi (ingaba 0.50, 1.00, okanye 2.00)"
+
+#: ../gnomemeeting.schemas.in.in.h:172
+msgid ""
+"The zoom value to apply to images displayed in the main GUI (can be 0.50, "
+"1.00, or 2.00)"
+msgstr ""
+"Ixabiso lokwandisa elisetyenziswa kwimifanekiso eboniswe eskrinini kwi-GUI "
+"enkulu (ingaba 0.50, 1.00, okanye 2.00)"
+
+#: ../gnomemeeting.schemas.in.in.h:173
+msgid ""
+"The zoom value to apply to images displayed in the remote video window (can "
+"be 0.50, 1.00, or 2.00)"
+msgstr ""
+"Ixabiso lokwandisa elisetyenziswa kwifestile eboniswa eskrinini kwifestile "
+"yevidiyo yangaphandle (ingaba 0.50, 1.00, okanye 2.00)"
+
+#: ../gnomemeeting.schemas.in.in.h:174
+msgid ""
+"This enables H.245 Tunnelling mode. In H.245 Tunnelling mode H.245 messages "
+"are encapsulated into the the H.225 channel (port 1720). This saves one TCP "
+"connection during calls. H.245 Tunnelling was introduced in H.323v2 and "
+"Netmeeting does not support it. Using both Fast Start and H.245 Tunnelling "
+"can crash some versions of Netmeeting."
+msgstr ""
+"Oku kwenza ukuba kusebenze inkqubo ye-H.245 Tunnelling. Kwinkqubo ye-H.245 "
+"Tunnelling imiyalezo ifihlwe kwisiqhangamshelanisi se-H.225 (Isiqhagamsheli "
+"1720). Isindisa unxulumano lwe-TCP olunye ngexesha lonxulumano. i-H.245 "
+"Tunnelling yayaziswa kwi-H.323v2 futhi i-Netmeeting ayiyixhasi. Usebenzisa "
+"zombini i-Fast Start ne-H.245 Tunnelling ukuba ezinye intlobo ze-Netmeeting "
+"zingasebenzi."
+
+#: ../gnomemeeting.schemas.in.in.h:175 ../src/pref_window.cpp:963
+msgid "This enables H.245 early in the setup"
+msgstr "Lena yenza i-H.245 isebenze ekuqaleli ekumiseleni inkqubo"
+
+#: ../gnomemeeting.schemas.in.in.h:176
+msgid ""
+"This enables IP checking from seconix.com and fills the IP in the public IP "
+"of the NAT/PAT gateway field of GnomeMeeting. The returned IP is only used "
+"when IP Translation is enabled. If you disable IP checking, you will have to "
+"manually enter the IP of your gateway in the GnomeMeeting preferences"
+msgstr ""
+"Oku kwenza ukuba kuqinisekiswe i-IP ukusuka kwi seconix.com ze igcwalise i- "
+"IP kwi-IP kawonkewonke ye-NAT/PAT yendawo yesixhobo sothungelwano lwe-"
+"GnomeMeeting. I-IP ebuyisiweyo isetyenziswa kuphela xa uguqulo lwe-IP "
+"lwenziwe ukuba lusebenze. Ukuba wenza ukuba lungasebenzi uqinisekiso lwe-IP, "
+"kuzakufuneka ukuba uyifake ngokwakho i-IP yesixhobo sothungelwano sakho "
+"soluhlu lwendawo ozikhethayo ze-GnomeMeeting"
+
+#: ../gnomemeeting.schemas.in.in.h:177
+msgid ""
+"This enables IP translation. IP translation is useful if GnomeMeeting is "
+"running behind a NAT/PAT router. You have to put the public IP of the router "
+"in the field below. If you are registered to ils.seconix.com, GnomeMeeting "
+"will automatically fetch the public IP using the ILS service. If your router "
+"natively supports H.323, you can disable this"
+msgstr ""
+"Oku kwenza ukuba lusebenze uguqulelo lwe-IP. Uguqulelo lwe-IP lusebenza "
+"kakhulu ukuba i-GnomeMeeting ilandela isinxulumanisi seendawo ezincinane ze-"
+"NAT/PAT. Kufanele ufake isinxulumanisi sendawo ezincinane ze-IP kawonkewonke "
+"kwindawo elapha ngezantsi. Ukuba ubhalisiwe kwi-ils.seconix.com, i-"
+"GnomeMeeting iza kuyizisa ngokuzenzekelayo i-IP isebenzisa inkonzo ye-ILS. "
+"Ukuba isinxulamisi sakho sendawo ezincinane sixhasa i-H.323, ungayenza ukuba "
+"ingasebenzi"
+
+#: ../gnomemeeting.schemas.in.in.h:178 ../src/pref_window.cpp:1057
+msgid ""
+"This enables STUN Support. STUN is a technic that permits to go through some "
+"types of NAT gateways."
+msgstr ""
+"Oku kwenza ukuba kuxhaseke i-STUN. I-STUN yindlela evumela ukuba udlule "
+"kwinxalenye yezixhobo zothungelwano lwe-NAT."
+
+#: ../gnomemeeting.schemas.in.in.h:179
+msgid ""
+"This permits to set the mode for DTMFs sending. The values can be \"All"
+"\" (0), \"None\" (1), \"rfc2833\" (2), \"Signal\" (3) or \"String\" (4) "
+"(default is \"All\"). Choosing other values than \"All\", \"String\" or "
+"\"rfc2833\" disables the Text Chat"
+msgstr ""
+"Oku kuvumela ukumiselwa kwenkqubo yokuthumela nge-DTMF. Amaxabiso angaba "
+"\"Onke\"(0), \"Angabikho\"(1), \"rfc2833\" (2), \"Umqondiso\" (3) okanye "
+"\"Uluhlu lwamagama\" (4) (emiselweyo\"Onke\"). Ukukhetha amanye amaxabiso "
+"kunamanye \"Onke\", \"Uluhlu lwamagama\" okanye \"rfc2833\" yenza "
+"ingasebenzi Incoko Yombhalo"
+
+#: ../gnomemeeting.schemas.in.in.h:180
+msgid "Transmitted background blocks"
+msgstr "Iibhloko ezingasemva ezisasaziweyo"
+
+#: ../gnomemeeting.schemas.in.in.h:181
+msgid "UDP port range"
+msgstr "Uluhlu lwendawo yonxulumano lwe-UDP"
+
+#: ../gnomemeeting.schemas.in.in.h:182
+msgid "Use the gateway"
+msgstr "Sebenzisa isixhobo sothungelwano"
+
+#: ../gnomemeeting.schemas.in.in.h:183 ../src/pref_window.cpp:1029
+msgid "Use the specified gateway to do calls"
+msgstr "Sebenzisa isixhobo sothungelwano esichaziweyo ekwenzeni unxulumano"
+
+#: ../gnomemeeting.schemas.in.in.h:184
+msgid ""
+"Use this option to ensure the above alias is used as the primary alias when "
+"registering with a gatekeeper. This may be required if your gatekeeper can "
+"only perform authentication using the first alias in the list"
+msgstr ""
+"Sebenzisa lendlela ukuqinisekisa isiteketiso esingasentla ukuba "
+"sisetyenziswe njengesiphambili xa kubhaliswa nomgcinisango. Oku kungafuneka "
+"kuphela ukuba umgcinisango wakho angaqinisekisa esebenzisa isiteketiso "
+"sokuqala esikuluhlu"
+
+#: ../gnomemeeting.schemas.in.in.h:185
+msgid "User directory"
+msgstr "Uvimba Weefayili Zomsebenzisi"
+
+#: ../gnomemeeting.schemas.in.in.h:186
+msgid "Version"
+msgstr "Uhlobo"
+
+#: ../gnomemeeting.schemas.in.in.h:187
+msgid "Video channel"
+msgstr "Isiqhagamshelanisi sevidiyo"
+
+#: ../gnomemeeting.schemas.in.in.h:188
+msgid "Video format"
+msgstr "Ukulungiselela kwe vidiyo"
+
+#: ../gnomemeeting.schemas.in.in.h:189
+msgid "Video image"
+msgstr "Umfanekiso wevidiyo"
+
+#: ../gnomemeeting.schemas.in.in.h:190
+msgid "Video input device"
+msgstr "Isixhobo sekhompyutha esingenisa ividiyo"
+
+#: ../gnomemeeting.schemas.in.in.h:191
+msgid "Video plugin"
+msgstr "Indawo yokungenisa ividiyo"
+
+#: ../gnomemeeting.schemas.in.in.h:192
+msgid "Video preview"
+msgstr "Ukujonga ividiyo phambi koshicilelo"
+
+#: ../gnomemeeting.schemas.in.in.h:193
+msgid "Video size"
+msgstr "Ubungakanani bevidiyo"
+
+#: ../lib/about/gnome-about.c:203
+msgid "Credits"
+msgstr "Iicredithi"
+
+#: ../lib/about/gnome-about.c:235
+msgid "Written by"
+msgstr "Ibhalwe ngu"
+
+#: ../lib/about/gnome-about.c:250
+msgid "Documented by"
+msgstr "Ibhalwe ngu"
+
+#: ../lib/about/gnome-about.c:265
+msgid "Translated by"
+msgstr "Iguqulelwe ngu"
+
+#. Add the credits button
+#: ../lib/about/gnome-about.c:326
+msgid "C_redits"
+msgstr "Ii-C_redithi"
+
+#: ../lib/about/gnome-about.c:407
+msgid "Authors"
+msgstr "Abaqulunqi"
+
+#: ../lib/about/gnome-about.c:408
+msgid "List of authors of the programs"
+msgstr "Uluhlu lwabaqulunqii beenkqubo"
+
+#: ../lib/about/gnome-about.c:421
+msgid "Documenter entry"
+msgstr "Ungeniso lombhali"
+
+#: ../lib/about/gnome-about.c:422
+msgid "A single documenter entry"
+msgstr "Ungeniso olunye lombhali"
+
+#: ../lib/about/gnome-about.c:518
+#, c-format
+msgid "About %s"
+msgstr "Ngange %s"
+
+#: ../lib/dialog.c:254
+msgid "Do not show this dialog again"
+msgstr "Ungalubonisi olu nxulumano kwakhona"
+
+#: ../lib/gm_conf-gconf.c:155
+msgid ""
+"An error has happened in the configuration backend.\n"
+"Maybe some of your settings won't be saved."
+msgstr ""
+"Kwenzeke impazamo ngasemva kummiselo wenkqubo.\n"
+"Mhlawumbi eminye yemimiselo yakho ayizukugcinwa."
+
+#: ../lib/stats_drawing_area.c:362
+#, c-format
+msgid "Total: %.2f MB"
+msgstr "Epheleleyo: %.2f MB"
+
+#: ../lib/contacts/gm_contacts-zeroconf.cpp:309
+msgid "Contacts Near Me"
+msgstr "Indawo Zonxibelelwano Ezikufuphi Kum"
+
+#: ../src/addressbook_window.cpp:774
+msgid "Contact collision"
+msgstr "Ungqubano lwendawo yonxibelelwano"
+
+#: ../src/addressbook_window.cpp:776
+#, c-format
+msgid ""
+"Another contact with the same speed dial already exists in your address "
+"book:\n"
+"\n"
+"<b>Name</b>: %s\n"
+"<b>URL</b>: %s\n"
+"<b>Speed Dial</b>: %s\n"
+msgstr ""
+"Enye indawo yonxulumano ngonxibelelwano olukhawulezayo osele lukhona "
+"kwincwadi yakho ye-dilesi:\n"
+"\n"
+"<b>Igama</b>: %s\n"
+"<b>I-URL</b>: %s\n"
+"<b>Unxibelelwano olukhawulezayo</b>: %s\n"
+
+#: ../src/addressbook_window.cpp:776 ../src/addressbook_window.cpp:778
+#: ../src/druid.cpp:1838 ../src/pref_window.cpp:948
+msgid "None"
+msgstr "Akukho nanye"
+
+#: ../src/addressbook_window.cpp:778
+#, c-format
+msgid ""
+"Another contact with similar information already exists in your address "
+"book:\n"
+"\n"
+"<b>Name</b>: %s\n"
+"<b>URL</b>: %s\n"
+"<b>Speed Dial</b>: %s\n"
+"\n"
+"Do you still want to add the contact?"
+msgstr ""
+"Enye indawo yonxulumano enentsingiselo efanayo sele ikhona kwincwadi yakho "
+"yedilesi:\n"
+"\n"
+"<b>Igama</b>: %s\n"
+"<b>I-URL</b>: %s\n"
+"<b>Unxulumano olukhawulezayo</b>: %s\n"
+"\n"
+"Ingaba usafuna ukongeza indawo yonxulumano?"
+
+#. Translators: This is "S" as in "Status"
+#: ../src/addressbook_window.cpp:949
+msgid "S"
+msgstr "U"
+
+#: ../src/addressbook_window.cpp:960 ../src/pref_window.cpp:509
+msgid "Name"
+msgstr "Igama"
+
+#: ../src/addressbook_window.cpp:988 ../src/calls_history_window.cpp:737
+msgid "Software"
+msgstr "I-Software"
+
+#: ../src/addressbook_window.cpp:1002
+msgid "URL"
+msgstr "I-URL"
+
+#: ../src/addressbook_window.cpp:1016
+msgid "E-Mail"
+msgstr "I-Imeyile"
+
+#: ../src/addressbook_window.cpp:1042
+msgid "Categories"
+msgstr "Iindidi"
+
+#: ../src/addressbook_window.cpp:1056
+msgid "Speed Dial"
+msgstr "Nxibelelana Ngokukhawuleza"
+
+#: ../src/addressbook_window.cpp:1089
+msgid "Name contains"
+msgstr "Igama liqulethe"
+
+#: ../src/addressbook_window.cpp:1093
+msgid "URL contains"
+msgstr "I-URL iqulethe"
+
+#: ../src/addressbook_window.cpp:1099
+msgid "Belongs to category"
+msgstr "Yeyodidi oluthile"
+
+#: ../src/addressbook_window.cpp:1474 ../src/addressbook_window.cpp:1504
+#: ../src/addressbook_window.cpp:2276 ../src/calls_history_window.cpp:284
+msgid "C_all Contact"
+msgstr "N_xulumana nabantu onxulumana nabo"
+
+#: ../src/addressbook_window.cpp:1479 ../src/addressbook_window.cpp:1509
+msgid "_Copy URL to clipboard"
+msgstr "_Kopa i-URL kwi-clipboard"
+
+#: ../src/addressbook_window.cpp:1486 ../src/addressbook_window.cpp:1544
+#: ../src/addressbook_window.cpp:2262
+msgid "_Properties"
+msgstr "Ii_mpawu"
+
+#: ../src/addressbook_window.cpp:1493 ../src/addressbook_window.cpp:1551
+#: ../src/addressbook_window.cpp:2257
+msgid "_Delete"
+msgstr "_Cima"
+
+#: ../src/addressbook_window.cpp:1516 ../src/addressbook_window.cpp:2286
+#: ../src/calls_history_window.cpp:291
+msgid "Add Contact to _Address Book"
+msgstr "Yongeza indawo yonxibelelwano kwincwadi ye_Dilesi"
+
+#: ../src/addressbook_window.cpp:1776
+#, c-format
+msgid "Error while fetching users list from %s"
+msgstr "Impazamo yenzeke lo gama kulandwa uluhlu lwabasebenzisi ukusuka %s"
+
+#: ../src/addressbook_window.cpp:1780
+#, c-format
+msgid "Found %d user in %s"
+msgid_plural "Found %d users in %s"
+msgstr[0] "Ifunyenwe %d umsebenzisi ungaphakathi %s"
+msgstr[1] "Ifunyenwe %d abasebenzisi bangaphakathi %s"
+
+#: ../src/addressbook_window.cpp:1784
+#, c-format
+msgid "Found %d user in %s for a total of %d users"
+msgid_plural "Found %d users in %s for a total of %d users"
+msgstr[0] ""
+"Ifunyenwe %d umsebenzisi engaphakathi %s ingqokelela ye %d abasebenzisi"
+msgstr[1] ""
+"Ifunyenwe %d abasebenzisi bengaphakathi %s ingqokelela ye %d abasebenzisi"
+
+#: ../src/addressbook_window.cpp:2221
+msgid "Address Book"
+msgstr "Incwadi yedilesi"
+
+#: ../src/addressbook_window.cpp:2248
+msgid "_File"
+msgstr "I_fayile"
+
+#: ../src/addressbook_window.cpp:2250
+msgid "New _Address Book"
+msgstr "Incwadi Entsha Ye_dilesi"
+
+#: ../src/addressbook_window.cpp:2269 ../src/main_window.cpp:1018
+msgid "_Close"
+msgstr "_Vala"
+
+#: ../src/addressbook_window.cpp:2274
+msgid "C_ontact"
+msgstr "N_xulumana"
+
+#: ../src/addressbook_window.cpp:2282
+msgid "New _Contact"
+msgstr "Indawo entsha yo_Nxibelelwano"
+
+#: ../src/addressbook_window.cpp:2359
+msgid "Remote Contacts"
+msgstr "Iindawo Zonxibelelwano Ezikwenye Indawo"
+
+#: ../src/addressbook_window.cpp:2367
+msgid "Local Contacts"
+msgstr "Iindawo Zonxibelelwano Ezingaphakathi "
+
+#: ../src/addressbook_window.cpp:2490
+msgid "Edit the Contact Information"
+msgstr "Hlela Inkcazelo Yendawo Yonxibelelwano"
+
+#: ../src/addressbook_window.cpp:2511 ../src/addressbook_window.cpp:2971
+msgid "Name:"
+msgstr "Igama:"
+
+#: ../src/addressbook_window.cpp:2531
+msgid "URL:"
+msgstr "I-URL:"
+
+#: ../src/addressbook_window.cpp:2551
+msgid "Email:"
+msgstr "I-Imeyili:"
+
+#: ../src/addressbook_window.cpp:2572
+msgid "Speed Dial:"
+msgstr "Nxibelelana Ngokukhawuleza:"
+
+#: ../src/addressbook_window.cpp:2594
+msgid "Categories:"
+msgstr "Iindidi:"
+
+#: ../src/addressbook_window.cpp:2619
+msgid "Local Addressbook:"
+msgstr "Incwadi Yedilesi Yangaphakathi:"
+
+#: ../src/addressbook_window.cpp:2780 ../src/addressbook_window.cpp:3274
+msgid "Missing information"
+msgstr "Inkcazelo engabonakaliyo"
+
+#: ../src/addressbook_window.cpp:2780
+msgid ""
+"Please make sure to provide at least a full name or an URL for the contact."
+msgstr ""
+"Nceda qinisekisa ukuba unika ubuncinane igama elipheleleyo okanye i-URL "
+"yendawo yonxibelelwano."
+
+#: ../src/addressbook_window.cpp:2824
+#, c-format
+msgid "Are you sure you want to delete %s from %s?"
+msgstr "Uqinisekile ukuba ufuna ukucima %s kwi %s?"
+
+#: ../src/addressbook_window.cpp:2950
+msgid "Edit an address book"
+msgstr "Hlela incwadi yedilesi"
+
+#: ../src/addressbook_window.cpp:2951
+msgid "Add an address book"
+msgstr "Yongeza incwadi yedilesi"
+
+#: ../src/addressbook_window.cpp:2996
+msgid "Type:"
+msgstr "Uhlobo:"
+
+#: ../src/addressbook_window.cpp:3003
+msgid "Local"
+msgstr "Ngaphakathi"
+
+#: ../src/addressbook_window.cpp:3008
+msgid "Remote LDAP"
+msgstr "Ekwenye indawo i-LDAP"
+
+#: ../src/addressbook_window.cpp:3013
+msgid "Remote ILS"
+msgstr "Ekwenye indawo i-ILS"
+
+#: ../src/addressbook_window.cpp:3046
+msgid "Hostname:"
+msgstr "Igama lomququzeleli:"
+
+#: ../src/addressbook_window.cpp:3069
+msgid "Port:"
+msgstr "Indawo yonxulumaniso:"
+
+#: ../src/addressbook_window.cpp:3094
+msgid "Base DN:"
+msgstr "Isiseko DN:"
+
+#: ../src/addressbook_window.cpp:3117
+msgid "Search Scope:"
+msgstr "Ummandla Okhangela Kuwo:"
+
+#: ../src/addressbook_window.cpp:3124
+msgid "Subtree"
+msgstr "I-Subtree"
+
+#: ../src/addressbook_window.cpp:3129
+msgid "One Level"
+msgstr "Inqanaba elinye"
+
+#: ../src/addressbook_window.cpp:3161
+msgid "Search Attribute:"
+msgstr "Uphawu Lokukhangela:"
+
+#: ../src/addressbook_window.cpp:3274
+msgid "Please make sure to fill in all requested fields."
+msgstr "Nceda qinisekisa uzalisa zonke iindawo oziceliweyo."
+
+#: ../src/addressbook_window.cpp:3317
+#, c-format
+msgid "Are you sure you want to delete %s and all its contacts?"
+msgstr "Uqinisekile ufuna ukucima %s nazo zonke iindawo zonxibelelwano zazo?"
+
+#: ../src/bonobo_component.cpp:114
+msgid "Cannot run GnomeMeeting"
+msgstr "Ayikwazi ukusebenzisa i-GnomeMeeting"
+
+#: ../src/bonobo_component.cpp:114
+msgid ""
+"GnomeMeeting is already running, if you want it to call a given callto or "
+"h323 URL, please use \"gnomemeeting -c URL\"."
+msgstr ""
+"i-GnomeMeeting seyisebenza, ukuba ufuna inxulumanise nge callto okanye h323 "
+"URL, nceda sebenzisa \"gnomemeeting -c URL\"."
+
+#: ../src/bonobo_component.cpp:167
+msgid ""
+"It appears that you do not have gnomemeeting.server installed in a valid "
+"location. Factory mode disabled.\n"
+msgstr ""
+"Kukhangeleka ngathi awunayo i-gnomemeeting.server emiselwe kwindawo "
+"efanelekileyo. Inkqubo yekompyutha yenziwe ukuba ingasebenzi.\n"
+
+#: ../src/bonobo_component.cpp:171
+msgid ""
+"Error registering GnomeMeeting with the activation service; factory mode "
+"disabled.\n"
+msgstr ""
+"Impazamo yobhaliso lwe-GnomeMeeting enenkonzo eyisebenzisayo; inkqubo "
+"yekompyutha ayenziwanga ukuba isebenze.\n"
+
+#: ../src/bonobo_component.cpp:211
+msgid "Failed to retrieve gnomemeeting server from activation server\n"
+msgstr ""
+"Ayikwazanga ukubuyela kwakhona kwiseva ye-gnomemeeting ukusuka kwiseva "
+"eyenza ukuba isebenze\n"
+
+#: ../src/callbacks.cpp:119
+msgid "Code contributors:"
+msgstr "Abanikeli bekhowudi:"
+
+#: ../src/callbacks.cpp:133
+msgid "Artwork:"
+msgstr "Umsebenzi wobugcisa:"
+
+#: ../src/callbacks.cpp:137
+msgid "Contributors:"
+msgstr "Abanikeli:"
+
+#. Translators: Please write translator credits here, and
+#. * seperate names with \n
+#: ../src/callbacks.cpp:173
+msgid "translator_credits"
+msgstr "Canonical Ltd <translations@canonical.com>"
+
+#. Translators: Please test to see if your translation
+#. * looks OK and fits within the box
+#: ../src/callbacks.cpp:184
+msgid ""
+"GnomeMeeting is full-featured H.323 compatible videoconferencing, VoIP and "
+"IP-Telephony application that allows you to make audio and video calls to "
+"remote users with H.323 hardware or software."
+msgstr ""
+"I-GnomeMeeeting inako konke yi-H.323 eluhlobo olukwazi ukubamba inkomfa "
+"ngevidiyo, ukufakelwa kwenkqubo ye-VoIP ne-IP-Telephony oku kuvumela ukuba "
+"ukwazi ukwenza unxulumano nabasebenzisi abakwenye indawo nge-H.323 hardware "
+"okanye i-software."
+
+#: ../src/calls_history_window.cpp:646
+msgid "Received Calls"
+msgstr "Unxulumano Olufunyenweyo"
+
+#: ../src/calls_history_window.cpp:646
+msgid "Placed Calls"
+msgstr "Unxulumano Olumiselweyo"
+
+#: ../src/calls_history_window.cpp:646
+msgid "Missed Calls"
+msgstr "Unxulumano Oluphosiweyo"
+
+#: ../src/calls_history_window.cpp:658 ../src/main_window.cpp:1164
+#: ../src/tray.cpp:302
+msgid "Calls History"
+msgstr "Imbali Ngonxulumano"
+
+#: ../src/calls_history_window.cpp:701
+msgid "Date"
+msgstr "Umhla"
+
+#: ../src/calls_history_window.cpp:709
+msgid "Remote User"
+msgstr "Umsebenzisi Okwenye Indawo"
+
+#: ../src/calls_history_window.cpp:718
+msgid "Call Duration"
+msgstr "Ubungakanani Bexesha Lonxulumano"
+
+#: ../src/calls_history_window.cpp:728
+msgid "Call End Reason"
+msgstr "Isizathu Sokuphela Konxulumano"
+
+#. shouldn't happen...
+#: ../src/chat_window.cpp:240
+#, c-format
+msgid "---- Call begins at %s\n"
+msgstr "---- Unxulumano luqala kwi %s\n"
+
+#. prepare the message to be displayed
+#: ../src/chat_window.cpp:275
+#, c-format
+msgid "---- Call ends at %s\n"
+msgstr "---- Unxulumano luphela kwi %s\n"
+
+#: ../src/chat_window.cpp:408
+msgid "Open URI"
+msgstr "Vula i-URI"
+
+#: ../src/chat_window.cpp:411 ../src/chat_window.cpp:427
+msgid "Copy Link Location"
+msgstr "Kopa Indawo Yoqhagamshelwano"
+
+#: ../src/chat_window.cpp:423
+msgid "Connect to"
+msgstr "Nxulumana ku"
+
+#: ../src/chat_window.cpp:425
+msgid "Add to Address Book"
+msgstr "Yongeza Kwincwadi Yedilesi"
+
+#: ../src/chat_window.cpp:445
+msgid "Copy Equation"
+msgstr "Kopa Ulinganiso"
+
+#: ../src/chat_window.cpp:460
+msgid "Send message:"
+msgstr "Thumela umyalezo:"
+
+#: ../src/config-tool-i18n.h:1
+msgid "YES"
+msgstr "EWE"
+
+#: ../src/config-tool-i18n.h:2
+msgid "Sorry, this script won't work while GnomeMeeting is running"
+msgstr "Uxolo, esiskripti asinakusebenza lo gama i-GnomeMeeting iqhuba"
+
+#: ../src/config-tool-i18n.h:3
+msgid "  WARNING!!!"
+msgstr "  ISILUMKISO!!!"
+
+#: ../src/config-tool-i18n.h:4
+msgid ""
+"  This script will delete all user GnomeMeeting configuration,\n"
+"  including preferences that may be important! \n"
+"  The GConf daemon will be shut down, so make sure you have no\n"
+"  applications depending on it running.\n"
+"\n"
+"  Do you really want to do this?\n"
+"\n"
+"  If so, say \"YES\".\n"
+"\n"
+msgstr ""
+"  Esi siskripti sizakucima  konke ukumiselwa kwenkqubo yekompyutha "
+"kweGnomeMeeting,\n"
+"  kuquka uluhlu lwezinto ezikhethwayo nezinokubaluleka! \n"
+"  I-GConf daemon izokucika, qinisekisa ukuba awunayo inkqubo yekhompyutha "
+"ye\n"
+"  esixhomakeke kuyo ekusebenzeni.\n"
+"\n"
+"  Uyafuna nyani ukuyenza lento?\n"
+"\n"
+"  Ukuba uyafuna, yithi \"EWE\".\n"
+"\n"
+
+#: ../src/config-tool-i18n.h:5
+msgid "Removing $HOME/.gconf/apps/gnomemeeting"
+msgstr "Ukukhupha i-$HOME/.gconf/apps/gnomemeeting"
+
+#: ../src/config-tool-i18n.h:6 ../src/config-tool-i18n.h:11
+#: ../src/config-tool-i18n.h:13
+msgid "Shutting down GConf daemon"
+msgstr "Ukuvala gingci i-GConf daemon"
+
+#: ../src/config-tool-i18n.h:7
+msgid "...Done."
+msgstr "...Yenziwe."
+
+#: ../src/config-tool-i18n.h:8
+msgid "Leaving configuration alone."
+msgstr "Ukushiya ukumiselwa kwenkqubo yekhompyutha yodwa."
+
+#: ../src/config-tool-i18n.h:9
+msgid "Have a nice day."
+msgstr "Ubene mini emnadi."
+
+#: ../src/config-tool-i18n.h:10
+msgid ""
+"  The GConf daemon will be shut down, so make sure you have no\n"
+"  applications depending on it running.\n"
+"\n"
+"  Do you really want to do this?\n"
+"\n"
+"  If so, say \"YES\".\n"
+"\n"
+msgstr ""
+"  I-GConf daemon iza kuvalwa, ngako oko qinisekisa ukuba\n"
+"  awunazivuli-nkqubo zixhomekeke kuyo ngethuba iphunyezwa.\n"
+"\n"
+"  Ingaba ngenene uyakufuna ukwenza oku?\n"
+"\n"
+"  Ukuba kunjalo, yithi \"EWE\".\n"
+"\n"
+
+#: ../src/config-tool-i18n.h:12
+msgid "Removing schemas"
+msgstr "Ukususa ii-schema"
+
+#: ../src/config-tool-i18n.h:14
+msgid "Installing schemas"
+msgstr "Useka iinkcazelo"
+
+#: ../src/config-tool-i18n.h:15
+msgid ""
+"CRITICAL ERROR -- Schema installation failed.\n"
+"Most probably you have the GConf daemon running as root.\n"
+"\n"
+"Run \"gnomemeeting-config-tool --install-schemas\" as root.\n"
+msgstr ""
+"EYONA MPAZAMO INGUNDOQO -- Ukufakelwa kwenkcazelo akuphumelelanga.\n"
+"Inokuba mhlawumbi wenze ukuba i-daemon ye-GConf isebenze njengomsebenzisi "
+"onikwe amandla akhethekileyo.\n"
+"\n"
+"Sebenzisa \"gnomemeeting-config-tool --install-schemas\" njengomsebenzisi "
+"onikwe amandla akhethekileyo.\n"
+
+#: ../src/config-tool-i18n.h:16
+msgid "Usage:  gnomemeeting-config-tool OPTION"
+msgstr "Usetyenziso:  gnomemeeting-config-tool UKHETHO"
+
+#: ../src/config-tool-i18n.h:17
+msgid "Fixes problems with the GnomeMeeting settings"
+msgstr "Ilungisa iingxaki ezinemimiselo ye-GnomeMeeting"
+
+#: ../src/config-tool-i18n.h:18
+msgid "  --clean                remove all user settings"
+msgstr "  --cima                 susa yonke imimiselo yabasebenzisi"
+
+#: ../src/config-tool-i18n.h:19
+msgid ""
+"  --install-schemas      install schemas with default settings (run as root)"
+msgstr ""
+"  --install-schemas     seka isixhobo sesakhiwo se-database esinemimiselo "
+"yoseko-zixhobo (phumeza njengekhesithekileyo)"
+
+#: ../src/config-tool-i18n.h:20
+msgid ""
+"  --clean-schemas        remove schemas with default settings (run as root)"
+msgstr ""
+"  --clean-schemas        susa i-shemas ngemimiselo emiselweyo (qhuba njengo "
+"msebenzisi onikwe amandla akhethekileyo)"
+
+#: ../src/config-tool-i18n.h:21
+msgid ""
+"  --fix-permissions      fix permissions of GConf repository (run as root)"
+msgstr ""
+"  --fix-permissions      lungisa iimvume zendawo zokugcina ze-GConf "
+"(esebenza njengomsebenzisi onikwe amandla akhethekileyo)"
+
+#: ../src/config.cpp:230 ../src/config.cpp:493
+msgid "Changing this setting will only affect new calls"
+msgstr "Ukuguqula lommiselo kuza kuchaphazela unxulumano olutsha kuphela"
+
+#: ../src/config.cpp:231 ../src/config.cpp:494
+msgid ""
+"You have changed a setting that doesn't permit to GnomeMeeting to apply the "
+"new change to the current call. Your new setting will only take effect for "
+"the next call."
+msgstr ""
+"Uguqule ummiselo ongayivumeliyo i-GnomeMeeting ukuba isebenzise inguqu "
+"entsha kunxulumano oluqhubekayo. Ummiselo wakho omtsha uzakuqala ukusebenza "
+"kunxulumano olulandelayo."
+
+#: ../src/config.cpp:301
+msgid "H.245 Tunneling disabled"
+msgstr "I-H.245 Tunneling yenziwe ukuba ingasebenzi"
+
+#: ../src/config.cpp:302
+msgid "H.245 Tunneling enabled"
+msgstr "I-H.245 Tunneling yenziwe ukuba isebenze"
+
+#: ../src/config.cpp:333
+msgid "Early H.245 disabled"
+msgstr "i-H.245 yangoko yenziwe ingasebenzi"
+
+#: ../src/config.cpp:334
+msgid "Early H.245 enabled"
+msgstr "i-H.245 yangoko yenziwe ukuba isebenze"
+
+#: ../src/config.cpp:365
+msgid "Fast Start disabled"
+msgstr "I-Fast Start yenziwe ukuba ingasebenzi"
+
+#: ../src/config.cpp:366
+msgid "Fast Start enabled"
+msgstr "I-Fast Start yenziwe ukuba isebenze"
+
+#: ../src/config.cpp:398
+msgid "No gateway or proxy specified"
+msgstr ""
+"Akukho sixhobo sothungelwano okanye isixhobo sekompyutha "
+"esisebenzanjengomqobo sichaziweyo"
+
+#: ../src/config.cpp:398
+msgid "You need to specify a host to use as gateway or proxy."
+msgstr ""
+"Kufuneka ukuba uchaze umququzeleli oza kusetyenziswa njengesixhobo "
+"sothungelwano okanye ikompyutha esebenza njengomqobo."
+
+#: ../src/config.cpp:552
+msgid "Disabled silence detection"
+msgstr "Yenze ukuba ingakwazi ukufumanisa inzolo"
+
+#: ../src/config.cpp:558
+msgid "Enabled silence detection"
+msgstr "Yenza ukuba ikwazi ukufumanisa inzolo"
+
+#: ../src/config.cpp:1120
+msgid "Forward URL not specified"
+msgstr "Gqithisa i-URL engachazwanga"
+
+#: ../src/config.cpp:1121
+msgid ""
+"You need to specify an URL where to forward calls in the call forwarding "
+"section of the preferences!\n"
+"\n"
+"Disabling forwarding."
+msgstr ""
+"Kufuneka uchazele i-URL apho mayigqithisele khona unxulumano kwicandelo "
+"lokugqithisela izinto ezikhethwayo!\n"
+"\n"
+"Yenza ukudlulisela phambili kungasebenzi."
+
+#: ../src/connection.cpp:155
+#, c-format
+msgid "Opened codec %s for transmission"
+msgstr "Kuvulwe i-codec %s kulungiselelwa usasazo"
+
+#: ../src/connection.cpp:158
+#, c-format
+msgid "Closed codec %s which was opened for transmission"
+msgstr "Kuvalwe i-codec %s ebivulelwe usasazo"
+
+#: ../src/connection.cpp:162
+#, c-format
+msgid "Opened codec %s for reception"
+msgstr "Kuvulwe i-codec %s kulungiselelwa ulwamnkela"
+
+#: ../src/connection.cpp:165
+#, c-format
+msgid "Closed codec %s which was opened for reception"
+msgstr "Kuvalwe i-codec %s ebivulelwe ulwamnkelo"
+
+#: ../src/connection.cpp:203
+#, c-format
+msgid "Failure opening %s for transmission, will try with next common codec"
+msgstr ""
+"Ukungaphumeleli ukuvuleka %s kulungiselelwa usasazo, kuza kuzanywa enye i-"
+"codec eqhelekileyo"
+
+#: ../src/connection.cpp:204
+#, c-format
+msgid "Failure opening %s for reception, will try with next common codec"
+msgstr ""
+"Ukungaphumeleli ukuvuleka %s ukulungiselelwa ulwamkelo, kuza kuzanywa enye i-"
+"codec eqhelekileyo"
+
+#: ../src/connection.cpp:326 ../src/connection.cpp:327
+#: ../src/urlhandler.cpp:77 ../src/urlhandler.cpp:78
+msgid "Call transfer failed"
+msgstr "Udlulisa unxulumano akuphumelelanga"
+
+#: ../src/connection.cpp:326
+msgid ""
+"The remote user tried to transfer your call to another user, but it failed."
+msgstr ""
+"Umsenzisi okwenye indawo uzame ukuthumela unxulumano lwakho komnye "
+"umsebenzisi, kodwa alwaphumelela."
+
+#: ../src/druid.cpp:601
+msgid ""
+"This is the GnomeMeeting general configuration druid. The following steps "
+"will set up GnomeMeeting by asking a few simple questions.\n"
+"\n"
+"Once you have completed these steps, you can always change them later by "
+"selecting Preferences in the Edit menu."
+msgstr ""
+"Le yi-druid yokumiselwa kwenkqubo ngokubanzi ye-GnomeMeeting. La manyathelo "
+"alandelayo azakumisela i-GnomeMeeting ngokubuza imibuzoembalwa elula.\n"
+"\n"
+"Xa sele uwagqibile la manyathelo, ungawaguqula ethubeni ngokukhetha kuluhlu "
+"Lwezinto Ezikhethwe kwiMenyu Yokuhlela."
+
+#: ../src/druid.cpp:613
+#, c-format
+msgid "Configuration Druid - page 1/%d"
+msgstr "Ukumiselwa kwenkqubo ye-Druid - iphepha 1/%d"
+
+#: ../src/druid.cpp:655
+#, c-format
+msgid "Personal Information - page %d/%d"
+msgstr "Intsingiselo Yam - iphepha %d/%d"
+
+#. The user fields
+#: ../src/druid.cpp:668
+msgid "Please enter your first name and your surname:"
+msgstr "Nceda ufake igama nefani yakho:"
+
+#: ../src/druid.cpp:676
+msgid ""
+"Your first name and surname will be used when connecting to other VoIP and "
+"videoconferencing software."
+msgstr ""
+"Igama lakho lokuqala nefani liza kusetyenziswa xa kunxulumanwa nezinye i-"
+"VoIP kunye ne software yokubamba inkomfa ngevidiyo."
+
+#: ../src/druid.cpp:721
+#, c-format
+msgid "Callto URL - page %d/%d"
+msgstr "Nxulumanisa ku-URL - iphepha %d/%d"
+
+#: ../src/druid.cpp:732
+msgid "Please enter your e-mail address:"
+msgstr "Nceda ufake idilesi ye-imeyile:"
+
+#: ../src/druid.cpp:740
+msgid ""
+"Your e-mail address is used when registering to the GnomeMeeting users "
+"directory. It is used to create a callto address permitting your contacts to "
+"easily call you wherever you are."
+msgstr ""
+"Idilesi ye-imeyile yakho iye isebenziswe xa kubhaliselwa kuvimba weefayili "
+"zabasebenzisi ye-GnomeMeeting. Isetyenziselwa ukudala idilesi ye-callto "
+"evumela abantu onxulumana nabo bakwazi ukunxulumana lula nawe nokuba uphi."
+
+#: ../src/druid.cpp:749
+msgid ""
+"I don't want to register to the GnomeMeeting users directory and get a "
+"callto address"
+msgstr ""
+"Andifuni ukubhalisa kuvimba weefayili zabasenzisi be-GnomeMeeting ze "
+"ndifumane i-callto"
+
+#: ../src/druid.cpp:798
+#, c-format
+msgid "Connection Type - page %d/%d"
+msgstr "Uhlobo Lonxulumano - iphepha %d/%d"
+
+#. The connection type
+#: ../src/druid.cpp:810
+msgid "Please choose your connection type:"
+msgstr "Nceda ukhethe uhlobo lwakho lonxulumano:"
+
+#: ../src/druid.cpp:818
+msgid ""
+"The connection type will permit determining the best quality settings that "
+"GnomeMeeting will use during calls. You can later change the settings "
+"individually in the preferences window."
+msgstr ""
+"Uhlobo lonxulumano luza kuvumela ukukhangela imimiselo yexabiso "
+"ezakusetyenziswa yi-GnomeMeeting ngexesha lonxulumano. Ethubeni ungayiguqula "
+"imimiselo nganye kwifestile yoluhlu lwezinto ozikhethayo."
+
+#: ../src/druid.cpp:856
+#, c-format
+msgid "NAT Type - page %d/%d"
+msgstr "Uhlobo lwe-NAT - iphepha %d/%d"
+
+#: ../src/druid.cpp:866
+msgid "Click here to detect your NAT Type:"
+msgstr "Cofa apha ukufumana uhlobo lwakho lwe-NAT:"
+
+#: ../src/druid.cpp:870
+msgid "Detect NAT Type"
+msgstr "Fumana uhlobo lwakho lwe-NAT"
+
+#: ../src/druid.cpp:874
+msgid ""
+"The NAT type detection will permit to assist you in configuring your NAT "
+"router to be able to do calls with GnomeMeeting."
+msgstr ""
+"Ufunyaniso lohlobo lwe-NAT luza kuvumela ukunceda wena ekumiseleni inkqubo "
+"yakho yesixhobo sonxibelelwano se-NAT ukuze ukwazi ukwenza unxulumano nge-"
+"GnomeMeeting."
+
+#: ../src/druid.cpp:915
+#, c-format
+msgid "Audio Manager - page %d/%d"
+msgstr "Umphathi-sandi - iphepha %d/%d"
+
+#. The Audio devices
+#: ../src/druid.cpp:927
+msgid "Please choose your audio manager:"
+msgstr "Nceda ukhethe umphathi wesandi wakho:"
+
+#: ../src/druid.cpp:935
+msgid ""
+"The audio manager is the plugin that will manage your audio devices, ALSA is "
+"probably the best choice when available."
+msgstr ""
+"Umphathi wesandi ulungeniso eliza kuphatha izixhobo zesandi. Ingathi i-ALSA "
+"yiyona ekhethekileyo xa ifumaneka."
+
+#: ../src/druid.cpp:974
+#, c-format
+msgid "Audio Devices - page %d/%d"
+msgstr "Izixhobo Ezinesandi - iphepha %d/%d"
+
+#. The Audio devices
+#: ../src/druid.cpp:986
+msgid "Please choose the audio output device:"
+msgstr "Nceda ukhethe isixhobo sekhompyutha enesandi esiphumayo:"
+
+#: ../src/druid.cpp:994
+msgid ""
+"The audio output device is the device managed by the audio manager that will "
+"be used to play audio."
+msgstr ""
+"Isixhobo esinesandi esiphumayo sisixhobo esilawulwa ngumphathi onesandi oza "
+"kusetyenziswa ekudlaleni isandi."
+
+#: ../src/druid.cpp:1004
+msgid "Please choose the audio input device:"
+msgstr "Nceda ukhethe isixhobo sekhompyutha enesandi esingenisiweyo:"
+
+#: ../src/druid.cpp:1012
+msgid ""
+"The audio input device is the device managed by the audio manager that will "
+"be used to record your voice."
+msgstr ""
+"Isixhobo esinesandi esiphumayo sisixhobo esilawulwa ngumphathi onesandi oza "
+"kusetyenziswa ekushicileleni ilizwi lakho."
+
+#: ../src/druid.cpp:1025 ../src/druid.cpp:1159
+msgid "Test Settings"
+msgstr "Imimiselo yoVavanyo"
+
+#: ../src/druid.cpp:1069
+#, c-format
+msgid "Video Manager - page %d/%d"
+msgstr "Umphathi wevidiyo - iphepha %d/%d"
+
+#. The Audio devices
+#: ../src/druid.cpp:1081
+msgid "Please choose your video manager:"
+msgstr "Nceda ukhethe umphathi wevidiyo yakho:"
+
+#: ../src/druid.cpp:1089
+msgid ""
+"The video manager is the plugin that will manage your video devices, "
+"Video4Linux is the most common choice if you own a webcam."
+msgstr ""
+"Umphathi wevidiyo lungeniso oluza kuphatha izixhobo zakho zevidiyo, I-"
+"Video4Linux lolona khetho luqhelekileyo ukuba une-webcam."
+
+#: ../src/druid.cpp:1127
+#, c-format
+msgid "Video Devices - page %d/%d"
+msgstr "Izixhobo Zevidiyo - iphepha %d/%d"
+
+#. The Video devices
+#: ../src/druid.cpp:1139
+msgid "Please choose the video input device:"
+msgstr "Nceda ukhethe isixhobo sekhompyutha esingenisa ividiyo:"
+
+#: ../src/druid.cpp:1147
+msgid ""
+"The video input device is the device managed by the video manager that will "
+"be used to capture video."
+msgstr ""
+"Isixhobo sofakelo lwevidiyo sisixhobo esilawulwa ngumphathi vidiyo esiza "
+"kusetyenziswa ekuthatheni ividiyo."
+
+#: ../src/druid.cpp:1195
+#, c-format
+msgid "Configuration complete - page %d/%d"
+msgstr "Ukumiselwa kwenkqubo yekompyutha kugqityiwe - iphepha %d/%d"
+
+#: ../src/druid.cpp:1432 ../src/druid.cpp:1692 ../src/druid.cpp:1709
+#: ../src/druid.cpp:1775 ../src/endpoint.cpp:1835 ../src/gnomemeeting.cpp:275
+#: ../src/gnomemeeting.cpp:277 ../src/gnomemeeting.cpp:279
+#: ../src/sound_handling.cpp:564 ../src/sound_handling.cpp:565
+#: ../src/videograbber.cpp:310 ../src/videograbber.cpp:566
+msgid "No device found"
+msgstr "Akukho sixhobo sekhompyutha sifunyenweyo"
+
+#: ../src/druid.cpp:1562
+msgid "56k Modem"
+msgstr "Imodemu i56k"
+
+#: ../src/druid.cpp:1563
+msgid "ISDN"
+msgstr "I-ISDN"
+
+#: ../src/druid.cpp:1564
+msgid "xDSL/Cable"
+msgstr "xDSL/I-cable"
+
+#: ../src/druid.cpp:1565
+msgid "T1/LAN"
+msgstr "T1/LAN"
+
+#: ../src/druid.cpp:1566
+msgid "Keep current settings"
+msgstr "Gcina imimiselo ekhoyo"
+
+#: ../src/druid.cpp:1838
+#, c-format
+msgid ""
+"You have now finished the GnomeMeeting configuration. All the settings can "
+"be changed in the GnomeMeeting preferences. Enjoy!\n"
+"\n"
+"\n"
+"Configuration summary:\n"
+"\n"
+"Username: %s\n"
+"Connection type: %s\n"
+"Audio manager: %s\n"
+"Audio player: %s\n"
+"Audio recorder: %s\n"
+"Video manager: %s\n"
+"Video input: %s\n"
+"Callto URL: %s\n"
+msgstr ""
+"Ngoku ulugqibile umiselo lwenkqubo yekompyutha ngeGnomeMeeting. Yonke "
+"imimiselo ingaguqulwa kuluhlu lwezinto ezikhethwayo ngeGnomeMeeting. "
+"Yonwaba!\n"
+"\n"
+"\n"
+"Isishwankathelo ngenkqubo yokumiselwa kwekompyutha:\n"
+"\n"
+"Igama lomsebenzisi: %s\n"
+"Uhlobo lonxulumano: %s\n"
+"Umphathi onesandi: %s\n"
+"Umdlali onesandi: %s\n"
+"Umshicileli oneandi: %s\n"
+"Umphathi wevidiyo: %s\n"
+"Ulwazi olungeniswe kwividiyo: %s\n"
+"I-callto URL: %s\n"
+
+#: ../src/druid.cpp:1887
+msgid "First Time Configuration Druid"
+msgstr "I-Druid yokuqala yokumiselwa kwekompyutha"
+
+#. Update the log and status bar
+#: ../src/endpoint.cpp:826
+#, c-format
+msgid "Call from %s"
+msgstr "Unxulumano lwefowuni oluvela %s"
+
+#: ../src/endpoint.cpp:838
+#, c-format
+msgid "Forwarding call from %s to %s (Forward all calls)"
+msgstr ""
+"Ukugqithisa unxulumano lwefowuni oluvela %s lusiya %s (Gqithisa lonke "
+"unxulumano)"
+
+#: ../src/endpoint.cpp:845
+#, c-format
+msgid "Rejecting call from %s (Do Not Disturb)"
+msgstr "Ukwala unxulumano lwefowuni oluvela %s (Sukuphazamisa)"
+
+#: ../src/endpoint.cpp:857
+#, c-format
+msgid "Forwarding call from %s to %s (Busy)"
+msgstr "Ukugqithisa unxulumano lwefowuni oluvela %s lusiya %s (Xakekileyo)"
+
+#. there is no forwarding, so reject the call
+#: ../src/endpoint.cpp:866
+#, c-format
+msgid "Rejecting call from %s (Busy)"
+msgstr "Ukwala unxulumano lwefowuni oluvela %s (Xakekileyo)"
+
+#: ../src/endpoint.cpp:875
+#, c-format
+msgid "Accepting call from %s (Auto Answer)"
+msgstr "Ukwamkela unxulumano lwefowuni oluvela %s (Iyaziphendulela)"
+
+#: ../src/endpoint.cpp:900
+msgid "Call rejected"
+msgstr "Unxulumano lwefowuni lwaliwe"
+
+#: ../src/endpoint.cpp:909 ../src/endpoint.cpp:1313 ../src/endpoint.cpp:2260
+msgid "Call forwarded"
+msgstr "Unxulumano lugqithisiwe"
+
+#: ../src/endpoint.cpp:921
+msgid "Call automatically answered"
+msgstr "Unxulumano lwefowuni luziphendulele"
+
+#: ../src/endpoint.cpp:1001
+#, c-format
+msgid "Forwarding call to %s"
+msgstr "Ukugqithisa unxulumano lwefowuni lusiya %s"
+
+#: ../src/endpoint.cpp:1012
+#, c-format
+msgid "Error while forwarding call to %s"
+msgstr "Impazamo logama ugqithisa unxulumano lwefowuni lusiya %s"
+
+#: ../src/endpoint.cpp:1015
+msgid "There was an error when forwarding the call to the given host."
+msgstr ""
+"Kubekho impazamo xa kugqithiswa unxulumano lwefowuni lusiya kumququzeleli "
+"onikiweyo."
+
+#: ../src/endpoint.cpp:1104
+msgid "Connected"
+msgstr "Unxulumene"
+
+#: ../src/endpoint.cpp:1106
+#, c-format
+msgid "Connected with %s using %s"
+msgstr "Unxulumene nge %s usebenzisa %s"
+
+#: ../src/endpoint.cpp:1277
+msgid "Local user cleared the call"
+msgstr "Umsebenzisi ongaphakathi ulucimile unxulumano lwefowuni"
+
+#: ../src/endpoint.cpp:1280
+msgid "Remote user cleared the call"
+msgstr "Umsebenzisi okwenye indawo ulucimile unxulumano lwefowuni"
+
+#: ../src/endpoint.cpp:1283
+msgid "Remote user did not accept the call"
+msgstr "Umsebenzisi okwenye indawo akalwamnkelanga unxulumano lwefowuni"
+
+#: ../src/endpoint.cpp:1286 ../src/endpoint.cpp:1289
+msgid "Local user did not accept the call"
+msgstr "Umsebenzisi ongaphakathi akalwamnkelanga unxulumano lwefowuni"
+
+#: ../src/endpoint.cpp:1292
+msgid "The Gatekeeper cleared the call"
+msgstr "Umgcini-sango ulucimile unxulumano lwefowuni"
+
+#: ../src/endpoint.cpp:1295
+msgid "Call not answered in the required time"
+msgstr "Unxulumano lwefowuni aluphendulwanga ngexesha elifunekayo"
+
+#: ../src/endpoint.cpp:1298
+msgid "Remote user has stopped calling"
+msgstr "Umsebenzisi okwenye indawo uyeke unxulumano lwefowuni"
+
+#: ../src/endpoint.cpp:1301
+msgid "Abnormal call termination"
+msgstr "Urhoxiso lonxulumano lwefowuni olungaqhelekanga"
+
+#: ../src/endpoint.cpp:1304
+msgid "Could not connect to remote host"
+msgstr "Alukwazanga kunxibelelana nomququzeleli okwenye indawo"
+
+#: ../src/endpoint.cpp:1307
+msgid "Insufficient bandwidth"
+msgstr "Amaza omoya angonelanga"
+
+#: ../src/endpoint.cpp:1310
+msgid "No common codec"
+msgstr "Ayikho i-codec eqhelekileyo"
+
+#: ../src/endpoint.cpp:1316
+msgid "Security check failed"
+msgstr "Uvavanyo lokhuselo aluphumelelanga"
+
+#: ../src/endpoint.cpp:1319
+msgid "Local user is busy"
+msgstr "Umsebenzisi ongaphakathi uxakekile"
+
+#: ../src/endpoint.cpp:1322
+msgid "Remote user is busy"
+msgstr "Usebenzisi okwenye indawo uxakekile"
+
+#: ../src/endpoint.cpp:1325 ../src/endpoint.cpp:1328
+msgid "Congested link to remote party"
+msgstr "Uqhagamshelwano oluya kumntu okwenye indawo luxinene"
+
+#: ../src/endpoint.cpp:1331 ../src/endpoint.cpp:1334
+msgid "Remote user is unreachable"
+msgstr "Umsebenzisi okwenye indawo akafumaneki"
+
+#: ../src/endpoint.cpp:1337
+msgid "Remote host is offline"
+msgstr "Akukho lunxibelelwano nomququzeleli okwenye indawo"
+
+#: ../src/endpoint.cpp:1340
+msgid "Temporary failure"
+msgstr "Ukungaphumeleli okwethutyana"
+
+#: ../src/endpoint.cpp:1343 ../src/urlhandler.cpp:466
+#: ../src/urlhandler.cpp:471
+msgid "User not found"
+msgstr "Umsebenzisi akafumanekanga"
+
+#: ../src/endpoint.cpp:1347
+msgid "Call completed"
+msgstr "Unxulumano lugqityiwe"
+
+#: ../src/endpoint.cpp:1370
+#, c-format
+msgid "Missed %d call"
+msgid_plural "Missed %d calls"
+msgstr[0] "Unxulumano %d oluphosiweyo"
+msgstr[1] "Unxulumano %d oluphosiweyo"
+
+#: ../src/endpoint.cpp:1670
+msgid "Error while starting the listener"
+msgstr "Impazamo logama kuqala ummameli"
+
+#: ../src/endpoint.cpp:1670
+msgid ""
+"You will not be able to receive incoming calls. Please check that no other "
+"program is already running on the port used by GnomeMeeting."
+msgstr ""
+"Awuyi kukwazi ukufumana unxulumano olungenayo. Nceda qinisekisa ukuba akukho "
+"enye inkqubo esele iqhuba kusini na kwindawo yonxulumano esetyenziswa yi-"
+"GnomeMeeting."
+
+#: ../src/endpoint.cpp:1821
+msgid "Attaching lid hardware to codec"
+msgstr "Ukuncamathisela isiciko se-hardware kwi-codec"
+
+#: ../src/endpoint.cpp:1855
+#, c-format
+msgid "Opened %s for recording with plugin %s"
+msgstr "Kuvulwe %s kulungiselelwa ushicilelo ngokungenisa %s"
+
+#: ../src/endpoint.cpp:1856
+#, c-format
+msgid "Opened %s for playing with plugin %s"
+msgstr "Kuvulwe %s kulungiselelwa ukudlala ngokungenisa %s"
+
+#: ../src/endpoint.cpp:1892
+msgid "Could not open audio channel for audio transmission"
+msgstr ""
+"Akukwazekanga ukuvula isiqhagamshelanisi sesandi ulungiselela usasazo-sandi"
+
+#: ../src/endpoint.cpp:1892
+msgid ""
+"An error occured while trying to record from the soundcard for the audio "
+"transmission. Please check that your soundcard is not busy and that your "
+"driver supports full-duplex.\n"
+"The audio transmission has been disabled."
+msgstr ""
+"Impazamo yenzeke lo gama uzama ukushicilela usuka kwikhadi lesandi "
+"ulungiselela usasazo lwesandi. Nceda ukhangele ukuba ikhadi lakho lesandi "
+"alixakekanga ngokunjalo ne-driver yakho ixhasa i-full-duplex.\n"
+"Usasazo olunesandi lwenziwe alwasebenza."
+
+#: ../src/endpoint.cpp:1897
+msgid "Could not open audio channel for audio reception"
+msgstr ""
+"Akukwazekanga ukuvula isiqhagamshelanisi sesandi ukulungiselela ulwamnkelo-"
+"sandi"
+
+#: ../src/endpoint.cpp:1897
+msgid ""
+"An error occured while trying to play audio to the soundcard for the audio "
+"reception. Please check that your soundcard is not busy and that your driver "
+"supports full-duplex.\n"
+"The audio reception has been disabled."
+msgstr ""
+"Impazamo yenzeke lo gama uzama ukudlala isandi kwikhadi lesandi "
+"ukulungiselela ulwamnkelo sandi. Nceda qinisekisa ukuba ikhadi lakho le "
+"sandi alixakekanga ngokunjalo ne-driver yakho iyayixhasa i-full-duplex.\n"
+"Ulwamkelo olunesandi lwenziwe alwasebenza."
+
+#: ../src/endpoint.cpp:2087
+#, c-format
+msgid "%.2ld:%.2ld:%.2ld  A:%.2f/%.2f   V:%.2f/%.2f"
+msgstr "%.2ld:%.2ld:%.2ld  A:%.2f/%.2f   V:%.2f/%.2f"
+
+#: ../src/endpoint.cpp:2257
+#, c-format
+msgid "Forwarding Call to %s (No Answer)"
+msgstr "Ukudlulisela Unxulumano Lomnxeba ku %s (Akukho Mpendulo)"
+
+#: ../src/gatekeeper.cpp:132
+#, c-format
+msgid "Unregistered from gatekeeper %s"
+msgstr "Ayibhaliswanga ukusuka kumgcini-sango %s"
+
+#: ../src/gatekeeper.cpp:148
+msgid "Invalid gatekeeper hostname"
+msgstr "Igama lomququzeleli okumgcini-sango elingasebenziyo"
+
+#: ../src/gatekeeper.cpp:148
+msgid "Please provide a hostname to use for the gatekeeper."
+msgstr ""
+"Nceda nikezela nge gama lomququzeleli ukulisebenzisa xa ulungiselela umgcini-"
+"sango."
+
+#: ../src/gatekeeper.cpp:156
+msgid "Invalid gatekeeper ID"
+msgstr "i-ID yomgcini-sango engasebenziyo"
+
+#: ../src/gatekeeper.cpp:156
+msgid "Please provide a valid ID for the gatekeeper."
+msgstr "Nceda unikezele nge-ID yomgcini-sango efanelekileyo."
+
+#: ../src/gatekeeper.cpp:199
+msgid "Gatekeeper registration failed: duplicate alias"
+msgstr "Ubhaliso lomgcin-isango aluphumelelanga: phinda isiteketiso"
+
+#: ../src/gatekeeper.cpp:203
+msgid "Gatekeeper registration failed: bad login/password"
+msgstr ""
+"Ubhaliso lomgcini-sango aluphumelelanga: ungeniso/password olungalunganga"
+
+#: ../src/gatekeeper.cpp:206
+msgid "Gatekeeper registration failed: transport error"
+msgstr "Ubhaliso lomgcini-sango aluphumelelanga: hambisa impazamo"
+
+#: ../src/gatekeeper.cpp:209 ../src/gatekeeper.cpp:214
+msgid "Gatekeeper registration failed"
+msgstr "Ubhaliso lomgcini-sango aluphumelelanga"
+
+#: ../src/gatekeeper.cpp:229
+#, c-format
+msgid "Gatekeeper set to %s"
+msgstr "Umiselwe uku %s lomgcini-sango"
+
+#: ../src/gnomemeeting.cpp:89
+msgid "Notification area not detected"
+msgstr "Indawo yokwazisa ayifumanekanga"
+
+#: ../src/gnomemeeting.cpp:89
+msgid ""
+"You have chosen to start GnomeMeeting hidden, however the notification area "
+"is not present in your panel, GnomeMeeting can thus not start hidden."
+msgstr ""
+"Ukhethe ukuqala nge-GnomeMeeting ifihliwe, kodwa indawo yokwazisa ayikho "
+"kwindawo yolawulo. I-GnomeMeeting ingangaqali ifihliwe."
+
+#: ../src/gnomemeeting.cpp:154
+msgid "Answering incoming call"
+msgstr "Ukuphendula unxulumano lwefowuni olungenayo"
+
+#: ../src/gnomemeeting.cpp:176
+msgid "Trying to stop calling"
+msgstr "Ukuzama ukuyeka ukunxulumana ngefowuni"
+
+#: ../src/gnomemeeting.cpp:185
+msgid "Stopping current call"
+msgstr "Ukuyeka unxulumano lwefowuni lwangoku"
+
+#: ../src/gnomemeeting.cpp:191
+msgid "Refusing Incoming call"
+msgstr "Ukwala unxulumano lwefowuni olungenayo"
+
+#. Init the address book
+#: ../src/gnomemeeting.cpp:424
+msgid "On This Computer"
+msgstr "Kule Khompyutha"
+
+#: ../src/gnomemeeting.cpp:424
+msgid "Personal"
+msgstr "Yam"
+
+#: ../src/gnomemeeting.cpp:482
+#, c-format
+msgid "Started GnomeMeeting %d.%d.%d for user %s"
+msgstr "Uqalise i-GnomeMeeting %d.%d.%d yomsebenzisi %s"
+
+#: ../src/ils.cpp:101
+msgid "Invalid parameters"
+msgstr "Ixabiso lento ejikajikayo elingafanekanga"
+
+#: ../src/ils.cpp:101
+msgid ""
+"Please provide your first name and e-mail in the Personal Data section in "
+"order to be able to register to the users directory."
+msgstr ""
+"Nceda nikezela ngegama lakho lokuqala ne-imeyili kwicandelo lwe-Inkcukaca "
+"Zam kuze ukwazi ukubhalisa kuvimba weefayili zabasebenzi."
+
+#: ../src/ils.cpp:140
+msgid "Invalid users directory"
+msgstr "Uvimba weefayili zabasebenzisi ongafanelekanga"
+
+#: ../src/ils.cpp:140
+msgid "Operation impossible since there is no users directory specified."
+msgstr "Ayinakusebenza kuba akukho vimba weefayili zabasebenzisi uchaziweyo."
+
+#: ../src/ils.cpp:226
+msgid "Failed to parse XML file"
+msgstr "Yohlulekile ukwahlula ngezijungqe ifayili ye-XML"
+
+#: ../src/ils.cpp:226
+msgid ""
+"There was an error while parsing the XML file. Please make sure that it is "
+"correctly installed in your system."
+msgstr ""
+"Kubekho impazamo lo gama usohlula ngezijungqe ifayili ye-XML. Nceda "
+"qinisekisa ukuba ifakwe ngendlela efanelekileyo kwinkqubo yakho."
+
+#: ../src/ils.cpp:237
+msgid "Bad information"
+msgstr "Inkcazelo embi"
+
+#: ../src/ils.cpp:237
+#, c-format
+msgid "Bad LDAP information from XML file: %s."
+msgstr "Inkcazelo embi ye-LDAP esuka kwifayile ye-XML %s."
+
+#: ../src/ils.cpp:245
+#, c-format
+msgid "ILS registration failed: unable to connect to %s"
+msgstr "Aluphumelelanga ubhaliso lwe-ILS: alukwazanga ukunxibelelana kwi %s"
+
+#: ../src/ils.cpp:258
+msgid "ILS registration failed: unable to set time limit on operations"
+msgstr ""
+"Aluphumelelanga ubhaliso lwe-ILS: akukwazeki ukumisela umda wexesha "
+"kwimisebenzi"
+
+#: ../src/ils.cpp:270
+#, c-format
+msgid "ILS registration failed: failed to bind to %s"
+msgstr "Aluphumelelanga ubhaliso lwe-ILS: alukwazanga ukudibanisa kwi %s"
+
+#: ../src/ils.cpp:298
+#, c-format
+msgid "Updated information on %s"
+msgstr "Inkcazelo ehlaziyiweyo kwi %s"
+
+#: ../src/ils.cpp:302
+#, c-format
+msgid "Unregistered from %s"
+msgstr "Ayibhaliswanga kwi %s"
+
+#: ../src/lid.cpp:114
+#, c-format
+msgid "Opened Quicknet device %s"
+msgstr "Kuvulwe isixhobo sika-Quicknet %s"
+
+#: ../src/lid.cpp:135
+msgid "Error while opening the Quicknet device."
+msgstr "Impazamo lo gama kuvulwa isixhobo sika-Quicknet."
+
+#: ../src/lid.cpp:135
+msgid ""
+"Please check that your driver is correctly installed and that the device is "
+"working correctly."
+msgstr ""
+"Nceda qinisekisa ukuba i-driver yakho ifakwe kakuhle yaye nesixhobo sakho "
+"sisebenza kakuhle."
+
+#: ../src/lid.cpp:162
+#, c-format
+msgid "Closed Quicknet device %s"
+msgstr "Isixhobo esivaliweyo se-Quicknet %s"
+
+#: ../src/lid.cpp:253 ../src/lid.cpp:254
+msgid "Phone is off hook"
+msgstr "Umnxeba ukhutshiwe"
+
+#: ../src/lid.cpp:292 ../src/lid.cpp:293
+msgid "Phone is on hook"
+msgstr "Umnxeba ufakiwe"
+
+#: ../src/log_window.cpp:121 ../src/main_window.cpp:1159
+msgid "General History"
+msgstr "Imbali Jikelele"
+
+#: ../src/main_window.cpp:704
+msgid ""
+"Enter an URL to call on the left, and click on this button to connect to the "
+"given URL"
+msgstr ""
+"Faka i-URL ukunxulumana ekhohlo, ze ucofe iqhosha ukunxibelelana ne-URL "
+"enikiweyo"
+
+#: ../src/main_window.cpp:756
+msgid "Open text chat"
+msgstr "Vula incoko yombhalo"
+
+#: ../src/main_window.cpp:780
+msgid "Open control panel"
+msgstr "Vula indawo yolawulo"
+
+#: ../src/main_window.cpp:799
+msgid "Open address book"
+msgstr "Vula incwadi yedilesi"
+
+#: ../src/main_window.cpp:820
+msgid "Display images from your camera device"
+msgstr "Bonisa imifanekiso yakho ekwisixhobo sekhamera esikrinini"
+
+#: ../src/main_window.cpp:846
+msgid ""
+"Audio transmission status. During a call, click here to suspend or resume "
+"the audio transmission."
+msgstr ""
+"Ubume bosasazo olunesandi. Ngethuba lonxibelelwano, cofa apha ukunqumamisa "
+"okanye phinda uqalise ngobume bosasazo olunesandi."
+
+#: ../src/main_window.cpp:869
+msgid ""
+"Video transmission status. During a call, click here to suspend or resume "
+"the video transmission."
+msgstr ""
+"Ubume bosasazo lwevidiyo. Ngethuba lonxibelelwano, cofa apha ukunqumamisa "
+"okanye phinda uqalise ngosasazo lwevidiyo."
+
+#: ../src/main_window.cpp:944
+msgid "C_all"
+msgstr "N_xulumana"
+
+#: ../src/main_window.cpp:946
+msgid "C_onnect"
+msgstr "N_xibelela"
+
+#: ../src/main_window.cpp:946 ../src/tray.cpp:258
+msgid "Create a new connection"
+msgstr "Dala uqhagamshelwano olutsha"
+
+#: ../src/main_window.cpp:949 ../src/tray.cpp:261
+msgid "_Disconnect"
+msgstr "Uku_khulula"
+
+#: ../src/main_window.cpp:950 ../src/tray.cpp:262
+msgid "Close the current connection"
+msgstr "Vala uqhagamshelwano oluqhubekayo ngoku"
+
+#: ../src/main_window.cpp:956 ../src/tray.cpp:268
+msgid "_Available"
+msgstr "Iya_fumaneka"
+
+#: ../src/main_window.cpp:957 ../src/tray.cpp:269
+msgid "Display a popup to accept the call"
+msgstr "Veza ifestile xa ufuna ukwamkela unxulumano"
+
+#: ../src/main_window.cpp:962 ../src/tray.cpp:274
+msgid "Aut_o Answer"
+msgstr "Iyazi_phendulela"
+
+#: ../src/main_window.cpp:963 ../src/tray.cpp:275
+msgid "Auto answer calls"
+msgstr "Unxulumano oluziphendulelayo"
+
+#: ../src/main_window.cpp:968 ../src/tray.cpp:280
+msgid "_Do Not Disturb"
+msgstr "_Sukuphazamisa"
+
+#: ../src/main_window.cpp:969 ../src/tray.cpp:281
+msgid "Reject calls"
+msgstr "Yala unxulumano"
+
+#: ../src/main_window.cpp:974 ../src/tray.cpp:286
+msgid "_Forward"
+msgstr "_Gqithisa"
+
+#: ../src/main_window.cpp:974 ../src/tray.cpp:286
+msgid "Forward calls"
+msgstr "Gqithisa unxulumano"
+
+#: ../src/main_window.cpp:982
+msgid "Speed dials"
+msgstr "Unxibelelwano olukhawulezayo"
+
+#: ../src/main_window.cpp:986 ../src/main_window.cpp:2889
+msgid "_Hold Call"
+msgstr "_Bamba unxulumano"
+
+#: ../src/main_window.cpp:986
+msgid "Hold the current call"
+msgstr "Lindisa olunxibelelwano oluqhubekayo"
+
+#: ../src/main_window.cpp:990
+msgid "_Transfer Call"
+msgstr "_Dlulisa unxulumano"
+
+#: ../src/main_window.cpp:991
+msgid "Transfer the current call"
+msgstr "Dlulisa unxibelelwano oluqhubekayo"
+
+#: ../src/main_window.cpp:998 ../src/main_window.cpp:2923
+msgid "Suspend _Audio"
+msgstr "Nqumamisa I_sandi"
+
+#: ../src/main_window.cpp:999
+msgid "Suspend or resume the audio transmission"
+msgstr "Nqumamisa okanye phinde uqalise usasazo olunesandi"
+
+#: ../src/main_window.cpp:1003 ../src/main_window.cpp:2925
+msgid "Suspend _Video"
+msgstr "Nqumamisa I_vidiyo"
+
+#: ../src/main_window.cpp:1004
+msgid "Suspend or resume the video transmission"
+msgstr "Nqumamisa okanye uqalise ngosasazo lwevidiyo"
+
+#: ../src/main_window.cpp:1011
+msgid "_Save Current Picture"
+msgstr "_Gcina Umfanekiso Okhoyo"
+
+#: ../src/main_window.cpp:1012
+msgid "Save a snapshot of the current video"
+msgstr "Gcina indlela yokuthatha umfanekiso yevidiyo eqhubekayo"
+
+#: ../src/main_window.cpp:1018
+msgid "Close the GnomeMeeting window"
+msgstr "Vala ifestile ye-GnomeMeeting"
+
+#: ../src/main_window.cpp:1025 ../src/tray.cpp:342
+msgid "_Quit"
+msgstr "_Phuma"
+
+#: ../src/main_window.cpp:1025 ../src/tray.cpp:343
+msgid "Quit GnomeMeeting"
+msgstr "Phuma kwi-GnomeMeeting"
+
+#: ../src/main_window.cpp:1029
+msgid "_Edit"
+msgstr "_Hlela"
+
+#: ../src/main_window.cpp:1031
+msgid "Configuration Druid"
+msgstr "Ukumiselwa kwenkqubo ye-Druid"
+
+#: ../src/main_window.cpp:1032
+msgid "Run the configuration druid"
+msgstr "Qhuba inkqubo yokumiselwa kwe-Druid"
+
+#: ../src/main_window.cpp:1039 ../src/tray.cpp:310
+msgid "_Preferences"
+msgstr "Uluhlu Lwezinto _Ezikhethwayo"
+
+#: ../src/main_window.cpp:1040 ../src/tray.cpp:311
+msgid "Change your preferences"
+msgstr "Guqula uluhlu lwezinto zakho ozikhethileyo"
+
+#: ../src/main_window.cpp:1045
+msgid "_View"
+msgstr "_Okubonakalayo"
+
+#: ../src/main_window.cpp:1047 ../src/pref_window.cpp:714
+msgid "Text Chat"
+msgstr "Incoko Yombhalo"
+
+#: ../src/main_window.cpp:1048
+msgid "View/Hide the text chat window"
+msgstr "Bonisa/Fihla ifestile yencoko yombhalo"
+
+#: ../src/main_window.cpp:1054
+msgid "Control Panel"
+msgstr "Indawo Yolawulo"
+
+#: ../src/main_window.cpp:1056 ../src/main_window.cpp:1260
+msgid "Statistics"
+msgstr "Iinkcukacha-manani"
+
+#: ../src/main_window.cpp:1057
+msgid "View audio/video transmission and reception statistics"
+msgstr "Veza usasazo lwe sandi/vidiyo nolwamnkelo lwenkcukacha manani"
+
+#: ../src/main_window.cpp:1062
+msgid "_Dialpad"
+msgstr "I-_Dialpad"
+
+#: ../src/main_window.cpp:1062
+msgid "View the dialpad"
+msgstr "Veza unxulumano lwekompyutha"
+
+#: ../src/main_window.cpp:1067
+msgid "_Audio Settings"
+msgstr "Imimiselo Ye_sandi"
+
+#: ../src/main_window.cpp:1068
+msgid "View audio settings"
+msgstr "Bona imimiselo yesandi"
+
+#: ../src/main_window.cpp:1073
+msgid "_Video Settings"
+msgstr "Imimiselo Ye_vidiyo"
+
+#: ../src/main_window.cpp:1074
+msgid "View video settings"
+msgstr "Bona imimiselo yevidiyo"
+
+#: ../src/main_window.cpp:1079 ../src/pref_window.cpp:1077
+msgid "Off"
+msgstr "Cinyiwe"
+
+#: ../src/main_window.cpp:1079
+msgid "Hide the control panel"
+msgstr "Fihla indawo yolawulo"
+
+#: ../src/main_window.cpp:1087
+msgid "_Clear Text Chat"
+msgstr "_Cima incoko yombhalo"
+
+#: ../src/main_window.cpp:1088
+msgid "Clear the text chat"
+msgstr "Cima incoko yembalelwano"
+
+#: ../src/main_window.cpp:1095 ../src/main_window.cpp:3861
+msgid "Local Video"
+msgstr "Ividiyo Yangaphakathi"
+
+#: ../src/main_window.cpp:1096
+msgid "Local video image"
+msgstr "Umfanekiso wevidiyo yangaphakathi"
+
+#: ../src/main_window.cpp:1101 ../src/main_window.cpp:3867
+msgid "Remote Video"
+msgstr "Ividiyo Ekwenye Indawo"
+
+#: ../src/main_window.cpp:1102
+msgid "Remote video image"
+msgstr "Umfanekiso wevidiyo engaphandle"
+
+#: ../src/main_window.cpp:1107
+msgid "Both (Picture-in-Picture)"
+msgstr "Zombini (Umfanekiso-ku-mfanekiso)"
+
+#: ../src/main_window.cpp:1108 ../src/main_window.cpp:1114
+#: ../src/main_window.cpp:1121
+msgid "Both video images"
+msgstr "Yomibini imifanekiso yevidiyo"
+
+#: ../src/main_window.cpp:1113
+msgid "Both (Side-by-Side)"
+msgstr "Yomibini (Icala Ngalinye)"
+
+#: ../src/main_window.cpp:1120
+msgid "Both (Both in New Windows)"
+msgstr "Yomibini (Yomibini Kwifestile Ezintsha)"
+
+#: ../src/main_window.cpp:1129 ../src/main_window.cpp:1635
+#: ../src/main_window.cpp:1660
+msgid "Zoom In"
+msgstr "Yandisela Ngaphakathi"
+
+#: ../src/main_window.cpp:1129 ../src/main_window.cpp:1635
+#: ../src/main_window.cpp:1660
+msgid "Zoom in"
+msgstr "Yandisela ngaphakathi"
+
+#: ../src/main_window.cpp:1133 ../src/main_window.cpp:1639
+#: ../src/main_window.cpp:1664
+msgid "Zoom Out"
+msgstr "Yandisela Ngaphandle"
+
+#: ../src/main_window.cpp:1133 ../src/main_window.cpp:1639
+#: ../src/main_window.cpp:1664
+msgid "Zoom out"
+msgstr "Yandisela ngaphandle"
+
+#: ../src/main_window.cpp:1137 ../src/main_window.cpp:1643
+#: ../src/main_window.cpp:1668
+msgid "Normal Size"
+msgstr "Ubungakanani Obuqhelekileyo"
+
+#: ../src/main_window.cpp:1137 ../src/main_window.cpp:1643
+#: ../src/main_window.cpp:1668
+msgid "Normal size"
+msgstr "Ubungakanani obuqhelekileyo"
+
+#: ../src/main_window.cpp:1143 ../src/main_window.cpp:1649
+#: ../src/main_window.cpp:1674
+msgid "Fullscreen"
+msgstr "Isikrini esipheleleyo"
+
+#: ../src/main_window.cpp:1149
+msgid "_Tools"
+msgstr "Izi_xhobo"
+
+#: ../src/main_window.cpp:1151 ../src/tray.cpp:294
+msgid "Address _Book"
+msgstr "I_ncwadi Yedilesi"
+
+#: ../src/main_window.cpp:1152 ../src/tray.cpp:295
+msgid "Open the address book"
+msgstr "Vula incwadi yedilesi"
+
+#: ../src/main_window.cpp:1160
+msgid "View the operations history"
+msgstr "Bona imbali yemisebenzi"
+
+#: ../src/main_window.cpp:1165 ../src/tray.cpp:303
+msgid "View the calls history"
+msgstr "Bona imbali yonxulumano"
+
+#: ../src/main_window.cpp:1172
+msgid "PC-To-Phone Account"
+msgstr "I-Akhawunti ye-PC-To-Phone"
+
+#: ../src/main_window.cpp:1173
+msgid "Manage your PC-To-Phone account"
+msgstr "Lawula i-akhawunti yakho ye-PC-To-Phone"
+
+#: ../src/main_window.cpp:1178
+msgid "_Help"
+msgstr "_Uncedo"
+
+#: ../src/main_window.cpp:1181 ../src/main_window.cpp:1192 ../src/tray.cpp:319
+#: ../src/tray.cpp:330
+msgid "_Contents"
+msgstr "Oku_qulathiweyo"
+
+#: ../src/main_window.cpp:1182 ../src/main_window.cpp:1193 ../src/tray.cpp:320
+#: ../src/tray.cpp:331
+msgid "Get help by reading the GnomeMeeting manual"
+msgstr "Fumana uncedo ngokufunda incwadi yesikhokelo ye-GnomeMeeting"
+
+#: ../src/main_window.cpp:1186 ../src/main_window.cpp:1197 ../src/tray.cpp:324
+#: ../src/tray.cpp:335
+msgid "_About"
+msgstr "_Malunga"
+
+#: ../src/main_window.cpp:1187 ../src/main_window.cpp:1198 ../src/tray.cpp:325
+#: ../src/tray.cpp:336
+msgid "View information about GnomeMeeting"
+msgstr "Bona intsingiselo nge GnomeMeeting"
+
+#: ../src/main_window.cpp:1255 ../src/main_window.cpp:4051
+msgid ""
+"Lost packets:\n"
+"Late packets:\n"
+"Round-trip delay:\n"
+"Jitter buffer:"
+msgstr ""
+"I-packets ezilahlekileyo:\n"
+"I-packets ezifike kade:\n"
+"Ulibaziseko lohambo olujikelezayo:\n"
+"Isigcini sethutyana isiphaku-phaku:"
+
+#: ../src/main_window.cpp:1324
+msgid "Dialpad"
+msgstr "I-Dialpad"
+
+#: ../src/main_window.cpp:1380
+msgid "Adjust brightness"
+msgstr "Lungelelanisa ukukhanya"
+
+#: ../src/main_window.cpp:1403
+msgid "Adjust whiteness"
+msgstr "Lungelelanisa ukukhanya"
+
+#: ../src/main_window.cpp:1426
+msgid "Adjust color"
+msgstr "Lungelelanisa umbala"
+
+#: ../src/main_window.cpp:1449
+msgid "Adjust contrast"
+msgstr "Lungelelanisa uthelekiso lwemibala"
+
+#: ../src/main_window.cpp:1458
+msgid "Video"
+msgstr "Ividiyo"
+
+#: ../src/main_window.cpp:1536
+msgid "Audio"
+msgstr "Enesandi"
+
+#: ../src/main_window.cpp:2085
+#, c-format
+msgid "Sent DTMF %s"
+msgstr "I-DTMF ethunyelweyo %s"
+
+#: ../src/main_window.cpp:2873
+msgid "_Retrieve Call"
+msgstr "_Fumana Kwakhona Unxulumano"
+
+#: ../src/main_window.cpp:2927
+msgid "Resume _Audio"
+msgstr "Phinda uqalise i_Sandi"
+
+#: ../src/main_window.cpp:2929
+msgid "Resume _Video"
+msgstr "Phinda uqalise i_Vidiyo"
+
+#: ../src/main_window.cpp:3545
+msgid "Transfer call to:"
+msgstr "Dlulisa unxulumano lwefowuni ku:"
+
+#: ../src/main_window.cpp:3546 ../src/main_window.cpp:3619
+msgid "Transfer"
+msgstr "Dlulisa"
+
+#: ../src/main_window.cpp:3617
+msgid "Reject"
+msgstr "Yala"
+
+#: ../src/main_window.cpp:3621
+msgid "Accept"
+msgstr "Yamnkela"
+
+#: ../src/main_window.cpp:3629
+msgid "Incoming call from"
+msgstr "Unxulumano lwefowuni olungenayo oluvela"
+
+#: ../src/main_window.cpp:3642
+msgid "Remote URL:"
+msgstr "I-URL ekwenye indawo:"
+
+#: ../src/main_window.cpp:3654
+msgid "Remote Application:"
+msgstr "Inkqubo ekwenye indawo:"
+
+#: ../src/main_window.cpp:3981
+msgid "Click to clear"
+msgstr "Cofa ukuze ucime"
+
+#: ../src/main_window.cpp:4077
+#, c-format
+msgid ""
+"Lost packets: %.1f %%\n"
+"Late packets: %.1f %%\n"
+"Round-trip delay: %d ms\n"
+"Jitter buffer: %d ms"
+msgstr ""
+"I-packets ezilahlekileyo: %.1f %%\n"
+"I-packets ezihambe kade: %.1f %%\n"
+"Ukulibaziseka kohambo olujikelezayo: %d ms\n"
+"Isigcini sethutyana esiphakuzelayo: %d ms"
+
+#: ../src/main_window.cpp:4189
+msgid "Prints debug messages in the console (level between 1 and 6)"
+msgstr ""
+"Ishicilela imiyalezo engenasiphene kwi-console (inqanaba phakathi kwelo-1 "
+"nelesi-6)"
+
+#: ../src/main_window.cpp:4192
+msgid "Makes GnomeMeeting call the given URL"
+msgstr "Yenza i-GnomeMeeting inxulumane ne-URL enikiweyo"
+
+#: ../src/main_window.cpp:4227
+msgid "No usable audio plugin detected"
+msgstr "Akukho lungeniso-sandi lunokusetyenziswa lufunyenweyo"
+
+#: ../src/main_window.cpp:4227
+msgid ""
+"GnomeMeeting didn't find any usable audio plugin. Make sure that your "
+"installation is correct."
+msgstr ""
+"I-GnomeeMeeting ayifumananga nalunye ungeniso sandi olusebenzisekayo. "
+"Qinisekisa ukuba indlela ofaka ngayo isixhobo ifanelekile."
+
+#: ../src/main_window.cpp:4249
+#, c-format
+msgid ""
+"GnomeMeeting got an invalid value for the GConf key %s.\n"
+"\n"
+"It probably means that your GConf schemas have not been correctly installed "
+"or the that permissions are not correct.\n"
+"\n"
+"Please check the FAQ (http://www.gnomemeeting.org/faq.php), the "
+"throubleshoot section of the GConf site (http://www.gnome.org/projects/"
+"gconf/) or the mailing list archives for more information (http://mail.gnome."
+"org) about this problem."
+msgstr ""
+"I-GnomeMeeting ifumenee ixabiso elingalunganga leqhosha le-GConf %s.\n"
+"\n"
+"Inokuba ithetha ukuba iinkcazelo zakho ze-GConf azifakwanga kakuhle okanye "
+"iimvume azilunganga.\n"
+"\n"
+"Nceda qwalasela i-FAQ (http://www.gnomemeeting.org/faq.php), icandelo "
+"lesisombululo sengxaki yesiza se-GConf (http://www.gnome.org/projects/"
+"gconf/) okanye uye kuvimba woluhlu lokuthumela ukufumana inkcazelo ethe "
+"vetshe (http://mail.gnome.org) ngale ngxaki."
+
+#: ../src/main_window.cpp:4252
+msgid "Gconf key error"
+msgstr "Iimpazamo yeqhosha ye-Gconf"
+
+#: ../src/misc.cpp:113
+msgid "Generic error"
+msgstr "Impazamo eqhelekileyo"
+
+#: ../src/pref_window.cpp:495 ../src/pref_window.cpp:853
+msgid "A"
+msgstr "A"
+
+#: ../src/pref_window.cpp:520
+msgid "Bandwidth"
+msgstr "Uthungelwano lwekhompyutha"
+
+#: ../src/pref_window.cpp:642
+msgid "Personal Information"
+msgstr "Iinkcukacha Ngam"
+
+#: ../src/pref_window.cpp:647
+msgid "_First name:"
+msgstr "Igama _Lokuqala:"
+
+#: ../src/pref_window.cpp:654
+msgid "Sur_name:"
+msgstr "I_fani:"
+
+#: ../src/pref_window.cpp:656
+msgid "Enter your surname"
+msgstr "Faka ifani yakho"
+
+#: ../src/pref_window.cpp:661
+msgid "E-_mail address:"
+msgstr "Idilesi ye-i_meyile:"
+
+#: ../src/pref_window.cpp:668
+msgid "_Comment:"
+msgstr "Yenza _izwi:"
+
+#: ../src/pref_window.cpp:670
+msgid "Enter a comment about yourself"
+msgstr "Faka inkcazelo ngawe"
+
+#: ../src/pref_window.cpp:675
+msgid "_Location:"
+msgstr "I_ndawo:"
+
+#: ../src/pref_window.cpp:677
+msgid "Enter your country or city"
+msgstr "Faka ilizwe lakho okanye isixeko"
+
+#. Add the update button
+#: ../src/pref_window.cpp:683 ../src/pref_window.cpp:1012
+#: ../src/pref_window.cpp:1061
+msgid "_Apply"
+msgstr "_Misela"
+
+#: ../src/pref_window.cpp:683
+msgid ""
+"Click here to update the users directory you are registered to with the new "
+"First Name, Last Name, E-Mail, Comment and Location or to update your alias "
+"on the Gatekeeper"
+msgstr ""
+"Cofa apha ukuhlaziya uvimba weefayili zabasebenzisi ababhaliswe kubo Ngegama "
+"Lokuqala, Elokugqibela, I-imeyili, Yenza izwi neNdawo okanye ukuhlaziya "
+"elinye igama lakho kwi-Gatekeeper"
+
+#: ../src/pref_window.cpp:697
+msgid "GnomeMeeting GUI"
+msgstr "I-GnomeMeeting GUI"
+
+#: ../src/pref_window.cpp:699
+msgid "_Show splash screen"
+msgstr "_Bonisa isikrini esidanyazayo"
+
+#: ../src/pref_window.cpp:701
+msgid "Start _hidden"
+msgstr "Qala e_fihliweyo"
+
+#: ../src/pref_window.cpp:707
+msgid "Video Display"
+msgstr "Ukuboniswa kwevidiyo"
+
+#: ../src/pref_window.cpp:709
+msgid "Place windows displaying video _above other windows"
+msgstr "Beka iifestile ezibonisa ividiyo nga_phezulu kwezinye"
+
+#: ../src/pref_window.cpp:729
+msgid "Users Directory"
+msgstr "Abasebenzisi Bovimba weefayili"
+
+#. Add all the fields
+#: ../src/pref_window.cpp:733
+msgid "Users directory:"
+msgstr "Abasebenzisi bovimba weefayili:"
+
+#: ../src/pref_window.cpp:733
+msgid "The users directory server to register with"
+msgstr "Iseva yovimba weefayili zabasebenzisi omawubhalise nazo"
+
+#: ../src/pref_window.cpp:735
+msgid "Enable _registering"
+msgstr "Yenza ku_bhaliseke"
+
+#: ../src/pref_window.cpp:735
+msgid "If enabled, register with the selected users directory"
+msgstr ""
+"Ukuba yenziwe ukuba isebenze, bhalisa novimba weefayili zabasebenzisi "
+"abakhethiweyo"
+
+#: ../src/pref_window.cpp:737
+msgid "_Publish my details in the users directory when registering"
+msgstr ""
+"_Papasha iinkcukacha zam kuvimba weefayili zabasebenzisi lo gama ubhalisa"
+
+#: ../src/pref_window.cpp:737
+msgid ""
+"If enabled, your details are shown to people browsing the users directory. "
+"If disabled, you are not visible to users browsing the users directory, but "
+"they can still use the callto URL to call you."
+msgstr ""
+"Ukuba yenzelwe ukuba isebenze, iinkcukacha zakho ziboniswa kubantu "
+"abakhangela uvimba weefayili zabasebenzisi. Ukuba yenziwe ukuba ingasebenzi, "
+"awubonakali kubasebenzisi abakhangela uvimba weefayili zabasebenzisi, kodwa "
+"basengakwazi ukusebenzisa i-URL ye-callto ukunxulumana nawe."
+
+#: ../src/pref_window.cpp:750 ../src/pref_window.cpp:1931
+msgid "Call Forwarding"
+msgstr "Ukudlulisa Unxulumano"
+
+#: ../src/pref_window.cpp:755
+msgid "Forward calls to _host:"
+msgstr "Gqithisa unxulumano lefowuni kum_ququzeleli:"
+
+#: ../src/pref_window.cpp:760
+msgid "_Always forward calls to the given host"
+msgstr "_Soloko ugqithisa unxulumano kumququzeleli onikiweyo"
+
+#: ../src/pref_window.cpp:760
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field above"
+msgstr ""
+"Ukuba yenziwe ukuba isebenze, lonke unxulumano olungenayo luza kugqithiselwa "
+"kumququzeleli okhethwee kwindawo engasentla"
+
+#: ../src/pref_window.cpp:762
+msgid "Forward calls to the given host if _no answer"
+msgstr "Gqithisa unxulumano kumququzeleli onikiweyo ukuba _akukho mpendulo"
+
+#: ../src/pref_window.cpp:762
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field above if you do not answer the call"
+msgstr ""
+"Ukuba yenziwe ukuba isebenze, lonke unxulumano olungenayo luza kugqithiselwa "
+"kumququzeleli okhethwee kwindawo engasentla ukuba ngaba akuwuphenduli umnxeba"
+
+#: ../src/pref_window.cpp:764
+msgid "Forward calls to the given host if _busy"
+msgstr "Gqithisa unxulumano kumququzeleli onikiweyo ukuba u_xakekile"
+
+#: ../src/pref_window.cpp:764
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field above if you already are in a call or if you are in "
+"Do Not Disturb mode"
+msgstr ""
+"Ukuba yenziwe ukuba isebenze, lonke unxulumano olungenayo luza kugqithiselwa "
+"kumququzeleli okhethwe kwindawo engasentla ukuba ngaba sele usemnxebeni "
+"kanye ukwinkqubo ethintela ukuba ungaphazanyiswa"
+
+#: ../src/pref_window.cpp:776 ../src/pref_window.cpp:1912
+msgid "Call Options"
+msgstr "Ukhetho Lonxulumano"
+
+#. Add all the fields
+#: ../src/pref_window.cpp:780
+msgid "Automatically _clear calls after 30 seconds of inactivity"
+msgstr ""
+"M_alucimeke unxulumano lwefowuni ngokuzenzekela emva kwemizuzwana engama 30 "
+"ingasebenzi"
+
+#. Translators: the full sentence is Reject or forward
+#. unanswered incoming calls after X s (seconds)
+#: ../src/pref_window.cpp:784
+msgid "Reject or forward unanswered incoming calls after "
+msgstr ""
+"Yala okanye ugqithise unxulumano olungenayo olungaphendulwanga emva kwe "
+
+#: ../src/pref_window.cpp:784
+msgid "seconds"
+msgstr "imizuzwana"
+
+#: ../src/pref_window.cpp:816
+msgid "GnomeMeeting Sound Events"
+msgstr "Izandi ze-GnomeMeeting"
+
+#: ../src/pref_window.cpp:865 ../src/pref_window.cpp:874
+#: ../src/pref_window.cpp:883
+msgid "Event"
+msgstr "Isiganeko"
+
+#: ../src/pref_window.cpp:894
+msgid "Sound to play:"
+msgstr "Isandi sokudlalwa:"
+
+#: ../src/pref_window.cpp:907
+msgid "Play"
+msgstr "Dlala"
+
+#: ../src/pref_window.cpp:930
+msgid "Ring Output Device"
+msgstr "Isixhobo Esinesandi Esiphumayo"
+
+#: ../src/pref_window.cpp:936
+msgid "Ring Output device:"
+msgstr "Isixhobo Esinesandi Esiphumayo:"
+
+#: ../src/pref_window.cpp:936
+msgid "Select the audio output device to use for the ring sound event"
+msgstr ""
+"Khetha isixhobo esinesandi esiphumayo esizakusetyendiswa xa kukhala isandi"
+
+#: ../src/pref_window.cpp:947
+msgid "All"
+msgstr "Konke"
+
+#: ../src/pref_window.cpp:949
+msgid "rfc2833"
+msgstr "rfc2833"
+
+#: ../src/pref_window.cpp:950
+msgid "Signal"
+msgstr "Uphawu"
+
+#: ../src/pref_window.cpp:951
+msgid "String"
+msgstr "Uluhlu lwamagama"
+
+#: ../src/pref_window.cpp:958
+msgid "H.323 Version 2 Settings"
+msgstr "H.323 Uhlobo 2 Imimiselo"
+
+#. The toggles
+#: ../src/pref_window.cpp:961
+msgid "Enable H.245 _tunneling"
+msgstr "I-H.245 _tunneling yenziwe ukuba isebenze"
+
+#: ../src/pref_window.cpp:961
+msgid ""
+"This enables H.245 Tunneling mode. In H.245 Tunneling mode H.245 messages "
+"are encapsulated into the the H.225 channel (port 1720). This saves one TCP "
+"connection during calls. H.245 Tunneling was introduced in H.323v2 and "
+"Netmeeting does not support it. Using both Fast Start and H.245 Tunneling "
+"can crash some versions of Netmeeting."
+msgstr ""
+"Oku kwenza ukuba inkqubo i-H.245 Tunneling isebenze. Kwinkqubo i-H.245 "
+"Tunneling imiyalezo ye-H.245 efihliwe kwisiqhagamshelanisi se -H.225 (indawo "
+"yonxibelelwano 1720). Oku kugcina unxibelelwano olunye lwe TCP ngexesha "
+"lonxulumano. I-H.245 Tunneling yaveliswa kwi-H.323v2 yaye i-NetMeeting "
+"ayiyixhasi. Ukusebenzisa zombini inkqubo i-Fast Start neH.323 Tunneling "
+"kungazonakalisa ezinye intlobo ze-Netmeeting."
+
+#: ../src/pref_window.cpp:963
+msgid "Enable _early H.245"
+msgstr "i-H.245 yenziwe ukuba isebenze kwa_ngoko"
+
+#: ../src/pref_window.cpp:965
+msgid "Enable fast _start procedure"
+msgstr "Yenza isebenze inkqubo ye-fast _start"
+
+#: ../src/pref_window.cpp:965
+msgid ""
+"Connection will be established in Fast Start mode. Fast Start is a new way "
+"to start calls faster that was introduced in H.323v2. It is not supported by "
+"Netmeeting and using both Fast Start and H.245 Tunneling can crash some "
+"versions of Netmeeting."
+msgstr ""
+"Unxibelelwano luza kumiselwa kwinkqubo yekhompyutha i-Fast Start. i-Fast "
+"Start yindlela entsha yokuqala unxulumano neyaveliswa kwi-H.323v2. Ayixhaswa "
+"yi-Netmeeting yaye ukusebenzisa zombini i-Fast Start ne H.245 Tunneling "
+"kungonakalisa ezinye intlobo ze-Netmeeting."
+
+#: ../src/pref_window.cpp:971
+msgid "DTMF Sending"
+msgstr "Ukuthumela nge-DTMF"
+
+#: ../src/pref_window.cpp:973
+msgid "_Send DTMF as:"
+msgstr "_Thumela i-DTMF njenge:"
+
+#: ../src/pref_window.cpp:973
+msgid ""
+"This permits to set the mode for DTMFs sending. The values can be \"All\", "
+"\"None\", \"rfc2833\", \"Signal\" or \"String\" (default is \"All\"). "
+"Choosing other values than \"All\", \"String\" or \"rfc2833\" disables the "
+"Text Chat."
+msgstr ""
+"Oku kuvumela ukumiselwa kwenkqubo yokuthumela nge-DTMF. Amaxabiso angaba "
+"\"Onke\", \"Angabikho\", \"rfc2833\", \"Umqondiso\" okanye \"Uluhlu lwamagama"
+"\" (emiselweyo\"Onke\"). Ukukhetha amanye amaxabiso kunamanye \"Onke\", "
+"\"Uluhlu lwamagama\" okanye \"rfc2833\" yenza ingasebenzi Incoko Yombhalo."
+
+#: ../src/pref_window.cpp:984
+msgid "Do not register"
+msgstr "Sukubhalisa"
+
+#: ../src/pref_window.cpp:987
+msgid "Automatically discover"
+msgstr "Zifumanele ngokuzenzekelayo"
+
+#: ../src/pref_window.cpp:993
+msgid "Gatekeeper"
+msgstr "Umgcini-sango"
+
+#: ../src/pref_window.cpp:995
+msgid "Gatekeeper _ID:"
+msgstr "I-_ID yomgcini-sango:"
+
+#: ../src/pref_window.cpp:997
+msgid "Gatekeeper _host:"
+msgstr "Um_ququzeleli womgcini-sango:"
+
+#: ../src/pref_window.cpp:999
+msgid "Gatekeeper _alias:"
+msgstr "isi_teketiso somgcini-sango:"
+
+#: ../src/pref_window.cpp:1002
+msgid "Gatekeeper _password:"
+msgstr "i-_password yomgcini-sango:"
+
+#. Translators: the full sentence is Registration timeout of X minutes
+#: ../src/pref_window.cpp:1006
+msgid "Registration timeout of"
+msgstr "Ukuphela kwexesha lobhaliso kungaka"
+
+#: ../src/pref_window.cpp:1006
+msgid "minutes"
+msgstr "imizuzu"
+
+#: ../src/pref_window.cpp:1008
+msgid "Register this alias as the primary alias with the gatekeeper"
+msgstr "Bhalisa esisiteketiso njengesiteketiso esiphambili kumgcinisango"
+
+#: ../src/pref_window.cpp:1008
+msgid ""
+"Use this option to ensure the above alias is used as the primary alias when "
+"registering with a gatekeeper. This may be required if your gatekeeper can "
+"only perform authentication using the first alias in the list."
+msgstr ""
+"Sebenzisa le ndlela ukuqinisekisa isiteketiso esingasentla ukuba "
+"sisetyenziswe njengesiphambili xa kubhaliswa nomgcinisango. Oku kungafuneka "
+"kuphela ukuba umgcini-sango wakho angaqinisekisa esebenzisa isiteketiso "
+"sokuqala esikuluhlu."
+
+#: ../src/pref_window.cpp:1010
+msgid "Registering method:"
+msgstr "Indlela yokubhalisa:"
+
+#: ../src/pref_window.cpp:1012
+msgid "Click here to update your Gatekeeper settings"
+msgstr "Cofa apha ukuze uhlaziye imimiselo yomgcini-sango yakho"
+
+#: ../src/pref_window.cpp:1025
+msgid "Gateway/Proxy"
+msgstr "Isixhobo Sothungelwano/Ikhompyutha Esebenzisa Njengomqobo"
+
+#: ../src/pref_window.cpp:1027
+msgid "Gateway / Proxy host:"
+msgstr "Isixhobo Sothungelwano / Umququzeleli Osebenza Njengomqobo:"
+
+#: ../src/pref_window.cpp:1029
+msgid "Use gateway or proxy"
+msgstr ""
+"Sebenzisa isixhobo sothungelwano okanye ikhompyutha esebenzisa njengomqobo"
+
+#: ../src/pref_window.cpp:1043
+msgid "IP Translation"
+msgstr "Uguqulo lwe-IP"
+
+#: ../src/pref_window.cpp:1045
+msgid "Enable IP _translation"
+msgstr "Yenza u_guqulo lwe-IP lusebenze"
+
+#: ../src/pref_window.cpp:1045
+msgid ""
+"This enables IP translation. IP translation is useful if GnomeMeeting is "
+"running behind a NAT/PAT router. You have to put the public IP of the router "
+"in the field below. If you are registered to ils.seconix.com, GnomeMeeting "
+"will automatically fetch the public IP using the ILS service. If your router "
+"natively supports H.323, you can disable this."
+msgstr ""
+"Oku kwenza ukuba kuguquleke i-IP. Uguqulo lwe-IP luyasebenza kakhulu ukuba i-"
+"GnomeMeeting ilandela isinxulumanisi seendawo ezincinci zeNAT/PAT. Kumele "
+"ukuba ufake i-IP kawonke-wonke yesinxulumanisi sendawo ezincinci kwindawo "
+"engezantsi. Ukuba ubhalise kwi ils.seconix.com, i-GnomeMeeting iza "
+"kuzilandela i-IP kawonkewonke isebenzisa inkonzo ye-ILS. Ukuba "
+"isinxulumanisi sakho sendawo ezincinci senzelwe ukuba sixhase i-H.323, "
+"ungayenza ukuba ingasebenzi le."
+
+#: ../src/pref_window.cpp:1047
+msgid "Enable _automatic IP checking"
+msgstr "Yenza ukuba izi_qinisekisele ngokwayo i-IP"
+
+#: ../src/pref_window.cpp:1047
+msgid ""
+"This enables IP checking from seconix.com and fills the IP in the public IP "
+"of the NAT/PAT gateway field of GnomeMeeting. The returned IP is only used "
+"when IP Translation is enabled. If you disable IP checking, you will have to "
+"manually enter the IP of your gateway in the GnomeMeeting preferences."
+msgstr ""
+"Oku kwenza ukuba kuqinisekiswe i-IP ukusuka kwi seconix.com ze igcwalise i-"
+"IP kwi-IP kawonkewonke ye-NAT/PAT yendawo yesixhobo sothungelwano lwe-"
+"GnomeMeeting. I-IP ebuyisiweyo isetyenziswa kuphela xa uguqulo lwe-IP "
+"lwenziwe ukuba lusebenze. Ukuba wenza ukuba lungasebenzi uqinisekiso lwe-IP, "
+"kuzakufuneka ukuba uyifake ngokwakho i-IP yesixhobo sothungelwano sakho "
+"soluhlu lwendawo ozikhethayo ze-GnomeMeeting."
+
+#: ../src/pref_window.cpp:1049
+msgid "Public _IP of the NAT/PAT router:"
+msgstr "I-_IP kawonke-wonke yesixhobo sonxibelelwano oluncinci lwe-NAT/PAT:"
+
+#: ../src/pref_window.cpp:1049
+msgid ""
+"Enter the public IP of your NAT/PAT router if you want to use IP "
+"translation. If you are registered to ils.seconix.com, GnomeMeeting will "
+"automatically fetch the public IP using the ILS service."
+msgstr ""
+"Faka i-IP kawonke-wonke yesixhobo sonxibelelwano oluncinci lwakho lwe-NAT/"
+"PAT ukuba ufuna ukusebenzisa uguqulelo lwe-IP. Ukuba ubhalise kwi-ils."
+"seconix.com. I-GnomeMeeting izakuzilandela i-IP kawonkewonke isebenzisa "
+"inkonzo ye-ILS."
+
+#: ../src/pref_window.cpp:1055
+msgid "STUN Support"
+msgstr "Inkxaso ye-STUN"
+
+#: ../src/pref_window.cpp:1057
+msgid "Enable _STUN Support"
+msgstr "Ukwenza ukuba isebenze Inkxaso ye-_STUN"
+
+#: ../src/pref_window.cpp:1059
+msgid "STUN Se_rver:"
+msgstr "I-STUN-_Seva:"
+
+#: ../src/pref_window.cpp:1061
+msgid "Click here to update your STUN Server settings"
+msgstr "Cofa apha kuze uhlaziye imimiselo ye-STUN Seva yakho"
+
+#: ../src/pref_window.cpp:1078
+msgid "Low"
+msgstr "Phantsi"
+
+#: ../src/pref_window.cpp:1079
+msgid "Medium"
+msgstr "Phakathi"
+
+#: ../src/pref_window.cpp:1080
+msgid "High"
+msgstr "Phezulu"
+
+#: ../src/pref_window.cpp:1081
+msgid "AGC"
+msgstr "i-AGC"
+
+#: ../src/pref_window.cpp:1084
+msgid "POTS"
+msgstr "i-POTS"
+
+#: ../src/pref_window.cpp:1085
+msgid "Headset"
+msgstr "Ummiselo Wesihloko"
+
+#: ../src/pref_window.cpp:1093
+msgid "Audio Plugin"
+msgstr "Ungeniso-sandi"
+
+#: ../src/pref_window.cpp:1098
+msgid "Audio plugin:"
+msgstr "Ungeniso-sandi:"
+
+#: ../src/pref_window.cpp:1098
+msgid ""
+"The audio plugin that will be used to detect the devices and manage them."
+msgstr ""
+"Ungeniso-sandi oluza kusetyenziswa xa kufunyaniswa izixhobo nokuzilawula."
+
+#: ../src/pref_window.cpp:1104 ../src/pref_window.cpp:1956
+msgid "Audio Devices"
+msgstr "Izixhobo ezinesandi"
+
+#: ../src/pref_window.cpp:1111
+msgid "Output device:"
+msgstr "Isiphumo sixhobo sekhompyutha:"
+
+#: ../src/pref_window.cpp:1118 ../src/pref_window.cpp:1187
+msgid "Input device:"
+msgstr "Isixhobo sekhompyutha esingeniswayo:"
+
+#: ../src/pref_window.cpp:1124
+msgid "Quicknet Hardware"
+msgstr "I-Quicknet Hardware"
+
+#: ../src/pref_window.cpp:1126
+msgid "Echo _cancellation:"
+msgstr "U_rhoxiso lwentlokoma:"
+
+#: ../src/pref_window.cpp:1128
+msgid "Output device type:"
+msgstr "Uhlobo lwesixhobo esinesandi esiphumayo:"
+
+#: ../src/pref_window.cpp:1131
+msgid "Country _code:"
+msgstr "I_khowudi yelizwe:"
+
+#: ../src/pref_window.cpp:1131
+msgid ""
+"The two-letter country code of your country (e.g.: BE, UK, FR, DE, ...)."
+msgstr ""
+"Ikhowudi yelizwe lakho enonobumba ababini (umzekelo: BE, UK, FR, DE, ...)."
+
+#. That button will refresh the devices list
+#: ../src/pref_window.cpp:1138 ../src/pref_window.cpp:1212
+msgid "_Detect devices"
+msgstr "_Fumanisa izixhobo"
+
+#: ../src/pref_window.cpp:1138
+msgid "Click here to refresh the devices list"
+msgstr "Cofa apha ukuvuselela uluhlu lwezixhobo"
+
+#: ../src/pref_window.cpp:1156
+msgid "Small"
+msgstr "Incinci"
+
+#: ../src/pref_window.cpp:1157
+msgid "Large"
+msgstr "Inkulu"
+
+#: ../src/pref_window.cpp:1159
+msgid "PAL (Europe)"
+msgstr "Ii-PAL (Yurophu)"
+
+#: ../src/pref_window.cpp:1160
+msgid "NTSC (America)"
+msgstr "I-NTSC (Melika)"
+
+#: ../src/pref_window.cpp:1161
+msgid "SECAM (France)"
+msgstr "I-SECAM (Fransi)"
+
+#: ../src/pref_window.cpp:1162
+msgid "Auto"
+msgstr "Ukuzenzela"
+
+#: ../src/pref_window.cpp:1171
+msgid "Video Plugin"
+msgstr "Indawo yokungenisa Ividiyo"
+
+#: ../src/pref_window.cpp:1175
+msgid "Video plugin:"
+msgstr "Indawo yokungenisa Ividiyo:"
+
+#: ../src/pref_window.cpp:1181 ../src/pref_window.cpp:1960
+msgid "Video Devices"
+msgstr "Izixhobo zevidiyo"
+
+#. Video Channel
+#: ../src/pref_window.cpp:1191
+msgid "Channel:"
+msgstr "Isiqhagamshelanisi:"
+
+#: ../src/pref_window.cpp:1193
+msgid "Size:"
+msgstr "Ubungakanani:"
+
+#: ../src/pref_window.cpp:1195
+msgid "Format:"
+msgstr "Ukulungiselela:"
+
+#: ../src/pref_window.cpp:1198
+msgid "Image:"
+msgstr "Umfanekiso:"
+
+#: ../src/pref_window.cpp:1212
+msgid "Click here to refresh the devices list."
+msgstr "Cofa apha ukuvuselela uluhlu lwezixhobo."
+
+#: ../src/pref_window.cpp:1235
+msgid "Available Audio Codecs"
+msgstr "Ii-codecs Ezinesandi Ezifumanekayo"
+
+#: ../src/pref_window.cpp:1250
+msgid "Audio Codecs Settings"
+msgstr "Imimiselo Enesandi Yee-codecs"
+
+#. Translators: the full sentence is Automatically adjust jitter buffer
+#. between X and Y ms
+#: ../src/pref_window.cpp:1254
+msgid "Automatically adjust _jitter buffer between"
+msgstr ""
+"Izilungisa ngokwayo ubu_phaku-phaku besigcini setyutyana ngaphakathi kwazo"
+
+#: ../src/pref_window.cpp:1254
+msgid "and"
+msgstr "ne"
+
+#: ../src/pref_window.cpp:1254
+msgid "ms"
+msgstr "ms"
+
+#: ../src/pref_window.cpp:1254
+msgid "The minimum jitter buffer size for audio reception (in ms)."
+msgstr ""
+"Ubuncinane bobungakanani besigcini sethutyana esiphakuzelayo kulwamnkelo "
+"olunesandi (ngokwemizuzwana yemizuzwana)."
+
+#: ../src/pref_window.cpp:1254
+msgid "The maximum jitter buffer size for audio reception (in ms)."
+msgstr ""
+"Ubukhulu bobungakanani besigcini sethutyana esiphakuzelayo kulwamnkelo "
+"olunesandi (ngokwemizuzwana yemizuzwana)."
+
+#: ../src/pref_window.cpp:1256
+msgid "Enable silence _detection"
+msgstr "Yenza ukuba ikwazi uku_fumanisa inzolo"
+
+#: ../src/pref_window.cpp:1256
+msgid "If enabled, use silence detection with the GSM and G.711 codecs."
+msgstr ""
+"Ukuba lwenziwe ukuba lusebenze, sebenzisa ufunyaniso lwenzolo nge-GSM ne "
+"G.711 codecs."
+
+#: ../src/pref_window.cpp:1268 ../src/pref_window.cpp:1903
+msgid "General Settings"
+msgstr "Imimiselo Jikelele"
+
+#. Add fields
+#: ../src/pref_window.cpp:1272
+msgid "Enable video _transmission"
+msgstr "Yenza u_sasazo lwevidiyo lusebenze"
+
+#: ../src/pref_window.cpp:1272
+msgid "If enabled, video is transmitted during a call."
+msgstr "Ukuba yenziwe ukuba isebenze, ividiyo iyasasazwa ngexesha lonxulumano."
+
+#: ../src/pref_window.cpp:1274
+msgid "Enable video _reception"
+msgstr "Yenza u_lwamnkelo lwevidiyo lusebenze"
+
+#: ../src/pref_window.cpp:1274
+msgid "If enabled, allows video to be received during a call."
+msgstr ""
+"Ukuba yenziwe ukuba isebenze, ivumela ividiyo ifunyanwe ngexesha lonxulumano."
+
+#: ../src/pref_window.cpp:1279
+msgid "Bandwidth Control"
+msgstr "Ulawulo Losasazo Lwamaza Omoya"
+
+#. Translators: the full sentence is Maximum video bandwidth of X kB/s
+#: ../src/pref_window.cpp:1282
+msgid "Maximum video _bandwidth of"
+msgstr "Ubukhulu _bothungelwano losasazo lwevidiyo"
+
+#: ../src/pref_window.cpp:1282
+msgid ""
+"The maximum video bandwidth in kbytes/s. The video quality and the number of "
+"transmitted frames per second will be dynamically adjusted above their "
+"minimum during calls to try to minimize the bandwidth to the given value."
+msgstr ""
+"Ubukhulu bothungelwano losasazo lwevidiyo kwi-kbytes/s. Umgangatho wevidiyo "
+"nenani lee-frames ezisasaziweyo ngomzuzwana zizakuhlenga-hlengiselwa "
+"ngaphezulu kobuncinci bazo ngexesha lonxulumano ukuzama ukunciphisa "
+"uthungelwano losasazo lwexabiso elinikiweyo."
+
+#: ../src/pref_window.cpp:1282
+msgid "kB/s"
+msgstr "kB/s"
+
+#: ../src/pref_window.cpp:1288
+msgid "Advanced Quality Settings"
+msgstr "Imimiselo Esexabisweni Eliphambili"
+
+#. Translators: the full sentence is Keep a minimum video quality of X %
+#: ../src/pref_window.cpp:1291
+msgid "Frame Rate"
+msgstr "Isantya Se-frame"
+
+#: ../src/pref_window.cpp:1291
+msgid "Picture Quality"
+msgstr "Ubunjani Bomfanekiso"
+
+#: ../src/pref_window.cpp:1291
+msgid ""
+"Choose if you want to favour speed or quality for the transmitted video."
+msgstr ""
+"Khetha ukuba ufuna ukuthanda isantya okanye ixabiso kusasazo lwevidiyo."
+
+#. Translators: the full sentence is Transmit X background blocks with each
+#. frame
+#: ../src/pref_window.cpp:1295
+msgid "Transmit"
+msgstr "Sasaza"
+
+#: ../src/pref_window.cpp:1295
+msgid ""
+"Choose the number of blocks (that have not changed) transmitted with each "
+"frame. These blocks fill in the background."
+msgstr ""
+"Khetha inani leebhloko (ezingaguqukanga) ezisasazwe kwi-frame nganye. Ezi-"
+"blocks zizaliswee ngasemva."
+
+#: ../src/pref_window.cpp:1295
+msgid "background _blocks with each frame"
+msgstr "Ii_bhloko zangasemva nge-frame nganye"
+
+#: ../src/pref_window.cpp:1486 ../src/pref_window.cpp:1514
+msgid "Choose a Picture"
+msgstr "Khetha Umfanekiso"
+
+#: ../src/pref_window.cpp:1883
+msgid "GnomeMeeting Preferences"
+msgstr "Uluhlu lwezinto ozikhethileyo ngeGnomeMeeting"
+
+#: ../src/pref_window.cpp:1897
+msgid "General"
+msgstr "Jikelele"
+
+#: ../src/pref_window.cpp:1898
+msgid "Personal Data"
+msgstr "Inkcukaca Zam"
+
+#: ../src/pref_window.cpp:1908
+msgid "Directory Settings"
+msgstr "Imimiselo yovimba beefayili"
+
+#: ../src/pref_window.cpp:1916
+msgid "NAT Settings"
+msgstr "Imimiselo ye-NAT"
+
+#: ../src/pref_window.cpp:1921
+msgid "Sound Events"
+msgstr "Izehlo Zesandi"
+
+#: ../src/pref_window.cpp:1925
+msgid "H.323 Settings"
+msgstr "H.323 Imimiselo"
+
+#: ../src/pref_window.cpp:1927
+msgid "Advanced Settings"
+msgstr "Imimiselo Ephambili"
+
+#: ../src/pref_window.cpp:1936
+msgid "Gatekeeper Settings"
+msgstr "Imimiselo Yomgcini-sango"
+
+#: ../src/pref_window.cpp:1941
+msgid "Gateway / Proxy Settings"
+msgstr "Imimiselo Yesixhobo Sothungelwano /Yekhompyutha Esebenzisa Njengomqobo"
+
+#: ../src/pref_window.cpp:1945
+msgid "Codecs"
+msgstr "I-Codecs"
+
+#: ../src/pref_window.cpp:1947
+msgid "Audio Codecs"
+msgstr "Ii-codecs Ezinesandi"
+
+#: ../src/pref_window.cpp:1951
+msgid "Video Codecs"
+msgstr "Ii-codecs Zevidiyo"
+
+#: ../src/pref_window.cpp:1955
+msgid "Devices"
+msgstr "Izixhobo zekhompyutha"
+
+#: ../src/sound_handling.cpp:329
+msgid "Opening device for playing"
+msgstr "Isixhobo sokuvula ulungiselela ukudlala"
+
+#: ../src/sound_handling.cpp:331
+msgid "Opening device for recording"
+msgstr "Isixhobo sokuvula ulungiselela ukushicilela"
+
+#: ../src/sound_handling.cpp:343 ../src/sound_handling.cpp:345
+#: ../src/videograbber.cpp:689
+msgid "Failed to open the device"
+msgstr "Asikwazanga ukuvula isixhobo"
+
+#: ../src/sound_handling.cpp:343
+#, c-format
+msgid ""
+"Impossible to open the selected audio device (%s) for recording. Please "
+"check your audio setup, the permissions and that the device is not busy."
+msgstr ""
+"Ayikho indlela yokuvula isixhobo esinesandi (%s) ukulungiselela ushicilelo. "
+"Nceda khangela indlela ofake ngayo isandi, iimvume nokuba isixhobo "
+"asixakekanga."
+
+#: ../src/sound_handling.cpp:345
+#, c-format
+msgid ""
+"Impossible to open the selected audio device (%s) for playing. Please check "
+"your audio setup, the permissions and that the device is not busy."
+msgstr ""
+"Kunzima ukuvula isixhobo esikhethiweyo esinesandi (%s) ulungiselela "
+"ukudlala. Nceda qwalasela indlela yakho ofake ngayo isandi, iimvume nokuba "
+"isixhobo asixakekanga."
+
+#: ../src/sound_handling.cpp:384 ../src/sound_handling.cpp:460
+msgid "Cannot use the audio device"
+msgstr "Ayinakukwazi ukusebenzisa isixhobo esinesandi"
+
+#: ../src/sound_handling.cpp:384
+#, c-format
+msgid ""
+"The selected audio device (%s) was successfully opened but it is impossible "
+"to read data from this device. Please check your audio setup."
+msgstr ""
+"Isixhobo esikhethiweyo esinesandi (%s) sivuleke ngempumelelo kodwa "
+"ayifundeki i-data kwesi sixhobo. Nceda uqwalasele indlela ofake ngayo isandi "
+"sakho."
+
+#: ../src/sound_handling.cpp:393
+msgid "Recording your voice"
+msgstr "Ushicilelo lwelizwi lakho"
+
+#: ../src/sound_handling.cpp:435
+msgid "Recording and playing back"
+msgstr "Ushicilelo nokudlala ubuyela ngasemva"
+
+#: ../src/sound_handling.cpp:460
+#, c-format
+msgid ""
+"The selected audio device (%s) was successfully opened but it is impossible "
+"to write data to this device. Please check your audio setup."
+msgstr ""
+"Isixhobo esikhethiweyo esinesandi (%s) sivuleke ngempumelelo kodwa "
+"ayibhaleki i-data kwesi sixhobo. Nceda uqwalasele indlela ofake ngayo isandi "
+"sakho."
+
+#: ../src/sound_handling.cpp:583
+#, c-format
+msgid ""
+"GnomeMeeting is now recording from %s and playing back to %s. Please say \"1 "
+"2 3\" in your microphone, you should hear yourself back into the speakers "
+"with a 4 seconds delay."
+msgstr ""
+"I-GnomeMeeting ngoku iyashicilela ukusuka kwi %s yaye idlala ibuyela "
+"ngasemva ukuya %s. Nceda yithi \"1 2 3\" kumbhobho wokuthetha, kufanele "
+"ukuba uzimamele kwizandisi sandi kukho nemizuzwana emi-4 yokulibaziseka."
+
+#: ../src/stunclient.cpp:102
+msgid "Unknown NAT"
+msgstr "i-NAT engaziwayo"
+
+#: ../src/stunclient.cpp:102
+msgid "Open NAT"
+msgstr "Vula i-NAT"
+
+#: ../src/stunclient.cpp:103
+msgid "Cone NAT"
+msgstr "I-Cone NAT"
+
+#: ../src/stunclient.cpp:103
+msgid "Restricted NAT"
+msgstr "I-NAT emiselwe imiqathango"
+
+#: ../src/stunclient.cpp:103
+msgid "Port Restricted NAT"
+msgstr "I-NAT yendawo yonxulumano emiselwe imiqathango"
+
+#: ../src/stunclient.cpp:104
+msgid "Symmetric NAT"
+msgstr "I-NAT Symmetric"
+
+#: ../src/stunclient.cpp:104
+msgid "Symmetric Firewall"
+msgstr "I-Firewall Symmetric"
+
+#: ../src/stunclient.cpp:104
+msgid "Blocked"
+msgstr "Ivalelwe"
+
+#: ../src/stunclient.cpp:105
+msgid "Partially Blocked"
+msgstr "Ivalelwe Okwethutyana"
+
+#: ../src/stunclient.cpp:120 ../src/stunclient.cpp:243
+msgid "Removed STUN server"
+msgstr "I-STUN seva esisusiweyo"
+
+#: ../src/stunclient.cpp:137
+#, c-format
+msgid "Set STUN server to %s (%s)"
+msgstr "Misela iSTUN seva kwi %s (%s)"
+
+#: ../src/stunclient.cpp:157
+#, c-format
+msgid ""
+"STUN test result: %s.\n"
+"\n"
+"GnomeMeeting could not detect the type of NAT you are using. The most "
+"appropriate method, if your router does not natively support H.323, is "
+"probably to forward the required ports to your internal machine and use IP "
+"translation if you are behind a NAT router. Please also make sure you are "
+"not running a local firewall."
+msgstr ""
+"Uvavanyo lwesiphumo sesi-STUN: %s.\n"
+"\n"
+"I-GnomeMeeting ayikwazanga kulubona uhlobo lwe-NAT olusebenzisayo. Yeyona "
+"ndlela ifanelekileyo, ukuba ngaba isixhobo sonxibelelwano oluncinci asixhasi,"
+"i-H.323, mhlawumbi ingazigqithisa izixhobo ezifunekayo zomatshini wakho "
+"wangaphakathi ze isebenzise uguqulo lwe-IP ukuba usemva kwesixhobo "
+"sonxibelelwano oluncinci lwe-NAT. Nceda qinisekisa ukuba akusebenzisi i-"
+"firewall yangaphakathi."
+
+#: ../src/stunclient.cpp:163
+#, c-format
+msgid ""
+"STUN test result: %s.\n"
+"\n"
+"Your system does not need any specific configuration as long as you do not "
+"have a local firewall blocking the ports required by GnomeMeeting."
+msgstr ""
+"Isiphumo sovavanyo lwe-STUN: %s.\n"
+"\n"
+"Inkqubo yakho ayidingi naluphi na uhlobo oluchaziweyo lokumiselwa "
+"kwekompyutha ukuba nje wena awuna-firewall yangaphakathi ethintela izixhobo "
+"zonxibelelwano ezifunwa yiGnomeMeeting."
+
+#: ../src/stunclient.cpp:168
+msgid ""
+"GnomeMeeting detected Symmetric NAT. The most appropriate method, if your "
+"router does not natively support H.323, is to forward the required ports to "
+"your internal machine in order to change your Symmetric NAT into Cone NAT. "
+"Running this test again after the port forwarding has been done should "
+"report Cone NAT and allow GnomeMeeting to be used with STUN support enabled. "
+"If it does not report Cone NAT, then it means that there is a problem in "
+"your forwarding rules."
+msgstr ""
+"I-GnomeMeeting ifumanise i-Symmetric NAT. Eyona ndlela ilungileyo, ukuba "
+"ngaba isixhobo sonxibelelwano oluncinci asiyixhasi, i-H.323 iza kugqithisa "
+"unxibelelwano oluncinci kumatshini wakho wangaphakathi ukuze kuguqulwe i-"
+"Symmetric NAT ibeyi-CONE NAT. Ukuqhuba oluvavanyo kwakhona emva kokuba "
+"ukugqithiswa kwendawo yonxibelelwano kugqityiwe kufuneka ibike i-Cone NAT ze "
+"ivumele i-GnomeMeeting ukuba isetyenziswe ngenkxaso ye-STUN eyenzelwe ukuba "
+"isebenze. Ukuba ngaba ayiniki ngxelo kwi-Cone NAT, lo nto ithetha ukuba "
+"kukho ingxaki kwindlela yakho yokugqithisa."
+
+#: ../src/stunclient.cpp:173
+#, c-format
+msgid ""
+"STUN test result: %s.\n"
+"\n"
+"Using a STUN server is most probably the most appropriate method if your "
+"router does not natively support H.323.\n"
+"Notice that STUN support is not sufficient if you want to contact H.323 "
+"clients that do not support H.245 Tunneling like Netmeeting. In that case "
+"you will have to use the classical IP translation and port forwarding.\n"
+"\n"
+"Enable STUN Support?"
+msgstr ""
+"Isiphumo zovavanyo lwe-STUN: %s.\n"
+"\n"
+"Ukusebenzisa iseva ye-STUN mhlawumbi yeyona ndlela ilungileyo ukuba ngaba "
+"isixhobo sakho sonxibelelwano oluncinci aluyixhasi i-H.323.\n"
+"Qaphela ukuba inkxaso ye-STUN ayanelanga ukuba ngaba ufuna ukunxulumana "
+"nabasebenzisi be-H.323 engaxhaswa yi-H.245 Tunneling njenge-Netmeeting. Xa "
+"kunjalo kuza kufuneka ukuba usebenzise uguqulo lwe-IP olukumgangatho "
+"ophezulu nendawo yokugqithisa unxibelelwano.\n"
+"\n"
+"Yenza isebenze inxaso ye-STUN?"
+
+#: ../src/stunclient.cpp:182 ../src/stunclient.cpp:196
+msgid "NAT Detection Successfull"
+msgstr "Ibiyipumelelo ingxelo yokufumaneka kwe-NAT kwikhompyutha"
+
+#: ../src/stunclient.cpp:207
+msgid "The type of NAT was successfully detected"
+msgstr "Lufunyenwe ngempumelelo uhlobo lwe-NAT"
+
+#: ../src/stunclient.cpp:232
+#, c-format
+msgid "Set STUN server to %s"
+msgstr "Misela i-STUN seva kwi %s"
+
+#: ../src/tools.cpp:171 ../src/tools.cpp:191
+msgid "PC-To-Phone Settings"
+msgstr "Imimiselo ye PC-To-Phone"
+
+#: ../src/tools.cpp:180
+msgid ""
+"You can make calls to regular phones and cell numbers worldwide using "
+"GnomeMeeting. To enable this, you need to register an account using the URL "
+"below, then enter your Account number and PIN, and finally enable "
+"registering to the GnomeMeeting PC-To-Phone service.\n"
+"\n"
+"Please make sure you are using the URL below to get your account otherwise "
+"the service will not work."
+msgstr ""
+"Ungenza unxulumano kwiminxeba eqhelekileyo neeminxeba ephathwayo kwihlabathi "
+"jikelele usebenzisa iGnomeMeeting. Ukwenza ukuba isebenze, kufuneka ubhalise "
+"i-akhawunti usebenzisa i-URL engezantsi, phinda ufake i-nombolo ye-akhawunti "
+"ne-PIN, ekugqibeleni iza kubhalisa kwinkonzo ye-GnomeMeeting PC-To-Phone.\n"
+"\n"
+"Nceda qinisekisa ukuba usebenzisa i-URL engezantsi ukufumana i-nombolo ye-"
+"akhawunti yakho kungenjalo le nkonzo ayizukusebenza."
+
+#: ../src/tools.cpp:193
+msgid "Account _number:"
+msgstr "I_nombolo ye-akhawunti:"
+
+#: ../src/tools.cpp:193
+msgid "Use your MicroTelco account number"
+msgstr "Sebenzisa inombolo yakho ye akhawunti yakwa-MicroTelco"
+
+#: ../src/tools.cpp:196
+msgid "_Pin:"
+msgstr "I-_Pin:"
+
+#: ../src/tools.cpp:196
+msgid "Use your MicroTelco PIN"
+msgstr "Sebenzisa i-MicroTelco PIN yakho"
+
+#: ../src/tools.cpp:202
+msgid "Use PC-To-Phone service"
+msgstr "Sebenzisa inkonzo ye PC-To-Phone"
+
+#: ../src/tools.cpp:215
+msgid ""
+"Click on one of the following links to get more information about your "
+"existing GnomeMeeting PC-To-Phone account, or to create a new account."
+msgstr ""
+"Cofa kwenye yezi zinxulumanisi zilandelayo ukuze ufumane inkcazelo ethe "
+"vetshe malunga ne-akhawunti yakho ye-GnomeMeeting PC-To-Phone, okanye dala "
+"entsha i-akhawunti."
+
+#: ../src/tools.cpp:224
+msgid "Get a GnomeMeeting PC-To-Phone account"
+msgstr "Fumana i-akhawunti ye PC-To-Phone ye-GnomeMeeting"
+
+#: ../src/tools.cpp:238
+msgid "Recharge the account"
+msgstr "Zalisa i-akhawunti"
+
+#: ../src/tools.cpp:252
+msgid "Consult the balance history"
+msgstr "Khangela imbali yongqinelwano"
+
+#: ../src/tools.cpp:266
+msgid "Consult the calls history"
+msgstr "Khangela kwimbali yonxulumano"
+
+#: ../src/tray.cpp:244
+msgid "GnomeMeeting Tray Icon"
+msgstr "Uphawu lwesithebe Esingumqondiso We-GnomeMeeting"
+
+#: ../src/tray.cpp:258
+msgid "_Connect"
+msgstr "_Nxulumana"
+
+#: ../src/urlhandler.cpp:77
+msgid ""
+"The call transfer failed, the user was either unreachable, or simply busy "
+"when he received the call transfer request."
+msgstr ""
+"Ukudlulisa konxulumano khange kuphumelele, umsebenzisi ebengafumaneki, "
+"okanye ebexakekile ngela xesha bekungena isicelo sodlulisa unxulumano."
+
+#: ../src/urlhandler.cpp:385
+#, c-format
+msgid "No contact with speed dial %s# found, will call number %s instead"
+msgstr ""
+"Akukho kudibana ngonxibelelwano olukhawulezayo %s# kufunyenweyo, siza "
+"kunxulumana nenombolo %s endaweni yoko"
+
+#: ../src/urlhandler.cpp:401
+msgid "Invalid URL handler"
+msgstr "Umphathi we-URL ongafanelekanga"
+
+#: ../src/urlhandler.cpp:401
+msgid ""
+"Please specify a valid URL handler. Currently both h323: and callto: are "
+"supported."
+msgstr ""
+"Nceda balula umphathi we-URL ofanelekileyo. Okwangoku zombini i-h323: ne-"
+"callto: zixhasiwe."
+
+#: ../src/urlhandler.cpp:413
+#, c-format
+msgid "Calling %s"
+msgstr "Ukunxulumana %s"
+
+#: ../src/urlhandler.cpp:416
+#, c-format
+msgid "Transferring call to %s"
+msgstr "Ukudlulisa unxulumano lusiya %s"
+
+#: ../src/videograbber.cpp:319
+#, c-format
+msgid "Opening video device %s with plugin %s"
+msgstr "Kuvulwa isixhobo sevidiyo %s ngesingeniso %s"
+
+#: ../src/videograbber.cpp:347
+#, c-format
+msgid "Successfully opened video device %s, channel %d"
+msgstr "Zivulwe nge mpumelelo isixhobo sevidiyo %s, nesiqhagamshelanisi %d"
+
+#: ../src/videograbber.cpp:358
+#, c-format
+msgid "Error while opening video device %s"
+msgstr "Impazamo lo gama kuvulwa isixhobo sevidiyo %s"
+
+#. Translators: Do not translate MovingLogo and Picture
+#: ../src/videograbber.cpp:362
+msgid ""
+"A moving GnomeMeeting logo will be transmitted during calls. Notice that you "
+"can always transmit a given image or the moving GnomeMeeting logo by "
+"choosing \"Picture\" as video plugin and \"MovingLogo\" or \"StaticPicture\" "
+"as device."
+msgstr ""
+"Uphawu olujikelezayo lwe-GnomeMeeting luza kusasazwa ngethuba lonxulumano. "
+"Qaphela ukuba ungasoloko uwusasaza umfanekiso onikiweyo okanye uphawu lwe-"
+"GnomeMeeting ngokukhetha \"Picture\" njengesixhobo sofakelo vidiyo no "
+"\"MovingLogo\" okanye \"Umfanekiso ongahambiyo\" njengesixhobo."
+
+#: ../src/videograbber.cpp:364
+msgid "Couldn't open the video device"
+msgstr "Ayikwazanga ukuvula isixhobo sevidiyo"
+
+#: ../src/videograbber.cpp:368
+msgid ""
+"There was an error while opening the device. Please check your permissions "
+"and make sure that the appropriate driver is loaded."
+msgstr ""
+"Ukubekho impazamo logama uvula isixhobo sekhompyutha. Nceda uqinisekise "
+"iimvume zakho uphinde uqinisekise ukuba i-driver yakho ifakwe kakuhle."
+
+#: ../src/videograbber.cpp:372 ../src/videograbber.cpp:667
+msgid "Your video driver doesn't support the requested video format."
+msgstr ""
+"I-vidiyo driver yakho ayiluxhasi uhlobo olulungiselweyo lwevidiyo "
+"oyifunileyo."
+
+#: ../src/videograbber.cpp:376
+msgid "Could not open the chosen channel."
+msgstr "Ayikwazanga ukuvula isiqhagamshelanisi esikhethiweyo."
+
+#: ../src/videograbber.cpp:380
+msgid ""
+"Your driver doesn't seem to support any of the colour formats supported by "
+"GnomeMeeting.\n"
+" Please check your kernel driver documentation in order to determine which "
+"Palette is supported."
+msgstr ""
+"I-driver yakho ikhangeleka ngathi ayixhasi namnye umbala kwelungiselweyo "
+"exhaswa yiGnomeMeeting.\n"
+" Nceda qinisekisa ukuba konke okuqulethwe kwikernel driver yakho kungendlela "
+"ukujonga ukuba yiyiphi ingqokelela yezixhobo exhaswayo."
+
+#: ../src/videograbber.cpp:384
+msgid "Error while setting the frame rate."
+msgstr "Impazamo lo gama kumiselwa ubungakananani besantya."
+
+#: ../src/videograbber.cpp:388
+msgid "Error while setting the frame size."
+msgstr "Impazamo lo gama kumiselwa ubungakanani be-frame."
+
+#: ../src/videograbber.cpp:428
+msgid "Opened the video device using the \"Picture\" video plugin"
+msgstr ""
+"Kuvulwe isixhobo sevidiyo kusetyenziswa u\"Umfanekiso\" ungeniso lwevidiyo"
+
+#: ../src/videograbber.cpp:567
+msgid "Picture"
+msgstr "Umfanekiso"
+
+#: ../src/videograbber.cpp:579
+#, c-format
+msgid ""
+"GnomeMeeting is now testing the %s video device. If you experience machine "
+"crashes, then report a bug to the video driver author."
+msgstr ""
+"I-GnomeeMeeting ngoku ivavanya i %s isixhobo sevidiyo. Ukuba ufumana ingxaki "
+"yokonakala kwekompyutha, ngoko bika isiphene kumqulunqi we-driver yevidiyo."
+
+#: ../src/videograbber.cpp:641
+#, c-format
+msgid "Test %d done"
+msgstr "Uvavanyo %d luphumelele"
+
+#: ../src/videograbber.cpp:643
+#, c-format
+msgid "Test %d failed"
+msgstr "Uvavanyo %d aluphumelelanga"
+
+#: ../src/videograbber.cpp:662
+#, c-format
+msgid "Error while opening %s."
+msgstr "Impazamo lo gama kuvulwa %s."
+
+#: ../src/videograbber.cpp:671
+msgid "Could not open the chosen channel with the chosen video format."
+msgstr ""
+"Ayikwazanga ukuvula isiqhagamshelani esikhethiweyo ngevidiyo elungiselelwe "
+"uhlobo oluthile."
+
+#: ../src/videograbber.cpp:675
+msgid ""
+"Your driver doesn't support any of the color formats tried by GnomeMeeting"
+msgstr ""
+"I-driver yakho ayixhasi namnye umbala kwelungiselweyo nezanywee yi-"
+"GnomeMeeting"
+
+#: ../src/videograbber.cpp:679
+msgid "Error with the frame rate."
+msgstr "Kukho impazamo ngesantya se-frame."
+
+#: ../src/videograbber.cpp:683
+msgid "Error with the frame size."
+msgstr "Kukho impazamo ngobungakanani be-frame."

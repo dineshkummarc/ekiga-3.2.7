@@ -1,0 +1,4532 @@
+# translation of gnomemeeting to Kinyarwanda.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnomemeeting package.
+# Steve Murphy <murf@e-tools.com>, 2005
+# Steve performed initial rough translation from compendium built from translations provided by the following translators:
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Carole Karema <karemacarole@hotmail.com>, 2005.
+# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
+# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomemeeting 2.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-03-31 17:57-0700\n"
+"PO-Revision-Date: 2005-03-28 19:35-0700\n"
+"Last-Translator: Steve Murphy <murf@e-tools.com>\n"
+"Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Add the window icon and title
+#: gnomemeeting.desktop.in.h:1 src/main_window.cpp:3717
+#: src/main_window.cpp:3909
+msgid "GnomeMeeting"
+msgstr ""
+
+#: gnomemeeting.desktop.in.h:2
+#, fuzzy
+msgid "Talk to people over the Internet"
+msgstr "Kuri Abantu KURI"
+
+#: gnomemeeting.desktop.in.h:3
+msgid "Videoconferencing"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:1
+#, fuzzy
+msgid "1: 56Kbps, 2: ISDN, 3:DSL, 4: LAN, 5: Custom"
+msgstr "1. 2. 3. 4. 5 Kugena"
+
+#: gnomemeeting.schemas.in.in.h:2
+#, fuzzy
+msgid "Address of public IP detector"
+msgstr "Bya Rusange"
+
+#: gnomemeeting.schemas.in.in.h:3
+#, fuzzy
+msgid "Always forward calls to the given host"
+msgstr "Imbere Amahamagara: Kuri Ubuturo"
+
+#: gnomemeeting.schemas.in.in.h:4
+#, fuzzy
+msgid "Audio input device"
+msgstr "Iyinjiza APAREYE"
+
+#: gnomemeeting.schemas.in.in.h:5
+#, fuzzy
+msgid "Audio output device"
+msgstr "Ibisohoka APAREYE"
+
+#: gnomemeeting.schemas.in.in.h:6
+msgid "Audio plugin"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:7
+msgid "Automatic echo cancellation"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:8 src/pref_window.cpp:716
+#, fuzzy
+msgid "Automatically clear the text chat at the end of calls"
+msgstr "Gusiba Umwandiko ku Impera Bya Amahamagara:"
+
+#: gnomemeeting.schemas.in.in.h:9 src/pref_window.cpp:784
+#, fuzzy
+msgid ""
+"Automatically reject or forward incoming calls if no answer is given after "
+"the specified amount of time (in seconds)"
+msgstr ""
+"Kwanga Cyangwa Imbere Amahamagara: NIBA Oya ni Nyuma Igiteranyo Bya Igihe in "
+"amasogonda"
+
+#: gnomemeeting.schemas.in.in.h:10
+#, fuzzy
+msgid ""
+"Automatically switch to fullscreen for images displayed in the main GUI at "
+"the beginning of the call"
+msgstr "Hindura Kuri kugirango Ishusho in ku Itangiriro Bya"
+
+#: gnomemeeting.schemas.in.in.h:11
+#, fuzzy
+msgid "Change the control panel section"
+msgstr "Igenzura Icyiciro"
+
+#: gnomemeeting.schemas.in.in.h:12
+#, fuzzy
+msgid ""
+"Change the control panel section (4 means that the control panel is off)"
+msgstr "Igenzura Icyiciro 4. Igenzura ni Bidakora"
+
+#: gnomemeeting.schemas.in.in.h:13
+#, fuzzy
+msgid ""
+"Choose the number of blocks (that have not changed) transmitted with each "
+"frame. These blocks fill in the background"
+msgstr "Umubare Bya OYA Byahinduwe Na: Ikadiri Kuzuza in Mbuganyuma"
+
+#: gnomemeeting.schemas.in.in.h:14
+#, fuzzy
+msgid "Clear inactive calls"
+msgstr "kidakora Amahamagara:"
+
+# padmin/source\padialog.src:RID_TXT_TESTPAGE_COMMENT.text
+#: gnomemeeting.schemas.in.in.h:15 src/addressbook_window.cpp:974
+msgid "Comment"
+msgstr "Icyo wongeraho"
+
+#: gnomemeeting.schemas.in.in.h:16
+#, fuzzy
+msgid ""
+"Connection will be established in Fast Start mode. Fast Start is a new way "
+"to start calls faster that was introduced in H.323v2. It is not supported by "
+"Netmeeting and using both Fast Start and H.245 Tunnelling can crash some "
+"versions of Netmeeting"
+msgstr ""
+"in Gutangira Ubwoko Gutangira ni a Gishya Kuri Gutangira Amahamagara: in H "
+"ni OYA ku Na ikoresha Byombi Gutangira Na H Uburyo Bya"
+
+#: gnomemeeting.schemas.in.in.h:17
+#, fuzzy
+msgid "Country code"
+msgstr "ITEGEKONGENGA"
+
+#: gnomemeeting.schemas.in.in.h:18
+msgid "DTMF sending"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:19
+#, fuzzy
+msgid "Display a popup window when receiving a call"
+msgstr "a Idirishya Ryari: a"
+
+# 1974
+#: gnomemeeting.schemas.in.in.h:20
+msgid "E-mail address"
+msgstr "aderesi nterineti"
+
+#: gnomemeeting.schemas.in.in.h:21
+msgid "Enable 'Fast Start'"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:22
+#, fuzzy
+msgid "Enable H.245 tunnelling"
+msgstr "H"
+
+#: gnomemeeting.schemas.in.in.h:23
+msgid "Enable IP checking"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:24
+#, fuzzy
+msgid "Enable IP translation"
+msgstr "Umwandiko wahinduwe ururimi"
+
+#: gnomemeeting.schemas.in.in.h:25
+msgid "Enable STUN Support"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:26
+#, fuzzy
+msgid "Enable bilinear filtering on displayed video"
+msgstr "Iyungurura ku Videwo..."
+
+#: gnomemeeting.schemas.in.in.h:27
+#, fuzzy
+msgid "Enable early H.245"
+msgstr "H"
+
+#: gnomemeeting.schemas.in.in.h:28
+#, fuzzy
+msgid ""
+"Enable or disable bilinear interpolation when rendering video images (this "
+"has no effect in fullscreen mode)"
+msgstr "Cyangwa Ryari: Isubizwa Videwo... Ishusho iyi Oya INGARUKA in Ubwoko"
+
+#: gnomemeeting.schemas.in.in.h:29
+msgid "Enable registering"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:30
+msgid "Enable silence detection"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:31
+#, fuzzy
+msgid "Enable video reception"
+msgstr "Videwo..."
+
+#: gnomemeeting.schemas.in.in.h:32
+#, fuzzy
+msgid "Enable video transmission"
+msgstr "Videwo..."
+
+#: gnomemeeting.schemas.in.in.h:33
+#, fuzzy
+msgid "Enter a comment about yourself for the user directory"
+msgstr "a Icyo wongeraho Ibyerekeye kugirango Ukoresha: bushyinguro"
+
+#: gnomemeeting.schemas.in.in.h:34
+#, fuzzy
+msgid ""
+"Enter a valid URL to connect to a web application that outputs the public IP "
+"of your host"
+msgstr "a Byemewe Kuri Kwihuza Kuri a Urubuga Porogaramu Rusange Bya Ubuturo"
+
+#: gnomemeeting.schemas.in.in.h:35
+#, fuzzy
+msgid ""
+"Enter the public IP of your NAT/PAT router if you want to use IP "
+"translation. If you are registered to ils.seconix.com, GnomeMeeting will "
+"automatically fetch the public IP using the ILS service"
+msgstr ""
+"Rusange Bya NIBA Kuri Gukoresha Umwandiko wahinduwe ururimi Kuri com ku "
+"buryo bwikora Rusange ikoresha Serivisi"
+
+#: gnomemeeting.schemas.in.in.h:36 src/pref_window.cpp:663
+#, fuzzy
+msgid "Enter your e-mail address"
+msgstr "E Ubutumwa Aderesi"
+
+#: gnomemeeting.schemas.in.in.h:37 src/pref_window.cpp:649
+#, fuzzy
+msgid "Enter your first name"
+msgstr "Itangira Izina:"
+
+#: gnomemeeting.schemas.in.in.h:38
+#, fuzzy
+msgid "Enter your last name"
+msgstr "Iheruka Izina:"
+
+#: gnomemeeting.schemas.in.in.h:39
+#, fuzzy
+msgid "Enter your location (country or city) for the user directory"
+msgstr "Ahantu Igihugu Cyangwa Umujyi kugirango Ukoresha: bushyinguro"
+
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....BusinessCard.PrivateAddress.FirstName.text
+#: gnomemeeting.schemas.in.in.h:40
+msgid "First name"
+msgstr "Izina ry'idini"
+
+#: gnomemeeting.schemas.in.in.h:41
+#, fuzzy
+msgid "Forward calls to host"
+msgstr "Amahamagara: Kuri Ubuturo"
+
+#: gnomemeeting.schemas.in.in.h:42
+#, fuzzy
+msgid "Forward calls to the given host if busy"
+msgstr "Amahamagara: Kuri Ubuturo NIBA Irahuze"
+
+#: gnomemeeting.schemas.in.in.h:43
+#, fuzzy
+msgid "Forward calls to the given host if no answer"
+msgstr "Amahamagara: Kuri Ubuturo NIBA Oya"
+
+#: gnomemeeting.schemas.in.in.h:44 src/pref_window.cpp:986
+msgid "Gatekeeper ID"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:45
+#, fuzzy
+msgid "Gatekeeper alias"
+msgstr "Irihimbano"
+
+#: gnomemeeting.schemas.in.in.h:46
+#, fuzzy
+msgid "Gatekeeper alias as primary alias"
+msgstr "Irihimbano Nka Irihimbano"
+
+#: gnomemeeting.schemas.in.in.h:47 src/pref_window.cpp:985
+#, fuzzy
+msgid "Gatekeeper host"
+msgstr "Ubuturo"
+
+#: gnomemeeting.schemas.in.in.h:48
+#, fuzzy
+msgid "Gatekeeper password"
+msgstr "Ijambobanga..."
+
+#: gnomemeeting.schemas.in.in.h:49
+#, fuzzy
+msgid "Gateway/proxy host"
+msgstr "Porogisi Ubuturo"
+
+#: gnomemeeting.schemas.in.in.h:50 src/pref_window.cpp:701
+#, fuzzy
+msgid ""
+"If enabled, GnomeMeeting will start hidden provided that the notification "
+"area is present in the GNOME panel"
+msgstr "Bikora Gutangira gihishwe Ikimenyetso Ubuso ni in"
+
+#: gnomemeeting.schemas.in.in.h:51
+#, fuzzy
+msgid ""
+"If enabled, a popup window will be displayed when receiving an incoming call"
+msgstr "Bikora a Idirishya Ryari:"
+
+#: gnomemeeting.schemas.in.in.h:52
+#, fuzzy
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below"
+msgstr "Bikora Byose Amahamagara: Kuri Ubuturo ni in Umwanya munsi"
+
+#: gnomemeeting.schemas.in.in.h:53
+#, fuzzy
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you already are in a call or if you are in "
+"Do Not Disturb mode"
+msgstr ""
+"Bikora Byose Amahamagara: Kuri Ubuturo ni in Umwanya munsi NIBA in a Cyangwa "
+"NIBA in Ubwoko"
+
+#: gnomemeeting.schemas.in.in.h:54
+#, fuzzy
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you do not answer the call"
+msgstr "Bikora Byose Amahamagara: Kuri Ubuturo ni in Umwanya munsi NIBA OYA"
+
+#: gnomemeeting.schemas.in.in.h:55
+#, fuzzy
+msgid "If enabled, allows video to be received during a call"
+msgstr "Bikora Videwo... Kuri BYAKIRIWE a"
+
+#: gnomemeeting.schemas.in.in.h:56 src/pref_window.cpp:780
+#, fuzzy
+msgid ""
+"If enabled, calls for which no audio and video has been received in the last "
+"30 seconds are automatically cleared"
+msgstr ""
+"Bikora Amahamagara: kugirango Oya Na Videwo... BYAKIRIWE in Iheruka "
+"amasogonda ku buryo bwikora"
+
+#: gnomemeeting.schemas.in.in.h:57
+#, fuzzy
+msgid "If enabled, register with the selected user directory"
+msgstr "Bikora Kwiyandikisha Na: Byahiswemo Ukoresha: bushyinguro"
+
+#: gnomemeeting.schemas.in.in.h:58 src/pref_window.cpp:699
+#, fuzzy
+msgid ""
+"If enabled, the splash screen will be displayed when GnomeMeeting starts"
+msgstr "Bikora Mugaragaza Ryari:"
+
+#: gnomemeeting.schemas.in.in.h:59 src/pref_window.cpp:716
+#, fuzzy
+msgid ""
+"If enabled, the text chat will automatically be cleared at the end of calls"
+msgstr "Bikora Umwandiko ku buryo bwikora ku Impera Bya Amahamagara:"
+
+#: gnomemeeting.schemas.in.in.h:60
+#, fuzzy
+msgid "If enabled, use silence detection with the GSM and G.711 codecs"
+msgstr "Bikora Gukoresha Na: Na"
+
+#: gnomemeeting.schemas.in.in.h:61
+#, fuzzy
+msgid "If enabled, video is transmitted during a call"
+msgstr "Bikora Videwo... ni a"
+
+#: gnomemeeting.schemas.in.in.h:62
+#, fuzzy
+msgid ""
+"If enabled, your details are shown to people browsing the user directory. If "
+"disabled, you are not visible to users browsing the user directory, but they "
+"can still use the callto URL to call you"
+msgstr ""
+"Bikora Birambuye Kuri Abantu Ukoresha: bushyinguro Yahagaritswe OYA "
+"Kigaragara Kuri Ukoresha: bushyinguro Gukoresha Kuri"
+
+#: gnomemeeting.schemas.in.in.h:63
+#, fuzzy
+msgid "Incoming call mode"
+msgstr "Ubwoko"
+
+#: gnomemeeting.schemas.in.in.h:64
+#, fuzzy
+msgid "Kind of network selected in the druid"
+msgstr "Bya urusobe Byahiswemo in"
+
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....BusinessCard.PrivateAddress.Name.text
+#: gnomemeeting.schemas.in.in.h:65
+msgid "Last name"
+msgstr "Izina ry'ababyeyi"
+
+#: gnomemeeting.schemas.in.in.h:66
+#, fuzzy
+msgid "Listen port"
+msgstr "Umuyoboro"
+
+#: gnomemeeting.schemas.in.in.h:67
+#, fuzzy
+msgid "Local video window size"
+msgstr "Videwo... Idirishya Ingano"
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Wizard.Agenda.Elements.Location.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Wizard.Fax.Save.AutoPath.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Wizard.Memo.Save.AutoDocName.text
+#: gnomemeeting.schemas.in.in.h:68 src/addressbook_window.cpp:1028
+msgid "Location"
+msgstr "Ahantu"
+
+#: gnomemeeting.schemas.in.in.h:69
+msgid "Maximum jitter buffer"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:70
+#, fuzzy
+msgid "Maximum video bandwidth"
+msgstr "Videwo..."
+
+#: gnomemeeting.schemas.in.in.h:71
+msgid "Minimum jitter buffer"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:72
+#, fuzzy
+msgid "Minimum transmitted video quality"
+msgstr "Videwo... Ubwiza"
+
+#: gnomemeeting.schemas.in.in.h:73
+#, fuzzy
+msgid "Missed calls history"
+msgstr "Amahamagara: Urutonde"
+
+#: gnomemeeting.schemas.in.in.h:74
+#, fuzzy
+msgid "No answer timeout"
+msgstr "Igihe cyarenze:"
+
+#: gnomemeeting.schemas.in.in.h:75
+#, fuzzy
+msgid "Number of frames for G.711"
+msgstr "Bya Amakadiri kugirango"
+
+#: gnomemeeting.schemas.in.in.h:76
+#, fuzzy
+msgid "Number of frames for GSM"
+msgstr "Bya Amakadiri kugirango"
+
+#: gnomemeeting.schemas.in.in.h:77
+#, fuzzy
+msgid "Number of frames transmitted in each packet for the G.711 codec"
+msgstr "Bya Amakadiri in kugirango"
+
+#: gnomemeeting.schemas.in.in.h:78
+#, fuzzy
+msgid "Number of frames transmitted in each packet for the GSM codec"
+msgstr "Bya Amakadiri in kugirango"
+
+#: gnomemeeting.schemas.in.in.h:79
+#, fuzzy
+msgid "Output device type"
+msgstr "APAREYE Ubwoko"
+
+#: gnomemeeting.schemas.in.in.h:80 src/pref_window.cpp:709
+#, fuzzy
+msgid "Place windows displaying video above other windows during calls"
+msgstr "Videwo... hejuru Ikindi Amahamagara:"
+
+#: gnomemeeting.schemas.in.in.h:81
+#, fuzzy
+msgid "Placed calls history"
+msgstr "Amahamagara: Urutonde"
+
+#: gnomemeeting.schemas.in.in.h:82 src/pref_window.cpp:1855
+#, fuzzy
+msgid "Play busy tone"
+msgstr "Irahuze"
+
+#: gnomemeeting.schemas.in.in.h:83 src/pref_window.cpp:1846
+#, fuzzy
+msgid "Play ring tone"
+msgstr "Kuvuza Inzogera"
+
+#: gnomemeeting.schemas.in.in.h:84 src/pref_window.cpp:1837
+#, fuzzy
+msgid "Play sound on incoming calls"
+msgstr "Ijwi ku Amahamagara:"
+
+#: gnomemeeting.schemas.in.in.h:85
+#, fuzzy
+msgid "Position of the local video window"
+msgstr "Bya Videwo... Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:86
+#, fuzzy
+msgid "Position on the screen of the PC-To-Phone window"
+msgstr "ku Mugaragaza Bya Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:87
+#, fuzzy
+msgid "Position on the screen of the address book window"
+msgstr "ku Mugaragaza Bya Aderesi Igitabo Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:88
+#, fuzzy
+msgid "Position on the screen of the calls history window"
+msgstr "ku Mugaragaza Bya Amahamagara: Urutonde Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:89
+#, fuzzy
+msgid "Position on the screen of the druid window"
+msgstr "ku Mugaragaza Bya Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:90
+#, fuzzy
+msgid "Position on the screen of the log window"
+msgstr "ku Mugaragaza Bya LOG Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:91
+#, fuzzy
+msgid "Position on the screen of the main window"
+msgstr "ku Mugaragaza Bya Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:92
+#, fuzzy
+msgid "Position on the screen of the preferences window"
+msgstr "ku Mugaragaza Bya Ibyahiswemo Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:93
+#, fuzzy
+msgid "Public IP of the NAT/PAT router"
+msgstr "Bya"
+
+#: gnomemeeting.schemas.in.in.h:94
+#, fuzzy
+msgid "Received calls history"
+msgstr "Amahamagara: Urutonde"
+
+#: gnomemeeting.schemas.in.in.h:95
+#, fuzzy
+msgid "Registering method"
+msgstr "Uburyo"
+
+#: gnomemeeting.schemas.in.in.h:96
+#, fuzzy
+msgid "Registration timeout"
+msgstr "Igihe cyarenze:"
+
+#: gnomemeeting.schemas.in.in.h:97
+#, fuzzy
+msgid "Remote video window position"
+msgstr "Videwo... Idirishya Ibirindiro"
+
+#: gnomemeeting.schemas.in.in.h:98
+#, fuzzy
+msgid "Remote video window size"
+msgstr "Videwo... Idirishya Ingano"
+
+#: gnomemeeting.schemas.in.in.h:99
+#, fuzzy
+msgid "Revision of the schema file"
+msgstr "Bya Igishushanyo IDOSIYE"
+
+#: gnomemeeting.schemas.in.in.h:100 src/pref_window.cpp:1118
+#, fuzzy
+msgid "Select the audio input device to use"
+msgstr "Iyinjiza APAREYE Kuri Gukoresha"
+
+#: gnomemeeting.schemas.in.in.h:101 src/pref_window.cpp:1111
+#, fuzzy
+msgid "Select the audio output device to use"
+msgstr "Ibisohoka APAREYE Kuri Gukoresha"
+
+#: gnomemeeting.schemas.in.in.h:102
+#, fuzzy
+msgid "Select the audio output device to use for the ring sound event."
+msgstr ""
+"Ibisohoka APAREYE Kuri Gukoresha kugirango Kuvuza Inzogera Ijwi Icyabaye"
+
+#: gnomemeeting.schemas.in.in.h:103 src/pref_window.cpp:1195
+#, fuzzy
+msgid ""
+"Select the format for video cameras (does not apply to most USB cameras)"
+msgstr "Imiterere kugirango Videwo... OYA Gukurikiza Kuri"
+
+#: gnomemeeting.schemas.in.in.h:104 src/pref_window.cpp:1193
+#, fuzzy
+msgid ""
+"Select the transmitted video size: Small (QCIF 176x144) or Large (CIF "
+"352x288)"
+msgstr "Videwo... Ingano Cyangwa"
+
+#: gnomemeeting.schemas.in.in.h:105 src/pref_window.cpp:1187
+#, fuzzy
+msgid ""
+"Select the video input device to use. If an error occurs when using this "
+"device a test picture will be transmitted."
+msgstr ""
+"Videwo... Iyinjiza APAREYE Kuri Gukoresha Ikosa Ryari: ikoresha iyi APAREYE "
+"a Igerageza() y'Ishusho"
+
+#: gnomemeeting.schemas.in.in.h:106
+#, fuzzy
+msgid "Show chat window"
+msgstr "Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:107
+#, fuzzy
+msgid "Show my details to other registered users"
+msgstr "Birambuye Kuri Ikindi"
+
+#: gnomemeeting.schemas.in.in.h:108
+#, fuzzy
+msgid "Show splash screen at startup"
+msgstr "Mugaragaza ku"
+
+#: gnomemeeting.schemas.in.in.h:109
+#, fuzzy
+msgid "Show the chat window in the main window"
+msgstr "Idirishya in Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:110
+#, fuzzy
+msgid "Size of the PC-To-Phone window"
+msgstr "Bya Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:111
+#, fuzzy
+msgid "Size of the address book window"
+msgstr "Bya Aderesi Igitabo Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:112
+#, fuzzy
+msgid "Size of the calls history window"
+msgstr "Bya Amahamagara: Urutonde Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:113
+#, fuzzy
+msgid "Size of the druid window"
+msgstr "Bya Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:114
+#, fuzzy
+msgid "Size of the log window"
+msgstr "Bya LOG Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:115
+#, fuzzy
+msgid "Size of the preferences window"
+msgstr "Bya Ibyahiswemo Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:116
+#, fuzzy
+msgid "Start hidden"
+msgstr "Gutangira gihishwe"
+
+#: gnomemeeting.schemas.in.in.h:117 src/main_window.cpp:1143
+#: src/main_window.cpp:1649 src/main_window.cpp:1674
+#, fuzzy
+msgid "Switch to fullscreen"
+msgstr "Kuri"
+
+#: gnomemeeting.schemas.in.in.h:118
+#, fuzzy
+msgid "TCP port range"
+msgstr "Umuyoboro Urutonde"
+
+#: gnomemeeting.schemas.in.in.h:119
+msgid "The Audio Codecs List"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:120 src/pref_window.cpp:1126
+#, fuzzy
+msgid ""
+"The Automatic Echo Cancellation level: Off, Low, Medium, High, Automatic "
+"Gain Compensation. Choosing Automatic Gain Compensation modulates the volume "
+"for best quality."
+msgstr "urwego Igice kugirango Ubwiza"
+
+#: gnomemeeting.schemas.in.in.h:121 src/pref_window.cpp:999
+#, fuzzy
+msgid ""
+"The Gatekeeper alias to use when registering (string, or E164 ID if only "
+"0123456789#)"
+msgstr "Irihimbano Kuri Gukoresha Ryari: Ikurikiranyanyuguti Cyangwa NIBA"
+
+#: gnomemeeting.schemas.in.in.h:122 src/pref_window.cpp:997
+#, fuzzy
+msgid "The Gatekeeper host to register with"
+msgstr "Ubuturo Kuri Kwiyandikisha Na:"
+
+#: gnomemeeting.schemas.in.in.h:123 src/pref_window.cpp:995
+#, fuzzy
+msgid "The Gatekeeper identifier to register with"
+msgstr "Ikiranga Kuri Kwiyandikisha Na:"
+
+#: gnomemeeting.schemas.in.in.h:124 src/pref_window.cpp:1002
+#, fuzzy
+msgid ""
+"The Gatekeeper password to use for H.235 authentication to the Gatekeeper"
+msgstr "Ijambobanga... Kuri Gukoresha kugirango H Kuri"
+
+#: gnomemeeting.schemas.in.in.h:125 src/pref_window.cpp:1027
+#, fuzzy
+msgid ""
+"The Gateway host is the host to use to do H.323 calls through a gateway that "
+"will relay calls"
+msgstr ""
+"Ubuturo ni Ubuturo Kuri Gukoresha Kuri H Amahamagara: Gihinguranya a "
+"Amahamagara:"
+
+#: gnomemeeting.schemas.in.in.h:126
+msgid "The STUN Server"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:127 src/pref_window.cpp:1059
+#, fuzzy
+msgid ""
+"The STUN server to use for STUN Support. STUN is a technic that permits to "
+"go through some types of NAT gateways."
+msgstr "Seriveri Kuri Gukoresha kugirango ni a Kuri Gyayo Gihinguranya Bya"
+
+#: gnomemeeting.schemas.in.in.h:128
+#, fuzzy
+msgid ""
+"The audio plugin that will be used to detect the devices and manage them"
+msgstr "Kuri Na kuyobora"
+
+#: gnomemeeting.schemas.in.in.h:129
+#, fuzzy
+msgid "The busy tone sound"
+msgstr "Irahuze Ijwi"
+
+#: gnomemeeting.schemas.in.in.h:130
+#, fuzzy
+msgid ""
+"The chosen sound will be played at the end of calls or calling somebody who "
+"is busy, if enabled"
+msgstr "Ijwi ku Impera Bya Amahamagara: Cyangwa ni Irahuze NIBA Bikora"
+
+#: gnomemeeting.schemas.in.in.h:131
+#, fuzzy
+msgid "The chosen sound will be played on incoming calls, if enabled"
+msgstr "Ijwi ku Amahamagara: NIBA Bikora"
+
+#: gnomemeeting.schemas.in.in.h:132
+#, fuzzy
+msgid "The chosen sound will be played when calling somebody, if enabled"
+msgstr "Ijwi Ryari: NIBA Bikora"
+
+#: gnomemeeting.schemas.in.in.h:133
+#, fuzzy
+msgid "The default video view"
+msgstr "Mburabuzi Videwo... Kureba"
+
+#: gnomemeeting.schemas.in.in.h:134
+#, fuzzy
+msgid ""
+"The default video view (0: Local, 1: Remote, 2: Both incrusted, 3: Both with "
+"local video in a separate window, 4: Both)"
+msgstr "Mburabuzi Videwo... Kureba 0 1. 2. 3. Na: Videwo... in a Idirishya 4."
+
+#: gnomemeeting.schemas.in.in.h:135
+#, fuzzy
+msgid "The history of the last 100 missed calls"
+msgstr "Urutonde Bya Iheruka 100 Amahamagara:"
+
+#: gnomemeeting.schemas.in.in.h:136
+#, fuzzy
+msgid "The history of the last 100 placed calls"
+msgstr "Urutonde Bya Iheruka 100 Amahamagara:"
+
+#: gnomemeeting.schemas.in.in.h:137
+#, fuzzy
+msgid "The history of the last 100 received calls"
+msgstr "Urutonde Bya Iheruka 100 BYAKIRIWE Amahamagara:"
+
+#: gnomemeeting.schemas.in.in.h:138 src/pref_window.cpp:755
+#, fuzzy
+msgid "The host where calls should be forwarded to in the cases selected above"
+msgstr "Ubuturo Amahamagara: Kuri in Byahiswemo hejuru"
+
+#: gnomemeeting.schemas.in.in.h:139 src/pref_window.cpp:1198
+#, fuzzy
+msgid ""
+"The image to transmit if \"Picture\" is selected as video plugin or if the "
+"opening of the device fails. Leave blank to use the default GnomeMeeting "
+"logo."
+msgstr ""
+"Ishusho Kuri NIBA ni Byahiswemo Nka Videwo... Cyangwa NIBA Gufungura%S Bya "
+"APAREYE Ahatanditseho Kuri Gukoresha Mburabuzi ikirango"
+
+#: gnomemeeting.schemas.in.in.h:140
+#, fuzzy
+msgid "The incoming call sound"
+msgstr "Ijwi"
+
+#: gnomemeeting.schemas.in.in.h:141
+#, fuzzy
+msgid "The local zoom value"
+msgstr "Ihindurangano Agaciro"
+
+#: gnomemeeting.schemas.in.in.h:142
+#, fuzzy
+msgid "The maximum jitter buffer size for audio reception (in ms)"
+msgstr "Kinini Ingano kugirango in"
+
+#: gnomemeeting.schemas.in.in.h:143
+#, fuzzy
+msgid ""
+"The maximum video bandwidth in kbytes/s. The video quality and the number of "
+"transmitted frames per second will be dynamically adjusted above their "
+"minimum during calls to try to minimize the bandwidth to the given value"
+msgstr ""
+"Kinini Videwo... in S Videwo... Ubwiza Na Umubare Bya Amakadiri ISEGONDA "
+"hejuru Gito Amahamagara: Kuri Kuri Kugabanya ingano Kuri Agaciro"
+
+#: gnomemeeting.schemas.in.in.h:144
+#, fuzzy
+msgid "The minimum jitter buffer size for audio reception (in ms)"
+msgstr "Gito Ingano kugirango in"
+
+#: gnomemeeting.schemas.in.in.h:146
+#, fuzzy, no-c-format
+msgid ""
+"The minimum transmitted video quality to keep when trying to minimize the "
+"used bandwidth: choose 100% on a LAN for the best quality, 1% being the "
+"worst quality"
+msgstr ""
+"Gito Videwo... Ubwiza Kuri Ryari: Kuri Kugabanya ingano Guhitamo 100 ku a "
+"kugirango Ubwiza 1. Ubwiza"
+
+#: gnomemeeting.schemas.in.in.h:147 src/pref_window.cpp:1128
+#, fuzzy
+msgid ""
+"The output device type is the type of device connected to your Quicknet "
+"card. It can be either a POTS (Plain Old Telephone System) or a headset."
+msgstr "Ibisohoka APAREYE Ubwoko ni Ubwoko Bya APAREYE Kuri a Cyangwa a"
+
+#: gnomemeeting.schemas.in.in.h:148
+#, fuzzy
+msgid ""
+"The port to listen to for incoming connections. GnomeMeeting needs to be "
+"restarted for the new value to take effect."
+msgstr ""
+"Umuyoboro Kuri Kuri kugirango Ukwihuza Kuri kugirango Gishya Agaciro Kuri "
+"INGARUKA"
+
+#: gnomemeeting.schemas.in.in.h:149
+#, fuzzy
+msgid "The position of the local video window"
+msgstr "Ibirindiro Bya Videwo... Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:150
+#, fuzzy
+msgid "The position of the remote video window"
+msgstr "Ibirindiro Bya Videwo... Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:151
+#, fuzzy
+msgid ""
+"The prefix that will be used to save pictures of the conversation. That "
+"prefix is followed by the snapshot number."
+msgstr "Imbanziriza Kuri Kubika Amashusho Bya Imbanziriza ni ku Umubare"
+
+#: gnomemeeting.schemas.in.in.h:152
+#, fuzzy
+msgid ""
+"The range of TCP ports beside the listen_port that GnomeMeeting will use for "
+"the H.245 channel. You can change the TCP port range if you are using IP "
+"translation and if you need to have several GnomeMeeting running behind your "
+"NAT/PAT router. GnomeMeeting needs to be restarted for the new values to "
+"take effect. This port range has no effect if both participants to the "
+"conference are using H.245 Tunneling."
+msgstr ""
+"Urutonde Bya Gukoresha kugirango H Guhindura>> Umuyoboro Urutonde NIBA "
+"ikoresha Umwandiko wahinduwe ururimi Na NIBA Kuri Kuri kugirango Gishya "
+"Uduciro Kuri INGARUKA Umuyoboro Urutonde Oya INGARUKA NIBA Byombi "
+"Abitabiriye Kuri ikoresha H"
+
+#: gnomemeeting.schemas.in.in.h:153
+#, fuzzy
+msgid ""
+"The range of UDP ports that GnomeMeeting will use for RTP (audio and video "
+"communication channels). You can change the UDP port range if you are using "
+"IP translation and if you need to have several GnomeMeeting running behind "
+"your NAT/PAT router. GnomeMeeting needs to be restarted for the new values "
+"to take effect."
+msgstr ""
+"Urutonde Bya Gukoresha kugirango Na Videwo... Itumanaho Guhindura>> "
+"Umuyoboro Urutonde NIBA ikoresha Umwandiko wahinduwe ururimi Na NIBA Kuri "
+"Kuri kugirango Gishya Uduciro Kuri INGARUKA"
+
+#: gnomemeeting.schemas.in.in.h:154
+#, fuzzy
+msgid ""
+"The range of UDP ports that GnomeMeeting will use when registering to "
+"gatekeepers. You can change the UDP port range if you are using IP "
+"translation and if you need to have several GnomeMeeting running behind your "
+"NAT/PAT router. GnomeMeeting needs to be restarted for the new values to "
+"take effect. This port range has no effect if you are not registering to a "
+"gatekeeper."
+msgstr ""
+"Urutonde Bya Gukoresha Ryari: Kuri Guhindura>> Umuyoboro Urutonde NIBA "
+"ikoresha Umwandiko wahinduwe ururimi Na NIBA Kuri Kuri kugirango Gishya "
+"Uduciro Kuri INGARUKA Umuyoboro Urutonde Oya INGARUKA NIBA OYA Kuri a"
+
+#: gnomemeeting.schemas.in.in.h:155 src/pref_window.cpp:1010
+#, fuzzy
+msgid "The registering method to use"
+msgstr "Uburyo Kuri Gukoresha"
+
+#: gnomemeeting.schemas.in.in.h:156
+#, fuzzy
+msgid "The remote zoom value"
+msgstr "Ihindurangano Agaciro"
+
+#: gnomemeeting.schemas.in.in.h:157
+#, fuzzy
+msgid "The ring tone sound"
+msgstr "Kuvuza Inzogera Ijwi"
+
+#: gnomemeeting.schemas.in.in.h:158
+#, fuzzy
+msgid "The save prefix"
+msgstr "Kubika Imbanziriza"
+
+#: gnomemeeting.schemas.in.in.h:159
+#, fuzzy
+msgid "The size of the local video window"
+msgstr "Ingano Bya Videwo... Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:160
+#, fuzzy
+msgid "The size of the remote video window"
+msgstr "Ingano Bya Videwo... Idirishya"
+
+#: gnomemeeting.schemas.in.in.h:161
+#, fuzzy
+msgid ""
+"The sound that will be played at the end of calls or when calling somebody "
+"who is busy, if enabled"
+msgstr "Ijwi ku Impera Bya Amahamagara: Cyangwa Ryari: ni Irahuze NIBA Bikora"
+
+#: gnomemeeting.schemas.in.in.h:162
+#, fuzzy
+msgid "The sound that will be played on incoming calls, if enabled"
+msgstr "Ijwi ku Amahamagara: NIBA Bikora"
+
+#: gnomemeeting.schemas.in.in.h:163
+#, fuzzy
+msgid "The sound that will be played when calling somebody, if enabled"
+msgstr "Ijwi Ryari: NIBA Bikora"
+
+#: gnomemeeting.schemas.in.in.h:164 src/pref_window.cpp:1006
+#, fuzzy
+msgid ""
+"The time after which GnomeMeeting will renew its registration with the "
+"gatekeeper"
+msgstr "Igihe Nyuma Ukwiyandikisha Na:"
+
+#: gnomemeeting.schemas.in.in.h:165
+#, fuzzy
+msgid "The two-letter country code of your country (e.g.: BE, UK, FR, DE, ...)"
+msgstr "g."
+
+#: gnomemeeting.schemas.in.in.h:166
+#, fuzzy
+msgid "The user directory server to register with"
+msgstr "Ukoresha: bushyinguro Seriveri Kuri Kwiyandikisha Na:"
+
+#: gnomemeeting.schemas.in.in.h:167 src/pref_window.cpp:1191
+#, fuzzy
+msgid "The video channel number to use (to select camera, tv or other sources)"
+msgstr "Videwo... Umubare Kuri Gukoresha Kuri Guhitamo Kamera Cyangwa Ikindi"
+
+#: gnomemeeting.schemas.in.in.h:168 src/pref_window.cpp:1175
+#, fuzzy
+msgid ""
+"The video plugin that will be used to detect the devices and manage them"
+msgstr "Videwo... Kuri Na kuyobora"
+
+#: gnomemeeting.schemas.in.in.h:169
+#, fuzzy
+msgid ""
+"The way to react to incoming calls: 0 displays a popup, 1 automatically "
+"answers the call, 2 automatically rejects the call and 3 forwards the call "
+"to the given URL, if any"
+msgstr ""
+"Kuri Kuri Amahamagara: 0 a 1. ku buryo bwikora 2. ku buryo bwikora Na 3. "
+"Kuri NIBA"
+
+#: gnomemeeting.schemas.in.in.h:170
+#, fuzzy
+msgid "The zoom value"
+msgstr "Ihindurangano Agaciro"
+
+#: gnomemeeting.schemas.in.in.h:171
+#, fuzzy
+msgid ""
+"The zoom value to apply to images displayed in the local video window (can "
+"be 0.50, 1.00, or 2.00)"
+msgstr ""
+"Ihindurangano Agaciro Kuri Gukurikiza Kuri Ishusho in Videwo... Idirishya 0 "
+"50% 1. Cyangwa 2."
+
+#: gnomemeeting.schemas.in.in.h:172
+#, fuzzy
+msgid ""
+"The zoom value to apply to images displayed in the main GUI (can be 0.50, "
+"1.00, or 2.00)"
+msgstr ""
+"Ihindurangano Agaciro Kuri Gukurikiza Kuri Ishusho in 0 50% 1. Cyangwa 2."
+
+#: gnomemeeting.schemas.in.in.h:173
+#, fuzzy
+msgid ""
+"The zoom value to apply to images displayed in the remote video window (can "
+"be 0.50, 1.00, or 2.00)"
+msgstr ""
+"Ihindurangano Agaciro Kuri Gukurikiza Kuri Ishusho in Videwo... Idirishya 0 "
+"50% 1. Cyangwa 2."
+
+#: gnomemeeting.schemas.in.in.h:174
+#, fuzzy
+msgid ""
+"This enables H.245 Tunnelling mode. In H.245 Tunnelling mode H.245 messages "
+"are encapsulated into the the H.225 channel (port 1720). This saves one TCP "
+"connection during calls. H.245 Tunnelling was introduced in H.323v2 and "
+"Netmeeting does not support it. Using both Fast Start and H.245 Tunnelling "
+"can crash some versions of Netmeeting."
+msgstr "H."
+
+#: gnomemeeting.schemas.in.in.h:175 src/pref_window.cpp:963
+#, fuzzy
+msgid "This enables H.245 early in the setup"
+msgstr "H in Imikorere"
+
+#: gnomemeeting.schemas.in.in.h:176
+#, fuzzy
+msgid ""
+"This enables IP checking from seconix.com and fills the IP in the public IP "
+"of the NAT/PAT gateway field of GnomeMeeting. The returned IP is only used "
+"when IP Translation is enabled. If you disable IP checking, you will have to "
+"manually enter the IP of your gateway in the GnomeMeeting preferences"
+msgstr ""
+"Bivuye com Na in Rusange Bya Umwanya Bya ni Ryari: ni Bikora Kuri Injiza Bya "
+"in Ibyahiswemo"
+
+#: gnomemeeting.schemas.in.in.h:177
+#, fuzzy
+msgid ""
+"This enables IP translation. IP translation is useful if GnomeMeeting is "
+"running behind a NAT/PAT router. You have to put the public IP of the router "
+"in the field below. If you are registered to ils.seconix.com, GnomeMeeting "
+"will automatically fetch the public IP using the ILS service. If your router "
+"natively supports H.323, you can disable this"
+msgstr ""
+"Umwandiko wahinduwe ururimi Umwandiko wahinduwe ururimi ni NIBA ni a Kuri "
+"Gushyira Rusange Bya in Umwanya munsi Kuri com ku buryo bwikora Rusange "
+"ikoresha Serivisi H iyi"
+
+#: gnomemeeting.schemas.in.in.h:178 src/pref_window.cpp:1057
+#, fuzzy
+msgid ""
+"This enables STUN Support. STUN is a technic that permits to go through some "
+"types of NAT gateways."
+msgstr "ni a Kuri Gyayo Gihinguranya Bya"
+
+#: gnomemeeting.schemas.in.in.h:179
+#, fuzzy
+msgid ""
+"This permits to set the mode for DTMFs sending. The values can be \"All"
+"\" (0), \"None\" (1), \"rfc2833\" (2), \"Signal\" (3) or \"String\" (4) "
+"(default is \"All\"). Choosing other values than \"All\", \"String\" or "
+"\"rfc2833\" disables the Text Chat"
+msgstr ""
+"Kuri Gushyiraho Ubwoko kugirango Uduciro 0 1. 2. 3. Cyangwa 4. Mburabuzi ni "
+"Ikindi Uduciro Cyangwa"
+
+#: gnomemeeting.schemas.in.in.h:180
+#, fuzzy
+msgid "Transmitted background blocks"
+msgstr "Mbuganyuma"
+
+#: gnomemeeting.schemas.in.in.h:181
+#, fuzzy
+msgid "UDP port range"
+msgstr "Umuyoboro Urutonde"
+
+#: gnomemeeting.schemas.in.in.h:182
+#, fuzzy
+msgid "Use the gateway"
+msgstr "i"
+
+#: gnomemeeting.schemas.in.in.h:183 src/pref_window.cpp:1029
+#, fuzzy
+msgid "Use the specified gateway to do calls"
+msgstr "Kuri Amahamagara:"
+
+#: gnomemeeting.schemas.in.in.h:184
+#, fuzzy
+msgid ""
+"Use this option to ensure the above alias is used as the primary alias when "
+"registering with a gatekeeper. This may be required if your gatekeeper can "
+"only perform authentication using the first alias in the list"
+msgstr ""
+"iyi Ihitamo Kuri hejuru Irihimbano ni Nka Irihimbano Ryari: Na: a Gicurasi "
+"Bya ngombwa NIBA ikoresha Itangira Irihimbano in Urutonde"
+
+# svtools/source\dialogs\filedlg2.src:STR_FILEDLG_HOME.text
+#: gnomemeeting.schemas.in.in.h:185
+#, fuzzy
+msgid "User directory"
+msgstr "Ububiko bw'ukoresha"
+
+# goodies/source\filter.vcl\eps\dlgeps.src:DLG_EXPORT_EPS.GRP_VERSION.text
+#: gnomemeeting.schemas.in.in.h:186
+msgid "Version"
+msgstr "Verisiyo"
+
+#: gnomemeeting.schemas.in.in.h:187
+msgid "Video channel"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:188
+#, fuzzy
+msgid "Video format"
+msgstr "Imiterere"
+
+#: gnomemeeting.schemas.in.in.h:189
+#, fuzzy
+msgid "Video image"
+msgstr "Ishusho"
+
+#: gnomemeeting.schemas.in.in.h:190
+#, fuzzy
+msgid "Video input device"
+msgstr "Iyinjiza APAREYE"
+
+#: gnomemeeting.schemas.in.in.h:191
+msgid "Video plugin"
+msgstr ""
+
+#: gnomemeeting.schemas.in.in.h:192
+#, fuzzy
+msgid "Video preview"
+msgstr "Igaragazambere"
+
+#: gnomemeeting.schemas.in.in.h:193
+#, fuzzy
+msgid "Video size"
+msgstr "Ingano"
+
+#: lib/about/gnome-about.c:203
+msgid "Credits"
+msgstr ""
+
+#: lib/about/gnome-about.c:235
+#, fuzzy
+msgid "Written by"
+msgstr "ku"
+
+#: lib/about/gnome-about.c:250
+#, fuzzy
+msgid "Documented by"
+msgstr "ku"
+
+#: lib/about/gnome-about.c:265
+#, fuzzy
+msgid "Translated by"
+msgstr "ku"
+
+#. Add the credits button
+#: lib/about/gnome-about.c:326
+msgid "C_redits"
+msgstr ""
+
+#: lib/about/gnome-about.c:407
+msgid "Authors"
+msgstr "Abahanzi"
+
+#: lib/about/gnome-about.c:408
+#, fuzzy
+msgid "List of authors of the programs"
+msgstr "Bya Abahanzi Bya Porogaramu"
+
+#: lib/about/gnome-about.c:421
+#, fuzzy
+msgid "Documenter entry"
+msgstr "Icyinjijwe"
+
+#: lib/about/gnome-about.c:422
+#, fuzzy
+msgid "A single documenter entry"
+msgstr "A UMWE Icyinjijwe"
+
+# offmgr/source\offapp\intro\intro.hrc:TEXT_DEFAULTABOUT.text
+#: lib/about/gnome-about.c:518
+#, fuzzy, c-format
+msgid "About %s"
+msgstr "Ibyerekeye"
+
+#: lib/dialog.c:254
+#, fuzzy
+msgid "Do not show this dialog again"
+msgstr "Ntiwongere kwerekana iki kiganiro"
+
+#: lib/gm_conf-gconf.c:155
+#, fuzzy
+msgid ""
+"An error has happened in the configuration backend.\n"
+"Maybe some of your settings won't be saved."
+msgstr "Ikosa in Iboneza Bya Amagenamiterere"
+
+#: lib/stats_drawing_area.c:362
+#, c-format
+msgid "Total: %.2f MB"
+msgstr ""
+
+#: lib/contacts/gm_contacts-zeroconf.cpp:309
+msgid "Contacts Near Me"
+msgstr ""
+
+#: src/addressbook_window.cpp:774
+msgid "Contact collision"
+msgstr ""
+
+#: src/addressbook_window.cpp:776
+#, fuzzy, c-format
+msgid ""
+"Another contact with the same speed dial already exists in your address "
+"book:\n"
+"\n"
+"<b>Name</b>: %s\n"
+"<b>URL</b>: %s\n"
+"<b>Speed Dial</b>: %s\n"
+msgstr "Umuntu Na: Umuvuduko in Aderesi Igitabo B B B B B B"
+
+# goodies/source\filter.vcl\eps\dlgeps.src:DLG_EXPORT_EPS.RB_COMPRESSION_NONE.text
+#: src/addressbook_window.cpp:776 src/addressbook_window.cpp:778
+#: src/druid.cpp:1838 src/pref_window.cpp:948
+msgid "None"
+msgstr "Nta na kimwe"
+
+#: src/addressbook_window.cpp:778
+#, fuzzy, c-format
+msgid ""
+"Another contact with similar information already exists in your address "
+"book:\n"
+"\n"
+"<b>Name</b>: %s\n"
+"<b>URL</b>: %s\n"
+"<b>Speed Dial</b>: %s\n"
+"\n"
+"Do you still want to add the contact?"
+msgstr ""
+"Umuntu Na: Ibisobanuro in Aderesi Igitabo B B B B B B Kuri Kongeramo Umuntu"
+
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_KAP_Z.8.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.8.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.8.text
+#. Translators: This is "S" as in "Status"
+#: src/addressbook_window.cpp:949
+msgid "S"
+msgstr "S"
+
+#: src/addressbook_window.cpp:960 src/pref_window.cpp:509
+msgid "Name"
+msgstr "Izina"
+
+#: src/addressbook_window.cpp:988 src/calls_history_window.cpp:737
+msgid "Software"
+msgstr ""
+
+#: src/addressbook_window.cpp:1002
+msgid "URL"
+msgstr "URL"
+
+# wizards/source\template\template.src:CorrespondenceFields+17.text
+#: src/addressbook_window.cpp:1016
+msgid "E-Mail"
+msgstr "Imeli"
+
+#: src/addressbook_window.cpp:1042
+msgid "Categories"
+msgstr "Ibyiciro"
+
+#: src/addressbook_window.cpp:1056
+msgid "Speed Dial"
+msgstr ""
+
+#: src/addressbook_window.cpp:1089
+#, fuzzy
+msgid "Name contains"
+msgstr "Kirimo"
+
+#: src/addressbook_window.cpp:1093
+#, fuzzy
+msgid "URL contains"
+msgstr "Kirimo"
+
+#: src/addressbook_window.cpp:1099
+#, fuzzy
+msgid "Belongs to category"
+msgstr "Kuri Icyiciro"
+
+#: src/addressbook_window.cpp:1474 src/addressbook_window.cpp:1504
+#: src/addressbook_window.cpp:2276 src/calls_history_window.cpp:284
+msgid "C_all Contact"
+msgstr ""
+
+#: src/addressbook_window.cpp:1479 src/addressbook_window.cpp:1509
+#, fuzzy
+msgid "_Copy URL to clipboard"
+msgstr "Kuri Ububikokoporora"
+
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\basidesh.src:RID_POPUP_BRKPROPS.text
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\tbxctl.src:RID_TOOLBOX.SID_SHOW_PROPERTYBROWSER.text
+#: src/addressbook_window.cpp:1486 src/addressbook_window.cpp:1544
+#: src/addressbook_window.cpp:2262
+#, fuzzy
+msgid "_Properties"
+msgstr "indangakintu"
+
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\basidesh.src:RID_POPUP_TABBAR.SID_BASICIDE_DELETECURRENT.text
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\brkdlg.src:RID_BASICIDE_BREAKPOINTDLG.RID_PB_DEL.text
+#: src/addressbook_window.cpp:1493 src/addressbook_window.cpp:1551
+#: src/addressbook_window.cpp:2257
+#, fuzzy
+msgid "_Delete"
+msgstr "Gusiba"
+
+#: src/addressbook_window.cpp:1516 src/addressbook_window.cpp:2286
+#: src/calls_history_window.cpp:291
+#, fuzzy
+msgid "Add Contact to _Address Book"
+msgstr "Kuri"
+
+#: src/addressbook_window.cpp:1776
+#, fuzzy, c-format
+msgid "Error while fetching users list from %s"
+msgstr "Urutonde Bivuye"
+
+#: src/addressbook_window.cpp:1780
+#, fuzzy, c-format
+msgid "Found %d user in %s"
+msgid_plural "Found %d users in %s"
+msgstr[0] "Ukoresha: in"
+
+#: src/addressbook_window.cpp:1784
+#, fuzzy, c-format
+msgid "Found %d user in %s for a total of %d users"
+msgid_plural "Found %d users in %s for a total of %d users"
+msgstr[0] "Ukoresha: in kugirango a Igiteranyo Bya"
+
+# offmgr/source\offapp\dialog\hyprlink.src:RID_SVXDLG_HYPERLINK.STR_ADDRESS.text
+#: src/addressbook_window.cpp:2221
+msgid "Address Book"
+msgstr "Agatabo k'Aderesi"
+
+# sc/source\ui\src\globstr.src:RID_GLOBSTR.STR_HFCMD_FILE.text
+#: src/addressbook_window.cpp:2248
+#, fuzzy
+msgid "_File"
+msgstr "IDOSIYE"
+
+# For address books
+#: src/addressbook_window.cpp:2250
+#, fuzzy
+msgid "New _Address Book"
+msgstr "Igitabo kya ma aderesi gishya"
+
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\macrodlg.src:RID_MACROCHOOSER.RID_PB_CLOSE.text
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\macrodlg.src:RID_STR_CLOSE.text
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\moduldlg.src:RID_TP_MODULS.RID_PB_CLOSE.text
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\moduldlg.src:RID_TP_LIBS.RID_PB_CLOSE.text
+#: src/addressbook_window.cpp:2269 src/main_window.cpp:1018
+#, fuzzy
+msgid "_Close"
+msgstr "Gufunga"
+
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is Mozilla Communicator client code, released
+# March 31, 1998.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 1998-1999
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either of the GNU General Public License Version 2 or later (the "GPL"),
+# or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# Box Headings
+#: src/addressbook_window.cpp:2274
+#, fuzzy
+msgid "C_ontact"
+msgstr "Umuntu"
+
+#: src/addressbook_window.cpp:2282
+msgid "New _Contact"
+msgstr ""
+
+#: src/addressbook_window.cpp:2359
+msgid "Remote Contacts"
+msgstr ""
+
+#: src/addressbook_window.cpp:2367
+msgid "Local Contacts"
+msgstr ""
+
+#: src/addressbook_window.cpp:2490
+#, fuzzy
+msgid "Edit the Contact Information"
+msgstr "i"
+
+# sc/source\ui\dbgui\pvfundlg.src:RID_SCDLG_PIVOTSUBT.FT_NAMELABEL.text
+#: src/addressbook_window.cpp:2511 src/addressbook_window.cpp:2971
+msgid "Name:"
+msgstr "Izina:"
+
+# offmgr/source\offapp\dialog\hyprlink.src:RID_SVXDLG_HYPERLINK.FT_URL.text
+#: src/addressbook_window.cpp:2531
+msgid "URL:"
+msgstr "URL:"
+
+#: src/addressbook_window.cpp:2551
+msgid "Email:"
+msgstr "Imeli:"
+
+#: src/addressbook_window.cpp:2572
+msgid "Speed Dial:"
+msgstr ""
+
+# sw/source\ui\misc\glossary.src:DLG_GLOSSARY.PB_BIB.text
+#: src/addressbook_window.cpp:2594
+#, fuzzy
+msgid "Categories:"
+msgstr "Ibyiciro..."
+
+#: src/addressbook_window.cpp:2619
+msgid "Local Addressbook:"
+msgstr ""
+
+#: src/addressbook_window.cpp:2780 src/addressbook_window.cpp:3274
+#, fuzzy
+msgid "Missing information"
+msgstr "Ibisobanuro"
+
+#: src/addressbook_window.cpp:2780
+#, fuzzy
+msgid ""
+"Please make sure to provide at least a full name or an URL for the contact."
+msgstr "Ubwoko Kuri ku a Izina: Cyangwa kugirango Umuntu"
+
+#: src/addressbook_window.cpp:2824
+#, fuzzy, c-format
+msgid "Are you sure you want to delete %s from %s?"
+msgstr "Kuri Gusiba Bivuye"
+
+#: src/addressbook_window.cpp:2950
+#, fuzzy
+msgid "Edit an address book"
+msgstr "Aderesi Igitabo"
+
+#: src/addressbook_window.cpp:2951
+#, fuzzy
+msgid "Add an address book"
+msgstr "Aderesi Igitabo"
+
+# sfx2/source\dialog\dinfdlg.src:TP_DOCINFODOC.FT_FILE_TYP.text
+#: src/addressbook_window.cpp:2996
+msgid "Type:"
+msgstr "Ubwoko"
+
+#: src/addressbook_window.cpp:3003
+msgid "Local"
+msgstr ""
+
+#: src/addressbook_window.cpp:3008
+msgid "Remote LDAP"
+msgstr ""
+
+#: src/addressbook_window.cpp:3013
+msgid "Remote ILS"
+msgstr ""
+
+#: src/addressbook_window.cpp:3046
+#, fuzzy
+msgid "Hostname:"
+msgstr "Izina ry'inturo:"
+
+#: src/addressbook_window.cpp:3069
+msgid "Port:"
+msgstr "Impagikiro:"
+
+#: src/addressbook_window.cpp:3094
+#, fuzzy
+msgid "Base DN:"
+msgstr "Ishingiro DN:"
+
+#: src/addressbook_window.cpp:3117
+msgid "Search Scope:"
+msgstr ""
+
+#: src/addressbook_window.cpp:3124
+#, fuzzy
+msgid "Subtree"
+msgstr "Igiti ky'ungirije"
+
+#: src/addressbook_window.cpp:3129
+#, fuzzy
+msgid "One Level"
+msgstr "Urwego rumwe"
+
+#: src/addressbook_window.cpp:3161
+msgid "Search Attribute:"
+msgstr ""
+
+#: src/addressbook_window.cpp:3274
+#, fuzzy
+msgid "Please make sure to fill in all requested fields."
+msgstr "Ubwoko Kuri Kuzuza in Byose Imyanya"
+
+#: src/addressbook_window.cpp:3317
+#, fuzzy, c-format
+msgid "Are you sure you want to delete %s and all its contacts?"
+msgstr "Kuri Gusiba Na Byose Aho kubariza"
+
+#: src/bonobo_component.cpp:114
+#, fuzzy
+msgid "Cannot run GnomeMeeting"
+msgstr "Gukoresha"
+
+#: src/bonobo_component.cpp:114
+#, fuzzy
+msgid ""
+"GnomeMeeting is already running, if you want it to call a given callto or "
+"h323 URL, please use \"gnomemeeting -c URL\"."
+msgstr "ni NIBA Kuri a Cyangwa Gukoresha C"
+
+#: src/bonobo_component.cpp:167
+#, fuzzy
+msgid ""
+"It appears that you do not have gnomemeeting.server installed in a valid "
+"location. Factory mode disabled.\n"
+msgstr "OYA Seriveri in a Byemewe Ahantu Ubwoko Yahagaritswe"
+
+#: src/bonobo_component.cpp:171
+#, fuzzy
+msgid ""
+"Error registering GnomeMeeting with the activation service; factory mode "
+"disabled.\n"
+msgstr "Na: Serivisi Ubwoko Yahagaritswe"
+
+#: src/bonobo_component.cpp:211
+#, fuzzy
+msgid "Failed to retrieve gnomemeeting server from activation server\n"
+msgstr "Kuri Seriveri Bivuye"
+
+#: src/callbacks.cpp:119
+#, fuzzy
+msgid "Code contributors:"
+msgstr "Abaterankunga"
+
+#: src/callbacks.cpp:133
+msgid "Artwork:"
+msgstr ""
+
+#: src/callbacks.cpp:137
+#, fuzzy
+msgid "Contributors:"
+msgstr "Abaterankunga"
+
+#. Translators: Please write translator credits here, and
+#. * seperate names with \n
+#: src/callbacks.cpp:173
+msgid "translator_credits"
+msgstr ""
+
+#. Translators: Please test to see if your translation
+#. * looks OK and fits within the box
+#: src/callbacks.cpp:184
+#, fuzzy
+msgid ""
+"GnomeMeeting is full-featured H.323 compatible videoconferencing, VoIP and "
+"IP-Telephony application that allows you to make audio and video calls to "
+"remote users with H.323 hardware or software."
+msgstr ""
+"ni H Na Porogaramu Kuri Ubwoko Na Videwo... Amahamagara: Kuri Na: H Cyangwa"
+
+#: src/calls_history_window.cpp:646
+msgid "Received Calls"
+msgstr ""
+
+#: src/calls_history_window.cpp:646
+msgid "Placed Calls"
+msgstr ""
+
+#: src/calls_history_window.cpp:646
+msgid "Missed Calls"
+msgstr ""
+
+#: src/calls_history_window.cpp:658 src/main_window.cpp:1164 src/tray.cpp:302
+msgid "Calls History"
+msgstr ""
+
+#: src/calls_history_window.cpp:701
+msgid "Date"
+msgstr "Itariki"
+
+#: src/calls_history_window.cpp:709
+msgid "Remote User"
+msgstr ""
+
+#: src/calls_history_window.cpp:718
+#, fuzzy
+msgid "Call Duration"
+msgstr "Igihebimara"
+
+#: src/calls_history_window.cpp:728
+#, fuzzy
+msgid "Call End Reason"
+msgstr "Impera"
+
+#. shouldn't happen...
+#: src/chat_window.cpp:240
+#, fuzzy, c-format
+msgid "---- Call begins at %s\n"
+msgstr "----ku"
+
+#. prepare the message to be displayed
+#: src/chat_window.cpp:275
+#, fuzzy, c-format
+msgid "---- Call ends at %s\n"
+msgstr "----ku"
+
+#: src/chat_window.cpp:408
+msgid "Open URI"
+msgstr ""
+
+#: src/chat_window.cpp:411 src/chat_window.cpp:427
+#, fuzzy
+msgid "Copy Link Location"
+msgstr "Koporora inturo ry'Ihuza"
+
+#: src/chat_window.cpp:423
+#, fuzzy
+msgid "Connect to"
+msgstr "Kuri"
+
+#: src/chat_window.cpp:425
+#, fuzzy
+msgid "Add to Address Book"
+msgstr "Kuri"
+
+#: src/chat_window.cpp:445
+msgid "Copy Equation"
+msgstr ""
+
+# offmgr/sdi\ofaslots.src:SID_MAIL_SEND.text
+#: src/chat_window.cpp:460
+#, fuzzy
+msgid "Send message:"
+msgstr "Kohereza Ubutumwa"
+
+#: src/config-tool-i18n.h:1
+#, fuzzy
+msgid "YES"
+msgstr "Yego"
+
+#: src/config-tool-i18n.h:2
+#, fuzzy
+msgid "Sorry, this script won't work while GnomeMeeting is running"
+msgstr "iyi IYANDIKA Akazi ni"
+
+#: src/config-tool-i18n.h:3
+#, fuzzy
+msgid "  WARNING!!!"
+msgstr "Iburira"
+
+#: src/config-tool-i18n.h:4
+#, fuzzy
+msgid ""
+"  This script will delete all user GnomeMeeting configuration,\n"
+"  including preferences that may be important! \n"
+"  The GConf daemon will be shut down, so make sure you have no\n"
+"  applications depending on it running.\n"
+"\n"
+"  Do you really want to do this?\n"
+"\n"
+"  If so, say \"YES\".\n"
+"\n"
+msgstr "Urashakakokokubikora."
+
+#: src/config-tool-i18n.h:5
+msgid "Removing $HOME/.gconf/apps/gnomemeeting"
+msgstr ""
+
+#: src/config-tool-i18n.h:6 src/config-tool-i18n.h:11
+#: src/config-tool-i18n.h:13
+#, fuzzy
+msgid "Shutting down GConf daemon"
+msgstr "Hasi"
+
+#: src/config-tool-i18n.h:7
+msgid "...Done."
+msgstr ""
+
+#: src/config-tool-i18n.h:8
+#, fuzzy
+msgid "Leaving configuration alone."
+msgstr "Iboneza"
+
+#: src/config-tool-i18n.h:9
+#, fuzzy
+msgid "Have a nice day."
+msgstr "a UMUNSI"
+
+#: src/config-tool-i18n.h:10
+#, fuzzy
+msgid ""
+"  The GConf daemon will be shut down, so make sure you have no\n"
+"  applications depending on it running.\n"
+"\n"
+"  Do you really want to do this?\n"
+"\n"
+"  If so, say \"YES\".\n"
+"\n"
+msgstr "Urashakakokokubikora."
+
+#: src/config-tool-i18n.h:12
+msgid "Removing schemas"
+msgstr ""
+
+#: src/config-tool-i18n.h:14
+msgid "Installing schemas"
+msgstr ""
+
+#: src/config-tool-i18n.h:15
+#, fuzzy
+msgid ""
+"CRITICAL ERROR -- Schema installation failed.\n"
+"Most probably you have the GConf daemon running as root.\n"
+"\n"
+"Run \"gnomemeeting-config-tool --install-schemas\" as root.\n"
+msgstr "iyinjizaporogaramu Byanze Nka Imizi Kwinjiza porogaramu Nka Imizi"
+
+#: src/config-tool-i18n.h:16
+msgid "Usage:  gnomemeeting-config-tool OPTION"
+msgstr ""
+
+#: src/config-tool-i18n.h:17
+#, fuzzy
+msgid "Fixes problems with the GnomeMeeting settings"
+msgstr "Na: Amagenamiterere"
+
+#: src/config-tool-i18n.h:18
+#, fuzzy
+msgid "  --clean                remove all user settings"
+msgstr "--GUSUKURA Gukuraho... Byose Ukoresha: Amagenamiterere"
+
+#: src/config-tool-i18n.h:19
+#, fuzzy
+msgid ""
+"  --install-schemas      install schemas with default settings (run as root)"
+msgstr ""
+"--Kwinjiza porogaramu Kwinjiza porogaramu Na: Mburabuzi Amagenamiterere "
+"Gukoresha Nka Imizi"
+
+#: src/config-tool-i18n.h:20
+#, fuzzy
+msgid ""
+"  --clean-schemas        remove schemas with default settings (run as root)"
+msgstr ""
+"--GUSUKURA Gukuraho... Na: Mburabuzi Amagenamiterere Gukoresha Nka Imizi"
+
+#: src/config-tool-i18n.h:21
+#, fuzzy
+msgid ""
+"  --fix-permissions      fix permissions of GConf repository (run as root)"
+msgstr "--Uruhushya Uruhushya Bya Gukoresha Nka Imizi"
+
+#: src/config.cpp:230 src/config.cpp:493
+#, fuzzy
+msgid "Changing this setting will only affect new calls"
+msgstr "iyi Igenamiterere Gishya Amahamagara:"
+
+#: src/config.cpp:231 src/config.cpp:494
+#, fuzzy
+msgid ""
+"You have changed a setting that doesn't permit to GnomeMeeting to apply the "
+"new change to the current call. Your new setting will only take effect for "
+"the next call."
+msgstr ""
+"Byahinduwe a Igenamiterere Kuri Kuri Gukurikiza Gishya Guhindura>> Kuri "
+"KIGEZWEHO Gishya Igenamiterere INGARUKA kugirango Komeza>>"
+
+#: src/config.cpp:301
+#, fuzzy
+msgid "H.245 Tunneling disabled"
+msgstr "H."
+
+#: src/config.cpp:302
+#, fuzzy
+msgid "H.245 Tunneling enabled"
+msgstr "H."
+
+#: src/config.cpp:333
+#, fuzzy
+msgid "Early H.245 disabled"
+msgstr "H Yahagaritswe"
+
+#: src/config.cpp:334
+#, fuzzy
+msgid "Early H.245 enabled"
+msgstr "H Bikora"
+
+#: src/config.cpp:365
+#, fuzzy
+msgid "Fast Start disabled"
+msgstr "Gutangira Yahagaritswe"
+
+#: src/config.cpp:366
+#, fuzzy
+msgid "Fast Start enabled"
+msgstr "Gutangira Bikora"
+
+#: src/config.cpp:398
+#, fuzzy
+msgid "No gateway or proxy specified"
+msgstr "Cyangwa Porogisi"
+
+#: src/config.cpp:398
+#, fuzzy
+msgid "You need to specify a host to use as gateway or proxy."
+msgstr "Kuri a Ubuturo Kuri Gukoresha Nka Cyangwa Porogisi"
+
+#: src/config.cpp:552
+msgid "Disabled silence detection"
+msgstr ""
+
+#: src/config.cpp:558
+msgid "Enabled silence detection"
+msgstr ""
+
+#: src/config.cpp:1120
+#, fuzzy
+msgid "Forward URL not specified"
+msgstr "OYA"
+
+#: src/config.cpp:1121
+#, fuzzy
+msgid ""
+"You need to specify an URL where to forward calls in the call forwarding "
+"section of the preferences!\n"
+"\n"
+"Disabling forwarding."
+msgstr "Kuri Kuri Imbere Amahamagara: in Icyiciro Bya Ibyahiswemo"
+
+#: src/connection.cpp:155
+#, fuzzy, c-format
+msgid "Opened codec %s for transmission"
+msgstr "kugirango"
+
+#: src/connection.cpp:158
+#, fuzzy, c-format
+msgid "Closed codec %s which was opened for transmission"
+msgstr "kugirango"
+
+#: src/connection.cpp:162
+#, fuzzy, c-format
+msgid "Opened codec %s for reception"
+msgstr "kugirango"
+
+#: src/connection.cpp:165
+#, fuzzy, c-format
+msgid "Closed codec %s which was opened for reception"
+msgstr "kugirango"
+
+#: src/connection.cpp:203
+#, fuzzy, c-format
+msgid "Failure opening %s for transmission, will try with next common codec"
+msgstr "Gufungura %s%S kugirango Na: Komeza>>"
+
+#: src/connection.cpp:204
+#, fuzzy, c-format
+msgid "Failure opening %s for reception, will try with next common codec"
+msgstr "Gufungura %s%S kugirango Na: Komeza>>"
+
+#: src/connection.cpp:326 src/connection.cpp:327 src/urlhandler.cpp:77
+#: src/urlhandler.cpp:78
+#, fuzzy
+msgid "Call transfer failed"
+msgstr "Byanze"
+
+#: src/connection.cpp:326
+#, fuzzy
+msgid ""
+"The remote user tried to transfer your call to another user, but it failed."
+msgstr "Ukoresha: Kuri Kuri Ukoresha: Byanze"
+
+#: src/druid.cpp:601
+#, fuzzy
+msgid ""
+"This is the GnomeMeeting general configuration druid. The following steps "
+"will set up GnomeMeeting by asking a few simple questions.\n"
+"\n"
+"Once you have completed these steps, you can always change them later by "
+"selecting Preferences in the Edit menu."
+msgstr ""
+"ni Rusange Iboneza Intambwe Gushyiraho Hejuru ku a Byoroheje Intambwe Buri "
+"gihe Guhindura>> ku in Ibikubiyemo"
+
+#: src/druid.cpp:613
+#, fuzzy, c-format
+msgid "Configuration Druid - page 1/%d"
+msgstr "Ipaji 1."
+
+#: src/druid.cpp:655
+#, fuzzy, c-format
+msgid "Personal Information - page %d/%d"
+msgstr "Ipaji"
+
+#. The user fields
+#: src/druid.cpp:668
+#, fuzzy
+msgid "Please enter your first name and your surname:"
+msgstr "Injiza Itangira Izina: Na"
+
+#: src/druid.cpp:676
+#, fuzzy
+msgid ""
+"Your first name and surname will be used when connecting to other VoIP and "
+"videoconferencing software."
+msgstr "Itangira Izina: Na Ryari: Kwihuza... Kuri Ikindi Na"
+
+#: src/druid.cpp:721
+#, fuzzy, c-format
+msgid "Callto URL - page %d/%d"
+msgstr "Ipaji"
+
+# crashrep/source\all\crashrep.lng:%ENTER_EMAIL%.text
+#: src/druid.cpp:732
+#, fuzzy
+msgid "Please enter your e-mail address:"
+msgstr "Andika Imeli yawe"
+
+#: src/druid.cpp:740
+#, fuzzy
+msgid ""
+"Your e-mail address is used when registering to the GnomeMeeting users "
+"directory. It is used to create a callto address permitting your contacts to "
+"easily call you wherever you are."
+msgstr ""
+"E Ubutumwa Aderesi ni Ryari: Kuri bushyinguro ni Kuri Kurema a Aderesi Aho "
+"kubariza Kuri"
+
+#: src/druid.cpp:749
+#, fuzzy
+msgid ""
+"I don't want to register to the GnomeMeeting users directory and get a "
+"callto address"
+msgstr "Kuri Kwiyandikisha Kuri bushyinguro Na Kubona a Aderesi"
+
+#: src/druid.cpp:798
+#, fuzzy, c-format
+msgid "Connection Type - page %d/%d"
+msgstr "Ipaji"
+
+#. The connection type
+#: src/druid.cpp:810
+#, fuzzy
+msgid "Please choose your connection type:"
+msgstr "Guhitamo Ukwihuza Ubwoko"
+
+#: src/druid.cpp:818
+#, fuzzy
+msgid ""
+"The connection type will permit determining the best quality settings that "
+"GnomeMeeting will use during calls. You can later change the settings "
+"individually in the preferences window."
+msgstr ""
+"Ukwihuza Ubwoko Ubwiza Amagenamiterere Gukoresha Amahamagara: Guhindura>> "
+"Amagenamiterere in Ibyahiswemo Idirishya"
+
+#: src/druid.cpp:856
+#, fuzzy, c-format
+msgid "NAT Type - page %d/%d"
+msgstr "Ipaji"
+
+#: src/druid.cpp:866
+#, fuzzy
+msgid "Click here to detect your NAT Type:"
+msgstr "Kuri"
+
+#: src/druid.cpp:870
+msgid "Detect NAT Type"
+msgstr ""
+
+#: src/druid.cpp:874
+#, fuzzy
+msgid ""
+"The NAT type detection will permit to assist you in configuring your NAT "
+"router to be able to do calls with GnomeMeeting."
+msgstr "Ubwoko Kuri in Kuri Kuri Amahamagara: Na:"
+
+#: src/druid.cpp:915
+#, fuzzy, c-format
+msgid "Audio Manager - page %d/%d"
+msgstr "Ipaji"
+
+#. The Audio devices
+#: src/druid.cpp:927
+#, fuzzy
+msgid "Please choose your audio manager:"
+msgstr "Guhitamo Muyobozi"
+
+#: src/druid.cpp:935
+#, fuzzy
+msgid ""
+"The audio manager is the plugin that will manage your audio devices, ALSA is "
+"probably the best choice when available."
+msgstr "Muyobozi ni kuyobora ni Ryari: Bihari"
+
+#: src/druid.cpp:974
+#, fuzzy, c-format
+msgid "Audio Devices - page %d/%d"
+msgstr "Ipaji"
+
+#. The Audio devices
+#: src/druid.cpp:986
+#, fuzzy
+msgid "Please choose the audio output device:"
+msgstr "Guhitamo Ibisohoka APAREYE"
+
+#: src/druid.cpp:994
+#, fuzzy
+msgid ""
+"The audio output device is the device managed by the audio manager that will "
+"be used to play audio."
+msgstr "Ibisohoka APAREYE ni APAREYE ku Muyobozi Kuri Gukina"
+
+#: src/druid.cpp:1004
+#, fuzzy
+msgid "Please choose the audio input device:"
+msgstr "Guhitamo Iyinjiza APAREYE"
+
+#: src/druid.cpp:1012
+#, fuzzy
+msgid ""
+"The audio input device is the device managed by the audio manager that will "
+"be used to record your voice."
+msgstr "Iyinjiza APAREYE ni APAREYE ku Muyobozi Kuri Icyabitswe"
+
+#: src/druid.cpp:1025 src/druid.cpp:1159
+#, fuzzy
+msgid "Test Settings"
+msgstr "Amagenamiterere y'isuzuma...."
+
+#: src/druid.cpp:1069
+#, fuzzy, c-format
+msgid "Video Manager - page %d/%d"
+msgstr "Ipaji"
+
+#. The Audio devices
+#: src/druid.cpp:1081
+#, fuzzy
+msgid "Please choose your video manager:"
+msgstr "Guhitamo Videwo... Muyobozi"
+
+#: src/druid.cpp:1089
+#, fuzzy
+msgid ""
+"The video manager is the plugin that will manage your video devices, "
+"Video4Linux is the most common choice if you own a webcam."
+msgstr "Videwo... Muyobozi ni kuyobora Videwo... ni NIBA a"
+
+#: src/druid.cpp:1127
+#, fuzzy, c-format
+msgid "Video Devices - page %d/%d"
+msgstr "Ipaji"
+
+#. The Video devices
+#: src/druid.cpp:1139
+#, fuzzy
+msgid "Please choose the video input device:"
+msgstr "Guhitamo Videwo... Iyinjiza APAREYE"
+
+#: src/druid.cpp:1147
+#, fuzzy
+msgid ""
+"The video input device is the device managed by the video manager that will "
+"be used to capture video."
+msgstr ""
+"Videwo... Iyinjiza APAREYE ni APAREYE ku Videwo... Muyobozi Kuri Videwo..."
+
+#: src/druid.cpp:1195
+#, fuzzy, c-format
+msgid "Configuration complete - page %d/%d"
+msgstr "Byuzuye Ipaji"
+
+#: src/druid.cpp:1432 src/druid.cpp:1692 src/druid.cpp:1709 src/druid.cpp:1775
+#: src/endpoint.cpp:1835 src/gnomemeeting.cpp:275 src/gnomemeeting.cpp:277
+#: src/gnomemeeting.cpp:279 src/sound_handling.cpp:564
+#: src/sound_handling.cpp:565 src/videograbber.cpp:310
+#: src/videograbber.cpp:566
+#, fuzzy
+msgid "No device found"
+msgstr "APAREYE Byabonetse"
+
+#: src/druid.cpp:1562
+msgid "56k Modem"
+msgstr ""
+
+# VCARD_LDAP_ISDN_TYPE
+# # @name VCARD_LDAP_ISDN_TYPE
+# # @loc None
+#: src/druid.cpp:1563
+msgid "ISDN"
+msgstr "ISDN"
+
+#: src/druid.cpp:1564
+msgid "xDSL/Cable"
+msgstr ""
+
+#: src/druid.cpp:1565
+msgid "T1/LAN"
+msgstr ""
+
+#: src/druid.cpp:1566
+msgid "Keep current settings"
+msgstr "Gumisha igenamiterere iriho"
+
+#: src/druid.cpp:1838
+#, fuzzy, c-format
+msgid ""
+"You have now finished the GnomeMeeting configuration. All the settings can "
+"be changed in the GnomeMeeting preferences. Enjoy!\n"
+"\n"
+"\n"
+"Configuration summary:\n"
+"\n"
+"Username: %s\n"
+"Connection type: %s\n"
+"Audio manager: %s\n"
+"Audio player: %s\n"
+"Audio recorder: %s\n"
+"Video manager: %s\n"
+"Video input: %s\n"
+"Callto URL: %s\n"
+msgstr ""
+"NONEAHA Byarangiye Iboneza Amagenamiterere Byahinduwe in Ibyahiswemo "
+"Inshamake Ubwoko Muyobozi Muyobozi Iyinjiza"
+
+#: src/druid.cpp:1887
+msgid "First Time Configuration Druid"
+msgstr ""
+
+#. Update the log and status bar
+#: src/endpoint.cpp:826
+#, fuzzy, c-format
+msgid "Call from %s"
+msgstr "Bivuye"
+
+#: src/endpoint.cpp:838
+#, fuzzy, c-format
+msgid "Forwarding call from %s to %s (Forward all calls)"
+msgstr "Bivuye Kuri Byose Amahamagara:"
+
+#: src/endpoint.cpp:845
+#, fuzzy, c-format
+msgid "Rejecting call from %s (Do Not Disturb)"
+msgstr "Bivuye"
+
+#: src/endpoint.cpp:857
+#, fuzzy, c-format
+msgid "Forwarding call from %s to %s (Busy)"
+msgstr "Bivuye Kuri"
+
+#. there is no forwarding, so reject the call
+#: src/endpoint.cpp:866
+#, fuzzy, c-format
+msgid "Rejecting call from %s (Busy)"
+msgstr "Bivuye"
+
+#: src/endpoint.cpp:875
+#, fuzzy, c-format
+msgid "Accepting call from %s (Auto Answer)"
+msgstr "Bivuye"
+
+#: src/endpoint.cpp:900
+#, fuzzy
+msgid "Call rejected"
+msgstr "Byanzwe"
+
+#: src/endpoint.cpp:909 src/endpoint.cpp:1313 src/endpoint.cpp:2260
+msgid "Call forwarded"
+msgstr ""
+
+#: src/endpoint.cpp:921
+#, fuzzy
+msgid "Call automatically answered"
+msgstr "ku buryo bwikora"
+
+#: src/endpoint.cpp:1001
+#, fuzzy, c-format
+msgid "Forwarding call to %s"
+msgstr "Kuri"
+
+#: src/endpoint.cpp:1012
+#, fuzzy, c-format
+msgid "Error while forwarding call to %s"
+msgstr "Kuri"
+
+#: src/endpoint.cpp:1015
+#, fuzzy
+msgid "There was an error when forwarding the call to the given host."
+msgstr "Ikosa Ryari: Kuri Ubuturo"
+
+#: src/endpoint.cpp:1104
+msgid "Connected"
+msgstr ""
+
+#: src/endpoint.cpp:1106
+#, fuzzy, c-format
+msgid "Connected with %s using %s"
+msgstr "Na: ikoresha"
+
+#: src/endpoint.cpp:1277
+#, fuzzy
+msgid "Local user cleared the call"
+msgstr "Ukoresha:"
+
+#: src/endpoint.cpp:1280
+#, fuzzy
+msgid "Remote user cleared the call"
+msgstr "Ukoresha:"
+
+#: src/endpoint.cpp:1283
+#, fuzzy
+msgid "Remote user did not accept the call"
+msgstr "Ukoresha: OYA Kwemera"
+
+#: src/endpoint.cpp:1286 src/endpoint.cpp:1289
+#, fuzzy
+msgid "Local user did not accept the call"
+msgstr "Ukoresha: OYA Kwemera"
+
+#: src/endpoint.cpp:1292
+#, fuzzy
+msgid "The Gatekeeper cleared the call"
+msgstr "i"
+
+#: src/endpoint.cpp:1295
+#, fuzzy
+msgid "Call not answered in the required time"
+msgstr "OYA in Bya ngombwa Igihe"
+
+#: src/endpoint.cpp:1298
+#, fuzzy
+msgid "Remote user has stopped calling"
+msgstr "Ukoresha: Kyahagariswe"
+
+#: src/endpoint.cpp:1301
+msgid "Abnormal call termination"
+msgstr ""
+
+#: src/endpoint.cpp:1304
+#, fuzzy
+msgid "Could not connect to remote host"
+msgstr "OYA Kwihuza Kuri Ubuturo"
+
+#: src/endpoint.cpp:1307
+msgid "Insufficient bandwidth"
+msgstr ""
+
+#: src/endpoint.cpp:1310
+msgid "No common codec"
+msgstr ""
+
+#: src/endpoint.cpp:1316
+#, fuzzy
+msgid "Security check failed"
+msgstr "Kugenzura... Byanze"
+
+#: src/endpoint.cpp:1319
+#, fuzzy
+msgid "Local user is busy"
+msgstr "Ukoresha: ni Irahuze"
+
+#: src/endpoint.cpp:1322
+#, fuzzy
+msgid "Remote user is busy"
+msgstr "Ukoresha: ni Irahuze"
+
+#: src/endpoint.cpp:1325 src/endpoint.cpp:1328
+#, fuzzy
+msgid "Congested link to remote party"
+msgstr "Ihuza Kuri"
+
+#: src/endpoint.cpp:1331 src/endpoint.cpp:1334
+#, fuzzy
+msgid "Remote user is unreachable"
+msgstr "Ukoresha: ni"
+
+#: src/endpoint.cpp:1337
+#, fuzzy
+msgid "Remote host is offline"
+msgstr "Ubuturo ni Ntibicometse kuri interineti"
+
+#: src/endpoint.cpp:1340
+msgid "Temporary failure"
+msgstr ""
+
+#: src/endpoint.cpp:1343 src/urlhandler.cpp:466 src/urlhandler.cpp:471
+#, fuzzy
+msgid "User not found"
+msgstr "OYA Byabonetse"
+
+#: src/endpoint.cpp:1347
+msgid "Call completed"
+msgstr ""
+
+#: src/endpoint.cpp:1370
+#, c-format
+msgid "Missed %d call"
+msgid_plural "Missed %d calls"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/endpoint.cpp:1670
+#, fuzzy
+msgid "Error while starting the listener"
+msgstr "i"
+
+#: src/endpoint.cpp:1670
+#, fuzzy
+msgid ""
+"You will not be able to receive incoming calls. Please check that no other "
+"program is already running on the port used by GnomeMeeting."
+msgstr ""
+"OYA Kuri Akira Amahamagara: Kugenzura... Oya Ikindi Porogaramu ni ku "
+"Umuyoboro ku"
+
+#: src/endpoint.cpp:1821
+#, fuzzy
+msgid "Attaching lid hardware to codec"
+msgstr "Kuri"
+
+#: src/endpoint.cpp:1855
+#, fuzzy, c-format
+msgid "Opened %s for recording with plugin %s"
+msgstr "kugirango Na:"
+
+#: src/endpoint.cpp:1856
+#, fuzzy, c-format
+msgid "Opened %s for playing with plugin %s"
+msgstr "kugirango Na:"
+
+#: src/endpoint.cpp:1892
+#, fuzzy
+msgid "Could not open audio channel for audio transmission"
+msgstr "OYA Gufungura kugirango"
+
+#: src/endpoint.cpp:1892
+#, fuzzy
+msgid ""
+"An error occured while trying to record from the soundcard for the audio "
+"transmission. Please check that your soundcard is not busy and that your "
+"driver supports full-duplex.\n"
+"The audio transmission has been disabled."
+msgstr ""
+"Ikosa Kuri Icyabitswe Bivuye kugirango Kugenzura... ni OYA Irahuze Na "
+"Musomyi: Inyabubiri Yahagaritswe"
+
+#: src/endpoint.cpp:1897
+#, fuzzy
+msgid "Could not open audio channel for audio reception"
+msgstr "OYA Gufungura kugirango"
+
+#: src/endpoint.cpp:1897
+#, fuzzy
+msgid ""
+"An error occured while trying to play audio to the soundcard for the audio "
+"reception. Please check that your soundcard is not busy and that your driver "
+"supports full-duplex.\n"
+"The audio reception has been disabled."
+msgstr ""
+"Ikosa Kuri Gukina Kuri kugirango Kugenzura... ni OYA Irahuze Na Musomyi: "
+"Inyabubiri Yahagaritswe"
+
+#: src/endpoint.cpp:2087
+#, fuzzy, c-format
+msgid "%.2ld:%.2ld:%.2ld  A:%.2f/%.2f   V:%.2f/%.2f"
+msgstr ""
+"%.Project- Id- Version: basctl\n"
+"POT- Creation- Date: 2003- 12- 07 17: 13+ 02\n"
+"PO- Revision- Date: 2004- 11- 04 10: 13- 0700\n"
+"Last- Translator: Language- Team:< en@ li. org> MIME- Version: 1. 0\n"
+"Content- Type: text/ plain; charset= UTF- 8\n"
+"Content- Transfer- Encoding: 8bit\n"
+"X- Generator: KBabel 1. 0\n"
+"."
+
+#: src/endpoint.cpp:2257
+#, fuzzy, c-format
+msgid "Forwarding Call to %s (No Answer)"
+msgstr "Kuri"
+
+#: src/gatekeeper.cpp:132
+#, fuzzy, c-format
+msgid "Unregistered from gatekeeper %s"
+msgstr "Bivuye"
+
+#: src/gatekeeper.cpp:148
+#, fuzzy
+msgid "Invalid gatekeeper hostname"
+msgstr "Izina ry'inturo:"
+
+#: src/gatekeeper.cpp:148
+#, fuzzy
+msgid "Please provide a hostname to use for the gatekeeper."
+msgstr "a Izina ry'inturo: Kuri Gukoresha kugirango"
+
+#: src/gatekeeper.cpp:156
+msgid "Invalid gatekeeper ID"
+msgstr ""
+
+#: src/gatekeeper.cpp:156
+#, fuzzy
+msgid "Please provide a valid ID for the gatekeeper."
+msgstr "a Byemewe kugirango"
+
+#: src/gatekeeper.cpp:199
+#, fuzzy
+msgid "Gatekeeper registration failed: duplicate alias"
+msgstr "Ukwiyandikisha Byanze Gusubiramo Irihimbano"
+
+#: src/gatekeeper.cpp:203
+#, fuzzy
+msgid "Gatekeeper registration failed: bad login/password"
+msgstr "Ukwiyandikisha Byanze Ifashayinjira Ijambobanga..."
+
+#: src/gatekeeper.cpp:206
+#, fuzzy
+msgid "Gatekeeper registration failed: transport error"
+msgstr "Ukwiyandikisha Byanze Ikosa"
+
+#: src/gatekeeper.cpp:209 src/gatekeeper.cpp:214
+#, fuzzy
+msgid "Gatekeeper registration failed"
+msgstr "Ukwiyandikisha Byanze"
+
+#: src/gatekeeper.cpp:229
+#, fuzzy, c-format
+msgid "Gatekeeper set to %s"
+msgstr "Gushyiraho Kuri"
+
+#: src/gnomemeeting.cpp:89
+#, fuzzy
+msgid "Notification area not detected"
+msgstr "Ubuso OYA"
+
+#: src/gnomemeeting.cpp:89
+#, fuzzy
+msgid ""
+"You have chosen to start GnomeMeeting hidden, however the notification area "
+"is not present in your panel, GnomeMeeting can thus not start hidden."
+msgstr ""
+"Kuri Gutangira gihishwe Ikimenyetso Ubuso ni OYA in OYA Gutangira gihishwe"
+
+#: src/gnomemeeting.cpp:154
+msgid "Answering incoming call"
+msgstr ""
+
+#: src/gnomemeeting.cpp:176
+#, fuzzy
+msgid "Trying to stop calling"
+msgstr "Kuri Guhagarara"
+
+#: src/gnomemeeting.cpp:185
+#, fuzzy
+msgid "Stopping current call"
+msgstr "KIGEZWEHO"
+
+#: src/gnomemeeting.cpp:191
+msgid "Refusing Incoming call"
+msgstr ""
+
+#. Init the address book
+#: src/gnomemeeting.cpp:424
+msgid "On This Computer"
+msgstr ""
+
+# WalletMisc.xul
+#: src/gnomemeeting.cpp:424
+msgid "Personal"
+msgstr "Bwite"
+
+#: src/gnomemeeting.cpp:482
+#, fuzzy, c-format
+msgid "Started GnomeMeeting %d.%d.%d for user %s"
+msgstr ""
+"Project- Id- Version: basctl\n"
+"POT- Creation- Date: 2003- 12- 07 17: 13+ 02\n"
+"PO- Revision- Date: 2004- 11- 04 10: 13- 0700\n"
+"Last- Translator: Language- Team:< en@ li. org> MIME- Version: 1. 0\n"
+"Content- Type: text/ plain; charset= UTF- 8\n"
+"Content- Transfer- Encoding: 8bit\n"
+"X- Generator: KBabel 1. 0\n"
+"."
+
+#: src/ils.cpp:101
+#, fuzzy
+msgid "Invalid parameters"
+msgstr "Ibishingirwaho bitari byo"
+
+#: src/ils.cpp:101
+#, fuzzy
+msgid ""
+"Please provide your first name and e-mail in the Personal Data section in "
+"order to be able to register to the users directory."
+msgstr ""
+"Itangira Izina: Na E Ubutumwa in Icyiciro in Itondekanya Kuri Kuri "
+"Kwiyandikisha Kuri bushyinguro"
+
+#: src/ils.cpp:140
+#, fuzzy
+msgid "Invalid users directory"
+msgstr "bushyinguro"
+
+#: src/ils.cpp:140
+#, fuzzy
+msgid "Operation impossible since there is no users directory specified."
+msgstr "guhera ni Oya bushyinguro"
+
+#: src/ils.cpp:226
+#, fuzzy
+msgid "Failed to parse XML file"
+msgstr "Kuri IDOSIYE"
+
+#: src/ils.cpp:226
+#, fuzzy
+msgid ""
+"There was an error while parsing the XML file. Please make sure that it is "
+"correctly installed in your system."
+msgstr "Ikosa IDOSIYE Ubwoko ni in Sisitemu"
+
+#: src/ils.cpp:237
+#, fuzzy
+msgid "Bad information"
+msgstr "Ibisobanuro"
+
+#: src/ils.cpp:237
+#, fuzzy, c-format
+msgid "Bad LDAP information from XML file: %s."
+msgstr "Ibisobanuro Bivuye IDOSIYE"
+
+#: src/ils.cpp:245
+#, fuzzy, c-format
+msgid "ILS registration failed: unable to connect to %s"
+msgstr "Ukwiyandikisha Byanze Kuri Kwihuza Kuri"
+
+#: src/ils.cpp:258
+#, fuzzy
+msgid "ILS registration failed: unable to set time limit on operations"
+msgstr "Ukwiyandikisha Byanze Kuri Gushyiraho Igihe ku Ibikorwa:"
+
+#: src/ils.cpp:270
+#, fuzzy, c-format
+msgid "ILS registration failed: failed to bind to %s"
+msgstr "Ukwiyandikisha Byanze Byanze Kuri Kuri"
+
+#: src/ils.cpp:298
+#, fuzzy, c-format
+msgid "Updated information on %s"
+msgstr "Ibisobanuro ku"
+
+#: src/ils.cpp:302
+#, fuzzy, c-format
+msgid "Unregistered from %s"
+msgstr "Bivuye"
+
+#: src/lid.cpp:114
+#, fuzzy, c-format
+msgid "Opened Quicknet device %s"
+msgstr "APAREYE"
+
+#: src/lid.cpp:135
+#, fuzzy
+msgid "Error while opening the Quicknet device."
+msgstr "Gufungura%S APAREYE"
+
+#: src/lid.cpp:135
+#, fuzzy
+msgid ""
+"Please check that your driver is correctly installed and that the device is "
+"working correctly."
+msgstr "Kugenzura... Musomyi: ni Na APAREYE ni"
+
+#: src/lid.cpp:162
+#, fuzzy, c-format
+msgid "Closed Quicknet device %s"
+msgstr "APAREYE"
+
+#: src/lid.cpp:253 src/lid.cpp:254
+#, fuzzy
+msgid "Phone is off hook"
+msgstr "ni Bidakora"
+
+#: src/lid.cpp:292 src/lid.cpp:293
+#, fuzzy
+msgid "Phone is on hook"
+msgstr "ni ku"
+
+#: src/log_window.cpp:121 src/main_window.cpp:1159
+msgid "General History"
+msgstr ""
+
+#: src/main_window.cpp:704
+#, fuzzy
+msgid ""
+"Enter an URL to call on the left, and click on this button to connect to the "
+"given URL"
+msgstr "Kuri ku Ibumoso: Na Kanda ku iyi Akabuto Kuri Kwihuza Kuri"
+
+#: src/main_window.cpp:756
+#, fuzzy
+msgid "Open text chat"
+msgstr "Umwandiko"
+
+#: src/main_window.cpp:780
+#, fuzzy
+msgid "Open control panel"
+msgstr "Igenzura"
+
+#: src/main_window.cpp:799
+#, fuzzy
+msgid "Open address book"
+msgstr "Aderesi Igitabo"
+
+#: src/main_window.cpp:820
+#, fuzzy
+msgid "Display images from your camera device"
+msgstr "Ishusho Bivuye Kamera APAREYE"
+
+#: src/main_window.cpp:846
+#, fuzzy
+msgid ""
+"Audio transmission status. During a call, click here to suspend or resume "
+"the audio transmission."
+msgstr "Imimerere a Kanda Kuri Cyangwa Gusubiramo"
+
+#: src/main_window.cpp:869
+#, fuzzy
+msgid ""
+"Video transmission status. During a call, click here to suspend or resume "
+"the video transmission."
+msgstr "Imimerere a Kanda Kuri Cyangwa Gusubiramo Videwo..."
+
+#: src/main_window.cpp:944
+msgid "C_all"
+msgstr ""
+
+#: src/main_window.cpp:946
+#, fuzzy
+msgid "C_onnect"
+msgstr "Kwihuza"
+
+#: src/main_window.cpp:946 src/tray.cpp:258
+#, fuzzy
+msgid "Create a new connection"
+msgstr "a Gishya Ukwihuza"
+
+#: src/main_window.cpp:949 src/tray.cpp:261
+#, fuzzy
+msgid "_Disconnect"
+msgstr "Gucomora"
+
+#: src/main_window.cpp:950 src/tray.cpp:262
+#, fuzzy
+msgid "Close the current connection"
+msgstr "Funga KIGEZWEHO Ukwihuza"
+
+# setup2/source\ui\pages\pipath.src:RESID_PAGE_PAGEINSTPATH.STR_FREE.text
+#: src/main_window.cpp:956 src/tray.cpp:268
+#, fuzzy
+msgid "_Available"
+msgstr "Bihari"
+
+#: src/main_window.cpp:957 src/tray.cpp:269
+#, fuzzy
+msgid "Display a popup to accept the call"
+msgstr "a Kuri Kwemera"
+
+#: src/main_window.cpp:962 src/tray.cpp:274
+msgid "Aut_o Answer"
+msgstr ""
+
+#: src/main_window.cpp:963 src/tray.cpp:275
+#, fuzzy
+msgid "Auto answer calls"
+msgstr "Amahamagara:"
+
+#: src/main_window.cpp:968 src/tray.cpp:280
+msgid "_Do Not Disturb"
+msgstr ""
+
+#: src/main_window.cpp:969 src/tray.cpp:281
+#, fuzzy
+msgid "Reject calls"
+msgstr "Gusubiramo Amahamagara:"
+
+# sch/sdi\schslots.src:SID_ROW_MOREFRONT.text
+#: src/main_window.cpp:974 src/tray.cpp:286
+#, fuzzy
+msgid "_Forward"
+msgstr "Imbere"
+
+#: src/main_window.cpp:974 src/tray.cpp:286
+#, fuzzy
+msgid "Forward calls"
+msgstr "Amahamagara:"
+
+#: src/main_window.cpp:982
+msgid "Speed dials"
+msgstr ""
+
+#: src/main_window.cpp:986 src/main_window.cpp:2889
+msgid "_Hold Call"
+msgstr ""
+
+#: src/main_window.cpp:986
+#, fuzzy
+msgid "Hold the current call"
+msgstr "KIGEZWEHO"
+
+#: src/main_window.cpp:990
+msgid "_Transfer Call"
+msgstr ""
+
+#: src/main_window.cpp:991
+#, fuzzy
+msgid "Transfer the current call"
+msgstr "KIGEZWEHO"
+
+#: src/main_window.cpp:998 src/main_window.cpp:2923
+msgid "Suspend _Audio"
+msgstr ""
+
+#: src/main_window.cpp:999
+#, fuzzy
+msgid "Suspend or resume the audio transmission"
+msgstr "Cyangwa Gusubiramo"
+
+#: src/main_window.cpp:1003 src/main_window.cpp:2925
+msgid "Suspend _Video"
+msgstr ""
+
+#: src/main_window.cpp:1004
+#, fuzzy
+msgid "Suspend or resume the video transmission"
+msgstr "Cyangwa Gusubiramo Videwo..."
+
+#: src/main_window.cpp:1011
+#, fuzzy
+msgid "_Save Current Picture"
+msgstr "Kubika"
+
+#: src/main_window.cpp:1012
+#, fuzzy
+msgid "Save a snapshot of the current video"
+msgstr "Kubika a Bya KIGEZWEHO Videwo..."
+
+#: src/main_window.cpp:1018
+#, fuzzy
+msgid "Close the GnomeMeeting window"
+msgstr "Funga Idirishya"
+
+#: src/main_window.cpp:1025 src/tray.cpp:342
+#, fuzzy
+msgid "_Quit"
+msgstr "Kuvamo"
+
+#: src/main_window.cpp:1025 src/tray.cpp:343
+msgid "Quit GnomeMeeting"
+msgstr ""
+
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\basidesh.src:RID_BASICMENU.MN_EDIT.text
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\basidesh.src:RID_BASICPLUGINMENU.MN_PLEDIT.text
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\macrodlg.src:RID_MACROCHOOSER.RID_PB_EDIT.text
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\moduldlg.src:RID_TP_MODULS.RID_PB_EDIT.text
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\moduldlg.src:RID_TP_LIBS.RID_PB_EDIT.text
+#: src/main_window.cpp:1029
+#, fuzzy
+msgid "_Edit"
+msgstr "Guhindura"
+
+#: src/main_window.cpp:1031
+msgid "Configuration Druid"
+msgstr ""
+
+#: src/main_window.cpp:1032
+#, fuzzy
+msgid "Run the configuration druid"
+msgstr "Iboneza"
+
+#: src/main_window.cpp:1039 src/tray.cpp:310
+#, fuzzy
+msgid "_Preferences"
+msgstr "Ibyahiswemo"
+
+#: src/main_window.cpp:1040 src/tray.cpp:311
+#, fuzzy
+msgid "Change your preferences"
+msgstr "Ibyahiswemo"
+
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\basidesh.src:RID_BASICMENU.MN_VIEW.text
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\basidesh.src:RID_BASICPLUGINMENU.MN_PLVIEW.text
+#: src/main_window.cpp:1045
+#, fuzzy
+msgid "_View"
+msgstr "Kureba"
+
+#: src/main_window.cpp:1047 src/pref_window.cpp:714
+msgid "Text Chat"
+msgstr ""
+
+#: src/main_window.cpp:1048
+#, fuzzy
+msgid "View/Hide the text chat window"
+msgstr "Umwandiko Idirishya"
+
+#: src/main_window.cpp:1054
+msgid "Control Panel"
+msgstr ""
+
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/sdi\schslots.src:SID_INSERT_STATISTICS.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\app\strings.src:STR_UNDO_STATISTICS.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib.src:TAB_DATA_ROW.1.TP_STAT.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib.src:TAB_DATA_LINE.1.TP_STAT.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib.src:TAB_DATA_POINT.1.TP_STAT.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\datstat.src:DLG_DATA_STAT.text
+#: src/main_window.cpp:1056 src/main_window.cpp:1260
+msgid "Statistics"
+msgstr "Sitatisitiki"
+
+#: src/main_window.cpp:1057
+#, fuzzy
+msgid "View audio/video transmission and reception statistics"
+msgstr "Videwo... Na Sitatisitiki"
+
+#: src/main_window.cpp:1062
+msgid "_Dialpad"
+msgstr ""
+
+#: src/main_window.cpp:1062
+#, fuzzy
+msgid "View the dialpad"
+msgstr "i"
+
+#: src/main_window.cpp:1067
+msgid "_Audio Settings"
+msgstr ""
+
+#: src/main_window.cpp:1068
+#, fuzzy
+msgid "View audio settings"
+msgstr "Amagenamiterere"
+
+#: src/main_window.cpp:1073
+msgid "_Video Settings"
+msgstr ""
+
+#: src/main_window.cpp:1074
+#, fuzzy
+msgid "View video settings"
+msgstr "Videwo... Amagenamiterere"
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....FilterFlags.W4W.W4W000..0.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....FilterFlags.WinWord.WW1F..0.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....FilterFlags.WinWord.WW..0.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....FilterFlags.WinWord.WW8..0.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....FilterFlags.WinWord.WWF..0.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....FilterFlags.WinWord.WWWR..0.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....FilterFlags.Writer.SW3Imp..0.text
+#: src/main_window.cpp:1079 src/pref_window.cpp:1077
+msgid "Off"
+msgstr "Bidakora"
+
+#: src/main_window.cpp:1079
+#, fuzzy
+msgid "Hide the control panel"
+msgstr "Igenzura"
+
+#: src/main_window.cpp:1087
+msgid "_Clear Text Chat"
+msgstr ""
+
+#: src/main_window.cpp:1088
+#, fuzzy
+msgid "Clear the text chat"
+msgstr "Umwandiko"
+
+#: src/main_window.cpp:1095 src/main_window.cpp:3861
+msgid "Local Video"
+msgstr ""
+
+#: src/main_window.cpp:1096
+#, fuzzy
+msgid "Local video image"
+msgstr "Videwo... Ishusho"
+
+#: src/main_window.cpp:1101 src/main_window.cpp:3867
+msgid "Remote Video"
+msgstr ""
+
+#: src/main_window.cpp:1102
+#, fuzzy
+msgid "Remote video image"
+msgstr "Videwo... Ishusho"
+
+#: src/main_window.cpp:1107
+#, fuzzy
+msgid "Both (Picture-in-Picture)"
+msgstr "in"
+
+#: src/main_window.cpp:1108 src/main_window.cpp:1114 src/main_window.cpp:1121
+#, fuzzy
+msgid "Both video images"
+msgstr "Videwo... Ishusho"
+
+#: src/main_window.cpp:1113
+#, fuzzy
+msgid "Both (Side-by-Side)"
+msgstr "ku"
+
+#: src/main_window.cpp:1120
+#, fuzzy
+msgid "Both (Both in New Windows)"
+msgstr "in"
+
+# sc/sdi\scslots.src:SID_PREVIEW_ZOOMIN.text
+#: src/main_window.cpp:1129 src/main_window.cpp:1635 src/main_window.cpp:1660
+msgid "Zoom In"
+msgstr "Ihindurangano wongera"
+
+# sfx2/sdi\sfxslots.src:SID_HELP_ZOOMIN.text
+#: src/main_window.cpp:1129 src/main_window.cpp:1635 src/main_window.cpp:1660
+msgid "Zoom in"
+msgstr "Gutubya"
+
+# sc/sdi\scslots.src:SID_PREVIEW_ZOOMOUT.text
+#: src/main_window.cpp:1133 src/main_window.cpp:1639 src/main_window.cpp:1664
+msgid "Zoom Out"
+msgstr "Ihindurangano ugabanya"
+
+# sfx2/sdi\sfxslots.src:SID_HELP_ZOOMOUT.text
+#: src/main_window.cpp:1133 src/main_window.cpp:1639 src/main_window.cpp:1664
+msgid "Zoom out"
+msgstr "Gutubura"
+
+#: src/main_window.cpp:1137 src/main_window.cpp:1643 src/main_window.cpp:1668
+msgid "Normal Size"
+msgstr ""
+
+#: src/main_window.cpp:1137 src/main_window.cpp:1643 src/main_window.cpp:1668
+#, fuzzy
+msgid "Normal size"
+msgstr "Ingano"
+
+#: src/main_window.cpp:1143 src/main_window.cpp:1649 src/main_window.cpp:1674
+msgid "Fullscreen"
+msgstr ""
+
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\basidesh.src:RID_BASICMENU.MN_EXTRA.text
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\basidesh.src:RID_BASICPLUGINMENU.MN_PLEXTRA.text
+#: src/main_window.cpp:1149
+#, fuzzy
+msgid "_Tools"
+msgstr "Ibikoresho"
+
+# offmgr/source\offapp\dialog\hyprlink.src:RID_SVXDLG_HYPERLINK.STR_ADDRESS.text
+#: src/main_window.cpp:1151 src/tray.cpp:294
+#, fuzzy
+msgid "Address _Book"
+msgstr "Agatabo k'Aderesi"
+
+#: src/main_window.cpp:1152 src/tray.cpp:295
+#, fuzzy
+msgid "Open the address book"
+msgstr "Aderesi Igitabo"
+
+#: src/main_window.cpp:1160
+#, fuzzy
+msgid "View the operations history"
+msgstr "Ibikorwa: Urutonde"
+
+#: src/main_window.cpp:1165 src/tray.cpp:303
+#, fuzzy
+msgid "View the calls history"
+msgstr "Amahamagara: Urutonde"
+
+#: src/main_window.cpp:1172
+msgid "PC-To-Phone Account"
+msgstr ""
+
+#: src/main_window.cpp:1173
+#, fuzzy
+msgid "Manage your PC-To-Phone account"
+msgstr "Aderesi"
+
+#: src/main_window.cpp:1178
+#, fuzzy
+msgid "_Help"
+msgstr "Ifashayobora"
+
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\dbgui\validate.src:TP_VALIDATION_INPUTHELP.FL_CONTENT.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\dbgui\validate.src:TP_VALIDATION_ERROR.FL_CONTENT.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\navipi\navipi.src:RID_SCDLG_NAVIGATOR.TBX_CMD.IID_ZOOMOUT.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\navipi\navipi.src:SCSTR_CONTENT_ROOT.text
+#: src/main_window.cpp:1181 src/main_window.cpp:1192 src/tray.cpp:319
+#: src/tray.cpp:330
+#, fuzzy
+msgid "_Contents"
+msgstr "Ibigize"
+
+#: src/main_window.cpp:1182 src/main_window.cpp:1193 src/tray.cpp:320
+#: src/tray.cpp:331
+#, fuzzy
+msgid "Get help by reading the GnomeMeeting manual"
+msgstr "Ifashayobora ku Bikorwa"
+
+#: src/main_window.cpp:1186 src/main_window.cpp:1197 src/tray.cpp:324
+#: src/tray.cpp:335
+#, fuzzy
+msgid "_About"
+msgstr "Bigyanye"
+
+#: src/main_window.cpp:1187 src/main_window.cpp:1198 src/tray.cpp:325
+#: src/tray.cpp:336
+#, fuzzy
+msgid "View information about GnomeMeeting"
+msgstr "Ibisobanuro Ibyerekeye"
+
+#: src/main_window.cpp:1255 src/main_window.cpp:4051
+#, fuzzy
+msgid ""
+"Lost packets:\n"
+"Late packets:\n"
+"Round-trip delay:\n"
+"Jitter buffer:"
+msgstr "Gutinda"
+
+#: src/main_window.cpp:1324
+msgid "Dialpad"
+msgstr ""
+
+#: src/main_window.cpp:1380
+#, fuzzy
+msgid "Adjust brightness"
+msgstr "Urumuri"
+
+#: src/main_window.cpp:1403
+msgid "Adjust whiteness"
+msgstr ""
+
+#: src/main_window.cpp:1426
+#, fuzzy
+msgid "Adjust color"
+msgstr "Ibara"
+
+#: src/main_window.cpp:1449
+#, fuzzy
+msgid "Adjust contrast"
+msgstr "Inyuranyamigaragarire"
+
+# 6474
+#: src/main_window.cpp:1458
+msgid "Video"
+msgstr "inyerekanamashusho"
+
+#: src/main_window.cpp:1536
+msgid "Audio"
+msgstr ""
+
+#: src/main_window.cpp:2085
+#, c-format
+msgid "Sent DTMF %s"
+msgstr ""
+
+#: src/main_window.cpp:2873
+msgid "_Retrieve Call"
+msgstr ""
+
+#: src/main_window.cpp:2927
+msgid "Resume _Audio"
+msgstr ""
+
+#: src/main_window.cpp:2929
+msgid "Resume _Video"
+msgstr ""
+
+#: src/main_window.cpp:3545
+#, fuzzy
+msgid "Transfer call to:"
+msgstr "Kuri"
+
+#: src/main_window.cpp:3546 src/main_window.cpp:3619
+msgid "Transfer"
+msgstr ""
+
+#: src/main_window.cpp:3617
+msgid "Reject"
+msgstr "Byanzwe"
+
+#: src/main_window.cpp:3621
+msgid "Accept"
+msgstr "Kwemera"
+
+#: src/main_window.cpp:3629
+#, fuzzy
+msgid "Incoming call from"
+msgstr "Bivuye"
+
+#: src/main_window.cpp:3642
+msgid "Remote URL:"
+msgstr ""
+
+#: src/main_window.cpp:3654
+msgid "Remote Application:"
+msgstr ""
+
+#: src/main_window.cpp:3981
+#, fuzzy
+msgid "Click to clear"
+msgstr "Kuri Gusiba"
+
+#: src/main_window.cpp:4077
+#, fuzzy, c-format
+msgid ""
+"Lost packets: %.1f %%\n"
+"Late packets: %.1f %%\n"
+"Round-trip delay: %d ms\n"
+"Jitter buffer: %d ms"
+msgstr "Gutinda"
+
+#: src/main_window.cpp:4189
+#, fuzzy
+msgid "Prints debug messages in the console (level between 1 and 6)"
+msgstr "Kosora amakosa Ubutumwa in urwego hagati 1. Na 6"
+
+#: src/main_window.cpp:4192
+#, fuzzy
+msgid "Makes GnomeMeeting call the given URL"
+msgstr "i"
+
+#: src/main_window.cpp:4227
+msgid "No usable audio plugin detected"
+msgstr ""
+
+#: src/main_window.cpp:4227
+#, fuzzy
+msgid ""
+"GnomeMeeting didn't find any usable audio plugin. Make sure that your "
+"installation is correct."
+msgstr "Gushaka iyinjizaporogaramu ni"
+
+#: src/main_window.cpp:4249
+#, fuzzy, c-format
+msgid ""
+"GnomeMeeting got an invalid value for the GConf key %s.\n"
+"\n"
+"It probably means that your GConf schemas have not been correctly installed "
+"or the that permissions are not correct.\n"
+"\n"
+"Please check the FAQ (http://www.gnomemeeting.org/faq.php), the "
+"throubleshoot section of the GConf site (http://www.gnome.org/projects/"
+"gconf/) or the mailing list archives for more information (http://mail.gnome."
+"org) about this problem."
+msgstr ""
+"Sibyo Agaciro kugirango Urufunguzo OYA Cyangwa Uruhushya OYA Kugenzura... "
+"HTTP www org Icyiciro Bya Ipaji HTTP www org Cyangwa Urutonde Ubushyinguro "
+"kugirango Birenzeho Ibisobanuro HTTP Ubutumwa org Ibyerekeye iyi"
+
+#: src/main_window.cpp:4252
+#, fuzzy
+msgid "Gconf key error"
+msgstr "Urufunguzo Ikosa"
+
+#: src/misc.cpp:113
+#, fuzzy
+msgid "Generic error"
+msgstr "Ikosa"
+
+# sw/source\ui\index\cnttab.src:TP_TOX_ENTRY.WIN_TOKEN.STR_TOKEN_AUTHORITY.text
+#: src/pref_window.cpp:495 src/pref_window.cpp:853
+msgid "A"
+msgstr "A"
+
+#: src/pref_window.cpp:520
+msgid "Bandwidth"
+msgstr ""
+
+#: src/pref_window.cpp:642
+msgid "Personal Information"
+msgstr ""
+
+# officecfg/registry\data\org\openoffice\Office\DataAccess.xcu:..DataAccess.DriverSettings.com.sun.star.comp.sdbc.MozabDriver.ColumnAliases.FirstName.text
+#: src/pref_window.cpp:647
+#, fuzzy
+msgid "_First name:"
+msgstr "Izina ry'idini"
+
+#: src/pref_window.cpp:654
+msgid "Sur_name:"
+msgstr ""
+
+#: src/pref_window.cpp:656
+msgid "Enter your surname"
+msgstr ""
+
+#: src/pref_window.cpp:661
+#, fuzzy
+msgid "E-_mail address:"
+msgstr "Aderesi Imeli"
+
+# padmin/source\padialog.src:RID_PADIALOG.RID_PA_TXT_COMMENT.text
+#: src/pref_window.cpp:668
+#, fuzzy
+msgid "_Comment:"
+msgstr "Icyo wongeraho"
+
+#: src/pref_window.cpp:670
+#, fuzzy
+msgid "Enter a comment about yourself"
+msgstr "a Icyo wongeraho Ibyerekeye"
+
+# padmin/source\padialog.src:RID_PADIALOG.RID_PA_TXT_LOCATION.text
+#: src/pref_window.cpp:675
+#, fuzzy
+msgid "_Location:"
+msgstr "Intaho:"
+
+#: src/pref_window.cpp:677
+#, fuzzy
+msgid "Enter your country or city"
+msgstr "Igihugu Cyangwa Umujyi"
+
+# offmgr/source\offapp\dialog\fontsubs.src:RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTAPPLY.text
+#. Add the update button
+#: src/pref_window.cpp:683 src/pref_window.cpp:1012 src/pref_window.cpp:1061
+#, fuzzy
+msgid "_Apply"
+msgstr "Gukurikiza"
+
+#: src/pref_window.cpp:683
+#, fuzzy
+msgid ""
+"Click here to update the users directory you are registered to with the new "
+"First Name, Last Name, E-Mail, Comment and Location or to update your alias "
+"on the Gatekeeper"
+msgstr ""
+"Kuri Kuvugurura bushyinguro Kuri Na: Gishya E Na Cyangwa Kuri Kuvugurura "
+"Irihimbano ku"
+
+#: src/pref_window.cpp:697
+msgid "GnomeMeeting GUI"
+msgstr ""
+
+#: src/pref_window.cpp:699
+#, fuzzy
+msgid "_Show splash screen"
+msgstr "Mugaragaza"
+
+#: src/pref_window.cpp:701
+#, fuzzy
+msgid "Start _hidden"
+msgstr "Gutangira gihishwe"
+
+#: src/pref_window.cpp:707
+msgid "Video Display"
+msgstr ""
+
+#: src/pref_window.cpp:709
+#, fuzzy
+msgid "Place windows displaying video _above other windows"
+msgstr "Videwo... hejuru Ikindi"
+
+#: src/pref_window.cpp:729
+msgid "Users Directory"
+msgstr ""
+
+#. Add all the fields
+#: src/pref_window.cpp:733
+#, fuzzy
+msgid "Users directory:"
+msgstr "bushyinguro"
+
+#: src/pref_window.cpp:733
+#, fuzzy
+msgid "The users directory server to register with"
+msgstr "bushyinguro Seriveri Kuri Kwiyandikisha Na:"
+
+#: src/pref_window.cpp:735
+msgid "Enable _registering"
+msgstr ""
+
+#: src/pref_window.cpp:735
+#, fuzzy
+msgid "If enabled, register with the selected users directory"
+msgstr "Bikora Kwiyandikisha Na: Byahiswemo bushyinguro"
+
+#: src/pref_window.cpp:737
+#, fuzzy
+msgid "_Publish my details in the users directory when registering"
+msgstr "Birambuye in bushyinguro Ryari:"
+
+#: src/pref_window.cpp:737
+#, fuzzy
+msgid ""
+"If enabled, your details are shown to people browsing the users directory. "
+"If disabled, you are not visible to users browsing the users directory, but "
+"they can still use the callto URL to call you."
+msgstr ""
+"Bikora Birambuye Kuri Abantu bushyinguro Yahagaritswe OYA Kigaragara Kuri "
+"bushyinguro Gukoresha Kuri"
+
+#: src/pref_window.cpp:750 src/pref_window.cpp:1931
+msgid "Call Forwarding"
+msgstr ""
+
+#: src/pref_window.cpp:755
+#, fuzzy
+msgid "Forward calls to _host:"
+msgstr "Amahamagara: Kuri Ubuturo"
+
+#: src/pref_window.cpp:760
+#, fuzzy
+msgid "_Always forward calls to the given host"
+msgstr "Imbere Amahamagara: Kuri Ubuturo"
+
+#: src/pref_window.cpp:760
+#, fuzzy
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field above"
+msgstr "Bikora Byose Amahamagara: Kuri Ubuturo ni in Umwanya hejuru"
+
+#: src/pref_window.cpp:762
+#, fuzzy
+msgid "Forward calls to the given host if _no answer"
+msgstr "Amahamagara: Kuri Ubuturo NIBA Oya"
+
+#: src/pref_window.cpp:762
+#, fuzzy
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field above if you do not answer the call"
+msgstr "Bikora Byose Amahamagara: Kuri Ubuturo ni in Umwanya hejuru NIBA OYA"
+
+#: src/pref_window.cpp:764
+#, fuzzy
+msgid "Forward calls to the given host if _busy"
+msgstr "Amahamagara: Kuri Ubuturo NIBA Irahuze"
+
+#: src/pref_window.cpp:764
+#, fuzzy
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field above if you already are in a call or if you are in "
+"Do Not Disturb mode"
+msgstr ""
+"Bikora Byose Amahamagara: Kuri Ubuturo ni in Umwanya hejuru NIBA in a "
+"Cyangwa NIBA in Ubwoko"
+
+#: src/pref_window.cpp:776 src/pref_window.cpp:1912
+msgid "Call Options"
+msgstr ""
+
+#. Add all the fields
+#: src/pref_window.cpp:780
+#, fuzzy
+msgid "Automatically _clear calls after 30 seconds of inactivity"
+msgstr "Gusiba Amahamagara: Nyuma amasogonda Bya"
+
+#. Translators: the full sentence is Reject or forward
+#. unanswered incoming calls after X s (seconds)
+#: src/pref_window.cpp:784
+#, fuzzy
+msgid "Reject or forward unanswered incoming calls after "
+msgstr "Gusubiramo Cyangwa Imbere Amahamagara: Nyuma"
+
+# offmgr/source\offapp\dialog\optgdlg.src:OFA_TP_MISC.FT_HELPAGENT_TIME_UNIT.text
+#: src/pref_window.cpp:784
+msgid "seconds"
+msgstr "amasogonda"
+
+#: src/pref_window.cpp:816
+msgid "GnomeMeeting Sound Events"
+msgstr ""
+
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\dialog\eventdlg.src:TP_CONFIG_EVENT.STR_EVENT.text
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\dialog\macropg.src:RID_SFX_TP_MACROASSIGN.STR_EVENT.text
+#: src/pref_window.cpp:865 src/pref_window.cpp:874 src/pref_window.cpp:883
+msgid "Event"
+msgstr "Icyabaye"
+
+#: src/pref_window.cpp:894
+#, fuzzy
+msgid "Sound to play:"
+msgstr "Kuri Gukina"
+
+#: src/pref_window.cpp:907
+msgid "Play"
+msgstr "Gukina"
+
+#: src/pref_window.cpp:930
+msgid "Ring Output Device"
+msgstr ""
+
+#: src/pref_window.cpp:936
+#, fuzzy
+msgid "Ring Output device:"
+msgstr "APAREYE"
+
+#: src/pref_window.cpp:936
+#, fuzzy
+msgid "Select the audio output device to use for the ring sound event"
+msgstr ""
+"Ibisohoka APAREYE Kuri Gukoresha kugirango Kuvuza Inzogera Ijwi Icyabaye"
+
+# basctl/source\basicide\basidesh.src:RID_STR_ALL.text
+#: src/pref_window.cpp:947
+msgid "All"
+msgstr "Byose"
+
+#: src/pref_window.cpp:949
+msgid "rfc2833"
+msgstr ""
+
+#: src/pref_window.cpp:950
+msgid "Signal"
+msgstr ""
+
+# svx/source\options\optcolor.src:RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.text
+#: src/pref_window.cpp:951
+msgid "String"
+msgstr "Ikurikiranyanyuguti"
+
+#: src/pref_window.cpp:958
+#, fuzzy
+msgid "H.323 Version 2 Settings"
+msgstr "H."
+
+#. The toggles
+#: src/pref_window.cpp:961
+#, fuzzy
+msgid "Enable H.245 _tunneling"
+msgstr "H"
+
+#: src/pref_window.cpp:961
+#, fuzzy
+msgid ""
+"This enables H.245 Tunneling mode. In H.245 Tunneling mode H.245 messages "
+"are encapsulated into the the H.225 channel (port 1720). This saves one TCP "
+"connection during calls. H.245 Tunneling was introduced in H.323v2 and "
+"Netmeeting does not support it. Using both Fast Start and H.245 Tunneling "
+"can crash some versions of Netmeeting."
+msgstr "H."
+
+#: src/pref_window.cpp:963
+#, fuzzy
+msgid "Enable _early H.245"
+msgstr "H"
+
+#: src/pref_window.cpp:965
+#, fuzzy
+msgid "Enable fast _start procedure"
+msgstr "Byihuta Gutangira"
+
+#: src/pref_window.cpp:965
+#, fuzzy
+msgid ""
+"Connection will be established in Fast Start mode. Fast Start is a new way "
+"to start calls faster that was introduced in H.323v2. It is not supported by "
+"Netmeeting and using both Fast Start and H.245 Tunneling can crash some "
+"versions of Netmeeting."
+msgstr ""
+"in Gutangira Ubwoko Gutangira ni a Gishya Kuri Gutangira Amahamagara: in H "
+"ni OYA ku Na ikoresha Byombi Gutangira Na H Uburyo Bya"
+
+#: src/pref_window.cpp:971
+msgid "DTMF Sending"
+msgstr ""
+
+#: src/pref_window.cpp:973
+#, fuzzy
+msgid "_Send DTMF as:"
+msgstr "Nka"
+
+#: src/pref_window.cpp:973
+#, fuzzy
+msgid ""
+"This permits to set the mode for DTMFs sending. The values can be \"All\", "
+"\"None\", \"rfc2833\", \"Signal\" or \"String\" (default is \"All\"). "
+"Choosing other values than \"All\", \"String\" or \"rfc2833\" disables the "
+"Text Chat."
+msgstr ""
+"Kuri Gushyiraho Ubwoko kugirango Uduciro Cyangwa Mburabuzi ni Ikindi Uduciro "
+"Cyangwa"
+
+#: src/pref_window.cpp:984
+#, fuzzy
+msgid "Do not register"
+msgstr "OYA Kwiyandikisha"
+
+#: src/pref_window.cpp:987
+msgid "Automatically discover"
+msgstr ""
+
+#: src/pref_window.cpp:993
+msgid "Gatekeeper"
+msgstr ""
+
+#: src/pref_window.cpp:995
+msgid "Gatekeeper _ID:"
+msgstr ""
+
+#: src/pref_window.cpp:997
+#, fuzzy
+msgid "Gatekeeper _host:"
+msgstr "Ubuturo"
+
+#: src/pref_window.cpp:999
+#, fuzzy
+msgid "Gatekeeper _alias:"
+msgstr "Irihimbano"
+
+#: src/pref_window.cpp:1002
+#, fuzzy
+msgid "Gatekeeper _password:"
+msgstr "Ijambobanga..."
+
+#. Translators: the full sentence is Registration timeout of X minutes
+#: src/pref_window.cpp:1006
+#, fuzzy
+msgid "Registration timeout of"
+msgstr "Igihe cyarenze: Bya"
+
+#: src/pref_window.cpp:1006
+msgid "minutes"
+msgstr "iminota"
+
+#: src/pref_window.cpp:1008
+#, fuzzy
+msgid "Register this alias as the primary alias with the gatekeeper"
+msgstr "iyi Irihimbano Nka Irihimbano Na:"
+
+#: src/pref_window.cpp:1008
+#, fuzzy
+msgid ""
+"Use this option to ensure the above alias is used as the primary alias when "
+"registering with a gatekeeper. This may be required if your gatekeeper can "
+"only perform authentication using the first alias in the list."
+msgstr ""
+"iyi Ihitamo Kuri hejuru Irihimbano ni Nka Irihimbano Ryari: Na: a Gicurasi "
+"Bya ngombwa NIBA ikoresha Itangira Irihimbano in Urutonde"
+
+#: src/pref_window.cpp:1010
+#, fuzzy
+msgid "Registering method:"
+msgstr "Uburyo"
+
+#: src/pref_window.cpp:1012
+#, fuzzy
+msgid "Click here to update your Gatekeeper settings"
+msgstr "Kuri Kuvugurura Amagenamiterere"
+
+#: src/pref_window.cpp:1025
+msgid "Gateway/Proxy"
+msgstr ""
+
+#: src/pref_window.cpp:1027
+#, fuzzy
+msgid "Gateway / Proxy host:"
+msgstr "Ubuturo"
+
+#: src/pref_window.cpp:1029
+#, fuzzy
+msgid "Use gateway or proxy"
+msgstr "Cyangwa Porogisi"
+
+#: src/pref_window.cpp:1043
+msgid "IP Translation"
+msgstr ""
+
+#: src/pref_window.cpp:1045
+#, fuzzy
+msgid "Enable IP _translation"
+msgstr "Umwandiko wahinduwe ururimi"
+
+#: src/pref_window.cpp:1045
+#, fuzzy
+msgid ""
+"This enables IP translation. IP translation is useful if GnomeMeeting is "
+"running behind a NAT/PAT router. You have to put the public IP of the router "
+"in the field below. If you are registered to ils.seconix.com, GnomeMeeting "
+"will automatically fetch the public IP using the ILS service. If your router "
+"natively supports H.323, you can disable this."
+msgstr ""
+"Umwandiko wahinduwe ururimi Umwandiko wahinduwe ururimi ni NIBA ni a Kuri "
+"Gushyira Rusange Bya in Umwanya munsi Kuri com ku buryo bwikora Rusange "
+"ikoresha Serivisi H iyi"
+
+#: src/pref_window.cpp:1047
+#, fuzzy
+msgid "Enable _automatic IP checking"
+msgstr "Byikoresha"
+
+#: src/pref_window.cpp:1047
+#, fuzzy
+msgid ""
+"This enables IP checking from seconix.com and fills the IP in the public IP "
+"of the NAT/PAT gateway field of GnomeMeeting. The returned IP is only used "
+"when IP Translation is enabled. If you disable IP checking, you will have to "
+"manually enter the IP of your gateway in the GnomeMeeting preferences."
+msgstr ""
+"Bivuye com Na in Rusange Bya Umwanya Bya ni Ryari: ni Bikora Kuri Injiza Bya "
+"in Ibyahiswemo"
+
+#: src/pref_window.cpp:1049
+#, fuzzy
+msgid "Public _IP of the NAT/PAT router:"
+msgstr "Bya"
+
+#: src/pref_window.cpp:1049
+#, fuzzy
+msgid ""
+"Enter the public IP of your NAT/PAT router if you want to use IP "
+"translation. If you are registered to ils.seconix.com, GnomeMeeting will "
+"automatically fetch the public IP using the ILS service."
+msgstr ""
+"Rusange Bya NIBA Kuri Gukoresha Umwandiko wahinduwe ururimi Kuri com ku "
+"buryo bwikora Rusange ikoresha Serivisi"
+
+#: src/pref_window.cpp:1055
+msgid "STUN Support"
+msgstr ""
+
+#: src/pref_window.cpp:1057
+msgid "Enable _STUN Support"
+msgstr ""
+
+#: src/pref_window.cpp:1059
+msgid "STUN Se_rver:"
+msgstr ""
+
+#: src/pref_window.cpp:1061
+#, fuzzy
+msgid "Click here to update your STUN Server settings"
+msgstr "Kuri Kuvugurura Amagenamiterere"
+
+# sfx2/source\dialog\mailwindow.src:RID_MAIL_WINDOW.LB_MAILWIN_PRIO.4.text
+#: src/pref_window.cpp:1078
+msgid "Low"
+msgstr "Byo hasi"
+
+#: src/pref_window.cpp:1079
+msgid "Medium"
+msgstr "Hagati"
+
+# 2806
+#: src/pref_window.cpp:1080
+msgid "High"
+msgstr "kirekire"
+
+#: src/pref_window.cpp:1081
+msgid "AGC"
+msgstr ""
+
+#: src/pref_window.cpp:1084
+msgid "POTS"
+msgstr ""
+
+#: src/pref_window.cpp:1085
+msgid "Headset"
+msgstr ""
+
+#: src/pref_window.cpp:1093
+msgid "Audio Plugin"
+msgstr ""
+
+#: src/pref_window.cpp:1098
+msgid "Audio plugin:"
+msgstr ""
+
+#: src/pref_window.cpp:1098
+#, fuzzy
+msgid ""
+"The audio plugin that will be used to detect the devices and manage them."
+msgstr "Kuri Na kuyobora"
+
+#: src/pref_window.cpp:1104 src/pref_window.cpp:1956
+msgid "Audio Devices"
+msgstr ""
+
+#: src/pref_window.cpp:1111
+#, fuzzy
+msgid "Output device:"
+msgstr "APAREYE"
+
+#: src/pref_window.cpp:1118 src/pref_window.cpp:1187
+#, fuzzy
+msgid "Input device:"
+msgstr "APAREYE"
+
+#: src/pref_window.cpp:1124
+msgid "Quicknet Hardware"
+msgstr ""
+
+#: src/pref_window.cpp:1126
+msgid "Echo _cancellation:"
+msgstr ""
+
+#: src/pref_window.cpp:1128
+#, fuzzy
+msgid "Output device type:"
+msgstr "APAREYE Ubwoko"
+
+#: src/pref_window.cpp:1131
+#, fuzzy
+msgid "Country _code:"
+msgstr "ITEGEKONGENGA"
+
+#: src/pref_window.cpp:1131
+#, fuzzy
+msgid ""
+"The two-letter country code of your country (e.g.: BE, UK, FR, DE, ...)."
+msgstr "g."
+
+#. That button will refresh the devices list
+#: src/pref_window.cpp:1138 src/pref_window.cpp:1212
+msgid "_Detect devices"
+msgstr ""
+
+#: src/pref_window.cpp:1138
+#, fuzzy
+msgid "Click here to refresh the devices list"
+msgstr "Kuri Kugira gishya Urutonde"
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....View.Window.Flag..02.text
+#: src/pref_window.cpp:1156
+msgid "Small"
+msgstr "Gitoya"
+
+# offmgr/source\offapp\dialog\optgdlg.src:OFA_TP_VIEW.LB_BIG.3.text
+#: src/pref_window.cpp:1157
+msgid "Large"
+msgstr "Binini"
+
+#: src/pref_window.cpp:1159
+msgid "PAL (Europe)"
+msgstr ""
+
+#: src/pref_window.cpp:1160
+msgid "NTSC (America)"
+msgstr ""
+
+#: src/pref_window.cpp:1161
+msgid "SECAM (France)"
+msgstr ""
+
+#: src/pref_window.cpp:1162
+msgid "Auto"
+msgstr "mwi-/nyamwi-"
+
+#: src/pref_window.cpp:1171
+msgid "Video Plugin"
+msgstr ""
+
+#: src/pref_window.cpp:1175
+msgid "Video plugin:"
+msgstr ""
+
+#: src/pref_window.cpp:1181 src/pref_window.cpp:1960
+msgid "Video Devices"
+msgstr ""
+
+#. Video Channel
+#: src/pref_window.cpp:1191
+msgid "Channel:"
+msgstr ""
+
+# sfx2/source\dialog\dinfdlg.src:TP_DOCINFODOC.FT_FILE_SIZE.text
+#: src/pref_window.cpp:1193
+msgid "Size:"
+msgstr "Ingano"
+
+#: src/pref_window.cpp:1195
+msgid "Format:"
+msgstr "Imiterere:"
+
+#: src/pref_window.cpp:1198
+#, fuzzy
+msgid "Image:"
+msgstr "Ishusho..."
+
+#: src/pref_window.cpp:1212
+#, fuzzy
+msgid "Click here to refresh the devices list."
+msgstr "Kuri Kugira gishya Urutonde"
+
+#: src/pref_window.cpp:1235
+msgid "Available Audio Codecs"
+msgstr ""
+
+#: src/pref_window.cpp:1250
+msgid "Audio Codecs Settings"
+msgstr ""
+
+#. Translators: the full sentence is Automatically adjust jitter buffer
+#. between X and Y ms
+#: src/pref_window.cpp:1254
+#, fuzzy
+msgid "Automatically adjust _jitter buffer between"
+msgstr "hagati"
+
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\condfrmt.src:RID_SCDLG_CONDFORMAT.FT_COND1_AND.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\condfrmt.src:RID_SCDLG_CONDFORMAT.FT_COND2_AND.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\condfrmt.src:RID_SCDLG_CONDFORMAT.FT_COND3_AND.text
+#: src/pref_window.cpp:1254
+msgid "and"
+msgstr "na"
+
+#: src/pref_window.cpp:1254
+msgid "ms"
+msgstr ""
+
+#: src/pref_window.cpp:1254
+#, fuzzy
+msgid "The minimum jitter buffer size for audio reception (in ms)."
+msgstr "Gito Ingano kugirango in"
+
+#: src/pref_window.cpp:1254
+#, fuzzy
+msgid "The maximum jitter buffer size for audio reception (in ms)."
+msgstr "Kinini Ingano kugirango in"
+
+#: src/pref_window.cpp:1256
+msgid "Enable silence _detection"
+msgstr ""
+
+#: src/pref_window.cpp:1256
+#, fuzzy
+msgid "If enabled, use silence detection with the GSM and G.711 codecs."
+msgstr "Bikora Gukoresha Na: Na"
+
+#: src/pref_window.cpp:1268 src/pref_window.cpp:1903
+msgid "General Settings"
+msgstr "Igenamiterere rusange"
+
+#. Add fields
+#: src/pref_window.cpp:1272
+#, fuzzy
+msgid "Enable video _transmission"
+msgstr "Videwo..."
+
+#: src/pref_window.cpp:1272
+#, fuzzy
+msgid "If enabled, video is transmitted during a call."
+msgstr "Bikora Videwo... ni a"
+
+#: src/pref_window.cpp:1274
+#, fuzzy
+msgid "Enable video _reception"
+msgstr "Videwo..."
+
+#: src/pref_window.cpp:1274
+#, fuzzy
+msgid "If enabled, allows video to be received during a call."
+msgstr "Bikora Videwo... Kuri BYAKIRIWE a"
+
+#: src/pref_window.cpp:1279
+msgid "Bandwidth Control"
+msgstr ""
+
+#. Translators: the full sentence is Maximum video bandwidth of X kB/s
+#: src/pref_window.cpp:1282
+#, fuzzy
+msgid "Maximum video _bandwidth of"
+msgstr "Videwo... Bya"
+
+#: src/pref_window.cpp:1282
+#, fuzzy
+msgid ""
+"The maximum video bandwidth in kbytes/s. The video quality and the number of "
+"transmitted frames per second will be dynamically adjusted above their "
+"minimum during calls to try to minimize the bandwidth to the given value."
+msgstr ""
+"Kinini Videwo... in S Videwo... Ubwiza Na Umubare Bya Amakadiri ISEGONDA "
+"hejuru Gito Amahamagara: Kuri Kuri Kugabanya ingano Kuri Agaciro"
+
+#: src/pref_window.cpp:1282
+#, fuzzy
+msgid "kB/s"
+msgstr "S"
+
+#: src/pref_window.cpp:1288
+msgid "Advanced Quality Settings"
+msgstr ""
+
+#. Translators: the full sentence is Keep a minimum video quality of X %
+#: src/pref_window.cpp:1291
+msgid "Frame Rate"
+msgstr ""
+
+#: src/pref_window.cpp:1291
+msgid "Picture Quality"
+msgstr ""
+
+#: src/pref_window.cpp:1291
+#, fuzzy
+msgid ""
+"Choose if you want to favour speed or quality for the transmitted video."
+msgstr "NIBA Kuri Umuvuduko Cyangwa Ubwiza kugirango Videwo..."
+
+#. Translators: the full sentence is Transmit X background blocks with each
+#. frame
+#: src/pref_window.cpp:1295
+msgid "Transmit"
+msgstr ""
+
+#: src/pref_window.cpp:1295
+#, fuzzy
+msgid ""
+"Choose the number of blocks (that have not changed) transmitted with each "
+"frame. These blocks fill in the background."
+msgstr "Umubare Bya OYA Byahinduwe Na: Ikadiri Kuzuza in Mbuganyuma"
+
+#: src/pref_window.cpp:1295
+#, fuzzy
+msgid "background _blocks with each frame"
+msgstr "Mbuganyuma Na: Ikadiri"
+
+#: src/pref_window.cpp:1486 src/pref_window.cpp:1514
+#, fuzzy
+msgid "Choose a Picture"
+msgstr "a"
+
+#: src/pref_window.cpp:1883
+msgid "GnomeMeeting Preferences"
+msgstr ""
+
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+#: src/pref_window.cpp:1897
+msgid "General"
+msgstr "Rusange"
+
+# #-#-#-#-#  wizards.pot (Gnome 2.12)  #-#-#-#-#
+# wizards/source\schedule\schedule.src:dlgCalTitleOwnData.text
+# #-#-#-#-#  wizards.pot (Gnome 2.12)  #-#-#-#-#
+# wizards/source\schedule\schedule.src:dlgCalOwnData.text
+#: src/pref_window.cpp:1898
+msgid "Personal Data"
+msgstr "Umwirondoro wihariye"
+
+#: src/pref_window.cpp:1908
+msgid "Directory Settings"
+msgstr ""
+
+#: src/pref_window.cpp:1916
+msgid "NAT Settings"
+msgstr ""
+
+#: src/pref_window.cpp:1921
+msgid "Sound Events"
+msgstr ""
+
+#: src/pref_window.cpp:1925
+#, fuzzy
+msgid "H.323 Settings"
+msgstr "H."
+
+#: src/pref_window.cpp:1927
+msgid "Advanced Settings"
+msgstr "Amagenamiterere Ahanitse"
+
+#: src/pref_window.cpp:1936
+msgid "Gatekeeper Settings"
+msgstr ""
+
+#: src/pref_window.cpp:1941
+msgid "Gateway / Proxy Settings"
+msgstr ""
+
+#: src/pref_window.cpp:1945
+msgid "Codecs"
+msgstr ""
+
+#: src/pref_window.cpp:1947
+msgid "Audio Codecs"
+msgstr ""
+
+#: src/pref_window.cpp:1951
+msgid "Video Codecs"
+msgstr ""
+
+#: src/pref_window.cpp:1955
+msgid "Devices"
+msgstr ""
+
+#: src/sound_handling.cpp:329
+#, fuzzy
+msgid "Opening device for playing"
+msgstr "APAREYE kugirango"
+
+#: src/sound_handling.cpp:331
+#, fuzzy
+msgid "Opening device for recording"
+msgstr "APAREYE kugirango"
+
+#: src/sound_handling.cpp:343 src/sound_handling.cpp:345
+#: src/videograbber.cpp:689
+#, fuzzy
+msgid "Failed to open the device"
+msgstr "Kuri Gufungura APAREYE"
+
+#: src/sound_handling.cpp:343
+#, fuzzy, c-format
+msgid ""
+"Impossible to open the selected audio device (%s) for recording. Please "
+"check your audio setup, the permissions and that the device is not busy."
+msgstr ""
+"Kuri Gufungura Byahiswemo APAREYE kugirango Kugenzura... Imikorere Uruhushya "
+"Na APAREYE ni OYA Irahuze"
+
+#: src/sound_handling.cpp:345
+#, fuzzy, c-format
+msgid ""
+"Impossible to open the selected audio device (%s) for playing. Please check "
+"your audio setup, the permissions and that the device is not busy."
+msgstr ""
+"Kuri Gufungura Byahiswemo APAREYE kugirango Kugenzura... Imikorere Uruhushya "
+"Na APAREYE ni OYA Irahuze"
+
+#: src/sound_handling.cpp:384 src/sound_handling.cpp:460
+#, fuzzy
+msgid "Cannot use the audio device"
+msgstr "Gukoresha APAREYE"
+
+#: src/sound_handling.cpp:384
+#, fuzzy, c-format
+msgid ""
+"The selected audio device (%s) was successfully opened but it is impossible "
+"to read data from this device. Please check your audio setup."
+msgstr ""
+"Byahiswemo APAREYE ni Kuri Gusoma Ibyatanzwe Bivuye iyi APAREYE Kugenzura... "
+"Imikorere"
+
+#: src/sound_handling.cpp:393
+#, fuzzy
+msgid "Recording your voice"
+msgstr "Ijwi"
+
+#: src/sound_handling.cpp:435
+#, fuzzy
+msgid "Recording and playing back"
+msgstr "Na Inyuma"
+
+#: src/sound_handling.cpp:460
+#, fuzzy, c-format
+msgid ""
+"The selected audio device (%s) was successfully opened but it is impossible "
+"to write data to this device. Please check your audio setup."
+msgstr ""
+"Byahiswemo APAREYE ni Kuri Ibyatanzwe Kuri iyi APAREYE Kugenzura... Imikorere"
+
+#: src/sound_handling.cpp:583
+#, fuzzy, c-format
+msgid ""
+"GnomeMeeting is now recording from %s and playing back to %s. Please say \"1 "
+"2 3\" in your microphone, you should hear yourself back into the speakers "
+"with a 4 seconds delay."
+msgstr ""
+"ni NONEAHA Bivuye Na Inyuma Kuri 1. 2. 3. in Inyuma Na: a 4. amasogonda "
+"Gutinda"
+
+#: src/stunclient.cpp:102
+msgid "Unknown NAT"
+msgstr ""
+
+#: src/stunclient.cpp:102
+msgid "Open NAT"
+msgstr ""
+
+#: src/stunclient.cpp:103
+msgid "Cone NAT"
+msgstr ""
+
+#: src/stunclient.cpp:103
+msgid "Restricted NAT"
+msgstr ""
+
+#: src/stunclient.cpp:103
+msgid "Port Restricted NAT"
+msgstr ""
+
+#: src/stunclient.cpp:104
+msgid "Symmetric NAT"
+msgstr ""
+
+#: src/stunclient.cpp:104
+msgid "Symmetric Firewall"
+msgstr ""
+
+#: src/stunclient.cpp:104
+msgid "Blocked"
+msgstr ""
+
+#: src/stunclient.cpp:105
+msgid "Partially Blocked"
+msgstr ""
+
+#: src/stunclient.cpp:120 src/stunclient.cpp:243
+#, fuzzy
+msgid "Removed STUN server"
+msgstr "Seriveri"
+
+#: src/stunclient.cpp:137
+#, fuzzy, c-format
+msgid "Set STUN server to %s (%s)"
+msgstr "Seriveri Kuri"
+
+#: src/stunclient.cpp:157
+#, fuzzy, c-format
+msgid ""
+"STUN test result: %s.\n"
+"\n"
+"GnomeMeeting could not detect the type of NAT you are using. The most "
+"appropriate method, if your router does not natively support H.323, is "
+"probably to forward the required ports to your internal machine and use IP "
+"translation if you are behind a NAT router. Please also make sure you are "
+"not running a local firewall."
+msgstr ""
+"Igerageza Igisubizo OYA Ubwoko Bya ikoresha Uburyo NIBA OYA Gushigikira H ni "
+"Kuri Imbere Bya ngombwa Kuri By'imbere Na Gukoresha Umwandiko wahinduwe "
+"ururimi NIBA a Ubwoko OYA a"
+
+#: src/stunclient.cpp:163
+#, fuzzy, c-format
+msgid ""
+"STUN test result: %s.\n"
+"\n"
+"Your system does not need any specific configuration as long as you do not "
+"have a local firewall blocking the ports required by GnomeMeeting."
+msgstr "Igerageza Igisubizo Sisitemu OYA Iboneza Nka Nka OYA a Bya ngombwa ku"
+
+#: src/stunclient.cpp:168
+#, fuzzy
+msgid ""
+"GnomeMeeting detected Symmetric NAT. The most appropriate method, if your "
+"router does not natively support H.323, is to forward the required ports to "
+"your internal machine in order to change your Symmetric NAT into Cone NAT. "
+"Running this test again after the port forwarding has been done should "
+"report Cone NAT and allow GnomeMeeting to be used with STUN support enabled. "
+"If it does not report Cone NAT, then it means that there is a problem in "
+"your forwarding rules."
+msgstr ""
+"Uburyo NIBA OYA Gushigikira H ni Kuri Imbere Bya ngombwa Kuri By'imbere in "
+"Itondekanya Kuri Guhindura>> iyi Igerageza Nyuma Umuyoboro Byakozwe "
+"Icyegeranyo Na Kwemerera Kuri Na: Gushigikira Bikora OYA Icyegeranyo Hanyuma "
+"ni a in"
+
+#: src/stunclient.cpp:173
+#, fuzzy, c-format
+msgid ""
+"STUN test result: %s.\n"
+"\n"
+"Using a STUN server is most probably the most appropriate method if your "
+"router does not natively support H.323.\n"
+"Notice that STUN support is not sufficient if you want to contact H.323 "
+"clients that do not support H.245 Tunneling like Netmeeting. In that case "
+"you will have to use the classical IP translation and port forwarding.\n"
+"\n"
+"Enable STUN Support?"
+msgstr ""
+"Igerageza Igisubizo a Seriveri ni Uburyo NIBA OYA Gushigikira H Gushigikira "
+"ni OYA NIBA Kuri Umuntu H OYA Gushigikira H nka Kuri Gukoresha Umwandiko "
+"wahinduwe ururimi Na Umuyoboro"
+
+#: src/stunclient.cpp:182 src/stunclient.cpp:196
+msgid "NAT Detection Successfull"
+msgstr ""
+
+#: src/stunclient.cpp:207
+#, fuzzy
+msgid "The type of NAT was successfully detected"
+msgstr "Ubwoko Bya"
+
+#: src/stunclient.cpp:232
+#, fuzzy, c-format
+msgid "Set STUN server to %s"
+msgstr "Seriveri Kuri"
+
+#: src/tools.cpp:171 src/tools.cpp:191
+msgid "PC-To-Phone Settings"
+msgstr ""
+
+#: src/tools.cpp:180
+#, fuzzy
+msgid ""
+"You can make calls to regular phones and cell numbers worldwide using "
+"GnomeMeeting. To enable this, you need to register an account using the URL "
+"below, then enter your Account number and PIN, and finally enable "
+"registering to the GnomeMeeting PC-To-Phone service.\n"
+"\n"
+"Please make sure you are using the URL below to get your account otherwise "
+"the service will not work."
+msgstr ""
+"Ubwoko Amahamagara: Kuri Ibisanzwe Ama Telefoni Na Akazu Imibare ikoresha "
+"Gushoboza iyi Kuri Kwiyandikisha Aderesi ikoresha munsi Hanyuma Injiza "
+"Umubare Na Na Gushoboza Kuri Serivisi Ubwoko ikoresha munsi Kuri Kubona "
+"Aderesi Serivisi OYA Akazi"
+
+#: src/tools.cpp:193
+#, fuzzy
+msgid "Account _number:"
+msgstr "Umubare"
+
+#: src/tools.cpp:193
+#, fuzzy
+msgid "Use your MicroTelco account number"
+msgstr "Aderesi Umubare"
+
+#: src/tools.cpp:196
+msgid "_Pin:"
+msgstr ""
+
+#: src/tools.cpp:196
+msgid "Use your MicroTelco PIN"
+msgstr ""
+
+#: src/tools.cpp:202
+#, fuzzy
+msgid "Use PC-To-Phone service"
+msgstr "Serivisi"
+
+#: src/tools.cpp:215
+#, fuzzy
+msgid ""
+"Click on one of the following links to get more information about your "
+"existing GnomeMeeting PC-To-Phone account, or to create a new account."
+msgstr ""
+"ku Bya amahuza Kuri Kubona Birenzeho Ibisobanuro Ibyerekeye Aderesi Cyangwa "
+"Kuri Kurema a Gishya Aderesi"
+
+#: src/tools.cpp:224
+#, fuzzy
+msgid "Get a GnomeMeeting PC-To-Phone account"
+msgstr "a Aderesi"
+
+#: src/tools.cpp:238
+#, fuzzy
+msgid "Recharge the account"
+msgstr "Aderesi"
+
+#: src/tools.cpp:252
+#, fuzzy
+msgid "Consult the balance history"
+msgstr "Urutonde"
+
+#: src/tools.cpp:266
+#, fuzzy
+msgid "Consult the calls history"
+msgstr "Amahamagara: Urutonde"
+
+#: src/tray.cpp:244
+msgid "GnomeMeeting Tray Icon"
+msgstr ""
+
+#: src/tray.cpp:258
+#, fuzzy
+msgid "_Connect"
+msgstr "Kwihuza"
+
+#: src/urlhandler.cpp:77
+#, fuzzy
+msgid ""
+"The call transfer failed, the user was either unreachable, or simply busy "
+"when he received the call transfer request."
+msgstr "Byanze Ukoresha: Cyangwa Irahuze Ryari: BYAKIRIWE Kubaza..."
+
+#: src/urlhandler.cpp:385
+#, fuzzy, c-format
+msgid "No contact with speed dial %s# found, will call number %s instead"
+msgstr "Umuntu Na: Umuvuduko Byabonetse Umubare"
+
+#: src/urlhandler.cpp:401
+msgid "Invalid URL handler"
+msgstr ""
+
+#: src/urlhandler.cpp:401
+#, fuzzy
+msgid ""
+"Please specify a valid URL handler. Currently both h323: and callto: are "
+"supported."
+msgstr "a Byemewe Byombi Na"
+
+#: src/urlhandler.cpp:413
+#, c-format
+msgid "Calling %s"
+msgstr ""
+
+#: src/urlhandler.cpp:416
+#, fuzzy, c-format
+msgid "Transferring call to %s"
+msgstr "Kuri"
+
+#: src/videograbber.cpp:319
+#, fuzzy, c-format
+msgid "Opening video device %s with plugin %s"
+msgstr "Videwo... APAREYE Na:"
+
+#: src/videograbber.cpp:347
+#, fuzzy, c-format
+msgid "Successfully opened video device %s, channel %d"
+msgstr "Videwo... APAREYE"
+
+#: src/videograbber.cpp:358
+#, fuzzy, c-format
+msgid "Error while opening video device %s"
+msgstr "Gufungura %s%S Videwo... APAREYE"
+
+#. Translators: Do not translate MovingLogo and Picture
+#: src/videograbber.cpp:362
+#, fuzzy
+msgid ""
+"A moving GnomeMeeting logo will be transmitted during calls. Notice that you "
+"can always transmit a given image or the moving GnomeMeeting logo by "
+"choosing \"Picture\" as video plugin and \"MovingLogo\" or \"StaticPicture\" "
+"as device."
+msgstr ""
+"A ikirango Amahamagara: Buri gihe a Ishusho Cyangwa ikirango ku Nka "
+"Videwo... Na Cyangwa Nka APAREYE"
+
+#: src/videograbber.cpp:364
+#, fuzzy
+msgid "Couldn't open the video device"
+msgstr "Gufungura Videwo... APAREYE"
+
+#: src/videograbber.cpp:368
+#, fuzzy
+msgid ""
+"There was an error while opening the device. Please check your permissions "
+"and make sure that the appropriate driver is loaded."
+msgstr "Ikosa Gufungura%S APAREYE Kugenzura... Uruhushya Na Ubwoko Musomyi: ni"
+
+#: src/videograbber.cpp:372 src/videograbber.cpp:667
+#, fuzzy
+msgid "Your video driver doesn't support the requested video format."
+msgstr "Videwo... Musomyi: Gushigikira Videwo... Imiterere"
+
+#: src/videograbber.cpp:376
+#, fuzzy
+msgid "Could not open the chosen channel."
+msgstr "OYA Gufungura"
+
+#: src/videograbber.cpp:380
+#, fuzzy
+msgid ""
+"Your driver doesn't seem to support any of the colour formats supported by "
+"GnomeMeeting.\n"
+" Please check your kernel driver documentation in order to determine which "
+"Palette is supported."
+msgstr ""
+"Musomyi: Kuri Gushigikira Bya Imiterere ku Kugenzura... Musomyi: in "
+"Itondekanya Kuri ni"
+
+#: src/videograbber.cpp:384
+#, fuzzy
+msgid "Error while setting the frame rate."
+msgstr "Igenamiterere Ikadiri Igipimo"
+
+#: src/videograbber.cpp:388
+#, fuzzy
+msgid "Error while setting the frame size."
+msgstr "Igenamiterere Ikadiri Ingano"
+
+#: src/videograbber.cpp:428
+#, fuzzy
+msgid "Opened the video device using the \"Picture\" video plugin"
+msgstr "Videwo... APAREYE ikoresha Videwo..."
+
+#: src/videograbber.cpp:567
+msgid "Picture"
+msgstr "Ishusho"
+
+#: src/videograbber.cpp:579
+#, fuzzy, c-format
+msgid ""
+"GnomeMeeting is now testing the %s video device. If you experience machine "
+"crashes, then report a bug to the video driver author."
+msgstr ""
+"ni NONEAHA Videwo... APAREYE Hanyuma Icyegeranyo a Kuri Videwo... Musomyi: "
+"Umwanditsi"
+
+#: src/videograbber.cpp:641
+#, fuzzy, c-format
+msgid "Test %d done"
+msgstr "Byakozwe"
+
+#: src/videograbber.cpp:643
+#, fuzzy, c-format
+msgid "Test %d failed"
+msgstr "Byanze"
+
+#: src/videograbber.cpp:662
+#, fuzzy, c-format
+msgid "Error while opening %s."
+msgstr "Gufungura %s%S"
+
+#: src/videograbber.cpp:671
+#, fuzzy
+msgid "Could not open the chosen channel with the chosen video format."
+msgstr "OYA Gufungura Na: Videwo... Imiterere"
+
+#: src/videograbber.cpp:675
+#, fuzzy
+msgid ""
+"Your driver doesn't support any of the color formats tried by GnomeMeeting"
+msgstr "Musomyi: Gushigikira Bya Ibara Imiterere ku"
+
+#: src/videograbber.cpp:679
+#, fuzzy
+msgid "Error with the frame rate."
+msgstr "Na: Ikadiri Igipimo"
+
+#: src/videograbber.cpp:683
+#, fuzzy
+msgid "Error with the frame size."
+msgstr "Na: Ikadiri Ingano"

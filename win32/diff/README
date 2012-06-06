@@ -1,0 +1,8 @@
+This directory is for temporary patches of ptlib, opal and ekiga which
+wait to be finished and be integrated upstream.
+
+Each patch whose filename starts with ptlib_ will automatically be
+used before building ptlib (but you need to trigger manually ptlib
+building).  The same for opal and ekiga.
+
+Look for "patch" string in ../Makefile to have more information.

@@ -1,0 +1,481 @@
+                          -*- mode: outline -*-
+* Changes in ekiga 3.2.7 (2010-05-29)
+** User-visible fixes
+- Use NAT ports instead of local ports for RTP, fixing many connection issues
+- Add workaround for "In some cases ekiga answers always Busy Here"
+- Fix crash in the avahi code
+- Set the default audio and video devices
+- Fix Call buttons do not work
+- Add bpp16 (RGB16) support
+- Add partial support for IPv6
+- Fix number of users found on ekiga.net LDAP directory
+- Fix connection type setting in assistant
+- Use a decent connection type by default (DSL 128kb/s uplink)
+- Check off iLBC, CELT32, CELT48 and G722 audio codecs by default
+- Fix possible crash when PTLib code accessed by thread not created by PTlib
+- Fix issue when deleting a safe object
+- Fix possible NULL pointer access if get multiple NOTIFY messages on a REFER
+
+** Protocol fixes
+- Fix strange issue with SIP call diversion (302 response) to the same endpoint
+- Change to only unregister those contact addresses we successfully registered
+- Fix incorrect change to AlertingPhase in H323
+- Change authentication failure to be fatal and SIP handler removed
+- Fix double authorisation failure leaving SIP handler in the wrong state
+- Fix SIP REFER completion on receiving NOTIFY with id parameter
+- Fix authentication issue when can get to SIP server via two interfaces
+- Fix address translation of REGISTER contact fields when STUN is not used
+- Fix locating correct authorisation credentials for INVITE
+- Fix correct test handling RFC3261/8.2.2.2 merged requests and other
+  "multi-path" received INVITE requests
+- other minor fixes
+
+** Build fixes
+- Fix gdu (gnome-doc-utils) configure option
+- Replace deprecated functions in gtk >= 2.18
+- Fix build with binutils-gold
+- other minor build fixes
+
+** Windows port fixes
+- Fix major bug where the uninstaller could remove non-Ekiga files
+- Fix starting Ekiga from last page of installer
+- Fix language selection during installation
+- Update version of dependent libraries
+- Allow to create executable from release or from git/svn
+- Add Dutch and Romanian translations of Windows installer
+- Add all help localisation files to the installer
+- Fix compilation error on std::freopen on newer gcc
+- other build fixes
+
+** Distributor-visible changes
+
+** Translation fixes
+- Updated translations: bn_IN, eu, gu, kn
+- New translations: ast
+- Updated help translations:
+
+* Changes in ekiga 3.2.6 (2009-09-22)
+** User-visible fixes
+- Fixed crashes shown as assertion failed in /usr/include/ptlib/safecoll.h:813
+- Fixed crash when device list is empty or contains non-latin1 characters
+- Fixed crash when pressing shift-f10 (popup menu) in Preferences window
+- Fixed possible crash when garbage collecting REGISTER requests
+- Fixed possible segfault when receiving a NOTIFY
+- Fixed freeze by preventing SIP handlers retry timer from executing
+  during destruction
+- Fixed freeze during packet write
+- Fixed "Lockup after a day of idle" in publishing code
+- Fixed various deadlocks in the OPAL subscription code
+- Added "%limit" workaround for registrars which refuse several
+  contacts during registration
+- Fixed "Contacts never go offline"
+- Fixed "New SIP account mangles fields if Authentications User is empty"
+- Make sure the output device is set before a call
+- Fixed port handling when registering to a proxy with a non-standard port
+- Fixed "In some circumstances, smileys are not displayed graphically"
+- Improved audio latency when not collecting all of the audio data
+- Fixed the newmessage.wav file
+- Fixed "Accounts were automatically active after editing them"
+- Make possible to register e.g. user@a.b as user name as required by
+  some providers
+- Remove deprecated "Encoding" field from desktop file
+
+** Protocol fixes
+- Fixed problem with REGISTER IntervalTooBrief response handling not
+  using correct interface for new transaction
+- Fixed "480 Temporarily Unavailable" response handling
+- Fixed problem with doing DNS lookup when using explicit proxy or
+  presence agent
+- Fixed problem with PUBLISH using wrong expiry after Interval Too Brief
+  error
+- If we find no authentication information when subscribing, keep trying
+  as it could become available at a later stage
+- Changed so does not put both global and media specific connection
+  addresses in SDP if they are the same (needed for freephonie SIP
+  registrar)
+- Fixed support for unusual SIP "start with hold", that is an initial
+  offer INVITE with a connection address of 0.0.0.0
+- Fixed failure to retry (after a suitable period) REGISTER/SUBSCRIBE
+  if get transport level timeout
+- Added closing of our local media streams if remote sends a re-INVITE
+  and leaves out streams (e.g. video) that were there previously
+- Fixed problems when can not bind to any interface
+- Fixed various problems with some SDP options
+- Fixed regression where the username would be lost from the Contact
+  field
+- Fixed invalid request-uri in BYE request
+- Fixed issue with overlapping INVITEs
+- Fixed H.263-1998 plug in compilation, by asking latest avcodec
+- Fixed "OpalBitRateCalculator limits bitrates"
+- Fixed "SIP wrong response on a failed REFER-request"
+- Fixed "SIP: OK response to CANCEL incomplete"
+- Do not send "100 Trying" message when receiving a NOTIFY message
+- Fixed incorrect register/subscribe refresh timer calculation
+
+** Build fixes
+- Support building on kFreeBSD
+- Fixed problem with moving libsoup api
+- Various fixes for SIP and H323 configuration
+- Fixed "A build error when generating SunAudio ptlib plugin"
+- Fixed "The video convertor of YUY2toYUV420P in ptlib does not work"
+- Fixed "The absence of libv4l2 should not block V4L2 ptlib plugin"
+- and other minor changes
+
+** Windows port fixes
+- Thanks to Michael Rickmann's continuous work, Windows port has
+  reached a quality almost comparable to GNU/Linux version.  We invite
+  people to test it, see ekiga wiki.  Some improvements:
+  - shortened audio delay
+  - DirectX video input and output
+  - device name handling
+  - fixed audio volume
+  - fixed building with mingw
+  - made so the linker doesn't find main on win32
+  - Keep the output sound volume across calls
+
+** Distributor-visible changes
+- Changed default for AVC plug in to be disabled until someone fixes
+  the plug in
+- Note: Pulse audio server does not play nicely with ekiga, very high
+  latencies are noticed
+
+** Translation fixes
+- Updated translations: ar, bn, et, ga, hi, hu, ko, lt, ml, nb, sr,
+  sr@latin, uk, zh_HK, zh_TW
+- New translations: ca@valencia
+- Updated help translations: de
+
+* Changes in ekiga 3.2.5 (2009-07-06)
+- Fixed very low rate of sent images during video conversations
+- Fixed crash in LDAP
+- Fixed crash in presence
+- Fixed simultaneous reads from different threads in jitter code
+- Fixed crash during idle times
+- Fixed crash when accepting a call
+- Fixed deadlock in SIP handler
+- Fixed freeze upon calling and showing of pc:udp$... in the URI bar
+- Fixed crash in G726-16 audio codec
+- Allows multiple registrations with the same registrar using
+  different user names
+- Allows user to choose system iLBC
+- Fixed window resizing in chat when entering very long words
+- Fixed linking of sbc plugin with libsamplerate
+- Fixed compilation with gtk 2.12
+- Fixed compilation with gcc 4.4
+- Windows and Solaris specific fixes
+- Added a small script, ekiga-debug-analyser, not installed, which
+  retrieves only the packets exchanged from a Ekiga debug output
+- Other minor fixes
+- Updated translations: bn_IN, el, or
+- Updated help translations: el
+
+* Changes in ekiga 3.2.4 (2009-05-20)
+- Fixed OPAL and PTLIB recommended versions
+
+* Changes in ekiga 3.2.3 (2009-05-20)
+- Fixed remote uri not being shown in the uri bar when dialing out
+
+* Changes in ekiga 3.2.2 (2009-05-20)
+- Fixed a crash on some calls
+
+* Changes in ekiga 3.2.1 (2009-05-19)
+- Fixed various crashes on shutdown
+- Fixed crash when opening preferences or assistant
+- Fixed crash when no account
+- Fixed SIP registration
+- Fixed DTMF mode for SIP endpoint
+- Migrate ekiga.net configuration from 3.0 to 3.2
+- Maintain window position on hiding/showing the main window
+- On some failed registration, do not show the unuseful
+  RequestTerminated code, but the actual error
+- In assistant, fill user name field, if empty, with user name
+- In preferences, audio/video devices, remove unused FFMPEG and
+  WAVFile modules
+- Fixed recognition of cameras with non-ascii characters
+- Fixed compilation with --disable-tracing
+- Various fixes during configuration
+- Fixed issue with having multiple registrations with the same SIP registrar
+- Fixed problem with not waiting till ACK arrives, some
+  implementations get offended if the ACK gets a transaction does not
+  exist error. Thanks hongsion for the report
+- Fixed bug where if a non-INVITE transaction gets a 1xx response, but
+  then the 2xx (or above) response is lost, the command is not
+  retransmitted
+- Added fix for video plug in shared library loading, current code
+  would not look anywhere but default path
+- Fixed compiling G722 plug in on SUN
+- Fixed correct value for remote party address
+- Fixed compilation on NetBSD
+- Fixed INVITE sent in response to a REFER command using a different
+  local user name to the original call
+- Fixed bug where opal tries to install plugins even if they have been disabled
+- Fixed crash in PStandardColourConverter::YUY2toYUV420PWithResize
+- Fixed include path overrides package include path
+- Fixed search for connection matching replaces header dialog info,
+  broken during changes to make calls back into the same stack
+- Fixed from/to fields reversed in call dialog identifier information,
+  needed for a INVITE with replaces header
+- Fixed thread leaks
+- Fixed video I-frame detection
+- Fixed media format matching option additions
+- Fixed advanced rate controller support
+- Fixed popping frames problem when rate controller skips input frames
+- Fixed missing re-lock of mutex on jitter buffer shut down
+- Fixed gatekeeper discovery
+- Added YUV2 support to DirectX code
+- Fixed crash in PInterfaceMonitor::Stop
+- If SIP answer to our offer contains only media formats we never
+  offered then abort the call as this is SO not to specification!
+- Fixed possible assertion if the soundcard blocks and prevents the
+  device to be closed
+- Fixed possible path through unsubscribe/unregister code that could
+  lead to a NULL pointer being used
+- Fixed issue in SIP registering, if both a full AOR and a registrar
+  host name is provided then we would normally disable all registrar
+  searches (e.g. SRV record lookup) and just use the host name
+  specified
+- Change default TSTO in H.263 to give better quality
+- Fixed issue with SIP call hairpinning back into the same stack
+- Fixed possibility of closing a channel twice
+- Fixed intermittent problem with losing an audio channel when using
+  INVITE with a replace header
+- Fixed being able to switch off jitter buffer while still a thread
+  reading from it
+- Fixed bug with "hairpin" SIP calls, subsequent commands to INVITE
+  are not routed to the correct connection instance
+- H.224 should not be enabled when H.323 is disabled
+- Various Solaris build fixes
+- Fixed RFC3890 support
+- Don't stop a call from clearing due to lack of media just because a
+  session has not received any packets
+- Fixed memory leaks in the plugins code
+- Improved the RTP stack performances
+- Fixed various video payload problems
+- Fixed issue with outgoing re-INVITE that gets a 401/407
+  authentication required error, the re-transmitted INVITE was not a
+  re-INVITE but another normal INVITE, so "hold" doesn't work
+- Fixed issue with incoming re-INVITE that has no SDp in the INVITE,
+  if the eventual ACK has the same streams but only changed the IP
+  address/port for RTP, then we did not change our RTP send
+  addresss/port
+- Add numerous boundary checks to H.263 codec
+- Discard out of order packets, mode A frames that don't begin with a
+  start code, and frames that don't begin with a start code in H.263
+  codec
+- Fixed initial H.323 call set up honouring the auto-start
+  configuration for "don't offer"
+- Fixes for gcc 4.4.0
+- Fixed compilation with video, h.323 or sip disabled
+- Windows port:
+  - DirectX fixes
+  - Better LDAP support
+  - Add back devices
+  - Fixed issue with empty strings for Windows sound devices being
+    returned when being used over a Remote Desktop connection
+  - Fixed G.722 compilation
+  - Fixed linker problems
+- Other minor fixes
+- Updates translations: ar, as, crh, es, kn, nb, or, zh_CN
+- Updated help translation: el, es
+
+Special thanks to Julien Puydt, Michael Rickmann, Mounir Lamouri,
+Eugen Dedu, Jan Schampera and Yannick Defais for their continuous work
+on Ekiga.
+
+* Summary of changes between 3.2.0 and 3.0.0, details are below
+- Better NAT support in case of Cone NAT
+- There is now only one H.263 plugin implementing both H.263 and H.263+
+- Allow several ALSA devices to have the same name
+- Added support for the G.722 audio codec: G.722 is a 16 kHz wideband
+  audio codec advertised as HD Voice by the famous Polycom. It is a
+  great boost in quality and interoperability
+- Added support for the CELT ultral-low delay audio codec: CELT delivers
+  high quality audio at 32 kHz or 48 kHz, allowing to transmit music in
+  high quality, with low delay and low bitrate
+- Added support for SIP dialog-info notifications: they allow displaying
+  notifications of incoming calls in the roster. With software like
+  kamailio or Asterisk, it allows being informed of incoming calls
+  reaching your colleagues
+- Largely improved LDAP support: the OpenLDAP guys contributed several
+  patches to provide state-of-the-art LDAP support in the Ekiga address
+  book. The new code even supports authentication
+- Killed the gconf_test_age test, Ekiga can now finally work with
+  badly installed GConf schemas
+- Better handling of multiple network interfaces with dynamic addition
+  and removal
+- Added settings migration from Ekiga 2.0.x.
+- Improved Windows build
+- Other various fixes, cleanups, removal of deprecated symbols etc.
+- New translations: crh, or
+- New help translation: en_GB, eu
+- Updated many translations and help
+- Experimental features:
+ - Significant improvements in IPv6 support
+ - Gstreamer audio and video capture support
+
+* Changes in ekiga 3.2.0 (2009-03-16)
+- Fix some NAT related issues (use internal port instead of external
+  port in Cone NAT)
+- Uniformise detection of libnotify; fix compilation with mingw
+- Fix "URL completion combobox shows identical completions"
+- Fix "Assistant loosing values when going backward"
+- Fix GmConf settings when compiled with another package name
+- Fix unregistration of accounts
+- Fix build with -enable-kde
+- Fix OS X build
+- Fix a crash in chat
+- New translations: crh, or
+- Updated translations: as, bg, bn_IN, da, de, el, eu, gl, gu, hi, hu,
+  ja, kn, ko, ku, lt, ml, mr, or, pt, ro, ru, ta, te, tr
+- New help translation: en_GB
+- Updated help translation: fr
+
+* Changes in ekiga 3.1.2 (2009-03-03)
+- Removal of the old H.263 ffmpeg plug in and enhancement of the
+  H.263-1998 plug in to take its place.
+- Allow compilation with CELT 0.4 and 0.5
+- Allow several ALSA devices to have the same name
+- STUN enabling/disabling has been readded to the GUI
+- Remove white spaces from the URI (useful when copy/paste)
+- Clear the URI edit box after a call
+- Fixed crash when clearing call history
+- Fix Windows compilation
+- Fixes for tarball generation
+- Fixed account data corruption when the authentication user name is
+  left blank
+- Fixed possible crash when answering incoming calls
+- Fixed G.722 usage
+- Other various fixes, cleanups, removal of deprecated symbols etc.
+- Updated translations: ca, cs, da, el, en_GB, es, eu, fi, fr, he, hu,
+  it, ja, ko, kn, nb, nl, pl, pt_BR, sl, sv, th, vi, zh_HK, zh_TW
+- New help/eu localisation
+Experimental features:
+- Significant improvements in IPv6 support
+- Gstreamer audio and video capture support near to be finished...
+
+* ekiga 3.1.1 unreleased
+
+* Changes in ekiga 3.1.0 (2009-01-05)
+- Added support for G.722 and CELT audio wideband codecs
+- Added support for H.263
+- Added support for SIP dialog-info notifications, it allows being
+  notified of incoming calls for the phones of your colleagues with
+  software like Asterisk
+- Added support to disable STUN detection
+- Improved LDAP support in the address book, authentication is now
+  possible
+- Killed the gconf_test_age test, Ekiga can now finally work with
+  badly installed GConf schemas
+- More efficient memory handling using gmref_ptr, increases stability
+- Better handling of multiple network interfaces with dynamic addition
+  and removal
+- libgnome is not required anymore when using GTK+ 2.14
+- Many code cleanups, new GObjects, ...
+- Work in progress : XCAP support, Resource List support, GStreamer
+  audio and video capture support, ...
+
+* Changes in ekiga 3.0.2 (2009-01-12)
+- Make sure sound events are played through the correct devices. (#564370)
+- Fixed crash on missed call.
+- Do not show the assistant after an upgrade for which Ekiga was
+  already successfully setup.
+- Added settings migration from Ekiga 2.0.x.
+- Allow answering/rejecting calls from the main window even if we use
+  notifications.
+- Do not try refreshing SUBSCRIBE requests for which the 200 OK
+  contains an expire time of 0.
+- Fixed sending ACK request to incorrect address when particular types
+  of proxies are being used.
+- Fixed test for CANCEL receipt on INVITE clearing call.
+- Ignore multiple forked CANCEL messages.
+- Fixed issue with registration to a non-standard port.
+- Fixed restarting timers if get pathological response to a
+  transaction with incorrect Cseq header field.
+- Fixed missing route set on SIP commands in a dialog when using
+  outbound proxy.
+
+* Changes in ekiga 3.0.1 (2008-10-20)
+** Windows build
+- Fixed crash when echo cancellation is active
+- Improved GTK installation by providing our own libraries
+- Fixed crash when clicking the status bar
+- Fixed crash when the only available accelerated surface is already taken
+- Fixed playing of audio files with samplerate != 8000Hz
+- Fixed possible crash when quickly deleting and creating threads
+- Fixed flickering in Picture-in-Picture mode
+** GUI
+- Fixed overlapping issue of font/smiley buttons in the chat window
+- Fixed possible flickering issues on XV
+- Fixed possible X timing issue
+- Fixed message box when device is unplugged in out-of-call state
+- Fixed crash when closing various windows using the window manager
+- Fixed crash in the configuration assistant when unplugging the active device
+- Do not display localhost users in the neighbours
+- Fixed Ekiga not able to resolve DNS names when being used with a
+  Turkish locale
+- Allow using '&' as name in the roster
+- Fixed 'Search Scope' field alignment in the form
+** SIP
+- Fixed behavior in case of Open NAT
+- Fixed SIP REGISTER and INVITE behaviors when Ekiga listens to
+  multiple interfaces in the same subnet
+- Fixed response code when receiving a BYE for a call that is already released
+- Fixed numerous retries using the same authentication credentials
+- Fixed interoperability issues with Cisco Call Manager
+- Fixed default status when receiving a NOTIFY with an empty body to
+  offline instead of unknown
+- Fixed parsing of URIs quoted with <> but without ""
+- Fixed INVITE loop detection when forked INVITE requets arrive over
+  multiple paths
+** H.323
+- Fixed inclusion of RFC2833 using H.323
+** Misc
+- Made the libnotify dependancy optional
+- Fixed POTFILE.in file
+
+* Major changes in ekiga 3.0.0 (2008-09-23)
+** Graphical User Interface
+- New user interface with a buddy list
+- Accelerated video display (Unix: XVideo, Windows: DirectDraw)
+- Nice incoming call notifications
+- Easier configuration assistant
+- New quality meter in the status bar
+- Buddy list with extended status information
+- Displays network neighbours in the buddy list
+- Better keyboard shortcuts
+- Automatic account completion in the URL bar
+- New chat window
+- New address book supporting Evolution contacts, LDAP contacts and more
+- New account window allowing easier account creation
+- New call panel
+** Codecs
+- H.263+
+- H.264
+- THEORA
+- MPEG4
+- Framerate up to 30 FPS
+- Resolutions (up to 704x576) (at best it is DVD quality)
+- Audio and video codecs as plugins
+- Support for Intel IPP codecs
+** SIP Support
+- SIP/SIMPLE presence support
+- Line monitoring with software like Asterisk
+- Custom presence message support
+- Dynamic detection of network interfaces
+- Register/unregister accounts on interfaces going up and down
+- Better NAT traversal
+- SIP requests originated from a unique port
+- Support for several network interfaces at the same time (e.g. VPN
+  and normal network)
+- Full SIP capabilties exchange for codecs (unique in the Open Source world)
+- SIP INFO DTMF support
+- Possibility to send SMS using the Ekiga Call Out account
+- Many compliance fixes
+** Hotplug Support
+- Hotplug support for audio and video devices (even when being in a call)
+- Hotplug support for network interfaces
+** For Developers and Packagers
+- Brand new Ekiga Engine, fully separated from the GUI and reusable in
+  other projects
+- Reworked WIN32 build
+- Better autoconf support for OPAL

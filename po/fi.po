@@ -1,0 +1,3569 @@
+# ekiga Finnish Translation
+# Suomennos: http://gnome-fi.sourceforge.net/
+# Copyright (C) 2003-2009 Free Software Foundation, Inc.
+# Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2003-2005.
+# Ilkka Tuohela <hile@iki.fi>, 2005-2008.
+# Timo Jyrinki <timo.jyrinki@iki.fi>, 2008-2009.
+#
+#: ../lib/engine/components/resource-list/rl-entry.cpp:163
+msgid ""
+msgstr ""
+"Project-Id-Version: ekiga\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-23 16:50+0300\n"
+"PO-Revision-Date: 2009-02-23 16:55+0200\n"
+"Last-Translator: Ilkka Tuohela <hile@iki.fi>\n"
+"Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../ekiga.desktop.in.in.h:1
+msgid "Ekiga Softphone"
+msgstr "Ekiga-ohjelmistopuhelin"
+
+#: ../ekiga.desktop.in.in.h:2
+msgid "IP Telephony, VoIP and Video Conferencing"
+msgstr "IP-puhelut, VoIP ja videoneuvottelu"
+
+#: ../ekiga.desktop.in.in.h:3
+msgid "Talk to people over the Internet"
+msgstr "Puhu ihmisten kanssa Internetin kautta"
+
+#: ../ekiga.schemas.in.in.h:1
+msgid "0: 56Kbps, 1: ISDN, 2:DSL, 3: LAN, 4: Custom"
+msgstr "0: 56 kbps, 1: ISDN, 2: DSL, 3: Lähiverkko, 4: Oma"
+
+#: ../ekiga.schemas.in.in.h:2
+msgid ""
+"Allow Ekiga to fall back to software scaling the picture-in-picture if "
+"hardware support is not available. If this is set to false, Ekiga will not "
+"try to open the PIP if hardware support is not available."
+msgstr ""
+"Salli Ekigan käyttää ohjelmistollista kuvan skaalausta kuva-kuvassa-"
+"toiminnolle, jos laitteistopohjaista tukea ei ole. Jos tämä on asetettu "
+"arvoon false, Ekiga ei yritä avata kuva-kuvassa ikkunoita, jos laitteisto ei "
+"tue toimintoa."
+
+#: ../ekiga.schemas.in.in.h:3
+msgid "Allow picture-in-picture software scaling"
+msgstr "Salli kuva-kuvassa venytys ohjelmallisesti"
+
+#: ../ekiga.schemas.in.in.h:4
+msgid "Alternative audio output device"
+msgstr "Vaihtoehtoinen lähtevän äänen laite"
+
+#: ../ekiga.schemas.in.in.h:5
+msgid "Always forward calls to the given host"
+msgstr "Siirrä puhelut aina tietylle koneelle"
+
+#: ../ekiga.schemas.in.in.h:6
+msgid "Audio input device"
+msgstr "Äänen syötelaite"
+
+#: ../ekiga.schemas.in.in.h:7
+msgid "Audio output device"
+msgstr "Äänen toistolaite"
+
+#: ../ekiga.schemas.in.in.h:8 ../src/gui/preferences.cpp:516
+msgid ""
+"Automatically reject or forward incoming calls if no answer is given after "
+"the specified amount of time (in seconds)"
+msgstr ""
+"Hylkää tai ohjaa tulevat puhelut automaattisesti jos annetussa ajassa "
+"(sekunneissa) ei vastata"
+
+#: ../ekiga.schemas.in.in.h:9
+msgid "Calls history"
+msgstr "Puheluhistoria"
+
+#: ../ekiga.schemas.in.in.h:10
+msgid "Change the main window panel section"
+msgstr "Vaihda hallintapaneelin osiota"
+
+#: ../ekiga.schemas.in.in.h:11
+msgid ""
+"Connection will be established in Fast Start mode. Fast Start is a new way "
+"to start calls faster that was introduced in H.323v2. It is not supported by "
+"Netmeeting and using both Fast Start and H.245 Tunneling can crash some "
+"versions of Netmeeting"
+msgstr ""
+"Yhteys muodostetaan Nopea käynnistys -tilassa.  Nopea käynnistys on uusi "
+"nopeampi tapa aloittaa puhelu ja se esiteltiin H.323v2:ssa. Netmeeting ei "
+"tue tätä ja sekä Nopean käynnistykset että H.245-tunneloinnin käyttäminen "
+"voi kaataa jotkut Netmeeting-versiot"
+
+#: ../ekiga.schemas.in.in.h:12
+msgid "Contact long status"
+msgstr "Tuttavan tila (pitkä muoto)"
+
+#: ../ekiga.schemas.in.in.h:13
+msgid "Contact short status"
+msgstr "Tuttavan tila (lyhyt muoto)"
+
+#: ../ekiga.schemas.in.in.h:14
+msgid "DTMF sending"
+msgstr "DTMF-lähetys"
+
+#: ../ekiga.schemas.in.in.h:15
+msgid "Disable STUN network detection"
+msgstr "Poista käytöstä STUN-verkkotunnistus"
+
+#: ../ekiga.schemas.in.in.h:16 ../src/gui/preferences.cpp:492
+msgid "Disable the automatic network setup resulting from the STUN test"
+msgstr ""
+"Poista käytöstä STUN-testistä johtuva automaattinen verkkoasetusten tekeminen"
+
+#: ../ekiga.schemas.in.in.h:17
+msgid "Disable video hardware acceleration"
+msgstr "Poista videolaitteiston kiihdytys käytöstä"
+
+#: ../ekiga.schemas.in.in.h:18
+msgid "Enable 'Fast Start'"
+msgstr "Käytä \"Nopeaa käynnistystä\""
+
+#: ../ekiga.schemas.in.in.h:19
+msgid "Enable H.245 tunneling"
+msgstr "Käytä H.245-tunnelointia"
+
+#: ../ekiga.schemas.in.in.h:20
+msgid "Enable early H.245"
+msgstr "Käytä aikaista H.245:ttä"
+
+#: ../ekiga.schemas.in.in.h:21
+msgid "Enable echo cancelation"
+msgstr "Ota kaiunpoisto käyttöön"
+
+#: ../ekiga.schemas.in.in.h:22
+msgid "Enable silence detection"
+msgstr "Käytä hiljaisuudentunnistusta"
+
+#: ../ekiga.schemas.in.in.h:23
+msgid ""
+"Enter the number of seconds after which Ekiga should try refreshing the NAT "
+"binding when STUN is being used"
+msgstr ""
+"Syötä sekunteina aikaviive, jonka jälkeen Ekiga yrittää päivittää NAT-"
+"sidoksen, kun STUN on käytössä"
+
+#: ../ekiga.schemas.in.in.h:24 ../src/gui/preferences.cpp:459
+msgid "Enter your full name"
+msgstr "Syötä koko nimesi"
+
+#: ../ekiga.schemas.in.in.h:25
+msgid "Forward calls to host"
+msgstr "Siirrä puhelut koneelle"
+
+#: ../ekiga.schemas.in.in.h:26
+msgid "Forward calls to the given host if busy"
+msgstr "Siirrä puhelut annetulle koneelle varattuna oltaessa"
+
+#: ../ekiga.schemas.in.in.h:27
+msgid "Forward calls to the given host if no answer"
+msgstr "Siirrä puhelut annetulle koneelle jos ei vastata"
+
+#: ../ekiga.schemas.in.in.h:28 ../src/gui/preferences.cpp:1018
+msgid "Frame Rate"
+msgstr "Kehysnopeus"
+
+#: ../ekiga.schemas.in.in.h:29
+msgid "Full name"
+msgstr "Koko nimi"
+
+#: ../ekiga.schemas.in.in.h:30 ../src/gui/preferences.cpp:477
+msgid ""
+"If enabled, Ekiga will start hidden provided that the notification area is "
+"present in the GNOME panel"
+msgstr ""
+"Kun valittu, Ekiga käynnistyy piilotettuna, jos paneelissa on ilmoitusalue"
+
+#: ../ekiga.schemas.in.in.h:31
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below"
+msgstr ""
+"Kun valittu, ohjataan kaikki tulevat puhelut koneelle, joka määritetään alla "
+"olevaan kenttään"
+
+#: ../ekiga.schemas.in.in.h:32
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you already are in a call or if you are in "
+"Do Not Disturb mode"
+msgstr ""
+"Kun valittu, tulevat puhelut ohjataan kentässä määritellylle koneelle, jos "
+"puhut jo puhelua, tai sinua ei sovi häiritä (Älä häiritse -tila)"
+
+#: ../ekiga.schemas.in.in.h:33
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you do not answer the call"
+msgstr ""
+"Kun valittu ja et vastaa puheluun, ohjataan tulevat puhelut koneelle, joka "
+"määritellään alla olevaan kenttään"
+
+#: ../ekiga.schemas.in.in.h:34 ../src/gui/preferences.cpp:479
+msgid "If enabled, offline contacts will be shown in the roster"
+msgstr "Jos käytössä, poissaolevat tuttavat näytetään nimilistassa"
+
+#: ../ekiga.schemas.in.in.h:35
+msgid "If enabled, use echo cancelation"
+msgstr "Kun asetettu, käytetään kaiunpoistoa"
+
+#: ../ekiga.schemas.in.in.h:36
+msgid "If enabled, use silence detection with the codecs supporting it"
+msgstr ""
+"Kun asetettu, käytetään hiljaisuudentunnistusta sitä tukevilla kodekeilla"
+
+#: ../ekiga.schemas.in.in.h:37
+msgid "Kind of network selected in the druid"
+msgstr "Ohjatussa asennuksessa valittu verkon tyyppi"
+
+#: ../ekiga.schemas.in.in.h:38
+msgid "LDAP servers"
+msgstr "LDAP-palvelimet"
+
+#: ../ekiga.schemas.in.in.h:39
+msgid "List of configured LDAP servers"
+msgstr "Luettelo määritellyistä LDAP-palvelimista"
+
+#: ../ekiga.schemas.in.in.h:40
+msgid "List of folded groups in the roster"
+msgstr "Luettelo nimilistan kansioryhmistä"
+
+#: ../ekiga.schemas.in.in.h:41
+msgid "Listen port"
+msgstr "Vastaanottoportti"
+
+#: ../ekiga.schemas.in.in.h:42
+msgid "Local video window size"
+msgstr "Paikallisen videoikkunan koko"
+
+#: ../ekiga.schemas.in.in.h:43
+msgid "Maximum RX video bitrate"
+msgstr "Suurin saapuvan videon bittinopeus"
+
+#: ../ekiga.schemas.in.in.h:44
+msgid "Maximum TX video bitrate"
+msgstr "Suurin lähtevän videon bittinopeus"
+
+#: ../ekiga.schemas.in.in.h:45
+msgid "Maximum jitter buffer"
+msgstr "Suurin värinäpuskuri"
+
+#: ../ekiga.schemas.in.in.h:46
+msgid "NAT Binding Timeout"
+msgstr "NAT-sidoksen aikakatkaisu"
+
+#: ../ekiga.schemas.in.in.h:47
+msgid "No answer timeout"
+msgstr "Ei vastausta -aikakatkaisu"
+
+#: ../ekiga.schemas.in.in.h:48
+msgid "Outbound Proxy"
+msgstr "Lähtevien välipalvelin"
+
+#: ../ekiga.schemas.in.in.h:49 ../src/gui/preferences.cpp:486
+msgid "Place windows displaying video above other windows during calls"
+msgstr ""
+"Aseta videota näyttävät ikkunat muiden ikkunoiden päälle soittojen ajaksi"
+
+#: ../ekiga.schemas.in.in.h:50 ../src/gui/preferences.cpp:371
+msgid "Play busy tone"
+msgstr "Soita varattu-ääni"
+
+#: ../ekiga.schemas.in.in.h:51 ../src/gui/preferences.cpp:361
+msgid "Play ring tone"
+msgstr "Soita hälytysääni"
+
+#: ../ekiga.schemas.in.in.h:52 ../src/gui/preferences.cpp:351
+msgid "Play sound on incoming calls"
+msgstr "Soita ääni uusien puheluiden saapuessa"
+
+#: ../ekiga.schemas.in.in.h:53
+msgid "Play sound on new message"
+msgstr "Soita ääni uusien viestien saapuessa"
+
+#: ../ekiga.schemas.in.in.h:54
+msgid "Play sound on new voice mail"
+msgstr "Soita ääni uusien ääniviestien saapuessa"
+
+#: ../ekiga.schemas.in.in.h:55
+msgid "Position of the local video window"
+msgstr "Paikallisen videoikkunan sijainti"
+
+#: ../ekiga.schemas.in.in.h:56
+msgid "Position on the screen of the address book window"
+msgstr "Osoitekirjaikkunan sijainti ruudulla"
+
+#: ../ekiga.schemas.in.in.h:57
+msgid "Position on the screen of the audio settings window"
+msgstr "Ääniasetusikkunan sijainti ruudulla"
+
+#: ../ekiga.schemas.in.in.h:58
+msgid "Position on the screen of the chat window"
+msgstr "Keskusteluikkunan sijainti ruudulla"
+
+#: ../ekiga.schemas.in.in.h:59
+msgid "Position on the screen of the druid window"
+msgstr "Ohjatun asennuksen ikkunan sijainti ruudulla"
+
+#: ../ekiga.schemas.in.in.h:60
+msgid "Position on the screen of the log window"
+msgstr "Loki-ikkunan sijainti ruudulla"
+
+#: ../ekiga.schemas.in.in.h:61
+msgid "Position on the screen of the main window"
+msgstr "Pääikkunan sijainti ruudulla"
+
+#: ../ekiga.schemas.in.in.h:62
+msgid "Position on the screen of the preferences window"
+msgstr "Asetusikkunan sijainti ruudulla"
+
+#: ../ekiga.schemas.in.in.h:63
+msgid "Position on the screen of the video settings window"
+msgstr "Videoasetusikkunan sijainti ruudulla"
+
+#: ../ekiga.schemas.in.in.h:64
+msgid "Remote video window position"
+msgstr "Etävideoikkunan sijainti"
+
+#: ../ekiga.schemas.in.in.h:65
+msgid "Remote video window size"
+msgstr "Etävideoikkunan koko"
+
+#: ../ekiga.schemas.in.in.h:66
+msgid "Roster view saving group status"
+msgstr "Nimilistanäkymä tallentaa ryhmän tilaa"
+
+#: ../ekiga.schemas.in.in.h:67
+msgid "Select an alternative audio output device to use for sound events."
+msgstr "Valitse vaihtoehtoinen ääniulostulon laite äänitapahtumille."
+
+#: ../ekiga.schemas.in.in.h:68 ../src/gui/preferences.cpp:777
+msgid "Select the audio input device to use"
+msgstr "Valitse käytettävä äänen syötelaite"
+
+#: ../ekiga.schemas.in.in.h:69 ../src/gui/preferences.cpp:770
+msgid "Select the audio output device to use"
+msgstr "Valitse käytettävä äänen toistolaite"
+
+#: ../ekiga.schemas.in.in.h:70 ../src/gui/preferences.cpp:936
+msgid ""
+"Select the format for video cameras (does not apply to most USB cameras)"
+msgstr "Valitse videokameran kuvamuoto (ei koske useimpia USB-kameroita)"
+
+#: ../ekiga.schemas.in.in.h:71
+msgid ""
+"Select the transmitted video size: Small (QCIF 176x144) or Large (CIF "
+"352x288)"
+msgstr ""
+"Valitse lähetettävän videon koko: pieni (QCIF 176×144) tai suuri (CIF "
+"352×288)"
+
+#: ../ekiga.schemas.in.in.h:72 ../src/gui/preferences.cpp:928
+msgid ""
+"Select the video input device to use. If an error occurs when using this "
+"device a test picture will be transmitted."
+msgstr ""
+"Valitse käytettävä videonauhoituslaite.  Kun tätä laitetta käytettäessä "
+"sattuu virhe, lähetetään kokeilukuvaa."
+
+#: ../ekiga.schemas.in.in.h:73
+msgid "Show offline contacts"
+msgstr "Näytä poissaolevat tuttavat"
+
+#: ../ekiga.schemas.in.in.h:74 ../src/gui/main.cpp:3214
+msgid "Show the call panel"
+msgstr "Näytä soittopaneeli"
+
+#: ../ekiga.schemas.in.in.h:75
+msgid "Size of the address book window"
+msgstr "Osoitekirjaikkunan koko"
+
+#: ../ekiga.schemas.in.in.h:76
+msgid "Size of the audio settings window"
+msgstr "Ääniasetusikkunan koko"
+
+#: ../ekiga.schemas.in.in.h:77
+msgid "Size of the chat window"
+msgstr "Keskusteluikkunan koko"
+
+#: ../ekiga.schemas.in.in.h:78
+msgid "Size of the druid window"
+msgstr "Ohjatun asennuksen ikkunan koko"
+
+#: ../ekiga.schemas.in.in.h:79
+msgid "Size of the preferences window"
+msgstr "Asetusikkunan koko"
+
+#: ../ekiga.schemas.in.in.h:80
+msgid "Size of the video settings window"
+msgstr "Videoasetusikkunan koko"
+
+#: ../ekiga.schemas.in.in.h:81
+msgid "Specify the software scaling algorithm"
+msgstr "Anna ohjelmistoskaalauksen algoritmi"
+
+#: ../ekiga.schemas.in.in.h:82
+msgid ""
+"Specify the software scaling algorithm: 0: nearest neighbor, 1: nearest "
+"neighbor with box filter, 2: bilinear filtering, 3: hyperbolic filtering. "
+"Does not apply on windows systems."
+msgstr ""
+"Määritä ohjelmistoskaalauksen algoritmi: 0 lähin naapuri, 1 lähin naapuri "
+"laatikkosuotimella, 2 bi-lineaarinen suodatus, 3 hyberbolinen suodatus. Ei "
+"koske windows-käyttäjiä."
+
+#: ../ekiga.schemas.in.in.h:83
+msgid "Start hidden"
+msgstr "Käynnisty piilotettuna"
+
+#: ../ekiga.schemas.in.in.h:84
+msgid "TCP port range"
+msgstr "TCP-porttiväli"
+
+#: ../ekiga.schemas.in.in.h:85
+msgid "Temporal Spatial Trade Off"
+msgstr "Ajallisavaruudellinen kompromissi"
+
+#: ../ekiga.schemas.in.in.h:86
+msgid "The Audio Codecs List"
+msgstr "Luettelo äänikoodekeista"
+
+#: ../ekiga.schemas.in.in.h:87 ../src/gui/preferences.cpp:727
+msgid "The SIP Outbound Proxy to use for outgoing calls"
+msgstr "Lähteville SIP-puheluille käytettävä välimuisti"
+
+#: ../ekiga.schemas.in.in.h:88
+msgid "The STUN Server"
+msgstr "STUN-palvelin"
+
+#: ../ekiga.schemas.in.in.h:89
+msgid ""
+"The STUN server to use for STUN Support. STUN is a technology that permits "
+"passage through some types of NAT gateway"
+msgstr ""
+"STUN-palvelin, jonka kautta STUN-tukea käytetään. STUN on tekniikka, jota "
+"käyttäen päästään tietyn tyyppisten NAT-yhdyskäytävien läpi"
+
+#: ../ekiga.schemas.in.in.h:90
+msgid "The Video Codecs List"
+msgstr "Luettelo videokoodekeista"
+
+#: ../ekiga.schemas.in.in.h:91
+msgid "The accounts list"
+msgstr "Luettelo tileistä"
+
+#: ../ekiga.schemas.in.in.h:92
+msgid "The audio codecs list"
+msgstr "Luettelo äänikoodekeista"
+
+#: ../ekiga.schemas.in.in.h:93
+msgid "The busy tone sound"
+msgstr "Varattu-äänimerkki"
+
+#: ../ekiga.schemas.in.in.h:94
+msgid ""
+"The chosen sound will be played at the end of calls or calling somebody who "
+"is busy, if enabled"
+msgstr ""
+"Valittu ääni soitetaan puhelun päätyttyä tai soitettaessa jonnekin varattuun "
+"paikkaan, jos valittu"
+
+#: ../ekiga.schemas.in.in.h:95
+msgid "The chosen sound will be played on incoming calls, if enabled"
+msgstr ""
+"Valittu ääni soitetaan vastaanotettaessa uusi puhelu, jos toiminto on "
+"käytössä"
+
+#: ../ekiga.schemas.in.in.h:96
+msgid ""
+"The chosen sound will be played when a new instant message is received, if "
+"enabled"
+msgstr ""
+"Valittu ääni soitetaan vastaanotettaessa uusi pikaviesti, jos toiminto on "
+"käytössä"
+
+#: ../ekiga.schemas.in.in.h:97
+msgid ""
+"The chosen sound will be played when a new voice mail is received, if enabled"
+msgstr ""
+"Valittu ääni soitetaan vastaanotettaessa uusi ääniviesti, jos toiminto on "
+"käytössä"
+
+#: ../ekiga.schemas.in.in.h:98
+msgid "The chosen sound will be played when calling somebody, if enabled"
+msgstr "Valittu ääni soitetaan soitettaessa johonkin, jos valittu"
+
+#: ../ekiga.schemas.in.in.h:99
+msgid "The default video view"
+msgstr "Oletusvideonäkymä"
+
+#: ../ekiga.schemas.in.in.h:100
+msgid ""
+"The default video view (0: Local, 1: Remote, 2: Both layered, 3: Both with "
+"local video in a separate window, 4: Both)"
+msgstr ""
+"Oletusvideonäkymä (0: paikallinen, 1: etä, 2: molemmat tasoina, 3: molemmat "
+"siten, että paikallinen video erillisessä ikkunassa, 4: molemmat)"
+
+#: ../ekiga.schemas.in.in.h:101
+msgid "The dial tone sound"
+msgstr "Puhelinlinjan ääni"
+
+#: ../ekiga.schemas.in.in.h:102
+msgid "The history of the 100 last calls"
+msgstr "Viimeisten 100 soitetun puhelun historia"
+
+#: ../ekiga.schemas.in.in.h:103 ../src/gui/preferences.cpp:676
+#: ../src/gui/preferences.cpp:730
+msgid "The host where calls should be forwarded if call forwarding is enabled"
+msgstr "Verkkonimi, jolle puhelut ohjataan kun puhelun siirto on käytössä"
+
+#: ../ekiga.schemas.in.in.h:104
+msgid "The incoming call sound"
+msgstr "Tulevan puhelun ääni"
+
+#: ../ekiga.schemas.in.in.h:105
+msgid "The list of accounts to which Ekiga should register"
+msgstr "Lista tileistä, jotka Ekigan tulisi rekisteröidä"
+
+#: ../ekiga.schemas.in.in.h:106
+msgid "The long status information"
+msgstr "Pitkät tilatiedot"
+
+#: ../ekiga.schemas.in.in.h:107
+msgid ""
+"The maximum RX video bitrate in kbit/s. This value will be signaled to the "
+"peer endpoint that can adjust (if it supports it) its TX bitrate if it is "
+"above the signaled value"
+msgstr ""
+"Vastaanotettavan videon suurin bittinopeus kilobitteinä sekunnissa. Tämä "
+"arvo signaloidaan vastapäähän, jotta se voi yrittää säätää lähetysnopeuttaan "
+"hitaammaksi lähettäessään nopeammin kuin signaalissa kerrotulla nopeudella"
+
+#: ../ekiga.schemas.in.in.h:108
+msgid ""
+"The maximum TX video bitrate in kbit/s. The video quality and the number of "
+"transmitted frames per second (depends on selected codec) will be "
+"dynamically adjusted above their minimum during calls to try to minimize the "
+"bandwidth to the given value"
+msgstr ""
+"Lähetettävän videon suurin bittinopeus kilobitteinä sekunnissa. Videon "
+"laatua ja lähetettävien ruutujen määrää sekunnissa (riippuen valitusta "
+"koodekista) säädetään dynaamisesti minimiarvojensa rajoissa siten, että "
+"pyritään pienentämään käytetty siirtokaista annettuun arvoon"
+
+#: ../ekiga.schemas.in.in.h:109
+msgid "The maximum jitter buffer size for audio reception (in ms)"
+msgstr "Suurin värinäpuskurikoko äänen vastaanotossa (millisekunteina)"
+
+#: ../ekiga.schemas.in.in.h:110
+msgid ""
+"The maximum transmitted frame rate in frames/s. This rate may not be reached "
+"in case a minimum quality was configure via a TSTO value smaller than 31 and "
+"the bitrate selected is not sufficient to support this minimum quality"
+msgstr ""
+"Suurin lähetetty ruutunopeus ruutuina sekunnissa. Tätä nopeutta ei ehkä "
+"saavuteta, jos pienin sallittu laatu määriteltiin TSTO-arvoksi joka on "
+"pienempi kuin 31 ja jos valittu bittinopeus ei tue tätä pienintä laatua."
+
+#: ../ekiga.schemas.in.in.h:111
+msgid "The new instant message sound"
+msgstr "Äänimerkki uudestaan pikaviestistä"
+
+#: ../ekiga.schemas.in.in.h:112
+msgid "The new voice mail sound"
+msgstr "Saapuvan puhelun ääni"
+
+#: ../ekiga.schemas.in.in.h:113
+msgid ""
+"The port to listen to for incoming connections. Ekiga needs to be restarted "
+"for the new value to take effect"
+msgstr ""
+"Portti, jossa kuunnellaan tulevia yhteyksiä. Ekiga täytyy käynnistää "
+"uudestaan, jotta uusi arvo tulee voimaan."
+
+#: ../ekiga.schemas.in.in.h:114
+msgid ""
+"The port to listen to for incoming connections. Ekiga needs to be restarted "
+"for the new value to take effect."
+msgstr ""
+"Portti, jossa kuunnellaan tulevia yhteyksiä. Ekiga täytyy käynnistää "
+"uudestaan, jotta uusi arvo tulee voimaan."
+
+#: ../ekiga.schemas.in.in.h:115
+msgid "The position of the local video window"
+msgstr "Paikallisen videoikkunan sijainti"
+
+#: ../ekiga.schemas.in.in.h:116
+msgid "The position of the remote video window"
+msgstr "Etävideoikkunan sijainti"
+
+#: ../ekiga.schemas.in.in.h:117
+msgid ""
+"The range of TCP ports that Ekiga will use for the H.323 H.245 channel. This "
+"port range has no effect if both participants to the conference are using "
+"H.245 Tunneling."
+msgstr ""
+"Väli TCP-portteja, joita Ekiga käyttää H.323 H.245 -kanavalle. Tämä "
+"porttiväli ei vaikuta mitään, jos molemmat keskustelijat käyttävät H.245-"
+"tunnelointia."
+
+#: ../ekiga.schemas.in.in.h:118
+msgid "The range of UDP ports that Ekiga will use."
+msgstr "Ekigan käyttämä UDP-porttien alue."
+
+#: ../ekiga.schemas.in.in.h:119
+msgid "The short status information"
+msgstr "Lyhyet tilatiedot"
+
+#: ../ekiga.schemas.in.in.h:120
+msgid "The size of the local video window"
+msgstr "Paikallisen videoikkunan koko"
+
+#: ../ekiga.schemas.in.in.h:121
+msgid "The size of the remote video window"
+msgstr "Etävideoikkunan koko"
+
+#: ../ekiga.schemas.in.in.h:122
+msgid ""
+"The sound that will be played at the end of calls or when calling somebody "
+"who is busy, if enabled"
+msgstr ""
+"Ääni, joka soitetaan puhelun päätyttyä tai soitettaessa varattuun numeroon, "
+"jos toiminto on käytössä"
+
+#: ../ekiga.schemas.in.in.h:123
+msgid "The sound that will be played on incoming calls, if enabled"
+msgstr "Ääni, joka soitetaan saapuville puheluille, jos toiminto on käytössä"
+
+#: ../ekiga.schemas.in.in.h:124
+msgid "The sound that will be played when calling somebody, if enabled"
+msgstr "Ääni, joka soitetaan soitettaessa jollekulle, jos toiminto on käytössä"
+
+#: ../ekiga.schemas.in.in.h:125
+msgid ""
+"The sound that will be played when there is a new instant message, if enabled"
+msgstr ""
+"Ääni, joka soitetaan uuden pikaviestin saapuessa, jos toiminto on käytössä"
+
+#: ../ekiga.schemas.in.in.h:126
+msgid ""
+"The sound that will be played when there is a new voice mail, if enabled"
+msgstr ""
+"Ääni, joka soitetaan kun uuden ääniviestin saapuessa, jos toiminto on "
+"käytössä"
+
+#: ../ekiga.schemas.in.in.h:127 ../src/gui/preferences.cpp:932
+msgid "The video channel number to use (to select camera, tv or other sources)"
+msgstr "Käytettävä videokanavanumero (valitsemaan kamera, tv tai muu lähde)"
+
+#: ../ekiga.schemas.in.in.h:128
+msgid "The video codecs list"
+msgstr "Luettelo videokoodekeista"
+
+#: ../ekiga.schemas.in.in.h:129
+msgid "The video view before having switched to fullscreen"
+msgstr "Videonäkymä ennen siirtymistä kokoruututilaan"
+
+#: ../ekiga.schemas.in.in.h:130
+msgid ""
+"The video view before having switched to fullscreen (same values as "
+"video_view)"
+msgstr ""
+"Videonäkymä ennen siirtymistä kokoruututilaan (samat arvot kuin avaimella "
+"video_view)"
+
+#: ../ekiga.schemas.in.in.h:131
+msgid "The zoom value"
+msgstr "Suurennuskerroin"
+
+#: ../ekiga.schemas.in.in.h:132
+msgid ""
+"The zoom value in percent to apply to images displayed in the main GUI (can "
+"be 50, 100, or 200)"
+msgstr ""
+"Pääikkunassa näytettävissä kuvissa käytettävä suurennuskerroin. Arvo voi "
+"olla 50, 100 tai 200."
+
+#: ../ekiga.schemas.in.in.h:133
+msgid ""
+"This allows you to set the mode for sending DTMFs. The values can be "
+"\"RFC2833\" (0), \"INFO\" (1)"
+msgstr ""
+"Tämän avulla voit asettaa DTMF-lähetyksen tilan. Sallitut arvot ovat "
+"\"RFC2833\" (0) ja \"INFO\" (1)."
+
+#: ../ekiga.schemas.in.in.h:134
+msgid ""
+"This allows you to set the mode for sending DTMFs. The values can be \"String"
+"\" (0), \"Tone\" (1), \"RFC2833\" (2), \"Q.931\" (3) (default is \"String"
+"\"). Choosing other values than \"String\" disables the Text Chat"
+msgstr ""
+"Tämä sallii asettaa tavan DTMF-lähetyksille. Arvot voivat olla \"String"
+"\" (0), \"Tone\" (1), \"RFC2833\" (2), \"Q.931\" (3). Oletusarvo on \"String"
+"\".Tekstikeskustelu ei ole käytettävissä, jos valitset muun arvoin kuin "
+"\"String\"."
+
+#: ../ekiga.schemas.in.in.h:135 ../src/gui/preferences.cpp:688
+msgid ""
+"This enables H.245 Tunneling mode. In H.245 Tunneling mode H.245 messages "
+"are encapsulated into the H.225 channel (port 1720). This saves one TCP "
+"connection during calls. H.245 Tunneling was introduced in H.323v2 and "
+"Netmeeting does not support it. Using both Fast Start and H.245 Tunneling "
+"can crash some versions of Netmeeting."
+msgstr ""
+"Tämä ottaa käyttöön H.245-tunnelointitilan. H.245-tunnelointitilassa H.245-"
+"viestit kapseloidaan H.225-kanavaan (portissa 1720). Tämä säästää yhden TCP-"
+"yhteyden puhelun aikana. H.245-tunnelointi otettiin käyttöön H.323v2:ssa ja "
+"Netmeeting ei tue sitä. Jotkut Netmeetingin versiot voivat kaatua "
+"käytettäessä sekä nopeaa käynnistystä sekä H.245-tunnelointia."
+
+#: ../ekiga.schemas.in.in.h:136 ../src/gui/preferences.cpp:690
+msgid "This enables H.245 early in the setup"
+msgstr "Tämä ottaa käyttöön H.245:n aikaisessa vaiheessa"
+
+#: ../ekiga.schemas.in.in.h:137
+msgid ""
+"This key disables DirectX (on win32) and XVideo (on Linux) video hardware "
+"acceleration"
+msgstr ""
+"Tämä avain poistaa DirectX- (Windows) ja Xvideo- (Linux) -kiihdytyksen "
+"käytöstä"
+
+#: ../ekiga.schemas.in.in.h:138
+msgid "UDP port range"
+msgstr "UDP-porttiväli"
+
+#: ../ekiga.schemas.in.in.h:139
+msgid "Video channel"
+msgstr "Videokanava"
+
+#: ../ekiga.schemas.in.in.h:140
+msgid "Video format"
+msgstr "Videomuoto"
+
+#: ../ekiga.schemas.in.in.h:141 ../src/gui/assistant.cpp:1153
+msgid "Video input device"
+msgstr "Videon syötelaite"
+
+#: ../ekiga.schemas.in.in.h:142
+msgid "Video preview"
+msgstr "Videon esikatselu"
+
+#: ../ekiga.schemas.in.in.h:143
+msgid "Video size"
+msgstr "Videon koko"
+
+#: ../ekiga.schemas.in.in.h:144
+msgid ""
+"Whether to prefer to sustain the max. frame rate or lower it possibly in "
+"order to keep a minimum level of (spatial) quality for all frames. 0: "
+"Highest minimal quality, 31: lowest minimal quality"
+msgstr ""
+"Pyritäänkö säilyttämään suurin mahdollinen ruutunopeus vai pyritäänkö "
+"säilyttämään kaikille ruuduille tietty laadun minimitaso vähentämällä "
+"ruutunopeutta tarvittaessa. Arvo on väliltä 0 (korkein minimilaatu) ja 31 "
+"(matalin minimilaatu)"
+
+#: ../lib/engine/addressbook/contact-core.cpp:58
+msgid "_Find"
+msgstr "_Etsi"
+
+#: ../lib/engine/components/avahi/avahi-heap.cpp:125
+#: ../lib/engine/components/avahi/avahi-heap.cpp:306
+msgid "Neighbours"
+msgstr "Naapurit"
+
+#: ../lib/engine/components/call-history/history-book.cpp:140
+#: ../lib/engine/gui/gtk-frontend/call-history-view-gtk.cpp:162
+msgid "Clear List"
+msgstr "Tyhjennä luettelo"
+
+#: ../lib/engine/components/call-history/history-contact.cpp:153
+msgid "Received"
+msgstr "Vastaanotettu"
+
+#: ../lib/engine/components/call-history/history-contact.cpp:156
+msgid "Placed"
+msgstr "Soitettu"
+
+#: ../lib/engine/components/call-history/history-contact.cpp:159
+msgid "Missed"
+msgstr "Vastaamatta"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:76
+#: ../lib/engine/components/ldap/ldap-book.cpp:909
+#, c-format
+msgid "%d user found"
+msgid_plural "%d users found"
+msgstr[0] "%d käyttäjä löytyi"
+msgstr[1] "%d käyttäjää löytyi"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:244
+msgid "New _Contact"
+msgstr "Uusi _tuttava"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:288
+#: ../lib/engine/components/local-roster/local-cluster.cpp:82
+#: ../lib/engine/components/local-roster/local-heap.cpp:117
+msgid "New contact"
+msgstr "Uusi tuttava"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:290
+#: ../lib/engine/components/evolution/evolution-contact.cpp:328
+#: ../lib/engine/components/opal/opal-account.cpp:351
+msgid "Please update the following fields:"
+msgstr "Ole hyvä ja päivitä seuraavat kentät:"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:292
+msgid "_Name:"
+msgstr "_Nimi:"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:293
+#: ../lib/engine/components/evolution/evolution-contact.cpp:339
+msgid "VoIP _URI:"
+msgstr "VoIP-_URI:"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:294
+#: ../lib/engine/components/evolution/evolution-contact.cpp:340
+msgid "_Home phone:"
+msgstr "_Kotipuhelin:"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:295
+#: ../lib/engine/components/evolution/evolution-contact.cpp:341
+msgid "_Office phone:"
+msgstr "_Toimistopuhelin:"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:296
+#: ../lib/engine/components/evolution/evolution-contact.cpp:342
+msgid "_Cell phone:"
+msgstr "_Matkapuhelin:"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:297
+#: ../lib/engine/components/evolution/evolution-contact.cpp:343
+msgid "_Pager:"
+msgstr "_Piippari:"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:234
+#: ../lib/engine/components/local-roster/local-presentity.cpp:197
+#: ../lib/engine/components/opal/opal-account.cpp:308
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:203
+#: ../src/gui/main.cpp:3172
+msgid "_Edit"
+msgstr "_Muokkaa"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:236
+#: ../lib/engine/components/local-roster/local-presentity.cpp:199
+#: ../lib/engine/components/opal/opal-account.cpp:310
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:205
+msgid "_Remove"
+msgstr "_Poista"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:326
+msgid "Edit contact"
+msgstr "Muokkaa tuttavan tietoja"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:330
+#: ../lib/engine/components/local-roster/local-presentity.cpp:224
+#: ../lib/engine/components/local-roster/local-heap.cpp:184
+#: ../lib/engine/components/local-roster/local-heap.cpp:364
+#: ../lib/engine/components/opal/opal-account.cpp:353
+#: ../lib/engine/components/opal/opal-bank.cpp:99
+#: ../lib/engine/components/opal/opal-bank.cpp:109
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:169
+#: ../lib/engine/components/resource-list/rl-heap.cpp:544
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:224
+msgid "Name:"
+msgstr "Nimi:"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:395
+msgid "Remove contact"
+msgstr "Poista tuttava"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:397
+#, c-format
+msgid "Are you sure you want to remove %s from the addressbook?"
+msgstr "Haluatko varmasti poistaa tuttavan %s osoitekirjasta?"
+
+#: ../lib/engine/components/gstreamer/gst-audioinput.cpp:270
+msgid "Audio test"
+msgstr "Äänitesti"
+
+#: ../lib/engine/components/gstreamer/gst-audiooutput.cpp:320
+msgid "Silent"
+msgstr "Äänetön"
+
+#: ../lib/engine/components/gstreamer/gst-videoinput.cpp:226
+msgid "Video test"
+msgstr "Videotesti"
+
+#. Translators: "Screencast" means the video input device will be your screen -- the other end will see your desktop
+#: ../lib/engine/components/gstreamer/gst-videoinput.cpp:370
+#: ../lib/engine/components/gstreamer/gst-videoinput.cpp:375
+msgid "Crazy"
+msgstr "Hullu"
+
+#: ../lib/engine/components/gstreamer/gst-videoinput.cpp:375
+msgid "Screencast"
+msgstr "Näytönvälitys"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:409
+#: ../lib/engine/components/resource-list/rl-entry.cpp:143
+#: ../lib/engine/components/resource-list/rl-entry-ref.cpp:130
+msgid "_Refresh"
+msgstr "_Päivitä"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:412
+msgid "_Remove addressbook"
+msgstr "_Poista osoitekirja"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:414
+msgid "Addressbook _properties"
+msgstr "Osoitekirjan _ominaisuudet"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:545
+msgid "LDAP SASL Interaction"
+msgstr "LDAP SASL -keskustelu"
+
+#. Translators, Howard explained : "Challenge" is a generic term
+#. * in authentication. It's a prompt from the authentication mechanism
+#. * for some type of credential. Exactly what kind of challenge and
+#. * what kind of credential depends on the specific authentication
+#. * mechanism. Since SASL is a generic interface, and can dynamically
+#. * load arbitrary mechanisms, there's not much more specific you can
+#. * say about it. You might google for "challenge response
+#. * authentication" if you'd like more background context.
+#.
+#: ../lib/engine/components/ldap/ldap-book.cpp:587
+msgid "Challenge: "
+msgstr "Haaste:"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:595
+msgid "Interact"
+msgstr "Keskustelu"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:664
+msgid "Refreshing"
+msgstr "Päivitetään"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:670
+msgid "Could not initialize server"
+msgstr "Palvelinta ei voitu alustaa"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:684
+#: ../lib/engine/components/ldap/ldap-book.cpp:729
+msgid "LDAP Error: "
+msgstr "LDAP-virhe: "
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:738
+msgid "Contacted server"
+msgstr "Yhteys palvelimeen avattu"
+
+#. patience == 0
+#: ../lib/engine/components/ldap/ldap-book.cpp:781
+msgid "Could not connect to server"
+msgstr "Palvelimeen ei saatu yhteyttä"
+
+#. patience == 0
+#: ../lib/engine/components/ldap/ldap-book.cpp:829
+#: ../lib/engine/components/ldap/ldap-book.cpp:882
+msgid "Could not search"
+msgstr "Ei voitu hakea"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:837
+msgid "Waiting for search results"
+msgstr "Odotetaan hakutuloksia"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:931
+msgid "Please edit the following fields"
+msgstr "Ole hyvä ja muokkaa seuraavia kenttiä"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:933
+msgid "Book _Name"
+msgstr "Kirjan _nimi"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:934
+msgid "Server _URI"
+msgstr "Palvelimen _URI"
+
+# Tämä on kai jotain LDAP-kamaa, anyone?
+#: ../lib/engine/components/ldap/ldap-book.cpp:935
+msgid "_Base DN"
+msgstr "_DN-pohja"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:941
+msgid "Subtree"
+msgstr "Alipuu"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:942
+msgid "Single Level"
+msgstr "Yksi taso"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:943
+msgid "_Search Scope"
+msgstr "_Haun laajuus"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:952
+msgid "_DisplayName Attribute"
+msgstr "_DisplayName-ominauus"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:953
+msgid "Call _Attributes"
+msgstr "Soitto-ominaisuudet"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:955
+#: ../lib/engine/components/ldap/ldap-book.cpp:957
+msgid "_Filter Template"
+msgstr "_Suodatinmalli"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:959
+msgid "Bind _ID"
+msgstr "Liitostunniste (_ID)"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:960
+msgid "_Password"
+msgstr "_Salasana"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:961
+msgid "Use TLS"
+msgstr "Käytä TLS:ää"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:962
+msgid "Use SASL"
+msgstr "Käytä SASL:ia"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:976
+msgid "SASL _Mechanism"
+msgstr "SASL-_mekanismi"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:987
+msgid "Edit LDAP directory"
+msgstr "Muokkaa LDAP-hakemistoa"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:1016
+msgid "Please provide a Book Name for this directory\n"
+msgstr "Syötä kirjan nimi tälle hakemistolle\n"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:1019
+msgid "Please provide a Server URI\n"
+msgstr "Syötä palvelimen URI\n"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:1022
+msgid "Please provide a DisplayName Attribute\n"
+msgstr "Syötä DisplayName-ominaisuus\n"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:1025
+msgid "Please provide a Call Attribute\n"
+msgstr "Syötä soitto-ominaisuus\n"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:1028
+msgid "Invalid Server URI\n"
+msgstr "Virheellinen palvelin-URI\n"
+
+#: ../lib/engine/components/ldap/ldap-source.cpp:127
+msgid "Add an LDAP Address Book"
+msgstr "Lisää LDAP-osoitekirja"
+
+#: ../lib/engine/components/ldap/ldap-source.cpp:130
+msgid "Add the Ekiga.net Directory"
+msgstr "Lisää Ekiga.net -hakemisto"
+
+#: ../lib/engine/components/ldap/ldap-source.cpp:152
+msgid "Create LDAP directory"
+msgstr "Luo LDAP-hakemisto"
+
+#: ../lib/engine/components/ldap/ldap-source.cpp:167
+msgid "Ekiga.net Directory"
+msgstr "Ekiga.net-hakemisto"
+
+#: ../lib/engine/components/local-roster/local-presentity.cpp:221
+msgid "Edit roster element"
+msgstr "Muokkaa nimilistan kohtaa"
+
+#: ../lib/engine/components/local-roster/local-presentity.cpp:222
+msgid ""
+"Please fill in this form to change an existing element of ekiga's internal "
+"roster"
+msgstr ""
+"Täytä tämä kaavake, jos haluat vaihtaa tietoja ekigan sisäisessä nimilistassa"
+
+#: ../lib/engine/components/local-roster/local-presentity.cpp:225
+#: ../lib/engine/components/local-roster/local-heap.cpp:193
+#: ../lib/engine/components/local-roster/local-heap.cpp:195
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:170
+#: ../lib/engine/components/resource-list/rl-heap.cpp:545
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:225
+msgid "Address:"
+msgstr "Osoite:"
+
+#: ../lib/engine/components/local-roster/local-presentity.cpp:227
+#: ../lib/engine/components/resource-list/rl-heap.cpp:546
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:227
+msgid "Choose groups:"
+msgstr "Valitse ryhmät:"
+
+#: ../lib/engine/components/local-roster/local-roster-bridge.cpp:93
+#: ../lib/engine/components/local-roster/local-heap.cpp:181
+msgid "Add to local roster"
+msgstr "Lisää paikalliseen nimilistaan"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:92
+msgid "Services"
+msgstr "Palvelut"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:93
+msgid "Echo test"
+msgstr "Kaikutesti"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:94
+msgid "Conference room"
+msgstr "Neuvotteluhuone"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:110
+msgid "Local roster"
+msgstr "Paikallinen nimilista"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:127
+msgid "Rename"
+msgstr "Nimeä uudestaan"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:160
+msgid "Family"
+msgstr "Perhe"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:161
+msgid "Friend"
+msgstr "Ystävä"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:162
+msgid "Associate"
+msgstr "Työtoveri"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:163
+msgid "Assistant"
+msgstr "Apulainen"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:164
+msgid "Supervisor"
+msgstr "Esimies"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:165
+msgid "Self"
+msgstr "Minä"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:182
+msgid ""
+"Please fill in this form to add a new contact to ekiga's internal roster"
+msgstr ""
+"Lisää uusi tuttava ekigan sisäiseen nimilistaan täyttämällä tämä lomake"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:199
+msgid "Put contact in groups:"
+msgstr "Lisää tuttava ryhmiin:"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:335
+msgid "You supplied an unsupported address"
+msgstr "Antamasi osoitemuoto ei ole tuettu"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:337
+msgid "You already have a contact with this address!"
+msgstr "Tälle osoitteelle on jo aikaisempi tuttava!"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:362
+msgid "Rename group"
+msgstr "Nimeä ryhmä uudestaan"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:363
+msgid "Please edit this group name"
+msgstr "Muokkaa ryhmän nimeä"
+
+#: ../lib/engine/components/opal/h323-endpoint.cpp:143
+#: ../lib/engine/components/opal/sip-endpoint.cpp:257
+#: ../lib/engine/components/opal/sip-endpoint.cpp:261
+msgid "Call"
+msgstr "Soita"
+
+#: ../lib/engine/components/opal/h323-endpoint.cpp:146
+#: ../lib/engine/components/opal/sip-endpoint.cpp:258
+#: ../lib/engine/components/opal/sip-endpoint.cpp:262 ../src/gui/main.cpp:2946
+msgid "Transfer"
+msgstr "Siirrä puhelu"
+
+#. Translators : The alias we are registering already exists : failure
+#: ../lib/engine/components/opal/h323-endpoint.cpp:310
+msgid "Duplicate alias"
+msgstr "Kahdennettu alias"
+
+#: ../lib/engine/components/opal/h323-endpoint.cpp:313
+msgid "Bad username/password"
+msgstr "Virheellinen käyttäjätunnus tai salasana"
+
+#: ../lib/engine/components/opal/h323-endpoint.cpp:316
+#: ../lib/engine/components/opal/sip-endpoint.cpp:896
+msgid "Transport error"
+msgstr "Siirtovirhe"
+
+#: ../lib/engine/components/opal/h323-endpoint.cpp:327
+#: ../lib/engine/components/opal/h323-endpoint.cpp:332
+#: ../lib/engine/components/opal/sip-endpoint.cpp:903
+msgid "Failed"
+msgstr "Epäonnistui"
+
+#: ../lib/engine/components/opal/opal-account.cpp:300
+msgid "_Disable"
+msgstr "Poista _käytöstä"
+
+#: ../lib/engine/components/opal/opal-account.cpp:303
+msgid "_Enable"
+msgstr "_Ota käyttöön"
+
+#: ../lib/engine/components/opal/opal-account.cpp:324
+#: ../src/gui/assistant.cpp:725
+msgid "Recharge the account"
+msgstr "Lataa tiliä"
+
+#: ../lib/engine/components/opal/opal-account.cpp:329
+#: ../src/gui/assistant.cpp:737
+msgid "Consult the balance history"
+msgstr "Selaa tilihistoriaa"
+
+#: ../lib/engine/components/opal/opal-account.cpp:334
+msgid "Consult the call history"
+msgstr "Selaa puheluhistoriaa"
+
+#: ../lib/engine/components/opal/opal-account.cpp:349
+#: ../lib/engine/components/opal/opal-bank.cpp:72
+msgid "Edit account"
+msgstr "Muokkaa tiliä"
+
+#: ../lib/engine/components/opal/opal-account.cpp:355
+#: ../lib/engine/components/opal/opal-bank.cpp:110
+msgid "Registrar:"
+msgstr "Rekisteröijä:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:357
+#: ../lib/engine/components/opal/opal-bank.cpp:100
+msgid "Gatekeeper:"
+msgstr "Porttivahti:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:358
+#: ../lib/engine/components/opal/opal-bank.cpp:81
+#: ../lib/engine/components/opal/opal-bank.cpp:101
+#: ../lib/engine/components/opal/opal-bank.cpp:111
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:174
+msgid "User:"
+msgstr "Käyttäjä:"
+
+#. Translators:
+#. * SIP knows two usernames: The name for the client ("User") and the name
+#. * for the authentication procedure ("Authentication User")
+#: ../lib/engine/components/opal/opal-account.cpp:363
+#: ../lib/engine/components/opal/opal-bank.cpp:112
+msgid "Authentication User:"
+msgstr "Kirjautumiskäyttäjä:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:364
+#: ../lib/engine/components/opal/opal-bank.cpp:83
+#: ../lib/engine/components/opal/opal-bank.cpp:103
+#: ../lib/engine/components/opal/opal-bank.cpp:113
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:173
+msgid "Password:"
+msgstr "Salasana:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:365
+#: ../lib/engine/components/opal/opal-bank.cpp:104
+#: ../lib/engine/components/opal/opal-bank.cpp:114
+msgid "Timeout:"
+msgstr "Aikakatkaisu:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:366
+#: ../lib/engine/components/opal/opal-bank.cpp:117
+msgid "Enable Account"
+msgstr "Ota tili käyttöön"
+
+#: ../lib/engine/components/opal/opal-account.cpp:401
+#: ../lib/engine/components/opal/opal-bank.cpp:155
+msgid "You did not supply a name for that account."
+msgstr "Et antanut tilille nimeä."
+
+#: ../lib/engine/components/opal/opal-account.cpp:403
+#: ../lib/engine/components/opal/opal-bank.cpp:157
+msgid "You did not supply a host to register to."
+msgstr "Et antanut palvelinta johon rekisteröidä."
+
+#: ../lib/engine/components/opal/opal-account.cpp:405
+#: ../lib/engine/components/opal/opal-bank.cpp:159
+msgid "You did not supply a user name for that account."
+msgstr "Et antanut käyttäjätunnusta tälle tilille."
+
+#: ../lib/engine/components/opal/opal-account.cpp:407
+#: ../lib/engine/components/opal/opal-bank.cpp:161
+msgid "The timeout should have a bigger value."
+msgstr "Aikakatkaisu arvo on liian pieni."
+
+#: ../lib/engine/components/opal/opal-bank.cpp:53
+msgid "_Add an Ekiga.net Account"
+msgstr "Lisää Ekig_a.net-tili"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:55
+msgid "_Add an Ekiga Call Out Account"
+msgstr "_Lisää Ekigan ulossoittotili"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:57
+msgid "_Add a SIP Account"
+msgstr "_Lisää SIP-tili"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:59
+msgid "_Add an H.323 Account"
+msgstr "_Lisää H.323-tili"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:73
+msgid "Please update the following fields."
+msgstr "Ole hyvä ja päivitä seuraavat kentät."
+
+#: ../lib/engine/components/opal/opal-bank.cpp:78 ../src/gui/assistant.cpp:605
+msgid "Get an Ekiga.net SIP account"
+msgstr "Hanki Ekiga.netin SIP-tili"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:88 ../src/gui/assistant.cpp:713
+msgid "Get an Ekiga Call Out account"
+msgstr "Hanki Ekigan ulossoittotili"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:92 ../src/gui/main.cpp:2700
+#: ../src/gui/main.cpp:2795
+msgid "Account ID:"
+msgstr "Tilin tunniste:"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:94
+msgid "PIN Code:"
+msgstr "PIN-koodi:"
+
+#: ../lib/engine/components/opal/opal-call.cpp:444
+msgid "Local user cleared the call"
+msgstr "Paikallinen käyttäjä katkaisi puhelun"
+
+#: ../lib/engine/components/opal/opal-call.cpp:447
+#: ../lib/engine/components/opal/opal-call.cpp:450
+msgid "Local user rejected the call"
+msgstr "Paikallinen käyttäjä hylkäsi puhelun"
+
+#: ../lib/engine/components/opal/opal-call.cpp:453
+msgid "Remote user cleared the call"
+msgstr "Vastapuoli katkaisi puhelun"
+
+#: ../lib/engine/components/opal/opal-call.cpp:456
+msgid "Remote user rejected the call"
+msgstr "Vastapuoli hylkäsi puhelun"
+
+#: ../lib/engine/components/opal/opal-call.cpp:459
+msgid "Remote user has stopped calling"
+msgstr "Vastapuoli lopetti soittamisen"
+
+#: ../lib/engine/components/opal/opal-call.cpp:462
+msgid "Abnormal call termination"
+msgstr "Epänormaali puhelun päättyminen"
+
+#: ../lib/engine/components/opal/opal-call.cpp:465 ../src/gui/main.cpp:1490
+msgid "Could not connect to remote host"
+msgstr "Toiseen koneeseen ei voitu yhdistää"
+
+#: ../lib/engine/components/opal/opal-call.cpp:468
+msgid "The Gatekeeper cleared the call"
+msgstr "Porttivahti katkaisi puhelun"
+
+#: ../lib/engine/components/opal/opal-call.cpp:471
+msgid "User not found"
+msgstr "Käyttäjää ei löydy"
+
+#: ../lib/engine/components/opal/opal-call.cpp:474
+msgid "Insufficient bandwidth"
+msgstr "Kaistanleveys ei riitä"
+
+#: ../lib/engine/components/opal/opal-call.cpp:477
+msgid "No common codec"
+msgstr "Ei yhteistä koodekkia"
+
+#: ../lib/engine/components/opal/opal-call.cpp:480
+msgid "Call forwarded"
+msgstr "Puhelu ohjattu"
+
+#: ../lib/engine/components/opal/opal-call.cpp:483
+msgid "Security check failed"
+msgstr "Tietoturvatarkistus epäonnistui"
+
+#: ../lib/engine/components/opal/opal-call.cpp:486
+msgid "Local user is busy"
+msgstr "Paikallinen käyttäjä on varattu"
+
+#: ../lib/engine/components/opal/opal-call.cpp:489
+#: ../lib/engine/components/opal/opal-call.cpp:495
+msgid "Congested link to remote party"
+msgstr "Ruuhkautunut linkki toiselle osapuolelle"
+
+#: ../lib/engine/components/opal/opal-call.cpp:492
+msgid "Remote user is busy"
+msgstr "Toisen pään käyttäjä on varattu"
+
+#: ../lib/engine/components/opal/opal-call.cpp:498
+msgid "Remote host is offline"
+msgstr "Toisen käyttäjän tietokone ei ole linjoilla"
+
+#: ../lib/engine/components/opal/opal-call.cpp:504
+msgid "User is not available"
+msgstr "Käyttäjä ei ole saatavilla"
+
+#: ../lib/engine/components/opal/opal-call.cpp:516
+msgid "Call completed"
+msgstr "Puhelu päättynyt"
+
+#: ../lib/engine/components/opal/opal-call-manager.cpp:725
+msgid ""
+"Ekiga did not manage to configure your network settings automatically. You "
+"can still use it, but you need to configure your network settings manually.\n"
+"\n"
+"Please see http://wiki.ekiga.org/index.php/Enable_port_forwarding_manually "
+"for instructions"
+msgstr ""
+"Ekiga ei voinut määritellä verkkoasetuksia automaattisesti. Voit silti "
+"käyttää Ekigaa, mutta sinun täytyy määritellä Ekigan verkkoasetuksesi itse.\n"
+"\n"
+"Lue lisäohjeita itse määritellyistä asetuksista osoitteesta http://wiki."
+"ekiga.org/index.php/Enable_port_forwarding_manually"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:282
+#: ../lib/engine/components/opal/sip-endpoint.cpp:284
+msgid "Message"
+msgstr "Viesti"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:710
+msgid "Bad request"
+msgstr "Virheellinen pyyntö"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:714
+msgid "Payment required"
+msgstr "Vaatii maksun"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:718
+msgid "Unauthorized"
+msgstr "Ei sallittu"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:722
+msgid "Forbidden"
+msgstr "Estetty"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:726
+msgid "Timeout"
+msgstr "Aikakatkaisu"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:730
+msgid "Conflict"
+msgstr "Ristiriita"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:734
+msgid "Temporarily unavailable"
+msgstr "Väliaikaisesti poissa käytöstä"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:738
+msgid "Not acceptable"
+msgstr "Ei hyväksyttävä"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:742
+msgid "Illegal status code"
+msgstr "Virheellinen tilakoodi"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:746
+msgid "Multiple choices"
+msgstr "Useita valintoja"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:750
+msgid "Moved permanently"
+msgstr "Siirretty pysyvästi"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:754
+msgid "Moved temporarily"
+msgstr "Siirretty väliaikaisesti"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:758
+msgid "Use proxy"
+msgstr "Käytä välipalvelinta"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:762
+msgid "Alternative service"
+msgstr "Vaihtoehtoinen palvelu"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:766
+msgid "Not found"
+msgstr "Ei löytynyt"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:770
+msgid "Method not allowed"
+msgstr "Menetelmä ei ole sallittu"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:774
+msgid "Proxy authentication required"
+msgstr "Välipalvelin vaatii todentamisen"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:778
+msgid "Length required"
+msgstr "Pituus vaaditaan"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:782
+msgid "Request entity too big"
+msgstr "Pyyntö on liian pitkä"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:786
+msgid "Request URI too long"
+msgstr "Pyynnön URI on liian pitkä"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:790
+msgid "Unsupported media type"
+msgstr "Mediatyyppi ei ole tuettu"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:794
+msgid "Unsupported URI scheme"
+msgstr "URI-malli ei ole tuettu"
+
+#. Translators : The extension we are trying to register does not exist
+#: ../lib/engine/components/opal/sip-endpoint.cpp:799
+msgid "Bad extension"
+msgstr "Virheellinen suuntanumero"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:803
+msgid "Extension required"
+msgstr "Suuntanumero vaaditaan"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:807
+msgid "Interval too brief"
+msgstr "Väli on liian lyhyt"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:811
+msgid "Loop detected"
+msgstr "Havaittiin silmukka"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:815
+msgid "Too many hops"
+msgstr "Liian monta hyppyä"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:819
+msgid "Address incomplete"
+msgstr "Osoite on puutteellinen"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:823
+msgid "Ambiguous"
+msgstr "Epäselvä"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:827
+msgid "Busy Here"
+msgstr "Varattu täällä"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:831
+msgid "Request terminated"
+msgstr "Pyyntö keskeytettiin"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:835
+msgid "Not acceptable here"
+msgstr "Ei hyväksyttävä tässä"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:839
+msgid "Bad event"
+msgstr "Virheellinen tapahtuma"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:843
+msgid "Request pending"
+msgstr "Pyyntö on jonossa"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:847
+msgid "Undecipherable"
+msgstr "Käsittämätön"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:851
+msgid "Internal server error"
+msgstr "Sisäinen palvelinvirhe"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:855
+msgid "Not implemented"
+msgstr "Ei toteutettu"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:859
+msgid "Bad gateway"
+msgstr "Virheellinen yhtyskäytävä"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:863
+msgid "Service unavailable"
+msgstr "Palvelu ei ole käytettävissä"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:867
+msgid "Server timeout"
+msgstr "Palvelimen aikakatkaisu"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:871
+msgid "SIP version not supported"
+msgstr "SIP-versio ei ole tuettu"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:875
+msgid "Message too large"
+msgstr "Viesti on liian suuri"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:879
+msgid "Busy everywhere"
+msgstr "Aina varattu"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:883
+msgid "Decline"
+msgstr "Kiellä"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:887
+msgid "Does not exist anymore"
+msgstr "Ei ole enää olemassa"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:891
+msgid "Globally not acceptable"
+msgstr "Ei hyväksyttävä missään"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:1020
+msgid "Could not send message"
+msgstr "Viestiä ei voitu lähettää"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:1134
+#, c-format
+msgid "Incoming call from %s"
+msgstr "Tuleva puhelu käyttäjältä %s"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:1136
+#, c-format
+msgid "Incoming call"
+msgstr "Tuleva puhelu"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:1142
+#, c-format
+msgid "In a call with %s"
+msgstr "Puhelu käynnissä käyttäjän %s kanssa"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:1144
+#, c-format
+msgid "In a call"
+msgstr "Puhelu käynnissä"
+
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:102
+msgid "New resource list"
+msgstr "Uusi resurssiluettelo"
+
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:166
+msgid "Add new resource-list"
+msgstr "Lisää uusi resurssiluettelo"
+
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:167
+msgid ""
+"Please fill in this form to add a new contact list to ekiga's remote roster"
+msgstr "Lisää uusi tuttava ekigan etänimilistaan täyttämällä tämä lomake"
+
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:171
+msgid "Writable:"
+msgstr "Kirjoitettavissa:"
+
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:172
+msgid "Username:"
+msgstr "Käyttäjänimi:"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:103
+#: ../lib/engine/components/resource-list/rl-heap.cpp:144
+#: ../lib/engine/components/resource-list/rl-heap.cpp:178
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:133
+#: ../lib/engine/components/resource-list/rl-entry.cpp:130
+msgid "Unnamed"
+msgstr "Nimeämätön"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:200
+msgid "_Add a new contact"
+msgstr "_Lisää uusi tuttava"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:202
+msgid "_Refresh contact list"
+msgstr "Vi_rkistä tuttavaluettelo"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:204
+msgid "Contact list _properties"
+msgstr "Tuttavanluettelon o_minaisuudet"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:467
+msgid "Edit contact list properties"
+msgstr "Muokkaa tuttavaluettelon ominaisuuksia"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:469
+msgid "Please edit the following fields (no identifier means global)"
+msgstr "Muokkaa seuraavia kenttiä (ei tunnistetta tarkoittaa yleistä)"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:472
+msgid "Contact list's name"
+msgstr "Tuttavaluettelon nimi"
+
+#. "Document" used as a name -- uri point to the root of a document tree
+#: ../lib/engine/components/resource-list/rl-heap.cpp:474
+msgid "Document root"
+msgstr "Asiakirjajuuri"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:475
+msgid "Identifier"
+msgstr "Tunniste"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:476
+msgid "Writable"
+msgstr "Kirjoitettavissa"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:477
+msgid "Server username"
+msgstr "Palvelimen käyttäjänimi"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:478
+msgid "Server password"
+msgstr "Palvelimen salsana"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:530
+msgid "Add a remote contact"
+msgstr "Lisää etätuttava"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:531
+msgid "Please fill in this form to create a new contact on a remote server"
+msgstr "Lisää uusi tuttava etäpalvelimelle täyttämällä tämä lomake"
+
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:221
+msgid "Edit remote contact"
+msgstr "Muokkaa etätuttavaa"
+
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:222
+msgid ""
+"Please fill in this form to change an existing contact on a remote server"
+msgstr ""
+"Täytä tämä kaavake, jos haluat muuttaa etäpalvelimella jo olevan tuttavan "
+"tietoja"
+
+#: ../lib/engine/components/resource-list/rl-entry.cpp:186
+msgid "Invalid server data"
+msgstr "Virheelliset palvelintiedot"
+
+#: ../lib/engine/components/resource-list/rl-entry-ref.cpp:51
+msgid "Click to fetch"
+msgstr "Nouda napsauttamalla"
+
+#: ../lib/engine/components/resource-list/rl-entry-ref.cpp:118
+msgid "Distant contact"
+msgstr "Etäinen tuttava"
+
+#: ../lib/engine/components/resource-list/rl-list.cpp:181
+#, c-format
+msgid "%s / List #%d"
+msgstr "%s / luettelo #%d"
+
+#: ../lib/engine/components/resource-list/rl-list.cpp:185
+#, c-format
+msgid "List #%d"
+msgstr "Luettelo #%d"
+
+#: ../lib/engine/gui/gtk-core/form-dialog-gtk.cpp:660
+msgid "Advanced"
+msgstr "Lisäasetukset"
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:659
+msgid "Address Book"
+msgstr "Osoitekirja"
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:675
+#: ../src/gui/main.cpp:3121
+msgid "Address _Book"
+msgstr "_Osoitekirja"
+
+#. This will add static and dynamic actions
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:684
+msgid "_Action"
+msgstr "_Toiminto"
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:729
+msgid "Category"
+msgstr "Luokka"
+
+#: ../lib/engine/gui/gtk-frontend/book-view-gtk.cpp:590
+#: ../src/gui/assistant.cpp:1377
+msgid "Full Name"
+msgstr "Koko nimi"
+
+#: ../lib/engine/gui/gtk-frontend/book-view-gtk.cpp:601
+msgid "_Search Filter:"
+msgstr "_Hakusuodatin:"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:247
+msgid "says:"
+msgstr "sanoo:"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:370
+msgid "Open link in browser"
+msgstr "Avaa linkki selaimessa"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:376
+msgid "Copy link"
+msgstr "Kopioi linkki"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:904
+msgid "_Smile..."
+msgstr "_Hymyile..."
+
+#. we can't do much here since we get the Chat as reference...
+#: ../lib/engine/gui/gtk-frontend/chat-window.cpp:432
+msgid "Chat Window"
+msgstr "Keskusteluikkuna"
+
+#: ../lib/engine/gui/gtk-frontend/roster-view-gtk.cpp:989
+#: ../lib/engine/gui/gtk-frontend/roster-view-gtk.cpp:1024
+msgid "Unsorted"
+msgstr "Ei järjestetty"
+
+#: ../lib/gui/codecsbox.cpp:477
+msgid "Move selected codec priority upwards"
+msgstr "Kasvata valitun koodekin tärkeysjärjestystä"
+
+#: ../lib/gui/codecsbox.cpp:487
+msgid "Move selected codec priority downwards"
+msgstr "Pienennä valitun koodekin tärkeysjärjestystä"
+
+#: ../lib/gui/gmdialog.c:462
+msgid "Do not show this dialog again"
+msgstr "Älä näytä tätä uudelleen"
+
+#: ../src/gui/accounts.cpp:229
+msgid "Registered"
+msgstr "Rekisteröity"
+
+#: ../src/gui/accounts.cpp:233
+msgid "Unregistered"
+msgstr "Ei rekisteröity"
+
+#: ../src/gui/accounts.cpp:237
+msgid "Could not unregister"
+msgstr "Rekisteröintiä ei voitu perua"
+
+#: ../src/gui/accounts.cpp:243
+msgid "Could not register"
+msgstr "Ei voitu rekisteröidä"
+
+#: ../src/gui/accounts.cpp:249
+msgid "Processing..."
+msgstr "Käsitellään..."
+
+#: ../src/gui/accounts.cpp:632
+msgid "Account Name"
+msgstr "Tilin nimi:"
+
+#: ../src/gui/accounts.cpp:633
+msgid "Voice Mails"
+msgstr "Ääniviestit"
+
+#: ../src/gui/accounts.cpp:634
+msgid "Status"
+msgstr "Tila"
+
+#: ../src/gui/accounts.cpp:645 ../src/gui/accounts.cpp:688
+msgid "Accounts"
+msgstr "Tilit"
+
+#: ../src/gui/accounts.cpp:659 ../src/gui/main.cpp:3182
+msgid "_Accounts"
+msgstr "_Tilit"
+
+#: ../src/gui/accounts.cpp:663 ../src/gui/main.cpp:3265
+msgid "_Help"
+msgstr "O_hje"
+
+#. Translators:
+#. * The following string "A" means "activated" or "active". It's a column
+#. * description in the list of configured accounts, it shows if an account
+#. * is activated or not (a status the user can choose).
+#.
+#: ../src/gui/accounts.cpp:696 ../src/gui/preferences.cpp:586
+msgid "A"
+msgstr "A"
+
+#: ../src/gui/assistant.cpp:323
+msgid ""
+"This is the Ekiga general configuration assistant. The following steps will "
+"set up Ekiga by asking a few simple questions.\n"
+"\n"
+"Once you have completed these steps, you can always change them later by "
+"selecting Preferences in the Edit menu."
+msgstr ""
+"Tämä on Ekigan ohjattu asetusten teko. Seuraavissa kohdissa määritetään "
+"Ekigan asetukset kyselemällä muutamia yksinkertaisia kysymyksiä.\n"
+"\n"
+"Kun olet läpäissyt nämä vaiheet, voit aina myöhemmin muuttaa asetuksia "
+"valitsemalla \"Asetukset\" Muokkaa-valikosta."
+
+#: ../src/gui/assistant.cpp:331
+msgid "Welcome to Ekiga"
+msgstr "Tervetuloa Ekigaan"
+
+#: ../src/gui/assistant.cpp:365 ../src/gui/preferences.cpp:454
+msgid "Personal Information"
+msgstr "Henkilötiedot"
+
+#. The user fields
+#: ../src/gui/assistant.cpp:368
+msgid "Please enter your first name and your surname:"
+msgstr "Syötä etu- ja sukunimesi:"
+
+#: ../src/gui/assistant.cpp:377
+msgid ""
+"Your first name and surname will be used when connecting to other VoIP and "
+"videoconferencing software."
+msgstr ""
+"Etu- ja sukunimeäsi käytetään otettaessa yhteyttä muihin VoIP- ja "
+"videoneuvotteluohjelmistoihin."
+
+#: ../src/gui/assistant.cpp:568
+msgid "Ekiga.net Account"
+msgstr "Ekiga.net-tili"
+
+#: ../src/gui/assistant.cpp:570
+msgid "Please enter your username:"
+msgstr "Syötä käyttäjätunnuksesi:"
+
+#: ../src/gui/assistant.cpp:578
+msgid "Please enter your password:"
+msgstr "Syötä salasanasi:"
+
+#: ../src/gui/assistant.cpp:588
+msgid ""
+"The username and password are used to login to your existing account at the "
+"ekiga.net free SIP service. If you do not have an ekiga.net SIP address yet, "
+"you may first create an account below. This will provide a SIP address that "
+"allows people to call you.\n"
+"\n"
+"You may skip this step if you use an alternative SIP service, or if you "
+"would prefer to specify the login details later."
+msgstr ""
+"Käyttäjätunnusta ja salasanaa käytetään kirjautumiseen olemassaolevaan ekiga."
+"net-SIP-palvelun tiliisi. Jos sinulla ei vielä ole ekiga.net-SIP-osoitetta, "
+"voit luoda tilin alla olevasta linkistä. Tämä antaa sinulle SIP-osoitteen, "
+"jonka avulla sinulle voidaan soittaa.\n"
+"\n"
+"Voit ohittaa tämän kohdan, jos käytät jotain muuta SIP-palvelua tai jos "
+"haluat määritellä kirjautumistietosi myöhemmin."
+
+#: ../src/gui/assistant.cpp:615
+msgid "I do not want to sign up for the ekiga.net free service"
+msgstr "En halua rekisteröityä ekiga.net-palveluun"
+
+#: ../src/gui/assistant.cpp:678
+msgid "Ekiga Call Out Account"
+msgstr "Ekigan ulossoittotili"
+
+#: ../src/gui/assistant.cpp:680
+msgid "Please enter your account ID:"
+msgstr "Syötä tilisi tunniste:"
+
+#: ../src/gui/assistant.cpp:688
+msgid "Please enter your PIN code:"
+msgstr "Syötä PIN-koodisi:"
+
+#: ../src/gui/assistant.cpp:699
+msgid ""
+"You can make calls to regular phones and cell numbers worldwide using "
+"Ekiga.\n"
+"\n"
+"To enable this, you need to do two things:\n"
+"- First buy an account at the URL below.\n"
+"- Then enter your account ID and PIN code.\n"
+"The service will work only if your account is created using the URL in this "
+"dialog.\n"
+msgstr ""
+"Voit soittaa puheluita tavallisiin lankapuhelimiin ja matkapuhelimiin ympäri "
+"maailman Ekigan avulla.\n"
+"\n"
+"Voit ottaa tämän toiminnon käyttöön seuraavasti:\n"
+"- Osta käyttäjätili alla olevasta osoitteesta.\n"
+"- Syötä tilisi tunniste ja PIN-koodi.\n"
+"Palvelu toimii ainoastaan, jos rekisteröidyt käyttäen alla olevaa "
+"osoitetta.\n"
+
+#: ../src/gui/assistant.cpp:749
+msgid "Consult the calls history"
+msgstr "Selaa puheluhistoriaa"
+
+#: ../src/gui/assistant.cpp:759
+msgid "I do not want to sign up for the Ekiga Call Out service"
+msgstr "En halua rekisteröityä Ekigan ulossoittopalveluun"
+
+#: ../src/gui/assistant.cpp:825 ../src/gui/assistant.cpp:1388
+msgid "Connection Type"
+msgstr "Yhteystyyppi"
+
+#. The connection type
+#: ../src/gui/assistant.cpp:828
+msgid "Please choose your connection type:"
+msgstr "Valitse yhteystyyppisi:"
+
+#: ../src/gui/assistant.cpp:845
+msgid "56k Modem"
+msgstr "56k-modeemi"
+
+#: ../src/gui/assistant.cpp:850
+msgid "ISDN"
+msgstr "ISDN"
+
+#: ../src/gui/assistant.cpp:855
+msgid "DSL/Cable (128 kbit/s uplink)"
+msgstr "DSL/kaapeli (128 kbit/s lähtevä)"
+
+#: ../src/gui/assistant.cpp:860
+msgid "DSL/Cable (512 kbit/s uplink)"
+msgstr "DSL/kaapeli (512 kbit/s lähtevä)"
+
+#: ../src/gui/assistant.cpp:865
+msgid "LAN"
+msgstr "Lähiverkko"
+
+#: ../src/gui/assistant.cpp:870
+msgid "Keep current settings"
+msgstr "Pidä nykyiset asetukset"
+
+#: ../src/gui/assistant.cpp:875
+msgid ""
+"The connection type will permit determining the best quality settings that "
+"Ekiga will use during calls. You can later change the settings individually "
+"in the preferences window."
+msgstr ""
+"Yhteystyyppi sallii parhaiden laatuasetusten määrittämisen, joita Ekiga "
+"käyttää puhelujen aikana.  Voit myöhemmin muuttaa kutakin asetusta erikseen "
+"asetusikkunasta."
+
+#: ../src/gui/assistant.cpp:969 ../src/gui/main.cpp:3011
+#: ../src/gui/main.cpp:3015 ../src/gui/preferences.cpp:760
+msgid "Audio Devices"
+msgstr "Äänilaitteet"
+
+#: ../src/gui/assistant.cpp:971
+msgid "Please choose the audio ringing device:"
+msgstr "Valitse äänimerkkien toistolaite:"
+
+#: ../src/gui/assistant.cpp:991
+msgid ""
+"The audio ringing device is the device that will be used to play the ringing "
+"sound on incoming calls."
+msgstr ""
+"Äänihälytyslaite on laite, jota käytetään soittoäänen soittamiseen "
+"puheluiden tullessa."
+
+#. ---
+#: ../src/gui/assistant.cpp:1002
+msgid "Please choose the audio output device:"
+msgstr "Valitse äänisoitinlaite:"
+
+#: ../src/gui/assistant.cpp:1022
+msgid ""
+"The audio output device is the device that will be used to play audio during "
+"calls."
+msgstr ""
+"Äänisoitinlaite on laite, jota käytetään äänen toistamiseen puheluiden "
+"aikana."
+
+#. ---
+#: ../src/gui/assistant.cpp:1033
+msgid "Please choose the audio input device:"
+msgstr "Valitse äänen syötelaite:"
+
+#: ../src/gui/assistant.cpp:1053
+msgid ""
+"The audio input device is the device that will be used to record your voice "
+"during calls."
+msgstr "Äänen syötelaite on laite, jota käytetään äänen nauhoittamiseen."
+
+#: ../src/gui/assistant.cpp:1155
+msgid "Please choose your video input device:"
+msgstr "Valitse videon syötelaite:"
+
+#: ../src/gui/assistant.cpp:1175
+msgid ""
+"The video input device is the device that will be used to capture video "
+"during calls."
+msgstr ""
+"Videon syötelaite on laite, jota käytetään videon kaappaamiseen puheluiden "
+"aikana."
+
+#: ../src/gui/assistant.cpp:1240 ../src/gui/assistant.cpp:1264
+#: ../src/gui/assistant.cpp:1288 ../src/gui/preferences.cpp:805
+#: ../src/gui/preferences.cpp:830 ../src/gui/preferences.cpp:854
+msgid "No device found"
+msgstr "Laitetta ei löydy"
+
+#: ../src/gui/assistant.cpp:1319
+msgid "Configuration Complete"
+msgstr "Asennus päättynyt"
+
+#: ../src/gui/assistant.cpp:1321
+msgid ""
+"You have now finished the Ekiga configuration. All the settings can be "
+"changed in the Ekiga preferences. Enjoy!"
+msgstr ""
+"Ekigan asetusten määrittely on nyt valmis. Kaikkia asetuksia voi muuttaa "
+"ekigan asetuksista."
+
+#: ../src/gui/assistant.cpp:1328
+msgid "Configuration summary:"
+msgstr "Yhteenveto asetuksista:"
+
+#: ../src/gui/assistant.cpp:1398
+msgid "Audio Ringing Device"
+msgstr "Äänimerkkien toistolaite"
+
+#: ../src/gui/assistant.cpp:1407
+msgid "Audio Output Device"
+msgstr "Äänen toistolaite"
+
+#: ../src/gui/assistant.cpp:1416
+msgid "Audio Input Device"
+msgstr "Äänen syöttölaite"
+
+#: ../src/gui/assistant.cpp:1425
+msgid "Video Input Device"
+msgstr "Videokuvan syöttölaite"
+
+#: ../src/gui/assistant.cpp:1438
+msgid "SIP URI"
+msgstr "SIP-URI"
+
+#: ../src/gui/assistant.cpp:1450
+msgid "Ekiga Call Out"
+msgstr "Ekigan ulossoitto"
+
+#: ../src/gui/assistant.cpp:1492
+#, c-format
+msgid "Ekiga Configuration Assistant (%d of %d)"
+msgstr "Ekigan ohjattu asennus - sivu %d/%d"
+
+#: ../src/gui/callbacks.cpp:131
+msgid "Contributors:"
+msgstr "Avustajat:"
+
+#: ../src/gui/callbacks.cpp:143
+msgid "Artwork:"
+msgstr "Kuvamateriaali:"
+
+#: ../src/gui/callbacks.cpp:151
+msgid "See AUTHORS file for full credits"
+msgstr "Katso AUTHORS-tiedostosta kaikki kiitokset"
+
+#: ../src/gui/callbacks.cpp:167
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version. "
+msgstr ""
+"Tämä on vapaa ohjelma; sitä on sallittu levittää edelleen ja muuttaa GNU "
+"yleisen lisenssin (GPL-lisenssin) ehtojen mukaan sellaisina kuin Free "
+"Software Foundation on ne julkaissut; joko lisenssin version 2, tai "
+"(valinnan mukaan) minkä tahansa myöhemmän version mukaisesti."
+
+#: ../src/gui/callbacks.cpp:171
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for "
+"more details. You should have received a copy of the GNU General Public "
+"License along with this program; if not, write to the Free Software "
+"Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr ""
+"Tätä ohjelmaa levitetään siinä toivossa, että se olisi hyödyllinen, mutta "
+"ilman mitään takuuta; ilman edes hiljaista takuuta kaupallisesti "
+"hyväksyttävästä laadusta tai soveltuvuudesta tiettyyn tarkoitukseen. Katso "
+"GPL lisenssistä lisää yksityiskohtia. Tämän ohjelman mukana pitäisi tulla "
+"kopio GPL-lisenssistä; jos näin ei ole, kirjoita osoitteeseen Free Software "
+"Foundation Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
+
+#: ../src/gui/callbacks.cpp:178
+msgid ""
+"Ekiga is licensed under the GPL license and as a special exception, you have "
+"permission to link or otherwise combine this program with the programs OPAL, "
+"OpenH323 and PWLIB, and distribute the combination, without applying the "
+"requirements of the GNU GPL to the OPAL, OpenH323 and PWLIB programs, as "
+"long as you do follow the requirements of the GNU GPL for all the rest of "
+"the software thus combined."
+msgstr ""
+"Ekiga on lisensoitu GPL-lisenssillä erityisen lisäehdon kanssa. Sinulla "
+"oikeus linkittää tai muuten yhdistää tämä ohjelma ohjelmien OPAL, OpenH323 "
+"ja PWLIB, sekä levittää tätä yhdistelmää soveltamatta GPL-lisenssin ehtoja "
+"OPAL, OpenH323 tai PWLIB -ohjelmiin, niin kauan kuin GNU GPL-lisenssin "
+"ehtoja noudatetaan kaikkien muiden täten yhdistetyn ohjelman osien osalta."
+
+#. Translators: Please write translator credits here, and
+#. * separate names with \n
+#: ../src/gui/callbacks.cpp:190
+msgid "translator-credits"
+msgstr ""
+"Timo Jyrinki, 2008-2009\n"
+"Ilkka Tuohela, 2005-2008\n"
+"Tommi Vainikainen, 2003-2005\n"
+"\n"
+"http://gnome.fi/"
+
+#: ../src/gui/callbacks.cpp:195
+msgid ""
+"Ekiga is full-featured SIP and H.323 compatible VoIP, IP-Telephony and "
+"Videoconferencing application that allows you to make audio and video calls "
+"to remote users with SIP and H.323 hardware or software."
+msgstr ""
+"Ekiga on täysiverinen SIP- ja H.323-yhteensopiva videoneuvottelu-, VoIP- ja "
+"IP-puhelinsovellus, jolla voi soittaa ääni- ja videopuheluita muille SIP- "
+"tai H.323- laitteiston tai -sovellusten käyttäjille."
+
+#: ../src/gui/callbacks.cpp:269
+msgid "Help display is not supported by your GTK+ version"
+msgstr "Ohjeiden näyttö ei ole tuettuna käytetyssä GTK+-versiossa"
+
+#: ../src/gui/callbacks.cpp:277
+msgid "Unable to open help file."
+msgstr "Ohjetiedoston avaaminen ei onnistu."
+
+#: ../src/gui/dialpad.cpp:55
+msgid "abc"
+msgstr "abc"
+
+#: ../src/gui/dialpad.cpp:56
+msgid "def"
+msgstr "def"
+
+#: ../src/gui/dialpad.cpp:57
+msgid "ghi"
+msgstr "ghi"
+
+#: ../src/gui/dialpad.cpp:58
+msgid "jkl"
+msgstr "jkl"
+
+#: ../src/gui/dialpad.cpp:59
+msgid "mno"
+msgstr "mno"
+
+#: ../src/gui/dialpad.cpp:60
+msgid "pqrs"
+msgstr "pqrs"
+
+#: ../src/gui/dialpad.cpp:61
+msgid "tuv"
+msgstr "tuv"
+
+#: ../src/gui/dialpad.cpp:62
+msgid "wxyz"
+msgstr "wxyz"
+
+#. Translators: Is displayed once an account "%s" is registered.
+#: ../src/gui/main.cpp:519
+#, c-format
+msgid "Registered %s"
+msgstr "Rekisteröitiin %s"
+
+#. Translators: Is displayed once an account "%s" is unregistered.
+#: ../src/gui/main.cpp:525
+#, c-format
+msgid "Unregistered %s"
+msgstr "Peruttiin rekisteröinti %s"
+
+#: ../src/gui/main.cpp:530
+#, c-format
+msgid "Could not unregister %s"
+msgstr "Palvelun %s rekisteröintiä ei voitu perua"
+
+#: ../src/gui/main.cpp:534
+#, c-format
+msgid "Could not register %s"
+msgstr "Palvelua %s ei voitu rekisteröidä"
+
+#: ../src/gui/main.cpp:604
+#, c-format
+msgid "A:%.1f/%.1f   V:%.1f/%.1f   FPS:%d/%d"
+msgstr "A:%.1f/%.1f V:%.1f/%.1f   FPS:%d/%d"
+
+#: ../src/gui/main.cpp:650
+#, c-format
+msgid "Connected with %s"
+msgstr "Yhdistetty palveluun %s"
+
+#: ../src/gui/main.cpp:691 ../src/gui/main.cpp:3511
+msgid "Standby"
+msgstr "Valmiustila"
+
+#: ../src/gui/main.cpp:752
+msgid "Call on hold"
+msgstr "Puhelu odottamassa"
+
+#: ../src/gui/main.cpp:763
+msgid "Call retrieved"
+msgstr "Puhelu noudettu"
+
+#: ../src/gui/main.cpp:779
+#, c-format
+msgid "Missed call from %s"
+msgstr "Vastaamaton puhelu käyttäjältä %s"
+
+#: ../src/gui/main.cpp:916
+msgid "Error"
+msgstr "Virhe"
+
+#: ../src/gui/main.cpp:981
+msgid "Error while initializing video output"
+msgstr "Virhe avattaessa videon ulostulolaitetta"
+
+#: ../src/gui/main.cpp:982
+msgid "No video will be displayed during this call->"
+msgstr "Videota ei näytetä tämän puhelun aikana->"
+
+#: ../src/gui/main.cpp:992
+msgid ""
+"There was an error opening or initializing the video output. Please verify "
+"that no other application is using the accelerated video output."
+msgstr ""
+"Virhe avattaessa tai alustettaessa videoulostuloa. Varmista, ettei mikään "
+"toinen sovellus käytä kiihdytettyä videoulostuloa."
+
+#: ../src/gui/main.cpp:994
+msgid ""
+"There was an error opening or initializing the video output. Please verify "
+"that you are using a color depth of 24 or 32 bits per pixel."
+msgstr ""
+"Virhe avattaessa tai alustettaessa videoulostuloa. Varmista, että käytät 24 "
+"tai 32 bitin värisyvyyttä."
+
+#. Translators: This is a hotplug status
+#: ../src/gui/main.cpp:1107
+#, c-format
+msgid "Added video input device %s"
+msgstr "Lisättiin videon syötelaite %s"
+
+#. Translators: This is a hotplug status
+#: ../src/gui/main.cpp:1119
+#, c-format
+msgid "Removed video input device %s"
+msgstr "Poistettiin videon syötelaite %s"
+
+#: ../src/gui/main.cpp:1136
+#, c-format
+msgid "Error while accessing video device %s"
+msgstr "Virhe avattaessa videolaitetta %s"
+
+#: ../src/gui/main.cpp:1139
+msgid ""
+"A moving logo will be transmitted during calls. Notice that you can always "
+"transmit a given image or the moving logo by choosing \"Picture\" as video "
+"plugin and \"Moving logo\" or \"Static picture\" as device."
+msgstr ""
+"Liikkuvaa kuvaketta soiton aikana. Huomaa, että voit milloin tahansa "
+"lähettää valitun kuvan tai liikkuvan logon valitsemalla videoliitännäiseksi "
+"\"Kuva\"  ja laitteeksi \"Liikkuva logo\" tai \"Kiinteä kuva\"."
+
+#: ../src/gui/main.cpp:1143
+msgid ""
+"There was an error while opening the device. In case it is a pluggable "
+"device it may be sufficient to reconnect it. If not, or if it still is not "
+"accessible, please check your permissions and make sure that the appropriate "
+"driver is loaded."
+msgstr ""
+"Tapahtui virhe avattaessa laitetta. Jos laite on irrotettava, voi riittää "
+"että sen irrottaa ja liittää uudestaan. Jos laite on kiinteä tai tämä ei "
+"auta, tarkista oikeudet ja varmista että asiaankuuluvat ajurit on ladattu."
+
+#: ../src/gui/main.cpp:1147
+msgid "Your video driver doesn't support the requested video format."
+msgstr "Videoajuri ei tue pyydettyä videomuotoa."
+
+#: ../src/gui/main.cpp:1151
+msgid "Could not open the chosen channel."
+msgstr "Valitun kanavan avaaminen ei onnistunut."
+
+#: ../src/gui/main.cpp:1155
+msgid ""
+"Your driver doesn't seem to support any of the color formats supported by "
+"Ekiga.\n"
+" Please check your kernel driver documentation in order to determine which "
+"Palette is supported."
+msgstr ""
+"Ajuri ei näytä tukevan mitään Ekigan tukemista värimuodoista.\n"
+"Tarkista ytimen ajurin ohjeista, mitä paletteja ajurisi tukee."
+
+#: ../src/gui/main.cpp:1159
+msgid "Error while setting the frame rate."
+msgstr "Virhe asetettaessa kehysnopeutta."
+
+#: ../src/gui/main.cpp:1163
+msgid "Error while setting the frame size."
+msgstr "Virhe asetettaessa kehyskokoa."
+
+#: ../src/gui/main.cpp:1168 ../src/gui/main.cpp:1270 ../src/gui/main.cpp:1385
+msgid "Unknown error."
+msgstr "Tuntematon virhe."
+
+#. Translators: This is a hotplug status
+#: ../src/gui/main.cpp:1218
+#, c-format
+msgid "Added audio input device %s"
+msgstr "Lisättiin äänen syötelaite %s"
+
+#. Translators: This is a hotplug status
+#: ../src/gui/main.cpp:1235
+#, c-format
+msgid "Removed audio input device %s"
+msgstr "Poistettiin äänen syötelaite %s"
+
+#: ../src/gui/main.cpp:1252
+#, c-format
+msgid "Error while opening audio input device %s"
+msgstr "Virhe avattaessa äänen syötelaitetta %s"
+
+#. Translators: This happens when there is an error with audio input:
+#. * Nothing ("silence") will be transmitted
+#: ../src/gui/main.cpp:1257
+msgid "Only silence will be transmitted."
+msgstr "Vain hiljaisuutta lähetetään."
+
+#: ../src/gui/main.cpp:1261
+msgid ""
+"Unable to open the selected audio device for recording. In case it is a "
+"pluggable device it may be sufficient to reconnect it. If not, or if it "
+"still is not accessible, please check your audio setup, the permissions and "
+"that the device is not busy."
+msgstr ""
+"Valittua laitetta ei voitu avata nauhoitusta varten. Jos laite on "
+"irrotettava, voi riittää että sen irrottaa ja liittää uudestaan. Jos laite "
+"on kiinteä tai tämä ei auta, tarkista oikeudet ja varmista että "
+"asiaankuuluvat ajurit on ladattu."
+
+#: ../src/gui/main.cpp:1265
+msgid ""
+"The selected audio device was successfully opened but it is impossible to "
+"read data from this device. In case it is a pluggable device it may be "
+"sufficient to reconnect it. If not, or if it still is not accessible, please "
+"check your audio setup."
+msgstr ""
+"Valittu äänilaite avattiin onnistuneesti, mutta laitteesta ei voitu lukea "
+"dataa. Jos laite on irrotettava, voi riittää että sen irrottaa ja liittää "
+"uudestaan. Jos laite on kiinteä tai tämä ei auta, tarkista oikeudet ja "
+"varmista että asiaankuuluvat ajurit on ladattu."
+
+#: ../src/gui/main.cpp:1332
+#, c-format
+msgid "Added audio output device %s"
+msgstr "Lisättiin äänen toistolaite %s"
+
+#: ../src/gui/main.cpp:1348
+#, c-format
+msgid "Removed audio output device %s"
+msgstr "Poistettiin äänen toistolaite %s"
+
+#: ../src/gui/main.cpp:1369
+#, c-format
+msgid "Error while opening audio output device %s"
+msgstr "Virhe avattaessa äänen toistolaitetta %s"
+
+#: ../src/gui/main.cpp:1372
+msgid "No incoming sound will be played."
+msgstr "Saapuvaa ääntä ei voida toistaa."
+
+#: ../src/gui/main.cpp:1376
+msgid ""
+"Unable to open the selected audio device for playing. In case it is a "
+"pluggable device it may be sufficient to reconnect it. If not, or if it "
+"still is not accessible, please check your audio setup, the permissions and "
+"that the device is not busy."
+msgstr ""
+"Valittua äänilaitetta ei voitu avata äänen toistamista varten. Jos laite on "
+"irrotettava, voi riittää että sen irrottaa ja liittää uudestaan. Jos laite "
+"on kiinteä tai tämä ei auta, tarkista oikeudet ja varmista että "
+"asiaankuuluvat ajurit on ladattu."
+
+#: ../src/gui/main.cpp:1380
+msgid ""
+"The selected audio device was successfully opened but it is impossible to "
+"write data to this device. In case it is a pluggable device it may be "
+"sufficient to reconnect it. If not, or if it still is not accessible, please "
+"check your audio setup."
+msgstr ""
+"Valittu äänilaite avattiin onnistuneesti, mutta laitteelle ei voitu "
+"kirjoittaa dataa. Jos laite on irrotettava, voi riittää että sen irrottaa ja "
+"liittää uudestaan. Jos laite on kiinteä tai tämä ei auta, tarkista oikeudet "
+"ja ääniasetuksesi."
+
+#: ../src/gui/main.cpp:1568
+msgid "Video Settings"
+msgstr "Videoasetukset"
+
+#: ../src/gui/main.cpp:1595
+msgid "Adjust brightness"
+msgstr "Säädä kirkkautta"
+
+#: ../src/gui/main.cpp:1616
+msgid "Adjust whiteness"
+msgstr "Säädä valkoisuutta"
+
+#: ../src/gui/main.cpp:1637
+msgid "Adjust color"
+msgstr "Säädä värejä"
+
+#: ../src/gui/main.cpp:1658
+msgid "Adjust contrast"
+msgstr "Säädä kontrastia"
+
+#: ../src/gui/main.cpp:1704
+msgid "Audio Settings"
+msgstr "Ääniasetukset"
+
+#: ../src/gui/main.cpp:2315
+msgid "_Retrieve Call"
+msgstr "_Palauta puhelu"
+
+#: ../src/gui/main.cpp:2328
+msgid "_Hold Call"
+msgstr "Puhelu _pitoon"
+
+#: ../src/gui/main.cpp:2360 ../src/gui/main.cpp:3148
+msgid "Suspend _Audio"
+msgstr "Vaienna _ääni"
+
+#: ../src/gui/main.cpp:2362 ../src/gui/main.cpp:3153
+msgid "Suspend _Video"
+msgstr "Vaienna _video"
+
+#: ../src/gui/main.cpp:2364
+msgid "Resume _Audio"
+msgstr "Palauta _ääni"
+
+#: ../src/gui/main.cpp:2366
+msgid "Resume _Video"
+msgstr "Palauta _video"
+
+#: ../src/gui/main.cpp:2649 ../src/gui/main.cpp:2801
+msgid "Reject"
+msgstr "Hylkää"
+
+#: ../src/gui/main.cpp:2651 ../src/gui/main.cpp:2800
+msgid "Accept"
+msgstr "Hyväksy"
+
+#: ../src/gui/main.cpp:2657 ../src/gui/main.cpp:2788
+msgid "Incoming call from"
+msgstr "Tuleva puhelu käyttäjältä"
+
+#: ../src/gui/main.cpp:2675 ../src/gui/main.cpp:2791
+msgid "Remote URI:"
+msgstr "Etä-URI:"
+
+#: ../src/gui/main.cpp:2687 ../src/gui/main.cpp:2793
+msgid "Remote Application:"
+msgstr "Etäsovellus:"
+
+#: ../src/gui/main.cpp:2708
+#, c-format
+msgid "Call from %s"
+msgstr "Puhelu käyttäjältä %s"
+
+#: ../src/gui/main.cpp:2914
+#, c-format
+msgid "Call Duration: %s\n"
+msgstr "Puhelun kesto: %s\n"
+
+#: ../src/gui/main.cpp:2945
+msgid "Transfer call to:"
+msgstr "Siirretään puhelu:"
+
+#: ../src/gui/main.cpp:2997
+msgid "No"
+msgstr "Ei"
+
+#: ../src/gui/main.cpp:2999
+msgid "Yes"
+msgstr "Kyllä"
+
+#: ../src/gui/main.cpp:3010
+msgid "Detected new audio input device:"
+msgstr "Havaittiin uusi äänen syötelaite:"
+
+#: ../src/gui/main.cpp:3014
+msgid "Detected new audio output device:"
+msgstr "Havaittiin uusi äänen toistolaite:"
+
+#: ../src/gui/main.cpp:3018
+msgid "Detected new video input device:"
+msgstr "Havaittiin uusi videon syöttölaite:"
+
+#: ../src/gui/main.cpp:3019 ../src/gui/preferences.cpp:921
+msgid "Video Devices"
+msgstr "Videolaitteet"
+
+#: ../src/gui/main.cpp:3037
+msgid "Do you want to use it as default device?"
+msgstr "Haluatko käyttää tätä oletuslaitteena?"
+
+#: ../src/gui/main.cpp:3105
+msgid "_Chat"
+msgstr "_Juttele"
+
+#: ../src/gui/main.cpp:3107
+msgid "Ca_ll"
+msgstr "_Soita"
+
+#: ../src/gui/main.cpp:3107
+msgid "Place a new call"
+msgstr "Soita uusi puhelu"
+
+#: ../src/gui/main.cpp:3110
+msgid "_Hang up"
+msgstr "K_atkaise"
+
+#: ../src/gui/main.cpp:3111
+msgid "Terminate the current call"
+msgstr "Katkaise nykyinen puhelu"
+
+#: ../src/gui/main.cpp:3117
+msgid "A_dd Contact"
+msgstr "_Lisää tuttava"
+
+#: ../src/gui/main.cpp:3117
+msgid "Add a contact to the roster"
+msgstr "Lisää tuttava nimilistaan"
+
+#: ../src/gui/main.cpp:3122
+msgid "Find contacts"
+msgstr "Etsi tuttavia"
+
+#: ../src/gui/main.cpp:3129
+msgid "_Contact"
+msgstr "_Tuttava"
+
+#: ../src/gui/main.cpp:3130
+msgid "Act on selected contact"
+msgstr "Tee valitulle tuttavalle"
+
+#: ../src/gui/main.cpp:3136
+msgid "H_old Call"
+msgstr "Puhelu _pitoon"
+
+#: ../src/gui/main.cpp:3136 ../src/gui/main.cpp:3605
+msgid "Hold the current call"
+msgstr "Pidätä nykyistä puhelua"
+
+#: ../src/gui/main.cpp:3140
+msgid "_Transfer Call"
+msgstr "_Siirrä puhelu"
+
+#: ../src/gui/main.cpp:3141
+msgid "Transfer the current call"
+msgstr "Siirrä nykyinen puhelu"
+
+#: ../src/gui/main.cpp:3149
+msgid "Suspend or resume the audio transmission"
+msgstr "Vaienna tai palauta äänen lähetys"
+
+#: ../src/gui/main.cpp:3154
+msgid "Suspend or resume the video transmission"
+msgstr "Vaienna tai palauta videon lähetys"
+
+#: ../src/gui/main.cpp:3161
+msgid "Close the Ekiga window"
+msgstr "Sulje Ekiga-ikkuna"
+
+#: ../src/gui/main.cpp:3168 ../src/gui/statusicon.cpp:406
+msgid "Quit"
+msgstr "Sulje"
+
+#: ../src/gui/main.cpp:3174
+msgid "_Configuration Assistant"
+msgstr "_Ohjattu asetusten teko"
+
+#: ../src/gui/main.cpp:3175
+msgid "Run the configuration assistant"
+msgstr "Suorita ohjattu asetusten teko"
+
+#: ../src/gui/main.cpp:3183
+msgid "Edit your accounts"
+msgstr "Muokkaa tilejäsi"
+
+#: ../src/gui/main.cpp:3189
+msgid "Change your preferences"
+msgstr "Muuta asetuksiasi"
+
+#: ../src/gui/main.cpp:3194
+msgid "_View"
+msgstr "_Näytä"
+
+#: ../src/gui/main.cpp:3196
+msgid "Con_tacts"
+msgstr "_Tuttavat"
+
+#: ../src/gui/main.cpp:3196
+msgid "View the contacts list"
+msgstr "Näytä tuttavaluettelo"
+
+#: ../src/gui/main.cpp:3201
+msgid "_Dialpad"
+msgstr "Valinta_levy"
+
+#: ../src/gui/main.cpp:3201
+msgid "View the dialpad"
+msgstr "Näytä valintalevy"
+
+#: ../src/gui/main.cpp:3206
+msgid "_Call History"
+msgstr "_Puheluhistoria"
+
+#: ../src/gui/main.cpp:3206
+msgid "View the call history"
+msgstr "Näytä puheluhistoria"
+
+#: ../src/gui/main.cpp:3214
+msgid "_Show Call Panel"
+msgstr "_Näytä soittopaneeli"
+
+#: ../src/gui/main.cpp:3222
+msgid "_Local Video"
+msgstr "_Paikallinen video"
+
+#: ../src/gui/main.cpp:3223
+msgid "Local video image"
+msgstr "Paikallinen videokuva"
+
+#: ../src/gui/main.cpp:3228
+msgid "_Remote Video"
+msgstr "_Etävideo"
+
+#: ../src/gui/main.cpp:3229
+msgid "Remote video image"
+msgstr "Etävideokuva"
+
+#: ../src/gui/main.cpp:3234
+msgid "_Picture-in-Picture"
+msgstr "_Kuva-kuvassa"
+
+#: ../src/gui/main.cpp:3235 ../src/gui/main.cpp:3241
+msgid "Both video images"
+msgstr "Molemmat videokuvat"
+
+#: ../src/gui/main.cpp:3240
+msgid "Picture-in-Picture in Separate _Window"
+msgstr "Kuva-kuvassa _erillisessä ikkunassa"
+
+#: ../src/gui/main.cpp:3248
+msgid "Zoom in"
+msgstr "Lähennä"
+
+#: ../src/gui/main.cpp:3252
+msgid "Zoom out"
+msgstr "Loitonna"
+
+#: ../src/gui/main.cpp:3256
+msgid "Normal size"
+msgstr "Peruskoko"
+
+#: ../src/gui/main.cpp:3260
+msgid "_Fullscreen"
+msgstr "_Kokoruutu"
+
+#: ../src/gui/main.cpp:3260
+msgid "Switch to fullscreen"
+msgstr "Vaihda kokoruutuun"
+
+#: ../src/gui/main.cpp:3268 ../src/gui/statusicon.cpp:394
+msgid "Get help by reading the Ekiga manual"
+msgstr "Hanki apua lukemalla Ekigan opaskirjaa"
+
+#: ../src/gui/main.cpp:3273 ../src/gui/statusicon.cpp:399
+msgid "View information about Ekiga"
+msgstr "Katso tietoja Ekigasta"
+
+#: ../src/gui/main.cpp:3347
+msgid ""
+"Enter a URI on the left, and click this button to place a call or to hangup"
+msgstr ""
+"Syötä URI vasemmalle ja soita tai katkaise puhelu napsauttamalla tätä "
+"painiketta"
+
+#: ../src/gui/main.cpp:3398
+msgid "Contacts"
+msgstr "Tuttavat"
+
+#: ../src/gui/main.cpp:3421
+msgid "Dialpad"
+msgstr "Valintalevy"
+
+#: ../src/gui/main.cpp:3440
+msgid "Call history"
+msgstr "Puheluhistoria"
+
+#: ../src/gui/main.cpp:3543
+msgid "Change the volume of your soundcard"
+msgstr "Muuta äänenvoimakkuutta äänikortilla"
+
+#: ../src/gui/main.cpp:3563
+msgid "Change the color settings of your video device"
+msgstr "Muuta väriasetuksia videolaitteella"
+
+#: ../src/gui/main.cpp:3585
+msgid "Display images from your camera device"
+msgstr "Näytä kuvaa kameralaitteeltasi"
+
+#: ../src/gui/main.cpp:3674
+msgid "Ekiga"
+msgstr "Ekiga"
+
+#. Translators:
+#. * TX is a common abbreviation for "transmit"
+#: ../src/gui/main.cpp:4281
+#, c-format
+msgid "TX: %dx%d "
+msgstr "TX: %dx%d "
+
+#. Translators:
+#. * RX is a common abbreviation for "receive"
+#: ../src/gui/main.cpp:4286
+#, c-format
+msgid "RX: %dx%d "
+msgstr "RX: %dx%d "
+
+#: ../src/gui/main.cpp:4288
+#, c-format
+msgid ""
+"Lost packets: %.1f %%\n"
+"Late packets: %.1f %%\n"
+"Out of order packets: %.1f %%\n"
+"Jitter buffer: %d ms%s%s%s"
+msgstr ""
+"Hukatut paketit: %.1f %%\n"
+"Myöhästyneet paketit: %.1f %%\n"
+"Väärässä järjestyksessä olleet paketit: %.1f %%\n"
+"Värinäpuskuri: %d ms %s%s%s"
+
+#: ../src/gui/main.cpp:4405
+msgid "Prints debug messages in the console (level between 1 and 5)"
+msgstr "Tulostaa vianetsintäviestit konsoliin (taso väliltä 1 ja 5)"
+
+#: ../src/gui/main.cpp:4410
+msgid "Prints user plane debug messages in the console (level between 1 and 4)"
+msgstr ""
+"Tulostaa käyttäjätason vianetsintäviestit konsoliin (taso väliltä 1 ja 4)"
+
+#: ../src/gui/main.cpp:4415
+msgid "Makes Ekiga call the given URI"
+msgstr "Saa Ekigan soittamaan annettuun URI:iin"
+
+#: ../src/gui/main.cpp:4524
+msgid "No usable audio plugin detected"
+msgstr "Käyttökelpoista ääniliitännäistä ei havaittu"
+
+#: ../src/gui/main.cpp:4525
+msgid ""
+"Ekiga didn't find any usable audio plugin. Make sure that your installation "
+"is correct."
+msgstr ""
+"Ekiga ei löytänyt yhtään käyttökelpoista ääniliitännäistä. Varmista, että "
+"asennus on tehty oikein."
+
+#: ../src/gui/main.cpp:4528
+msgid "No usable audio codecs detected"
+msgstr "Käyttökelpoisia äänikoodekkeja ei havaittu"
+
+#: ../src/gui/main.cpp:4529
+msgid ""
+"Ekiga didn't find any usable audio codec. Make sure that your installation "
+"is correct."
+msgstr ""
+"Ekiga ei löytänyt yhtään käyttökelpoista ääniliitännäistä. Varmista, että "
+"asennus on tehty oikein."
+
+#: ../src/gui/preferences.cpp:381
+msgid "Play sound for new voice mails"
+msgstr "Soita ääni uuden ääniviestin saapuessa"
+
+#: ../src/gui/preferences.cpp:391
+msgid "Play sound for new instant messages"
+msgstr "Soita ääni uuden pikaviestin saapuessa"
+
+#: ../src/gui/preferences.cpp:457
+msgid "_Full name:"
+msgstr "_Koko nimi:"
+
+#: ../src/gui/preferences.cpp:475
+msgid "User Interface"
+msgstr "Käyttöliittymä"
+
+#: ../src/gui/preferences.cpp:477
+msgid "Start _hidden"
+msgstr "Käynnistä _piilotettuna"
+
+#: ../src/gui/preferences.cpp:479
+msgid "Show offline _contacts"
+msgstr "Näytä _poissaolevat tuttavat "
+
+#: ../src/gui/preferences.cpp:484
+msgid "Video Display"
+msgstr "Videonäyttö"
+
+#: ../src/gui/preferences.cpp:486
+msgid "Place windows displaying video _above other windows"
+msgstr "Aseta videota näyttävät ikkunat muiden ikkunoiden _päälle"
+
+#: ../src/gui/preferences.cpp:490
+msgid "Network Settings"
+msgstr "Verkkoasetukset"
+
+#: ../src/gui/preferences.cpp:492
+msgid "Disable network _detection"
+msgstr "Ota verkon _tunnistus pois käytöstä"
+
+#: ../src/gui/preferences.cpp:503
+msgid "Call Forwarding"
+msgstr "Puhelunohjaus"
+
+#: ../src/gui/preferences.cpp:505
+msgid "_Always forward calls to the given host"
+msgstr "Siirrä puhelut _aina tietylle koneelle"
+
+#: ../src/gui/preferences.cpp:505
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the protocol settings"
+msgstr ""
+"Kun valittu, ohjataan kaikki tulevat puhelut koneelle, joka määritetään "
+"yhteyskäytäntöasetuksissa"
+
+#: ../src/gui/preferences.cpp:507
+msgid "Forward calls to the given host if _no answer"
+msgstr "Siirrä puhelut annetulle koneelle jos _ei vastata"
+
+#: ../src/gui/preferences.cpp:507
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the protocol settings if you do not answer the call"
+msgstr ""
+"Kun valittu, ohjataan kaikki saapuvat puhelut yhteyskäytäntöasetuksissa "
+"määritellylle koneelle, jos et vastaa puheluun"
+
+#: ../src/gui/preferences.cpp:509
+msgid "Forward calls to the given host if _busy"
+msgstr "Siirrä puhelut annetulle koneelle _varattuna oltaessa"
+
+#: ../src/gui/preferences.cpp:509
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the protocol settings if you already are in a call or if you "
+"are in Do Not Disturb mode"
+msgstr ""
+"Kun valittu, ohjataan kaikki saapuvat puhelut yhteyskäytäntöasetuksissa "
+"määritellylle koneelle, jos puhut jo puhelua tai sinua ei sovi häiritä (Älä "
+"häiritse -tila)"
+
+#: ../src/gui/preferences.cpp:513 ../src/gui/preferences.cpp:1361
+msgid "Call Options"
+msgstr "Puheluasetukset"
+
+#. Add all the fields
+#: ../src/gui/preferences.cpp:516
+msgid "Timeout to reject or forward unanswered incoming calls (in seconds):"
+msgstr ""
+"Aikaviive sekunteina, jonka jälkeen saapuvat puhelut hylätään tai ohjataan "
+"uuteen osoitteeseen:"
+
+#: ../src/gui/preferences.cpp:548
+msgid "Ekiga Sound Events"
+msgstr "Ekigan äänitapahtumat"
+
+#: ../src/gui/preferences.cpp:598
+msgid "Event"
+msgstr "Tapahtuma"
+
+#: ../src/gui/preferences.cpp:610
+msgid "Choose a sound"
+msgstr "Valitse ääni"
+
+#: ../src/gui/preferences.cpp:615
+msgid "Wavefiles"
+msgstr "Äänitiedostot"
+
+#: ../src/gui/preferences.cpp:624 ../src/gui/preferences.cpp:643
+msgid "Play"
+msgstr "Soita"
+
+#: ../src/gui/preferences.cpp:664
+msgid "String"
+msgstr "Merkkijono"
+
+#: ../src/gui/preferences.cpp:665
+msgid "Tone"
+msgstr "Ääni"
+
+#: ../src/gui/preferences.cpp:666 ../src/gui/preferences.cpp:715
+msgid "RFC2833"
+msgstr "RFC2833"
+
+#: ../src/gui/preferences.cpp:667
+msgid "Q.931"
+msgstr "Q.931"
+
+#: ../src/gui/preferences.cpp:673 ../src/gui/preferences.cpp:725
+msgid "Misc Settings"
+msgstr "Lisäasetukset"
+
+#: ../src/gui/preferences.cpp:676 ../src/gui/preferences.cpp:730
+msgid "Forward _URI:"
+msgstr "Uudelleenohjaus-_URI:"
+
+#: ../src/gui/preferences.cpp:685
+msgid "Advanced Settings"
+msgstr "Lisäasetukset"
+
+#. The toggles
+#: ../src/gui/preferences.cpp:688
+msgid "Enable H.245 _tunneling"
+msgstr "Käytä H.245-_tunnelointia"
+
+#: ../src/gui/preferences.cpp:690
+msgid "Enable _early H.245"
+msgstr "Käytä _aikaista H.245:ttä"
+
+#: ../src/gui/preferences.cpp:692
+msgid "Enable fast _start procedure"
+msgstr "Käytä _nopea käynnistys -menettelyä"
+
+#: ../src/gui/preferences.cpp:692
+msgid ""
+"Connection will be established in Fast Start mode. Fast Start is a new way "
+"to start calls faster that was introduced in H.323v2. It is not supported by "
+"Netmeeting and using both Fast Start and H.245 Tunneling can crash some "
+"versions of Netmeeting."
+msgstr ""
+"Yhteys muodostetaan Nopea käynnistys -tilassa.  Nopea käynnistys on uusi "
+"nopeampi tapa aloittaa puhelu ja se esiteltiin H.323v2:ssa. Netmeeting ei "
+"tue tätä ja sekä Nopean käynnistykset että H.245-tunneloinnin käyttäminen "
+"voi kaataa jotkut Netmeeting-versiot."
+
+#: ../src/gui/preferences.cpp:698 ../src/gui/preferences.cpp:738
+msgid "DTMF Mode"
+msgstr "DTMF-tila"
+
+#: ../src/gui/preferences.cpp:700 ../src/gui/preferences.cpp:740
+msgid "_Send DTMF as:"
+msgstr "_Lähetä DTMF:"
+
+#: ../src/gui/preferences.cpp:700 ../src/gui/preferences.cpp:740
+msgid "This allows you to set the mode for DTMFs sending."
+msgstr "Tästä voit asettaa DTMF-lähetyksien käyttötavan."
+
+#: ../src/gui/preferences.cpp:716
+msgid "INFO"
+msgstr "INFO"
+
+#: ../src/gui/preferences.cpp:727
+msgid "_Outbound Proxy:"
+msgstr "_Lähtevien välimuisti:"
+
+#: ../src/gui/preferences.cpp:768
+msgid "Ringing Device"
+msgstr "Soittolaite"
+
+#: ../src/gui/preferences.cpp:768
+msgid "Select the ringing audio device to use"
+msgstr "Valitse soittomerkin toistava äänilaite"
+
+#: ../src/gui/preferences.cpp:770
+msgid "Output device:"
+msgstr "Soittolaite:"
+
+#: ../src/gui/preferences.cpp:777 ../src/gui/preferences.cpp:928
+msgid "Input device:"
+msgstr "Nauhoituslaite:"
+
+#. That button will refresh the device list
+#: ../src/gui/preferences.cpp:782 ../src/gui/preferences.cpp:939
+msgid "_Detect devices"
+msgstr "_Tunnista laitteet"
+
+#: ../src/gui/preferences.cpp:782 ../src/gui/preferences.cpp:939
+msgid "Click here to refresh the device list."
+msgstr "Päivitä laiteluettelo napsauttamalla tästä."
+
+#: ../src/gui/preferences.cpp:906
+msgid "PAL (Europe)"
+msgstr "PAL (Eurooppa)"
+
+#: ../src/gui/preferences.cpp:907
+msgid "NTSC (America)"
+msgstr "NTSC (Amerikka)"
+
+#: ../src/gui/preferences.cpp:908
+msgid "SECAM (France)"
+msgstr "SECAM (Ranska)"
+
+#: ../src/gui/preferences.cpp:909
+msgid "Auto"
+msgstr "Automaattinen"
+
+#. Video Channel
+#: ../src/gui/preferences.cpp:932
+msgid "Channel:"
+msgstr "Kanava:"
+
+#: ../src/gui/preferences.cpp:934
+msgid "Size:"
+msgstr "Koko:"
+
+#: ../src/gui/preferences.cpp:934
+msgid "Select the transmitted video size"
+msgstr "Valitse siirrettävän videon koko"
+
+#: ../src/gui/preferences.cpp:936
+msgid "Format:"
+msgstr "Muoto:"
+
+#: ../src/gui/preferences.cpp:963 ../src/gui/preferences.cpp:1002
+#: ../src/gui/preferences.cpp:1386 ../src/gui/preferences.cpp:1396
+msgid "Codecs"
+msgstr "Koodekit"
+
+#: ../src/gui/preferences.cpp:976 ../src/gui/preferences.cpp:1015
+msgid "Settings"
+msgstr "Asetukset"
+
+#. Translators: the full sentence is Automatically adjust jitter buffer
+#. between X and Y ms
+#: ../src/gui/preferences.cpp:980
+msgid "Enable silence _detection"
+msgstr "Käytä _hiljaisuudentunnistusta"
+
+#: ../src/gui/preferences.cpp:980
+msgid "If enabled, use silence detection with the codecs supporting it."
+msgstr "Käytetäänkö hiljaisuudentunnistusta, jos koodekki tukee sitä."
+
+#: ../src/gui/preferences.cpp:982
+msgid "Enable echo can_celation"
+msgstr "Ota kaiun_poisto käyttöön"
+
+#: ../src/gui/preferences.cpp:982
+msgid "If enabled, use echo cancelation."
+msgstr "Käytetään kaiunpoistoa, jos tämä on asetettu."
+
+#: ../src/gui/preferences.cpp:984
+msgid "Maximum _jitter buffer (in ms):"
+msgstr "Suurin _värinäpuskuri (millisekunneissa):"
+
+#: ../src/gui/preferences.cpp:984
+msgid "The maximum jitter buffer size for audio reception (in ms)."
+msgstr "Suurin värinäpuskurikoko äänen vastaanotossa (millisekunteina)."
+
+#. Translators: the full sentence is Keep a minimum video quality of X %
+#: ../src/gui/preferences.cpp:1018
+msgid "Picture Quality"
+msgstr "Kuvanlaatu"
+
+#: ../src/gui/preferences.cpp:1018
+msgid ""
+"Choose if you want to guarantee a minimum image quality (possibly leading to "
+"dropped frames in order not to surpass the bitrate limit) or if you prefer "
+"to keep the frame rate."
+msgstr ""
+"Valitse haluatko taata kuvan pienimmän sallitun laadun (voi johtaa "
+"puuttuviin ruutuihin, jotta sallittua bittinopeutta ei ylitetä) vai haluatko "
+"säilyttää saman ruutunopeuden."
+
+#: ../src/gui/preferences.cpp:1020
+msgid "Maximum video _bitrate (in kbits/s):"
+msgstr "Suurin videon _bittinopeus (kbit/s):"
+
+#: ../src/gui/preferences.cpp:1020
+msgid ""
+"The maximum video bitrate in kbits/s. The video quality and the effective "
+"frame rate will be dynamically adjusted to keep the bitrate at the given "
+"value."
+msgstr ""
+"Videon suurin bittinopeus kilobitteinä sekunnissa. Videon laatua ja "
+"lähetettävien ruutujen määrää sekunnissa säädetään dynaamisesti jotta "
+"saavutetaan haluttu siirtokaista."
+
+#: ../src/gui/preferences.cpp:1333
+msgid "Ekiga Preferences"
+msgstr "Ekigan asetukset"
+
+#: ../src/gui/preferences.cpp:1351
+msgid "General"
+msgstr "Yleinen"
+
+#: ../src/gui/preferences.cpp:1352
+msgid "Personal Data"
+msgstr "Henkilökohtaiset tiedot"
+
+#: ../src/gui/preferences.cpp:1357
+msgid "General Settings"
+msgstr "Yleiset asetukset"
+
+#: ../src/gui/preferences.cpp:1366
+msgid "Sound Events"
+msgstr "Äänitapahtumat"
+
+#: ../src/gui/preferences.cpp:1370
+msgid "Protocols"
+msgstr "Protokollat"
+
+#: ../src/gui/preferences.cpp:1372
+msgid "SIP Settings"
+msgstr "SIP-asetukset"
+
+#: ../src/gui/preferences.cpp:1377
+msgid "H.323 Settings"
+msgstr "H.323-asetukset"
+
+#: ../src/gui/preferences.cpp:1381
+msgid "Audio"
+msgstr "Ääni"
+
+#: ../src/gui/preferences.cpp:1382 ../src/gui/preferences.cpp:1392
+msgid "Devices"
+msgstr "Laitteet"
+
+#: ../src/gui/preferences.cpp:1391
+msgid "Video"
+msgstr "Video"
+
+#: ../src/gui/statusicon.cpp:305
+#, c-format
+msgid "You have %d message"
+msgid_plural "You have %d messages"
+msgstr[0] "Sinulla on %d viesti"
+msgstr[1] "Sinulla on %d viestiä"
+
+#: ../src/gui/statusmenu.cpp:87
+msgid "Online"
+msgstr "Linjoilla"
+
+#: ../src/gui/statusmenu.cpp:88
+msgid "Away"
+msgstr "Poissa"
+
+#: ../src/gui/statusmenu.cpp:89
+msgid "Do Not Disturb"
+msgstr "Älä häiritse"
+
+#: ../src/gui/statusmenu.cpp:387
+msgid "Custom message..."
+msgstr "Oma viesti..."
+
+#: ../src/gui/statusmenu.cpp:430
+msgid "Clear"
+msgstr "Tyhjennä"
+
+#. Build the dialog
+#: ../src/gui/statusmenu.cpp:521 ../src/gui/statusmenu.cpp:671
+msgid "Custom Message"
+msgstr "Oma viesti"
+
+#: ../src/gui/statusmenu.cpp:537
+msgid "Delete custom messages:"
+msgstr "Poista omat viestit:"
+
+#: ../src/gui/statusmenu.cpp:692
+msgid "Define a custom message:"
+msgstr "Määrittele oma viesti:"
+
+#~ msgid "Automatic echo cancellation"
+#~ msgstr "Automaattinen kaiunpoisto"
+
+#~ msgid "Country code"
+#~ msgstr "Maakoodi"
+
+#~ msgid "Display a popup window when receiving a call"
+#~ msgstr "Näytä ponnahdusikkuna vastaanotettaessa puhelu"
+
+#~ msgid "Enable video support"
+#~ msgstr "Ota käyttöön videotuki"
+
+#~ msgid ""
+#~ "If enabled, a popup window will be displayed when receiving an incoming "
+#~ "call"
+#~ msgstr "Kun valittu, näytetään ponnahdusikkuna puhelun tullessa"
+
+#~ msgid "If enabled, allows video during calls"
+#~ msgstr "Kun valittu, sallitaan videon vastaanotto puhelun aikana"
+
+#~ msgid "Output device type"
+#~ msgstr "Soittolaitteen tyyppi"
+
+#~ msgid "Registration timeout"
+#~ msgstr "Rekisteröityminen aikakatkaistu"
+
+#~ msgid "Revision of the schema file"
+#~ msgstr "Mallitiedoston versio"
+
+#~ msgid ""
+#~ "The Automatic Echo Cancellation level: Off, Low, Medium, High, Automatic "
+#~ "Gain Compensation. Choosing Automatic Gain Compensation modulates the "
+#~ "volume for best quality."
+#~ msgstr ""
+#~ "Automaattisen kaiunpoiston taso: poissa, vähän, keski, paljon, "
+#~ "automaattinen tasokompensaatio. Valitsemalla automaattinen "
+#~ "tasokompensaatio muunnetaan äänenvoimakkuutta parhaan laadun "
+#~ "aikaansaamiseksi."
+
+#~ msgid ""
+#~ "The image to transmit if \"Picture\" is selected as video plugin or if "
+#~ "the opening of the device fails. Leave blank to use the default Ekiga "
+#~ "logo."
+#~ msgstr ""
+#~ "Kuva, joka lähetetään kun \"Kuva\" valitaan videoliitännäiseksi tai "
+#~ "laitteen avaus epäonnistuu. Tyhjäksi jätettäessä käytetään oletuksena "
+#~ "Ekiga-logoa."
+
+#~ msgid ""
+#~ "The output device type is the type of device connected to your Quicknet "
+#~ "card. It can be either a POTS (Plain Old Telephone System) or a headset."
+#~ msgstr ""
+#~ "Soittolaitteen tyyppi on Quicknet-korttiin liitetyn laitteen tyyppi.  Se "
+#~ "voi olla joko tavallinen puhelin tai pääkuuloke."
+
+#~ msgid ""
+#~ "The prefix that will be used to save pictures of the conversation. That "
+#~ "prefix is followed by the snapshot number."
+#~ msgstr ""
+#~ "Etuliite, jota käytetään tallennettaessa kuvia keskustelusta. Tätä "
+#~ "etuliitettä seuraa kuvan numero."
+
+#~ msgid "The save prefix"
+#~ msgstr "Tallennusetuliite"
+
+#~ msgid ""
+#~ "The time after which Ekiga will renew its registration with the registrar"
+#~ msgstr "Aika, jonka jälkeen Ekiga uusii rekisteröitymisen rekisteriin"
+
+#~ msgid ""
+#~ "The two-letter country code of your country (e.g.: BE, UK, FR, DE, ...)"
+#~ msgstr ""
+#~ "Kotimaasi kaksikirjaiminen maakoodi (esim. FI, SE, NO, DE, FR, UK, ...)"
+
+#~ msgid "Version"
+#~ msgstr "Versio"
+
+#~ msgid "Video image"
+#~ msgstr "Videokuva"
+
+#~ msgid "_Hostname:"
+#~ msgstr "_Verkkonimi:"
+
+#~ msgid "_Port:"
+#~ msgstr "_Portti:"
+
+# Tämä on kai jotain LDAP-kamaa, anyone?
+#~ msgid "_Base DN:"
+#~ msgstr "_DN-pohja:"
+
+#~ msgid "_Subtree"
+#~ msgstr "_Alipuu"
+
+#~ msgid "Single _Level"
+#~ msgstr "Yksi _taso"
+
+#~ msgid "_Scope"
+#~ msgstr "_Hakualue"
+
+#~ msgid "Password"
+#~ msgstr "Salasana"
+
+#~ msgid "Could not contact server"
+#~ msgstr "Palvelimeen ei saatu yhteyttä"
+
+#~ msgid "_Hostname"
+#~ msgstr "_Verkkonimi"
+
+#~ msgid "_Port"
+#~ msgstr "_Portti"
+
+#~ msgid "Configuration database corruption"
+#~ msgstr "Asetustietokanta on vioittunut"
+
+#~ msgid ""
+#~ "Ekiga got an invalid value for the configuration key %s.\n"
+#~ "\n"
+#~ "It probably means that your configuration schemas have not been correctly "
+#~ "installed or that the permissions are not correct.\n"
+#~ "\n"
+#~ "Please check the FAQ (http://www.ekiga.org/), the troubleshooting section "
+#~ "of the GConf site (http://www.gnome.org/projects/gconf/) or the mailing "
+#~ "list archives for more information (http://mail.gnome.org) about this "
+#~ "problem."
+#~ msgstr ""
+#~ "Ekiga sai virheellisen arvon asetusavaimesta %s.\n"
+#~ "\n"
+#~ "Tämä luultavasti tarkoittaa, että asetusmallit eivät ole asentuneet "
+#~ "oikein tai oikeudet eivät ole kunnossa.\n"
+#~ "\n"
+#~ "Etsi FAQ:sta (http://www.ekiga.org/), vianetsintäkohdasta GConf-"
+#~ "sivustolla (http://www.gnome.org/projects/gconf/) tai gnomen postilista-"
+#~ "arkistosta (http://mail.gnome.org/) lisätietoja tästä ongelmasta."
+
+#~ msgid "_Contents"
+#~ msgstr "_Sisältö"
+
+#~ msgid "_About"
+#~ msgstr "_Tietoja"
+
+#~ msgid "Position on the screen of the PC-To-Phone window"
+#~ msgstr "PC-To-Phone-ikkunan sijainti ruudulla"
+
+#~ msgid "Size of the PC-To-Phone window"
+#~ msgstr "PC-To-Phone-ikkunan koko"
+
+#~ msgid "_Properties"
+#~ msgstr "_Ominaisuudet"
+
+#~ msgid "_Send"
+#~ msgstr "_Lähetä"
+
+#~ msgid "You say:\n"
+#~ msgstr "Sanot:\n"
+
+#~ msgid "Opening device for playing"
+#~ msgstr "Avataan soittolaitetta"
+
+#~ msgid "Opening device for recording"
+#~ msgstr "Avataan nauhoituslaitetta"
+
+#~ msgid ""
+#~ "Impossible to open the selected audio device (%s) for recording. Please "
+#~ "check your audio setup, the permissions and that the device is not busy."
+#~ msgstr ""
+#~ "Mahdotonta avata valittua äänilaitetta (%s) nauhoittamiseen. Tarkista "
+#~ "ääniasetuksesi, oikeudet ja että laite ei ole varattu."
+
+#~ msgid ""
+#~ "Impossible to open the selected audio device (%s) for playing. Please "
+#~ "check your audio setup, the permissions and that the device is not busy."
+#~ msgstr ""
+#~ "Mahdotonta avata valittu äänilaite (%s) soittoon. Tarkista "
+#~ "ääniasetuksesi, oikeudet ja että laite ei ole varattu."
+
+#~ msgid "Cannot use the audio device"
+#~ msgstr "Äänilaitetta ei voida käyttää"
+
+#~ msgid ""
+#~ "The selected audio device (%s) was successfully opened but it is "
+#~ "impossible to read data from this device. Please check your audio setup."
+#~ msgstr ""
+#~ "Valittu äänilaite (%s) avattiin onnistuneesti, mutta on mahdotonta lukea "
+#~ "dataa tästä laitteesta. Tarkista ääniasetuksesi."
+
+#~ msgid "Recording your voice"
+#~ msgstr "Nauhoitetaan ääntäsi"
+
+#~ msgid "Recording and playing back"
+#~ msgstr "Nauhoitetaan ja soitetaan takaisin"
+
+#~ msgid ""
+#~ "The selected audio device (%s) was successfully opened but it is "
+#~ "impossible to write data to this device. Please check your audio setup."
+#~ msgstr ""
+#~ "Valittu äänilaite (%s) avattiin onnistuneesti, mutta on mahdotonta "
+#~ "kirjoittaa dataa tähän laitteeseen. Tarkista ääniasetuksesi."
+
+#~ msgid ""
+#~ "Ekiga is now recording from %s and playing back to %s. Please say \"1, 2, "
+#~ "3, Ekiga rocks!\" in your microphone. You should hear yourself from the "
+#~ "speakers after a four-second delay."
+#~ msgstr ""
+#~ "Ekiga nauhoittaa nyt laitteesta %s ja soittaa äänet laitteeseen %s. Sano "
+#~ "\"yksi, kaksi, kolme\" mikrofoniisi ja sinun pitäisi kuulla oma äänesi "
+#~ "kaiuttimista neljän sekunnin viiveellä."
+
+#~ msgid "Number of frames for G.711"
+#~ msgstr "G.711-kehyksien määrä"
+
+#~ msgid "Number of frames for GSM"
+#~ msgstr "GSM-kehyksien määrä"
+
+#~ msgid "Number of frames transmitted in each packet for the G.711 codec"
+#~ msgstr "G.711-koodekilla jokaisessa paketissa lähetettävien kehyksien määrä"
+
+#~ msgid "Number of frames transmitted in each packet for the GSM codec"
+#~ msgstr "GSM-koodekilla jokaisessa paketissa lähetettävien kehyksien määrä"
+
+#~ msgid "Account"
+#~ msgstr "Tili"
+
+#~ msgid "Missed calls: %d - Voice Mails: %d"
+#~ msgstr "Vastaamattomia puheluita: %d - Ääniviestejä: %d"
+
+#~ msgid "Enter your first name"
+#~ msgstr "Syötä etunimesi"
+
+#~ msgid "_Apply"
+#~ msgstr "_Toteuta"
+
+#~ msgid ""
+#~ "Click here to update the users directory you are registered to with the "
+#~ "new First Name, Last Name, E-Mail, Comment and Location"
+#~ msgstr ""
+#~ "Napsauta tässä päivittääksesi käyttäjähakemisto, johon olet "
+#~ "rekisteröitynyt, uusilla etunimen, sukunimen, sähköpostiosoitteen ja "
+#~ "sijainnin arvoilla"
+
+#~ msgid "Image:"
+#~ msgstr "Kuva:"
+
+#~ msgid "Choose a Picture"
+#~ msgstr "Valitse kuva"
+
+#~ msgid "Preview"
+#~ msgstr "Esikatselu"
+
+#~ msgid "Images"
+#~ msgstr "Kuvat"
+
+#~ msgid "Forward"
+#~ msgstr "Uudelleenohjaa"
+
+#~ msgid ""
+#~ "The video manager is the plugin that will manage your video devices, "
+#~ "Video4Linux is the most common choice if you own a webcam."
+#~ msgstr ""
+#~ "Videonhallinta on liitännäinen, joka hallitsee videolaitteita, "
+#~ "Video4Linux on yleisin valinta, jos sinulla on web-kamera."
+
+#~ msgid "_Find Contacts"
+#~ msgstr "_Etsi tuttavia"
+
+#~ msgid "Auto Away Timeout"
+#~ msgstr "Automaattisen poissaolon aikaviive"
+
+#~ msgid "Timeout after which the user is automatically set as away"
+#~ msgstr "Aikaviive, jonka jälkeen käyttäjä merkitään poissaolevaksi"
+
+#~ msgid "User directory"
+#~ msgstr "Käyttäjähakemisto"
+
+#~ msgid "Please confirm you want that contact removed"
+#~ msgstr "Vahvista tuttavan poisto nimilistasta"
+
+#~ msgid "Address Books"
+#~ msgstr "Osoitekirjat"
+
+#~ msgid "Remote user is not available"
+#~ msgstr "Etäkäyttäjä ei ole tavoitettavissa"
+
+#~ msgid "Auto Away"
+#~ msgstr "Automaattinen poissaolo"
+
+#~ msgid ""
+#~ "Timeout after which the user is automatically set as away (in minutes):"
+#~ msgstr ""
+#~ "Aikaviive, jonka jälkeen käyttäjä merkitään poissaolevaksi (minuutteja):"
+
+#~ msgid ""
+#~ "Automatically set the user as away after the timeout has elapsed (in "
+#~ "minutes)"
+#~ msgstr ""
+#~ "Aseta käyttäjä poissaolevaksi, kun annettu aika minuutteina on kulunut"
+
+#~ msgid "_Tools"
+#~ msgstr "_Työkalut"

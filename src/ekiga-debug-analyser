@@ -1,0 +1,29 @@
+#!/usr/bin/awk -f
+
+# Usage: ekiga-debug-analyser <ekigaDebugOutput
+#   where the output comes from ekiga -d 4 (or 5).
+# Goal: Given a debug output file, shows only the application packets
+#   exchanged on the network.
+#   This especially allows to conveniently compare two debug outputs
+#   in terms of packets exchanged.
+# Written by Eugen Dedu, 03 06 2009
+
+/Sending PDU|PDU [rR]eceived/{  # r is for ekiga v3, R for ekiga v2
+    inside=1;
+    # remove $1 (the date) and $2 (the time), and let $3 (the relative time)
+    $1 = $2 = "";
+    print " ========================", $0;
+    next;
+}
+
+/^ *$/{
+    if (inside)
+        print;
+    inside=0;
+    next;
+}
+
+{
+    if (inside)
+        print;
+}

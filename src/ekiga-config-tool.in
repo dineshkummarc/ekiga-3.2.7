@@ -1,0 +1,131 @@
+#!/bin/sh
+
+prefix=@prefix@
+SYSCONFDIR=@sysconfdir@
+TEXTDOMAIN=@PACKAGE_NAME@
+export TEXTDOMAIN
+TEXTDOMAINDIR=@prefix@/share/locale/
+export TEXTDOMAINDIR
+
+# if gettext can not be found, use echo instead
+GETTEXT=`which gettext 2> /dev/null`
+if [ -z $GETTEXT ] ; then GETTEXT='echo -n'; fi
+# use complete path for gconftool
+GCONFTOOL=gconftool-2
+test `$GCONFTOOL -v` || exit 1; 
+
+# NB.: Avoid !\n in the translatable strings!
+ACCEPT=`$GETTEXT "YES"`
+
+clean () {
+
+	echo
+	$GETTEXT "  WARNING!!!"; echo
+	echo    "  ---------------------------------------------------------------"
+	printf "`$GETTEXT "  This script will delete your Ekiga configuration settings.\nThe GConf daemon will be shut down, so make sure you have no\n  applications depending on it running.\n\n  Please make sure that Ekiga is not running!\n\n  Do you really want to do this?\n\n  If so, say $ACCEPT.\n\n"`";
+
+	read WARNINGANSWER
+	
+	echo
+	
+	if [ -n "$WARNINGANSWER" ] && [ "$WARNINGANSWER" = $ACCEPT ]; then
+	    
+	    $GETTEXT "Removing $HOME/.gconf/apps/@PACKAGE_NAME@"; echo
+	    rm -rf $HOME/.gconf/apps/@PACKAGE_NAME@
+	    
+	    $GETTEXT "Shutting down GConf daemon"; echo
+	    $GCONFTOOL --shutdown
+	    
+	    $GETTEXT "...Done."; echo
+	    
+	else
+	    $GETTEXT "Leaving configuration alone."; echo
+	    echo
+	    $GETTEXT "Have a nice day."; echo
+	    
+	fi
+	
+	echo
+}
+
+shutdownwarning () {
+    echo
+    $GETTEXT "  WARNING!!!"; echo
+    echo    "  ---------------------------------------------------------------"
+    printf "`$GETTEXT "  The GConf daemon will be shut down, so make sure you have no\n  applications depending on it running.\n\n  Please make sure that Ekiga is not running!\n\n  Do you really want to do this?\n\n  If so, say $ACCEPT.\n\n"`";
+}
+
+cleanschemas () {
+    shutdownwarning;
+
+    read WARNINGANSWER
+
+    if [ -n "$WARNINGANSWER" ] && [ "$WARNINGANSWER" = $ACCEPT ]; then
+
+	echo ""
+
+	SOURCE=`$GCONFTOOL --get-default-source`
+	    
+	$GETTEXT "Shutting down GConf daemon"; echo
+	$GCONFTOOL --shutdown
+
+	$GETTEXT "Removing schemas"; echo
+	SOURCE=`echo $SOURCE | sed "s/xml:://"`
+	SCHEMAS=$SOURCE/schemas/apps/@PACKAGE_NAME@
+	SOURCE=$SOURCE/apps/@PACKAGE_NAME@
+	echo $SCHEMAS
+	echo $SOURCE
+	rm -rf $SOURCE
+	rm -rf $SCHEMAS
+    fi
+}
+
+installschemas () {
+    shutdownwarning;
+
+    read WARNINGANSWER
+
+    if [ -n "$WARNINGANSWER" ] && [ "$WARNINGANSWER" = $ACCEPT ]; then
+
+	echo
+
+	SOURCE=`$GCONFTOOL --get-default-source`
+	    
+	$GETTEXT "Shutting down GConf daemon"; echo
+	$GCONFTOOL --shutdown
+
+	$GETTEXT "Installing schemas"; echo
+	GCONF_CONFIG_SOURCE=$SOURCE  $GCONFTOOL \
+	--makefile-install-rule $SYSCONFDIR/gconf/schemas/@PACKAGE_NAME@.schemas
+    fi
+}
+
+fixgconfperm ()
+{
+    killall gconfd-2 2>/dev/null >/dev/null
+    chmod -R o+rX $SYSCONFDIR/gconf
+}
+
+case "$1" in
+  *--clean)
+        clean;
+        ;;
+  *--install-schemas)
+        installschemas;
+        ;;
+  *--clean-schemas)
+	cleanschemas;
+        ;;
+  *--fix-permissions)
+        fixgconfperm;
+        ;;
+  *)
+        $GETTEXT "Usage:  @PACKAGE_NAME@-config-tool OPTION"; echo
+	$GETTEXT "Fixes problems with the Ekiga settings"; echo; echo
+	$GETTEXT "  --clean                remove all user settings"; echo
+	$GETTEXT "  --install-schemas      install schemas with default settings (run as root)"; echo
+	$GETTEXT "  --clean-schemas        remove schemas with default settings (run as root)"; echo
+	$GETTEXT "  --fix-permissions      fix permissions of GConf repository (run as root)"; echo
+        exit 1
+        ;;
+esac

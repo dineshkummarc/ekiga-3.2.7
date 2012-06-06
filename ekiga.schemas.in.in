@@ -1,0 +1,995 @@
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/devices/audio/output_device</key>
+      <applyto>/apps/@PACKAGE_NAME@/devices/audio/output_device</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+	<short>Audio output device</short>
+	<long>Select the audio output device to use</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/devices/audio/input_device</key>
+      <applyto>/apps/@PACKAGE_NAME@/devices/audio/input_device</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+	<short>Audio input device</short>
+	<long>Select the audio input device to use</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/devices/video/input_device</key>
+      <applyto>/apps/@PACKAGE_NAME@/devices/video/input_device</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+	<short>Video input device</short>
+	<long>Select the video input device to use. If an error occurs when using this device a test picture will be transmitted.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/devices/video/size</key>
+      <applyto>/apps/@PACKAGE_NAME@/devices/video/size</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+	<short>Video size</short>
+	<long>Select the transmitted video size: Small (QCIF 176x144) or Large (CIF 352x288)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/devices/video/channel</key>
+      <applyto>/apps/@PACKAGE_NAME@/devices/video/channel</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+	<short>Video channel</short>
+	<long>The video channel number to use (to select camera, tv or other sources)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/devices/video/format</key>
+      <applyto>/apps/@PACKAGE_NAME@/devices/video/format</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+	<short>Video format</short>
+	<long>Select the format for video cameras (does not apply to most USB cameras)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/devices/video/enable_preview</key>
+      <applyto>/apps/@PACKAGE_NAME@/devices/video/enable_preview</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>0</default>
+      <locale name="C">
+	<short>Video preview</short>
+ 	<long>Display images from your camera device</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/devices/video/max_frame_rate</key>
+      <applyto>/apps/@PACKAGE_NAME@/devices/video/max_frame_rate</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>30</default>
+      <locale name="C">
+	<short>Frame Rate</short>
+	<long>The maximum transmitted frame rate in frames/s. This rate may not be reached in case a minimum quality was configure via a TSTO value smaller than 31 and the bitrate selected is not sufficient to support this minimum quality</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/personal_data/full_name</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/personal_data/full_name</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+	<short>Full name</short>
+	<long>Enter your full name</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/personal_data/short_status</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/personal_data/short_status</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>online</default>
+      <locale name="C">
+	<short>Contact short status</short>
+	<long>The short status information</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/personal_data/long_status</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/personal_data/long_status</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>I'm online using Ekiga</default>
+      <locale name="C">
+	<short>Contact long status</short>
+	<long>The long status information</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/personal_data/away_custom_status</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/personal_data/away_custom_status</applyto>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[]</default>
+      <locale name="C">
+	<short></short>
+	<long></long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/personal_data/dnd_custom_status</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/personal_data/dnd_custom_status</applyto>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[]</default>
+      <locale name="C">
+	<short></short>
+	<long></long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/personal_data/online_custom_status</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/personal_data/online_custom_status</applyto>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[]</default>
+      <locale name="C">
+	<short></short>
+	<long></long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/codecs/audio/media_list</key>
+      <applyto>/apps/@PACKAGE_NAME@/codecs/audio/media_list</applyto>
+      <owner>Ekiga</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[Speex*16000*1*H.323 SIP*1,iLBC*8000*1*H.323 SIP*0,PCMU*8000*1*H.323 SIP*1,PCMA*8000*1*H.323 SIP*1,gsm*8000*1*H.323 SIP*0,CELT*48000*1*SIP*0,CELT*32000*1*SIP*0,G722*16000*1*H.323 SIP*0,Speex*8000*1*H.323 SIP*0,G726-16*8000*1*H.323 SIP*0,G726-24*8000*1*H.323 SIP*0,G726-32*8000*1*H.323 SIP*0,G726-40*8000*1*H.323 SIP*0,ms-gsm*8000*1*H.323*0]</default>
+      <locale name="C">
+	<short>The Audio Codecs List</short>
+	<long>The audio codecs list</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/codecs/audio/enable_silence_detection</key>
+      <applyto>/apps/@PACKAGE_NAME@/codecs/audio/enable_silence_detection</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+	<short>Enable silence detection</short>
+	<long>If enabled, use silence detection with the codecs supporting it</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/codecs/audio/enable_echo_cancelation</key>
+      <applyto>/apps/@PACKAGE_NAME@/codecs/audio/enable_echo_cancelation</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+	<short>Enable echo cancelation</short>
+	<long>If enabled, use echo cancelation</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/sound_events/output_device</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/sound_events/output_device</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+	<short>Alternative audio output device</short>
+	<long>Select an alternative audio output device to use for sound events.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/sound_events/incoming_call_sound</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/sound_events/incoming_call_sound</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>ring.wav</default>
+      <locale name="C">
+	<short>The incoming call sound</short>
+	<long>The sound that will be played on incoming calls, if enabled</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/sound_events/enable_incoming_call_sound</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/sound_events/enable_incoming_call_sound</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+	<short>Play sound on incoming calls</short>
+	<long>The chosen sound will be played on incoming calls, if enabled</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/sound_events/new_message_sound</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/sound_events/new_message_sound</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>newmessage.wav</default>
+      <locale name="C">
+	<short>The new instant message sound</short>
+	<long>The sound that will be played when there is a new instant message, if enabled</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/sound_events/enable_new_message_sound</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/sound_events/enable_new_message_sound</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+	<short>Play sound on new message</short>
+	<long>The chosen sound will be played when a new instant message is received, if enabled</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/sound_events/new_voicemail_sound</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/sound_events/new_voicemail_sound</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>voicemail.wav</default>
+      <locale name="C">
+	<short>The new voice mail sound</short>
+	<long>The sound that will be played when there is a new voice mail, if enabled</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/sound_events/enable_new_voicemail_sound</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/sound_events/enable_new_voicemail_sound</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+	<short>Play sound on new voice mail</short>
+	<long>The chosen sound will be played when a new voice mail is received, if enabled</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/sound_events/enable_ring_tone_sound</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/sound_events/enable_ring_tone_sound</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+	<short>Play ring tone</short>
+	<long>The chosen sound will be played when calling somebody, if enabled</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/sound_events/ring_tone_sound</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/sound_events/ring_tone_sound</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>dialtone.wav</default>
+      <locale name="C">
+	<short>The dial tone sound</short>
+	<long>The sound that will be played when calling somebody, if enabled</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/sound_events/enable_busy_tone_sound</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/sound_events/enable_busy_tone_sound</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+	<short>Play busy tone</short>
+	<long>The chosen sound will be played at the end of calls or calling somebody who is busy, if enabled</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/sound_events/busy_tone_sound</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/sound_events/busy_tone_sound</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>busytone.wav</default>
+      <locale name="C">
+	<short>The busy tone sound</short>
+	<long>The sound that will be played at the end of calls or when calling somebody who is busy, if enabled</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/accounts_list</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/accounts_list</applyto>
+      <owner>Ekiga</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[]</default>
+      <locale name="C">
+	<short>The accounts list</short>
+	<long>The list of accounts to which Ekiga should register</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/interface</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/interface</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <locale name="C">
+	<short></short>
+	<long></long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/sip/listen_port</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/sip/listen_port</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>5060</default>
+      <locale name="C">
+	<short>Listen port</short>
+	<long>The port to listen to for incoming connections. Ekiga needs to be restarted for the new value to take effect</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/sip/outbound_proxy_host</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/sip/outbound_proxy_host</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+	<short>Outbound Proxy</short>
+	<long>The SIP Outbound Proxy to use for outgoing calls</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/sip/forward_host</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/sip/forward_host</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>sip:</default>
+      <locale name="C">
+	<short>Forward calls to host</short>
+	<long>The host where calls should be forwarded if call forwarding is enabled</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/sip/dtmf_mode</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/sip/dtmf_mode</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>1</default>
+      <locale name="C">
+	<short>DTMF sending</short>
+	<long>This allows you to set the mode for sending DTMFs. The values can be "RFC2833" (0), "INFO" (1)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/h323/listen_port</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/h323/listen_port</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>1720</default>
+      <locale name="C">
+	<short>Listen port</short>
+	<long>The port to listen to for incoming connections. Ekiga needs to be restarted for the new value to take effect.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/ports/tcp_port_range</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/ports/tcp_port_range</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>30000:30010</default>
+      <locale name="C">
+	<short>TCP port range</short>
+	<long>The range of TCP ports that Ekiga will use for the H.323 H.245 channel. This port range has no effect if both participants to the conference are using H.245 Tunneling.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/ports/udp_port_range</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/ports/udp_port_range</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>5060:5100</default>
+      <locale name="C">
+	<short>UDP port range</short>
+	<long>The range of UDP ports that Ekiga will use.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/h323/enable_h245_tunneling</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/h323/enable_h245_tunneling</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+	<short>Enable H.245 tunneling</short>
+	<long>This enables H.245 Tunneling mode. In H.245 Tunneling mode H.245 messages are encapsulated into the H.225 channel (port 1720). This saves one TCP connection during calls. H.245 Tunneling was introduced in H.323v2 and Netmeeting does not support it. Using both Fast Start and H.245 Tunneling can crash some versions of Netmeeting.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/h323/enable_early_h245</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/h323/enable_early_h245</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+	<short>Enable early H.245</short>
+	<long>This enables H.245 early in the setup</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/h323/enable_fast_start</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/h323/enable_fast_start</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+	<short>Enable 'Fast Start'</short>
+	<long>Connection will be established in Fast Start mode. Fast Start is a new way to start calls faster that was introduced in H.323v2. It is not supported by Netmeeting and using both Fast Start and H.245 Tunneling can crash some versions of Netmeeting</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/h323/dtmf_mode</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/h323/dtmf_mode</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+	<short>DTMF sending</short>
+	<long>This allows you to set the mode for sending DTMFs. The values can be "String" (0), "Tone" (1), "RFC2833" (2), "Q.931" (3) (default is "String"). Choosing other values than "String" disables the Text Chat</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/h323/forward_host</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/h323/forward_host</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>h323:</default>
+      <locale name="C">
+	<short>Forward calls to host</short>
+	<long>The host where calls should be forwarded if call forwarding is enabled</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/call_forwarding/always_forward</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/call_forwarding/always_forward</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+	<short>Always forward calls to the given host</short>
+	<long>If enabled, all incoming calls will be forwarded to the host that is specified in the field below</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/call_forwarding/forward_on_busy</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/call_forwarding/forward_on_busy</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+	<short>Forward calls to the given host if busy</short>
+	<long>If enabled, all incoming calls will be forwarded to the host that is specified in the field below if you already are in a call or if you are in Do Not Disturb mode</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/call_forwarding/forward_on_no_answer</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/call_forwarding/forward_on_no_answer</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+	<short>Forward calls to the given host if no answer</short>
+	<long>If enabled, all incoming calls will be forwarded to the host that is specified in the field below if you do not answer the call</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/nat/stun_server</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/nat/stun_server</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>stun.ekiga.net</default>
+      <locale name="C">
+	<short>The STUN Server</short>
+	<long>The STUN server to use for STUN Support. STUN is a technology that permits passage through some types of NAT gateway</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/nat/disable_stun</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/nat/disable_stun</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+	<short>Disable STUN network detection</short>
+	<long>Disable the automatic network setup resulting from the STUN test</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/protocols/sip/binding_timeout</key>
+      <applyto>/apps/@PACKAGE_NAME@/protocols/sip/binding_timeout</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>10</default>
+      <locale name="C">
+	<short>NAT Binding Timeout</short>
+        <long>Enter the number of seconds after which Ekiga should try refreshing the NAT binding when STUN is being used</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/start_hidden</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/start_hidden</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+	<short>Start hidden</short>
+	<long>If enabled, Ekiga will start hidden provided that the notification area is present in the GNOME panel</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/main_window/position</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/main_window/position</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>0,0</default>
+      <locale name="C">
+	<short>Position on the screen of the main window</short>
+	<long>Position on the screen of the main window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/main_window/show_call_panel</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/main_window/show_call_panel</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+	<short>Show the call panel</short>
+	<long>Show the call panel</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/main_window/panel_section</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/main_window/panel_section</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+	<short>Change the main window panel section</short>
+	<long>Change the main window panel section</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/log_window/position</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/log_window/position</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>0,0</default>
+      <locale name="C">
+	<short>Position on the screen of the log window</short>
+	<long>Position on the screen of the log window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/chat_window/size</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/chat_window/size</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>375,400</default>
+      <locale name="C">
+	<short>Size of the chat window</short>
+	<long>Size of the chat window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/chat_window/position</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/chat_window/position</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>0,0</default>
+      <locale name="C">
+	<short>Position on the screen of the chat window</short>
+	<long>Position on the screen of the chat window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/druid_window/size</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/druid_window/size</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>525,345</default>
+      <locale name="C">
+	<short>Size of the druid window</short>
+	<long>Size of the druid window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/druid_window/position</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/druid_window/position</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>0,0</default>
+      <locale name="C">
+	<short>Position on the screen of the druid window</short>
+	<long>Position on the screen of the druid window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/address_book_window/position</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/address_book_window/position</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>0,0</default>
+      <locale name="C">
+	<short>Position on the screen of the address book window</short>
+	<long>Position on the screen of the address book window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/address_book_window/size</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/address_book_window/size</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>770,470</default>
+      <locale name="C">
+	<short>Size of the address book window</short>
+	<long>Size of the address book window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/audio_settings_window/position</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/audio_settings_window/position</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>0,0</default>
+      <locale name="C">
+	<short>Position on the screen of the audio settings window</short>
+	<long>Position on the screen of the audio settings window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/audio_settings_window/size</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/audio_settings_window/size</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>250,125</default>
+      <locale name="C">
+	<short>Size of the audio settings window</short>
+	<long>Size of the audio settings window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/video_settings_window/position</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/video_settings_window/position</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>0,0</default>
+      <locale name="C">
+	<short>Position on the screen of the video settings window</short>
+	<long>Position on the screen of the video settings window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/video_settings_window/size</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/video_settings_window/size</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>250,160</default>
+      <locale name="C">
+	<short>Size of the video settings window</short>
+	<long>Size of the video settings window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/preferences_window/position</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/preferences_window/position</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>0,0</default>
+      <locale name="C">
+	<short>Position on the screen of the preferences window</short>
+	<long>Position on the screen of the preferences window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/preferences_window/size</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/preferences_window/size</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>-1,-1</default>
+      <locale name="C">
+	<short>Size of the preferences window</short>
+	<long>Size of the preferences window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/accounts_window/position</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/accounts_window/position</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>0,0</default>
+      <locale name="C">
+	<short>Position on the screen of the preferences window</short>
+	<long>Position on the screen of the preferences window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/accounts_window/size</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/accounts_window/size</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>470,250</default>
+      <locale name="C">
+	<short>Size of the preferences window</short>
+	<long>Size of the preferences window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/video_display/disable_hw_accel</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/video_display/disable_hw_accel</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+	<short>Disable video hardware acceleration</short>
+	<long>This key disables DirectX (on win32) and XVideo (on Linux) video hardware acceleration</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/video_display/allow_pip_sw_scaling</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/video_display/allow_pip_sw_scaling</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+	<short>Allow picture-in-picture software scaling</short>
+	<long>Allow Ekiga to fall back to software scaling the picture-in-picture if hardware support is not available. If this is set to false, Ekiga will not try to open the PIP if hardware support is not available.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/video_display/sw_scaling_algorithm</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/video_display/sw_scaling_algorithm</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+	<short>Specify the software scaling algorithm</short>
+	<long>Specify the software scaling algorithm: 0: nearest neighbor, 1: nearest neighbor with box filter, 2: bilinear filtering, 3: hyperbolic filtering. Does not apply on windows systems.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/video_display/zoom</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/video_display/zoom</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>100</default>
+      <locale name="C">
+	<short>The zoom value</short>
+	<long>The zoom value in percent to apply to images displayed in the main GUI (can be 50, 100, or 200)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/video_display/stay_on_top</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/video_display/stay_on_top</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+	<short>Place windows displaying video above other windows during calls</short>
+	<long>Place windows displaying video above other windows during calls</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/video_display/video_view</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/video_display/video_view</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>1</default>
+      <locale name="C">
+	<short>The default video view</short>
+	<long>The default video view (0: Local, 1: Remote, 2: Both layered, 3: Both with local video in a separate window, 4: Both)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/video_display/video_view_before_fullscreen</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/video_display/video_view_before_fullscreen</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>1</default>
+      <locale name="C">
+	<short>The video view before having switched to fullscreen</short>
+	<long>The video view before having switched to fullscreen (same values as video_view)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/local_video_window/size</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/local_video_window/size</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>176,144</default>
+      <locale name="C">
+	<short>Local video window size</short>
+	<long>The size of the local video window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/local_video_window/position</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/local_video_window/position</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>0,0</default>
+      <locale name="C">
+	<short>Position of the local video window</short>
+	<long>The position of the local video window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/remote_video_window/size</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/remote_video_window/size</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>176,144</default>
+      <locale name="C">
+	<short>Remote video window size</short>
+	<long>The size of the remote video window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/user_interface/remote_video_window/position</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/user_interface/remote_video_window/position</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default>0,0</default>
+      <locale name="C">
+	<short>Remote video window position</short>
+	<long>The position of the remote video window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/codecs/audio/maximum_jitter_buffer</key>
+      <applyto>/apps/@PACKAGE_NAME@/codecs/audio/maximum_jitter_buffer</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>500</default>
+      <locale name="C">
+	<short>Maximum jitter buffer</short>
+	<long>The maximum jitter buffer size for audio reception (in ms)</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/codecs/video/media_list</key>
+      <applyto>/apps/@PACKAGE_NAME@/codecs/video/media_list</applyto>
+      <owner>Ekiga</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[h264*90000*0*SIP*1,theora*90000*0*SIP*1,h261*90000*0*H.323 SIP*1]</default>
+      <locale name="C">
+	<short>The Video Codecs List</short>
+	<long>The video codecs list</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/codecs/video/maximum_video_tx_bitrate</key>
+      <applyto>/apps/@PACKAGE_NAME@/codecs/video/maximum_video_tx_bitrate</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>64</default>
+      <locale name="C">
+	<short>Maximum TX video bitrate</short>
+	<long>The maximum TX video bitrate in kbit/s. The video quality and the number of transmitted frames per second (depends on selected codec) will be dynamically adjusted above their minimum during calls to try to minimize the bandwidth to the given value</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/codecs/video/maximum_video_rx_bitrate</key>
+      <applyto>/apps/@PACKAGE_NAME@/codecs/video/maximum_video_rx_bitrate</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>4096</default>
+      <locale name="C">
+	<short>Maximum RX video bitrate</short>
+	<long>The maximum RX video bitrate in kbit/s. This value will be signaled to the peer endpoint that can adjust (if it supports it) its TX bitrate if it is above the signaled value</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/codecs/video/temporal_spatial_tradeoff</key>
+      <applyto>/apps/@PACKAGE_NAME@/codecs/video/temporal_spatial_tradeoff</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>31</default>
+      <locale name="C">
+	<short>Temporal Spatial Trade Off</short>
+	<long>Whether to prefer to sustain the max. frame rate or lower it possibly in order to keep a minimum level of (spatial) quality for all frames. 0: Highest minimal quality, 31: lowest minimal quality</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/contacts/roster_folded_groups</key>
+      <applyto>/apps/@PACKAGE_NAME@/contacts/roster_folded_groups</applyto>
+      <owner>Ekiga</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[]</default>
+      <locale name="C">
+	<short>List of folded groups in the roster</short>
+	<long></long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/contacts/show_offline_contacts</key>
+      <applyto>/apps/@PACKAGE_NAME@/contacts/show_offline_contacts</applyto>
+      <owner>Ekiga</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+	<short>Show offline contacts</short>
+	<long>If enabled, offline contacts will be shown in the roster</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/contacts/ldap_servers</key>
+      <applyto>/apps/@PACKAGE_NAME@/contacts/ldap_servers</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+	<short>LDAP servers</short>
+	<long>List of configured LDAP servers</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/contacts/call_history</key>
+      <applyto>/apps/@PACKAGE_NAME@/contacts/call_history</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <locale name="C">
+ 	<short>Calls history</short>
+ 	<long>The history of the 100 last calls</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/contacts/roster</key>
+      <applyto>/apps/@PACKAGE_NAME@/contacts/roster</applyto>
+      <owner>Ekiga</owner>
+      <type>string</type>
+      <locale name="C">
+	<short></short>
+	<long></long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/kind_of_net</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/kind_of_net</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>2</default>
+      <locale name="C">
+	<short>Kind of network selected in the druid</short>
+	<long>0: 56Kbps, 1: ISDN, 2:DSL, 3: LAN, 4: Custom</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/@PACKAGE_NAME@/general/call_options/no_answer_timeout</key>
+      <applyto>/apps/@PACKAGE_NAME@/general/call_options/no_answer_timeout</applyto>
+      <owner>Ekiga</owner>
+      <type>int</type>
+      <default>45</default>
+      <locale name="C">
+	<short>No answer timeout</short>
+	<long>Automatically reject or forward incoming calls if no answer is given after the specified amount of time (in seconds)</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

@@ -1,0 +1,1465 @@
+# Translation of Ekiga manual to Finnish.
+# 
+# (C) 2008 Timo Jyrinki <timo.jyrinki@iki.fi>
+# 
+# Huom: Tämä on pikasuomennos josta puuttuu vielä suurin osa varsinaisesta
+# tekstistä. Terminologian pitäisi olla yhteneväinen käyttöliittymän kanssa.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: ekiga\n"
+"POT-Creation-Date: 2008-08-31 18:30+0000\n"
+"PO-Revision-Date: 2008-09-01 17:08+0300\n"
+"Last-Translator: Timo Jyrinki <timo.jyrinki@iki.fi>\n"
+"Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: C/ekiga.xml:12(title)
+msgid "<application>Ekiga</application> Manual 3.00"
+msgstr "<application>Ekigan</application> ohjekirja 3.00"
+
+#: C/ekiga.xml:14(year)
+msgid "2003-2008"
+msgstr "2003-2008"
+
+#: C/ekiga.xml:14(holder) C/ekiga.xml:31(para) C/ekiga.xml:41(publishername)
+msgid "Damien Sandras"
+msgstr "Damien Sandras"
+
+#: C/ekiga.xml:15(year) C/ekiga.xml:16(year)
+msgid "2003-2004"
+msgstr "2003-2004"
+
+#: C/ekiga.xml:15(holder) C/ekiga.xml:49(publishername)
+msgid "Matthias Redlich"
+msgstr "Matthias Redlich"
+
+#: C/ekiga.xml:16(holder) C/ekiga.xml:45(publishername)
+msgid "Christopher Warner"
+msgstr "Christopher Warner"
+
+#: C/ekiga.xml:28(revnumber)
+msgid "Ekiga Manual 3.0"
+msgstr "Ekigan ohjekirja 3.0"
+
+#: C/ekiga.xml:29(date)
+msgid "2008-08-31"
+msgstr "2008-08-31"
+
+#: C/ekiga.xml:35(revnumber)
+msgid "Ekiga Manual 2.0"
+msgstr "Ekigan ohjekirja 2.0"
+
+#: C/ekiga.xml:36(date)
+msgid "2006-01-22"
+msgstr "2006-01-22"
+
+#: C/ekiga.xml:42(email)
+msgid "dsandras@seconix.com"
+msgstr "dsandras@seconix.com"
+
+#: C/ekiga.xml:46(email)
+msgid "zanee@kernelcode.com"
+msgstr "zanee@kernelcode.com"
+
+#: C/ekiga.xml:50(email)
+msgid "m-redlich@t-online.de"
+msgstr "m-redlich@t-online.de"
+
+#: C/ekiga.xml:55(firstname)
+msgid "Damien"
+msgstr "Damien"
+
+#: C/ekiga.xml:56(surname)
+msgid "Sandras"
+msgstr "Sandras"
+
+#: C/ekiga.xml:59(firstname)
+msgid "Christopher"
+msgstr "Christopher"
+
+#: C/ekiga.xml:60(surname)
+msgid "Warner"
+msgstr "Warner"
+
+#: C/ekiga.xml:61(othername)
+msgid "zanee"
+msgstr "zanee"
+
+#: C/ekiga.xml:64(firstname)
+msgid "Matthias"
+msgstr "Matthias"
+
+#: C/ekiga.xml:65(surname)
+msgid "Redlich"
+msgstr "Redlich"
+
+#: C/ekiga.xml:69(releaseinfo)
+msgid "This documentation is for version 3.00 of Ekiga."
+msgstr "Tämä ohje on Ekigan versiolle 3.00"
+
+#: C/ekiga.xml:74(para)
+msgid ""
+"Ekiga is an application for voice over IP, IP telephony, and video "
+"conferencing, with support for many audio and video codecs."
+msgstr ""
+"Ekiga on monia ääni- ja videokoodekkeja tukeva Internetiä käyttävä sovellus "
+"äänen, puheluiden ja videokonferenssien välittämiseen."
+
+#: C/ekiga.xml:80(primary) C/ekiga.xml:83(primary) C/ekiga.xml:86(primary)
+#: C/ekiga.xml:95(title)
+msgid "Ekiga"
+msgstr "Ekiga"
+
+#: C/ekiga.xml:93(title)
+msgid "Introduction"
+msgstr "Johdanto"
+
+#: C/ekiga.xml:96(para)
+msgid ""
+"<application>Ekiga</application> is a free Voice over IP, IP Telephony and "
+"Video-Conferencing application for Linux and other Unices (e.g BSD, "
+"OpenSolaris or MacOSX). It was written by Damien Sandras and is licensed "
+"under the GNU/GPL."
+msgstr ""
+"<application>Ekiga</application> on vapaa Internetin (IP) yli ääntä, "
+"puheluita ja videokonferensseja välittävä sovellus Linuxilla ja muille "
+"Unixeille (esim. BSD, OpenSolaris ja MacOSX). Sen on kirjoittanut Damien "
+"Sandras ja se on lisensoitu GNU/GPL:n alaisuuteen."
+
+#: C/ekiga.xml:99(para)
+msgid ""
+"Ekiga is able to use modern Voice over IP protocols like SIP, and H.323. It "
+"supports all major features defined by those protocols like <emphasis>call "
+"hold</emphasis>, <emphasis>call transfer</emphasis>, <emphasis>call "
+"forwarding</emphasis>, ... It also supports <emphasis>instant messaging</"
+"emphasis>, and <emphasis>presence</emphasis>. It also has advanced support "
+"for <emphasis>NAT traversal</emphasis>. Ekiga supports the best "
+"<emphasis>free</emphasis> audio and video codecs, and has wideband support "
+"for a superior audio quality, together with echo cancellation."
+msgstr ""
+"Ekiga taitaa nykyaikaiset Voice over IP -yhteyskäytännöt kuten SIP ja H.323. "
+"Se tukee näiden yhteyskäytäntöjen kaikkia pääominaisuuksia, kuten <emphasis>"
+"soiton pito</emphasis>, <emphasis>soiton siirto</emphasis>, <emphasis>"
+"ennakkosiirto</emphasis>, ... Se tukee myös <emphasis>pikaviestejä</"
+"emphasis> ja <emphasis>läsnäolotietoja</emphasis>. Myös edistynyt "
+"<emphasis>NAT-läpäisy</emphasis> kuuluu mukaan. Ekiga tukee parhaimpia "
+"<emphasis>vapaita</emphasis> ääni- ja videokoodekkeja ja äänenlaatua "
+"parantavia laajakaista- ja kaiunpoistotekniikoita."
+
+#: C/ekiga.xml:105(title)
+msgid "SIP and H.323"
+msgstr "SIP ja H.323"
+
+#: C/ekiga.xml:106(para)
+msgid ""
+"The Session Initiation Protocol (SIP) is a protocol developed by the IETF "
+"MMUSIC Working Group and proposed standard for initiating, modifying, and "
+"terminating an interactive user session that involves multimedia elements "
+"such as video, voice, instant messaging, online games, and virtual reality. "
+"In November 2000, SIP was accepted as a 3GPP signaling protocol and "
+"permanent element of the IMS architecture. It is one of the leading "
+"signalling protocols for Voice over IP."
+msgstr ""
+
+#: C/ekiga.xml:110(para)
+msgid ""
+"H.323 was originally created to provide a mechanism for transporting "
+"multimedia applications over LANs but it has rapidly evolved to address the "
+"growing needs of VoIP networks. One strength of H.323 was the relatively "
+"early availability of a set of standards, not only defining the basic call "
+"model, but in addition the supplementary services, needed to address "
+"business communication expectations. H.323 was the first VoIP standard to "
+"adopt the IETF standard RTP to transport audio and video over IP networks. "
+"H.323 is based on the ISDN Q.931 protocol and is suited for interworking "
+"scenarios between IP and ISDN, respectively between IP and QSIG. A call "
+"model, similar to the ISDN call model, eases the introduction of IP "
+"Telephony into existing networks of ISDN based PBX systems."
+msgstr ""
+
+#: C/ekiga.xml:120(title)
+msgid "Getting Started"
+msgstr "Aloittaminen"
+
+#: C/ekiga.xml:121(para)
+msgid ""
+"When starting <application>Ekiga</application> for the first time the "
+"configuration assistant will show automatically. The Configuration Assistant "
+"is a step-by-step questionnaire that will guide you through all the steps "
+"involved in creating the basic configuration you will need to operate "
+"<application>Ekiga</application>. You should go through all of these steps "
+"properly, otherwise the assistant will re-appear (when it has not been "
+"completed) or <application>Ekiga</application> will not function "
+"appropriately (if some of your answers have not been correct). You may run "
+"the Configuration Assistant at any time from the Edit menu."
+msgstr ""
+
+#: C/ekiga.xml:127(title) C/ekiga.xml:291(title) C/ekiga.xml:301(title)
+#: C/ekiga.xml:307(title) C/ekiga.xml:341(title) C/ekiga.xml:364(title)
+#: C/ekiga.xml:403(title) C/ekiga.xml:420(title) C/ekiga.xml:464(title)
+#: C/ekiga.xml:503(title)
+msgid "Tip"
+msgstr "Vinkki"
+
+#: C/ekiga.xml:127(para)
+msgid "All settings can be changed via the preferences window at anytime."
+msgstr "Kaikkia asetuksia voidaan muuttaa milloin vain Asetukset-ikkunassa."
+
+#: C/ekiga.xml:130(title)
+msgid "Configuration Assistant Introduction"
+msgstr "Johdanto ohjattuun asetusten tekoon"
+
+#: C/ekiga.xml:136(para)
+msgid ""
+"Throughout the entire configuration process navigation is available at the "
+"bottom of the window. You will be able to navigate through the questions "
+"using Back, Forward and Cancel. If you hit Cancel during the setup "
+"<application>Ekiga</application> will not be affected by your changes and "
+"all entered information will be discarded."
+msgstr ""
+
+#: C/ekiga.xml:141(para)
+msgid ""
+"This page welcomes you to the Configuration Assistant. There is nothing to "
+"change or edit here. Press the 'Forward' button towards the bottom of the "
+"window to start the configuration."
+msgstr ""
+
+#: C/ekiga.xml:148(title)
+msgid "Personal information"
+msgstr "Henkilötiedot"
+
+#: C/ekiga.xml:154(para)
+msgid ""
+"The Personal Information window requires you to supply personal information "
+"to use <application>Ekiga</application>. This information is displayed when "
+"connecting to other audio/video applications."
+msgstr ""
+
+#: C/ekiga.xml:162(title)
+msgid "Ekiga.net Account"
+msgstr "Ekiga.net-tili"
+
+#: C/ekiga.xml:168(para) C/ekiga.xml:538(para)
+msgid ""
+"Ekiga.net is a free SIP services platform provided to <application>Ekiga</"
+"application> users. If you want to call other users and to be callable, you "
+"need a SIP address. You can get one from <ulink url=\"http://www.ekiga.net\" "
+"type=\"http\">http://www.ekiga.net</ulink>. Ekiga.net also offers additional "
+"services like conference rooms, voice mail or online white pages. Please see "
+"<ulink url=\"http://www.ekiga.net\" type=\"http\">http://www.ekiga.net</"
+"ulink> for more information."
+msgstr ""
+
+#: C/ekiga.xml:174(para) C/ekiga.xml:193(para)
+msgid ""
+"Just follow the link given in the dialog to get an account if you do not "
+"have one, then fill in your username and password. Please press 'Forward' "
+"after having entered all required information to continue."
+msgstr ""
+
+#: C/ekiga.xml:181(title)
+msgid "Ekiga Call Out Account"
+msgstr "Ekigan ulossoittotili"
+
+#: C/ekiga.xml:187(para)
+msgid ""
+"<application>Ekiga</application> can be used with several Internet Telephony "
+"Service Providers. Those providers will allow calling real phones from your "
+"computer using <application>Ekiga</application> at interesting rates. We are "
+"recommending you to use the default <application>Ekiga</application> "
+"provider."
+msgstr ""
+
+#: C/ekiga.xml:189(para)
+msgid ""
+"If you want to create an account and use it to call your friends and family "
+"using regular phones at interesting rates, simply create an account using "
+"the \"Get an Ekiga Call Out account\" link. Once the account has been "
+"created, you will receive a login and a password by e-mail. Simply enter "
+"them in the dialog, and you are ready to call regular phones using "
+"<application>Ekiga</application>"
+msgstr ""
+
+#: C/ekiga.xml:191(para)
+msgid ""
+"With the default setup, you can simply use sip:3210444555 and choose sip."
+"diamondcard.us to call the real phone number +3210444555, 32 is the country "
+"code, 10444555 is the number to call. We encourage you putting your favorite "
+"phone numbers in the address book."
+msgstr ""
+
+#: C/ekiga.xml:200(title)
+msgid "Connection Type"
+msgstr "Yhteystyyppi"
+
+#: C/ekiga.xml:206(para)
+msgid ""
+"<application>Ekiga</application> supports several audio and video codecs. It "
+"includes codecs with excellent quality as well as codecs with medium to good "
+"quality. The higher the quality of a codec, the more bandwidth it requires. "
+"Moreover, video codecs can adapt their quality to the available bandwidth. "
+"This option is necessary in the initial configuration of <application>Ekiga</"
+"application> so that it chooses the optimal codec suited to your network "
+"connection and so that it adjusts the video quality settings. If your "
+"connection type is not mentioned in the list you should select the one "
+"closest to your network connection and adjust <application>Ekiga</"
+"application> manually with the preferences window (codecs section) later on."
+msgstr ""
+
+#: C/ekiga.xml:211(para) C/ekiga.xml:228(para) C/ekiga.xml:246(para)
+msgid "When done, continue on with the Configuration."
+msgstr ""
+
+#: C/ekiga.xml:217(title)
+msgid "Audio Devices"
+msgstr "Äänilaitteet"
+
+#: C/ekiga.xml:223(para)
+msgid ""
+"<application>Ekiga</application> requires audio devices to play and record "
+"sound. The audio output device ouputs the incoming sound stream during a "
+"call. Please select the device that your headset or speakers are connected "
+"to. The audio input device is where your microphone is connected to. These "
+"settings might be the same as the settings for the audio player if you have "
+"only one soundcard. But please note that it is also possible to record sound "
+"via another device (e.g. internal microphone in a webcam) too. This section "
+"also allows you to choose the ringing device. This device can be different "
+"from the audio output device. It allows you hearing the incoming call "
+"ringing sound event in your speakers, while having your headset connected "
+"for calls."
+msgstr ""
+
+#: C/ekiga.xml:234(title)
+msgid "Video Devices"
+msgstr "Videolaitteet"
+
+#: C/ekiga.xml:240(para)
+msgid ""
+"This step is optional and concerns users with video devices (e.g. webcams) "
+"only. If you do not have any video devices you may skip this page."
+msgstr ""
+
+#: C/ekiga.xml:244(para)
+msgid ""
+"If you have a webcam or video device in the list you may select it here."
+msgstr ""
+
+#: C/ekiga.xml:252(title)
+msgid "Configuration Complete"
+msgstr "Asennus päättynyt"
+
+#: C/ekiga.xml:258(para)
+msgid ""
+"The configuration of <application>Ekiga</application> is now completed. The "
+"last window only shows a short configuration summary of the settings you "
+"have chosen. Please verify that all these settings are correct. If something "
+"is incorrect you may use the 'Back' button in the lower right hand corner of "
+"the window to move to any page of the assistant and correct the mistake."
+msgstr ""
+
+#: C/ekiga.xml:262(para)
+msgid ""
+"If everything is correct please press the 'Apply' button to save the "
+"configuration. The assistant will be closed and the main Window of "
+"<application>Ekiga</application> will now appear. Remember, all settings can "
+"be changed via the preferences window at anytime."
+msgstr ""
+
+#: C/ekiga.xml:273(title)
+msgid "Basic Usage"
+msgstr "Peruskäyttö"
+
+#: C/ekiga.xml:276(title)
+msgid "Calling and being called"
+msgstr "Soittaminen ja soittoihin vastaaminen"
+
+#: C/ekiga.xml:280(title)
+msgid "From computer to computer (PC-To-PC)"
+msgstr "Tietokoneelta tietokoneelle (PC-To-PC)"
+
+#: C/ekiga.xml:281(para)
+msgid ""
+"If you want to call other users and to be callable, you need a SIP address. "
+"You can get a SIP address from <ulink url=\"http://www.ekiga.net\" type="
+"\"http\">http://www.ekiga.net</ulink> as described above."
+msgstr ""
+
+#: C/ekiga.xml:283(para)
+msgid ""
+"The SIP address can be used by other users to call you. Similarly, you can "
+"use the SIP address of your friends and family to call them. You can for "
+"example use <emphasis>sip:dsandras@ekiga.net</emphasis> to call the author "
+"of Ekiga."
+msgstr ""
+
+#: C/ekiga.xml:285(para)
+msgid ""
+"You can use the online address book of <application>Ekiga</application> to "
+"find the SIP addresses of other <application>Ekiga</application> users. It "
+"is of course possible to call users who are using another provider than "
+"ekiga.net. You can actually call any user using SIP software or hardware, "
+"and registered to any public SIP provider"
+msgstr ""
+
+#: C/ekiga.xml:287(para)
+msgid ""
+"If you know the URI address of the party that you wish to call, you may "
+"enter that URI into the sip: input box at the top of the screen and press "
+"the Connect button; eg: sip:foo@ekiga.net and pressing the Connect button "
+"would call the user at that address."
+msgstr ""
+
+#: C/ekiga.xml:289(para)
+msgid ""
+"It is also possible to call contacts using the address book, the call "
+"history or the roster. You can add contacts you call frequently to your "
+"roster, and watch their presence information in order to know when they are "
+"available. Please refer to the appropriate section of the manual for full "
+"explanations."
+msgstr ""
+
+#: C/ekiga.xml:291(para)
+msgid ""
+"<application>Ekiga</application> also supports H.323 and as such can call "
+"any H.323 software or hardware. Please refer to the section related to URIs "
+"to learn more about the various types of URIs that can be used to call "
+"remote H.323 and SIP users."
+msgstr ""
+
+#: C/ekiga.xml:294(title)
+msgid "From computer to real phones (PC-To-Phone)"
+msgstr "Tietokoneelta oikeisiin puhelimiin (PC-To-Phone)"
+
+#: C/ekiga.xml:295(para)
+msgid ""
+"<application>Ekiga</application> can be used with several Internet Telephony "
+"Service Providers. Those providers will allow calling real phones from your "
+"computer using <application>Ekiga</application> at interesting rates. We are "
+"recommending you to use the default <application>Ekiga</application> "
+"provider. You can get an account using the links in the configuration "
+"assistant as described above."
+msgstr ""
+
+#: C/ekiga.xml:297(para)
+msgid ""
+"With the default setup, you can simply use sip:3210444555 and select sip."
+"diamondcard.us in the list to call the real phone number +3210444555, 32 is "
+"the country code, 10444555 is the number to call."
+msgstr ""
+
+#: C/ekiga.xml:299(para)
+msgid ""
+"You can also dial real phone numbers from the address book. If the phone "
+"number of the contact you want to call is stored in the address book, simply "
+"select Action -&gt; Call [Ekiga Call Out] when the contact is highlighted. "
+"It will dial the phone number of the contact using the Ekiga Call Out "
+"account."
+msgstr ""
+
+#: C/ekiga.xml:301(para)
+msgid ""
+"<application>Ekiga</application> also supports connecting to H.323 and SIP "
+"PBX systems. If the PBX at your office supports those protocols, you will be "
+"able to call real phones and be called from real phones after having "
+"connected to the PBX. Please ask for the settings to your administrator."
+msgstr ""
+
+#: C/ekiga.xml:304(title)
+msgid "From real phone to computer (Phone-To-PC)"
+msgstr "Oikeasta puhelimesta tietokoneelle (Phone-To-PC)"
+
+#: C/ekiga.xml:305(para)
+msgid ""
+"<application>Ekiga</application> can be used to receive incoming calls from "
+"regular phones. To allow this, you can simply login to your PC-To-Phone "
+"account using the Tools menu as described above, and buy a phone number in "
+"the country of your choice. <application>Ekiga</application> will ring when "
+"people will call that phone number."
+msgstr ""
+
+#: C/ekiga.xml:307(para)
+msgid ""
+"You can actually use any H.323 or SIP ITSP provider, including your own PBX "
+"at work. However we recommend using the integrated provider."
+msgstr ""
+
+#: C/ekiga.xml:314(title)
+msgid "Managing Contacts"
+msgstr "Tuttavien hallinta"
+
+#: C/ekiga.xml:315(title)
+msgid "Adding contacts to the roster"
+msgstr "Tuttavien lisääminen nimilistaan"
+
+#: C/ekiga.xml:319(para)
+msgid ""
+"<application>Ekiga</application> allows you to add the contacts you dial the "
+"most in the roster. It allows to call them or start a chat conversation with "
+"your friends without having to remember their URI. If supported by the "
+"service, <application>Ekiga</application> will display <emphasis>extended "
+"presence information</emphasis> about your friends. Ekiga.net supports "
+"publishing presence information for its users. Software PBX systems like "
+"<ulink url=\"http://www.asterisk.org\" type=\"http\">Asterisk</ulink> can "
+"report if an user is on the phone or not, and <application>Ekiga</"
+"application> will display that information in its roster."
+msgstr ""
+
+#: C/ekiga.xml:325(para)
+#, fuzzy
+msgid ""
+"You can thus use <application>Ekiga</application> to monitor lines on your "
+"PBX."
+msgstr "Tietoja <application>Ekigasta</application>"
+
+#: C/ekiga.xml:329(para)
+msgid ""
+"<application>Ekiga</application> is also able to detect other "
+"<application>Ekiga</application> users on the LAN using the Bonjour "
+"technology popularized by Apple (tm) and to display them in the roster. That "
+"supposes you have a local mDNSResponder daemon running on your computer."
+msgstr ""
+
+#: C/ekiga.xml:333(para)
+msgid ""
+"To add a contact to the roster, select Chat-&gt;Add Contact, and fill in the "
+"required fields. If the service managing the URI you entered for the contact "
+"is able to publish presence status, Ekiga will automatically display it."
+msgstr ""
+
+#: C/ekiga.xml:337(para)
+msgid ""
+"If you do not know the VoIP URI of a contact, you might try searching for "
+"him using the Ekiga.net online directory. To do so, select Chat -&gt; "
+"Address Book, and start searching using the 'Search Filter' feature."
+msgstr ""
+
+#: C/ekiga.xml:341(para)
+msgid "You can organise your contacts in groups in the roster."
+msgstr "Tuttavia voidaan lajitella ryhmiin nimilistassa."
+
+#: C/ekiga.xml:343(title)
+msgid "Managing contacts"
+msgstr "Tuttavien hallinta"
+
+#: C/ekiga.xml:347(para)
+msgid ""
+"<application>Ekiga</application> allows you looking for contacts using "
+"various sources like the <ulink url=\"http://www.novell.com/products/"
+"evolution\" type=\"http\">Novell Evolution</ulink> address book, an LDAP "
+"directory or the Ekiga.net contact directory. You can use the result of your "
+"search to start a chat, call the contact, or simply add him to your roster "
+"if you have frequent calls with him. To start looking for contacts, select "
+"Chat -&gt; Address Book in the menu. To your left there will be a list "
+"dialog showing the LDAP directories as well as a list of local Address "
+"Books. The defaults are the <application>Ekiga</application> white pages, "
+"and the personal address book from <ulink url=\"http://www.novell.com/"
+"products/evolution\" type=\"http\">Novell Evolution</ulink>. Support for "
+"more contact sources is possible."
+msgstr ""
+
+#: C/ekiga.xml:352(para)
+msgid ""
+"<application>Ekiga</application> is able to browse any LDAP directory and "
+"use a specific attribute as calling URI. For example, you could have an LDAP "
+"directory in your company, with a specific attribute containing the local "
+"extensions of all your colleagues. <application>Ekiga</application> is able "
+"to use such an LDAP directory. Simply select in Address Book -&gt; Add an "
+"LDAP Address Book, and fill in the required details. You can then right-"
+"click on the contact and call him using the call attribute as VoIP URI."
+msgstr ""
+
+#: C/ekiga.xml:356(para)
+msgid ""
+"To refresh the list of users for a specific address book, simply click the "
+"Find button. It will search for all users in that address book. You can "
+"contact people by double clicking on their highlighted field. You can also "
+"message them by right-clicking or by choosing the appropriate action in the "
+"Action menu of the window."
+msgstr ""
+
+#: C/ekiga.xml:360(para)
+msgid ""
+"In certain cases you will want to search specifically for a person name, or "
+"his or her call URI in the <application>Ekiga</application> white pages. The "
+"address book window allows you to apply filters when searching for contacts."
+msgstr ""
+
+#: C/ekiga.xml:364(para)
+msgid ""
+"The <application>Ekiga</application> white pages will allow you to look for "
+"users in your region. It returns a limited number of results corresponding "
+"to your search. You can then add him to your personal roster to call him "
+"later."
+msgstr ""
+
+#: C/ekiga.xml:367(title)
+msgid "Editing contacts"
+msgstr "Yhteystietojen muokkaaminen"
+
+#: C/ekiga.xml:371(para)
+msgid ""
+"Local address books provided by Novell Evolution allow you adding new "
+"contacts, or editing existing contacts. Each different address book allows a "
+"different set of features depending on what makes sense for the address book "
+"in question. To discover what features are possible, simply select the "
+"address book and consult the Action menu."
+msgstr ""
+
+#: C/ekiga.xml:375(para)
+msgid ""
+"To add a contact to one of your local address books, simply select the "
+"address book you wish to add the contact to and select Action -&gt; New "
+"Contact. The option of adding a New Contact will appear and you may now "
+"enter his name and VoIP URI as well as other settings. After complete select "
+"'OK' and now your contact has been added. You can only add contacts to local "
+"address books. The contact parameters can be changed at any time by "
+"selecting Action -&gt; Properties when the contact is highlighted. He can "
+"also be deleted by selecting Action -&gt; Remove."
+msgstr ""
+
+#: C/ekiga.xml:379(para)
+msgid ""
+"You can also add a contact from the white pages (or any other local or "
+"remote address book) to the roster by selecting Action -&gt; Add to local "
+"roster when the contact is highlighted."
+msgstr ""
+
+#: C/ekiga.xml:383(para)
+msgid ""
+"Finally, you can edit the groups your users belong to using the Action -&gt; "
+"Properties dialog when the contact is highlighted."
+msgstr ""
+
+#: C/ekiga.xml:391(title)
+msgid "Sending instant messages"
+msgstr "Pikaviestien lähettäminen"
+
+#: C/ekiga.xml:395(para)
+msgid ""
+"<application>Ekiga</application> allows you to send instant messages to "
+"remote users provided that you know their URI."
+msgstr ""
+
+#: C/ekiga.xml:399(para)
+msgid ""
+"You can send instant messages from the roster, from the call history or from "
+"the address book. From the roster or from the call history, simply select "
+"Contact -&gt; Message in the main window when a contact is highlighted. From "
+"the address book window, simply select Action -&gt; Message when the contact "
+"is highlighted. A window pops up, enter your text message, and hit the Enter "
+"key."
+msgstr ""
+
+#: C/ekiga.xml:403(para)
+msgid ""
+"You can not exchange text messages with all protocols. <application>Ekiga</"
+"application> will only display the Message menun item when the protocol "
+"associated with the user permits it."
+msgstr ""
+
+#: C/ekiga.xml:408(title)
+msgid "Updating his own status"
+msgstr "Oman tilan päivittäminen"
+
+#: C/ekiga.xml:412(para)
+#, fuzzy
+msgid ""
+"<application>Ekiga</application> allows you to publish your status to other "
+"users."
+msgstr "<application>Ekigan</application> ohjekirja 2.00"
+
+#: C/ekiga.xml:416(para)
+msgid ""
+"There are three categories of status messages : online, away and do not "
+"disturb. Each of them allows you to specify a more complete status "
+"information. Simply select Custom message in the status menu at the bottom "
+"of the main window. You can then define your extended status message that "
+"will be published using all available protocols supporting it."
+msgstr ""
+
+#: C/ekiga.xml:420(para)
+msgid ""
+"Many servers will not accept to relay your extended presence information. To "
+"make sure that this feature is available with the server you are using or "
+"with the PBX you are connected to, please ask your administrator. Please "
+"note that Ekiga.net will publish your presence information."
+msgstr ""
+
+#: C/ekiga.xml:425(title)
+msgid "Managing Calls"
+msgstr "Puheluiden hallinta"
+
+#: C/ekiga.xml:427(title)
+msgid "Forwarding incoming calls"
+msgstr "Sisääntulevien puheluiden uudelleenohjaus"
+
+#: C/ekiga.xml:428(para)
+msgid ""
+"<application>Ekiga</application> supports different policies for unanswered "
+"incoming calls. Per default it displays a popup window which allows you to "
+"decide whether you want to refuse or accept the request for an incoming "
+"call. If you do not answer the call in the required time, or if you are "
+"busy, or if you do not want to receive any call, <application>Ekiga</"
+"application> can forward the call to another party."
+msgstr ""
+
+#: C/ekiga.xml:434(para)
+msgid ""
+"Notice that you need to specify an URI where to forward calls in the "
+"preferences to be able to activate that option. Open the preferences window "
+"by choosing Edit -&gt; Preferences in the main window and select Call "
+"Options on the left. You will now see the appropriate section. It contains "
+"three checkboxes for the three cases described above. The URI of the party "
+"the calls shall be forwarded to can be configured separate in SIP Settings "
+"for SIP and accordingly in H.323 Settings for H.323."
+msgstr ""
+
+#: C/ekiga.xml:439(title)
+msgid "Controlling the call"
+msgstr "Puhelun hallinta"
+
+#: C/ekiga.xml:440(para)
+msgid ""
+"<application>Ekiga</application> supports several actions which can be "
+"performed when in a call. These actions enable you to control active "
+"sessions."
+msgstr ""
+
+#: C/ekiga.xml:444(para)
+msgid ""
+"Ending a call: The communication to the remote user can be ended by "
+"selecting Chat -&gt; Hang up."
+msgstr ""
+
+#: C/ekiga.xml:448(para)
+msgid ""
+"Holding a call: You can hold a remote party call by selecting Chat -&gt; "
+"Hold Call. This effectively pauses Video and Audio transmission, to continue "
+"transmission again you select Chat -&gt; Retrieve Call and Video and Audio "
+"Transmission will begin again."
+msgstr ""
+
+#: C/ekiga.xml:452(para)
+msgid ""
+"Suspend Audio: This effectively prevents all Audio communication to your "
+"respective party when selecting Chat -&gt; Suspend Audio."
+msgstr ""
+
+#: C/ekiga.xml:456(para)
+msgid ""
+"Suspend Video: This effectively prevents all Video transmission to your "
+"respective party when selecting Chat -&gt; Suspend Video."
+msgstr ""
+
+#: C/ekiga.xml:460(para)
+msgid ""
+"Transferring the remote party: You can transfer the remote user to another "
+"user by selecting Chat -&gt; Transfer Call. It is also possible to transfer "
+"an active call by right-clicking and choosing the transfer action when a "
+"contact is highlighted in the roster, in the address book or in the call "
+"history. Double-clicking or selecting the Contact menu in the main window or "
+"the Action menu in the Address Book window and choosing the transfer action "
+"will also work."
+msgstr ""
+
+#: C/ekiga.xml:464(para)
+msgid ""
+"All URIs supported by <application>Ekiga</application> can be used for call "
+"transfer if the protocol supports it."
+msgstr ""
+
+#: C/ekiga.xml:467(title)
+msgid "Adjusting the audio and video settings"
+msgstr "Ääni- ja videoasetusten muuttaminen"
+
+#: C/ekiga.xml:468(para)
+msgid ""
+"Your audio and video settings can be adjusted through the call panel while "
+"you are in a call. If you want to change the audio or video settings during "
+"a call, simply show the Call Panel by select View -&gt; Show Call Panel in "
+"the menu. The audio volume, but also the brightness, whiteness, color and "
+"contrast of your video input device can be changed to achieve the best "
+"quality."
+msgstr ""
+
+#: C/ekiga.xml:472(para)
+msgid ""
+"You can also change your audio and video devices during a call. Simply go in "
+"the preferences window by selecting Edit -&gt; Preferences in the menu, and "
+"adjust your devices in the appropriate section."
+msgstr ""
+
+#: C/ekiga.xml:477(title)
+msgid "Checking the call history"
+msgstr "Soittohistorian tarkistaminen"
+
+#: C/ekiga.xml:484(para)
+msgid ""
+"Received calls contains all incoming calls which were accepted by "
+"<application>Ekiga</application>"
+msgstr ""
+
+#: C/ekiga.xml:490(para)
+msgid ""
+"Placed calls keeps track of all attempts - succesful or not - to call "
+"another user."
+msgstr ""
+
+#: C/ekiga.xml:496(para)
+msgid "Missed calls shows incoming calls which timed out."
+msgstr ""
+
+#: C/ekiga.xml:481(para)
+msgid ""
+"The Call History stores information (date, duration, URI, Remote user) about "
+"all outgoing and incoming calls. They are divided into three groups - "
+"received calls, placed calls and missed calls. You can consult the call "
+"history by selecting View -&gt; Call History in the menu. <placeholder-1/>"
+msgstr ""
+
+#: C/ekiga.xml:503(para)
+msgid ""
+"Double-clicking on a row in the Calls History will call back the selected "
+"user or transfer any active call to that user. Notice that you can also add "
+"the contact to your roster by selecting Chat -&gt; Contact -&gt; Add to "
+"local roster in the main menu when the call is highlighted."
+msgstr ""
+
+#: C/ekiga.xml:511(title)
+msgid "Advanced Usage"
+msgstr "Edistynyt käyttö"
+
+#: C/ekiga.xml:514(title)
+msgid "Registering Additional Accounts"
+msgstr "Lisätilien rekisteröiminen"
+
+#: C/ekiga.xml:516(title)
+msgid "The accounts window"
+msgstr "Tilit-ikkuna"
+
+#: C/ekiga.xml:520(para)
+msgid ""
+"You can open the accounts window by selecting Edit -&gt; Accounts. This will "
+"open the Accounts Window. The Accounts Window will allow you to add Ekiga."
+"net, Ekiga Call Out, SIP and H.323 accounts and to register to them. An "
+"account describes the user login and password parameters to register to SIP "
+"and H.323 services. Those <emphasis>services</emphasis> can be an Internet "
+"Telephony Service provider (like ekiga.net), or an IPBX (like CISCO, Nortel, "
+"or Asterisk)."
+msgstr ""
+
+#: C/ekiga.xml:526(title)
+msgid "Adding an Ekiga.net account"
+msgstr "Ekiga.net-tilin lisääminen"
+
+#: C/ekiga.xml:533(para) C/ekiga.xml:571(para) C/ekiga.xml:589(para)
+msgid "<emphasis>User:</emphasis> You can enter your login."
+msgstr ""
+
+#: C/ekiga.xml:534(para) C/ekiga.xml:573(para) C/ekiga.xml:591(para)
+msgid "<emphasis>Password:</emphasis> You can enter your password."
+msgstr ""
+
+#: C/ekiga.xml:530(para)
+msgid ""
+"To add an Ekiga.net account, simply select Account -&gt; Add an Ekiga.net "
+"Account in the menu. A dialog will appear and allow you to enter several "
+"parameters: <placeholder-1/>"
+msgstr ""
+
+#: C/ekiga.xml:545(title)
+msgid "Adding an Ekiga Call Out account"
+msgstr ""
+
+#: C/ekiga.xml:552(para)
+msgid "<emphasis>Account ID:</emphasis> You can enter your account ID."
+msgstr ""
+
+#: C/ekiga.xml:553(para)
+msgid "<emphasis>PIN Code:</emphasis> You can enter your PIN code."
+msgstr ""
+
+#: C/ekiga.xml:549(para)
+msgid ""
+"To add an Ekiga Call Out account, simply select Account -&gt; Add an Ekiga "
+"Call Out Account in the menu. A dialog will appear and allow you to enter "
+"several parameters: <placeholder-1/> If you do not have an Ekiga Call Out "
+"account yet, you can subscribe for one using the 'Get an Ekiga.net Call Out "
+"account' link in the dialog. As described above, this service will allow you "
+"calling normal phones worldwide at interesting rates. Once the account has "
+"been added, you can recharge it, consult the balance history or the call "
+"history by selecting the appropriate menu item in the Account menu of the "
+"window when the account is highlighted."
+msgstr ""
+
+#: C/ekiga.xml:562(title)
+msgid "Adding a SIP account"
+msgstr "SIP-tilin lisääminen"
+
+#: C/ekiga.xml:569(para) C/ekiga.xml:587(para)
+msgid "<emphasis>Name:</emphasis> You can enter the account name."
+msgstr ""
+
+#: C/ekiga.xml:570(para)
+msgid ""
+"<emphasis>Registrar:</emphasis> The registrar to which you want to register. "
+"This is usually an IP address or an host name that will be given to you by "
+"your Internet Telephony Service Provider, or by your administrator if you "
+"are trying to register to a SIP IPBX."
+msgstr ""
+
+#: C/ekiga.xml:572(para) C/ekiga.xml:590(para)
+msgid ""
+"<emphasis>Authentication User:</emphasis> If it is different from the user "
+"parameter you provided above. In that case, the user field will be used to "
+"control the outgoing identity for the account you are adding, while the "
+"login will be used during the authentication phase."
+msgstr ""
+
+#: C/ekiga.xml:574(para)
+msgid ""
+"<emphasis>Timeout:</emphasis> The timeout after which the registration "
+"should be refreshed."
+msgstr ""
+
+#: C/ekiga.xml:566(para)
+msgid ""
+"To add a SIP account, simply select Account -&gt; Add a SIP Account in the "
+"menu. A dialog will appear and allow you to enter several parameters: "
+"<placeholder-1/>"
+msgstr ""
+
+#: C/ekiga.xml:580(title)
+msgid "Adding an H.323 account"
+msgstr "H.323-tilin lisääminen"
+
+#: C/ekiga.xml:588(para)
+msgid ""
+"<emphasis>Gatekeeper:</emphasis> The gatekeeper to which you want to "
+"register. This is usually an IP address or an host name that will be given "
+"to you by your Internet Telephony Service Provider, or by your administrator "
+"if you are trying to register to an H.323 IPBX."
+msgstr ""
+
+#: C/ekiga.xml:592(para)
+msgid ""
+"<emphasis>Registration Timeout:</emphasis> The timeout after which the "
+"registration should be updated."
+msgstr ""
+
+#: C/ekiga.xml:584(para)
+msgid ""
+"To add an H.323 account, simply select Account -&gt; Add an H.323 Account in "
+"the menu. A dialog will appear and allow you to enter several parameters: "
+"<placeholder-1/>"
+msgstr ""
+
+#: C/ekiga.xml:601(title)
+msgid "Understanding URIs"
+msgstr "URIen ymmärtäminen"
+
+#: C/ekiga.xml:603(title)
+msgid "SIP URI's"
+msgstr "SIP-URIt"
+
+#: C/ekiga.xml:605(para)
+msgid "SIP URIs are formatted as such \"sip:user@[host[:port]]\""
+msgstr ""
+
+#: C/ekiga.xml:607(para)
+msgid ""
+"This permits you to call the given user or extension on the specified SIP "
+"proxy: <emphasis>sip:jonita@ekiga.net</emphasis>"
+msgstr ""
+
+#: C/ekiga.xml:611(title)
+msgid "H.323 URIs"
+msgstr "H.323-URIt"
+
+#: C/ekiga.xml:613(para)
+msgid "H.323 URIs are formatted as such \"h323:[user@][host[:port]]\""
+msgstr ""
+
+#: C/ekiga.xml:617(para)
+msgid ""
+"Call a given host on a port different from the default port which is 1720: "
+"<emphasis>h323:seconix.com:1740</emphasis>"
+msgstr ""
+
+#: C/ekiga.xml:618(para)
+msgid ""
+"Call a given user using their respective alias if registered to a "
+"gatekeeper: <emphasis>h323:jonita</emphasis>"
+msgstr ""
+
+#: C/ekiga.xml:619(para)
+msgid ""
+"Call a given phone number if you are registered to a gatekeeper for a PC-To-"
+"Phone provider, or if that user has an ENUM record associated to an H.323 "
+"URI: <emphasis>h323:003210111222</emphasis>"
+msgstr ""
+
+#: C/ekiga.xml:620(para)
+msgid ""
+"Call a given user using their alias through a specific gateway or proxy: "
+"<emphasis>h323:jonita@gateway.seconix.com</emphasis>"
+msgstr ""
+
+#: C/ekiga.xml:621(para)
+msgid ""
+"Call an MCU and join a specific room: <emphasis>h323:myfriendsroom@mcu."
+"seconix.com</emphasis>"
+msgstr ""
+
+#: C/ekiga.xml:615(para)
+msgid "This permits you to: <placeholder-1/>"
+msgstr ""
+
+#: C/ekiga.xml:630(title)
+msgid "Controlling the Video Bandwidth"
+msgstr ""
+
+#: C/ekiga.xml:632(para)
+msgid ""
+"<application>Ekiga</application> is using a best-effort algorithm to "
+"maintain a low bandwidth when transmitting video. You can adjust the video "
+"quality settings following you prefer to have a good frame rate, or a good "
+"picture quality. It will permit <application>Ekiga</application> to "
+"dynamically adjust the video bandwidth and the number of transmitted images "
+"per second during a call while trying to respect the requested video "
+"bandwidth."
+msgstr ""
+
+#: C/ekiga.xml:634(para)
+msgid ""
+"Notice that the algorithm is a best-effort algorithm, which means that if "
+"you specify too low video bandwidth settings, it can be impossible to "
+"respect them. However, if the video bandwidth permits to transmit with a "
+"better quality, or faster than the requested values, then "
+"<application>Ekiga</application> will dynamically increase them so that the "
+"quality and the framerate are always the best possible."
+msgstr ""
+
+#: C/ekiga.xml:636(para)
+msgid ""
+"Choosing a higher framerate and a lower quality will have the same result in "
+"terms of video bandwidth than choosing a higher quality with a lower "
+"framerate. It depends if you prefer using your bandwidth to transmit more "
+"lower quality images or fewer big quality images."
+msgstr ""
+
+#: C/ekiga.xml:641(title)
+msgid "Monitoring lines"
+msgstr ""
+
+#: C/ekiga.xml:645(para)
+msgid ""
+"<application>Ekiga</application> can connect to PBX systems supporting the "
+"SIP protocol. In that case, it is able to indicate if the line associated "
+"with an user is in use or not. Please refer to the documentation of your PBX "
+"to enable that feature."
+msgstr ""
+
+#: C/ekiga.xml:647(para)
+msgid ""
+"To enable that feature on <application>Ekiga</application>, simply add the "
+"contact with his URI in the roster. If the server supports publishing "
+"presence information, <application>Ekiga</application> will automatically "
+"publish your own presence information and display the presence of contacts "
+"in your roster."
+msgstr ""
+
+#: C/ekiga.xml:651(title)
+msgid "Managing Codecs"
+msgstr "Koodekkien hallinta"
+
+#: C/ekiga.xml:653(title)
+msgid "Audio Codecs"
+msgstr "Äänikoodekit"
+
+#: C/ekiga.xml:657(para)
+msgid ""
+"The <application>Ekiga</application> audio codecs table in the preferences "
+"permits you to change the codecs order as well as disabling the codecs you "
+"don't want to use. Each codec has strong and weak points. For example, G.711 "
+"will give the best voice quality but will use the most bandwidth while SPEEX "
+"will give an average voice quality but requiring a very low bandwidth usage. "
+"Notice that there are two versions of SPEEX, one of them is SPEEX WideBand. "
+"You can see that to the 16 kHz clock rate."
+msgstr ""
+
+#: C/ekiga.xml:661(title)
+msgid "Video Codecs"
+msgstr "Videokoodekit"
+
+#: C/ekiga.xml:665(para)
+msgid ""
+"The <application>Ekiga</application> video codecs table in the preferences "
+"permits you to change the codecs order as well as disabling the codecs you "
+"don't want to use. <application>Ekiga</application> supports codecs like "
+"H.261, H.263+, H.264, MPEG-4 or Theora."
+msgstr ""
+
+#: C/ekiga.xml:670(title)
+msgid "Reordering the codecs"
+msgstr "Koodekkien järjestyksen muuttaminen"
+
+#: C/ekiga.xml:671(para)
+msgid ""
+"When you reorder the codecs, you are reordering the local capabilities "
+"table, ie the codecs you will use for sending. You will always transmit "
+"audio and video using the first codec in the corresponding table that is in "
+"common with the remote user. The remote user will transmit audio and video "
+"using the first codec in his table that is common with you."
+msgstr ""
+
+#: C/ekiga.xml:675(title)
+msgid "Forcing the use of a specific codec"
+msgstr ""
+
+#: C/ekiga.xml:676(para)
+msgid ""
+"You can force the use of a specific codec by disabling all other codecs, but "
+"it will result in failed calls if the remote user doesn't allow that "
+"specific codec. The best is to put your prefered codecs at the top of the "
+"list so that you always transmit with them if the remote user allows it and "
+"to disable the codecs that you don't want to use for transmission and "
+"reception."
+msgstr ""
+
+#: C/ekiga.xml:680(title)
+msgid "Adjusting the jitter buffer"
+msgstr ""
+
+#: C/ekiga.xml:681(para)
+msgid ""
+"You can adjust the delay to wait before playing the sound buffers that you "
+"have received using the jitter buffer adjustment. If there is too much "
+"packets loss, the delay required to have received all packets could be so "
+"important that it will exceed the jitter buffer. In such a case, the sound "
+"you are receiving will be of bad quality. A solution to that problem would "
+"be to increase the maximum limit of the jitter buffer to a few seconds, "
+"resulting in a big delay but in an improved voice quality. Notice that the "
+"jitter buffer will readapt itself to the lowest delay allowing for optimum "
+"transmission, and that a bad voice quality in reception is not due to a too "
+"low jitter buffer value, but to bad internet connection quality."
+msgstr ""
+
+#: C/ekiga.xml:690(title)
+msgid "Changing Ports"
+msgstr "Porttien muuttaminen"
+
+#: C/ekiga.xml:692(title)
+msgid "The listen ports"
+msgstr "Vastaanottoportit"
+
+#: C/ekiga.xml:693(para)
+msgid ""
+"The main port listening for incoming connections in <application>Ekiga</"
+"application> for SIP is port 5060 (UDP), while 1720 (TCP) is used by H.323. "
+"To change those ports you need to load \"gconf-editor\". Open gconf-editor, "
+"select apps from the left hand side menu and then select <application>Ekiga</"
+"application>. Then select \"sip\" or \"h323\", it should give you a list in "
+"the corresponding window to your right. Select listen_port and change it to "
+"your desired value. You can also change the UDP/RTP port ranges."
+msgstr ""
+
+#: C/ekiga.xml:698(title)
+msgid "Explanation of the port ranges"
+msgstr "Selvennys porttiväleistä"
+
+#: C/ekiga.xml:700(para)
+msgid ""
+"1. The \"listen_port\" value is the port <application>Ekiga</application> "
+"will listen for incoming connections on. It is different for SIP and H.323."
+msgstr ""
+
+#: C/ekiga.xml:702(para)
+msgid ""
+"2. The \"udp_port_range\" value is the range of UDP ports that "
+"<application>Ekiga</application> will use for SIP signalling or when "
+"registering to H.323 gatekeepers. It is also used for RTP (audio and video "
+"communication channels)."
+msgstr ""
+
+#: C/ekiga.xml:704(para)
+msgid ""
+"3. The \"tcp_port_range\" value is the range of TCP ports beside the "
+"listen_port that <application>Ekiga</application> will use for the H.245 "
+"channel with the H.323 protocol. That port range is not used by SIP. It is "
+"not used either when H.245 Tunneling is enabled, which is in general always "
+"the case, except when calling old H.323 implementations like Netmeeting."
+msgstr ""
+
+#: C/ekiga.xml:710(title)
+msgid "Controlling the SIP and H.323 Settings"
+msgstr "SIP- ja H.323-asetusten hallinta"
+
+#: C/ekiga.xml:712(title)
+msgid "Controlling the SIP Settings"
+msgstr "SIP-asetusten hallinta"
+
+#: C/ekiga.xml:714(title) C/ekiga.xml:727(title)
+msgid "Misc Settings"
+msgstr "Sekalaiset asetukset"
+
+#: C/ekiga.xml:715(emphasis)
+msgid "Outbound Proxy"
+msgstr "Lähtevien välipalvelin"
+
+#: C/ekiga.xml:716(para)
+msgid ""
+"The outbound proxy is the SIP proxy that will relay your calls. The behavior "
+"of a SIP proxy is similar to the behavior of an HTTP proxy, ie some entity "
+"that issues the requests on your behalve and proxies the streams."
+msgstr ""
+
+#: C/ekiga.xml:718(emphasis) C/ekiga.xml:728(emphasis)
+msgid "Forward URI"
+msgstr "Uudelleenohjaus-URI"
+
+#: C/ekiga.xml:719(para)
+msgid ""
+"The URI to which SIP incoming calls should be forwarded if configured in the "
+"preferences."
+msgstr ""
+
+#: C/ekiga.xml:725(title)
+msgid "Controlling the H.323 Settings"
+msgstr "H.323-asetusten muuttaminen"
+
+#: C/ekiga.xml:729(para)
+msgid ""
+"The URI to which H.323 incoming calls should be forwarded if configured in "
+"the preferences."
+msgstr ""
+
+#: C/ekiga.xml:733(title)
+msgid "Advanced Settings"
+msgstr "Lisäasetukset"
+
+#: C/ekiga.xml:734(para)
+msgid ""
+"<application>Ekiga</application> permits a fine control of the H.323 "
+"settings in the Advanced H.323 Settings section of the preferences. You can "
+"enable H.245 Tunneling, Early H.245 and Fast Start."
+msgstr ""
+
+#: C/ekiga.xml:736(emphasis)
+msgid "H.245 Tunneling"
+msgstr "H.245-tunnelointi"
+
+#: C/ekiga.xml:738(para)
+msgid ""
+"H.245 Tunneling is the encapsulation of H.245 messages within H.225/Q.931 "
+"messages (H.245 Tunneling). If you have a firewall and enable H.245 "
+"Tunneling, there is one less TCP port that you need to allow for incoming "
+"connections."
+msgstr ""
+
+#: C/ekiga.xml:740(emphasis)
+msgid "Early H.245"
+msgstr "Aikainen H.245"
+
+#: C/ekiga.xml:742(para)
+msgid ""
+"This enables H.245 early in the setup and permits to achieve faster call "
+"initiation."
+msgstr ""
+
+#: C/ekiga.xml:744(emphasis)
+msgid "Fast Start"
+msgstr "Nopea käynnistys"
+
+#: C/ekiga.xml:746(para)
+msgid ""
+"Fast Connect is a new method of call setup that bypasses some usual steps in "
+"order to make it faster. In addition to the speed improvement, Fast Connect "
+"allows the media channels to be operational before the CONNECT message is "
+"sent, which is a requirement for certain billing procedures. It was "
+"introduced in H.323 version 2."
+msgstr ""
+
+#: C/ekiga.xml:754(title)
+msgid "About <application>Ekiga</application>"
+msgstr "Tietoja <application>Ekigasta</application>"
+
+#: C/ekiga.xml:755(para)
+msgid ""
+"<application>Ekiga</application> is written by Damien Sandras "
+"(<email>dsandras@seconix.com</email>). To find more information about "
+"<application>Ekiga</application>, please visit the <ulink url=\"http://www."
+"ekiga.org\" type=\"http\"><application>Ekiga</application> Home Page</ulink>."
+msgstr ""
+"<application>Ekigan</application> on kirjoittanut Damien Sandras "
+"(<email>dsandras@seconix.com</email>). Lisätietoja <application>Ekigasta</"
+"application> löydät <ulink url=\"http://www.ekiga.org\" type=\"http"
+"\"><application>Ekigan</application> kotisivuilta</ulink>."
+
+#: C/ekiga.xml:759(para)
+msgid ""
+"To report a bug or make a suggestion regarding this application or this "
+"manual, follow the directions in <ulink url=\"ghelp:user-guide?feedback\" "
+"type=\"help\">this document</ulink>."
+msgstr ""
+
+#: C/ekiga.xml:763(para)
+msgid ""
+"This program is distributed under the terms of the GNU General Public "
+"license as published by the Free Software Foundation; either version 2 of "
+"the License, or (at your option) any later version. A copy of this license "
+"can be found at this <ulink url=\"ghelp:gpl\" type=\"help\">link</ulink>, or "
+"in the file COPYING included with the source code of this program."
+msgstr ""
+
+#: C/ekiga.xml:769(title)
+msgid "Appendix"
+msgstr "Liite"
+
+#: C/ekiga.xml:772(title)
+msgid "Related Software"
+msgstr "Muita aiheeseen liittyviä ohjelmistoja"
+
+#: C/ekiga.xml:774(emphasis)
+msgid "IPBX"
+msgstr "IPBX"
+
+#: C/ekiga.xml:776(para)
+msgid ""
+"Asterisk PBX: <ulink url=\"http://asterisk.org\" type=\"http\">http://"
+"asterisk.org</ulink>"
+msgstr ""
+"Asterisk PBX: <ulink url=\"http://asterisk.org\" type=\"http\">http://"
+"asterisk.org</ulink>"
+
+#: C/ekiga.xml:779(emphasis)
+msgid "SIP"
+msgstr "SIP"
+
+#: C/ekiga.xml:781(para)
+msgid ""
+"SIP Express Router: <ulink url=\"http://www.iptel.org/ser\" type=\"http"
+"\">http://www.iptel.org/ser</ulink>"
+msgstr ""
+"SIP Express Router: <ulink url=\"http://www.iptel.org/ser\" type=\"http"
+"\">http://www.iptel.org/ser</ulink>"
+
+#: C/ekiga.xml:784(emphasis)
+msgid "H.323"
+msgstr "H.323"
+
+#: C/ekiga.xml:786(para)
+msgid ""
+"OpenH323 Gatekeeper: <ulink url=\"http://www.openh323.org\" type=\"http"
+"\">http://www.openh323.org</ulink>"
+msgstr ""
+"OpenH323 Gatekeeper (yhdyskäytävä): <ulink url=\"http://www.openh323.org\" "
+"type=\"http\">http://www.openh323.org</ulink>"
+
+#: C/ekiga.xml:787(para)
+msgid ""
+"GNU Gatekeeper: <ulink url=\"http://www.gnugk.org\" type=\"http\">http://www."
+"gnugk.org</ulink>"
+msgstr ""
+"GNU Gatekeeper (yhdyskäytävä): <ulink url=\"http://www.gnugk.org\" type="
+"\"http\">http://www.gnugk.org</ulink>"
+
+#: C/ekiga.xml:788(para)
+msgid ""
+"OpenH323 Proxy: <ulink url=\"http://openh323.sourceforge.net\" type=\"http"
+"\">http://openh323.sourceforge.net</ulink>"
+msgstr ""
+"OpenH323-välipalvelin: <ulink url=\"http://openh323.sourceforge.net\" type="
+"\"http\">http://openh323.sourceforge.net</ulink>"
+
+#: C/ekiga.xml:789(para)
+msgid ""
+"H323 - ISDN Gateway: <ulink url=\"http://www.telos.de/linux/H323/\" type="
+"\"http\">http://www.telos.de/linux/H323/</ulink>"
+msgstr ""
+"H323 - ISDN -yhdyskäytävä: <ulink url=\"http://www.telos.de/linux/H323/\" "
+"type=\"http\">http://www.telos.de/linux/H323/</ulink>"
+
+#: C/ekiga.xml:792(emphasis)
+msgid "Conferencing/VoIP Software"
+msgstr "VoIP/konferenssi-ohjelmistoja"
+
+#: C/ekiga.xml:795(para)
+msgid ""
+"OpenMCU: <ulink url=\"http://www.openh323.org\" type=\"http\">http://www."
+"openh323.org</ulink>"
+msgstr ""
+"OpenMCU: <ulink url=\"http://www.openh323.org\" type=\"http\">http://www."
+"openh323.org</ulink>"
+
+#: C/ekiga.xml:798(emphasis)
+msgid "Similar Clients"
+msgstr "Samankaltaisia asiakasohjelmia"
+
+#: C/ekiga.xml:801(para)
+msgid ""
+"XTen: <ulink url=\"http://www.xten.com\" type=\"http\">http://www.xten.com</"
+"ulink>"
+msgstr ""
+"XTen: <ulink url=\"http://www.xten.com\" type=\"http\">http://www.xten.com</"
+"ulink>"
+
+#: C/ekiga.xml:802(para)
+msgid ""
+"SJPhone: <ulink url=\"http://www.sjlabs.com/\" type=\"http\">http://www."
+"sjlabs.com/</ulink>"
+msgstr ""
+"SJPhone: <ulink url=\"http://www.sjlabs.com/\" type=\"http\">http://www."
+"sjlabs.com/</ulink>"
+
+#: C/ekiga.xml:803(para)
+msgid ""
+"OpenPhone: <ulink url=\"http://www.openh323.org\" type=\"http\">http://www."
+"openh323.org</ulink>"
+msgstr ""
+"OpenPhone: <ulink url=\"http://www.openh323.org\" type=\"http\">http://www."
+"openh323.org</ulink>"
+
+#: C/ekiga.xml:804(para)
+msgid ""
+"Netmeeting: <ulink url=\"http://www.microsoft.com\" type=\"http\">http://www."
+"microsoft.com</ulink>"
+msgstr ""
+"Netmeeting: <ulink url=\"http://www.microsoft.com\" type=\"http\">http://www."
+"microsoft.com</ulink>"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: C/ekiga.xml:0(None)
+msgid "translator-credits"
+msgstr "Timo Jyrinki <timo.jyrinki@iki.fi>, 2008."
+
+#~ msgid "NAT Type"
+#~ msgstr "NAT-tyyppi"
+
+#~ msgid "Audio Manager"
+#~ msgstr "Äänenhallinta"
+
+#~ msgid "Video Manager"
+#~ msgstr "Videonhallinta"
+
+#~ msgid ""
+#~ "<application>Ekiga</application> allows you to send instant messages to "
+#~ "remote users provided that you know their URI. You can by opening the "
+#~ "chat window by selecting Tools -&gt; Chat Window. To send a text message "
+#~ "to an user, simply enter his SIP address in the URI field, enter your "
+#~ "text message, and click on Send. You can later decide to call that user "
+#~ "by clicking on Call User."
+#~ msgstr ""
+#~ "<application>Ekiga</application> mahdollistaa pikaviestien lähettämisen "
+#~ "etäkäyttäjille, jos heidän URI-osoite tiedetään. Keskusteluikkuna voidaan "
+#~ "avata valitsemalla Työkalut -&gt; Keskusteluikkuna. Käyttäjälle voidaan "
+#~ "lähettää tekstiviesti syöttämällä käyttäjän SIP-osoite URI-kenttään, "
+#~ "kirjoittamalla viesti ja napsauttamalla Lähetä. On myös mahdollista "
+#~ "myöhemmin soittaa käyttäjälle napsauttamalla Soita."
+
+#~ msgid "Default gateway"
+#~ msgstr "Oletusyhdyskäytävä"

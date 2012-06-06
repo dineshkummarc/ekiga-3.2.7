@@ -1,0 +1,35 @@
+# on vista, ekiga does not finishes
+
+diff -ur ptlib.orig/src/ptclib/psockbun.cxx ptlib/src/ptclib/psockbun.cxx
+--- ptlib.orig/src/ptclib/psockbun.cxx	2009-08-11 17:44:22.000000000 +0200
++++ ptlib/src/ptclib/psockbun.cxx	2009-08-11 17:47:00.000000000 +0200
+@@ -144,7 +144,13 @@
+     m_signalUpdate.Signal();
+ 
+     m_threadMutex.Signal();
+-    m_updateThread->WaitForTermination();
++    // see also http://sourceforge.net/tracker/?func=detail&aid=2835713&group_id=204472&atid=989748 and http://www.mail-archive.com/ekiga-devel-list@gnome.org/msg03007.html
++#if defined(P_MINGW) || defined(P_CYGWIN)
++    if(PProcess::GetOSName() == "Vista")
++      m_updateThread->Terminate();
++    else
++#endif
++      m_updateThread->WaitForTermination();
+     m_threadMutex.Wait();
+ 
+     delete m_updateThread;
+diff -ur ptlib.orig/src/ptlib/msos/win32.cxx ptlib/src/ptlib/msos/win32.cxx
+--- ptlib.orig/src/ptlib/msos/win32.cxx	2009-08-11 17:44:22.000000000 +0200
++++ ptlib/src/ptlib/msos/win32.cxx	2009-08-11 17:45:41.000000000 +0200
+@@ -1186,6 +1186,11 @@
+ #if _DEBUG
+   WaitOnExitConsoleWindow();
+ #endif
++
++#if defined(P_MINGW) || defined(P_CYGWIN)
++  if(PProcess::GetOSName() == "Vista")
++    TerminateProcess(GetCurrentProcess(), 1);
++#endif
+ }
+ 
+ 

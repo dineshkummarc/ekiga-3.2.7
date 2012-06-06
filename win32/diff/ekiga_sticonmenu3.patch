@@ -1,0 +1,22 @@
+# see http://www.mail-archive.com/ekiga-devel-list@gnome.org/msg03181.html
+# written by Michael Rickmann
+
+diff -ur ekiga.orig/src/gui/statusicon.cpp ekiga/src/gui/statusicon.cpp
+--- ekiga.orig/src/gui/statusicon.cpp	2009-09-22 17:15:05.000000000 +0200
++++ ekiga/src/gui/statusicon.cpp	2009-09-22 17:16:17.000000000 +0200
+@@ -296,11 +296,14 @@
+       gtk_widget_show (window);
+     }
+     else {
+-
++#ifndef WIN32
+       if (gtk_window_has_toplevel_focus (GTK_WINDOW (window)))
++#endif
+         gtk_widget_hide (window);
++#ifndef WIN32
+       else
+         gtk_window_present (GTK_WINDOW (window));
++#endif
+     }
+   }
+   else {

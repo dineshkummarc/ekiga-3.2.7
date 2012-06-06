@@ -1,0 +1,84 @@
+.\" Process this file with
+.\" groff -man -Tascii ekiga.1
+.\"
+.TH Ekiga 1 "10 January 2006" Linux "Version 2.00"
+.SH NAME
+Ekiga \- SIP and H.323 Voice over IP and Videoconferencing for UN*X
+.SH SYNOPSIS
+.B ekiga [-d level] [-c URL]
+.\" .B [--disable-sound] [--enable-sound]
+.\" .B [--espeaker=HOSTNAME:PORT] [--version] [--usage] [--gdk-debug=FLAGS]
+.\" .B [--gdk-no-debug=FLAGS] [--display=DISPLAY] [--sync] [--no-xshm]
+.\" .B [--name=NAME] [--class=CLASS] [--gxid_host=HOST] [--gxid_port=PORT]
+.\" .B [--xim-preedit=STYLE] [--xim-status=STYLE] [--gtk-debug=FLAGS]
+.\" .B [--gtk-no-debug=FLAGS] [--g-fatal-warnings] [--gtk-module=MODULE]
+.\" .B [--disable-crash-dialog] [--sm-client-id=ID] [--sm-config-prefix=PREFIX]
+.\" .B [--sm-disable]
+.SH DESCRIPTION
+.B Ekiga
+is a SIP and H.323 VoIP, IP Telephony and Video Conferencing application which complies to the SIP and H.323 protocols. It can connect to a variety of other SIP and H323 applications including specific hardware. Ekiga can work with or without a webcam, and is able to create pure audio communications or traditional audio+video communications. Ekiga was formerly known as GnomeMeeting. Ekiga has been designed for the GNOME desktop and therefore uses
+.BR gconfd-2 (1)
+for storing its userdata. It offers to configure almost every option from within the GUI. Command-line options include 
+.B -d
+to turn on debugging during calls.
+.B -c 
+to call another URL.
+.SH OPTIONS
+.IP "-d level"
+turn on debugging (on the console), level should be between 1 and 4.
+.IP "-c URL"
+Calls the given URL. Ekiga can be running or not when invoking that option. SIP, H.323 and CALLTO URLs are supported.
+
+.SH FILES
+.I /etc/gconf/gconf.xml.defaults/apps/ekiga/
+.RS
+The system wide configuration file. See
+.BR gconf-config (1)
+for further details on gconf. (The actual place can differ depending on your system's configuration)
+.RE
+.I ~/.gconf/apps/ekiga
+.RS
+Per user configuration file. See
+.BR gconf-config (1)
+for further details.
+.SH ENVIRONMENT
+On startup Ekiga reads the system-wide gconf schemas
+(like every other GNOME2 app should do) from
+.IR /etc/gconf/gconf.xml.defaults/apps .
+Every modification of the gconf keys using the GUI, gconftool or gconf-editor is reflected in real-time by Ekiga.
+
+.SH DOCUMENTATION
+More documentation is available in the manual available through Ekiga's Help menu. There is also a FAQ at:
+http://www.ekiga.org
+
+.SH GETTING HELP
+Feel free to join #ekiga on irc.gnome.org (GIMPnet) or the ML at:
+
+http://mail.gnome.org/mailman/listinfo/ekiga-list
+
+.B after
+having read the FAQ at 
+
+http://www.ekiga.org/ .
+
+.SH AUTHOR
+Damien Sandras <dsandras at seconix dot com>
+
+.SH OTHER INFO
+The webpage for Ekiga is at
+http://www.ekiga.org.
+You can find info about Ekiga there and download the latest version.
+Either as packages for all major distributions or as sourcecode. Patched version of the libs are available, if necessary.
+.SH COPYRIGHT
+Copyright \(co 2000-2008 Damien Sandras
+.br
+This is free software licensed under the GPLv2; see the LICENSE file in the source for copying conditions. There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+.SH "SEE ALSO"
+.BR gconf-config (1),
+.BR gconfd-1 (1),
+.BR gconfd-2 (1),
+.BR gconftool-1 (1),
+.BR gconftool-2 (1),
+.BR gconfigger (1)
+

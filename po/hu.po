@@ -1,0 +1,3269 @@
+# Hungarian translation of ekiga.
+# Copyright (C) 2002, 2003, 2004, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the ekiga package.
+#
+#: ../lib/engine/components/resource-list/rl-entry.cpp:163
+# Andras Timar <timar@gnome.hu>, 2002, 2003.
+# Laszlo Dvornik <dvornik@gnome.hu>, 2004.
+# Gabor Kelemen <kelemeng@gnome.hu>, 2004, 2005, 2006, 2007, 2008, 2009.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: ekiga.HEAD\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=ekiga&component=general\n"
+"POT-Creation-Date: 2009-04-16 20:21+0000\n"
+"PO-Revision-Date: 2009-09-10 14:34+0200\n"
+"Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
+"Language-Team: Hungarian <gnome at fsf dot hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../ekiga.desktop.in.in.h:1
+msgid "Ekiga Softphone"
+msgstr "Ekiga telefonszoftver"
+
+#: ../ekiga.desktop.in.in.h:2
+msgid "IP Telephony, VoIP and Video Conferencing"
+msgstr "IP telefon, VoIP és videokonferencia"
+
+#: ../ekiga.desktop.in.in.h:3
+msgid "Talk to people over the Internet"
+msgstr "Csevegés másokkal az interneten keresztül"
+
+#: ../ekiga.schemas.in.in.h:1
+msgid "0: 56Kbps, 1: ISDN, 2:DSL, 3: LAN, 4: Custom"
+msgstr "0: 56Kbps, 1: ISDN, 2:DSL, 3: LAN, 4: Egyedi"
+
+#: ../ekiga.schemas.in.in.h:2
+msgid ""
+"Allow Ekiga to fall back to software scaling the picture-in-picture if "
+"hardware support is not available. If this is set to false, Ekiga will not "
+"try to open the PIP if hardware support is not available."
+msgstr ""
+"Az Ekiga visszatérhet a képben kép szoftveres átméretezésére, ha a hardveres "
+"támogatás nem áll rendelkezésre. Ha ez hamis, akkor az Ekiga nem próbál "
+"képben képet nyitni, ha a hardveres támogatás nem áll rendelkezésre."
+
+#: ../ekiga.schemas.in.in.h:3
+msgid "Allow picture-in-picture software scaling"
+msgstr "A képben kép szoftveres méretezésének engedélyezése"
+
+#: ../ekiga.schemas.in.in.h:4
+msgid "Alternative audio output device"
+msgstr "Tartalék hangkimeneti eszköz"
+
+#: ../ekiga.schemas.in.in.h:5
+msgid "Always forward calls to the given host"
+msgstr "Mindig továbbítsa a hívást a megadott állomásnak"
+
+#: ../ekiga.schemas.in.in.h:6
+msgid "Audio input device"
+msgstr "Hangbemeneti eszköz"
+
+#: ../ekiga.schemas.in.in.h:7
+msgid "Audio output device"
+msgstr "Hangkimeneti eszköz"
+
+#: ../ekiga.schemas.in.in.h:8 ../src/gui/preferences.cpp:516
+msgid ""
+"Automatically reject or forward incoming calls if no answer is given after "
+"the specified amount of time (in seconds)"
+msgstr ""
+"Automatikusan elutasítja vagy továbbítja a bejövő hívásokat, ha nem válaszol "
+"a megadott időn belül (másodpercben)"
+
+#: ../ekiga.schemas.in.in.h:9
+msgid "Calls history"
+msgstr "Hívástörténet"
+
+#: ../ekiga.schemas.in.in.h:10
+msgid "Change the main window panel section"
+msgstr "A főablak panelszakaszának megváltoztatása"
+
+#: ../ekiga.schemas.in.in.h:11
+msgid ""
+"Connection will be established in Fast Start mode. Fast Start is a new way "
+"to start calls faster that was introduced in H.323v2. It is not supported by "
+"Netmeeting and using both Fast Start and H.245 Tunneling can crash some "
+"versions of Netmeeting"
+msgstr ""
+"A kapcsolatot gyors indítás módban hozza létre. A gyors indítás a hívások "
+"indításának egy gyorsabb módja, amit a H.323v2 vezetett be. A Netmeeting nem "
+"támogatja, és a gyors indítás és a H.245 alagutazás együttes használata "
+"összeomlaszthatja a Netmeeting egyes verzióit"
+
+#: ../ekiga.schemas.in.in.h:12
+msgid "Contact long status"
+msgstr "Partner hosszú állapota"
+
+#: ../ekiga.schemas.in.in.h:13
+msgid "Contact short status"
+msgstr "Partner rövid állapota"
+
+#: ../ekiga.schemas.in.in.h:14
+msgid "DTMF sending"
+msgstr "DTMF-küldés"
+
+#: ../ekiga.schemas.in.in.h:15
+msgid "Disable STUN network detection"
+msgstr "STUN hálózatérzékelés letiltása"
+
+#: ../ekiga.schemas.in.in.h:16 ../src/gui/preferences.cpp:492
+msgid "Disable the automatic network setup resulting from the STUN test"
+msgstr "A STUN teszt által eredményezett automatikus hálózati beállítások letiltása"
+
+#: ../ekiga.schemas.in.in.h:17
+msgid "Disable video hardware acceleration"
+msgstr "A kép hardvergyorsításának kikapcsolása"
+
+#: ../ekiga.schemas.in.in.h:18 ../src/gui/main.cpp:3586
+msgid "Display images from your camera device"
+msgstr "Képek megjelenítése a kamerából"
+
+#: ../ekiga.schemas.in.in.h:19
+msgid "Enable 'Fast Start'"
+msgstr "”Gyors indítás” engedélyezése"
+
+#: ../ekiga.schemas.in.in.h:20
+msgid "Enable H.245 tunneling"
+msgstr "H.245 alagutazás engedélyezése"
+
+#: ../ekiga.schemas.in.in.h:21
+msgid "Enable early H.245"
+msgstr "Korai H.245 engedélyezése"
+
+#: ../ekiga.schemas.in.in.h:22
+msgid "Enable echo cancelation"
+msgstr "Visszhangtörlés engedélyezése"
+
+#: ../ekiga.schemas.in.in.h:23
+msgid "Enable silence detection"
+msgstr "Csendérzékelés engedélyezése"
+
+#: ../ekiga.schemas.in.in.h:24
+msgid ""
+"Enter the number of seconds after which Ekiga should try refreshing the NAT "
+"binding when STUN is being used"
+msgstr ""
+"Adja meg a másodpercek számát, amely után az Ekiga próbálja meg frissíteni a "
+"NAT kötést STUN használatakor"
+
+#: ../ekiga.schemas.in.in.h:25 ../src/gui/preferences.cpp:459
+msgid "Enter your full name"
+msgstr "Adja meg a teljes nevét"
+
+#: ../ekiga.schemas.in.in.h:26
+msgid "Forward calls to host"
+msgstr "Továbbítsa a hívásokat ide"
+
+#: ../ekiga.schemas.in.in.h:27
+msgid "Forward calls to the given host if busy"
+msgstr "Hívások továbbítása az adott állomásnak foglaltság esetén"
+
+#: ../ekiga.schemas.in.in.h:28
+msgid "Forward calls to the given host if no answer"
+msgstr "Hívások továbbítása a megadott állomásnak, ha nincs válasz"
+
+#: ../ekiga.schemas.in.in.h:29 ../src/gui/preferences.cpp:1018
+msgid "Frame Rate"
+msgstr "Sebesség"
+
+#: ../ekiga.schemas.in.in.h:30
+msgid "Full name"
+msgstr "Teljes név"
+
+#: ../ekiga.schemas.in.in.h:31 ../src/gui/preferences.cpp:477
+msgid ""
+"If enabled, Ekiga will start hidden provided that the notification area is "
+"present in the GNOME panel"
+msgstr ""
+"Ha engedélyezi, az Ekiga rejtve fog elindulni, ha az értesítési terület "
+"kisalkalmazás fut a GNOME panelen"
+
+#: ../ekiga.schemas.in.in.h:32
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below"
+msgstr ""
+"Ha engedélyezve van, akkor minden bejövő hívás az alábbi mezőben megadott "
+"kiszolgálóra lesz továbbítva"
+
+#: ../ekiga.schemas.in.in.h:33
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you already are in a call or if you are in "
+"Do Not Disturb mode"
+msgstr ""
+"Ha engedélyezi, minden bejövő hívás a lejjebb megadott kiszolgálóra lesz "
+"továbbítva, ha már folyamatban van egy hívás vagy Ne zavarjanak módban van"
+
+#: ../ekiga.schemas.in.in.h:34
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you do not answer the call"
+msgstr ""
+"Ha engedélyezve van, akkor minden bejövő hívás az alábbi mezőben megadott "
+"kiszolgálóra lesz továbbítva, ha nem fogadja a hívást"
+
+#: ../ekiga.schemas.in.in.h:35 ../src/gui/preferences.cpp:479
+msgid "If enabled, offline contacts will be shown in the roster"
+msgstr "Ha engedélyezve van, a kilépett partnerek megjelennek a partnerlistán"
+
+#: ../ekiga.schemas.in.in.h:36
+msgid "If enabled, use echo cancelation"
+msgstr ""
+"Ha engedélyezve van, akkor az automatikus visszhangtörlés kerül "
+"felhasználásra"
+
+#: ../ekiga.schemas.in.in.h:37
+msgid "If enabled, use silence detection with the codecs supporting it"
+msgstr ""
+"Ha engedélyezve van, akkor az azt támogató kodekek használják a "
+"csendérzékelést"
+
+#: ../ekiga.schemas.in.in.h:38
+msgid "Kind of network selected in the druid"
+msgstr "Az asszisztensben kiválasztott hálózattípus"
+
+#: ../ekiga.schemas.in.in.h:39
+msgid "LDAP servers"
+msgstr "LDAP kiszolgálók"
+
+#: ../ekiga.schemas.in.in.h:40
+msgid "List of configured LDAP servers"
+msgstr "A beállított LDAP kiszolgálók listája"
+
+#: ../ekiga.schemas.in.in.h:41
+msgid "List of folded groups in the roster"
+msgstr "A partnerlista összecsukott csoportjainak listája"
+
+#: ../ekiga.schemas.in.in.h:42
+msgid "Listen port"
+msgstr "Figyelőport"
+
+#: ../ekiga.schemas.in.in.h:43
+msgid "Local video window size"
+msgstr "Helyi videoablak mérete"
+
+#: ../ekiga.schemas.in.in.h:44
+msgid "Maximum RX video bitrate"
+msgstr "Beérkező video maximális bitsebessége"
+
+#: ../ekiga.schemas.in.in.h:45
+msgid "Maximum TX video bitrate"
+msgstr "Kimenő video maximális bitsebessége"
+
+#: ../ekiga.schemas.in.in.h:46
+msgid "Maximum jitter buffer"
+msgstr "Maximális jitter puffer"
+
+#: ../ekiga.schemas.in.in.h:47
+msgid "NAT Binding Timeout"
+msgstr "NAT kötés időtúllépése"
+
+#: ../ekiga.schemas.in.in.h:48
+msgid "No answer timeout"
+msgstr "Nincs válaszidő-túllépés"
+
+#: ../ekiga.schemas.in.in.h:49
+msgid "Outbound Proxy"
+msgstr "Kimenő proxy"
+
+#: ../ekiga.schemas.in.in.h:50 ../src/gui/preferences.cpp:486
+msgid "Place windows displaying video above other windows during calls"
+msgstr "A videot megjelenítő ablak legfelülre helyezése hívás közben"
+
+#: ../ekiga.schemas.in.in.h:51 ../src/gui/preferences.cpp:371
+msgid "Play busy tone"
+msgstr "Foglalt jelzés lejátszása"
+
+#: ../ekiga.schemas.in.in.h:52 ../src/gui/preferences.cpp:361
+msgid "Play ring tone"
+msgstr "Csengés lejátszása"
+
+#: ../ekiga.schemas.in.in.h:53 ../src/gui/preferences.cpp:351
+msgid "Play sound on incoming calls"
+msgstr "Hang lejátszása a bejövő hívásoknál"
+
+#: ../ekiga.schemas.in.in.h:54
+msgid "Play sound on new message"
+msgstr "Hang lejátszása új üzenetnél"
+
+#: ../ekiga.schemas.in.in.h:55
+msgid "Play sound on new voice mail"
+msgstr "Hang lejátszása új hangüzenetnél"
+
+#: ../ekiga.schemas.in.in.h:56
+msgid "Position of the local video window"
+msgstr "A helyi videoablak pozíciója"
+
+#: ../ekiga.schemas.in.in.h:57
+msgid "Position on the screen of the address book window"
+msgstr "A címjegyzék ablak pozíciója a képernyőn"
+
+#: ../ekiga.schemas.in.in.h:58
+msgid "Position on the screen of the audio settings window"
+msgstr "A hangbeállítások ablak pozíciója a képernyőn"
+
+#: ../ekiga.schemas.in.in.h:59
+msgid "Position on the screen of the chat window"
+msgstr "A csevegésablak pozíciója a képernyőn"
+
+#: ../ekiga.schemas.in.in.h:60
+msgid "Position on the screen of the druid window"
+msgstr "Az asszisztensablak pozíciója a képernyőn"
+
+#: ../ekiga.schemas.in.in.h:61
+msgid "Position on the screen of the log window"
+msgstr "A naplóablak pozíciója a képernyőn"
+
+#: ../ekiga.schemas.in.in.h:62
+msgid "Position on the screen of the main window"
+msgstr "A főablak pozíciója a képernyőn"
+
+#: ../ekiga.schemas.in.in.h:63
+msgid "Position on the screen of the preferences window"
+msgstr "A beállítások ablak pozíciója a képernyőn"
+
+#: ../ekiga.schemas.in.in.h:64
+msgid "Position on the screen of the video settings window"
+msgstr "A videobeállítások ablak pozíciója a képernyőn"
+
+#: ../ekiga.schemas.in.in.h:65
+msgid "Remote video window position"
+msgstr "Túloldali videoablak pozíciója"
+
+#: ../ekiga.schemas.in.in.h:66
+msgid "Remote video window size"
+msgstr "Túloldali videoablak mérete"
+
+#: ../ekiga.schemas.in.in.h:67
+msgid "Select an alternative audio output device to use for sound events."
+msgstr ""
+"Válasszon ki egy hangeseményekhez használni kívánt tartalék hangkimeneti "
+"eszközt."
+
+#: ../ekiga.schemas.in.in.h:68 ../src/gui/preferences.cpp:777
+msgid "Select the audio input device to use"
+msgstr "Válassza ki a használni kívánt hangbemeneti eszközt"
+
+#: ../ekiga.schemas.in.in.h:69 ../src/gui/preferences.cpp:770
+msgid "Select the audio output device to use"
+msgstr "Válassza ki a használni kívánt hangkimeneti eszközt"
+
+#: ../ekiga.schemas.in.in.h:70 ../src/gui/preferences.cpp:936
+msgid "Select the format for video cameras (does not apply to most USB cameras)"
+msgstr ""
+"Válassza ki a formátumot a videokamerákra (nem érvényes a legtöbb USB "
+"kamerára)"
+
+#: ../ekiga.schemas.in.in.h:71
+msgid ""
+"Select the transmitted video size: Small (QCIF 176x144) or Large (CIF "
+"352x288)"
+msgstr ""
+"Válassza ki az átvitt videoméretet: Kicsi (QCIF 176x144) vagy Nagy (CIF "
+"352x288)"
+
+#: ../ekiga.schemas.in.in.h:72 ../src/gui/preferences.cpp:928
+msgid ""
+"Select the video input device to use. If an error occurs when using this "
+"device a test picture will be transmitted."
+msgstr ""
+"Válassza ki a használandó video bemeneti eszközt. Ha hiba lép fel ezen "
+"eszköz használata közben, egy tesztkép kerül átvitelre."
+
+#: ../ekiga.schemas.in.in.h:73
+msgid "Show offline contacts"
+msgstr "Kilépett partnerek mutatása"
+
+#: ../ekiga.schemas.in.in.h:74 ../src/gui/main.cpp:3215
+msgid "Show the call panel"
+msgstr "Híváspanel megjelenítése"
+
+#: ../ekiga.schemas.in.in.h:75
+msgid "Size of the address book window"
+msgstr "Címjegyzék ablak mérete"
+
+#: ../ekiga.schemas.in.in.h:76
+msgid "Size of the audio settings window"
+msgstr "A hangbeállítások ablak mérete"
+
+#: ../ekiga.schemas.in.in.h:77
+msgid "Size of the chat window"
+msgstr "A csevegőablak mérete"
+
+#: ../ekiga.schemas.in.in.h:78
+msgid "Size of the druid window"
+msgstr "Az asszisztensablak mérete"
+
+#: ../ekiga.schemas.in.in.h:79
+msgid "Size of the preferences window"
+msgstr "A beállítások ablak mérete"
+
+#: ../ekiga.schemas.in.in.h:80
+msgid "Size of the video settings window"
+msgstr "A videobeállítások ablak mérete"
+
+#: ../ekiga.schemas.in.in.h:81
+msgid "Specify the software scaling algorithm"
+msgstr "Adja meg a szoftveres méretezési algoritmust"
+
+#: ../ekiga.schemas.in.in.h:82
+msgid ""
+"Specify the software scaling algorithm: 0: nearest neighbor, 1: nearest "
+"neighbor with box filter, 2: bilinear filtering, 3: hyperbolic filtering. "
+"Does not apply on windows systems."
+msgstr ""
+"Adja meg a szoftveres méretezési algoritmust: 0: legközelebbi szomszéd, 1: "
+"legközelebbi szomszéd négyzetszűrővel, 2: bilineáris szűrés, 3: hiperbolikus "
+"szűrés. Nem érvényes Windows rendszereken."
+
+#: ../ekiga.schemas.in.in.h:83
+msgid "Start hidden"
+msgstr "Indítás rejtve"
+
+#: ../ekiga.schemas.in.in.h:84
+msgid "TCP port range"
+msgstr "TCP porttartomány"
+
+#: ../ekiga.schemas.in.in.h:85
+msgid "Temporal Spatial Trade Off"
+msgstr "Ideiglenes térbeli kompromisszum"
+
+#: ../ekiga.schemas.in.in.h:86
+msgid "The Audio Codecs List"
+msgstr "Hangkodekek listája"
+
+#: ../ekiga.schemas.in.in.h:87 ../src/gui/preferences.cpp:727
+msgid "The SIP Outbound Proxy to use for outgoing calls"
+msgstr "A kimenő hívásokhoz használandó SIP kimenő proxy"
+
+#: ../ekiga.schemas.in.in.h:88
+msgid "The STUN Server"
+msgstr "A STUN kiszolgáló"
+
+#: ../ekiga.schemas.in.in.h:89
+msgid ""
+"The STUN server to use for STUN Support. STUN is a technology that permits "
+"passage through some types of NAT gateway"
+msgstr ""
+"A STUN támogatáshoz használt STUN kiszolgáló. A STUN technika lehetővé teszi "
+"bizonyos típusú NAT átjárókon az áthaladást."
+
+#: ../ekiga.schemas.in.in.h:90
+msgid "The Video Codecs List"
+msgstr "Videokodekek listája"
+
+#: ../ekiga.schemas.in.in.h:91
+msgid "The accounts list"
+msgstr "A felhasználói fiókok listája"
+
+#: ../ekiga.schemas.in.in.h:92
+msgid "The audio codecs list"
+msgstr "Hangkodekek listája"
+
+#: ../ekiga.schemas.in.in.h:93
+msgid "The busy tone sound"
+msgstr "A „foglalt” hang"
+
+#: ../ekiga.schemas.in.in.h:94
+msgid ""
+"The chosen sound will be played at the end of calls or calling somebody who "
+"is busy, if enabled"
+msgstr ""
+"Ha engedélyezve van, a hívások végén vagy foglalt jelzéskor a kiválasztott "
+"hang kerül lejátszásra"
+
+#: ../ekiga.schemas.in.in.h:95
+msgid "The chosen sound will be played on incoming calls, if enabled"
+msgstr ""
+"Ha engedélyezve van, a kiválasztott hang kerül lejátszásra a bejövő "
+"hívásoknál"
+
+#: ../ekiga.schemas.in.in.h:96
+msgid ""
+"The chosen sound will be played when a new instant message is received, if "
+"enabled"
+msgstr ""
+"Ha engedélyezve van, akkor a kiválasztott hang kerül lejátszásra új azonnali "
+"üzenet fogadása esetén"
+
+#: ../ekiga.schemas.in.in.h:97
+msgid "The chosen sound will be played when a new voice mail is received, if enabled"
+msgstr ""
+"Ha engedélyezve van, akkor a kiválasztott hang kerül lejátszásra új "
+"hangüzenet fogadásakor"
+
+#: ../ekiga.schemas.in.in.h:98
+msgid "The chosen sound will be played when calling somebody, if enabled"
+msgstr "Ha engedélyezve van, a kiválasztott hang kerül lejátszásra, ha felhív valakit"
+
+#: ../ekiga.schemas.in.in.h:99
+msgid "The default video view"
+msgstr "Az alapértelmezett videonézet"
+
+#: ../ekiga.schemas.in.in.h:100
+msgid ""
+"The default video view (0: Local, 1: Remote, 2: Both layered, 3: Both with "
+"local video in a separate window, 4: Both)"
+msgstr ""
+"Az alapértelmezett videonézet (0: helyi, 1: túloldali, 2: mindkettő "
+"kicsinyítve, 3: mindkettő, helyi videó külön ablakban, 4: mindkettő)"
+
+#: ../ekiga.schemas.in.in.h:101
+msgid "The dial tone sound"
+msgstr "A tárcsahang"
+
+#: ../ekiga.schemas.in.in.h:102
+msgid "The history of the 100 last calls"
+msgstr "A legutóbbi 100 hívás története"
+
+#: ../ekiga.schemas.in.in.h:103 ../src/gui/preferences.cpp:676
+#: ../src/gui/preferences.cpp:730
+msgid "The host where calls should be forwarded if call forwarding is enabled"
+msgstr ""
+"Ha a hívástovábbítás engedélyezve van, akkor a hívások erre a kiszolgálóra "
+"lesznek továbbítva"
+
+#: ../ekiga.schemas.in.in.h:104
+msgid "The incoming call sound"
+msgstr "A bejövő hívás hangja"
+
+#: ../ekiga.schemas.in.in.h:105
+msgid "The list of accounts to which Ekiga should register"
+msgstr "A felhasználói fiókok listája, amelyekre az Ekiganak regisztrálnia kell"
+
+#: ../ekiga.schemas.in.in.h:106
+msgid "The long status information"
+msgstr "A hosszú állapotinformáció"
+
+#: ../ekiga.schemas.in.in.h:107
+msgid ""
+"The maximum RX video bitrate in kbit/s. This value will be signaled to the "
+"peer endpoint that can adjust (if it supports it) its TX bitrate if it is "
+"above the signaled value"
+msgstr ""
+"Beérkező video maximális bitsebessége kbit/mp-ben. Ez az érték elküldésre "
+"kerül a távoli partnernek, amely (ha támogatja) beállíthatja a küldési "
+"bitsebességét, ha az efölött az érték fölött van."
+
+#: ../ekiga.schemas.in.in.h:108
+msgid ""
+"The maximum TX video bitrate in kbit/s. The video quality and the number of "
+"transmitted frames per second (depends on selected codec) will be "
+"dynamically adjusted above their minimum during calls to try to minimize the "
+"bandwidth to the given value"
+msgstr ""
+"A küldött videosávszélesség felső határa kbit/mp-ben. A videominőség és a "
+"másodpercenként átvitt képkockák (kodektől függő) száma hívás közben "
+"dinamikusan kerül beállításra a minimális érték felett, így próbálva a "
+"sávszélességet a megadott értékre csökkenteni"
+
+#: ../ekiga.schemas.in.in.h:109
+msgid "The maximum jitter buffer size for audio reception (in ms)"
+msgstr "Maximális jitter puffer a hangfogadáshoz (ezredmásodpercben)"
+
+#: ../ekiga.schemas.in.in.h:110
+msgid ""
+"The maximum transmitted frame rate in frames/s. This rate may not be reached "
+"in case a minimum quality was configure via a TSTO value smaller than 31 and "
+"the bitrate selected is not sufficient to support this minimum quality"
+msgstr ""
+"A maximális átvitt képkockasebesség képkocka/mp-ben. Ez a sebesség nem "
+"érhető el, ha a minimális minőséget 31-nél kisebb TSTO értékkel adták meg, "
+"és a bitsebesség nem elegendő ezen minimális minőség kiszolgálásához."
+
+#: ../ekiga.schemas.in.in.h:111
+msgid "The new instant message sound"
+msgstr "Az új azonnali üzenet hangja"
+
+#: ../ekiga.schemas.in.in.h:112
+msgid "The new voice mail sound"
+msgstr "Az új hangüzenet hangja"
+
+#: ../ekiga.schemas.in.in.h:113
+msgid ""
+"The port to listen to for incoming connections. Ekiga needs to be restarted "
+"for the new value to take effect"
+msgstr ""
+"Az a port, amelyen a bejövő kapcsolatokat figyelni kell. Az Ekiga programot "
+"újra kell indítani ahhoz, hogy az új érték hatása érvényesüljön"
+
+#: ../ekiga.schemas.in.in.h:114
+msgid ""
+"The port to listen to for incoming connections. Ekiga needs to be restarted "
+"for the new value to take effect."
+msgstr ""
+"Az a port, amelyen a bejövő kapcsolatokat figyelni kell. Az Ekiga programot "
+"újra kell indítani ahhoz, hogy az új érték hatása érvényesüljön."
+
+#: ../ekiga.schemas.in.in.h:115
+msgid "The position of the local video window"
+msgstr "A helyi videoablak pozíciója"
+
+#: ../ekiga.schemas.in.in.h:116
+msgid "The position of the remote video window"
+msgstr "A túloldali videoablak pozíciója"
+
+#: ../ekiga.schemas.in.in.h:117
+msgid ""
+"The range of TCP ports that Ekiga will use for the H.323 H.245 channel. This "
+"port range has no effect if both participants to the conference are using "
+"H.245 Tunneling."
+msgstr ""
+"A használandó TCP portok tartománya, amit az Ekiga a H.323 és H.245 "
+"csatornához fog használni. Ennek a porttartománynak nincs hatása, ha a "
+"videokonferencia mindkét résztvevője H.245 alagutazást használ."
+
+#: ../ekiga.schemas.in.in.h:118
+msgid "The range of UDP ports that Ekiga will use."
+msgstr "Az Ekiga által használandó UDP porttartomány."
+
+#: ../ekiga.schemas.in.in.h:119
+msgid "The short status information"
+msgstr "A rövid állapotinformációk"
+
+#: ../ekiga.schemas.in.in.h:120
+msgid "The size of the local video window"
+msgstr "A helyi videoablak mérete"
+
+#: ../ekiga.schemas.in.in.h:121
+msgid "The size of the remote video window"
+msgstr "A túloldali videoablak mérete"
+
+#: ../ekiga.schemas.in.in.h:122
+msgid ""
+"The sound that will be played at the end of calls or when calling somebody "
+"who is busy, if enabled"
+msgstr ""
+"Ha engedélyezve van, a hívások végén vagy foglalt jelzéskor ez a hang kerül "
+"lejátszásra"
+
+#: ../ekiga.schemas.in.in.h:123
+msgid "The sound that will be played on incoming calls, if enabled"
+msgstr "Ha engedélyezve van, ez a hang kerül lejátszásra a bejövő hívásoknál"
+
+#: ../ekiga.schemas.in.in.h:124
+msgid "The sound that will be played when calling somebody, if enabled"
+msgstr "Ha engedélyezve van, ez a hang kerül lejátszásra, ha felhív valakit"
+
+#: ../ekiga.schemas.in.in.h:125
+msgid "The sound that will be played when there is a new instant message, if enabled"
+msgstr ""
+"Ha engedélyezve van, ez a hang kerül lejátszásra új azonnali üzenet "
+"fogadásakor"
+
+#: ../ekiga.schemas.in.in.h:126
+msgid "The sound that will be played when there is a new voice mail, if enabled"
+msgstr "Ha engedélyezve van, ez a hang kerül lejátszásra új hangüzenet fogadásakor"
+
+#: ../ekiga.schemas.in.in.h:127 ../src/gui/preferences.cpp:932
+msgid "The video channel number to use (to select camera, tv or other sources)"
+msgstr ""
+"A használandó videocsatorna száma (kamera, tv vagy egyéb forrás "
+"kiválasztásához)"
+
+#: ../ekiga.schemas.in.in.h:128
+msgid "The video codecs list"
+msgstr "Videokodekek listája"
+
+#: ../ekiga.schemas.in.in.h:129
+msgid "The video view before having switched to fullscreen"
+msgstr "A videonézet a teljes képernyőre váltás előtt"
+
+#: ../ekiga.schemas.in.in.h:130
+msgid ""
+"The video view before having switched to fullscreen (same values as "
+"video_view)"
+msgstr ""
+"A videonézet a teljes képernyőre váltás előtt (ugyanazon értékek, mint a "
+"video_view kulcsnál)"
+
+#: ../ekiga.schemas.in.in.h:131
+msgid "The zoom value"
+msgstr "A nagyítási arány"
+
+#: ../ekiga.schemas.in.in.h:132
+msgid ""
+"The zoom value in percent to apply to images displayed in the main GUI (can "
+"be 50, 100, or 200)"
+msgstr ""
+"A főablakban megjelenített képek nagyítási aránya (lehetséges értékek: 50, "
+"100, vagy 200)"
+
+#: ../ekiga.schemas.in.in.h:133
+msgid ""
+"This allows you to set the mode for sending DTMFs. The values can be "
+"\"RFC2833\" (0), \"INFO\" (1)"
+msgstr ""
+"Ez lehetővé teszi a mód beállítását a DMTF-ek küldéséhez. Az érték csak "
+"”RFC2833” (0) és „INFO” (1) lehet"
+
+#: ../ekiga.schemas.in.in.h:134
+msgid ""
+"This allows you to set the mode for sending DTMFs. The values can be \"String"
+"\" (0), \"Tone\" (1), \"RFC2833\" (2), \"Q.931\" (3) (default is \"String"
+"\"). Choosing other values than \"String\" disables the Text Chat"
+msgstr ""
+"Ezzel beállíthatja a DMTF-ek küldési módját. A lehetséges értékek: "
+"„String” (Karaktersorozat - 0), „Tone” (Hang - 1) „RFC2833” (2), „Q.931” (3) "
+"(Az alapértelmezett a „String”). A „String”-től különböző érték választása "
+"kikapcsolja a szöveges csevegést."
+
+#: ../ekiga.schemas.in.in.h:135 ../src/gui/preferences.cpp:688
+msgid ""
+"This enables H.245 Tunneling mode. In H.245 Tunneling mode H.245 messages "
+"are encapsulated into the H.225 channel (port 1720). This saves one TCP "
+"connection during calls. H.245 Tunneling was introduced in H.323v2 and "
+"Netmeeting does not support it. Using both Fast Start and H.245 Tunneling "
+"can crash some versions of Netmeeting."
+msgstr ""
+"Ez engedélyezi a H.245-alagutazás módot. Ebben a módban a H.245 üzenetek a "
+"H.225 csatornába (1720-as port) lesznek beágyazva. Ez felszabadít egy TCP "
+"kapcsolatot hívások közben. A H.245 alagutazást a H.323v2 vezette be és a "
+"Netmeeting nem támogatja. A gyors indítás és a H.245 alagutazás együttes "
+"használata összeomlaszthatja a Netmeeting egyes verzióit."
+
+#: ../ekiga.schemas.in.in.h:136 ../src/gui/preferences.cpp:690
+msgid "This enables H.245 early in the setup"
+msgstr "A H.245 korai engedélyezése a beállításban"
+
+#: ../ekiga.schemas.in.in.h:137
+msgid ""
+"This key disables DirectX (on win32) and XVideo (on Linux) video hardware "
+"acceleration"
+msgstr ""
+"Ez a kulcs kikapcsolja a DirectX (win32 rendszeren) és XVideo (Linux "
+"rendszeren) hardveres videogyorsítást"
+
+#: ../ekiga.schemas.in.in.h:138
+msgid "UDP port range"
+msgstr "UDP porttartomány"
+
+#: ../ekiga.schemas.in.in.h:139
+msgid "Video channel"
+msgstr "Videocsatorna"
+
+#: ../ekiga.schemas.in.in.h:140
+msgid "Video format"
+msgstr "Videoformátum"
+
+#: ../ekiga.schemas.in.in.h:141 ../src/gui/assistant.cpp:1158
+msgid "Video input device"
+msgstr "Video bemeneti eszköz"
+
+#: ../ekiga.schemas.in.in.h:142
+msgid "Video preview"
+msgstr "Video előnézet"
+
+#: ../ekiga.schemas.in.in.h:143
+msgid "Video size"
+msgstr "Videoméret"
+
+#: ../ekiga.schemas.in.in.h:144
+msgid ""
+"Whether to prefer to sustain the max. frame rate or lower it possibly in "
+"order to keep a minimum level of (spatial) quality for all frames. 0: "
+"Highest minimal quality, 31: lowest minimal quality"
+msgstr ""
+"A maximális képkockasebesség megtartása, vagy az összes képkocka minimális "
+"(térbeli) minőségének megtartásának érdekében ez csökkenthető. 0: legnagyobb "
+"minimális minőség, 31: legkisebb minimális minőség."
+
+#: ../lib/engine/addressbook/contact-core.cpp:58
+msgid "_Find"
+msgstr "_Keresés"
+
+#: ../lib/engine/components/avahi/avahi-heap.cpp:125
+#: ../lib/engine/components/avahi/avahi-heap.cpp:306
+msgid "Neighbours"
+msgstr "Szomszédok"
+
+#: ../lib/engine/components/call-history/history-book.cpp:140
+#: ../lib/engine/gui/gtk-frontend/call-history-view-gtk.cpp:162
+msgid "Clear List"
+msgstr "Lista törlése"
+
+#: ../lib/engine/components/call-history/history-contact.cpp:153
+msgid "Received"
+msgstr "Fogadott"
+
+#: ../lib/engine/components/call-history/history-contact.cpp:156
+msgid "Placed"
+msgstr "Kezdeményezett"
+
+#: ../lib/engine/components/call-history/history-contact.cpp:159
+msgid "Missed"
+msgstr "Elmulasztott"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:76
+#: ../lib/engine/components/ldap/ldap-book.cpp:909
+#, c-format
+msgid "%d user found"
+msgid_plural "%d users found"
+msgstr[0] "%d felhasználó található"
+msgstr[1] "%d felhasználó található"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:244
+msgid "New _Contact"
+msgstr "Ú_j névjegy"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:288
+#: ../lib/engine/components/local-roster/local-cluster.cpp:82
+#: ../lib/engine/components/local-roster/local-heap.cpp:117
+msgid "New contact"
+msgstr "Új partner"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:290
+#: ../lib/engine/components/evolution/evolution-contact.cpp:328
+#: ../lib/engine/components/opal/opal-account.cpp:351
+msgid "Please update the following fields:"
+msgstr "Frissítse a következő mezőket:"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:292
+msgid "_Name:"
+msgstr "_Név:"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:293
+#: ../lib/engine/components/evolution/evolution-contact.cpp:339
+msgid "VoIP _URI:"
+msgstr "VoIP _URI:"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:294
+#: ../lib/engine/components/evolution/evolution-contact.cpp:340
+msgid "_Home phone:"
+msgstr "_Otthoni telefon:"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:295
+#: ../lib/engine/components/evolution/evolution-contact.cpp:341
+msgid "_Office phone:"
+msgstr "M_unkahelyi telefon:"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:296
+#: ../lib/engine/components/evolution/evolution-contact.cpp:342
+msgid "_Cell phone:"
+msgstr "M_obiltelefon:"
+
+#: ../lib/engine/components/evolution/evolution-book.cpp:297
+#: ../lib/engine/components/evolution/evolution-contact.cpp:343
+msgid "_Pager:"
+msgstr "S_zemélyhívó:"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:234
+#: ../lib/engine/components/local-roster/local-presentity.cpp:197
+#: ../lib/engine/components/opal/opal-account.cpp:308
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:203
+#: ../src/gui/main.cpp:3173
+msgid "_Edit"
+msgstr "S_zerkesztés"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:236
+#: ../lib/engine/components/local-roster/local-presentity.cpp:199
+#: ../lib/engine/components/opal/opal-account.cpp:310
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:205
+msgid "_Remove"
+msgstr "_Eltávolítás"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:326
+msgid "Edit contact"
+msgstr "Partner beállítása"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:330
+#: ../lib/engine/components/local-roster/local-presentity.cpp:224
+#: ../lib/engine/components/local-roster/local-heap.cpp:184
+#: ../lib/engine/components/local-roster/local-heap.cpp:364
+#: ../lib/engine/components/opal/opal-account.cpp:353
+#: ../lib/engine/components/opal/opal-bank.cpp:99
+#: ../lib/engine/components/opal/opal-bank.cpp:109
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:169
+#: ../lib/engine/components/resource-list/rl-heap.cpp:544
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:224
+msgid "Name:"
+msgstr "Név:"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:395
+msgid "Remove contact"
+msgstr "Partner eltávolítása"
+
+#: ../lib/engine/components/evolution/evolution-contact.cpp:397
+#, c-format
+msgid "Are you sure you want to remove %s from the addressbook?"
+msgstr "Biztos törli %s partnert a címjegyzékből?"
+
+#: ../lib/engine/components/gstreamer/gst-audioinput.cpp:270
+msgid "Audio test"
+msgstr "Hangteszt"
+
+#: ../lib/engine/components/gstreamer/gst-audiooutput.cpp:320
+msgid "Silent"
+msgstr "Csend"
+
+#: ../lib/engine/components/gstreamer/gst-videoinput.cpp:226
+msgid "Video test"
+msgstr "Videoteszt"
+
+#. Translators: "Screencast" means the video input device will be your screen -- the other end will see your desktop
+#: ../lib/engine/components/gstreamer/gst-videoinput.cpp:370
+#: ../lib/engine/components/gstreamer/gst-videoinput.cpp:375
+msgid "Crazy"
+msgstr "Őrült"
+
+#: ../lib/engine/components/gstreamer/gst-videoinput.cpp:375
+msgid "Screencast"
+msgstr "Képernyőküldés"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:409
+#: ../lib/engine/components/resource-list/rl-entry.cpp:143
+#: ../lib/engine/components/resource-list/rl-entry-ref.cpp:130
+msgid "_Refresh"
+msgstr "_Frissítés"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:412
+msgid "_Remove addressbook"
+msgstr "_Címjegyzék eltávolítása"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:414
+msgid "Addressbook _properties"
+msgstr "Címjegyzék t_ulajdonságai"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:545
+msgid "LDAP SASL Interaction"
+msgstr "LDAP SASL interakció"
+
+# aki tud jobbat, szóljon
+#. Translators, Howard explained : "Challenge" is a generic term
+#. * in authentication. It's a prompt from the authentication mechanism
+#. * for some type of credential. Exactly what kind of challenge and
+#. * what kind of credential depends on the specific authentication
+#. * mechanism. Since SASL is a generic interface, and can dynamically
+#. * load arbitrary mechanisms, there's not much more specific you can
+#. * say about it. You might google for "challenge response
+#. * authentication" if you'd like more background context.
+#.
+#: ../lib/engine/components/ldap/ldap-book.cpp:587
+msgid "Challenge: "
+msgstr "Kihívás: "
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:595
+msgid "Interact"
+msgstr "Interakció"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:664
+msgid "Refreshing"
+msgstr "Frissítés"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:670
+msgid "Could not initialize server"
+msgstr "Nem lehet előkészíteni a kiszolgálót"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:684
+#: ../lib/engine/components/ldap/ldap-book.cpp:729
+msgid "LDAP Error: "
+msgstr "LDAP hiba: "
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:738
+msgid "Contacted server"
+msgstr "Kapcsolódva a kiszolgálóhoz"
+
+#. patience == 0
+#: ../lib/engine/components/ldap/ldap-book.cpp:781
+msgid "Could not connect to server"
+msgstr "Nem lehet csatlakozni a kiszolgálóhoz"
+
+#. patience == 0
+#: ../lib/engine/components/ldap/ldap-book.cpp:829
+#: ../lib/engine/components/ldap/ldap-book.cpp:882
+msgid "Could not search"
+msgstr "Nem lehet keresni"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:837
+msgid "Waiting for search results"
+msgstr "Várakozás a keresés eredményeire"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:931
+msgid "Please edit the following fields"
+msgstr "Töltse ki a következő mezőket"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:933
+msgid "Book _Name"
+msgstr "Címjegyzék_név"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:934
+msgid "Server _URI"
+msgstr "Kiszolgáló _URI"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:935
+msgid "_Base DN"
+msgstr "_Alap DN"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:941
+msgid "Subtree"
+msgstr "Részfa"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:942
+msgid "Single Level"
+msgstr "Egy szint"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:943
+msgid "_Search Scope"
+msgstr "_Keresés hatóköre"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:952
+msgid "_DisplayName Attribute"
+msgstr "_DisplayName tulajdonság"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:953
+msgid "Call _Attributes"
+msgstr "_Hívás tulajdonságai"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:955
+#: ../lib/engine/components/ldap/ldap-book.cpp:957
+msgid "_Filter Template"
+msgstr "_Szűrősablon"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:959
+msgid "Bind _ID"
+msgstr "Kapcsolódási _azonosító"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:960
+msgid "_Password"
+msgstr "_Jelszó"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:961
+msgid "Use TLS"
+msgstr "TLS használata"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:962
+msgid "Use SASL"
+msgstr "SASL használata"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:976
+msgid "SASL _Mechanism"
+msgstr "SASL _mechanizmus"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:987
+msgid "Edit LDAP directory"
+msgstr "LDAP címtár szerkesztése"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:1016
+msgid "Please provide a Book Name for this directory\n"
+msgstr "Adjon meg egy címjegyzéknevet a címtárhoz\n"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:1019
+msgid "Please provide a Server URI\n"
+msgstr "Adjon meg egy kiszolgáló URI-címet\n"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:1022
+msgid "Please provide a DisplayName Attribute\n"
+msgstr "Adjon meg egy DisplayName tulajdonságot\n"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:1025
+msgid "Please provide a Call Attribute\n"
+msgstr "Adjon meg egy hívástulajdonságot\n"
+
+#: ../lib/engine/components/ldap/ldap-book.cpp:1028
+msgid "Invalid Server URI\n"
+msgstr "Érvénytelen kiszolgáló URI\n"
+
+#: ../lib/engine/components/ldap/ldap-source.cpp:127
+msgid "Add an LDAP Address Book"
+msgstr "LDAP címjegyzék hozzáadása"
+
+#: ../lib/engine/components/ldap/ldap-source.cpp:130
+msgid "Add the Ekiga.net Directory"
+msgstr "Az Ekiga.net címtár felvétele"
+
+#: ../lib/engine/components/ldap/ldap-source.cpp:152
+msgid "Create LDAP directory"
+msgstr "LDAP címtár létrehozása"
+
+#: ../lib/engine/components/ldap/ldap-source.cpp:167
+msgid "Ekiga.net Directory"
+msgstr "Ekiga.net címtár"
+
+#: ../lib/engine/components/local-roster/local-presentity.cpp:221
+msgid "Edit roster element"
+msgstr "Partnerlista-elem szerkesztése"
+
+#: ../lib/engine/components/local-roster/local-presentity.cpp:222
+msgid ""
+"Please fill in this form to change an existing element of ekiga's internal "
+"roster"
+msgstr ""
+"Töltse ki ezt az űrlapot az Ekiga belső partnerlistája egy meglévő elemének "
+"módosításához"
+
+#: ../lib/engine/components/local-roster/local-presentity.cpp:225
+#: ../lib/engine/components/local-roster/local-heap.cpp:193
+#: ../lib/engine/components/local-roster/local-heap.cpp:195
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:170
+#: ../lib/engine/components/resource-list/rl-heap.cpp:545
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:225
+msgid "Address:"
+msgstr "Cím:"
+
+#: ../lib/engine/components/local-roster/local-presentity.cpp:227
+#: ../lib/engine/components/resource-list/rl-heap.cpp:546
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:227
+msgid "Choose groups:"
+msgstr "Válasszon csoportokat:"
+
+#: ../lib/engine/components/local-roster/local-roster-bridge.cpp:93
+#: ../lib/engine/components/local-roster/local-heap.cpp:181
+msgid "Add to local roster"
+msgstr "Hozzáadás helyi partnerlistához"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:92
+msgid "Services"
+msgstr "Szolgáltatások"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:93
+msgid "Echo test"
+msgstr "Visszhangteszt"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:94
+msgid "Conference room"
+msgstr "Konferenciaszoba"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:110
+msgid "Local roster"
+msgstr "Helyi partnerlista"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:127
+msgid "Rename"
+msgstr "Átnevezés"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:160
+msgid "Family"
+msgstr "Család"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:161
+msgid "Friend"
+msgstr "Barát"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:162
+msgid "Associate"
+msgstr "Munkatárs"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:163
+msgid "Assistant"
+msgstr "Asszisztens"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:164
+msgid "Supervisor"
+msgstr "Felettes"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:165
+msgid "Self"
+msgstr "Önmaga"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:182
+msgid "Please fill in this form to add a new contact to ekiga's internal roster"
+msgstr ""
+"Töltse ki ezt az űrlapot új partner felvételéhez az Ekiga belső "
+"partnerlistájára"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:199
+msgid "Put contact in groups:"
+msgstr "Partner felvétele ezen csoportokba:"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:335
+msgid "You supplied an unsupported address"
+msgstr "Nem támogatott címet adott meg"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:337
+msgid "You already have a contact with this address!"
+msgstr "Már létezik partner ezzel a címmel"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:362
+msgid "Rename group"
+msgstr "Csoport átnevezése"
+
+#: ../lib/engine/components/local-roster/local-heap.cpp:363
+msgid "Please edit this group name"
+msgstr "Módosítsa a csoportnevet"
+
+#: ../lib/engine/components/opal/h323-endpoint.cpp:143
+#: ../lib/engine/components/opal/sip-endpoint.cpp:257
+#: ../lib/engine/components/opal/sip-endpoint.cpp:261
+msgid "Call"
+msgstr "Hívás"
+
+#: ../lib/engine/components/opal/h323-endpoint.cpp:146
+#: ../lib/engine/components/opal/sip-endpoint.cpp:258
+#: ../lib/engine/components/opal/sip-endpoint.cpp:262 ../src/gui/main.cpp:2947
+msgid "Transfer"
+msgstr "Hívásátadás"
+
+#. Translators : The alias we are registering already exists : failure
+#: ../lib/engine/components/opal/h323-endpoint.cpp:310
+msgid "Duplicate alias"
+msgstr "Ismétlődő álnév"
+
+#: ../lib/engine/components/opal/h323-endpoint.cpp:313
+msgid "Bad username/password"
+msgstr "Hibás felhasználónév/jelszó"
+
+#: ../lib/engine/components/opal/h323-endpoint.cpp:316
+#: ../lib/engine/components/opal/sip-endpoint.cpp:896
+msgid "Transport error"
+msgstr "Átviteli hiba"
+
+#: ../lib/engine/components/opal/h323-endpoint.cpp:327
+#: ../lib/engine/components/opal/h323-endpoint.cpp:332
+#: ../lib/engine/components/opal/sip-endpoint.cpp:903
+msgid "Failed"
+msgstr "Sikertelen"
+
+#: ../lib/engine/components/opal/opal-account.cpp:300
+msgid "_Disable"
+msgstr "_Tiltás"
+
+#: ../lib/engine/components/opal/opal-account.cpp:303
+msgid "_Enable"
+msgstr "_Engedélyezés"
+
+#: ../lib/engine/components/opal/opal-account.cpp:324
+#: ../src/gui/assistant.cpp:730
+msgid "Recharge the account"
+msgstr "A fiók feltöltése"
+
+#: ../lib/engine/components/opal/opal-account.cpp:329
+#: ../src/gui/assistant.cpp:742
+msgid "Consult the balance history"
+msgstr "Egyenlegnapló megtekintése"
+
+#: ../lib/engine/components/opal/opal-account.cpp:334
+msgid "Consult the call history"
+msgstr "Hívásnapló megtekintése"
+
+#: ../lib/engine/components/opal/opal-account.cpp:349
+#: ../lib/engine/components/opal/opal-bank.cpp:72
+msgid "Edit account"
+msgstr "Felhasználói fiók szerkesztése"
+
+#: ../lib/engine/components/opal/opal-account.cpp:355
+#: ../lib/engine/components/opal/opal-bank.cpp:110
+msgid "Registrar:"
+msgstr "Regisztrátor:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:357
+#: ../lib/engine/components/opal/opal-bank.cpp:100
+msgid "Gatekeeper:"
+msgstr "Forgalomirányító:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:358
+#: ../lib/engine/components/opal/opal-bank.cpp:81
+#: ../lib/engine/components/opal/opal-bank.cpp:101
+#: ../lib/engine/components/opal/opal-bank.cpp:111
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:174
+msgid "User:"
+msgstr "Felhasználó:"
+
+#. Translators:
+#. * SIP knows two usernames: The name for the client ("User") and the name
+#. * for the authentication procedure ("Authentication User")
+#: ../lib/engine/components/opal/opal-account.cpp:363
+#: ../lib/engine/components/opal/opal-bank.cpp:112
+msgid "Authentication User:"
+msgstr "Felhasználó hitelesítése:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:364
+#: ../lib/engine/components/opal/opal-bank.cpp:83
+#: ../lib/engine/components/opal/opal-bank.cpp:103
+#: ../lib/engine/components/opal/opal-bank.cpp:113
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:173
+msgid "Password:"
+msgstr "Jelszó:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:365
+#: ../lib/engine/components/opal/opal-bank.cpp:104
+#: ../lib/engine/components/opal/opal-bank.cpp:114
+msgid "Timeout:"
+msgstr "Időtúllépés:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:366
+#: ../lib/engine/components/opal/opal-bank.cpp:117
+msgid "Enable Account"
+msgstr "Fiók engedélyezése"
+
+#: ../lib/engine/components/opal/opal-account.cpp:401
+#: ../lib/engine/components/opal/opal-bank.cpp:155
+msgid "You did not supply a name for that account."
+msgstr "Nem adott meg nevet a fiókhoz."
+
+#: ../lib/engine/components/opal/opal-account.cpp:403
+#: ../lib/engine/components/opal/opal-bank.cpp:157
+msgid "You did not supply a host to register to."
+msgstr "Nem adta meg a gépet, amelyen regisztrálni kíván."
+
+#: ../lib/engine/components/opal/opal-account.cpp:405
+#: ../lib/engine/components/opal/opal-bank.cpp:159
+msgid "You did not supply a user name for that account."
+msgstr "Nem adott meg felhasználói nevet a fiókhoz."
+
+#: ../lib/engine/components/opal/opal-account.cpp:407
+#: ../lib/engine/components/opal/opal-bank.cpp:161
+msgid "The timeout should have a bigger value."
+msgstr "Az időtúllépésnek nagyobbnak kell lennie."
+
+#: ../lib/engine/components/opal/opal-bank.cpp:53
+msgid "_Add an Ekiga.net Account"
+msgstr "E_kiga.net felhasználói fiók hozzáadása"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:55
+msgid "_Add an Ekiga Call Out Account"
+msgstr "Ekiga.net _pc->telefon fiók hozzáadása"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:57
+msgid "_Add a SIP Account"
+msgstr "_SIP fiók hozzáadása"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:59
+msgid "_Add an H.323 Account"
+msgstr "_H.323 fiók hozzáadása"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:73
+msgid "Please update the following fields."
+msgstr "Frissítse a következő mezőket."
+
+#: ../lib/engine/components/opal/opal-bank.cpp:78 ../src/gui/assistant.cpp:610
+msgid "Get an Ekiga.net SIP account"
+msgstr "Ekiga.net SIP felhasználói fiók létrehozása"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:88 ../src/gui/assistant.cpp:718
+msgid "Get an Ekiga Call Out account"
+msgstr "Ekiga pc->telefon felhasználói fiók létrehozása"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:92 ../src/gui/main.cpp:2701
+#: ../src/gui/main.cpp:2796
+msgid "Account ID:"
+msgstr "Felhasználói fiók azonosítója:"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:94
+msgid "PIN Code:"
+msgstr "PIN kód:"
+
+#: ../lib/engine/components/opal/opal-call.cpp:444
+msgid "Local user cleared the call"
+msgstr "A helyi felhasználó törölte a hívást"
+
+#: ../lib/engine/components/opal/opal-call.cpp:447
+#: ../lib/engine/components/opal/opal-call.cpp:450
+msgid "Local user rejected the call"
+msgstr "A helyi felhasználó visszautasította a hívást"
+
+#: ../lib/engine/components/opal/opal-call.cpp:453
+msgid "Remote user cleared the call"
+msgstr "A túloldali felhasználó törölte a hívást"
+
+#: ../lib/engine/components/opal/opal-call.cpp:456
+msgid "Remote user rejected the call"
+msgstr "A túloldali felhasználó visszautasította a hívást"
+
+#: ../lib/engine/components/opal/opal-call.cpp:459
+msgid "Remote user has stopped calling"
+msgstr "A túloldali felhasználó abbahagyta a hívást"
+
+#: ../lib/engine/components/opal/opal-call.cpp:462
+msgid "Abnormal call termination"
+msgstr "A hívás abnormálisan ért véget "
+
+#: ../lib/engine/components/opal/opal-call.cpp:465 ../src/gui/main.cpp:1491
+msgid "Could not connect to remote host"
+msgstr "Nem lehet kapcsolódni a túloldali géphez"
+
+#: ../lib/engine/components/opal/opal-call.cpp:468
+msgid "The Gatekeeper cleared the call"
+msgstr "A forgalomirányító törölte a hívást"
+
+#: ../lib/engine/components/opal/opal-call.cpp:471
+msgid "User not found"
+msgstr "Nem található a felhasználó"
+
+#: ../lib/engine/components/opal/opal-call.cpp:474
+msgid "Insufficient bandwidth"
+msgstr "Elégtelen sávszélesség"
+
+#: ../lib/engine/components/opal/opal-call.cpp:477
+msgid "No common codec"
+msgstr "Nincs közös kodek"
+
+#: ../lib/engine/components/opal/opal-call.cpp:480
+msgid "Call forwarded"
+msgstr "Hívás továbbítva"
+
+#: ../lib/engine/components/opal/opal-call.cpp:483
+msgid "Security check failed"
+msgstr "Biztonsági ellenőrzés sikertelen"
+
+#: ../lib/engine/components/opal/opal-call.cpp:486
+msgid "Local user is busy"
+msgstr "A helyi felhasználó foglalt"
+
+#: ../lib/engine/components/opal/opal-call.cpp:489
+#: ../lib/engine/components/opal/opal-call.cpp:495
+msgid "Congested link to remote party"
+msgstr "A túloldali félhez vezető út túlzsúfolt"
+
+#: ../lib/engine/components/opal/opal-call.cpp:492
+msgid "Remote user is busy"
+msgstr "A túloldali fél foglalt"
+
+#: ../lib/engine/components/opal/opal-call.cpp:498
+msgid "Remote host is offline"
+msgstr "A túloldali gép offline"
+
+#: ../lib/engine/components/opal/opal-call.cpp:504
+msgid "User is not available"
+msgstr "A felhasználó nem érhető el"
+
+#: ../lib/engine/components/opal/opal-call.cpp:516
+msgid "Call completed"
+msgstr "Hívás befejezve"
+
+#: ../lib/engine/components/opal/opal-call-manager.cpp:727
+msgid ""
+"Ekiga did not manage to configure your network settings automatically. You "
+"can still use it, but you need to configure your network settings manually.\n"
+"\n"
+"Please see http://wiki.ekiga.org/index.php/Enable_port_forwarding_manually "
+"for instructions"
+msgstr ""
+"Az Ekiga nem tudta automatikusan beállítani a hálózatot. Ettől továbbra is "
+"használhatja, de a hálózatot saját kezűleg kell beállítania.\n"
+"\n"
+"További részletekért lásd: http://wiki.ekiga.org/index.php/"
+"Enable_port_forwarding_manually"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:282
+#: ../lib/engine/components/opal/sip-endpoint.cpp:284
+msgid "Message"
+msgstr "Üzenet"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:710
+msgid "Bad request"
+msgstr "Hibás kérés"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:714
+msgid "Payment required"
+msgstr "Fizetés szükséges"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:718
+msgid "Unauthorized"
+msgstr "Jogosulatlan"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:722
+msgid "Forbidden"
+msgstr "Letiltva"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:726
+msgid "Timeout"
+msgstr "Időtúllépés"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:730
+msgid "Conflict"
+msgstr "Ütközés"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:734
+msgid "Temporarily unavailable"
+msgstr "Átmenetileg nem érhető el"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:738
+msgid "Not acceptable"
+msgstr "Nem fogadható el"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:742
+msgid "Illegal status code"
+msgstr "Érvénytelen állapotkód"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:746
+msgid "Multiple choices"
+msgstr "Több lehetőség"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:750
+msgid "Moved permanently"
+msgstr "Tartósan áthelyezve"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:754
+msgid "Moved temporarily"
+msgstr "Ideiglenesen áthelyezve"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:758
+msgid "Use proxy"
+msgstr "Proxy használata"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:762
+msgid "Alternative service"
+msgstr "Alternatív szolgáltatás"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:766
+msgid "Not found"
+msgstr "Nem található"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:770
+msgid "Method not allowed"
+msgstr "A módszer nem engedélyezett"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:774
+msgid "Proxy authentication required"
+msgstr "Proxyhitelesítés szükséges"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:778
+msgid "Length required"
+msgstr "Hossz szükséges"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:782
+msgid "Request entity too big"
+msgstr "A kért entitás túl nagy"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:786
+msgid "Request URI too long"
+msgstr "A kért URI túl hosszú"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:790
+msgid "Unsupported media type"
+msgstr "Nem támogatott médiatípus"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:794
+msgid "Unsupported URI scheme"
+msgstr "Nem támogatott URI séma"
+
+#. Translators : The extension we are trying to register does not exist
+#: ../lib/engine/components/opal/sip-endpoint.cpp:799
+msgid "Bad extension"
+msgstr "Hibás kiterjesztés"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:803
+msgid "Extension required"
+msgstr "Kiterjesztés szükséges"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:807
+msgid "Interval too brief"
+msgstr "Az időköz túl rövid"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:811
+msgid "Loop detected"
+msgstr "Ciklus észlelve"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:815
+msgid "Too many hops"
+msgstr "Túl sok ugrás"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:819
+msgid "Address incomplete"
+msgstr "A cím befejezetlen"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:823
+msgid "Ambiguous"
+msgstr "Kétértelmű"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:827
+msgid "Busy Here"
+msgstr "Foglalt itt"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:831
+msgid "Request terminated"
+msgstr "Kérés megszakítva"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:835
+msgid "Not acceptable here"
+msgstr "Itt nem fogadható el"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:839
+msgid "Bad event"
+msgstr "Hibás esemény"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:843
+msgid "Request pending"
+msgstr "Kérés függőben"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:847
+msgid "Undecipherable"
+msgstr "Visszafejthetetlen"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:851
+msgid "Internal server error"
+msgstr "Belső kiszolgálóhiba"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:855
+msgid "Not implemented"
+msgstr "Nincs megvalósítva"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:859
+msgid "Bad gateway"
+msgstr "Hibás átjáró"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:863
+msgid "Service unavailable"
+msgstr "A szolgáltatás nem érhető el"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:867
+msgid "Server timeout"
+msgstr "Kiszolgálói időtúllépés"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:871
+msgid "SIP version not supported"
+msgstr "A SIP verzió nem támogatott"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:875
+msgid "Message too large"
+msgstr "Az üzenet túl nagy"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:879
+msgid "Busy everywhere"
+msgstr "Foglalt mindenütt"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:883
+msgid "Decline"
+msgstr "Visszautasítás"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:887
+msgid "Does not exist anymore"
+msgstr "Már nem létezik"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:891
+msgid "Globally not acceptable"
+msgstr "Globálisan nem fogadható el"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:1020
+msgid "Could not send message"
+msgstr "Az üzenet nem küldhető el"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:1134
+#, c-format
+msgid "Incoming call from %s"
+msgstr "Bejövő hívás %s partnertől"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:1136
+#, c-format
+msgid "Incoming call"
+msgstr "Bejövő hívás"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:1142
+#, c-format
+msgid "In a call with %s"
+msgstr "Hívás folyamatban %s partnerrel"
+
+#: ../lib/engine/components/opal/sip-endpoint.cpp:1144
+#, c-format
+msgid "In a call"
+msgstr "Hívás folyamatban"
+
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:102
+msgid "New resource list"
+msgstr "Új erőforráslista"
+
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:166
+msgid "Add new resource-list"
+msgstr "Új erőforráslista hozzáadása"
+
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:167
+msgid "Please fill in this form to add a new contact list to ekiga's remote roster"
+msgstr ""
+"Töltse ki ezt az űrlapot új partnerlista felvételéhez az Ekiga távoli "
+"partnerlistájára"
+
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:171
+msgid "Writable:"
+msgstr "Írható:"
+
+#: ../lib/engine/components/resource-list/rl-cluster.cpp:172
+msgid "Username:"
+msgstr "Felhasználónév:"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:103
+#: ../lib/engine/components/resource-list/rl-heap.cpp:144
+#: ../lib/engine/components/resource-list/rl-heap.cpp:178
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:133
+#: ../lib/engine/components/resource-list/rl-entry.cpp:130
+msgid "Unnamed"
+msgstr "Névtelen"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:200
+msgid "_Add a new contact"
+msgstr "Új _partner hozzáadása"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:202
+msgid "_Refresh contact list"
+msgstr "Partnerlista _frissítése"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:204
+msgid "Contact list _properties"
+msgstr "P_artnerlista állapota"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:467
+msgid "Edit contact list properties"
+msgstr "Partnerlista tulajdonságainak szerkesztése"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:469
+msgid "Please edit the following fields (no identifier means global)"
+msgstr "Töltse ki a következő mezőket (az azonosító elhagyása globálissá teszi)"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:472
+msgid "Contact list's name"
+msgstr "Partnerlista neve"
+
+#. "Document" used as a name -- uri point to the root of a document tree
+#: ../lib/engine/components/resource-list/rl-heap.cpp:474
+msgid "Document root"
+msgstr "Dokumentumgyökér"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:475
+msgid "Identifier"
+msgstr "Azonosító"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:476
+msgid "Writable"
+msgstr "Írható"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:477
+msgid "Server username"
+msgstr "Felhasználónév a kiszolgálón"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:478
+msgid "Server password"
+msgstr "Jelszó a kiszolgálón"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:530
+msgid "Add a remote contact"
+msgstr "Távoli partner hozzáadása"
+
+#: ../lib/engine/components/resource-list/rl-heap.cpp:531
+msgid "Please fill in this form to create a new contact on a remote server"
+msgstr "Töltse ki ezt az űrlapot új partner létrehozásához a távoli kiszolgálón"
+
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:221
+msgid "Edit remote contact"
+msgstr "Távoli partner szerkesztése"
+
+#: ../lib/engine/components/resource-list/rl-presentity.cpp:222
+msgid "Please fill in this form to change an existing contact on a remote server"
+msgstr ""
+"Töltse ki ezt az űrlapot egy meglévő partner módosításához a távoli "
+"kiszolgálón"
+
+#: ../lib/engine/components/resource-list/rl-entry.cpp:186
+msgid "Invalid server data"
+msgstr "Érvénytelen kiszolgálóadatok"
+
+#: ../lib/engine/components/resource-list/rl-entry-ref.cpp:51
+msgid "Click to fetch"
+msgstr "Kattintson a lekéréshez"
+
+#: ../lib/engine/components/resource-list/rl-entry-ref.cpp:118
+msgid "Distant contact"
+msgstr "Távoli partner"
+
+#: ../lib/engine/components/resource-list/rl-list.cpp:181
+#, c-format
+msgid "%s / List #%d"
+msgstr "%s / %d. lista"
+
+#: ../lib/engine/components/resource-list/rl-list.cpp:185
+#, c-format
+msgid "List #%d"
+msgstr "%d. lista"
+
+#: ../lib/engine/gui/gtk-core/form-dialog-gtk.cpp:660
+msgid "Advanced"
+msgstr "Speciális"
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:659
+msgid "Address Book"
+msgstr "Címjegyzék"
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:675
+#: ../src/gui/main.cpp:3122
+msgid "Address _Book"
+msgstr "_Címjegyzék"
+
+#. This will add static and dynamic actions
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:684
+msgid "_Action"
+msgstr "_Művelet"
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:729
+msgid "Category"
+msgstr "Kategória"
+
+#: ../lib/engine/gui/gtk-frontend/book-view-gtk.cpp:590
+#: ../src/gui/assistant.cpp:1382
+msgid "Full Name"
+msgstr "Teljes név"
+
+#: ../lib/engine/gui/gtk-frontend/book-view-gtk.cpp:601
+msgid "_Search Filter:"
+msgstr "_Keresési szűrő:"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:247
+msgid "says:"
+msgstr "mondja:"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:370
+msgid "Open link in browser"
+msgstr "Hivatkozás megnyitása böngészőben"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:376
+msgid "Copy link"
+msgstr "Hivatkozás másolása"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:904
+msgid "_Smile..."
+msgstr "_Hangulatjel…"
+
+#. we can't do much here since we get the Chat as reference...
+#: ../lib/engine/gui/gtk-frontend/chat-window.cpp:432
+msgid "Chat Window"
+msgstr "Csevegőablak"
+
+#: ../lib/engine/gui/gtk-frontend/roster-view-gtk.cpp:989
+#: ../lib/engine/gui/gtk-frontend/roster-view-gtk.cpp:1024
+msgid "Unsorted"
+msgstr "Rendezetlen"
+
+#: ../lib/gui/codecsbox.cpp:477
+msgid "Move selected codec priority upwards"
+msgstr "Kiválasztott kodek prioritásának növelése"
+
+#: ../lib/gui/codecsbox.cpp:487
+msgid "Move selected codec priority downwards"
+msgstr "Kiválasztott kodek prioritásának csökkentése"
+
+#: ../lib/gui/gmdialog.c:462
+msgid "Do not show this dialog again"
+msgstr "Ne mutassa többé ezt az ablakot"
+
+#: ../src/gui/accounts.cpp:229
+msgid "Registered"
+msgstr "Regisztrálva"
+
+#: ../src/gui/accounts.cpp:233
+msgid "Unregistered"
+msgstr "Regisztráció törölve"
+
+#: ../src/gui/accounts.cpp:237
+msgid "Could not unregister"
+msgstr "A regisztráció nem törölhető"
+
+#: ../src/gui/accounts.cpp:243
+msgid "Could not register"
+msgstr "Nem lehet regisztrálni"
+
+#: ../src/gui/accounts.cpp:249
+msgid "Processing..."
+msgstr "Feldolgozás…"
+
+#: ../src/gui/accounts.cpp:632
+msgid "Account Name"
+msgstr "Felhasználói fiók neve"
+
+#: ../src/gui/accounts.cpp:633
+msgid "Voice Mails"
+msgstr "Hangüzenetek"
+
+#: ../src/gui/accounts.cpp:634
+msgid "Status"
+msgstr "Állapot"
+
+#: ../src/gui/accounts.cpp:645 ../src/gui/accounts.cpp:688
+msgid "Accounts"
+msgstr "Felhasználói fiókok"
+
+#: ../src/gui/accounts.cpp:659 ../src/gui/main.cpp:3183
+msgid "_Accounts"
+msgstr "_Felhasználói fiókok"
+
+#: ../src/gui/accounts.cpp:663 ../src/gui/main.cpp:3266
+msgid "_Help"
+msgstr "_Súgó"
+
+#. Translators:
+#. * The following string "A" means "activated" or "active". It's a column
+#. * description in the list of configured accounts, it shows if an account
+#. * is activated or not (a status the user can choose).
+#.
+#: ../src/gui/accounts.cpp:696 ../src/gui/preferences.cpp:586
+msgid "A"
+msgstr "A"
+
+#: ../src/gui/assistant.cpp:327
+msgid ""
+"This is the Ekiga general configuration assistant. The following steps will "
+"set up Ekiga by asking a few simple questions.\n"
+"\n"
+"Once you have completed these steps, you can always change them later by "
+"selecting Preferences in the Edit menu."
+msgstr ""
+"Ez az Ekiga általános beállítóasszisztense. A következő lépésekben néhány "
+"egyszerű kérdés megválaszolásával beállíthatja az Ekigat.\n"
+"\n"
+"Az asszisztens befejeződése után a beállításokat később bármikor "
+"megváltoztathatja a Szerkesztés menü Beállítások pontjával."
+
+#: ../src/gui/assistant.cpp:335
+msgid "Welcome to Ekiga"
+msgstr "Üdvözöljük az Ekigaban"
+
+#: ../src/gui/assistant.cpp:359 ../src/gui/preferences.cpp:454
+msgid "Personal Information"
+msgstr "Személyes adatok"
+
+#. The user fields
+#: ../src/gui/assistant.cpp:362
+msgid "Please enter your first name and your surname:"
+msgstr "Adja meg a vezeték- és utónevét:"
+
+#: ../src/gui/assistant.cpp:371
+msgid ""
+"Your first name and surname will be used when connecting to other VoIP and "
+"videoconferencing software."
+msgstr ""
+"A neve más VoIP és videokonferencia-szoftverekhez való kapcsolódáskor lesz "
+"felhasználva."
+
+#: ../src/gui/assistant.cpp:573
+msgid "Ekiga.net Account"
+msgstr "Ekiga.net felhasználói fiók"
+
+#: ../src/gui/assistant.cpp:575
+msgid "Please enter your username:"
+msgstr "Adja meg felhasználónevét:"
+
+#: ../src/gui/assistant.cpp:583
+msgid "Please enter your password:"
+msgstr "Adja meg jelszavát:"
+
+#: ../src/gui/assistant.cpp:593
+msgid ""
+"The username and password are used to login to your existing account at the "
+"ekiga.net free SIP service. If you do not have an ekiga.net SIP address yet, "
+"you may first create an account below. This will provide a SIP address that "
+"allows people to call you.\n"
+"\n"
+"You may skip this step if you use an alternative SIP service, or if you "
+"would prefer to specify the login details later."
+msgstr ""
+"Az ekiga.net ingyenes SIP szolgáltatásnál létező felhasználói fiókjára "
+"bejelentkezéshez lesz felhasználva. Ha még nincs ekiga.net SIP címe, akkor "
+"létrehozhat egyet alább. Ez egy SIP címet biztosít, amely lehetővé teszi, "
+"hogy felhívják.\n"
+"\n"
+"Átlépheti ezt a lépést, ha egy alternatív SIP szolgáltatást használ, vagy ha "
+"később szeretné megadni a bejelentkezés részleteit."
+
+#: ../src/gui/assistant.cpp:620
+msgid "I do not want to sign up for the ekiga.net free service"
+msgstr "Nem akarok feliratkozni az ekiga.net ingyenes szolgáltatására"
+
+#: ../src/gui/assistant.cpp:683
+msgid "Ekiga Call Out Account"
+msgstr "Ekiga pc->telefon fiók"
+
+#: ../src/gui/assistant.cpp:685
+msgid "Please enter your account ID:"
+msgstr "Adja meg fiókazonosítóját:"
+
+#: ../src/gui/assistant.cpp:693
+msgid "Please enter your PIN code:"
+msgstr "Adja meg PIN kódját:"
+
+#: ../src/gui/assistant.cpp:704
+msgid ""
+"You can make calls to regular phones and cell numbers worldwide using "
+"Ekiga.\n"
+"\n"
+"To enable this, you need to do two things:\n"
+"- First buy an account at the URL below.\n"
+"- Then enter your account ID and PIN code.\n"
+"The service will work only if your account is created using the URL in this "
+"dialog.\n"
+msgstr ""
+"Az Ekiga segítségével hívásokat kezdeményezhet hagyományos és mobil "
+"telefonokra világszerte.\n"
+"\n"
+"Ehhez két dolgot kell tennie:\n"
+"– Először az alábbi URL használatával vásárolnia kell egy felhasználói "
+"fiókot.\n"
+"– Majd meg kell adnia a fiók azonosítóját és PIN kódját.\n"
+"A szolgáltatás csak akkor fog működni, ha azt a párbeszédablakban található "
+"URL használatával hozta létre.\n"
+
+#: ../src/gui/assistant.cpp:754
+msgid "Consult the calls history"
+msgstr "Hívásnapló megtekintése"
+
+#: ../src/gui/assistant.cpp:764
+msgid "I do not want to sign up for the Ekiga Call Out service"
+msgstr "Nem akarok feliratkozni az Ekiga pc->telefon szolgáltatására"
+
+#: ../src/gui/assistant.cpp:830 ../src/gui/assistant.cpp:1393
+msgid "Connection Type"
+msgstr "Kapcsolattípus"
+
+#. The connection type
+#: ../src/gui/assistant.cpp:833
+msgid "Please choose your connection type:"
+msgstr "Válassza ki a kapcsolat típusát:"
+
+#: ../src/gui/assistant.cpp:850
+msgid "56k Modem"
+msgstr "56k modem"
+
+#: ../src/gui/assistant.cpp:855
+msgid "ISDN"
+msgstr "ISDN"
+
+#: ../src/gui/assistant.cpp:860
+msgid "DSL/Cable (128 kbit/s uplink)"
+msgstr "DSL/kábel (128 kbit/s feltöltés)"
+
+#: ../src/gui/assistant.cpp:865
+msgid "DSL/Cable (512 kbit/s uplink)"
+msgstr "DSL/kábel (512 kbit/s feltöltés)"
+
+#: ../src/gui/assistant.cpp:870
+msgid "LAN"
+msgstr "LAN"
+
+#: ../src/gui/assistant.cpp:875
+msgid "Keep current settings"
+msgstr "Jelenlegi beállítások megtartása"
+
+#: ../src/gui/assistant.cpp:880
+msgid ""
+"The connection type will permit determining the best quality settings that "
+"Ekiga will use during calls. You can later change the settings individually "
+"in the preferences window."
+msgstr ""
+"A kapcsolat típusának megadása lehetővé teszi az Ekiga által hívások közben "
+"használható legjobb minőségi beállítások meghatározását. Ezeket a "
+"beállításokat később megváltoztathatja a Tulajdonságok párbeszédablakban."
+
+#: ../src/gui/assistant.cpp:974 ../src/gui/main.cpp:3012
+#: ../src/gui/main.cpp:3016 ../src/gui/preferences.cpp:760
+msgid "Audio Devices"
+msgstr "Hangeszközök"
+
+#: ../src/gui/assistant.cpp:976
+msgid "Please choose the audio ringing device:"
+msgstr "Válassza ki a csengés eszközét:"
+
+#: ../src/gui/assistant.cpp:996
+msgid ""
+"The audio ringing device is the device that will be used to play the ringing "
+"sound on incoming calls."
+msgstr ""
+"A csengés eszköze a bejövő hívásokkor a csengés hangjának lejátszására "
+"használandó eszköz."
+
+#. ---
+#: ../src/gui/assistant.cpp:1007
+msgid "Please choose the audio output device:"
+msgstr "Válassza ki a hangkimeneti eszközt:"
+
+#: ../src/gui/assistant.cpp:1027
+msgid ""
+"The audio output device is the device that will be used to play audio during "
+"calls."
+msgstr "A hangkimeneti eszköz a hívásokkor hanglejátszásra használandó eszköz."
+
+#. ---
+#: ../src/gui/assistant.cpp:1038
+msgid "Please choose the audio input device:"
+msgstr "Válassza ki a hangbemeneti eszközt:"
+
+#: ../src/gui/assistant.cpp:1058
+msgid ""
+"The audio input device is the device that will be used to record your voice "
+"during calls."
+msgstr "A hangbemeneti eszköz a hívásokkor a hang felvételére használandó eszköz."
+
+#: ../src/gui/assistant.cpp:1160
+msgid "Please choose your video input device:"
+msgstr "Válassza ki a videobemeneti eszközt:"
+
+#: ../src/gui/assistant.cpp:1180
+msgid ""
+"The video input device is the device that will be used to capture video "
+"during calls."
+msgstr "A videobemeneti eszköz a hívásokkor a videó felvételére használandó eszköz."
+
+#: ../src/gui/assistant.cpp:1245 ../src/gui/assistant.cpp:1269
+#: ../src/gui/assistant.cpp:1293 ../src/gui/preferences.cpp:805
+#: ../src/gui/preferences.cpp:830 ../src/gui/preferences.cpp:854
+msgid "No device found"
+msgstr "Eszköz nem található"
+
+#: ../src/gui/assistant.cpp:1324
+msgid "Configuration Complete"
+msgstr "Beállítás kész"
+
+#: ../src/gui/assistant.cpp:1326
+msgid ""
+"You have now finished the Ekiga configuration. All the settings can be "
+"changed in the Ekiga preferences. Enjoy!"
+msgstr ""
+"Az Ekiga beállítása befejeződött. Minden beállítás módosítható az Ekiga "
+"Tulajdonságai között."
+
+#: ../src/gui/assistant.cpp:1333
+msgid "Configuration summary:"
+msgstr "Beállítások összegzése:"
+
+#: ../src/gui/assistant.cpp:1403
+msgid "Audio Ringing Device"
+msgstr "Csengési eszköz"
+
+#: ../src/gui/assistant.cpp:1412
+msgid "Audio Output Device"
+msgstr "Hangkimeneti eszköz"
+
+#: ../src/gui/assistant.cpp:1421
+msgid "Audio Input Device"
+msgstr "Hangbemeneti eszköz"
+
+#: ../src/gui/assistant.cpp:1430
+msgid "Video Input Device"
+msgstr "Videobemeneti eszköz"
+
+#: ../src/gui/assistant.cpp:1443
+msgid "SIP URI"
+msgstr "SIP URI"
+
+#: ../src/gui/assistant.cpp:1455
+msgid "Ekiga Call Out"
+msgstr "Ekiga pc->telefon"
+
+#: ../src/gui/assistant.cpp:1499
+#, c-format
+msgid "Ekiga Configuration Assistant (%d of %d)"
+msgstr "Ekiga beállítóasszisztens (%d./%d oldal)"
+
+#: ../src/gui/callbacks.cpp:131
+msgid "Contributors:"
+msgstr "Hozzájárultak:"
+
+#: ../src/gui/callbacks.cpp:143
+msgid "Artwork:"
+msgstr "Grafika:"
+
+#: ../src/gui/callbacks.cpp:151
+msgid "See AUTHORS file for full credits"
+msgstr "Lásd az AUTHORS fájlt a teljes listáért"
+
+#: ../src/gui/callbacks.cpp:167
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version. "
+msgstr ""
+"Az Ekiga szabad szoftver, terjesztheti és/vagy módosíthatja a Free Software "
+"Foundation által kiadott GNU General Public License második (vagy bármely "
+"későbbi) változatában foglaltak alapján."
+
+#: ../src/gui/callbacks.cpp:171
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for "
+"more details. You should have received a copy of the GNU General Public "
+"License along with this program; if not, write to the Free Software "
+"Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr ""
+"Az Ekiga programot abban a reményben terjesztjük, hogy hasznos lesz, de nem "
+"vállalunk SEMMIFÉLE GARANCIÁT, még olyan értelemben sem, hogy a program "
+"alkalmas-e a KÖZREADÁSRA vagy EGY BIZONYOS FELADAT ELVÉGZÉSÉRE. További "
+"részletekért tanulmányozza a GNU GPL licencet. Az Ekiga programhoz a GNU "
+"General Public License egy példánya is jár, ha nem kapta meg, írjon a Free "
+"Software Foundation Inc.-nek. Levélcímük: 51 Franklin St, Fifth Floor, "
+"Boston, MA 02110-1301, USA."
+
+#: ../src/gui/callbacks.cpp:178
+msgid ""
+"Ekiga is licensed under the GPL license and as a special exception, you have "
+"permission to link or otherwise combine this program with the programs OPAL, "
+"OpenH323 and PWLIB, and distribute the combination, without applying the "
+"requirements of the GNU GPL to the OPAL, OpenH323 and PWLIB programs, as "
+"long as you do follow the requirements of the GNU GPL for all the rest of "
+"the software thus combined."
+msgstr ""
+"Az Ekiga a GPL licenc alatt érhető el, és speciális kivételként "
+"engedélyezett a program összekapcsolása vagy más módon történő kombinációja "
+"az OPAL, OpenH323 és PWLIB programokkal, valamint ezen kombináció "
+"terjesztése a GNU GPL előírásainak alkalmazása nélkül az OPAL, OpenH323 és "
+"PWLIB programokra, amíg betartja a GNU GPL előírásait az így kombinált "
+"szoftver egyéb részeire."
+
+#. Translators: Please write translator credits here, and
+#. * separate names with \n
+#: ../src/gui/callbacks.cpp:190
+msgid "translator-credits"
+msgstr ""
+"Dvornik László <dvornik@gnome.hu>\n"
+"Kelemen Gábor <kelemeng@gnome.hu>\n"
+"Tímár András <timar@gnome.hu>"
+
+#: ../src/gui/callbacks.cpp:195
+msgid ""
+"Ekiga is full-featured SIP and H.323 compatible VoIP, IP-Telephony and "
+"Videoconferencing application that allows you to make audio and video calls "
+"to remote users with SIP and H.323 hardware or software."
+msgstr ""
+"Az Ekiga egy teljes értékű SIP és H.323 kompatibilis VoIP, IP-telefon és "
+"videokonferencia alkalmazás, amely lehetővé teszi kép- és hanghívások "
+"átvitelét távoli felhasználókhoz SIP és H.323 hardver vagy szoftver "
+"segítségével."
+
+#: ../src/gui/callbacks.cpp:269
+msgid "Help display is not supported by your GTK+ version"
+msgstr "A súgó megjelenítését nem támogatja a GTK+ ezen verziója"
+
+#: ../src/gui/callbacks.cpp:277
+msgid "Unable to open help file."
+msgstr "A súgófájl megnyitása sikertelen."
+
+#: ../src/gui/dialpad.cpp:55
+msgid "abc"
+msgstr "abc"
+
+#: ../src/gui/dialpad.cpp:56
+msgid "def"
+msgstr "def"
+
+#: ../src/gui/dialpad.cpp:57
+msgid "ghi"
+msgstr "ghi"
+
+#: ../src/gui/dialpad.cpp:58
+msgid "jkl"
+msgstr "jkl"
+
+#: ../src/gui/dialpad.cpp:59
+msgid "mno"
+msgstr "mno"
+
+#: ../src/gui/dialpad.cpp:60
+msgid "pqrs"
+msgstr "pqrs"
+
+#: ../src/gui/dialpad.cpp:61
+msgid "tuv"
+msgstr "tuv"
+
+#: ../src/gui/dialpad.cpp:62
+msgid "wxyz"
+msgstr "wxyz"
+
+#. Translators: Is displayed once an account "%s" is registered.
+#: ../src/gui/main.cpp:519
+#, c-format
+msgid "Registered %s"
+msgstr "%s regisztrálva"
+
+#. Translators: Is displayed once an account "%s" is unregistered.
+#: ../src/gui/main.cpp:526
+#, c-format
+msgid "Unregistered %s"
+msgstr "Regisztráció törölve: %s"
+
+#: ../src/gui/main.cpp:531
+#, c-format
+msgid "Could not unregister %s"
+msgstr "%s regisztrációja nem törölhető"
+
+#: ../src/gui/main.cpp:535
+#, c-format
+msgid "Could not register %s"
+msgstr "%s nem regisztrálható"
+
+#: ../src/gui/main.cpp:605
+#, c-format
+msgid "A:%.1f/%.1f   V:%.1f/%.1f   FPS:%d/%d"
+msgstr "H:%.1f/%.1f   V:%.1f/%.1f   FPS:%d/%d"
+
+#: ../src/gui/main.cpp:651
+#, c-format
+msgid "Connected with %s"
+msgstr "Csatlakozva ehhez: %s"
+
+#: ../src/gui/main.cpp:692 ../src/gui/main.cpp:3512
+msgid "Standby"
+msgstr "Készenlét"
+
+#: ../src/gui/main.cpp:753
+msgid "Call on hold"
+msgstr "Hívástartás"
+
+#: ../src/gui/main.cpp:764
+msgid "Call retrieved"
+msgstr "Hívás lekérve"
+
+#: ../src/gui/main.cpp:780
+#, c-format
+msgid "Missed call from %s"
+msgstr "Nem fogadott hívás ettől: %s"
+
+#: ../src/gui/main.cpp:917
+msgid "Error"
+msgstr "Hiba"
+
+#: ../src/gui/main.cpp:982
+msgid "Error while initializing video output"
+msgstr "Hiba a videokimenet előkészítése közben"
+
+#: ../src/gui/main.cpp:983
+msgid "No video will be displayed during this call->"
+msgstr "Nem jelenik meg videó a hívás során ->"
+
+#: ../src/gui/main.cpp:993
+msgid ""
+"There was an error opening or initializing the video output. Please verify "
+"that no other application is using the accelerated video output."
+msgstr ""
+"Hiba történt a videokimenet megnyitása vagy előkészítése során. Ellenőrizze, "
+"hogy nem használja más eszköz a gyorsított videokimenetet."
+
+#: ../src/gui/main.cpp:995
+msgid ""
+"There was an error opening or initializing the video output. Please verify "
+"that you are using a color depth of 24 or 32 bits per pixel."
+msgstr ""
+"Hiba történt a videokimenet megnyitása vagy előkészítése során. Ellenőrizze, "
+"hogy 24 vagy 32 bites színmélységet használ-e."
+
+#. Translators: This is a hotplug status
+#: ../src/gui/main.cpp:1108
+#, c-format
+msgid "Added video input device %s"
+msgstr "%s hangbemeneti eszköz felvéve"
+
+#. Translators: This is a hotplug status
+#: ../src/gui/main.cpp:1120
+#, c-format
+msgid "Removed video input device %s"
+msgstr "%s videobemeneti eszköz eltávolítva"
+
+#: ../src/gui/main.cpp:1137
+#, c-format
+msgid "Error while accessing video device %s"
+msgstr "Hiba a videoeszköz (%s) elérésekor"
+
+#: ../src/gui/main.cpp:1140
+msgid ""
+"A moving logo will be transmitted during calls. Notice that you can always "
+"transmit a given image or the moving logo by choosing \"Picture\" as video "
+"plugin and \"Moving logo\" or \"Static picture\" as device."
+msgstr ""
+"Hívások közben egy mozgó logó kerül átvitelre. Ne feledje, hogy bármikor "
+"átvihet egy adott képet vagy a mozgó logót, ha videobővítményként a „Képet”, "
+"eszközként pedig a „Mozgó logót” vagy a „Statikus képet” választja."
+
+#: ../src/gui/main.cpp:1144
+msgid ""
+"There was an error while opening the device. In case it is a pluggable "
+"device it may be sufficient to reconnect it. If not, or if it still is not "
+"accessible, please check your permissions and make sure that the appropriate "
+"driver is loaded."
+msgstr ""
+"Hiba történt az eszköz megnyitása közben. Ha ez egy eltávolítható eszköz, "
+"elegendő lehet az újracsatlakoztatása. Ellenkező esetben ellenőrizze a "
+"jogosultságait és győződjön meg, hogy a megfelelő illesztőprogram be van "
+"töltve."
+
+#: ../src/gui/main.cpp:1148
+msgid "Your video driver doesn't support the requested video format."
+msgstr "A videomeghajtója nem támogatja a kért videoformátumot."
+
+#: ../src/gui/main.cpp:1152
+msgid "Could not open the chosen channel."
+msgstr "Nem lehet megnyitni a kiválasztott csatornát."
+
+#: ../src/gui/main.cpp:1156
+msgid ""
+"Your driver doesn't seem to support any of the color formats supported by "
+"Ekiga.\n"
+" Please check your kernel driver documentation in order to determine which "
+"Palette is supported."
+msgstr ""
+"Úgy tűnik, az illesztőprogram nem támogatja az Ekiga által támogatott "
+"színformátumok egyikét sem.\n"
+"Ellenőrizze a rendszermag-illesztőprogram dokumentációját a támogatott "
+"paletták meghatározása érdekében."
+
+#: ../src/gui/main.cpp:1160
+msgid "Error while setting the frame rate."
+msgstr "Hiba a képkockasebesség beállítása közben."
+
+#: ../src/gui/main.cpp:1164
+msgid "Error while setting the frame size."
+msgstr "Hiba a képkockaméret beállítása közben."
+
+#: ../src/gui/main.cpp:1169 ../src/gui/main.cpp:1271 ../src/gui/main.cpp:1386
+msgid "Unknown error."
+msgstr "Ismeretlen hiba."
+
+#. Translators: This is a hotplug status
+#: ../src/gui/main.cpp:1219
+#, c-format
+msgid "Added audio input device %s"
+msgstr "%s hangbemeneti eszköz felvéve"
+
+#. Translators: This is a hotplug status
+#: ../src/gui/main.cpp:1236
+#, c-format
+msgid "Removed audio input device %s"
+msgstr "%s hangbemeneti eszköz eltávolítva"
+
+#: ../src/gui/main.cpp:1253
+#, c-format
+msgid "Error while opening audio input device %s"
+msgstr "Hiba a hangbemeneti eszköz (%s) megnyitása közben"
+
+#. Translators: This happens when there is an error with audio input:
+#. * Nothing ("silence") will be transmitted
+#: ../src/gui/main.cpp:1258
+msgid "Only silence will be transmitted."
+msgstr "Csak csend kerül átvitelre."
+
+#: ../src/gui/main.cpp:1262
+msgid ""
+"Unable to open the selected audio device for recording. In case it is a "
+"pluggable device it may be sufficient to reconnect it. If not, or if it "
+"still is not accessible, please check your audio setup, the permissions and "
+"that the device is not busy."
+msgstr ""
+"A kiválasztott hangeszköz megnyitása felvételre lehetetlen. Ha ez egy "
+"eltávolítható eszköz, elegendő lehet az újracsatlakoztatása. Ellenkező "
+"esetben ellenőrizze a hangbeállításait, a jogosultságokat és hogy az eszköz "
+"nem foglalt-e."
+
+#: ../src/gui/main.cpp:1266
+msgid ""
+"The selected audio device was successfully opened but it is impossible to "
+"read data from this device. In case it is a pluggable device it may be "
+"sufficient to reconnect it. If not, or if it still is not accessible, please "
+"check your audio setup."
+msgstr ""
+"A kiválasztott hangeszköz megnyitása sikerült, de lehetetlen adatot olvasni "
+"az eszközből. Ha ez egy eltávolítható eszköz, elegendő lehet az "
+"újracsatlakoztatása. Ellenkező esetben ellenőrizze a hangbeállításait."
+
+#: ../src/gui/main.cpp:1333
+#, c-format
+msgid "Added audio output device %s"
+msgstr "%s hangkimeneti eszköz felvéve"
+
+#: ../src/gui/main.cpp:1349
+#, c-format
+msgid "Removed audio output device %s"
+msgstr "%s hangkimeneti eszköz eltávolítva"
+
+#: ../src/gui/main.cpp:1370
+#, c-format
+msgid "Error while opening audio output device %s"
+msgstr "Hiba a hangkimeneti eszköz (%s) megnyitása közben"
+
+#: ../src/gui/main.cpp:1373
+msgid "No incoming sound will be played."
+msgstr "Nem kerül lejátszásra a bejövő hang."
+
+#: ../src/gui/main.cpp:1377
+msgid ""
+"Unable to open the selected audio device for playing. In case it is a "
+"pluggable device it may be sufficient to reconnect it. If not, or if it "
+"still is not accessible, please check your audio setup, the permissions and "
+"that the device is not busy."
+msgstr ""
+"A kiválasztott hangeszköz megnyitása lejátszásra lehetetlen. Ha ez egy "
+"eltávolítható eszköz, elegendő lehet az újracsatlakoztatása. Ellenkező "
+"esetben ellenőrizze a hangbeállításait, a jogosultságokat és hogy az eszköz "
+"nem foglalt-e."
+
+#: ../src/gui/main.cpp:1381
+msgid ""
+"The selected audio device was successfully opened but it is impossible to "
+"write data to this device. In case it is a pluggable device it may be "
+"sufficient to reconnect it. If not, or if it still is not accessible, please "
+"check your audio setup."
+msgstr ""
+"A kiválasztott hangeszköz megnyitása sikerült, de lehetetlen adatot írni az "
+"eszközre. Ha ez egy eltávolítható eszköz, elegendő lehet az "
+"újracsatlakoztatása. Ellenkező esetben ellenőrizze a hangbeállításait."
+
+#: ../src/gui/main.cpp:1569
+msgid "Video Settings"
+msgstr "Videóbeállítások"
+
+#: ../src/gui/main.cpp:1596
+msgid "Adjust brightness"
+msgstr "Fényesség beállítása"
+
+#: ../src/gui/main.cpp:1617
+msgid "Adjust whiteness"
+msgstr "Fehéregyensúly beállítása"
+
+#: ../src/gui/main.cpp:1638
+msgid "Adjust color"
+msgstr "Színek beállítása"
+
+#: ../src/gui/main.cpp:1659
+msgid "Adjust contrast"
+msgstr "Kontraszt beállítása"
+
+#: ../src/gui/main.cpp:1705
+msgid "Audio Settings"
+msgstr "Hangbeállítások"
+
+#: ../src/gui/main.cpp:2316
+msgid "_Retrieve Call"
+msgstr "Hívás _visszavétele"
+
+#: ../src/gui/main.cpp:2329
+msgid "_Hold Call"
+msgstr "Hívás_tartás"
+
+#: ../src/gui/main.cpp:2361 ../src/gui/main.cpp:3149
+msgid "Suspend _Audio"
+msgstr "_Hang felfüggesztése"
+
+#: ../src/gui/main.cpp:2363 ../src/gui/main.cpp:3154
+msgid "Suspend _Video"
+msgstr "_Video felfüggesztése"
+
+#: ../src/gui/main.cpp:2365
+msgid "Resume _Audio"
+msgstr "_Hang vissza"
+
+#: ../src/gui/main.cpp:2367
+msgid "Resume _Video"
+msgstr "_Video vissza"
+
+#: ../src/gui/main.cpp:2650 ../src/gui/main.cpp:2802
+msgid "Reject"
+msgstr "Visszautasítás"
+
+#: ../src/gui/main.cpp:2652 ../src/gui/main.cpp:2801
+msgid "Accept"
+msgstr "Elfogadás"
+
+#: ../src/gui/main.cpp:2658 ../src/gui/main.cpp:2789
+msgid "Incoming call from"
+msgstr "Bejövő hívás ettől"
+
+#: ../src/gui/main.cpp:2676 ../src/gui/main.cpp:2792
+msgid "Remote URI:"
+msgstr "Túloldali URI:"
+
+#: ../src/gui/main.cpp:2688 ../src/gui/main.cpp:2794
+msgid "Remote Application:"
+msgstr "Túloldali alkalmazás:"
+
+#: ../src/gui/main.cpp:2709
+#, c-format
+msgid "Call from %s"
+msgstr "Hívás ettől: %s"
+
+#: ../src/gui/main.cpp:2915
+#, c-format
+msgid "Call Duration: %s\n"
+msgstr "Hívás időtartama: %s\n"
+
+#: ../src/gui/main.cpp:2946
+msgid "Transfer call to:"
+msgstr "Hívás átadása ide:"
+
+#: ../src/gui/main.cpp:2998
+msgid "No"
+msgstr "Nem"
+
+#: ../src/gui/main.cpp:3000
+msgid "Yes"
+msgstr "Igen"
+
+#: ../src/gui/main.cpp:3011
+msgid "Detected new audio input device:"
+msgstr "Új hangbemeneti eszköz:"
+
+#: ../src/gui/main.cpp:3015
+msgid "Detected new audio output device:"
+msgstr "Új hangkimeneti eszköz:"
+
+#: ../src/gui/main.cpp:3019
+msgid "Detected new video input device:"
+msgstr "Új videobemeneti eszköz:"
+
+#: ../src/gui/main.cpp:3020 ../src/gui/preferences.cpp:921
+msgid "Video Devices"
+msgstr "Videoeszközök"
+
+#: ../src/gui/main.cpp:3038
+msgid "Do you want to use it as default device?"
+msgstr "Kívánja alapértelmezett eszközként használni?"
+
+#: ../src/gui/main.cpp:3106
+msgid "_Chat"
+msgstr "_Csevegés"
+
+#: ../src/gui/main.cpp:3108
+msgid "Ca_ll"
+msgstr "_Hívás"
+
+#: ../src/gui/main.cpp:3108
+msgid "Place a new call"
+msgstr "Új hívás"
+
+#: ../src/gui/main.cpp:3111
+msgid "_Hang up"
+msgstr "_Felfüggesztés"
+
+#: ../src/gui/main.cpp:3112
+msgid "Terminate the current call"
+msgstr "Jelenlegi hívás befejezése"
+
+#: ../src/gui/main.cpp:3118
+msgid "A_dd Contact"
+msgstr "Partner _hozzáadása"
+
+#: ../src/gui/main.cpp:3118
+msgid "Add a contact to the roster"
+msgstr "Partner felvétele a partnerlistára"
+
+#: ../src/gui/main.cpp:3123
+msgid "Find contacts"
+msgstr "Partnerek keresése"
+
+#: ../src/gui/main.cpp:3130
+msgid "_Contact"
+msgstr "_Partner"
+
+#: ../src/gui/main.cpp:3131
+msgid "Act on selected contact"
+msgstr "Művelet a kiválasztott partneren"
+
+#: ../src/gui/main.cpp:3137
+msgid "H_old Call"
+msgstr "Hívás_tartás"
+
+#: ../src/gui/main.cpp:3137 ../src/gui/main.cpp:3606
+msgid "Hold the current call"
+msgstr "Jelenlegi hívás tartása"
+
+#: ../src/gui/main.cpp:3141
+msgid "_Transfer Call"
+msgstr "_Hívásátadás"
+
+#: ../src/gui/main.cpp:3142
+msgid "Transfer the current call"
+msgstr "Jelenlegi hívás átadása"
+
+#: ../src/gui/main.cpp:3150
+msgid "Suspend or resume the audio transmission"
+msgstr "Hangátvitel felfüggesztése vagy újraindítása"
+
+#: ../src/gui/main.cpp:3155
+msgid "Suspend or resume the video transmission"
+msgstr "Videoátvitel felfüggesztése vagy újraindítása"
+
+#: ../src/gui/main.cpp:3162
+msgid "Close the Ekiga window"
+msgstr "Az Ekiga ablak bezárása"
+
+#: ../src/gui/main.cpp:3169 ../src/gui/statusicon.cpp:406
+msgid "Quit"
+msgstr "Kilépés"
+
+#: ../src/gui/main.cpp:3175
+msgid "_Configuration Assistant"
+msgstr "_Beállítóasszisztens"
+
+#: ../src/gui/main.cpp:3176
+msgid "Run the configuration assistant"
+msgstr "A beállítóasszisztens futtatása"
+
+#: ../src/gui/main.cpp:3184
+msgid "Edit your accounts"
+msgstr "Felhasználói fiókok szerkesztése"
+
+#: ../src/gui/main.cpp:3190
+msgid "Change your preferences"
+msgstr "Beállítások megváltoztatása"
+
+#: ../src/gui/main.cpp:3195
+msgid "_View"
+msgstr "_Nézet"
+
+#: ../src/gui/main.cpp:3197
+msgid "Con_tacts"
+msgstr "_Partnerek"
+
+#: ../src/gui/main.cpp:3197
+msgid "View the contacts list"
+msgstr "Partnerlista megtekintése"
+
+#: ../src/gui/main.cpp:3202
+msgid "_Dialpad"
+msgstr "_Tárcsázókészülék"
+
+#: ../src/gui/main.cpp:3202
+msgid "View the dialpad"
+msgstr "A tárcsázókészülék megjelenítése"
+
+#: ../src/gui/main.cpp:3207
+msgid "_Call History"
+msgstr "_Hívástörténet"
+
+#: ../src/gui/main.cpp:3207
+msgid "View the call history"
+msgstr "A hívástörténet megtekintése"
+
+#: ../src/gui/main.cpp:3215
+msgid "_Show Call Panel"
+msgstr "Hí_vás ablak megjelenítése"
+
+#: ../src/gui/main.cpp:3223
+msgid "_Local Video"
+msgstr "_Helyi videó"
+
+#: ../src/gui/main.cpp:3224
+msgid "Local video image"
+msgstr "Helyi videokép"
+
+#: ../src/gui/main.cpp:3229
+msgid "_Remote Video"
+msgstr "_Távoli videó"
+
+#: ../src/gui/main.cpp:3230
+msgid "Remote video image"
+msgstr "Túloldali videokép"
+
+#: ../src/gui/main.cpp:3235
+msgid "_Picture-in-Picture"
+msgstr "_Kép a képben"
+
+#: ../src/gui/main.cpp:3236 ../src/gui/main.cpp:3242
+msgid "Both video images"
+msgstr "Mindkét videokép"
+
+#: ../src/gui/main.cpp:3241
+msgid "Picture-in-Picture in Separate _Window"
+msgstr "Ké_p a képben külön ablakban"
+
+#: ../src/gui/main.cpp:3249
+msgid "Zoom in"
+msgstr "Nagyítás"
+
+#: ../src/gui/main.cpp:3253
+msgid "Zoom out"
+msgstr "Kicsinyítés"
+
+#: ../src/gui/main.cpp:3257
+msgid "Normal size"
+msgstr "Normál méret"
+
+#: ../src/gui/main.cpp:3261
+msgid "_Fullscreen"
+msgstr "_Teljes képernyő"
+
+#: ../src/gui/main.cpp:3261
+msgid "Switch to fullscreen"
+msgstr "Átkapcsolás teljes képernyőre"
+
+#: ../src/gui/main.cpp:3269 ../src/gui/statusicon.cpp:394
+msgid "Get help by reading the Ekiga manual"
+msgstr "Az Ekiga kézikönyvének megtekintése"
+
+#: ../src/gui/main.cpp:3274 ../src/gui/statusicon.cpp:399
+msgid "View information about Ekiga"
+msgstr "Információk megtekintése az Ekigaról"
+
+#: ../src/gui/main.cpp:3348
+msgid "Enter a URI on the left, and click this button to place a call or to hangup"
+msgstr ""
+"Adja meg a felhívandó URI címet a bal oldalon, majd kattintson erre a gombra "
+"a híváshoz vagy a hívás befejezéséhez."
+
+#: ../src/gui/main.cpp:3399
+msgid "Contacts"
+msgstr "Partnerek"
+
+#: ../src/gui/main.cpp:3422
+msgid "Dialpad"
+msgstr "Tárcsázókészülék"
+
+#: ../src/gui/main.cpp:3441
+msgid "Call history"
+msgstr "Hívástörténet"
+
+#: ../src/gui/main.cpp:3544
+msgid "Change the volume of your soundcard"
+msgstr "A hangkártya hangerejének módosítása"
+
+#: ../src/gui/main.cpp:3564
+msgid "Change the color settings of your video device"
+msgstr "A videoeszköz színbeállításainak módosítása"
+
+#: ../src/gui/main.cpp:3675
+msgid "Ekiga"
+msgstr "Ekiga"
+
+#. Translators:
+#. * TX is a common abbreviation for "transmit"
+#: ../src/gui/main.cpp:4282
+#, c-format
+msgid "TX: %dx%d "
+msgstr "Küldés: %dx%d "
+
+#. Translators:
+#. * RX is a common abbreviation for "receive"
+#: ../src/gui/main.cpp:4287
+#, c-format
+msgid "RX: %dx%d "
+msgstr "Fogadás: %dx%d "
+
+#: ../src/gui/main.cpp:4289
+#, c-format
+msgid ""
+"Lost packets: %.1f %%\n"
+"Late packets: %.1f %%\n"
+"Out of order packets: %.1f %%\n"
+"Jitter buffer: %d ms%s%s%s"
+msgstr ""
+"Elveszett csomagok: %.1f %%\n"
+"Elkésett csomagok: %.1f %%\n"
+"Hibás csomagok: %.1f %%ms\n"
+"Jitter puffer: %d ms%s%s%s"
+
+#: ../src/gui/main.cpp:4406
+msgid "Prints debug messages in the console (level between 1 and 5)"
+msgstr "Hibakövető üzenetek kiírása a konzolra (1-es és 5-ös szint között)"
+
+#: ../src/gui/main.cpp:4411
+msgid "Prints user plane debug messages in the console (level between 1 and 4)"
+msgstr "Hibakövető üzenetek kiírása a konzolra (1-es és 5-ös szint között)"
+
+#: ../src/gui/main.cpp:4416
+msgid "Makes Ekiga call the given URI"
+msgstr "Az Ekiga felhívja a megadott URI címet"
+
+#: ../src/gui/main.cpp:4528
+msgid "No usable audio plugin detected"
+msgstr "Nem találtam használható hangbővítményt"
+
+#: ../src/gui/main.cpp:4529
+msgid ""
+"Ekiga didn't find any usable audio plugin. Make sure that your installation "
+"is correct."
+msgstr ""
+"Az Ekiga nem talált egyetlen használható hangbővítményt sem. Győződjön meg, "
+"hogy a telepítés megfelelő."
+
+#: ../src/gui/main.cpp:4532
+msgid "No usable audio codecs detected"
+msgstr "Nem találhatók használható hangkodekek"
+
+#: ../src/gui/main.cpp:4533
+msgid ""
+"Ekiga didn't find any usable audio codec. Make sure that your installation "
+"is correct."
+msgstr ""
+"Az Ekiga nem talált egyetlen használható hangkodeket sem. Győződjön meg, "
+"hogy a telepítés megfelelő."
+
+#: ../src/gui/preferences.cpp:381
+msgid "Play sound for new voice mails"
+msgstr "Hang lejátszása új hangüzeneteknél"
+
+#: ../src/gui/preferences.cpp:391
+msgid "Play sound for new instant messages"
+msgstr "Hang lejátszása új azonnali üzeneteknél"
+
+#: ../src/gui/preferences.cpp:457
+msgid "_Full name:"
+msgstr "_Teljes név:"
+
+#: ../src/gui/preferences.cpp:475
+msgid "User Interface"
+msgstr "Felhasználói felület"
+
+#: ../src/gui/preferences.cpp:477
+msgid "Start _hidden"
+msgstr "Indítás _rejtve"
+
+#: ../src/gui/preferences.cpp:479
+msgid "Show offline _contacts"
+msgstr "_Offline partnerek megjelenítése"
+
+#: ../src/gui/preferences.cpp:484
+msgid "Video Display"
+msgstr "Videomegjelenítő"
+
+#: ../src/gui/preferences.cpp:486
+msgid "Place windows displaying video _above other windows"
+msgstr "A videoablak megjelenítése más ablakok _fölött"
+
+#: ../src/gui/preferences.cpp:490
+msgid "Network Settings"
+msgstr "Hálózati beállítások"
+
+#: ../src/gui/preferences.cpp:492
+msgid "Disable network _detection"
+msgstr "_Hálózatérzékelés letiltása"
+
+#: ../src/gui/preferences.cpp:503
+msgid "Call Forwarding"
+msgstr "Hívástovábbítás"
+
+#: ../src/gui/preferences.cpp:505
+msgid "_Always forward calls to the given host"
+msgstr "_Mindig továbbítsa a hívást az adott állomásnak"
+
+#: ../src/gui/preferences.cpp:505
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the protocol settings"
+msgstr ""
+"Ha engedélyezve van, akkor minden bejövő hívás a protokollbeállításokban "
+"megadott kiszolgálóra lesz továbbítva"
+
+#: ../src/gui/preferences.cpp:507
+msgid "Forward calls to the given host if _no answer"
+msgstr "Hívások továbbítása az adott állomásnak _válasz elmaradása esetén"
+
+#: ../src/gui/preferences.cpp:507
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the protocol settings if you do not answer the call"
+msgstr ""
+"Ha engedélyezi, minden bejövő hívás a protokollbeállításokban megadott "
+"kiszolgálóra lesz továbbítva, ha nem válaszol a hívásra"
+
+#: ../src/gui/preferences.cpp:509
+msgid "Forward calls to the given host if _busy"
+msgstr "Hívások továbbítása az adott állomásnak _foglaltság esetén"
+
+#: ../src/gui/preferences.cpp:509
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the protocol settings if you already are in a call or if you "
+"are in Do Not Disturb mode"
+msgstr ""
+"Ha engedélyezi, minden bejövő hívás a protokollbeállításokban megadott "
+"kiszolgálóra lesz továbbítva, ha már folyamatban van egy hívás vagy Ne "
+"zavarjanak módban van"
+
+#: ../src/gui/preferences.cpp:513 ../src/gui/preferences.cpp:1361
+msgid "Call Options"
+msgstr "Hívásbeállítások"
+
+#. Add all the fields
+#: ../src/gui/preferences.cpp:516
+msgid "Timeout to reject or forward unanswered incoming calls (in seconds):"
+msgstr ""
+"Megválaszolatlan bejövő hívások visszautasításának vagy továbbításának "
+"időkorlátja (másodpercben):"
+
+#: ../src/gui/preferences.cpp:548
+msgid "Ekiga Sound Events"
+msgstr "Ekiga hangesemények"
+
+#: ../src/gui/preferences.cpp:598
+msgid "Event"
+msgstr "Esemény"
+
+#: ../src/gui/preferences.cpp:610
+msgid "Choose a sound"
+msgstr "Válasszon egy hangot"
+
+#: ../src/gui/preferences.cpp:615
+msgid "Wavefiles"
+msgstr "Wav-fájlok"
+
+#: ../src/gui/preferences.cpp:624 ../src/gui/preferences.cpp:643
+msgid "Play"
+msgstr "Lejátszás"
+
+#: ../src/gui/preferences.cpp:664
+msgid "String"
+msgstr "Karakterlánc"
+
+#: ../src/gui/preferences.cpp:665
+msgid "Tone"
+msgstr "Hang"
+
+#: ../src/gui/preferences.cpp:666 ../src/gui/preferences.cpp:715
+msgid "RFC2833"
+msgstr "RFC2833"
+
+#: ../src/gui/preferences.cpp:667
+msgid "Q.931"
+msgstr "Q.931"
+
+#: ../src/gui/preferences.cpp:673 ../src/gui/preferences.cpp:725
+msgid "Misc Settings"
+msgstr "Egyéb beállítások"
+
+#: ../src/gui/preferences.cpp:676 ../src/gui/preferences.cpp:730
+msgid "Forward _URI:"
+msgstr "_Továbbítási URI:"
+
+#: ../src/gui/preferences.cpp:685
+msgid "Advanced Settings"
+msgstr "Haladó beállítások"
+
+#. The toggles
+#: ../src/gui/preferences.cpp:688
+msgid "Enable H.245 _tunneling"
+msgstr "H.245 _alagutazás engedélyezése"
+
+#: ../src/gui/preferences.cpp:690
+msgid "Enable _early H.245"
+msgstr "_Korai H.245 engedélyezése"
+
+#: ../src/gui/preferences.cpp:692
+msgid "Enable fast _start procedure"
+msgstr "_Gyors indítás engedélyezése"
+
+#: ../src/gui/preferences.cpp:692
+msgid ""
+"Connection will be established in Fast Start mode. Fast Start is a new way "
+"to start calls faster that was introduced in H.323v2. It is not supported by "
+"Netmeeting and using both Fast Start and H.245 Tunneling can crash some "
+"versions of Netmeeting."
+msgstr ""
+"A kapcsolatot gyors indítás módban hozza létre. A gyors indítás a hívások "
+"indításának egy gyorsabb módja, mint amit a H.323v2 bevezetett. A Netmeeting "
+"nem támogatja. A gyors indítás és a H.245 alagutazás együttes használata "
+"összeomlaszthatja a Netmeeting egyes verzióit."
+
+#: ../src/gui/preferences.cpp:698 ../src/gui/preferences.cpp:738
+msgid "DTMF Mode"
+msgstr "DTMF mód"
+
+#: ../src/gui/preferences.cpp:700 ../src/gui/preferences.cpp:740
+msgid "_Send DTMF as:"
+msgstr "DMTF _küldése mint:"
+
+#: ../src/gui/preferences.cpp:700 ../src/gui/preferences.cpp:740
+msgid "This allows you to set the mode for DTMFs sending."
+msgstr "Ez lehetővé teszi a mód beállítását a DMTF-ek küldéséhez."
+
+#: ../src/gui/preferences.cpp:716
+msgid "INFO"
+msgstr "INFORMÁCIÓK"
+
+#: ../src/gui/preferences.cpp:727
+msgid "_Outbound Proxy:"
+msgstr "_Kimenő proxy:"
+
+#: ../src/gui/preferences.cpp:768
+msgid "Ringing Device"
+msgstr "Csengési eszköz"
+
+#: ../src/gui/preferences.cpp:768
+msgid "Select the ringing audio device to use"
+msgstr "Válassza ki a használni kívánt csengési hangeszközt"
+
+#: ../src/gui/preferences.cpp:770
+msgid "Output device:"
+msgstr "Kimeneti eszköz:"
+
+#: ../src/gui/preferences.cpp:777 ../src/gui/preferences.cpp:928
+msgid "Input device:"
+msgstr "Bemeneti eszköz:"
+
+#. That button will refresh the device list
+#: ../src/gui/preferences.cpp:782 ../src/gui/preferences.cpp:939
+msgid "_Detect devices"
+msgstr "Eszközök _detektálása"
+
+#: ../src/gui/preferences.cpp:782 ../src/gui/preferences.cpp:939
+msgid "Click here to refresh the device list."
+msgstr "Kattintson ide az eszközlista frissítéséhez."
+
+#: ../src/gui/preferences.cpp:906
+msgid "PAL (Europe)"
+msgstr "PAL (Európa)"
+
+#: ../src/gui/preferences.cpp:907
+msgid "NTSC (America)"
+msgstr "NTSC (Amerika)"
+
+#: ../src/gui/preferences.cpp:908
+msgid "SECAM (France)"
+msgstr "SECAM (Franciaország)"
+
+#: ../src/gui/preferences.cpp:909
+msgid "Auto"
+msgstr "Auto"
+
+#. Video Channel
+#: ../src/gui/preferences.cpp:932
+msgid "Channel:"
+msgstr "Csatorna:"
+
+#: ../src/gui/preferences.cpp:934
+msgid "Size:"
+msgstr "Méret:"
+
+#: ../src/gui/preferences.cpp:934
+msgid "Select the transmitted video size"
+msgstr "Válassza ki az átvinni kívánt video méretét"
+
+#: ../src/gui/preferences.cpp:936
+msgid "Format:"
+msgstr "Formátum:"
+
+#: ../src/gui/preferences.cpp:963 ../src/gui/preferences.cpp:1002
+#: ../src/gui/preferences.cpp:1386 ../src/gui/preferences.cpp:1396
+msgid "Codecs"
+msgstr "Kodekek"
+
+#: ../src/gui/preferences.cpp:976 ../src/gui/preferences.cpp:1015
+msgid "Settings"
+msgstr "Beállítások"
+
+#. Translators: the full sentence is Automatically adjust jitter buffer
+#. between X and Y ms
+#: ../src/gui/preferences.cpp:980
+msgid "Enable silence _detection"
+msgstr "_Csendérzékelés engedélyezése"
+
+#: ../src/gui/preferences.cpp:980
+msgid "If enabled, use silence detection with the codecs supporting it."
+msgstr "Ezzel engedélyezheti a csendérzékelés használatát az azt támogató kodekeknél."
+
+#: ../src/gui/preferences.cpp:982
+msgid "Enable echo can_celation"
+msgstr "_Visszhangtörlés engedélyezése"
+
+#: ../src/gui/preferences.cpp:982
+msgid "If enabled, use echo cancelation."
+msgstr "Ha engedélyezi, használja a visszhangtörlést."
+
+#: ../src/gui/preferences.cpp:984
+msgid "Maximum _jitter buffer (in ms):"
+msgstr "_Maximális jitter puffer (ezredmásodpercben):"
+
+#: ../src/gui/preferences.cpp:984
+msgid "The maximum jitter buffer size for audio reception (in ms)."
+msgstr "Maximális jitter puffer mérete a hangfogadáshoz (ezredmásodpercben)."
+
+#. Translators: the full sentence is Keep a minimum video quality of X %
+#: ../src/gui/preferences.cpp:1018
+msgid "Picture Quality"
+msgstr "Minőség"
+
+#: ../src/gui/preferences.cpp:1018
+msgid ""
+"Choose if you want to guarantee a minimum image quality (possibly leading to "
+"dropped frames in order not to surpass the bitrate limit) or if you prefer "
+"to keep the frame rate."
+msgstr ""
+"Válassza ki, hogy a minimális képminőséget (ez képkockadobást okozhat, a "
+"bitsebesség-korlát betartása érdekében) vagy a képkockasebességet kívánja "
+"garantált szinten tartani."
+
+#: ../src/gui/preferences.cpp:1020
+msgid "Maximum video _bitrate (in kbits/s):"
+msgstr "Maximális video _bitsebesség (kB/mp-ben):"
+
+#: ../src/gui/preferences.cpp:1020
+msgid ""
+"The maximum video bitrate in kbits/s. The video quality and the effective "
+"frame rate will be dynamically adjusted to keep the bitrate at the given "
+"value."
+msgstr ""
+"A video bitsebesség felső határa Kb/mp-ben. A videominőség és a tényleges "
+"képkockasebesség száma hívás közben dinamikusan kerülnek beállításra a "
+"bitsebesség megadott szinten tartása érdekében."
+
+#: ../src/gui/preferences.cpp:1333
+msgid "Ekiga Preferences"
+msgstr "Az Ekiga beállításai"
+
+#: ../src/gui/preferences.cpp:1351
+msgid "General"
+msgstr "Általános"
+
+#: ../src/gui/preferences.cpp:1352
+msgid "Personal Data"
+msgstr "Személyes adatok"
+
+#: ../src/gui/preferences.cpp:1357
+msgid "General Settings"
+msgstr "Általános beállítások"
+
+#: ../src/gui/preferences.cpp:1366
+msgid "Sound Events"
+msgstr "Hangesemények"
+
+#: ../src/gui/preferences.cpp:1370
+msgid "Protocols"
+msgstr "Protokollok"
+
+#: ../src/gui/preferences.cpp:1372
+msgid "SIP Settings"
+msgstr "SIP beállítások"
+
+#: ../src/gui/preferences.cpp:1377
+msgid "H.323 Settings"
+msgstr "H.323 beállítások"
+
+#: ../src/gui/preferences.cpp:1381
+msgid "Audio"
+msgstr "Hang"
+
+#: ../src/gui/preferences.cpp:1382 ../src/gui/preferences.cpp:1392
+msgid "Devices"
+msgstr "Eszközök"
+
+#: ../src/gui/preferences.cpp:1391
+msgid "Video"
+msgstr "Video"
+
+#: ../src/gui/statusicon.cpp:305
+#, c-format
+msgid "You have %d message"
+msgid_plural "You have %d messages"
+msgstr[0] "%d üzenete érkezett"
+msgstr[1] "%d üzenete érkezett"
+
+#: ../src/gui/statusmenu.cpp:87
+msgid "Online"
+msgstr "Online"
+
+#: ../src/gui/statusmenu.cpp:88
+msgid "Away"
+msgstr "Távol"
+
+#: ../src/gui/statusmenu.cpp:89
+msgid "Do Not Disturb"
+msgstr "Ne zavarjanak"
+
+#: ../src/gui/statusmenu.cpp:387
+msgid "Custom message..."
+msgstr "Egyéni üzenet..."
+
+#: ../src/gui/statusmenu.cpp:430
+msgid "Clear"
+msgstr "Törlés"
+
+#. Build the dialog
+#: ../src/gui/statusmenu.cpp:521 ../src/gui/statusmenu.cpp:671
+msgid "Custom Message"
+msgstr "Egyéni üzenet"
+
+#: ../src/gui/statusmenu.cpp:537
+msgid "Delete custom messages:"
+msgstr "Egyéni üzenetek törlése:"
+
+#: ../src/gui/statusmenu.cpp:692
+msgid "Define a custom message:"
+msgstr "Adja meg az egyéni üzenetet:"
+

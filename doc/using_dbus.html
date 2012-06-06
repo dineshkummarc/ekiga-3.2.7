@@ -1,0 +1,301 @@
+<html>
+<head>
+	<title>Using Ekiga through DBUS</title>
+</head>
+<body>
+
+<div align="center"><h1>Using Ekiga through DBUS</h1></div>
+
+<h1>Forewords</h1>
+This DBUS interface to ekiga is there to make it possible to control ekiga through
+freedesktop.org's DBUS messaging system. The idea behind the development of this
+software component was to make at least parts of ekiga available nicely to other programs
+(be they desktop applications or scripts).
+
+The ekiga team is well aware that this interface is not complete, and plans on improving
+it in future releases. We still hope it will be of some use in its current form though.
+
+<h1>Generalities</h1>
+
+There are a few important things which should be kept in mind :
+<ul>
+<li>when ekiga gives some information through DBUS, this information may already be obsolete
+when it has gone through</li>
+
+<li>when ekiga is ordered to do something through DBUS, there is no guarantee that it will be
+able to handle the task</li>
+
+<li>ekiga receives orders through its main user interface and possibly through several DBUS programs:
+you're not alone!</li>
+</ul>
+
+<p>Let us see how ekiga would work to deal with a list of objects ('foo'), each having
+an integer property (bar), and a state (state). (Notice: the reader familiar with the way rosters
+are managed in XMPP/jabber will certainly feel at home with that organisation)</p>
+
+<p>All such objects will have a unique string identifier/token/hash. Ekiga will tell us about those
+objects with two signals:
+<ul>
+<li>FooState, which comes with the token and the associated state</li>
+<li>FooBar, which comes with the token and the associated bar property</li>
+</ul>
+</p>
+
+<p>One of the state will be 'invalid', and will be emitted by ekiga to tell us one object was removed from
+the list. We will know an object was added to the list when we receive either FooState or FooBar about it.
+</p>
+
+<p>This already allows a program watching for the signals to display the list and objects,
+and update it when it changes, with one caveat : if we launch the watcher after ekiga,
+we will not know the initial list!
+</p>
+
+<p>This is the reason why ekiga will provide us the exceptional GetFooList method.
+It is exceptional because it returns something, namely the list of current valid identifiers.
+Beware that our example watcher should first start to watch the signals,
+and only then use GetFooList: remember that the list may be obsolete when we get it!
+</p>
+
+<p>Once we have the list of identifiers, we can use the ResignalFooInfo method to ask ekiga to emit signals
+about the given identifier (this method doesn't return anything in itself).
+If the identifier is invalid (or has become since we got it!),
+ekiga will emit the FooState signal with the invalid state.
+</p>
+
+<p>This part of the programming interface is enough to allow a watcher to display the list properly,
+and update it whenever it changes. Now what if don't want to just look at the list, but also act on it?
+</p>
+
+<p>Ekiga may give us a DeleteFoo signal to remove an object from the list.
+This method won't return anything,
+but ekiga will emit the FooState signal in 'invalid' state if it worked.
+</p>
+
+<p>Similarly, we may perhaps be allowed to add an object
+with a CreateFoo method, which would receive the value to give to the bar property.
+The method could either return the identifier of the new object,
+or nothing depending on the situation.
+Ekiga will emit the signals if the creation happened.
+</p>
+
+<p>Finally, changing the value of the bar property, if possible, would be done with a SetFooBar method,
+which would receive the identifier and the new value.
+If things go well, ekiga will then emit the FooBar signal to tell us about the new value.
+</p>
+
+<p>This little example interface is representative of how the other ekiga interfaces work, and hopefully
+the presentation makes it clear how to use it.
+</p>
+
+<p>You can read directly in
+<a href='http://cvs.gnome.org/viewcvs/gnomemeeting/src/components/dbus_stub.xml?view=markup''>this file</a>
+the current(cvs) list of interfaces available in ekiga, with their list of methods and signals.
+The rest of this document is a complement to this file and will try to make things more explicit.
+</p>
+
+<h1>The net.ekiga.accounts interface</h1>
+
+<p>Ekiga doesn't allow to do and know much about the available accounts. The interface is pretty
+straightforward ; the only thing needing more discussion is the semantics of the state integer.
+</p>
+
+<p> The state can take three values:
+<ul>
+	<li>0: invalid</li>
+	<li>1: unregistered</li>
+	<li>2: registered</li>
+</ul>
+</p>
+
+<h1>The net.ekiga.calls interface</h1>
+
+<p>This interface allows to control the calls in which ekiga takes part. This is currently a little
+stupid since ekiga can only handle one, but we left room for future improvements.</p>
+
+<p>Let us begin this tour by documenting the semantics of the call states:
+<ul>
+	<li>0: invalid</li>
+	<li>1: standby</li>
+	<li>2: calling (we called the other end, it is ringing, we wait for an answer)</li>
+	<li>3: connected (the call is running normally)</li>
+	<li>4: called (someone is trying to call us, ekiga rings, waiting for us to answer)</li>
+</ul>
+</p>
+
+<p>Ekiga allows to add and remove calls from the list, using the Connect and Disconnect methods, whose
+meaning should be pretty clear. Notice that Connect returns the call token,
+so if we decide to call someone we can track what happened.
+</p>
+
+<p>Here are the various informations we can have about a call (not all of them may be available!):
+<ul>
+	<li>StateChanged: gives the state of the call, as documented</li>
+	<li>NameInfo: the name of the remote party</li>
+	<li>ClientInfo: the name and version of the remote program</li>
+	<li>UrlInfo: the address of the remote party</li>
+	<li>ProtocolInfo: which protocol does the call use (SIP, H.323, ...)</li>
+	<li>OnHoldInfo: is the call put on hold?</li>
+</ul>
+</p>
+
+<p>The PlayPause method is used to put the call on hold, or release it from the hold. The Transfer method
+is when you want to send the remote party to talk to someone else.
+</p>
+
+
+<h1>The net.ekiga.self interface</h1>
+
+<p>This interface allows to get more information about ekiga's running instance.
+</p>
+
+<p>It has simple methods like GetName, GetLocation and GetComment which allows to get what the user said
+in the preferences. The Shutdown command allows to quit ekiga.
+</p>
+
+<p>And it has an interesting GetLocalAddress method, which allows to know which address to use to contact
+the user. You have to give it the protocol in which the address should be given (beware that it's reliable
+mostly for SIP). The goal of that method is to allow other programs, for example XMPP/jabber clients,
+to make us available for calls.
+</p>
+
+<h1>The helper</h1>
+
+<p>Since launching ekiga to have only basic informations would be bad (it is a rather big program),
+it comes with a helper program, which can take requests on its behalf for easy questions.
+</p>
+
+<p>Of course, this helper is short-lived and exits automatically quite fast, so it is always in sync
+with the available ekiga.
+</p>
+
+<p>The current helper knows only two methods:
+<ul>
+	<li>GetVersion, which returns the version of the DBUS component available (pair of integers: major and minor)</li>
+	<li>GetSupportedProtocols, which returns a string list of the supported protocols (needed for example
+	by jabber/XMPP clients which would like to know what type of URI can be negociated)</li>
+</ul>
+</p>
+
+<p>To be completed(FIXME)
+</p>
+
+<h1>Example C code</h1>
+
+<p>To be completed(FIXME)
+</p>
+
+<h1>Example Perl code</h1>
+
+<p>The following program waits on D-Bus and runs a command when the call
+is made (either outgoing or incoming), and another one when the call is
+finished. It can be used for example for temporarily suspending the
+PulseAudio server, when ekiga is configured to use the ALSA device directly
+(i.e. <code>hw:0,0</code>).</p>
+
+<pre>
+#!/usr/bin/perl -w
+#
+# A sample program for demonstrating the ekiga D-Bus interface.
+# This program suspends the PulseAudio server during ekiga calls.
+# Usable for example when ekiga is configured to use the hardware
+# ALSA devices (e.g. hw:0,0), i.e. at least until the following bugs
+# are fixed on your system:
+# http://www.pulseaudio.org/ticket/23 and
+# https://bugtrack.alsa-project.org/alsa-bug/view.php?id=2601
+#
+# This program is written by Jan "Yenya" Kasprzak, http://www.fi.muni.cz/~kas/
+# and it is distributable under the same terms as the Perl itself.
+#
+use strict;
+use Net::DBus;
+use Net::DBus::Reactor;
+
+my $bus = Net::DBus->session
+	or die "Can't connect to the session D-Bus";
+
+my $service = $bus->get_service("net.ekiga.instance")
+	or die "Can't find the Ekiga instance on the D-Bus\n"
+		. "(is ekiga running and has D-Bus support compiled in?)";
+
+my $object = Net::DBus::RemoteObject->new($service, '/net/ekiga/instance',
+	'net.ekiga.calls') or die "Can't get the ekiga instance";
+
+$object->connect_to_signal('StateChanged', sub {
+	my ($callid, $state) = @_;
+	open my $fh, '|-', 'pacmd >/dev/null 2>&1';
+	if (!defined $state || $state == 0 || $state == 1) {
+		print $fh "suspend 0\n";
+		print STDERR "Ekiga call finished, enabling PulseAudio\n"
+			if -t STDERR;
+		system 'notify-send', 'PulseAudio enabled',
+			'PulseAudio sound server enabled again.';
+	} elsif ($state == 2 || $state ==4) {
+		print $fh "suspend 1\n";
+		print STDERR "Ekiga call, suspending PulseAudio\n"
+			if -t STDERR;
+		system 'notify-send', 'PulseAudio suspended',
+			'PulseAudio sound server suspended during the VoIP call.';
+	}
+	close $fh;
+});
+
+my $reactor = Net::DBus::Reactor->main
+	or die "Can't get Net::DBus::Reactor";
+print STDERR "Waiting on D-Bus ...\n" if -t STDERR;
+$reactor->run();
+</pre>
+
+<h1>Example python code</h1>
+
+<p>The goal isn't to show off everything, but see how things work on some examples
+</p>
+
+First of all, you need to do the following to access DBUS:
+<p><code>
+import dbus<br>
+bus = dbus.SessionBus ()
+</code></p>
+
+<h2>Which version of the DBUS component is available?</h2>
+
+For this question, we need to have a proxy to the helper:
+<p><code>
+obj = bus.get_object ('net.ekiga.helper', '/net/ekiga/helper')<br>
+helper = dbus.Interface(obj, 'net.ekiga.helper')
+</code></p>
+once obtained, we just have to:
+<p><code>
+helper.GetVersion ()<br>
+[0,0]
+</code></p>
+Of course the actual result will depend on your version ;-)
+
+<h2>Watching for the UrlInfo signal of the net.ekiga.calls interface</h2>
+
+<p>To be completed(FIXME)
+</p>
+
+<h1>Example pseudo-code</h1>
+
+<h2>Accepting a call from DBUS</h2>
+
+<p>Suppose that when ekiga rings we find it more convenient to click on a bluetooth
+headset's button to accept the call. We would like to know how a program which runs
+when that happens can accept the call.
+</p>
+
+<p><ul>
+<li>watch for the StateChanged and UrlInfo signals</li>
+<li>ask ekiga the list of calls</li>
+<li>for each call in that list, ask ekiga to ResignalCallInfo</li>
+</ul></p>
+
+<p>This will allow you to find the call token in state called, with its url. Now just
+ask ekiga to Connect to that url, and you're done! 
+</p>
+
+<p>To be completed(FIXME)
+</p>
+
+</body>
+</html>

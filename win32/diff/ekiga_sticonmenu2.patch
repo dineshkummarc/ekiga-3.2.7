@@ -1,0 +1,52 @@
+diff -ur ekiga.orig/src/gui/statusicon.cpp ekiga/src/gui/statusicon.cpp
+--- ekiga.orig/src/gui/statusicon.cpp	2009-09-22 15:39:44.000000000 +0200
++++ ekiga/src/gui/statusicon.cpp	2009-09-22 15:50:16.000000000 +0200
+@@ -92,6 +92,13 @@
+                     guint activate_time,
+                     gpointer data);
+ 
++#ifdef WIN32
++static gint
++hide_popup_menu_cb (GtkWidget *widget,
++                    GdkEventButton *event,
++                    gpointer data);
++#endif
++
+ static void
+ statusicon_activated_cb (GtkStatusIcon *icon,
+                          gpointer data);
+@@ -254,6 +261,22 @@
+                   button, activate_time);
+ }
+ 
++#ifdef WIN32
++static gint
++hide_popup_menu_cb (G_GNUC_UNUSED GtkWidget *widget,
++                    G_GNUC_UNUSED GdkEventButton *event,
++                    gpointer data)
++{
++  GtkWidget *popup = GTK_WIDGET (data);
++
++  if (GTK_WIDGET_VISIBLE (popup)) {
++    gtk_menu_popdown (GTK_MENU (popup));
++    return TRUE;
++  }
++  else
++    return FALSE;
++}
++#endif
+ 
+ static void
+ statusicon_activated_cb (G_GNUC_UNUSED GtkStatusIcon *icon,
+@@ -567,6 +590,11 @@
+   g_signal_connect (self, "popup-menu",
+                     G_CALLBACK (show_popup_menu_cb), self->priv->popup_menu);
+ 
++#ifdef WIN32
++  g_signal_connect (self, "button_press_event",
++                    G_CALLBACK (hide_popup_menu_cb), self->priv->popup_menu);
++#endif
++
+   g_signal_connect (self, "activate",
+                     G_CALLBACK (statusicon_activated_cb), self);
+ 

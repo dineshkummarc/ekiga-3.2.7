@@ -1,0 +1,4155 @@
+# Dzongkha translation of ekiga
+# copyright @ 2006 Free Software Foundation, Inc.
+# Mindu Dorji
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomemeeting.HEAD.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-11 03:51+0000\n"
+"PO-Revision-Date: 2008-08-25 09:44+0530\n"
+"Last-Translator: Dawa pemo <daws_403@hotmail.com>\n"
+"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../ekiga.desktop.in.in.h:1
+msgid "Ekiga Softphone"
+msgstr "ཨེ་ཀི་ག་ སོཕཊི་ཕཱོན།"
+
+#: ../ekiga.desktop.in.in.h:2
+msgid "IP Telephony, VoIP and Video Conferencing"
+msgstr "ཨའི་པི་བརྒྱུད་འཕྲིན་བཟོ་རིག་དང་ ཝི་ཨོ་ཨའི་པི་ གློག་ཐོག་ཞལ་འཛོམས།"
+
+#: ../ekiga.desktop.in.in.h:3
+msgid "Talk to people over the Internet"
+msgstr "ཨིན་ཊར་ནེཊི་གི་ཐོག་ལས་ མི་མང་ལུ་ཁ་སླབ།"
+
+#: ../ekiga.schemas.in.in.h:1
+msgid "0: 56Kbps, 1: ISDN, 2:DSL, 3: LAN, 4: Custom"
+msgstr "༠: ཀེ་བི་པི་ཨེསི་༥༦། ༡: ཨའི་ཨེསི་ཌི་ཨེན། ༢: ཌི་ཨེསི་ཨེལ། ༣: ཨེལ་ཨེ་ཨེན། ༤: སྲོལ་སྒྲིག"
+
+#: ../ekiga.schemas.in.in.h:2
+msgid "Address of public IP detector"
+msgstr "མི་མང་གི་ ཨའི་པི་སྐྱོན་འཛིན་པའི་ཁ་བྱང་།"
+
+#: ../ekiga.schemas.in.in.h:3
+msgid "Alternative audio output device"
+msgstr "རྣར་ཉན་ཨའུཊི་པུཊི་ཐབས་འཕྲུལ་གཞན།"
+
+#: ../ekiga.schemas.in.in.h:4
+msgid "Always forward calls to the given host"
+msgstr "ཨ་རྟག་ར་ འབོད་བརྡ་ཚུ་ གྲ་བསྒྲིགས་ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../ekiga.schemas.in.in.h:5
+msgid "Audio input device"
+msgstr "རྣར་ཉན་ཨིན་པུཊི་ཐབས་ལམ།"
+
+#: ../ekiga.schemas.in.in.h:6
+msgid "Audio output device"
+msgstr "རྣར་ཉན་ཨའུཊི་པུཊི་ཐབས་ལམ།"
+
+#: ../ekiga.schemas.in.in.h:7
+msgid "Audio plugin"
+msgstr "རྣར་ཉན་ པ་ལག་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:8
+msgid "Automatic echo cancellation"
+msgstr "རང་བཞིན་གྱི་ བྲག་ཅ་ཆ་མེད།"
+
+#: ../ekiga.schemas.in.in.h:9
+#: ../src/gui/preferences.cpp:740
+msgid "Automatically reject or forward incoming calls if no answer is given after the specified amount of time (in seconds)"
+msgstr "ནང་འབྱོར་འབོད་བརྡ་ཚུ་ལུ་ གསལ་བཀོད་འབད་མི་དུས་ཚོད་ནང་འཁོད་(སྐར་ཆའི་ནང་) ལན་གསལ་མེད་པ་ཅིན་ རང་བཞིན་གྱིས་ དང་ལེན་མེད་པའམ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../ekiga.schemas.in.in.h:10
+msgid "Automatically switch to fullscreen for images displayed in the main GUI at the beginning of the call"
+msgstr "འབོད་བརྡ་འགོ་འཛུགས་སྐབས་ ཇི་ཡུ་ཨའི་གཙོ་བོའི་ནང་ བཀྲམ་སྟོན་འབད་ནིའི་ གཟུགས་བརྙན་ཚུ་གི་དོན་ལུ་ རང་བཞིན་གྱིས་ གསལ་གཞི་གངམ་ལུ་སོར་བསྒྱུར་འབད།"
+
+#: ../ekiga.schemas.in.in.h:11
+msgid "Change the control panel section"
+msgstr "ཚད་འཛིན་པེ་ནཱལ་གྱི་དབྱེ་ཚན་ བསྒྱུར་བཅོས་འབད།"
+
+#: ../ekiga.schemas.in.in.h:12
+msgid "Change the view mode of the UI"
+msgstr "ཡུ་ཨའི་གི་ མཐོང་སྣང་ཐབས་ལམ་སོར།"
+
+#: ../ekiga.schemas.in.in.h:13
+msgid "Change the view mode of the UI (softphone, videophone, full view)"
+msgstr "ཡུ་ཨའི་གི་མཐོང་སྣང་ཐབསལམ་སོར།(སོཕཊི་ཕཱོན་ ཝི་ཌིའོ་ཕཱོན་ མཐོང་སྣང་ཧྲིལ་བུ)"
+
+#: ../ekiga.schemas.in.in.h:14
+msgid "Clear inactive calls"
+msgstr "ནུས་མེད་ཀྱི་ འབོད་བརྡ་ཚུ་བསལ་གཏང་།"
+
+#: ../ekiga.schemas.in.in.h:15
+msgid "Connection will be established in Fast Start mode. Fast Start is a new way to start calls faster that was introduced in H.323v2. It is not supported by Netmeeting and using both Fast Start and H.245 Tunneling can crash some versions of Netmeeting"
+msgstr "མཐུད་ལམ་དེ་ མགྱོགས་པར་འགོ་བཙུགས་ཐབས་ལམ་ནང་ གཞི་བཙུགས་འབད་ནི་ཨིན། མགྱོགས་པར་འགོ་བཙུགས་དེ་ འབོད་བརྡ་ཚུ་ H.323v2 ནང་འགོ་བཙུགས་ཏེ་ཡོད་མི་དེ་ལས་ མགྱོགས་དྲགས་སྦེ་ འགོ་བཙུགས་ནིའི་ཐབས་ཤེས་གསརཔ་ཅིག་ཨིན། དེ་ལུ་ནེཊི་མི་ཊིང་གིས་ རྒྱབ་སྐྱོར་མེདཔ་ལས་ ཕཱསི་སི་ཊརཊི་དང་ H.245 ཊ་ན་ལིང་གཉིས་ཆ་རང་ ལག་ལེན་འཐབ་པ་ཅིན་ ནེཊི་མི་ཊིང་གི་ ཐོན་རིམ་ལ་ལོ་ཅིག་ལུ་ བརྡབ་འཁྲུག་འོང་།"
+
+#: ../ekiga.schemas.in.in.h:16
+msgid "Country code"
+msgstr "རྒྱལ་ཁབ་ཀྱི་ཀོཌི།"
+
+#: ../ekiga.schemas.in.in.h:17
+msgid "DTMF sending"
+msgstr "ཌི་ཊི་ཨེམ་ཨེཕ་ གཏང་དོ།"
+
+#: ../ekiga.schemas.in.in.h:18
+msgid "Display a popup window when receiving a call"
+msgstr "འབོད་བརྡ་ཅིག་འབྱོར་བའི་སྐབས་ པོཔ་ཨཔ་སྒོ་སྒྲིག་ཅིག་ བཀྲམ་སྟོན་འབད།"
+
+#: ../ekiga.schemas.in.in.h:19
+msgid "Enable 'Fast Start'"
+msgstr "མགྱོགས་པར་འགོ་བཙུགས་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../ekiga.schemas.in.in.h:20
+msgid "Enable H.245 tunneling"
+msgstr "H.245 ཊ་ན་ལིང་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../ekiga.schemas.in.in.h:21
+msgid "Enable IP checking"
+msgstr "ཨའི་པི་ཞིབ་དཔྱད་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../ekiga.schemas.in.in.h:22
+msgid "Enable bilinear filtering on displayed video"
+msgstr "བཀྲམ་སྟོན་འབད་མི་ ཝི་ཌིའོ་ལུ་ བའི་ལི་ནི་ཡར་ འཚག་ནི་ལྕོགས་ཅན་བཟོ།"
+
+#: ../ekiga.schemas.in.in.h:23
+msgid "Enable early H.245"
+msgstr "སྔ་ཆའི་H.245 ལྕོགས་ཅན་བཟོ།"
+
+#: ../ekiga.schemas.in.in.h:24
+msgid "Enable echo cancelation"
+msgstr "བྲག་ཅ་ཆ་མེད་ལྕོགས་ཅན་བཟོ།"
+
+#: ../ekiga.schemas.in.in.h:25
+msgid "Enable or disable bilinear interpolation when rendering video images (this has no effect in fullscreen mode)"
+msgstr "ཝི་ཌོའི་གཟུགས་བརྙན་ཚུ་ལྷག་སྟོན་འབད་བའི་སྐབས་ བའི་ལི་ནི་ཡར་བསྐྱར་བསྣོན་ ལྕོགས་ཅན་ནམ་ ལྕོགས་མིན་བཟོ། (འདི་གིས་གསལ་གཞི་གང་བའི་ཐབས་ལམ་ལུ་ནུས་པ་མེད་)"
+
+#: ../ekiga.schemas.in.in.h:26
+msgid "Enable silence detection"
+msgstr "ཁུ་སིམ་སིམ་སྐྱོན་འཛིན་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../ekiga.schemas.in.in.h:27
+msgid "Enable video support"
+msgstr "ཝི་ཌིའོ་རྒྱབ་སྐྱོར་ལྕོགས་ཅན་བཟོ།"
+
+#: ../ekiga.schemas.in.in.h:28
+msgid "Enter a valid URL to connect to a web application that outputs the public IP of your host"
+msgstr "ཁྱོད་རའི་ཧོསིཊི་གི་ མི་མང་ཨའི་པི་བྱིན་མི་ ཝེབ་ཀྱི་གློག་རིམ་ཅིག་ལུ་ མཐུད་ནིའི་དོན་ལས་ ནུས་ཅན་གྱི་ཡུ་ཨར་ཨེལ་ཅིག་བཙུགས།"
+
+#: ../ekiga.schemas.in.in.h:29
+msgid "Enter the number of seconds after which Ekiga should try refreshing the NAT binding when STUN is being used"
+msgstr "སི་ཊཱན་ལག་ལེན་འཐབ་པའི་སྐབས་ ཨེ་ཀི་ག་གིས་ དུས་ཡུན་ག་དེམ་ཅིག་གི་ཤུལ་ལས་ ཨེན་ཨེ་ཊི་བའིན་ཌིང་ ཡང་སེལ་འབད་དགོཔ་ཨིན་ན་ སྐར་ཆའི་གྲངས་བཙུགས།"
+
+#: ../ekiga.schemas.in.in.h:30
+msgid "Enter the public IP of your NAT/PAT router if you want to use IP translation"
+msgstr "ཁྱོད་ཀྱིས་ཨའི་པི་སྐད་བསྒྱུར་ ལག་ལེན་འཐབ་འདོད་ཡོད་པ་ཅིན་ ཁྱོད་རའི་ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་རོ་ཊར་གྱི་ མི་མང་ཨའི་པི་བཙུགས།"
+
+#: ../ekiga.schemas.in.in.h:31
+#: ../src/gui/preferences.cpp:635
+msgid "Enter your first name"
+msgstr "ཁྱོད་རའི་འགོ་མིང་བཙུགས།"
+
+#: ../ekiga.schemas.in.in.h:32
+msgid "Enter your last name"
+msgstr "ཁྱོར་རའི་མཇུག་མིང་བཙུགས།"
+
+#: ../ekiga.schemas.in.in.h:33
+msgid "First name"
+msgstr "འགོ་མིང་།"
+
+#: ../ekiga.schemas.in.in.h:34
+msgid "Forward calls to host"
+msgstr "འབོད་བརྡ་ཚུ་ ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../ekiga.schemas.in.in.h:35
+msgid "Forward calls to the given host if busy"
+msgstr "ཁོམ་མེད་ཨིན་པ་ཅིན་ འབོད་བརྡ་ཚུ་ གྲ་བསྒྲིགས་ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../ekiga.schemas.in.in.h:36
+msgid "Forward calls to the given host if no answer"
+msgstr "ལན་གསལ་མེད་པ་ཅིན་ འབོད་བརྡ་ཚུ་ གྲ་བསྒྲིགས་ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../ekiga.schemas.in.in.h:37
+msgid "Gateway/proxy host"
+msgstr "འཛུལ་སྒོ/པོརོག་སི་ ཧོསིཊི།"
+
+#: ../ekiga.schemas.in.in.h:38
+#: ../src/gui/preferences.cpp:685
+msgid "If enabled, Ekiga will start hidden provided that the notification area is present in the GNOME panel"
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ ཇི་ནོམ་པེ་ནཱལ་ནང་ བརྡ་བསྐུལ་མངའ་ཁོངས་ཡོད་པ་ཅིན་ ཨེ་ཀི་ག་གིས་ གསང་བ་འགོ་བཙུགསཔ་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:39
+msgid "If enabled, a popup window will be displayed when receiving an incoming call"
+msgstr "ལྕོགས་ཅན་བཟོཝ་ད་ ནང་འབྱོར་འབོད་བརྡ་འཐོབ་པའི་སྐབས་ པོཔ་ཨཔ་སྒོ་སྒྲིག་ཅིག་ བཀྲམ་སྟོན་འབདཝ་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:40
+msgid "If enabled, all incoming calls will be forwarded to the host that is specified in the field below"
+msgstr "ལྕོགས་ཅན་བཟོཝ་ད་ ནང་འབྱོར་འབོད་བརྡ་ཚུ་ཆ་མཉམ་ འོག་གི་ས་སྒོའི་ནང་ གསལ་བཀོད་འབད་མི་ ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད་འོང་།"
+
+#: ../ekiga.schemas.in.in.h:41
+msgid "If enabled, all incoming calls will be forwarded to the host that is specified in the field below if you already are in a call or if you are in Do Not Disturb mode"
+msgstr "ཁྱོད་རང་ཧེ་མ་ལས་རང་ འབོད་བརྡ་ཅིག་ནང་ཡོདཔ་ད་ ཡང་ན་ མ་དཀྲོགས་ཟེར་མི་ ཐབས་ལམ་ནང་ཡོད་པ་ཅིན་ ལྕོགས་ཅན་བཟོཝ་ད་ ནང་འབྱོར་འབོད་བརྡ་ཚུ་ཆ་མཉམ་ འོག་གི་ས་སྒོ་ནང་ གསལ་བཀོད་འབད་མི་ ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད་འོང་།"
+
+#: ../ekiga.schemas.in.in.h:42
+msgid "If enabled, all incoming calls will be forwarded to the host that is specified in the field below if you do not answer the call"
+msgstr "ཁྱོད་ཀྱིས་འབོད་བརྡ་ལུ་ ལན་གསལ་མ་བྱིན་པ་ཅིན་ ལྕོགས་ཅན་བཟོཝ་ད་ ནང་འབྱོར་འབོད་བརྡ་ཚུ་ཆ་མཉམ་ འོག་གི་ས་སྒོ་ནང་ གསལ་བཀོད་འབད་མི་ ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད་འོང་།"
+
+#: ../ekiga.schemas.in.in.h:43
+msgid "If enabled, allows video during calls"
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ འབོད་བརྡ་གཏང་བའི་སྐབས་ལུ་ ཝི་ཌིའོ་འཆར་བཅུགཔ་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:44
+#: ../src/gui/preferences.cpp:738
+msgid "If enabled, calls for which no audio and video has been received in the last 30 seconds are automatically cleared"
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ འདས་པའི་སྐར་ཆ་༣༠ ནང་འཁོད་ལུ་ རྣར་ཉན་དང་ ཝི་ཌིའོ་མེད་པའི་ འབོད་བརྡ་འབྱོར་མི་ཚུ་ རང་བཞིན་གྱིས་བསལཝ་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:45
+msgid "If enabled, use echo cancelation"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ བྲག་ཅ་ཆ་མེད་ལག་ལེན་འཐབ།"
+
+#: ../ekiga.schemas.in.in.h:46
+msgid "If enabled, use silence detection with the codecs supporting it"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཀོ་ཌེགསི་དང་གཅིག་ཁར་ ཁུ་སིམ་སིམ་གྱི་ངོས་འཛིན་དེ་ ལག་ལེན་འཐབ།"
+
+#: ../ekiga.schemas.in.in.h:47
+msgid "Incoming call mode"
+msgstr "ནང་འབྱོར་འབོད་བརྡའི་ཐབས་ལམ།"
+
+#: ../ekiga.schemas.in.in.h:48
+msgid "Kind of network selected in the druid"
+msgstr "ཌུའིཌི་ནང་ སེལ་འཐུ་འབད་མི་ ཡོངས་འབྲེལ་གྱི་དབྱེ་ཁག"
+
+#: ../ekiga.schemas.in.in.h:49
+msgid "Last name"
+msgstr "མཇུག་མིང་།"
+
+#: ../ekiga.schemas.in.in.h:50
+msgid "Listen port"
+msgstr "ཉན་ནིའི་འདྲེན་ལམ།"
+
+#: ../ekiga.schemas.in.in.h:51
+msgid "Local video window size"
+msgstr "ཉེ་གནས་ཀྱི་ ཝི་ཌོའི་སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../ekiga.schemas.in.in.h:52
+msgid "Maximum jitter buffer"
+msgstr "ཇི་ཊར་གནད་ཁོངས་ཀྱི་མང་མཐའ།"
+
+#: ../ekiga.schemas.in.in.h:53
+msgid "Maximum video bandwidth"
+msgstr "ཝི་ཌིའོ་གི་ བེན་ཝིཐ་གི་ མང་མཐའ།"
+
+#: ../ekiga.schemas.in.in.h:54
+msgid "Minimum jitter buffer"
+msgstr "ཇི་ཊར་གནད་ཁོངས་ཀྱི་ཉུང་མཐའ།"
+
+#: ../ekiga.schemas.in.in.h:55
+msgid "Minimum transmitted video quality"
+msgstr "སྤེལ་བཀྲམ་འབད་བའི་ ཝི་ཌིའོ་གི་སྤུས་ཚད་ཉུང་མཐའ།"
+
+#: ../ekiga.schemas.in.in.h:56
+msgid "Missed calls history"
+msgstr "འབོད་བརྡ་བྱིག་ཡར་སོང་བའི་ལོ་རྒྱུས།"
+
+#: ../ekiga.schemas.in.in.h:57
+msgid "NAT Binding Timeout"
+msgstr "ཨེན་ཨེ་ཊི་བའིན་ཌིང་གི་ངལ་མཚམས།"
+
+#: ../ekiga.schemas.in.in.h:58
+msgid "No answer timeout"
+msgstr "ལན་གསལ་མེད་པའི་ངལ་མཚམས།"
+
+#: ../ekiga.schemas.in.in.h:59
+msgid "Number of frames for G.711"
+msgstr "ཇི་.༧༡༡ གི་དོན་ལུ་ གཞི་ཁྲམ་གྱི་གྲངས།"
+
+#: ../ekiga.schemas.in.in.h:60
+msgid "Number of frames for GSM"
+msgstr "ཇི་ཨེསི་ཨེམ་གྱི་དོན་ལུ་ གཞི་ཁྲམ་གྱི་གྲངས།"
+
+#: ../ekiga.schemas.in.in.h:61
+msgid "Number of frames transmitted in each packet for the G.711 codec"
+msgstr "ཇི་.༧༡༡ ཀོ་ཌེཀ་གི་དོན་ལུ་ སྒམ་ཆུང་རེ་རེ་བཞིན་དུའི་ནང་ སྤེལ་བཀྲམ་འབད་མི་ གཞི་ཁྲམ་གྱི་གྲངས།"
+
+#: ../ekiga.schemas.in.in.h:62
+msgid "Number of frames transmitted in each packet for the GSM codec"
+msgstr "ཇི་ཨེསི་ཨེམ་ ཀོ་ཌེཀ་གི་དོན་ལུ་ སྒམ་ཆུང་རེ་རེ་བཞིན་དུའི་ནང་ སྤེལ་བཀྲམ་འབད་མི་ གཞི་ཁྲམ་གྱི་གྲངས།"
+
+#: ../ekiga.schemas.in.in.h:63
+msgid "Outbound Proxy"
+msgstr "ཨའུཊི་བའུན་པོ་རོག་སི།"
+
+#: ../ekiga.schemas.in.in.h:64
+msgid "Output device type"
+msgstr "ཨའུཊི་པུཊི་ཐབས་ལམ་གྱི་དབྱེ་བ།"
+
+#: ../ekiga.schemas.in.in.h:65
+#: ../src/gui/preferences.cpp:693
+msgid "Place windows displaying video above other windows during calls"
+msgstr "འབོད་བརྡ་ཚུ་གི་སྐབས་ལུ་ སྒོ་སྒྲིག་གཞན་གྱི་ལྟག་ལུ་ ཝི་ཌིའོ་བཀྲམ་སྟོན་འབད་མི་ སྒོ་སྒྲིག་ཚུ་བཞག"
+
+#: ../ekiga.schemas.in.in.h:66
+msgid "Placed calls history"
+msgstr "བཞག་ཡོད་པའི་ འབོད་བརྡའི་ལོ་རྒྱུས།"
+
+#: ../ekiga.schemas.in.in.h:67
+#: ../src/gui/preferences.cpp:1898
+msgid "Play busy tone"
+msgstr "ཁོམ་མེད་སྐད་ཀྱི་སྙན་ཆ་གཏང་།"
+
+#: ../ekiga.schemas.in.in.h:68
+#: ../src/gui/preferences.cpp:1889
+msgid "Play ring tone"
+msgstr "འབོད་བརྡའི་སྐད་ཀྱི་སྙན་ཆ།"
+
+#: ../ekiga.schemas.in.in.h:69
+#: ../src/gui/preferences.cpp:1880
+msgid "Play sound on incoming calls"
+msgstr "ནང་འབྱོར་འབོད་བརྡ་ཚུ་ལུ་ སྒྲ་སྐད་གཏང་།"
+
+#: ../ekiga.schemas.in.in.h:70
+msgid "Play sound on new message"
+msgstr "འཕྲིན་དོན་གསརཔ་ལུ་ སྒྲ་སྐད་གཏང་།"
+
+#: ../ekiga.schemas.in.in.h:71
+msgid "Play sound on new voice mail"
+msgstr "སྐད་འཕྲིན་གསརཔ་ལུ་ སྒྲ་སྐད་གཏང་།"
+
+#: ../ekiga.schemas.in.in.h:72
+msgid "Position of the local video window"
+msgstr "ཉེ་གནས་ཀྱི་ ཝི་ཌིའོ་སྒོ་སྒྲིག་གི་གནས་ས།"
+
+#: ../ekiga.schemas.in.in.h:73
+msgid "Position on the screen of the PC-To-Phone window"
+msgstr "གསལ་གཞི་ལུ་ གློག་རིག་ལས་བརྒྱུད་འཕྲིན་གྱི་ སྒོ་སྒྲིག་གི་གནས་ས།"
+
+#: ../ekiga.schemas.in.in.h:74
+msgid "Position on the screen of the address book window"
+msgstr "ཁ་བྱང་ཀི་དེབ་སྒོ་སྒྲིག་གི་ གསལ་གཞི་གུ་གནས་ས།"
+
+#: ../ekiga.schemas.in.in.h:75
+msgid "Position on the screen of the calls history window"
+msgstr "འབོད་བརྡའི་ལོ་རྒྱུས་སྒོ་སྒྲིག་གི་ གསལ་གཞི་གུ་གནས་ས།"
+
+#: ../ekiga.schemas.in.in.h:76
+msgid "Position on the screen of the chat window"
+msgstr "གསལ་གཞི་གུ་ ཁ་སླབ་སྒོ་སྒྲིག་གི་གནས་ས་།"
+
+#: ../ekiga.schemas.in.in.h:77
+msgid "Position on the screen of the druid window"
+msgstr "ཌུའིཌི་སྒོ་སྒྲིག་གི་ གསལ་གཞི་གུ་གནས་ས།"
+
+#: ../ekiga.schemas.in.in.h:78
+msgid "Position on the screen of the log window"
+msgstr "དྲན་དེབ་སྒོ་སྒྲིག་གི་ གསལ་གཞི་གུ་གནས་ས།"
+
+#: ../ekiga.schemas.in.in.h:79
+msgid "Position on the screen of the main window"
+msgstr "གསལ་གཞི་གུ་ སྒོ་སྒྲིག་གཙོ་བོའི་གནས་ས། "
+
+#: ../ekiga.schemas.in.in.h:80
+msgid "Position on the screen of the preferences window"
+msgstr "དགའ་གདམ་སྒོ་སྒྲིག་གི་ གསལ་གཞི་གུ་གནས་ས་།"
+
+#: ../ekiga.schemas.in.in.h:81
+msgid "Public IP of the NAT/PAT router"
+msgstr "ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ རོ་ཊར་གྱི་ མི་མང་ཨའི་པི།"
+
+#: ../ekiga.schemas.in.in.h:82
+msgid "Received calls history"
+msgstr "འབྱོར་ཡོད་པའི་འབོད་བརྡའི་ལོ་རྒྱུས།"
+
+#: ../ekiga.schemas.in.in.h:83
+msgid "Registration timeout"
+msgstr "ཐོ་འགོད་ཀྱི་ངལ་མཚམས།"
+
+#: ../ekiga.schemas.in.in.h:84
+msgid "Remote video window position"
+msgstr "ཐག་རིང་ཝི་ཌིའོ་ སྒོ་སྒྲིག་གི་གནས་ས་།"
+
+#: ../ekiga.schemas.in.in.h:85
+msgid "Remote video window size"
+msgstr "ཐག་རིང་་ཝི་ཌིའོ་ སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../ekiga.schemas.in.in.h:86
+msgid "Revision of the schema file"
+msgstr "ལས་འཆར་ཡིག་སྣོད་བསྐྱར་ཞིབ།"
+
+#: ../ekiga.schemas.in.in.h:87
+msgid "Select an alternative audio output device to use for sound events."
+msgstr "སྒྲ་སྐད་བྱུང་ལས་ཀྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྣར་ཉན་ཨའུཊི་པུཊི་ཐབས་ལམ་གཞན་ཅིག་ སེལ་འཐུ་འབད།"
+
+#: ../ekiga.schemas.in.in.h:88
+#: ../src/gui/preferences.cpp:1095
+msgid "Select the audio input device to use"
+msgstr "ལག་ལེན་གྱི་དོན་ལུ་ རྣར་ཉན་ཨིན་པུཊི་ཐབས་འཕྲུལ་ སེལ་འཐུ་འབད།"
+
+#: ../ekiga.schemas.in.in.h:89
+#: ../src/gui/preferences.cpp:1088
+msgid "Select the audio output device to use"
+msgstr "ལག་ལེན་གྱི་དོན་ལུ་ རྣར་ཉན་ཨའུཊི་པུཊི་ཐབས་ལམ་ སེལ་འཐུ་འབད།"
+
+#: ../ekiga.schemas.in.in.h:90
+#: ../src/gui/preferences.cpp:959
+msgid "Select the desired method for NAT traversal (STUN is strongly suggested)"
+msgstr "ཨེན་ཨེ་ཊི་ཀྱོག་འགྲུལ་གྱི་དོན་ལུ་ བློ་འདོད་ཡོད་པའི་ཐབས་ལམ་དེ་ སེལ་འཐུ་འབད།(སི་ཊཱན་དེ་ལེགས་ཤོམ་ཨིན་པའི་བསམ་འཆར་ཡོད)"
+
+#: ../ekiga.schemas.in.in.h:91
+#: ../src/gui/preferences.cpp:1178
+msgid "Select the format for video cameras (does not apply to most USB cameras)"
+msgstr "ཝི་ཌིའོ་པར་ཆས་ཀྱི་དོན་ལུ་ རྩ་སྒྲིག་སེལ་འཐུ་འབད། (ཡུ་ཨེསི་བི་ པར་ཆས་མང་ཤོས་ལུ་ འཇུག་སྤྱོད་མི་འབད)"
+
+#: ../ekiga.schemas.in.in.h:92
+msgid "Select the transmitted video size: Small (QCIF 176x144) or Large (CIF 352x288)"
+msgstr "སྤེལ་བཀྲམ་འབད་མི་ ཝི་ཌིའོ་གི་ཚད་ སེལ་འཐུ་འབད་: ཆུང་ཀུ་ (ཀིའུ་སི་ཨའི་ཨེཕ་ ༡༧༦x༡༤༤) ཡང་ན་ ཆེ་བ་(སི་ཨའི་ཨེཕ་ ༣༥༢x༢༨༨)"
+
+#: ../ekiga.schemas.in.in.h:93
+#: ../src/gui/preferences.cpp:1168
+msgid "Select the video input device to use. If an error occurs when using this device a test picture will be transmitted."
+msgstr "ལག་ལེན་འཐབ་ནིའི་ ཨིན་པུཊི་ཐབས་ལམ་ སེལ་འཐུ་འབད། ཐབས་འཕྲུལ་འདི་ ལག་ལེན་འཐབ་པའི་སྐབས་ འཛོལ་བ་འབྱུང་པ་ཅིན་ བརྟག་ཞིབ་ཀྱི་དཔར་ཅིག་ སྤེལ་བཀྲམ་འབད་འོང་།"
+
+#: ../ekiga.schemas.in.in.h:94
+msgid "Size of the PC-To-Phone window"
+msgstr "གློག་རིག་ལས་བརྒྱུད་འཕྲིན་ལུ་ སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../ekiga.schemas.in.in.h:95
+msgid "Size of the address book window"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཀྱི་ སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../ekiga.schemas.in.in.h:96
+msgid "Size of the calls history window"
+msgstr "འབོད་བརྡའི་ལོ་རྒྱུས་ཀྱི་ སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../ekiga.schemas.in.in.h:97
+msgid "Size of the chat window"
+msgstr "ཁ་སླབ་སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../ekiga.schemas.in.in.h:98
+msgid "Size of the druid window"
+msgstr "ཌུའིཌི་གི་ སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../ekiga.schemas.in.in.h:99
+msgid "Size of the log window"
+msgstr "དྲན་དེབ་སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../ekiga.schemas.in.in.h:100
+msgid "Size of the preferences window"
+msgstr "དགའ་གདམ་སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../ekiga.schemas.in.in.h:101
+msgid "Start hidden"
+msgstr "གསང་བ་འགོ་བཙུགས།"
+
+#: ../ekiga.schemas.in.in.h:102
+#: ../src/gui/main.cpp:1109
+#: ../src/gui/main.cpp:1587
+#: ../src/gui/main.cpp:1612
+msgid "Switch to fullscreen"
+msgstr "གསལ་གཞི་གངམ་ལུ་སོར་བསྒྱུར་འབད།"
+
+#: ../ekiga.schemas.in.in.h:103
+msgid "TCP port range"
+msgstr "ཊི་སི་པི་འདྲེན་ལམ་གྱི་ཁྱབ་ཚད།"
+
+#: ../ekiga.schemas.in.in.h:104
+msgid "The Audio Codecs List"
+msgstr "རྣར་ཉན་ཀོ་ཌེཀསི་ ཐོ་ཡིག"
+
+#: ../ekiga.schemas.in.in.h:105
+msgid "The Automatic Echo Cancellation level: Off, Low, Medium, High, Automatic Gain Compensation. Choosing Automatic Gain Compensation modulates the volume for best quality."
+msgstr "རང་བཞིན་བྲག་ཅ་ཆ་མེད་གནས་རིམ་: ཨོཕ། དམའ་བ། འབྲིང་མ། མཐོ་བ། རང་བཞིན་ཁེ་ཕན་རྒུད་འཐུས། རང་བཞིན་ཁེ་ཕནརྒུད་འཐུས་་གདམ་ཁ་རྐྱབ་ད་ སྤུས་ཚད་དྲག་ཤོས་ཀྱི་ སྐད་ཤུགས་བྱིནམ་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:106
+#: ../src/gui/preferences.cpp:986
+msgid "The Gateway host is the host to use to do H.323 calls through a gateway that will relay calls"
+msgstr "འཛུལ་སྒོའི་ཧོསིཊི་དེ་ འཛུལ་སྒོ་ཅིག་བརྒྱུད་དེ་ འབོད་བརྡ་སྤེལ་མི་ H.323 འབོད་བརྡའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་ ཧོསིཊི་དེ་རང་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:107
+msgid "The NAT method"
+msgstr "ཨེན་ཨེ་ཊི་ཐབས་ལམ་དེ།"
+
+#: ../ekiga.schemas.in.in.h:108
+#: ../src/gui/preferences.cpp:1037
+msgid "The SIP Outbound Proxy to use for outgoing calls"
+msgstr "ཕྱིར་གཏང་བརྒྱུད་འཕྲིན་ཚུ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཨེསི་ཨའི་པི་ ཨའུཊི་བའུན་ པོ་རོཀ་སི།"
+
+#: ../ekiga.schemas.in.in.h:109
+msgid "The STUN Server"
+msgstr "སི་ཊཱན་སར་བར།"
+
+#: ../ekiga.schemas.in.in.h:110
+msgid "The STUN server to use for STUN Support. STUN is a technic that permits to go through some types of NAT gateways"
+msgstr "སི་ཊཱན་རྒྱབ་སྐྱོར་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ སི་ཊཱན་སར་བར། སི་ཊཱན་དེ་ ཨེན་ཨེ་ཊི་འཛུལ་སྒོ་ཚུ་གི་དབྱེ་བ་ལ་ལོ་ཅིག་བརྒྱུད་དེ་ འགྱོ་ནིའི་གནང་བ་བྱིན་མི་ ཐབས་རིག་ཅིག་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:111
+msgid "The accounts list"
+msgstr "རྩིས་ཐོའི་ཐོ་ཡིག་དེ།"
+
+#: ../ekiga.schemas.in.in.h:112
+msgid "The audio plugin that will be used to detect the devices and manage them"
+msgstr "ཐབས་འཕྲུལ་ཚུ་སྐྱོན་འཛིན་འབད་དེ་ འཛིན་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྣར་ཉན་གྱི་པ་ལག་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:113
+msgid "The busy tone sound"
+msgstr "ཁོམ་མེད་སྒྲ་སྐད་ཀྱི་སྙན་ཆ།"
+
+#: ../ekiga.schemas.in.in.h:114
+msgid "The chosen sound will be played at the end of calls or calling somebody who is busy, if enabled"
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ འབོད་བརྡ་རྫོགས་མཚམས་ལུ་ ཡང་ན་ ཁོམ་མེད་ཅིག་ལུ་ འབོད་བརྡ་གཏང་བའི་སྐབས་ གདམ་ཁ་བརྐྱབས་མི་སྒྲ་སྐད་དེ་གཏང་འོང་།"
+
+#: ../ekiga.schemas.in.in.h:115
+msgid "The chosen sound will be played on incoming calls, if enabled"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ནང་འབྱོར་འབོད་བརྡའི་སྐབས་ལུ་ གདམ་ཁ་བརྐྱབས་མི་ སྒྲ་སྐད་དེ་གཏང་འོང་།"
+
+#: ../ekiga.schemas.in.in.h:116
+msgid "The chosen sound will be played when a new instant message is received, if enabled"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ འཕྲལ་མྱུར་འཕྲིན་དོན་ཅིག་འབྱོར་བའི་སྐབས་ལུ་ གདམ་ཁ་བརྐྱབས་མི་སྒྲ་སྐད་དེ་གཏང་འོང་།"
+
+#: ../ekiga.schemas.in.in.h:117
+msgid "The chosen sound will be played when a new voice mail is received, if enabled"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ སྐྡ་འཕྲིན་གསརཔ་ཅིག་འབྱོར་བའི་སྐབས་ གདམ་ཁ་བརྐྱབས་མི་ སྒྲ་སྐད་དེ་གཏང་འོང་།"
+
+#: ../ekiga.schemas.in.in.h:118
+msgid "The chosen sound will be played when calling somebody, if enabled"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ མི་ཅིག་ལུ་འབོད་བརྡ་གཏང་བའི་སྐབས་ གདམ་ཁ་བརྐྱབས་མི་ སྒྲ་སྐད་དེ་གཏང་འོང་།"
+
+#: ../ekiga.schemas.in.in.h:119
+msgid "The default video view"
+msgstr "སྔོན་སྒྲིག་འབད་མི་ ཝི་ཌིའོ་གི་མཐོང་སྣང་།"
+
+#: ../ekiga.schemas.in.in.h:120
+msgid "The default video view (0: Local, 1: Remote, 2: Both incrusted, 3: Both with local video in a separate window, 4: Both)"
+msgstr "སྔོན་སྒྲིག་ཝི་ཌིའོ་གི་མཐོང་སྣང་། (༠:ཉེ་གནས། ༡:ཐག་རིང་། ༢:གཉིས་ཆ་ར་སྲ་ཤུན་ཆགས་པ། ༣:གཉིས་ཆ་ར་ སྒོ་སྒྲིག་སོ་སོ་ནང་ ཉེ་གནས་ཀྱི་ཝི་ཌིའོ་དང་གཅིག་ཁར། ༤: གཉིས་ཆ་ར)"
+
+#: ../ekiga.schemas.in.in.h:121
+msgid "The dial tone sound"
+msgstr "བརྒྱུད་འཕྲིན་སྐད་ཀྱི་སྙན་ཆ།"
+
+#: ../ekiga.schemas.in.in.h:122
+msgid "The history of the last 100 missed calls"
+msgstr "མཐའ་མཇུག་བྱིག་ཡར་སོང་མི་ འབོད་བརྡ་༡༠༠ གི་ལོ་རྒྱུས།"
+
+#: ../ekiga.schemas.in.in.h:123
+msgid "The history of the last 100 placed calls"
+msgstr "མཐའ་མཇུག་བཏང་ཡོད་མི་ འབོད་བརྡ་༡༠༠ གི་ལོ་རྒྱུས།"
+
+#: ../ekiga.schemas.in.in.h:124
+msgid "The history of the last 100 received calls"
+msgstr "མཐའ་མཇུག་འབྱོར་ཡོད་མི་ འབོད་བརྡ་༡༠༠ གི་ལོ་རྒྱུས།"
+
+#: ../ekiga.schemas.in.in.h:125
+#: ../src/gui/preferences.cpp:989
+#: ../src/gui/preferences.cpp:1040
+msgid "The host where calls should be forwarded if call forwarding is enabled"
+msgstr "འབོད་བརྡ་གདོང་བསྐྱོད་འབད་ནི་དེ་ ལྕོགས་ཅན་ཨིན་པ་ཅིན་ འབོད་བརྡ་ཚུ་གདོང་བསྐྱོད་འབད་སའི་ཧོསཊི།"
+
+#: ../ekiga.schemas.in.in.h:126
+msgid "The image to transmit if \"Picture\" is selected as video plugin or if the opening of the device fails. Leave blank to use the default Ekiga logo."
+msgstr "གལ་སྲིད་\"Picture\"དེ་ཝི་ཌིའོ་པ་ལག་ཨིན་སྦེ་ སེལ་འཐུ་འབད་ཡོདཔ་དང་ ཡང་ན་ ཐབས་འཕྲུལ་དེ་ ཁ་ཕྱེ་མ་བཏུབ་པ་ཅིན་ སྤེལ་བཀྲམ་འབད་ནིའི་གཟུགས་བརྙན། སྔོན་སྒྲིག་ཨེ་ཀི་ག་ལས་རྟགས་ ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ ས་སྟོང་བཞག"
+
+#: ../ekiga.schemas.in.in.h:127
+msgid "The incoming call sound"
+msgstr "ནང་འབྱོར་འབོད་བརྡའི་སྒྲ་སྐད།"
+
+#: ../ekiga.schemas.in.in.h:128
+msgid "The list of accounts to which Ekiga should register"
+msgstr "ཨེ་ཀི་པ་གིས་ ཐོ་འཁོད་འབད་དགོ་པའི་ རྩིས་ཐོའི་ཐོ་ཡིག"
+
+#: ../ekiga.schemas.in.in.h:129
+msgid "The local zoom value"
+msgstr "ཉེ་གནས་ཀྱི་ རྒྱས་ཟུམ་བེ་ལུ།"
+
+#: ../ekiga.schemas.in.in.h:130
+msgid "The maximum jitter buffer size for audio reception (in ms)"
+msgstr "རྣར་ཉན་སྒྲ་འབྱོར་གྱི་དོན་ལུ་ ཇི་ཊར་གནད་ཁོངས་ཚད་ཀྱི་མང་མཐའ། (མི་ལི་སྐར་ཆའི་ནང་)"
+
+#: ../ekiga.schemas.in.in.h:131
+msgid "The maximum video bandwidth in kbytes/s. The video quality and the number of transmitted frames per second will be dynamically adjusted above their minimum during calls to try to minimize the bandwidth to the given value"
+msgstr "ཝི་ཌིའོ་གི་ བེནཌི་ཝིཐ་གི་མང་མཐའ་ ཀེ་བཱའིཊིསི་ནང་། གྲ་བསྒྲིགས་ཡོད་པའི་བེ་ལུའི་ བེནཌི་ཝིཐ་ མར་ཕབ་འབད་ཐབས་ལུ་ ཝི་ཌིའོ་གི་སྤུས་ཚད་དང་ སྐར་ཆ་རེ་ནང་ སྤེལ་བཀྲམ་འབད་མི་ གཞི་ཁྲམ་གྱི་གྲངས་ཚུ་ འབོད་བརྡའི་སྐབས་ལུ་ ཁོང་རའི་ཉུང་མཐའི་ལྟག་ལུ་ ནུས་ཅན་གྱི་སྒོ་ལས་ བདེ་སྒྲིག་འབད་འོང་།"
+
+#: ../ekiga.schemas.in.in.h:132
+msgid "The minimum jitter buffer size for audio reception (in ms)"
+msgstr "རྣར་ཉན་སྒྲ་འབྱོར་གྱི་དོན་ལུ་ ཇི་ཊར་གནད་ཁོངས་ཚད་ཀྱི་ཉུང་མཐའ། (མི་ལི་སྐར་ཆའི་ནང་)"
+
+#: ../ekiga.schemas.in.in.h:134
+#, no-c-format
+msgid "The minimum transmitted video quality to keep when trying to minimize the used bandwidth: choose 100% on a LAN for the best quality, 1% being the worst quality"
+msgstr "ལག་ལེན་འཐབ་ཡོད་པའི་ བེནཌི་ཝིཐ་མར་ཕབ་ བརྐྱབ་ཐབས་འབདཝ་ད་ སྤེལ་བཀྲམ་འབད་མི་ཝི་ཌིའོ་གི་ སྤུས་ཚད་ཉུང་མཐའ་ བདག་འཛིན་འཐབ་དགོཔ་: སྤུས་ཚད་དྲག་ཤོས་ཀྱི་དོན་ལུ་ ཉེ་གནས་ཡོངས་འབྲེལ་ནང་ ༡༠༠% གདམ་ཁ་རྐྱབས། ༡% དེ་ སྤུས་ཚད་སྐྱོ་ཤོས་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:135
+msgid "The network interface"
+msgstr "ཡོངས་འབྲེལ་གྱི་ངོས་འདྲ་བ་དེ།"
+
+#: ../ekiga.schemas.in.in.h:136
+#: ../src/gui/preferences.cpp:950
+msgid "The network interface to listen on"
+msgstr "ཉན་ནིའི་ཡོངས་འབྲེལ་གྱི་ངོས་འདྲ་བ།"
+
+#: ../ekiga.schemas.in.in.h:137
+msgid "The new instant message sound"
+msgstr "འཕྲལ་མྱུར་འཕྲིན་དོན་གསར་པའི་སྒྲ་སྐད་དེ།"
+
+#: ../ekiga.schemas.in.in.h:138
+msgid "The new voice mail sound"
+msgstr "སྐད་འཕྲིན་གསར་པའི་སྒྲ་སྐད་དེ།"
+
+#: ../ekiga.schemas.in.in.h:139
+msgid "The output device type is the type of device connected to your Quicknet card. It can be either a POTS (Plain Old Telephone System) or a headset."
+msgstr "ཨའུཊི་པུཊི་ ཐབས་འཕྲུལ་གྱི་དབྱེ་བ་དེ་ ཁྱོད་རའི་ ཀུའིཀ་ནེཊི་ ཤོག་བྱང་ལུ་ མཐུད་དེ་ཡོད་མི་ ཐབས་འཕྲུལ་གྱི་ དབྱེ་བ་དེ་རང་ཨིན། དེ་ཡང་ ཡང་ཅིན་ པི་ཨོ་ཊི་ཨེསི་ (བརྒྱུད་འཕྲིན་རིམ་ལུགས་རྙིང་རྐྱང་) ཅིག་འོང་སྲིད་ནི་དང་ ཡང་ཅིན་ རྣར་དཔག་སྒྲ་ཆས་ཅིག་འོང་།"
+
+#: ../ekiga.schemas.in.in.h:140
+msgid "The port to listen to for incoming connections. Ekiga needs to be restarted for the new value to take effect"
+msgstr "ནང་འབྱོར་མཐུད་ལམ་ཚུ་གི་དོན་ལུ་ ཉན་ནིའི་འདྲེན་ལམ། བེ་ལུ་གསརཔ་དེ་ལུ་ ནུས་པ་འབྱུང་ཐབས་ལུ་ ཨེ་ཀི་ག་ ལོག་འགོ་བཙུགས་དགོ"
+
+#: ../ekiga.schemas.in.in.h:141
+msgid "The port to listen to for incoming connections. Ekiga needs to be restarted for the new value to take effect."
+msgstr "ནང་འབྱོར་མཐུད་ལམ་ཚུ་གི་དོན་ལུ་ ཉན་ནིའི་འདྲེན་ལམ། བེ་ལུ་གསརཔ་དེ་ལུ་ ནུས་པ་འབྱུང་ཐབས་ལུ་ ཨེ་ཀི་ག་ ལོག་འགོ་བཙུགས་དགོ"
+
+#: ../ekiga.schemas.in.in.h:142
+msgid "The position of the local video window"
+msgstr "ཉེ་གནས་ཀྱི་ ཝི་ཌིའོ་སྒོ་སྒྲིག་གི་གནས་ས་།"
+
+#: ../ekiga.schemas.in.in.h:143
+msgid "The position of the remote video window"
+msgstr "ཐག་རིང་ཝི་ཌིའོ་ སྒོ་སྒྲིག་གི་གནས་ས་།"
+
+#: ../ekiga.schemas.in.in.h:144
+msgid "The prefix that will be used to save pictures of the conversation. That prefix is followed by the snapshot number."
+msgstr "གྲོས་གླེང་གི་དཔར་ཚུ་ སྲུང་བཞག་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ནིའི་སྔོན་ཚིག སྔོན་ཚིག་དེ་གི་ཤུལ་བདའ་སྟེ་ པར་གྱི་ཨང་འོངམ་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:145
+msgid "The range of TCP ports that Ekiga will use for the H.323 H.245 channel. Ekiga needs to be restarted for the new values to take effect. This port range has no effect if both participants to the conference are using H.245 Tunneling."
+msgstr "རྒྱུ་ལམ་H.323 H.245གི་དོན་ལུ་ ཨེ་ཀི་ག་གིས་ ལག་ལེན་འཐབ་ནིའི་ ཊི་སི་པི་འདྲེན་ལམ་ཚུ་གི་ཁྱབ་ཚད། བེ་ལུ་གསརཔ་ཚུ་ལུ་ ནུས་པ་འཐོབ་ནིའི་དོན་ལས་ ཨེ་ཀི་ག་ལོག་འགོ་བཙུགས་དགོ ཞལ་འཛོམས་དེ་ནང་བཅའ་མར་གཏོགས་མི་ གཉིས་ཆ་ར་གིས་ H.245 ཊ་ན་ལིང་ ལག་ལེན་འཐབ་པ་ཅིན་ འདྲེན་ལམ་གྱི་ཁྱབ་ཚད་འདི་ལུ་ ནུས་པ་མེད། "
+
+#: ../ekiga.schemas.in.in.h:146
+msgid "The range of UDP ports that Ekiga will use for RTP (audio and video communication channels). Ekiga needs to be restarted for the new values to take effect."
+msgstr "ཨར་ཊི་པི་(རྣར་ཉན་དང་ཝི་ཌིའོ་བརྒྱུད་འབྲེལ་རྒྱུ་ལམ) གི་དོན་ལུ་ ཨེ་ཀི་ག་གིས་ ལག་ལེན་འཐབ་ནིའི་ ཡུ་ཌི་པི་འདྲེན་ལམ་ཚུ་གི་ཁྱབ་ཚད། བེ་ལུ་གསརཔ་ཚུ་ལུ་ ནུས་འཐོབ་ནིའི་དོན་ལུ་ ཨེ་ཀི་ག་ ལོག་འགོ་བཙུགས་དགོ།"
+
+#: ../ekiga.schemas.in.in.h:147
+msgid "The range of UDP ports that Ekiga will use for SIP signaling and when registering to gatekeepers. Ekiga needs to be restarted for the new values to take effect."
+msgstr "ཨེ་ཀི་ག་གིས་ ཨེསི་ཨའི་པི་བརྡ་སྟོན་འབད་བའི་སྐབས་དང་ སྒོ་སྲུང་པ་ཚུ་ལུ་ ཐོ་འགོད་འབད་བའི་སྐབས་ལག་ལེན་འཐབ་ནིའི་ ཡུ་ཌི་པི་འདྲེན་ལམ་ཚུ་གི་ཁྱབ་ཚད། བེ་ལུ་གསརཔ་ཚུ་ལུ་ ནུས་འཐོབ་ནིའི་དོན་ལུ་ ཨེ་ཀི་ག་ ལོག་འགོ་བཙུགས་དགོ།"
+
+#: ../ekiga.schemas.in.in.h:148
+msgid "The remote zoom value"
+msgstr "ཐག་རིང་རྒྱས་ཟུམ་གྱི་བེ་ལུ།"
+
+#: ../ekiga.schemas.in.in.h:149
+msgid "The save prefix"
+msgstr "སྲུང་བཞག་སྔོན་ཚིག"
+
+#: ../ekiga.schemas.in.in.h:150
+msgid "The size of the local video window"
+msgstr "ཉེ་གནས་ཝི་ཌིའོ་ སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../ekiga.schemas.in.in.h:151
+msgid "The size of the remote video window"
+msgstr "ཐག་རིང་ཝི་ཌིའོ་ སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../ekiga.schemas.in.in.h:152
+msgid "The sound that will be played at the end of calls or when calling somebody who is busy, if enabled"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ འབོད་བརྡ་རྫོགས་མཚམས་དང་ ཡང་ན་ ཁོམ་མེད་ཀྱི་མི་ཅིག་ལུ་ འབོད་བརྡ་གཏང་བའི་སྐབས་ལུ་ གཏང་ནིའི་སྒྲ་སྐད།"
+
+#: ../ekiga.schemas.in.in.h:153
+msgid "The sound that will be played on incoming calls, if enabled"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ནང་འབྱོར་འབོད་བརྡ་སྐབས་ལུ་ གཏང་ནིའི་སྒྲ་སྐད།"
+
+#: ../ekiga.schemas.in.in.h:154
+msgid "The sound that will be played when calling somebody, if enabled"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ མི་ཅིག་ལུ་འབོད་བརྡ་གཏང་བའི་སྐབས་ལུ་ གཏང་ནིའི་སྒྲ་སྐད།"
+
+#: ../ekiga.schemas.in.in.h:155
+msgid "The sound that will be played when there is a new instant message, if enabled"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ འཕྲལ་མྱུར་འཕྲིན་དོན་གསརཔ་ཅིག་ཡོད་པའི་སྐབས་ལུ་ གཏང་ནིའི་སྒྲ་སྐད།"
+
+#: ../ekiga.schemas.in.in.h:156
+msgid "The sound that will be played when there is a new voice mail, if enabled"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ སྐད་འཕྲིན་གསརཔ་ཅིག་ཡོད་པའི་སྐབས་ལུ་ གཏང་ནིའི་སྒྲ་སྐད།།"
+
+#: ../ekiga.schemas.in.in.h:157
+msgid "The time after which Ekiga will renew its registration with the registrar"
+msgstr "ཨེ་ཀི་ག་གིས་ སྒོ་སྲུང་པ་ལུ་ཐོ་འགོད་བསྐྱར་གསོ་འབད་དགོ་པའི་དུས་ཚོད།"
+
+#: ../ekiga.schemas.in.in.h:158
+msgid "The two-letter country code of your country (e.g.: BE, UK, FR, DE, ...)"
+msgstr "ཁྱོད་རའི་རྒྱལ་ཁབ་ཀྱི་ ཡི་གུ་གཉིས་འབད་མི་ རྒྱལ་ཁབ་ཀྱི་ཨང་རྟགས། (དཔེར་ན་ BE, UK, FR, DE, ..ལྟ་བུ)"
+
+#: ../ekiga.schemas.in.in.h:159
+#: ../src/gui/preferences.cpp:1172
+msgid "The video channel number to use (to select camera, tv or other sources)"
+msgstr "ལག་ལེན་འཐབ་ནིའི་ ཝི་ཌིའོ་གི་རྒྱུ་ལམ་ཨང་། (པར་ཆས་དང་ རྒྱང་མཐོང་ ཡང་ན་ འབྱུང་ཁུངས་གཞན་ཚུ་)"
+
+#: ../ekiga.schemas.in.in.h:160
+#: ../src/gui/preferences.cpp:1156
+msgid "The video plugin that will be used to detect the devices and manage them"
+msgstr "ཐབས་ལམ་ཚུ་ ངོས་འཛིན་འབད་དེ་ དེ་ཚུ་འཛིན་སྐྱོང་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཝི་ཌིའོ་པ་ལག་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:161
+msgid "The way to react to incoming calls: 0 displays a popup, 1 automatically answers the call, 2 automatically rejects the call and 3 forwards the call to the given URL, if any"
+msgstr "ནང་འབྱོར་འབོད་བརྡ་ཚུ་ལུ་ གདོང་ལན་འབད་ཐངས་: ༠ གིས་པོཔ་ཨཔ་ཅིག་བཀྲམ་སྟོན་འབདཝ་ཨིན། ༡ གིས་རང་བཞིན་གྱིས་ འབོད་བརྡ་དེ་ལུ་ ལན་རྐྱབ་ཨིན། ༢ ཀྱིས་རང་བཞིན་གྱིས་འབོད་བརྡ་དེ་ལུ་ དང་ལེན་སྤངམ་ཨིན། ༣ གྱིས་གྲ་བསྒྲིགས་ཡོད་པའི་ ཡུ་ཨར་ཨེལ་ལུ་ (ཡོད་པ་ཅིན་) གདོང་བསྐྱོད་འབད་ནི།"
+
+#: ../ekiga.schemas.in.in.h:162
+msgid "The zoom value"
+msgstr "རྒྱས་ཟུམ་གྱི་བེ་ལུ།"
+
+#: ../ekiga.schemas.in.in.h:163
+msgid "The zoom value to apply to images displayed in the local video window (can be 0.50, 1.00, or 2.00)"
+msgstr "ཉེ་གནས་ཀྱི་ ཝི་ཌིའོ་སྒོ་སྒྲིག་ནང་ བཀྲམ་སྟོན་འབད་མི་ གཟུགས་བརྙན་ཚུ་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྒྱས་ཟུམ་གྱི་བེ་ལུ་དེ། (༠.༥༠ འམ་ ༡.༠༠ འམ་ ༢.༠༠ ཚུ་བཏུབ)"
+
+#: ../ekiga.schemas.in.in.h:164
+msgid "The zoom value to apply to images displayed in the main GUI (can be 0.50, 1.00, or 2.00)"
+msgstr "ཇི་ཡུ་ཨའི་གཙོ་བོའི་ནང་ བཀྲམ་སྟོན་འབད་མི་ གཟུགས་བརྙན་ཚུ་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྒྱས་ཟུམ་གྱི་བེ་ལུ་དེ། (༠.༥༠ འམ་ ༡.༠༠ འམ་ ༢.༠༠ ཚུ་བཏུབ)"
+
+#: ../ekiga.schemas.in.in.h:165
+msgid "The zoom value to apply to images displayed in the remote video window (can be 0.50, 1.00, or 2.00)"
+msgstr "ཐག་རིང་གི་ ཝི་ཌིའོ་སྒོ་སྒྲིག་ནང་ བཀྲམ་སྟོན་འབད་མི་ གཟུགས་བརྙན་ཚུ་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྒྱས་ཟུམ་གྱི་བེ་ལུ་དེ། (༠.༥༠ འམ་ ༡.༠༠ འམ་ ༢.༠༠ ཚུ་བཏུབ)"
+
+#: ../ekiga.schemas.in.in.h:166
+#: ../src/gui/preferences.cpp:1001
+msgid "This enables H.245 Tunneling mode. In H.245 Tunneling mode H.245 messages are encapsulated into the the H.225 channel (port 1720). This saves one TCP connection during calls. H.245 Tunneling was introduced in H.323v2 and Netmeeting does not support it. Using both Fast Start and H.245 Tunneling can crash some versions of Netmeeting."
+msgstr "འདི་གིས་H.245 ཊ་ན་ལིང་ཐབས་ལམ་ ལྕོགས་ཅན་བཟོཝ་ཨིན། H.245 ཊ་ན་ལིང་ཐབས་ལམ་ནང་ H.245འཕྲིན་དོན་ཚུ་ H.225 རྒྱུ་ལམ་ འདྲེན་ལམ་༡༧༢༠) ནང་ལུ་ མདོར་བསྡུས་ཏེ་ཡོདཔ་ཨིན། འདི་གིས་འབོད་བརྡ་གཏང་བའི་སྐབས་ལུ་ ཊི་སི་པི་མཐུད་ལམ་གཅིག་ སྲུང་བཞག་འབདཝ་ཨིན། H.245 ཊ་ན་ལིང་དེ་ H.323v2 ནང་ འགོ་བཙུགས་ཏེ་ཡོདཔ་ད་ ནེཊི་མི་ཊིང་གིས་ དེ་ལུ་རྒྱབ་སྐྱོར་མི་འབད། མགྱོགས་པར་འགོ་བཙུགས་དང་ H.245 ཊ་ན་ལིང་གཉིས་ཆ་ར་ ལག་ལེན་འཐབ་པ་ཅིན་ ནེཊི་མི་ཊིང་གི་ ཐོན་རིམ་ལ་ལོ་ཅིག་ མེདཔ་འགྱོ་འོང་།"
+
+#: ../ekiga.schemas.in.in.h:167
+#: ../src/gui/preferences.cpp:1003
+msgid "This enables H.245 early in the setup"
+msgstr "འདི་གིས་གཞི་སྒྲིག་སྐབས་ འགོ་དང་འགོ་ལས་རང་ H.245  ལྕོགས་ཅན་བཟོཝ་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:168
+msgid "This enables IP checking from ekiga.com. The returned IP is only used when IP Translation is enabled."
+msgstr "འདི་གིས་ཨེ་ཀི་ག་.ཀོམ་ནང་ལས་ ཨའི་པི་ཞིབ་དཔྱད་འབད་ནི་ ལྕོགས་ཅན་བཟོཝ་ཨིན། ལོག་བྱུང་མི་ཨའི་པི་དེ་ ཨའི་པི་སྐད་བསྒྱུར་དེ་ ལྕོགས་ཅན་ཨིན་པའི་སྐབས་རྐྱངམ་གཅིག་ ལག་ལེན་འཐབ་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:169
+msgid "This permits to set the mode for DTMFs sending. The value can be \"RFC2833\" (0) only"
+msgstr "འདི་གིས་ཌི་ཊི་ཨེམ་ཨེཕ་ཚུ་ གཏང་ནིའི་དོན་ལུ་ ཐབས་ལམ་གཞི་སྒྲིག་འབད་བཅུགཔ་ཨིན། བེ་ལུ་དེ་\"RFC2833\" (༠) རྐྱངམ་གཅིག་འོང་།"
+
+#: ../ekiga.schemas.in.in.h:170
+msgid "This permits to set the mode for DTMFs sending. The values can be \"String\" (0), \"Tone\" (1), \"RFC2833\" (2), \"Q.931\" (3) (default is \"String\"). Choosing other values than \"String\" disables the Text Chat"
+msgstr "འདི་གིས་ཌི་ཊི་ཨེམ་ཨེཕ་ཚུ་གཏང་ནིའི་དོན་ལུ་ ཐབས་ལམ་གཞི་སྒྲིག་གི་གནང་བ་བྱིནམ་ཨིན། བེ་ལུསི་ཚུ་ \"String\" (༠), \"Tone\" (༡), \"RFC2833\" (༢), \"Q.931\" (༣) (སྔོན་སྒྲིག་དེ་ \"String\") ཨིན། \"String\" མིན་པའི་བེལུསི་གཞན་ གདམ་ཁ་བརྐྱབ་པ་ཅིན་ ཁ་སླབ་ཚིག་ཡིག་དེ་ ལྕོགས་མིན་བཟོཝ་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:171
+msgid "UDP port range"
+msgstr "ཡི་ཌི་པི་ མཐུད་ལམ་གྱི་ཁྱབ་ཚད།"
+
+#: ../ekiga.schemas.in.in.h:172
+msgid "User directory"
+msgstr "ལག་ལེན་པའི་སྣོད་ཐོ།"
+
+#: ../ekiga.schemas.in.in.h:173
+msgid "Version"
+msgstr "ཐོན་རིམ།"
+
+#: ../ekiga.schemas.in.in.h:174
+msgid "Video channel"
+msgstr "ཝི་ཌིའོ་རྒྱུ་ལམ།"
+
+#: ../ekiga.schemas.in.in.h:175
+msgid "Video format"
+msgstr "ཝི་ཌིའོ་རྩ་སྒྲིག"
+
+#: ../ekiga.schemas.in.in.h:176
+msgid "Video image"
+msgstr "ཝི་ཌིའོ་གཟུགས་བརྙན།"
+
+#: ../ekiga.schemas.in.in.h:177
+msgid "Video input device"
+msgstr "ཝི་ཌིའོ་ཨིན་པུཊི་ཐབས་ལམ།"
+
+#: ../ekiga.schemas.in.in.h:178
+msgid "Video plugin"
+msgstr "ཝི་ཌིའོ་པ་ལག་ཨིན།"
+
+#: ../ekiga.schemas.in.in.h:179
+msgid "Video preview"
+msgstr "ཝི་ཌིའོ་སྔོན་ལྟ།"
+
+#: ../ekiga.schemas.in.in.h:180
+msgid "Video size"
+msgstr "ཝི་ཌིའོ་ཚད།"
+
+#: ../lib/gmconf/gmconf-gconf.c:155
+msgid ""
+"An error has happened in the configuration backend.\n"
+"Maybe some of your settings won't be saved."
+msgstr ""
+"རིམ་སྒྲིག་གི་རྒྱབ་མཐའ་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ནུག\n"
+"ཁྱོད་ཀྱི་གཞི་སྒྲིག་ལ་ལོ་ཅིག་ སྲུང་བཞག་མི་འབདཝ་འོང་།"
+
+#: ../lib/gmcontacts/gmcontacts-avahi.cpp:285
+msgid "Contacts Near Me"
+msgstr "ངེད་ཀྱི་སྦོ་ལོགས་ཁའི་འབྲེལ་ས།"
+
+#. Init the address book
+#: ../lib/gmcontacts/gmcontacts-eds.cpp:304
+#: ../src/endpoints/ekiga.cpp:500
+msgid "On This Computer"
+msgstr "གློག་རིག་འདི་གུ།"
+
+#: ../lib/gmcontacts/gmcontacts-eds.cpp:308
+#: ../src/endpoints/ekiga.cpp:500
+#: ../src/gui/addressbook.cpp:3041
+msgid "Personal"
+msgstr "རང་དོན།"
+
+#: ../lib/gui/gmdialog.c:487
+msgid "Do not show this dialog again"
+msgstr "ཌའི་ལོག་འདི་ ལོག་སྟེ་མ་བཏོན།"
+
+#: ../lib/gui/gmtray/eggtrayicon.c:133
+msgid "Orientation"
+msgstr "ཕྱོགས་ "
+
+#: ../lib/gui/gmtray/eggtrayicon.c:134
+msgid "The orientation of the tray."
+msgstr "ཤོག་སྣོད་ཀྱི་ ཕྱོགས།"
+
+#: ../src/clients/stun.cpp:104
+#, c-format
+msgid "STUN server set to %s"
+msgstr "སི་ཊཱན་སར་བར་ %sལུ་གཞི་སྒྲིག་འབད་ཡི།"
+
+#: ../src/clients/stun.cpp:113
+msgid "Removed STUN server"
+msgstr "སིཊཱན་སར་བར་ རྩ་བསྐྲད་ཏང་ཡོད།"
+
+#: ../src/clients/stun.cpp:142
+#, c-format
+msgid ""
+"STUN test result: %s.\n"
+"\n"
+"Ekiga could not detect the type of NAT you are using. The most appropriate method, if your router does not natively support SIP or H.323, is probably to forward the required ports to your internal machine and use IP translation if you are behind a NAT router. Please also make sure you are not running a local firewall."
+msgstr ""
+"སི་ཊཱན་བརྟག་ཞིབ་གྲུབ་འབྲས་: %s.\n"
+"\n"
+"ཨེ་ཀི་ག་གིས་ ཁྱོད་ཀྱིས་ལག་ལེན་འཐབ་མི་ ཨེན་ཨེ་ཊི་གི་དབྱེ་བ་དེ་ ངོས་འཛིན་འབད་མ་ཚུགས། ཁྱོད་ཀྱི་རོ་ཊར་གྱིས་ཨེསི་ཨའི་པི་ ཡང་ན་ H.323 ལུ་ རྒྱབ་སྐྱོར་མ་འབད་བ་ཅིན་ འོས་ལྡན་གྱི་ཐབས་ཤེས་དྲག་ཤོས་དེ་རང་ ཉེར་མཁོའི་འདྲེན་ལམ་ཚུ་ ཁྱོད་རའི་ནང་འཁོད་ཀྱི་ གློག་འཕྲུལ་ལུ་ གདོང་བསྐྱོད་འབད་ཞིནམ་ལས་ ཁྱོད་ར་ཨེན་ཨེ་ཊི་རོ་ཊར་ཅིག་གི་རྒྱབ་ཁར་ཨིན་པ་ཅིན་ ཨའི་པི་སྐད་བསྒྱུར་ ལག་ལེན་འཐབ། དེ་འབདཝ་ད་ ཉེ་གནས་ཀྱི་ཕ་ཡེར་ཝཱལ་ཅིག་ གཡོག་བཀོལ་བའི་བསྒང་མིནམ་ ངེས་ཏིག་བཟོ་དགོ"
+
+#: ../src/clients/stun.cpp:148
+#, c-format
+msgid ""
+"STUN test result: %s.\n"
+"\n"
+"Your system does not need any specific configuration as long as you do not have a local firewall blocking the ports required by Ekiga."
+msgstr ""
+"སི་ཊཱན་བརྟག་ཞིབ་གྲུབ་འབྲས་: %s .\n"
+"\n"
+"ཨེ་ཀི་ག་ལུ་དགོས་མཁོ་ཡོད་པའི་ འདྲེན་ལམ་ཚུ་ལུ་བཀག་མི་ ཉེ་གནས་ཀྱི་ཕ་ཡེར་ཝཱལ་ཅིག་མེད་པ་ཅིན་ ཁྱོད་ཀྱི་རིམ་ལུགས་ལུ་ དམིགས་བསལ་གྱི་རིམ་སྒྲིག་ ག་ནི་ཡང་དགོཔ་མེད།"
+
+#: ../src/clients/stun.cpp:153
+#, c-format
+msgid "Ekiga detected Symmetric NAT. The most appropriate method, if your router does not natively support SIP or H.323, is to forward the required ports to your internal machine in order to change your Symmetric NAT into Cone NAT. If you run this test again after the port forwarding has been done, it should report Cone NAT. This should allow Ekiga to be used with STUN support enabled. If it does not report Cone NAT, then it means that there is a problem in your forwarding rules."
+msgstr "ཨེ་ཀི་ག་གིས་ ཆ་མཚུངས་པའི་ ཨེན་ཨེ་ཊི་ངོས་འཛིན་འབད་ནུག ཁྱོད་ཀྱི་རོ་ཊར་གྱིས་ ཨེསི་ཨའི་པི་ ཡང་ན་ H.323ལུ་ རྒྱབ་སྐྱོར་མ་འབད་བ་ཅིན་ འོས་ལྡན་གྱི་ཐབས་ཤེས་དྲག་ཤོས་དེ་རང་ ཉེར་མཁོའི་འདྲེན་ལམ་ཚུ་ ཁྱོད་རའི་ནང་འཁོད་ཀྱི་ གློག་འཕྲུལ་ལུ་ གདོང་བསྐྱོད་འབད་ཞིནམ་ལས་ ཁྱོད་རའི་ཆ་མཚུངས་པའི་ ཨེན་ཨེ་ཊི་དེ་ ཀཱོན་ཨེན་ཨེ་ཊི་ནང་ལུ་ བསྒྱུར་བཅོས་འབད་དགོ འདྲེན་ལམ་གདོང་བསྐྱོད་འབད་ཞིནམ་ལས་ ལོག་སྟེ་བརྟག་ཞིབ་འབད་བ་ཅིན་ ཀཱོན་ཨེན་ཨེ་ཊི་ སྙན་ཞུ་འབད་དགོ འདི་གིས་ཨེ་ཀི་ག་དེ་ སི་ཊཱན་གི་ལྕོགས་ཅན་རྒྱབ་སྐྱོར་དང་གཅིག་ཁར་ ལག་ལེན་འཐབ་བཅུགཔ་ཨིན། གལ་སྲིད་དེ་གིས་ ཀཱོན་ཨེན་ཨེ་ཊི་ སྙན་ཞུ་མ་འབད་བ་ཅིན་ ཁྱོད་ཀྱི་གདོང་བསྐྱོད་ལམ་ལུགས་ནང་ དཀའ་ངལ་ཅིག་ཡོད་པའི་བརྡ་ཨིན།"
+
+#: ../src/clients/stun.cpp:157
+#, c-format
+msgid ""
+"STUN test result: %s.\n"
+"\n"
+"You do not seem to be using a NAT router. STUN support is not required."
+msgstr ""
+"སི་ཊཱན་ཞིབ་དཔྱད་གྲུབ་འབྲས་:%s.\n"
+"\n"
+"ཁྱོད་ཀྱིས་ཨེན་ཨེ་ཊི་རོ་ཊར་ཅིག་ ལག་ལེན་མི་འཐབ་དོ་བཟུམ་ཅིག་འདུག སི་ཊཱན་གྱི་རྒྱབ་སྐྱོར་དགོཔ་མིན་འདུག"
+
+#: ../src/clients/stun.cpp:162
+#, c-format
+msgid ""
+"STUN test result: %s.\n"
+"\n"
+"Using a STUN server is most probably the most appropriate method if your router does not natively support SIP or H.323.\n"
+"\n"
+"Enable STUN Support?"
+msgstr ""
+"སི་ཊཱན་བརྟག་ཞིབ་གྲུབ་འབྲས་: %s .\n"
+"\n"
+"ཁྱོད་ཀྱི་རོ་ཊར་གྱིས་ ཨེསི་ཨའི་པི་ ཡང་ན་ H.323ལུ་ རྒྱབ་སྐྱོར་མ་འབད་བ་ཅིན་ འོས་ལྡན་གྱི་ཐབས་ཤེས་དྲག་ཤོས་དེ་རང་ སི་ཊཱན་སར་བར་ ལག་ལེན་འཐབ་ནི་དེ་ཨིན།\n"
+"\n"
+"སི་ཊཱན་ལྕོགས་ཅན་བཟོ།"
+
+#: ../src/clients/stun.cpp:170
+#: ../src/clients/stun.cpp:183
+msgid "NAT Detection Finished"
+msgstr "ཨེན་ཨེ་ཊི་ ངོསའཛིན་འབད་ཚར་ཡི།"
+
+#: ../src/clients/stun.cpp:194
+msgid "The detection of your NAT type is finished"
+msgstr "ཁྱོད་ཀྱི་ཨེན་ཨེ་ཊི་དབྱེ་བ་ ངོས་འཛིན་འབད་ནི་དེ་ མཇུག་བསྡུ་ནུག"
+
+#: ../src/clients/stun.cpp:261
+msgid "Unknown NAT"
+msgstr "མ་ཤེས་པའི་ ཨེན་ཨེ་ཊི།"
+
+#: ../src/clients/stun.cpp:262
+msgid "Open NAT"
+msgstr "ཨེན་ཨེ་ཊི་ ཁ་ཕྱེ།"
+
+#: ../src/clients/stun.cpp:263
+msgid "Cone NAT"
+msgstr "ཀཱོན་ ཨེན་ཨེ་ཊི། "
+
+#: ../src/clients/stun.cpp:264
+msgid "Restricted NAT"
+msgstr "བཀག་དམ་ཅན་གྱི་ ཨེན་ཨེ་ཊི།"
+
+#: ../src/clients/stun.cpp:265
+msgid "Port Restricted NAT"
+msgstr "མཐུད་ལམ་བཀག་དམ་ཅན་གྱི་ ཨེན་ཨེ་ཊི།"
+
+#: ../src/clients/stun.cpp:266
+msgid "Symmetric NAT"
+msgstr "ཆ་མཚུངས་པའི་ ཨེན་ཨེ་ཊི།"
+
+#: ../src/clients/stun.cpp:267
+msgid "Symmetric Firewall"
+msgstr "ཆ་མཚུངས་པའི་ བཀག་དམ།"
+
+#: ../src/clients/stun.cpp:268
+msgid "Blocked"
+msgstr "འགགས་ཡོདཔ།"
+
+#: ../src/clients/stun.cpp:269
+msgid "Partially Blocked"
+msgstr "ཆ་ཤས་ཅིག་ འགགས་ཡོདཔ།"
+
+#: ../src/clients/stun.cpp:270
+msgid "No NAT"
+msgstr "ཨེན་ཨེ་ཊི་མིན་འདུག"
+
+#: ../src/clients/stun.cpp:321
+msgid "Detection in progress"
+msgstr "ངོས་འཛིན་འབད་དོ།"
+
+#: ../src/clients/stun.cpp:322
+msgid "Please wait while your type of NAT is being detected."
+msgstr "ཁྱོད་ཀྱི་ཨེན་ཨེ་ཊི་གི་དབྱེ་བ་དེ་ ངོས་འཛིན་འབད་བའི་རིང་ལུ་ བསྒུག་སྡོད་གནང་།"
+
+#: ../src/clients/stun.cpp:373
+#, c-format
+msgid "Set STUN server to %s (%s)"
+msgstr "སི་ཊཱ་སར་བར་%s (%s)ལུ་ གཞི་སྒྲིག་འབད།"
+
+#: ../src/clients/stun.cpp:375
+#, c-format
+msgid "Ignored STUN server (%s)"
+msgstr "སི་ཊཱན་སར་བར་(%s) སྣང་མེད་བཏང་ནུག།"
+
+#: ../src/components/bonobo.cpp:117
+msgid "Cannot run Ekiga"
+msgstr "ཨེ་ཀི་ག་གཡོག་བཀོལ་མི་ཚུགས་པས།"
+
+#: ../src/components/bonobo.cpp:117
+msgid "Ekiga is already running, if you want it to call a given SIP, H.323, or callto address, please use \"ekiga -c address\"."
+msgstr "ཨེ་ཀི་ག་ལཱ་འབད་བའི་བསྒང་འདུག ཁྱོད་ཀྱིས་གྲ་སྒྲིག་ཡོད་པའི་ ཨའི་ཨེསི་པི་ H.323 ཡང་ན་ འབོད་བརྡའི་ཁ་བྱང་ཅིག་ནང་ བརྒྱུད་འཕྲིན་"
+
+#: ../src/components/bonobo.cpp:170
+#, c-format
+msgid "It appears that you do not have ekiga.server installed in a valid location. Factory mode disabled.\n"
+msgstr "ཁྱོད་ལུ་ནུས་ཅན་གནས་ཁོངས་ཅིག་ནང་ ཨེ་ཀི་ག་སར་བར་ གཞི་བཙུགས་འབད་འབདཝ་ མེདཔ་བཟུམ་ཅིག་འདུག འཕྲུལ་ཁང་གི་ཐབས་ལམ་ ལྕོགས་མིན་ཨིན་པས། \n"
+
+#: ../src/components/bonobo.cpp:174
+#, c-format
+msgid "Error registering Ekiga with the activation service; factory mode disabled.\n"
+msgstr "ཨེ་ཀི་ག་ཤུགས་བཟོ་ཞབས་ཏོག་དང་གཅིག་ཁར་ ཐོ་འགོད་འབད་ནི་ལུ་འཛོལ་བ། འཕྲུལ་ཁང་གི་ཐབས་ལམ་ལྕོགས་མིན་ཨིན་པས།\n"
+
+#: ../src/components/bonobo.cpp:214
+#, c-format
+msgid "Failed to retrieve Ekiga server from activation server\n"
+msgstr "ཤུགས་བཟོ་སར་བར་ནང་ལས་ ཨེ་ཀི་ག་སར་བར་ སླར་འདྲེན་འབད་མ་ཚུགས།\n"
+
+#: ../src/devices/audio.cpp:285
+msgid "Opening device for playing"
+msgstr "གཏང་ནིའི་དོན་ལུ་ ཐབས་འཕྲུལ་ཁ་ཕྱེ་བའི་བསྒང་།"
+
+#: ../src/devices/audio.cpp:287
+msgid "Opening device for recording"
+msgstr "སྒྲ་བཟུང་གི་དོན་ལུ་ ཐབས་འཕྲུལ་ཁ་ཕྱེ་བའི་བསྒང་།"
+
+#: ../src/devices/audio.cpp:298
+#: ../src/devices/audio.cpp:300
+#: ../src/devices/videoinput.cpp:708
+msgid "Failed to open the device"
+msgstr "ཐབས་འཕྲུལ་དེ་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/devices/audio.cpp:298
+#, c-format
+msgid "Impossible to open the selected audio device (%s) for recording. Please check your audio setup, the permissions and that the device is not busy."
+msgstr "སེལ་འཐུ་འབད་མི་ རྣར་ཉན་ཐབས་འཕྲུལ་(%s)དེ་ སྒྲ་བཟུང་གི་དོན་ལུ་ ཁ་ཕྱེ་མི་ཚུགས་པས། ཁྱོད་རའི་རྣར་ཉན་གཞི་སྒྲིག་དང་ གནང་བ་ཚུ་ དེ་ལས་ ཐབས་འཕྲུལ་དེ་ དལ་ཁོམ་ཡོད་མེད་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../src/devices/audio.cpp:300
+#, c-format
+msgid "Impossible to open the selected audio device (%s) for playing. Please check your audio setup, the permissions and that the device is not busy."
+msgstr "སེལ་འཐུ་འབད་མི་ རྣར་ཉན་ཐབས་འཕྲུལ་(%s)དེ་ གཏང་ནིའི་དོན་ལུ་ ཁ་ཕྱེ་མི་ཚུགས་པས། ཁྱོད་རའི་རྣར་ཉན་གཞི་སྒྲིག་དང་ གནང་བ་ཚུ་ དེ་ལས་ ཐབས་འཕྲུལ་དེ་ དལ་ཁོམ་ཡོད་མེད་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../src/devices/audio.cpp:316
+#: ../src/devices/audio.cpp:385
+msgid "Cannot use the audio device"
+msgstr "རྣར་ཉན་ཐབས་འཕྲུལ་དེ་ ལག་ལེན་འཐབ་མི་ཚུགས་པས།"
+
+#: ../src/devices/audio.cpp:316
+#, c-format
+msgid "The selected audio device (%s) was successfully opened but it is impossible to read data from this device. Please check your audio setup."
+msgstr "སེལ་འཐུ་འབད་མི་ ཐབས་འཕྲུལ་(%s)དེ་ མཐར་འཁྱོལ་ཅན་སྦེ་ ཁ་ཕྱེ་ཚུགས་ཅི། དེ་འབདཝ་ད་ ཐབས་འཕྲུལ་འདི་ནང་ལས་ གནད་སྡུད་ཚུ་ ལྷག་མི་ཚུགས་པས། ཁྱོད་རའི་རྣར་ཉན་གཞི་སྒྲིག་དེ་ལུ་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../src/devices/audio.cpp:325
+msgid "Recording your voice"
+msgstr "ཁྱོད་རའི་སྐད་ སྒྲ་བཟུང་དོ།"
+
+#: ../src/devices/audio.cpp:364
+msgid "Recording and playing back"
+msgstr "སྒྲ་བཟུང་ཞིནམས་ལས་ ལོག་གཏང་དོ།"
+
+#: ../src/devices/audio.cpp:385
+#, c-format
+msgid "The selected audio device (%s) was successfully opened but it is impossible to write data to this device. Please check your audio setup."
+msgstr "སེལ་འཐུ་འབད་མི་ ཐབས་འཕྲུལ་(%s)དེ་ མཐར་འཁྱོལ་ཅན་སྦེ་ ཁ་ཕྱེ་ཚུགས་ཅི། དེ་འབདཝ་ད་ ཐབས་འཕྲུལ་འདི་ནང་ལུ་ གནད་སྡུད་ཚུ་ འབྲི་མི་ཚུགས་པས། ཁྱོད་རའི་རྣར་ཉན་གཞི་སྒྲིག་དེ་ལུ་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../src/devices/audio.cpp:481
+#: ../src/devices/audio.cpp:482
+#: ../src/devices/videoinput.cpp:310
+#: ../src/devices/videoinput.cpp:585
+#: ../src/endpoints/ekiga.cpp:351
+#: ../src/endpoints/ekiga.cpp:353
+#: ../src/endpoints/ekiga.cpp:355
+#: ../src/endpoints/pcss.cpp:198
+#: ../src/gui/druid.cpp:1784
+#: ../src/gui/druid.cpp:1796
+#: ../src/gui/druid.cpp:1854
+msgid "No device found"
+msgstr "ཐབས་འཕྲུལ་མ་ཐོབ།"
+
+#: ../src/devices/audio.cpp:500
+#, c-format
+msgid "Ekiga is now recording from %s and playing back to %s. Please say \"1, 2, 3, Ekiga rocks!\" in your microphone. You should hear yourself back into the speakers with a four-second delay."
+msgstr "ཨེ་ཀི་ག་གིས་ ད་ལྟོ་%sནང་ལས་སྒྲ་བཟུང་ཞིནམ་ལས་%sལུ་ལོག་གཏང་དོ། ཁྱོད་རའི་ཁ་པར་ནང་ \"1, 2, 3, Ekiga rocks!\"ཟེར་སླབས། སྐར་ཆ་༤ གི་ཤུལ་ལས་ ཁ་པར་ནང་ལས་ ལོག་ཁྱོད་རང་གིས་གོ་ཚུགས།"
+
+#: ../src/devices/videoinput.cpp:319
+#, c-format
+msgid "Opening video device %s with plugin %s"
+msgstr "ཝི་ཌིའོ་ཐབས་འཕྲུལ་%sདེ་ པ་ལག་ཨིན་%sདང་གཅིག་ཁར་ ཁ་ཕྱེ་དོ།"
+
+#: ../src/devices/videoinput.cpp:347
+#, c-format
+msgid "Successfully opened video device %s, channel %d"
+msgstr "ཝི་ཌིའོ་ཐབས་འཕྲུལ་%sདང་ རྒྱུ་ལམ་%dམཐར་འཁྱོལ་སྦེ་ ཁ་ཕྱེ་ཡི།"
+
+#: ../src/devices/videoinput.cpp:358
+#, c-format
+msgid "Error while opening video device %s"
+msgstr "ཝི་ཌིའོ་ཐབས་འཕྲུལ་%sཁ་ཕྱེ་ནི་ལུ་འཛོལ་བ།"
+
+#. Translators: Do not translate MovingLogo and Picture
+#: ../src/devices/videoinput.cpp:362
+msgid "A moving logo will be transmitted during calls. Notice that you can always transmit a given image or the moving logo by choosing \"Picture\" as video plugin and \"MovingLogo\" or \"StaticPicture\" as device."
+msgstr "འབོད་བརྡ་གཏང་བའི་སྐབས་ལུ་ འགུལ་ཅན་ལས་རྟགས་ཅིག་ སྤེལ་བཀྲམ་འབད་འོང་། སེམས་ཁར་ངེས་དགོཔ་དེ་ ཁྱོད་ཀྱིས་ནམ་རང་འབད་རུང་ གྲ་བསྒྲིགས་ཀྱི་གཟུགས་བརྙན་ཅིག་གམ་ འགུལ་ཅན་ལས་རྟགས་དེ་ \"Picture\" དེ་ ཝིན་ཌིའོ་པ་ལག་ཨིན་སྦེ་དང་ \"MovingLogo\" ཡང་ན་\"StaticPicture\" དེ་ ཐབས་འཕྲུལ་སྦེ་ གདམ་ཁ་བརྐྱབས་ཐོག་ལས་ སྤེལ་བཀྲམ་འབད་ཚུགས།"
+
+#: ../src/devices/videoinput.cpp:364
+msgid "Couldn't open the video device"
+msgstr "ཝི་ཌིའོ་ཐབས་འཕྲུལ་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/devices/videoinput.cpp:368
+msgid "There was an error while opening the device. Please check your permissions and make sure that the appropriate driver is loaded."
+msgstr "ཐབས་འཕྲུལ་ཁ་ཕྱེ་བའི་སྐབས་ འཛོལ་བ་ཅིག་བྱུང་ནུག ཁྱོད་རའི་གནང་བ་ཚུ་ ཞིབ་དཔྱད་འབད་ཞིནམ་ལས་ འོས་ལྡན་གྱི་འདྲེན་བྱེད་དེ་ མངོན་གསལ་འབད་ཡོདཔ་ ངེས་ཏིག་བཟོ།"
+
+#: ../src/devices/videoinput.cpp:372
+#: ../src/devices/videoinput.cpp:686
+#, c-format
+msgid "Your video driver doesn't support the requested video format."
+msgstr "ཁྱོད་ཀྱི་ཝི་ཌིའོ་འདྲེན་བྱེད་དེ་གིས་ ཞུ་བ་འབད་མི་ ཝི་ཌིའོ་རྩ་སྒྲིག་དེ་ལུ་ རྒྱབ་སྐྱོར་མི་འབད་བས།"
+
+#: ../src/devices/videoinput.cpp:376
+msgid "Could not open the chosen channel."
+msgstr "གདམ་ཁ་རྐྱབ་མི་རྒྱུ་ལམ་དེ་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/devices/videoinput.cpp:380
+msgid ""
+"Your driver doesn't seem to support any of the color formats supported by Ekiga.\n"
+" Please check your kernel driver documentation in order to determine which Palette is supported."
+msgstr ""
+"ཁྱོད་ཀྱི་འདྲེན་བྱེད་དེ་གིས་ ཨེ་ཀི་ག་གིས་ རྒྱབ་སྐྱོར་འབད་མི་ ཚོས་གཞི་རྩ་སྒྲིག་ གཅིག་ལུ་ཡང་ རྒྱབ་སྐྱོར་མི་འབད་དོ་བཟུམ་ཅིག་འདུག \n"
+"པེ་ལེཊི་ག་དེ་ལུ་རྒྱབ་སྐྱོར་ཡོད་ག་ ངོས་འཛིན་འབད་ནིའི་དོན་ལུ་ ཁྱོད་རའི་ཀར་ནེལ་ འདྲེན་བྱེད་ཡིག་བཀོད་དེ་ལུ་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../src/devices/videoinput.cpp:384
+msgid "Error while setting the frame rate."
+msgstr "གཞི་ཁྲམ་གྱི་མགྱོགས་ཚད་ གཞི་སྒྲིག་འབད་བའི་སྐབས་འཛོལ་བ།"
+
+#: ../src/devices/videoinput.cpp:388
+msgid "Error while setting the frame size."
+msgstr "གཞི་ཁྲམ་གྱི་ཚད་ གཞི་སྒྲིག་འབད་བའི་སྐབས་འཛོལ་བ།"
+
+#: ../src/devices/videoinput.cpp:428
+msgid "Opened the video device using the \"Picture\" video plugin"
+msgstr "ཝི་ཌིའོ་ཐབས་འཕྲུལ་དེ་ \"Picture\" གྱི་ ཝི་ཌིའོ་པ་ལག་ཨིན་ ལག་ལེན་འཐབ་ཐོག་ལས་ ཁ་ཕྱེ་ཡི།"
+
+#: ../src/devices/videoinput.cpp:586
+msgid "Picture"
+msgstr "པར།"
+
+#: ../src/devices/videoinput.cpp:598
+#, c-format
+msgid "Ekiga is now testing the %s video device. If you experience machine crashes, then report a bug to the video driver author."
+msgstr "ད་ ཨེ་ཀི་གོ་གིས་ ཝི་ཌིའོ་ཐབས་འཕྲུལ་%sདེ་ལུ་ བརྟག་ཞིབ་འབད་དོ། གལ་སྲིད་ གློག་འཕྲུལ་ལུ་ དཀའ་ངལ་འབྱུང་པ་ཅིན་ ཝི་ཌིའོ་འདྲེན་བྱེད་རྩོམ་པ་པོ་ལུ་ རྐྱེན་གྱི་སྙན་ཞུ་ཅིག་གཏང་།"
+
+#: ../src/devices/videoinput.cpp:660
+#, c-format
+msgid "Test %d done"
+msgstr "བརྟག་ཞིབ་%dཚར།"
+
+#: ../src/devices/videoinput.cpp:662
+#, c-format
+msgid "Test %d failed"
+msgstr "བརྟག་ཞིབ་%d མ་ཚུགས།"
+
+#: ../src/devices/videoinput.cpp:681
+#, c-format
+msgid "Error while opening %s."
+msgstr "%sཁ་ཕྱེ་བའི་སྐབས་འཛོལ་བ།"
+
+#: ../src/devices/videoinput.cpp:690
+#, c-format
+msgid "Could not open the chosen channel with the chosen video format."
+msgstr "གདམ་ཁ་རྐྱབ་མི་ ཝི་ཌིའོ་རྩ་སྒྲིག་དེ་གིས་ གདམ་ཁ་རྐྱབ་མི་ རྒྱུ་ལམ་དེ་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/devices/videoinput.cpp:694
+#, c-format
+msgid "Your driver doesn't support any of the color formats tried by Ekiga"
+msgstr "ཁྱོད་ཀྱི་འདྲེན་བྱེད་དེ་གིས་ ཨེ་ཀི་ག་གིས་ འབད་རྩོལ་བསྐྱེད་མི་ ཚོས་གཞི་རྩ་སྒྲིག་གཅིག་ལུ་ཡང་ རྒྱབ་སྐྱོར་མི་འབད་བས།"
+
+#: ../src/devices/videoinput.cpp:698
+#, c-format
+msgid "Error with the frame rate."
+msgstr "གཞི་ཁྲམ་གྱི་མགྱོགས་ཚད་ལུ་འཛོལ་བ།"
+
+#: ../src/devices/videoinput.cpp:702
+#, c-format
+msgid "Error with the frame size."
+msgstr "གཞི་ཁྲམ་གྱི་ཚད་ལུ་འཛོལ་བ།"
+
+#: ../src/endpoints/accountshandler.cpp:186
+#: ../src/endpoints/accountshandler.cpp:270
+msgid "Registering"
+msgstr "ཐོ་འགོད་འབད་དོ།"
+
+#: ../src/endpoints/accountshandler.cpp:200
+#, c-format
+msgid "Registration of %s to %s failed"
+msgstr "%sལས་%sལུ་ཐོ་འགོད་འབད་མ་ཚུགས།"
+
+#: ../src/endpoints/accountshandler.cpp:211
+#: ../src/endpoints/accountshandler.cpp:323
+#: ../src/endpoints/sip.cpp:317
+#: ../src/endpoints/sip.cpp:329
+msgid "Registration failed"
+msgstr "ཐོ་འགོད་འབད་མ་ཚུགས།"
+
+#: ../src/endpoints/accountshandler.cpp:225
+#: ../src/endpoints/accountshandler.cpp:338
+msgid "Unregistering"
+msgstr "ཐོ་འགོད་འབད་ནི་བཤོལ་དོ།"
+
+#: ../src/endpoints/accountshandler.cpp:294
+msgid "Gatekeeper registration failed: duplicate alias"
+msgstr "སྒོ་སྲུང་པ་ ཐོ་འགོད་འབད་མ་ཚུགས: ངོ་བཤུས་ཀྱི་མིང་གཞན།"
+
+#: ../src/endpoints/accountshandler.cpp:298
+msgid "Gatekeeper registration failed: bad username/password"
+msgstr "སྒོ་སྲུང་པ་ལུ་ཐོ་འགོད་འབད་མ་ཚུགས: ལག་ལེན་པའི་མིང་/ཆོག་ཡིག་བྱང་ཉེས།"
+
+#: ../src/endpoints/accountshandler.cpp:301
+msgid "Gatekeeper registration failed: transport error"
+msgstr "སྒོ་སྲུང་པ་ ཐོ་འགོད་འབད་མ་ཚུགས: སྐྱེལ་འདྲེན་འཛོལ་བ།"
+
+#: ../src/endpoints/accountshandler.cpp:304
+#: ../src/endpoints/accountshandler.cpp:309
+msgid "Gatekeeper registration failed"
+msgstr "སྒོ་སྲུང་པ་ ཐོ་འགོད་འབད་མ་ཚུགས།"
+
+#: ../src/endpoints/accountshandler.cpp:312
+#: ../src/endpoints/sip.cpp:225
+#, c-format
+msgid "Registered to %s"
+msgstr "%sལུ་ཐོ་འགོད་འབད་ཡི།"
+
+#: ../src/endpoints/accountshandler.cpp:322
+#: ../src/endpoints/sip.cpp:231
+msgid "Registered"
+msgstr "ཐོ་འགོད་འབད་ཡི།"
+
+#: ../src/endpoints/accountshandler.cpp:332
+#: ../src/endpoints/sip.cpp:236
+#, c-format
+msgid "Unregistered from %s"
+msgstr "%sནང་ལས་ ཐོ་འགོད་མ་འབདཝ།"
+
+#: ../src/endpoints/accountshandler.cpp:352
+#: ../src/endpoints/sip.cpp:242
+msgid "Unregistered"
+msgstr "ཐོ་འགོད་འབད་ནི་བཤོལ་ཡི།"
+
+#: ../src/endpoints/ekiga.cpp:105
+msgid "Answering incoming call"
+msgstr "ནང་འབྱོར་འབོད་བརྡ་ལུ་ ལན་རྐྱབ་དོ།"
+
+#: ../src/endpoints/ekiga.cpp:529
+#, c-format
+msgid "Started Ekiga %d.%d.%d for user %s"
+msgstr "ཨེ་ཀི་ག་གིས་%d.%d.%d འགོ་བཙུགས་ཅི་ ལག་ལེན་པ་%sགི་དོན་ལུ།"
+
+#: ../src/endpoints/manager.cpp:672
+#, c-format
+msgid "Forwarding call to %s"
+msgstr "འབོད་བརྡ་%sལུ་ གདོང་བསྐྱོད་འབད་དོ།"
+
+#. Update the log and status bar
+#: ../src/endpoints/manager.cpp:826
+#, c-format
+msgid "Call from %s"
+msgstr "%sལས་འབོད་བརྡ།"
+
+#: ../src/endpoints/manager.cpp:840
+msgid "Rejecting incoming call"
+msgstr "ནང་འབྱོར་འབོད་བརྡ་ལུ་ ངོས་ལེན་སྤང་དོ།"
+
+#: ../src/endpoints/manager.cpp:842
+#, c-format
+msgid "Rejecting incoming call from %s"
+msgstr "%sལས་འོང་མི་འབོད་བརྡ་ལུ་ དང་ལེན་སྤང་དོ།"
+
+#: ../src/endpoints/manager.cpp:848
+msgid "Forwarding incoming call"
+msgstr "ནང་འབྱོར་འབོད་བརྡ་ གདོང་བསྐྱོད་འབད་དོ།།"
+
+#: ../src/endpoints/manager.cpp:850
+#, c-format
+msgid "Forwarding incoming call from %s to %s"
+msgstr "%sལས་ ནང་འབྱོར་འབད་མི་འབོད་བརྡ་དེ་ %sལུ་གདོང་བསྐྱོད་འབད་དོ། "
+
+#: ../src/endpoints/manager.cpp:856
+msgid "Auto-Answering incoming call"
+msgstr "ནང་འབྱོར་འབོད་བརྡ་ལུ་ རང་བཞིན་གྱི་ལན་རྐྱབ་དོ།"
+
+#: ../src/endpoints/manager.cpp:857
+#, c-format
+msgid "Auto-Answering incoming call from %s"
+msgstr "%sལས་ནང་འབྱོར་འབད་མི་འབོད་བརྡ་ལུ་ རང་བཞིན་གྱི་ལན་རྐྱབ་དོ།"
+
+#: ../src/endpoints/manager.cpp:1012
+#, c-format
+msgid "Connected with %s using %s"
+msgstr "%sལག་ལེན་འཐབ་སྟེ་%sདང་གཅིག་ཁར་མཐུད་ཡོདཔ།"
+
+#: ../src/endpoints/manager.cpp:1014
+#, c-format
+msgid "Connected with %s"
+msgstr "%sདང་གཅིག་ཁར་མཐུད་ཅི།"
+
+#: ../src/endpoints/manager.cpp:1124
+#: ../src/gui/main.cpp:4157
+msgid "Standby"
+msgstr "རྒྱབ་ཐག"
+
+#: ../src/endpoints/manager.cpp:1189
+msgid "Local user cleared the call"
+msgstr "ཉེ་གནས་ཀྱི་ལག་ལེན་པ་གིས་ འབོད་བརྡ་དེ་ བསལ་བཏང་ནུག"
+
+#: ../src/endpoints/manager.cpp:1192
+#: ../src/endpoints/manager.cpp:1195
+msgid "Local user rejected the call"
+msgstr "ཉེ་གནས་ཀྱི་ལག་ལེན་པ་གིས་ འབོད་བརྡ་ལུ་ ངོས་ལེན་སྤངས་ནུག"
+
+#: ../src/endpoints/manager.cpp:1198
+msgid "Remote user cleared the call"
+msgstr "ཐག་རིང་ལག་ལེན་པ་གིས་ འབོད་བརྡ་དེ་ བསལ་བཏང་ནུག"
+
+#: ../src/endpoints/manager.cpp:1201
+msgid "Remote user rejected the call"
+msgstr "ཐག་རིང་ལག་ལེན་པ་གིས་ འབོད་བརྡ་ལུ་ ངེས་ལན་སྤངས་ནུག"
+
+#: ../src/endpoints/manager.cpp:1204
+msgid "Call not answered in the required time"
+msgstr "དགོ་མཁོའི་དུས་ཚོད་ནང་ འབོད་བརྡ་ལུ་ ལན་མ་བརྐྱབས་པས།"
+
+#: ../src/endpoints/manager.cpp:1207
+msgid "Remote user has stopped calling"
+msgstr "ཐག་རིང་ལག་ལེན་པ་གིས་ འབོད་བརྡ་གཏང་ནི་བཀག་ནུག"
+
+#: ../src/endpoints/manager.cpp:1210
+msgid "Abnormal call termination"
+msgstr "ཚུལ་མིན་གྱི་འབོད་བརྡ་རྩ་གྲོལ།"
+
+#: ../src/endpoints/manager.cpp:1213
+msgid "Could not connect to remote host"
+msgstr "ཐག་རིང་ཧོསིཊི་ལུ་ མཐུད་མ་ཚུགས།"
+
+#: ../src/endpoints/manager.cpp:1216
+msgid "The Gatekeeper cleared the call"
+msgstr "སྒོ་སྲུང་པ་གིས་ འབོད་བརྡ་བསལ་བཏང་ནུག"
+
+#: ../src/endpoints/manager.cpp:1219
+#: ../src/endpoints/urlhandler.cpp:530
+#: ../src/endpoints/urlhandler.cpp:535
+msgid "User not found"
+msgstr "ལག་ལེན་པ་ཐོབ་མ་ཚུགས།"
+
+#: ../src/endpoints/manager.cpp:1222
+msgid "Insufficient bandwidth"
+msgstr "བེན༌ཌི་ཝིཐ་ ལངམ་མིན་འདུག"
+
+#: ../src/endpoints/manager.cpp:1225
+msgid "No common codec"
+msgstr "མཐུན་མོང་གི་ ཀོ་ཌེཀ་མིན་འདུག"
+
+#: ../src/endpoints/manager.cpp:1228
+msgid "Call forwarded"
+msgstr "འབོད་བརྡ་གདོང་བསྐྱོད་འབད་ཡོདཔ།"
+
+#: ../src/endpoints/manager.cpp:1231
+msgid "Security check failed"
+msgstr "སྲུང་སྐྱོབ་ཞིབ་དཔྱད་འབད་མ་ཚུགས།"
+
+#: ../src/endpoints/manager.cpp:1234
+msgid "Local user is busy"
+msgstr "ཉེ་གནས་ཀྱི་ལག་ལེན་པ་ ཁོམ་མེད་ཨིན་པས།"
+
+#: ../src/endpoints/manager.cpp:1237
+#: ../src/endpoints/manager.cpp:1243
+msgid "Congested link to remote party"
+msgstr "ཐག་རིང་སྡེ་ཚོགས་ལུ་ འབྲེལ་ལམ་དོགས་དྲགས་ཨིན་པས།"
+
+#: ../src/endpoints/manager.cpp:1240
+msgid "Remote user is busy"
+msgstr "ཐག་རིང་ལག་ལེན་པ་ ཁོམ་མེད་ཨིན་པས།"
+
+#: ../src/endpoints/manager.cpp:1246
+msgid "Remote host is offline"
+msgstr "ཐག་རིང་ཧོསིཊི་ ཨོཕ་ལའིན་ཨིན་པས།"
+
+#: ../src/endpoints/manager.cpp:1251
+msgid "Remote user is unreachable"
+msgstr "ཐག་རིང་ལག་ལེན་པ་ལུ་ ལྷོད་མི་ཚུགས་པས།"
+
+#: ../src/endpoints/manager.cpp:1255
+msgid "Call completed"
+msgstr "འབོད་བརྡ་མཇུག་བསྡུ་ཡོད།"
+
+#: ../src/endpoints/manager.cpp:1609
+msgid "Error while starting the listener for the H.323 protocol"
+msgstr "H.323 གནད་སྤེལ་ལམ་ལུགས་ཀྱི་དོན་ལུ་ ཉན་བྱེད་འགོ་བཙུགས་པའི་སྐབས་འཛོལ་བ།"
+
+#: ../src/endpoints/manager.cpp:1609
+msgid "You will not be able to receive incoming H.323 calls. Please check that no other program is already running on the port used by Ekiga."
+msgstr "ཁྱོད་ཀྱིས་H.323གི་ནང་འབྱོར་འབོད་བརྡ་ཚུ་ འཐོབ་མི་ཚུགས། ཨེ་ཀི་ག་གིས་ ལག་ལེན་འཐབ་མི་ འདྲེན་ལམ་དེ་གུ་ ལས་རིམ་གཞན་ ཧེ་མ་ལས་ གཡོག་བཀོལ་སྟེ་ཡོད་མེད་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../src/endpoints/manager.cpp:1626
+msgid "Error while starting the listener for the SIP protocol"
+msgstr "ཨེསི་ཨའི་པི་གནད་སྤེལ་ལམ་ལུགས་གི་དོན་ལུ་ ཉན་བྱེད་འགོ་བཙུགས་པའི་སྐབས་ལུ་འཛོལ་བ།"
+
+#: ../src/endpoints/manager.cpp:1626
+msgid "You will not be able to receive incoming SIP calls. Please check that no other program is already running on the port used by Ekiga."
+msgstr "ཁྱོད་ཀྱིས་ཨེསི་ཨའི་པི་་ནང་འབྱོར་འབོད་བརྡ་ཚུ་ འཐོབ་མི་ཚུགས། ཨེ་ཀི་ག་གིས་ ལག་ལེན་འཐབ་མི་ འདྲེན་ལམ་དེ་གུ་ ལས་རིམ་གཞན་ ཧེ་མ་ལས་ གཡོག་བཀོལ་སྟེ་ཡོད་མེད་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../src/endpoints/manager.cpp:1873
+#, c-format
+msgid "Opened codec %s for transmission"
+msgstr "སྤེལ་བཀྲམ་གྱི་དོན་ལུ་ ཁ་ཕྱེ་མི་ ཀོ་ཌེཀ་ %s།"
+
+#: ../src/endpoints/manager.cpp:1884
+#, c-format
+msgid "Closed codec %s which was opened for transmission"
+msgstr "སྤེལ་བཀྲམ་གྱི་དོན་ལུ་ ཁ་ཕྱེ་མི་ ཀོ་ཌེཀ་%sདེ་ ཁ་བསྡམས་ཡོད།"
+
+#: ../src/endpoints/manager.cpp:1898
+#, c-format
+msgid "Opened codec %s for reception"
+msgstr "སྒྲ་འབྱོར་གྱི་དོན་ལུ་ ཁ་ཕྱེ་མི་ ཀོ་ཌེཀ་%s།"
+
+#: ../src/endpoints/manager.cpp:1909
+#, c-format
+msgid "Closed codec %s which was opened for reception"
+msgstr "སྒྲ་འབྱོར་གྱི་དོན་ལུ་ ཁ་ཕྱེ་མི་ ཀོ་ཌེཀ་%sདེ་ ཁ་བསྡམས་ཡོད།"
+
+#: ../src/endpoints/manager.cpp:2095
+#, c-format
+msgid "%.2ld:%.2ld:%.2ld  A:%.2f/%.2f   V:%.2f/%.2f"
+msgstr "%.2ld:%.2ld:%.2ld  ཨེ་:%.2f/%.2f   ཨེཕ:%.2f/%.2f"
+
+#: ../src/endpoints/pcss.cpp:222
+#, c-format
+msgid "Opened %s for recording with plugin %s"
+msgstr "པ་ལག་ཨིན་%s དང་གཅིག་ཁར་ སྒྲ་བཟུང་གི་དོན་ལུ་%sཁ་ཕྱེ་ཡོད།"
+
+#: ../src/endpoints/pcss.cpp:223
+#, c-format
+msgid "Opened %s for playing with plugin %s"
+msgstr "པ་ལག་ཨིན་%s དང་གཅིག་ཁར་ གཏང་ནིའི་དོན་ལུ་%sཁ་ཕྱེ་ཡོད།"
+
+#: ../src/endpoints/pcss.cpp:241
+msgid "Could not open audio channel for audio transmission"
+msgstr "རྣར་ཉན་སྤེལ་བཀྲམ་གྱི་དོན་ལུ་ རྣར་ཉན་རྒྱུ་ལམ་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/endpoints/pcss.cpp:241
+msgid ""
+"An error occured while trying to record from the soundcard for the audio transmission. Please check that your soundcard is not busy and that your driver supports full-duplex.\n"
+"The audio transmission has been disabled."
+msgstr ""
+"རྣར་ཉན་བཀྲམ་སྤེལ་གྱི་དོན་ལུ་ སྒྲ་སྐད་ཤོག་བྱང་ལས་ སྒྲ་སྐད་བཟུང་ཐབས་འབདཝ་ད་ འཛོལ་བ་ཅིག་བྱུང་ནུག ཁྱོད་ཀྱི་སྒྲ་སྐད་ཤོག་བྱང་ དལ་ཁོམ་ཡོད་མེད་དང་ ཁྱོད་རའི་འདྲེན་བྱེད་ཀྱིས་ ཌུ་པེལེགསི་ཧྲིལ་བུ་ལུ་ རྒྱབ་སྐྱོར་ཡོད་མེད་ ཞིབ་དཔྱད་འབད།\n"
+"རྣར་ཉན་སྤེལ་བཀྲམ་དེ་ ལྕོགས་མིན་བཟོ་ཡི།"
+
+#: ../src/endpoints/pcss.cpp:243
+msgid "Could not open audio channel for audio reception"
+msgstr "རྣར་ཉན་སྒྲ་འབྱོར་གྱི་དོན་ལུ་ རྣར་ཉན་གྱི་རྒྱུ་ལམ་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/endpoints/pcss.cpp:243
+msgid ""
+"An error occured while trying to play audio to the soundcard for the audio reception. Please check that your soundcard is not busy and that your driver supports full-duplex.\n"
+"The audio reception has been disabled."
+msgstr ""
+"རྣར་ཉན་སྒྲ་འབྱོར་གྱི་དོན་ལུ་ སྒྲ་སྐད་ཤོག་བྱང་ལུ་ སྒྲ་སྐད་གཏང་ཐབས་འབདཝ་ད་ འཛོལ་བ་ཅིག་བྱུང་ནུག ཁྱོད་ཀྱི་སྒྲ་སྐད་ཤོག་བྱང་ དལ་ཁོམ་ཡོད་མེད་དང་ ཁྱོད་རའི་འདྲེན་བྱེད་ཀྱིས་ ཌུ་པེལེགསི་ཧྲིལ་བུ་ལུ་ རྒྱབ་སྐྱོར་ཡོད་མེད་ ཞིབ་དཔྱད་འབད།\n"
+"རྣར་ཉན་སྒྲ་འབྱོར་དེ་ ལྕོགས་མིན་བཟོ་ཡི།"
+
+#: ../src/endpoints/sip.cpp:288
+msgid "Bad request"
+msgstr "ཞུ་བ་བྱང་ཉེས།"
+
+#: ../src/endpoints/sip.cpp:292
+msgid "Payment required"
+msgstr "དངུལ་དགོ་པས།"
+
+#: ../src/endpoints/sip.cpp:297
+msgid "Forbidden"
+msgstr "མི་ཆོགཔ།"
+
+#: ../src/endpoints/sip.cpp:301
+msgid "Timeout"
+msgstr "ངལ་མཚམས།"
+
+#: ../src/endpoints/sip.cpp:305
+msgid "Conflict"
+msgstr "མང་མཐུན་པ།"
+
+#: ../src/endpoints/sip.cpp:309
+msgid "Temporarily unavailable"
+msgstr "གནས་སྐབས་ཅིག་རིང་མི་འཐོབ།"
+
+#: ../src/endpoints/sip.cpp:313
+msgid "Not Acceptable"
+msgstr "དང་ལེན་འབད་མ་བཏུབ།"
+
+#: ../src/endpoints/sip.cpp:322
+#, c-format
+msgid "Registration failed: %s"
+msgstr "ཐོ་འགོད་འབད་མ་ཚུགས་: %s།"
+
+#: ../src/endpoints/sip.cpp:334
+#, c-format
+msgid "Unregistration failed: %s"
+msgstr "ཐོ་འགོད་འབད་ནི་བཤོལ་མ་ཚུགས་:%s།"
+
+#: ../src/endpoints/sip.cpp:341
+msgid "Unregistration failed"
+msgstr "ཐོ་འགོད་འབད་ནི་བཤོལ་མ་ཚུགས།"
+
+#: ../src/endpoints/sip.cpp:542
+msgid "Error: User not found"
+msgstr "འཛོལ་བ་: ལག་ལེན་པ་ཐོབ་མ་ཚུགས།"
+
+#: ../src/endpoints/sip.cpp:546
+msgid "Error: User offline"
+msgstr "འཛོལ་བ་: ལག་ལེན་པ་ཨོཕ་ལའིན།"
+
+#: ../src/endpoints/sip.cpp:551
+msgid "Error: Forbidden"
+msgstr "འཛོལ་བ་:མི་ཆོགཔ།"
+
+#: ../src/endpoints/sip.cpp:555
+msgid "Error: Timeout"
+msgstr "འཛོལ་བ་: ངལ་མཚམས།"
+
+#: ../src/endpoints/sip.cpp:559
+#: ../src/gui/chat.cpp:1031
+msgid "Error: Failed to transmit message"
+msgstr "འཛོལ་བ་: འཕྲིན་དོན་སྤེལ་བཀྲམ་འབད་མ་ཚུགས།"
+
+#: ../src/endpoints/urlhandler.cpp:441
+msgid "Invalid URL handler"
+msgstr "ནུས་མེད་ཡུ་ཨར་ཨེལ་ ལེགས་སྐྱོང་པ།"
+
+#: ../src/endpoints/urlhandler.cpp:441
+msgid "Please specify a valid URL handler. Currently both h323: and callto: are supported."
+msgstr "ནུས་ཅན་གྱི་ ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་པ་ཅིག་ གསལ་བཀོད་འབད་གནང་། ད་ལྟོ་ h323:དང་ གཏང་ཡུལ་གཉིས་ཆ་རང་ལུ་ རྒྱབ་སྐྱོར་ཡོད།"
+
+#: ../src/endpoints/urlhandler.cpp:469
+#, c-format
+msgid "Calling %s"
+msgstr "%sལུ་ འབོད་བརྡ་་གཏང་དོ།"
+
+#: ../src/endpoints/urlhandler.cpp:472
+#, c-format
+msgid "Transferring call to %s"
+msgstr "འབོད་བརྡ་%sལུ་ གནས་སོར་གཏང་་དོ།"
+
+#: ../src/endpoints/urlhandler.cpp:541
+#: ../src/endpoints/urlhandler.cpp:546
+msgid "Failed to call user"
+msgstr "ལག་ལེན་པ་ལུ་ འབོད་བརྡ་གཏང་མ་ཚུགས།"
+
+#: ../src/gui/accounts.cpp:410
+msgid "Edit the Account Information"
+msgstr "རྩིས་ཐོའི་བརྡ་དོན་ཞུན་དག་རྐྱབས།"
+
+#. Account Name
+#: ../src/gui/accounts.cpp:434
+msgid "Account Name:"
+msgstr "རྩིས་ཐོ་ཨང་:"
+
+#: ../src/gui/accounts.cpp:448
+msgid "Protocol:"
+msgstr "གནད་སྤེལ་ལམ་ལུགས་:"
+
+#: ../src/gui/accounts.cpp:472
+#: ../src/gui/accounts.cpp:993
+msgid "Registrar:"
+msgstr "ཐོ་འགོདཔ་:"
+
+#: ../src/gui/accounts.cpp:474
+#: ../src/gui/accounts.cpp:1002
+msgid "Gatekeeper:"
+msgstr "སྒོ་སྲུང་པ་:"
+
+#. User
+#: ../src/gui/accounts.cpp:488
+msgid "User:"
+msgstr "ལག་ལེན་པ་:"
+
+#. Password
+#: ../src/gui/accounts.cpp:503
+msgid "Password:"
+msgstr "ཆོག་ཡིག་:"
+
+#. Advanced Options
+#: ../src/gui/accounts.cpp:520
+msgid "More _Options"
+msgstr "འབོད་བརྡའི་གདམ་ཁ་ཚུ། "
+
+#: ../src/gui/accounts.cpp:534
+msgid "Authentication Login:"
+msgstr "བདེན་བཤད་ནང་བསྐྱོད་:"
+
+#: ../src/gui/accounts.cpp:556
+#: ../src/gui/accounts.cpp:1003
+msgid "Gatekeeper ID:"
+msgstr "སྒོ་སྲུང་པའི་ཨའི་ཌི་:"
+
+#. Timeout
+#: ../src/gui/accounts.cpp:580
+msgid "Registration Timeout:"
+msgstr "ཐོ་འགོད་ཀྱི་ངལ་མཚམས།"
+
+#. FIXME change strings after stringfreeze to something more useful - js
+#: ../src/gui/accounts.cpp:630
+#: ../src/gui/accounts.cpp:637
+#: ../src/gui/accounts.cpp:649
+#: ../src/gui/addressbook.cpp:3113
+#: ../src/gui/addressbook.cpp:3592
+msgid "Missing information"
+msgstr "བརླག་སྟོར་ཞུགས་པའི་བརྡ་དོན།"
+
+#: ../src/gui/accounts.cpp:631
+#: ../src/gui/accounts.cpp:638
+msgid "Please make sure to provide a valid account name, host name, and user name."
+msgstr "ནུས་ཅན་རྩིས་ཐོའི་མིང་ཅིག་དང་ ཧོསིཊི་ནེམ་ཅིག་ ལག་ལེན་པའི་མིང་ཅིག་ ངེས་པར་བྱིན་གནང་།"
+
+#: ../src/gui/accounts.cpp:650
+msgid "Please make sure to provide a valid account name, host name and registration timeout."
+msgstr "ནུས་ཅན་རྩིས་ཐོའི་མིང་ཅིག་དང་ ཧོསིཊི་ནེམ་ཅིག་ ཐོ་འཁོད་ངལ་མཚམས་ཅིག་ ངེས་པར་བྱིན་གནང་།"
+
+#: ../src/gui/accounts.cpp:736
+#, c-format
+msgid "Are you sure you want to delete account %s?"
+msgstr "ཁྱོད་ཀྱིས་རྩིས་ཐོ་%s ངེས་པར་དུ་ བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#: ../src/gui/accounts.cpp:994
+msgid "Realm/Domain:"
+msgstr "རི་ཡ་ལམ་/ཌོ་མེན་:"
+
+#: ../src/gui/accounts.cpp:1517
+msgid "Account Name"
+msgstr "རྩིས་ཐོའི་མིང་:"
+
+#: ../src/gui/accounts.cpp:1518
+msgid "Protocol"
+msgstr "གནད་སྤེལ་ལམ་ལུགས་:"
+
+#: ../src/gui/accounts.cpp:1527
+msgid "Voice Mails"
+msgstr "སྐད་འཕྲིན་ཚུ།"
+
+#: ../src/gui/accounts.cpp:1528
+msgid "Status"
+msgstr "གནས་ལུགས།"
+
+#: ../src/gui/accounts.cpp:1539
+msgid "Accounts"
+msgstr "རྩིས་ཐོ་ཚུ།"
+
+#: ../src/gui/accounts.cpp:1575
+#: ../src/gui/preferences.cpp:474
+#: ../src/gui/preferences.cpp:817
+msgid "A"
+msgstr "ཨེ།"
+
+#: ../src/gui/accounts.cpp:1675
+msgid "_Default"
+msgstr "སྔོན་སྒྲིག(_D)"
+
+#: ../src/gui/addressbook.cpp:819
+msgid "Contact collision"
+msgstr "འབྲེལ་བའི་གདོང་ཐུག"
+
+#: ../src/gui/addressbook.cpp:821
+#, c-format
+msgid ""
+"Another contact with the same speed dial already exists in your address book:\n"
+"\n"
+"<b>Name</b>: %s\n"
+"<b>URL</b>: %s\n"
+"<b>Speed Dial</b>: %s\n"
+msgstr ""
+"ཁྱོད་ཀྱི་ཁ་བྱང་ཀི་དེབ་ནང་ མགྱོགས་ཚད་ཌ་ཡེལ་ཅོག་གཅིགཔ་འབད་མི་ འབྲེལ་ས་གཞན་ཅིག་ ཧེ་མ་ལས་རང་འདུག \n"
+"\n"
+"<b>མིང་</b>: %s\n"
+"<b>ཡུ་ཨར་ཨེལ་</b>: %s\n"
+"<b>མགྱོགས་ཚད་ཌ་ཡེལ་</b>: %s\n"
+
+#: ../src/gui/addressbook.cpp:821
+#: ../src/gui/addressbook.cpp:823
+#: ../src/gui/druid.cpp:1916
+#: ../src/gui/preferences.cpp:930
+msgid "None"
+msgstr "ཅི་མེད།"
+
+#: ../src/gui/addressbook.cpp:823
+#, c-format
+msgid ""
+"Another contact with similar information already exists in your address book:\n"
+"\n"
+"<b>Name</b>: %s\n"
+"<b>URL</b>: %s\n"
+"<b>Speed Dial</b>: %s\n"
+"\n"
+"Do you still want to add the contact?"
+msgstr ""
+"ཁྱོད་ཀྱི་ཁ་བྱང་ཀི་དེབ་ནང་ བརྡ་དོན་ཅོག་གཅིགཔ་འབད་མི་ འབྲེལ་ས་གཞན་ཅིག་ ཧེ་མ་ལས་རང་འདུག\n"
+"\n"
+"<b>མིང་</b>: %s\n"
+"<b>ཡུ་ཨར་ཨེལ་</b>: %s\n"
+"<b>མགྱོགས་ཚད་ཌ་ཡེལ་</b>: %s\n"
+"\n"
+"ཁྱོད་ཀྱིས་ད་རུང་ འབྲེལ་ས་དེ་ ཁ་སྐོང་བརྐྱབ་ནི་ཨིན་ན?"
+
+#. Translators: This is "S" as in "Status"
+#: ../src/gui/addressbook.cpp:991
+msgid "S"
+msgstr "ཨེསི།"
+
+#: ../src/gui/addressbook.cpp:1002
+#: ../src/gui/preferences.cpp:488
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../src/gui/addressbook.cpp:1017
+msgid "Comment"
+msgstr "བསམ་བཀོད།"
+
+#: ../src/gui/addressbook.cpp:1032
+#: ../src/gui/callshistory.cpp:755
+msgid "Software"
+msgstr "མཉེན་ཆས།"
+
+#: ../src/gui/addressbook.cpp:1046
+msgid "VoIP URL"
+msgstr "ཝི་ཨོ་ཨའི་པི་ ཡུ་ཨར་ཨེལ།"
+
+#: ../src/gui/addressbook.cpp:1062
+msgid "E-Mail"
+msgstr "གློག་འཕྲིན།"
+
+#: ../src/gui/addressbook.cpp:1076
+msgid "Location"
+msgstr "གནས་ཁོངས།"
+
+#: ../src/gui/addressbook.cpp:1090
+msgid "Categories"
+msgstr "དབྱེ་ཁག"
+
+#: ../src/gui/addressbook.cpp:1103
+msgid "Speed Dial"
+msgstr "མགྱོགས་ཚད་ཌ་ཡེལ།"
+
+#: ../src/gui/addressbook.cpp:1132
+msgid "Name contains"
+msgstr "མིང་ནང་ཡོད་པ།"
+
+#: ../src/gui/addressbook.cpp:1133
+msgid "URL contains"
+msgstr "ཡུ་ཨར་ཨེལ་ནང་ཡོད་པ།"
+
+#: ../src/gui/addressbook.cpp:1135
+msgid "Belongs to category"
+msgstr "དབྱེ་ཁག་ལུ་བང་མི།"
+
+#: ../src/gui/addressbook.cpp:1137
+msgid "Location contains"
+msgstr "གནས་ཁོངས་ནང་ཡོདཔ།"
+
+#. call a contact, usage: general
+#: ../src/gui/addressbook.cpp:1552
+#: ../src/gui/addressbook.cpp:2585
+#: ../src/gui/callshistory.cpp:295
+#: ../src/gui/chat.cpp:682
+msgid "C_all Contact"
+msgstr "འབྲེལ་ས་ལུ་འབོད་བརྡ་གཏང་།(_a)"
+
+#. copy a contact's URL to clipboard, usage: general
+#: ../src/gui/addressbook.cpp:1559
+#: ../src/gui/addressbook.cpp:2595
+#: ../src/gui/chat.cpp:677
+#: ../src/gui/chat.cpp:682
+msgid "_Copy URL to Clipboard"
+msgstr "ཡུ་ཨར་ཨེལ་ འཛིན་པང་ལུ་ འདྲ་བཤུས་རྐྱབས།(_C)"
+
+#: ../src/gui/addressbook.cpp:1565
+#: ../src/gui/addressbook.cpp:2600
+msgid "_Write e-Mail"
+msgstr "གློག་འཕྲིན་བྲིས།(_W)"
+
+#. add a contact to the local addressbook, usage: remote contacts only
+#: ../src/gui/addressbook.cpp:1572
+#: ../src/gui/addressbook.cpp:2612
+#: ../src/gui/callshistory.cpp:302
+#: ../src/gui/chat.cpp:682
+msgid "Add Contact to _Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་ལུ་ འབྲེལ་ས་ཁ་སྐོང་རྐྱབས།(_A)"
+
+#. send a contact a (SIP!) message, usage: SIP contacts only
+#: ../src/gui/addressbook.cpp:1579
+#: ../src/gui/addressbook.cpp:2590
+msgid "_Send Message"
+msgstr "འཕྲིན་དོན་གཏང་:(_S)"
+
+#. edit a local contact's addressbook entry, usage: local contacts
+#: ../src/gui/addressbook.cpp:1586
+#: ../src/gui/addressbook.cpp:1723
+#: ../src/gui/addressbook.cpp:2571
+msgid "_Properties"
+msgstr "རྒྱུ་དངོས།(_P)"
+
+#. delete a local contact entry, usage: local contacts
+#: ../src/gui/addressbook.cpp:1593
+#: ../src/gui/addressbook.cpp:1730
+#: ../src/gui/addressbook.cpp:2566
+msgid "_Delete"
+msgstr "བཏོན་གཏང་།(_D)"
+
+#. "new contact" dialog, usage: local context
+#: ../src/gui/addressbook.cpp:1600
+#: ../src/gui/addressbook.cpp:2607
+msgid "New _Contact"
+msgstr "འབྲེལ་ས་གསརཔ།(_C)"
+
+#: ../src/gui/addressbook.cpp:2027
+#, c-format
+msgid "Error while fetching users list from %s"
+msgstr "%sནང་ལས་ ལག་ལེན་པའི་ཐོ་ཡིག་ ལེན་ནི་ལུ་འཛོལ་བ།"
+
+#: ../src/gui/addressbook.cpp:2031
+#, c-format
+msgid "Found %d user in %s"
+msgid_plural "Found %d users in %s"
+msgstr[0] "ལག་ལེན་པ་%dཐོབ་ཅི་%sནང་།"
+msgstr[1] "ལག་ལེན་པ་%dཐོབ་ཅི་%sནང་།"
+
+#: ../src/gui/addressbook.cpp:2035
+#, c-format
+msgid "Found %d user in %s for a total of %d users"
+msgid_plural "Found %d users in %s for a total of %d users"
+msgstr[0] "ལག་ལེན་པ་%d་ %s ནང་ལས་ཐོབ་ཅི། ཡོངས་བསྡོབས་ལག་ལེན་པ་ %d འདུག། "
+msgstr[1] "ལག་ལེན་པ་%d་ %s ནང་ལས་ཐོབ་ཅི། ཡོངས་བསྡོབས་ལག་ལེན་པ་ %d འདུག།"
+
+#: ../src/gui/addressbook.cpp:2522
+msgid "Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ།"
+
+#: ../src/gui/addressbook.cpp:2557
+msgid "_File"
+msgstr "ཡིག་སྣོད།(_F)"
+
+#: ../src/gui/addressbook.cpp:2559
+msgid "New _Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་གསརཔ།(_A)"
+
+#: ../src/gui/addressbook.cpp:2578
+#: ../src/gui/main.cpp:975
+msgid "_Close"
+msgstr "ཁ་བསྡམས།(_C)"
+
+#: ../src/gui/addressbook.cpp:2583
+msgid "C_ontact"
+msgstr "འབྲེལ་ས།(_o)"
+
+#: ../src/gui/addressbook.cpp:2685
+msgid "Remote Contacts"
+msgstr "ཐག་རིང་གི་འབྲེལ་ས།"
+
+#: ../src/gui/addressbook.cpp:2693
+msgid "Local Contacts"
+msgstr "ཉེ་གནས་ཀྱི་འབྲེལ་ས།"
+
+#: ../src/gui/addressbook.cpp:2816
+msgid "Edit the Contact Information"
+msgstr "འབྲེལ་སའི་བརྡ་དོན་ ཞུན་དག་རྐྱབས།"
+
+#: ../src/gui/addressbook.cpp:2837
+#: ../src/gui/addressbook.cpp:3307
+msgid "Name:"
+msgstr "མིང་:"
+
+#: ../src/gui/addressbook.cpp:2857
+msgid "VoIP URL:"
+msgstr "ཝི་ཨོ་ཨའི་པི་ ཡུ་ཨར་ཨེལ་:"
+
+#: ../src/gui/addressbook.cpp:2879
+msgid "Email:"
+msgstr "གློག་འཕྲིན་:"
+
+#: ../src/gui/addressbook.cpp:2900
+msgid "Speed Dial:"
+msgstr "མགྱོགས་ཚད་ཌ་ཡེལ་:"
+
+#: ../src/gui/addressbook.cpp:2922
+msgid "Categories:"
+msgstr "དབྱེ་ཁག་ཚུ་:"
+
+#: ../src/gui/addressbook.cpp:2947
+msgid "Local Addressbook:"
+msgstr "ཉེ་གནས་ཀྱི་ ཁ་བྱང་ཀི་དེབ་:"
+
+#: ../src/gui/addressbook.cpp:3113
+msgid "Please make sure to provide at least a full name or an URL for the contact."
+msgstr "འབྲེལ་སའི་དོན་ལུ་ མིང་ཆ་ཚང་ཅིག་དང་ ཡང་ན་ ཡུ་ཨར་ཨེལ་ཅིག་ ངེས་པར་བྱིན་གནང་།"
+
+#: ../src/gui/addressbook.cpp:3160
+#, c-format
+msgid "Are you sure you want to delete %s from %s?"
+msgstr "ཁྱོད་ཀྱིས་%sནང་ལས་%s ངེས་པར་དུ་ བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#: ../src/gui/addressbook.cpp:3286
+msgid "Edit an address book"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཅིག་ ཞུན་དག་རྐྱབས།"
+
+#: ../src/gui/addressbook.cpp:3287
+msgid "Add an address book"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཅིག་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../src/gui/addressbook.cpp:3332
+msgid "Type:"
+msgstr "དབྱེ་བ་:"
+
+#: ../src/gui/addressbook.cpp:3338
+msgid "Local"
+msgstr "ཉེ་གནས།"
+
+#: ../src/gui/addressbook.cpp:3339
+msgid "Remote LDAP"
+msgstr "ཐག་རིང་གི་ ཨེལ་ཌི་ཨེ་པི།"
+
+#: ../src/gui/addressbook.cpp:3340
+msgid "Remote ILS"
+msgstr "ཐག་རིང་གི་ ཨའི་ཨེལ་ཨེསི།"
+
+#: ../src/gui/addressbook.cpp:3371
+msgid "Hostname:"
+msgstr "ཧོསིཊི་ནེམ་:"
+
+#: ../src/gui/addressbook.cpp:3394
+msgid "Port:"
+msgstr "འདྲེན་ལམ་:"
+
+#: ../src/gui/addressbook.cpp:3419
+msgid "Base DN:"
+msgstr "གཞི་རྟེན་ ཌི་ཨེན་:"
+
+#: ../src/gui/addressbook.cpp:3442
+msgid "Search Scope:"
+msgstr "འོས་སྐབས་འཚོལ་ཞིབ་འབད་:"
+
+#: ../src/gui/addressbook.cpp:3448
+msgid "Subtree"
+msgstr "ཡན་ལག་རྩ་འབྲེལ།"
+
+#: ../src/gui/addressbook.cpp:3449
+msgid "One Level"
+msgstr "གནས་རིམ་གཅིག"
+
+#: ../src/gui/addressbook.cpp:3479
+msgid "Search Attribute:"
+msgstr "ཁྱད་ཆོས་འཚོལ་ཞིབ་འབད་:"
+
+#: ../src/gui/addressbook.cpp:3592
+msgid "Please make sure you fill in all required fields."
+msgstr "ཁྱོད་ཀྱིས་དགོས་མཁོའི་ས་སྒོ་ཆ་མཉམ་ ངེས་པར་དུ་བཀང་གནང་།"
+
+#: ../src/gui/addressbook.cpp:3638
+#, c-format
+msgid "Are you sure you want to delete %s and all its contacts?"
+msgstr "ཁྱོད་ཀྱིས་%sདང་ དེ་གི་འབྲེལ་ས་ཆ་མཉམ་ བཏོན་གཏང་ནི་ ངེས་ཏིག་ཨིན་ན?"
+
+#: ../src/gui/callbacks.cpp:124
+msgid "Disconnecting..."
+msgstr "མཐུད་ལམ་བཏོག་དོ་་་་"
+
+#: ../src/gui/callbacks.cpp:139
+msgid "Contributors:"
+msgstr "ཕན་འདེབས་པ་ཚུ་:"
+
+#: ../src/gui/callbacks.cpp:146
+msgid "Artwork:"
+msgstr "རི་མོའི་ལཱ་:"
+
+#: ../src/gui/callbacks.cpp:152
+msgid "See AUTHORS file for full credits"
+msgstr "ངོ་བསྟོད་ཆ་ཚང་གི་དོན་ལུ་ རྩོམ་པ་པོའི་ཡིག་སྣོད་ལུ་བལྟ།"
+
+#: ../src/gui/callbacks.cpp:168
+msgid "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. "
+msgstr "ལས་རིམ་འདི་ རང་དབང་མཉེན་ཆས་ཅིག་ཨིན། ཁྱོད་ཀྱིས་ ལས་རིམ་འདི་ ལོག་བགོ་བཀྲམ་འབད་བཏུབ་མ་ཚད་ ཡང་ན་ རང་དབང་མཉེན་ཆས་གཞི་ཚོགས་པ་གིས་ དཔེ་སྐྲུན་འབད་ཡོད་པའི་ ཇི་ཨེན་ཡུ་ མི་མང་ཆོག་ཐམ་གི་ ཐོན་རིམ་ གཉིས་པ་དང་དེ་མེན་རུང་ ཁྱོད་རའི་གདམ་ཁ་ལྟར་དུ་ ལེགས་བཅོས་འབད་ཆོག། "
+
+#: ../src/gui/callbacks.cpp:172
+msgid "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr ""
+"ལས་རིམ་འདི་ ཕན་ཐོགས་ཅན་ཅིག་འོང་མནོ་དེ་ བགོ་བཀྲམ་འབད་འབདཝ་ཨིན་རུང་ འདི་ལུ་ ཐ་ན་ ཆོང་འབྲེལ་འཐབ་བཏུབ་མི་བཏུབ་དང་ དེའི་དགོས་དོན་ཚུ་གི་སྐོར་ལས་ འགན་ལེན་ཚུ་ག་ནི་ཡང་མེདཔ་ཨིན། ཁ་གསལ་གྱི་དོན་ལུ་ ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་ མི་མང་ ཆོག་ཐམ་ནང་གཟིགས། \n"
+" ལས་རིམ་འདི་དང་གཅིག་ཁར་ཁྱོད་ལུ་ ཇི་ཨེན་ཡུ་ མི་མང་ཆོག་ཐམ་གྱི་་འདྲ་བཤུས་གཅིག་ཐོབ་དགོ་ ; དེ་མེན་པ་ཅིན་  Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA ལུ་ ཉེན་ཞུ་འབད། "
+
+#: ../src/gui/callbacks.cpp:179
+msgid "Ekiga is licensed under the GPL license and as a special exception, you have permission to link or otherwise combine this program with the programs OPAL, OpenH323 and PWLIB, and distribute the combination, without applying the requirements of the GNU GPL to the OPAL, OpenH323 and PWLIB programs, as long as you do follow the requirements of the GNU GPL for all the rest of the software thus combined."
+msgstr "ཨི་ཀི་ག་འདི་  ཇི་པི་ཨེལ་གནང་བའི་འོག་ལུ་ གནང་བ་བྱིན་ཏེ་ཡོདཔ་དང་ དེ་ཡང་དམིགས་བསལ་གྱིས་ ཁྱོད་ལུ་ འབྲེལ་མཐུད་འབད་ནི་ ཡང་ན་ ལས་རིམ་འདི་ གཞན་ལས་རིམ་ OPAL དང་ OpenH323 དེ་ལས་ PWLIB ཚུ་དང་མཉམ་བསྡོམ་འབད་དེ་ མཉེན་ཆས་མཉམ་བསྡོམས་འབད་ཡོད་མི་ཚུ་གི་དོན་ལུ་ ཇི་ཨེན་ཡུ་ ཇི་པི་ཨེལ་གྱི་དགོས་མཁོ་ཚུ་དང་འཁྲིལ་ཏེ་འབད་བ་ཅིན་ OPAL དང་ OpenH323 དེ་ལས་ PWLIB ལུ་ ཇི་ཨེན་ཡུ་ ཇི་པི་ཨེལ་དགོས་མཁོ་ཚུ་ འཇུག་སྤྱོད་མ་འབད་བར་ བགོ་བཀྲམ་འབད་ནིའི་གནང་བ་ཡོད།"
+
+#. Translators: Please write translator credits here, and
+#. * separate names with \n
+#: ../src/gui/callbacks.cpp:191
+msgid "translator-credits"
+msgstr "ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>"
+
+#: ../src/gui/callbacks.cpp:196
+msgid "Ekiga is full-featured SIP and H.323 compatible VoIP, IP-Telephony and Videoconferencing application that allows you to make audio and video calls to remote users with SIP and H.323 hardware or software."
+msgstr "ཨེ་ཀི་ག་དེ་ ཨེསི་ཨའི་པི་དང་ H.323 གི་ཁྱད་རྣམ་ཆ་ཚང་ཅན་ ཝི་ཨོ་ཨའི་པི་དང་ ཨའི་པི་-བརྒྱུད་འཕྲིན་བཟོ་རིག་ གློག་ཐོག་ཞལ་འཛོམས་ཚུ་དང་ མཐུན་འགྱུར་ཡོད་མི་ཅིག་ཨིན། འདི་གིས་ཨེསི་ཨའི་པི་དང་ H.323 གི་ སྲ་ཆས་ ཡང་ན་ མཉན་ཆས་ཀྱི་ཐོག་ལས་ ཐག་རིང་ལག་ལེན་པ་ཚུ་ལུ་ རྣར་ཉན་དང་ ཝི་ཌིའོ་གི་འབོད་བརྡ་ཚུ་ གཏང་ཚུགསཔ་ཨིན།"
+
+#: ../src/gui/callshistory.cpp:664
+msgid "Received Calls"
+msgstr "འབྱོར་ཡོད་པའི་འབོད་བརྡ་ཚུ།"
+
+#: ../src/gui/callshistory.cpp:664
+msgid "Placed Calls"
+msgstr "བཏང་ཡོད་པའི་འབོད་བརྡ་ཚུ།"
+
+#: ../src/gui/callshistory.cpp:664
+msgid "Missed Calls"
+msgstr "བྱིག་སོང་བའི་འབོད་བརྡ་ཚུ།"
+
+#: ../src/gui/callshistory.cpp:676
+#: ../src/gui/statusicon.cpp:144
+msgid "Calls History"
+msgstr "འབོད་བརྡའི་ལོ་རྒྱུས།"
+
+#: ../src/gui/callshistory.cpp:719
+msgid "Date"
+msgstr "ཚེས་གྲངས།"
+
+#: ../src/gui/callshistory.cpp:727
+msgid "Remote User"
+msgstr "ཐག་རིང་ལག་ལེན་པ།"
+
+#: ../src/gui/callshistory.cpp:736
+msgid "Call Duration"
+msgstr "འབོད་བརྡའི་དུས་ཡུན།"
+
+#: ../src/gui/callshistory.cpp:746
+msgid "Call End Reason"
+msgstr "འབོད་བརྡ་མཇུག་བསྡུའི་རྒྱུ་མཚན།"
+
+#: ../src/gui/chat.cpp:625
+msgid "Hang _up"
+msgstr "ཐོགས་ལུས།(_u)"
+
+#: ../src/gui/chat.cpp:626
+#: ../src/gui/statusicon.cpp:100
+msgid "_Call"
+msgstr "འབོད་བརྡ་གཏང་།(_C)"
+
+#: ../src/gui/chat.cpp:627
+msgid "Call this user"
+msgstr "ལག་ལེན་འདི་ལུ་ འབོད་བརྡ་གཏང་།"
+
+#: ../src/gui/chat.cpp:635
+msgid "_Send"
+msgstr "གཏང་།(_S)"
+
+#: ../src/gui/chat.cpp:640
+msgid "Send message"
+msgstr "འཕྲིན་དོན་གཏང་:"
+
+#: ../src/gui/chat.cpp:677
+msgid "_Open URL"
+msgstr "ཡུ་ཨར་ཨེལ་ཁ་ཕྱེ།(_O)"
+
+#: ../src/gui/chat.cpp:705
+msgid "_Copy Equation"
+msgstr "སྙོམ་རྟགས་འདྲ་བཤུས་རྐྱབས།(_C)"
+
+#: ../src/gui/chat.cpp:1325
+msgid "Chat Window"
+msgstr "ཁ་སླབ་སྒོ་སྒྲིག"
+
+#: ../src/gui/chat.cpp:1450
+msgid "You"
+msgstr "ཁྱོད།"
+
+#. Translators: "He says", "You say"
+#: ../src/gui/chat.cpp:1452
+msgid "says:"
+msgstr "སླབ་མས་:"
+
+#: ../src/gui/chat.cpp:1452
+msgid "say:"
+msgstr "སླབས་:"
+
+#: ../src/gui/chat.cpp:1524
+msgid "New Remote User"
+msgstr "ཐག་རིང་ལག་ལེན་པ་གསརཔ།"
+
+#: ../src/gui/config.cpp:236
+msgid "Changing this setting will only affect new calls"
+msgstr "གཞི་སྒྲིག་འདི་ བསྒྱུར་བཅོས་འབད་མི་གིས་ འབོད་བརྡ་གསརཔ་གཏང་མི་ཚུ་ལུ་རྐྱངམ་གཅིག་ ནུས་པ་འཐོབ་ཚུགས།"
+
+#: ../src/gui/config.cpp:237
+msgid "Ekiga cannot apply one or more changes to the current call. Your new settings will take effect for the next call."
+msgstr "ཨེ་ཀི་ག་གིས་ ད་ལྟོའི་འབོད་བརྡ་དེ་ལུ་ བསྒྱུར་བཅོས་གཅིག་ ཡང་ན་ དེ་ལས་མངམ་ འཇུག་སྤྱོད་འབད་མི་ཚུགས། ཁྱོད་ཀྱི་སྒྲིག་སྟངས་གསརཔ་དེ་ འབོད་བརྡ་ཤུལ་མམ་གྱི་དོན་ལུ་ ནུས་པ་འཐོབ་འོང་།"
+
+#: ../src/gui/config.cpp:331
+msgid "H.245 Tunneling disabled"
+msgstr "H.245 ཊ་ན་ལིང་ ལྕོགས་མིན་ཨིན་པས།"
+
+#: ../src/gui/config.cpp:332
+msgid "H.245 Tunneling enabled"
+msgstr "H.245 ཊ་ན་ལིང་ ལྕོགས་ཅན་བཟོ་ཡི།"
+
+#: ../src/gui/config.cpp:364
+msgid "Early H.245 disabled"
+msgstr "སྔ་ཆའི་H.245 ལྕོགས་མིན་བཟོ་ཡི།"
+
+#: ../src/gui/config.cpp:365
+msgid "Early H.245 enabled"
+msgstr "སྔ་ཆའི་H.245 ལྕོགས་ཅན་བཟོ་ཡི།"
+
+#: ../src/gui/config.cpp:398
+msgid "Fast Start disabled"
+msgstr "མགྱོགས་པར་འགོ་བཙུགས་ ལྕོགས་མིན་བཟོ་ཡི།"
+
+#: ../src/gui/config.cpp:399
+msgid "Fast Start enabled"
+msgstr "མགྱོགས་པར་འགོ་བཙུགས་ ལྕོགས་ཅན་བཟོ་ཡི།"
+
+#: ../src/gui/config.cpp:506
+msgid "Enabled silence detection"
+msgstr "ཁུ་སིམ་སིམ་གྱི་སྐྱོན་འཛིན་ལྕོགས་ཅན་བཟོ་ཡི།"
+
+#: ../src/gui/config.cpp:512
+msgid "Disabled silence detection"
+msgstr "ཁུ་སིམ་སིམ་གྱི་སྐྱོན་འཛིན་ལྕོགས་མིན་བཟོ་ཡི།"
+
+#: ../src/gui/config.cpp:571
+msgid "Enabled echo cancelation"
+msgstr "བྲག་ཅ་ཆ་མེད་ལྕོགས་ཅན་བཟོ།"
+
+#: ../src/gui/config.cpp:577
+msgid "Disabled echo cancelation"
+msgstr "བྲག་ཅ་ཆ་མེད་ལྕོགས་མིན་བཟོ།"
+
+#: ../src/gui/druid.cpp:610
+msgid ""
+"This is the Ekiga general configuration assistant. The following steps will set up Ekiga by asking a few simple questions.\n"
+"\n"
+"Once you have completed these steps, you can always change them later by selecting Preferences in the Edit menu."
+msgstr ""
+"འདི་ཨེ་ཀི་ག་གི་ ཡོངས་ཁྱབ་རིམ་སྒྲིག་ལས་རོགས་ཨིན། འོག་གི་རིམ་པ་ཚུ་གིས་ དྲི་བ་འཇམ་སམ་དག་པ་ཅིག་ འདྲི་བའི་ཐོག་ལས་ཨེ་ཀི་ག་གཞི་སྒྲིག་འབད་འོང་།\n"
+"\n"
+"ཁྱོད་ཀྱིས་རིམ་པ་དེ་ཚུ་ ཆ་ཚང་འབད་ཞིནམ་ལས་ ཤུལ་ལས་ནམ་རང་འབད་རུང་ ཞུན་དག་དཀར་ཆག་ནང་གི་ དགའ་གདམ་ཚུ་ སེལ་འཐུ་འབད་བའི་ཐོག་ལས་ བསྒྱུར་བཅོས་འབད་ཚུགས།"
+
+#: ../src/gui/druid.cpp:622
+#, c-format
+msgid "Configuration Assistant - page 1/%d"
+msgstr "རིམ་སྒྲིག་ལས་རོགས་ཤོག་- ལེབ་༡/%d"
+
+#: ../src/gui/druid.cpp:664
+#, c-format
+msgid "Personal Information - page %d/%d"
+msgstr "རང་དོན་བརྡ་དོན་-ཤོག་ལེབ་%d/%d"
+
+#. The user fields
+#: ../src/gui/druid.cpp:677
+msgid "Please enter your first name and your surname:"
+msgstr "ཁྱོད་རའི་མགོ་མིང་དང་ མཇུག་མིང་བཙུགས།"
+
+#: ../src/gui/druid.cpp:686
+msgid "Your first name and surname will be used when connecting to other VoIP and videoconferencing software."
+msgstr "ཁྱོད་ཀྱི་མགོ་མིང་དང་ མཇུག་མིང་ཚུ་ ཝི་ཨོ་ཨའི་པི་གཞན་དང་ གློག་ཐོག་ཞལ་འཛོམས་ཀྱི་མཉེན་ཆས་ཚུ་ལུ་ མཐུད་པའི་སྐབས་ ལག་ལེན་འཐབ་ནི་ཨིན།"
+
+#: ../src/gui/druid.cpp:732
+#, c-format
+msgid "ekiga.net Account - page %d/%d"
+msgstr "ཨེ་ཀི་ག་.ནེཊི་རྩིས་ཐོ་-ཤོག་ལེབ་%d/%d "
+
+#: ../src/gui/druid.cpp:743
+msgid "Please enter your username:"
+msgstr "ཁྱོད་རའི་ལག་ལེན་པའི་མིང་བཙུགས་:"
+
+#: ../src/gui/druid.cpp:751
+msgid "Please enter your password:"
+msgstr "ཁྱོད་རའི་ཆོག་ཡིག་བཙུགས་:"
+
+#: ../src/gui/druid.cpp:762
+msgid ""
+"The username and password are used to login to your existing account at the ekiga.net free SIP service. If you do not have an ekiga.net SIP address yet, you may first create an account below. This will provide a SIP address that allows people to call you.\n"
+"\n"
+"You may skip this step if you use an alternative SIP service, or if you would prefer to specify the login details later."
+msgstr ""
+"ལག་ལེན་པའི་མིང་དང་ ཆོག་ཡིག་དེ་ཚུ་ ཨེ་ཀི་ག་ལུ་ ཁྱོད་རའི་ད་ལྟོའི་རྩིས་ཐོ་ལུ་ ནང་བསྐྱོད་འདབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ཨིན། ད་ཚུན་ཁྱོད་ལུ་ ཨེ་ཀི་ག་.ནེཊི་ཨེསི་ཨའི་པི་ རྩིས་ཐོ་ཅིག་མེད་པ་ཅིན་ ཁྱོད་ཀྱིས་འོག་ལུ་ རྩིས་ཐོ་ཅིག་གསར་བསྐྲུན་འབད་དགོ  འདི་གིས་མི་མང་གིས་ཁྱོད་ལུ་ འབོད་བརྡ་གཏང་ཚུགས་པའི་ ཨེསི་ཨའི་པི་ཁ་ཕྱང་ཅིག་བྱིནམ་ཨིན།\n"
+"\n"
+"ཁྱོད་ཀྱིས་ཨའི་ཨེསི་པི་ཞབས་ཏོག་གཞན་ཅིག་ ལག་ལེན་འཐབ་པ་ ཡང་ན་ ནང་བསྐྱོད་རྒྱས་བཤད་ཚུ་ ཤུལ་ལས་གསལ་བཀོད་འབད་དགོ་མནོ་བ་ཅིན་ རིམ་པ་འདི་གོམ་འགྱོ།"
+
+#: ../src/gui/druid.cpp:772
+msgid "Get an ekiga.net SIP account"
+msgstr "ཨེ་ཀི་ག་.ནེཊི་ཨེསི་ཨའི་པི་ རྩིས་ཐོ་ཅིག་ལེན།"
+
+#: ../src/gui/druid.cpp:782
+msgid "I do not want to sign up for the ekiga.net free service"
+msgstr "ང་ ཨེ་ཀི་ག་.ནེཊི་གི་ སྟོང་མར་ཐོབ་པའི་ཞབས་ཏོག་གི་དོན་ལུ་ མིང་རྟགས་བཀོད་འདོད་མེད།"
+
+#: ../src/gui/druid.cpp:835
+#, c-format
+msgid "Connection Type - page %d/%d"
+msgstr "མཐུད་ལམ་གྱི་དབྱེ་བ་-ཤོག་ལེབ་%d/%d"
+
+#. The connection type
+#: ../src/gui/druid.cpp:847
+msgid "Please choose your connection type:"
+msgstr "ཁྱོད་རའི་མཐུད་ལམ་གྱི་དབྱེ་བ་ གདམ་ཁ་རྐྱབས།"
+
+#: ../src/gui/druid.cpp:855
+msgid "The connection type will permit determining the best quality settings that Ekiga will use during calls. You can later change the settings individually in the preferences window."
+msgstr "མཐུད་ལམ་གྱི་དབྱེ་བ་དེ་གིས་ ཨེ་ཀི་ག་གིས་ འབོད་བརྡ་གཏང་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ སྤུས་ཚད་དྲག་ཤོས་ཀྱི་སྒྲིག་སྟངས་ཚུ་ ངོས་འཛིན་འབད་བཅུགཔ་ཨིན།  ཁྱོད་ཀྱིས་སྒྲིག་སྟངས་ཚུ་ དགའ་གདམ་སྒོ་སྒྲིག་ནང་ལུ་ ཤུལ་ལས་རེ་རེ་བཞིན་དུ་སྦེ བསྒྱུར་བཅོས་འབད་ཚུགས།"
+
+#: ../src/gui/druid.cpp:893
+#, c-format
+msgid "NAT Type - page %d/%d"
+msgstr "ཨེན་ཨེ་ཊི་དབྱེ་བ་-ཤོག་ལེབ་%d/%d"
+
+#: ../src/gui/druid.cpp:903
+msgid "Click here to detect your NAT Type:"
+msgstr "ཨེན་ཨེ་ཊི་དབྱེ་བ་ ངོས་འཛིན་གྱི་དོན་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/gui/druid.cpp:907
+msgid "Detect NAT Type"
+msgstr "ཨེན་ཨེ་ཊི་དབྱེ་བ་ ངོས་འཛིན་འབད།"
+
+#: ../src/gui/druid.cpp:911
+msgid "The NAT type detection will permit to assist you in configuring your NAT router to be able to do calls with Ekiga."
+msgstr "ཨེན་ཨེ་ཊི་དབྱེ་བའི་ངོས་འཛིན་དེ་གིས་ ཁྱོད་རའི་ཨེན་ཨེ་ཊི་རོ་ཊར་ རིམ་སྒྲིག་འབད་དེ་ ཨེ་ཀི་ག་དང་གཅིག་ཁར་ འབོད་བརྡ་གཏང་ནི་ལུ་ ཕན་ཐོགས་ཡོད།"
+
+#: ../src/gui/druid.cpp:956
+#, c-format
+msgid "Audio Manager - page %d/%d"
+msgstr "རྣར་ཉན་འཛིན་སྐྱོང་པ་-ཤོག་ལེབ་%d/%d "
+
+#. The Audio devices
+#: ../src/gui/druid.cpp:968
+msgid "Please choose your audio manager:"
+msgstr "ཁྱོད་རའི་རྣར་ཉན་འཛིན་སྐྱོང་པ་ གདམ་ཁ་རྐྱབས།"
+
+#: ../src/gui/druid.cpp:977
+msgid "The audio manager is the plugin that will manage your audio devices. WindowsMultimedia is probably the best choice when available."
+msgstr "རྣར་ཉན་འཛིན་སྐྱོང་པ་དེ་ ཁྱོད་རའི་རྣར་ཉན་ཐབས་འཕྲུལ་ཚུ་ འཛིན་སྐྱོང་འཐབ་མི་ པ་ལག་ཨིན་དེ་ཨིན། འཐོབ་ཚུགས་པའི་སྐབས་ གདམ་ཁ་དྲག་ཤོས་དེ་རང་ ཝིན་ཌོསི་སྣ་མང་བརྡ་ལམ་དེ་ཨིན།"
+
+#: ../src/gui/druid.cpp:979
+msgid "The audio manager is the plugin that will manage your audio devices. ALSA is probably the best choice when available."
+msgstr "རྣར་ཉན་འཛིན་སྐྱོང་པ་དེ་ ཁྱོད་རའི་རྣར་ཉན་ཐབས་འཕྲུལ་ཚུ་ འཛིན་སྐྱོང་འཐབ་མི་ པ་ལག་ཨིན་དེ་ཨིན། འཐོབ་ཚུགས་པའི་སྐབས་ གདམ་ཁ་དྲག་ཤོས་དེ་རང་ ཨེ་ཨེལ་ཨེསི་ཨེ་ཨིན།"
+
+#: ../src/gui/druid.cpp:1019
+#, c-format
+msgid "Audio Devices - page %d/%d"
+msgstr "རྣར་ཉན་ཐབས་འཕྲུལ་ཚུ་-ཤོག་ལེབ་%d/%d"
+
+#. The Audio devices
+#: ../src/gui/druid.cpp:1031
+msgid "Please choose the audio output device:"
+msgstr "རྣར་ཉན་ཨའུཊི་པུཊི་ ཐབས་འཕྲུལ་དེ་ གདམ་ཁ་རྐྱབས།"
+
+#: ../src/gui/druid.cpp:1039
+msgid "The audio output device is the device managed by the audio manager that will be used to play audio."
+msgstr "རྣར་ཉན་ཨའུཊི་པུཊི་ ཐབས་འཕྲུལ་དེ་ རྣར་ཉན་འཛིན་སྐྱོང་པ་གིས་ རྣར་ཉན་གཏང་ནིའི་དོན་ལུ་ འཛིན་སྐྱོང་འཐབ་མི་ ཐབས་འཕྲུལ་དེ་ཨིན།"
+
+#: ../src/gui/druid.cpp:1049
+msgid "Please choose the audio input device:"
+msgstr "རྣར་ཉན་ཨིན་པུཊི་ ཐབས་འཕྲུལ་དེ་ གདམ་ཁ་རྐྱབས།་གནང་།"
+
+#: ../src/gui/druid.cpp:1057
+msgid "The audio input device is the device managed by the audio manager that will be used to record your voice."
+msgstr "རྣར་ཉན་ཨིན་པུཊི་ ཐབས་འཕྲུལ་དེ་ རྣར་ཉན་འཛིན་སྐྱོང་པ་གིས་ ཁྱོད་རའི་སྐད་བཟུང་ནིའི་དོན་ལུ་ འཛིན་སྐྱོང་འཐབ་མི་ ཐབས་འཕྲུལ་དེ་ཨིན།"
+
+#: ../src/gui/druid.cpp:1070
+#: ../src/gui/druid.cpp:1204
+msgid "Test Settings"
+msgstr "གཞི་སྒྲིག་ཞིབ་དཔྱད།"
+
+#: ../src/gui/druid.cpp:1114
+#, c-format
+msgid "Video Manager - page %d/%d"
+msgstr "ཝི་ཌིའོ་འཛིན་སྐྱོང་པ་-ཤོག་ལེབ་%d/%d"
+
+#. The Audio devices
+#: ../src/gui/druid.cpp:1126
+msgid "Please choose your video manager:"
+msgstr "ཁྱོད་རའི་ཝི་ཌིའོ་འཛིན་སྐྱོང་པ་ གདམ་ཁ་རྐྱབས།"
+
+#: ../src/gui/druid.cpp:1134
+msgid "The video manager is the plugin that will manage your video devices, Video4Linux is the most common choice if you own a webcam."
+msgstr "ཝི་ཌིའོ་འཛིན་སྐྱོང་པ་དེ་ ཁྱོད་ཀྱི་ཝི་ཌིའོ་ཐབས་འཕྲུལ་ཚུ་ འཛིན་སྐྱོང་འཐབ་མི་ པ་ལག་ཨིན་དེ་ཨིན། ཁྱོད་ལུ་ཝེབ་ཀེམ་ཅིག་ཡོད་པ་ཅིན་ མཐུན་མོང་གི་གདམ་ཁ་མང་ཤོས་དེ་ Video4Linux ཨིན།"
+
+#: ../src/gui/druid.cpp:1172
+#, c-format
+msgid "Video Devices - page %d/%d"
+msgstr "ཝི་ཌིའོ་ཐབས་འཕྲུལ་ཚུ་-ཤོག་ལེབ་%d/%d"
+
+#. The Video devices
+#: ../src/gui/druid.cpp:1184
+msgid "Please choose the video input device:"
+msgstr "ཝི་ཌིའོ་གི་ཨིན་པུཊི་ཐབས་འཕྲུལ་དེ་ གདམ་ཁ་བརྐྱབ་གནང་།"
+
+#: ../src/gui/druid.cpp:1192
+msgid "The video input device is the device managed by the video manager that will be used to capture video."
+msgstr "ཝི་ཌིའོ་ཨིན་པུཊི་ཐབས་འཕྲུལ་དེ་ ཝི་ཌིའོ་འཛིན་སྐྱོང་པ་གིས་ ཝི་ཌིའོ་བཟུང་ནི་དོན་ལུ་ འཛིན་སྐྱོང་འཐབ་མི་ ཐབས་འཕྲུལ་དེ་ཨིན།"
+
+#: ../src/gui/druid.cpp:1240
+#, c-format
+msgid "Configuration complete - page %d/%d"
+msgstr "རིམ་སྒྲིག་མཇུག་བསྡུ་-ཤོག་ལེབ་%d/%d "
+
+#: ../src/gui/druid.cpp:1634
+msgid "56k Modem"
+msgstr "ཀེ་༥༦ འབད་མི་ མོ་ཌེམ།"
+
+#: ../src/gui/druid.cpp:1635
+msgid "ISDN"
+msgstr "ཨའི་ཨེསི་ཌི་ཨེན།"
+
+#: ../src/gui/druid.cpp:1636
+msgid "xDSL/Cable"
+msgstr "ཨེགསི་ཌི་ཨེསི་ཨེལ་/བཀྲམ་ཐག"
+
+#: ../src/gui/druid.cpp:1637
+msgid "T1/LAN"
+msgstr "ཊི་༡/ཉེ་གནས་ཡོངས་འབྲེལ"
+
+#: ../src/gui/druid.cpp:1638
+msgid "Keep current settings"
+msgstr "ད་ལྟོའི་གཞི་སྒྲིག་ཚུ་ བདག་འཛིན་འཐབ་སྟེ་བཞག"
+
+#: ../src/gui/druid.cpp:1916
+#, c-format
+msgid ""
+"You have now finished the Ekiga configuration. All the settings can be changed in the Ekiga preferences. Enjoy!\n"
+"\n"
+"\n"
+"Configuration summary:\n"
+"\n"
+"Username: %s\n"
+"Connection type: %s\n"
+"Audio manager: %s\n"
+"Audio player: %s\n"
+"Audio recorder: %s\n"
+"Video manager: %s\n"
+"Video input: %s\n"
+"SIP URL: %s\n"
+msgstr ""
+"ཁྱོད་ཀྱིས་ཨེ་ཀི་ག་རིམ་སྒྲིག་འབད་ཚར་ཡི། སྒྲིག་སྟངས་ཆ་མཉམ་ ཨེ་ཀི་ག་དགའ་གདམ་ནང་ལུ་ བསྒྱུར་བཅོས་འབད་བཏུབ། སྤྲོ་སྟོན་! \n"
+"\n"
+"\n"
+"རིམ་སྒྲིག་བཅུད་དོན་: \n"
+"\n"
+"ལག་ལེན་པའི་མིང་: %s\n"
+"མཐུད་ལམ་གྱི་དབྱེ་བ་: %s\n"
+"རྣར་ཉན་འཛིན་སྐྱོང་པ་: %s\n"
+"རྣར་ཉན་གཏང་འཕྲུལ་: %s\n"
+"རྣར་ཉན་བཟུང་འཕྲུལ་: %s\n"
+"ཝི་ཌིའོ་འཛིན་སྐྱོང་པ་:  %s\n"
+"ཝི་ཌིའོ་ཨིན་པུཊི་: %s\n"
+"ཨེསི་ཨའི་པི་ ཡུ་ཨར་ཨེལ་: %s\n"
+
+#: ../src/gui/druid.cpp:1971
+msgid "First Time Configuration Assistant"
+msgstr "ཐེངས་དང་པའི་རིམ་སྒྲིག་ལས་རོགས།"
+
+#: ../src/gui/history.cpp:128
+msgid "General History"
+msgstr "ཡོངས་ཁྱབ་ལོ་རྒྱུས།"
+
+#: ../src/gui/main.cpp:667
+msgid "Enter a URL on the left, and click this button to place a call"
+msgstr "གཡོན་ལུ་ཡུ་ཨར་ཨེལ་ཅིག་བཙུགས་ཞིནམ་ལས་ འབོད་བརྡ་ཅིག་གཏང་ནི་ལུ་ ཨེབ་རྟ་འདི་གུ་ ཨེབ་གཏང་འབད།"
+
+#: ../src/gui/main.cpp:711
+msgid "Open text chat"
+msgstr "ཡིག་ཐོག་ཁ་སླབ་ཁ་ཕྱེ།"
+
+#: ../src/gui/main.cpp:735
+msgid "Change the view mode"
+msgstr "མཐོང་སྣང་ཐབས་ལམ་སོར།"
+
+#: ../src/gui/main.cpp:754
+msgid "Open address book"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཁ་ཕྱེ།"
+
+#: ../src/gui/main.cpp:775
+msgid "Display images from your camera device"
+msgstr "ཁྱོད་རའི་པར་ཆས་ཐབས་འཕྲུལ་ནང་ལས་ གཟུགས་བརྙན་ཚུ་ བཀྲམ་སྟོན་འབད།"
+
+#: ../src/gui/main.cpp:798
+msgid "Audio transmission status. During a call, click here to suspend or resume the audio transmission."
+msgstr "རྣར་ཉན་སྤེལ་བཀྲམ་གྱི་གནས་ས་། འབོད་བརྡ་གཏང་བའི་རིང་ལུ་ རྣར་ཉན་སྤེལ་བཀྲམ་ འཕྲལ་བཀག་འབད་ནིའམ་ བསྐྱར་ལོག་འབད་ནིའི་དོན་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/gui/main.cpp:821
+msgid "Video transmission status. During a call, click here to suspend or resume the video transmission."
+msgstr "ཝི་ཌིའོ་སྤེལ་བཀྲམ་གནས་ས་། འབོད་བརྡ་གཏང་བའི་རིང་ལུ་ ཝི་ཌིའོ་སྤེལ་བཀྲམ་ འཕྲལ་བཀག་འབད་ནིའམ་ བསྐྱར་ལོག་འབད་ནིའི་དོན་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/gui/main.cpp:901
+msgid "C_all"
+msgstr "འབོད་བརྡ།(_a)"
+
+#: ../src/gui/main.cpp:903
+msgid "Ca_ll"
+msgstr "འབོད་བརྡ།(_l)"
+
+#: ../src/gui/main.cpp:903
+#: ../src/gui/statusicon.cpp:100
+msgid "Place a new call"
+msgstr "འབོད་བརྡ་གསརཔ་ཅིག་གཏང་།"
+
+#: ../src/gui/main.cpp:906
+#: ../src/gui/statusicon.cpp:103
+msgid "_Hang up"
+msgstr "ཐོགས་ལུས།(_H)"
+
+#: ../src/gui/main.cpp:907
+#: ../src/gui/statusicon.cpp:104
+msgid "Terminate the current call"
+msgstr "ད་ལྟོའི་འབོད་བརྡ་དེ་རྩ་འགྲོལ་གཏང་།"
+
+#: ../src/gui/main.cpp:913
+#: ../src/gui/statusicon.cpp:110
+msgid "_Available"
+msgstr "ཡོད་པ།(_A)"
+
+#: ../src/gui/main.cpp:914
+#: ../src/gui/statusicon.cpp:111
+msgid "Display a popup to accept the call"
+msgstr "འབོད་བརྡ་ལུ་ དང་ལེན་གྱི་དོན་ལུ་ པོཔ་ཨཔ་ཅིག་ བཀྲམ་སྟོན་འབད།"
+
+#: ../src/gui/main.cpp:919
+#: ../src/gui/statusicon.cpp:116
+msgid "Aut_o Answer"
+msgstr "རང་བཞིན་ལན་གསལ།(_o)"
+
+#: ../src/gui/main.cpp:920
+#: ../src/gui/statusicon.cpp:117
+msgid "Auto answer calls"
+msgstr "རང་བཞིན་ལན་གསལ་གཏང་བའི་འབོད་བརྡ།"
+
+#: ../src/gui/main.cpp:925
+#: ../src/gui/statusicon.cpp:122
+msgid "_Do Not Disturb"
+msgstr "མ་དཀྲོགས།(_D)"
+
+#: ../src/gui/main.cpp:926
+#: ../src/gui/statusicon.cpp:123
+msgid "Reject calls"
+msgstr "འབོད་བརྡ་་ཚུ་ལུ་དང་ལེན་སྤངས་།"
+
+#: ../src/gui/main.cpp:931
+#: ../src/gui/statusicon.cpp:128
+msgid "_Forward"
+msgstr "གདོང་བསྐྱོད།(_F)"
+
+#: ../src/gui/main.cpp:931
+#: ../src/gui/statusicon.cpp:128
+msgid "Forward calls"
+msgstr "འབོད་བརྡ་ཚུ་གདོང་བསྐྱོད་འབད།"
+
+#: ../src/gui/main.cpp:939
+msgid "Speed d_ials"
+msgstr "མགྱོགས་ཚད་ ཌ་ཡེལསི།(_I)"
+
+#: ../src/gui/main.cpp:943
+#: ../src/gui/main.cpp:3148
+msgid "_Hold Call"
+msgstr "འབོད་བརྡ་འཛིན་ཏེ་བཞག(_H)"
+
+#: ../src/gui/main.cpp:943
+msgid "Hold the current call"
+msgstr "ད་ལྟོའི་འབོད་བརྡ་འཆང་སྟེ་བཞག"
+
+#: ../src/gui/main.cpp:947
+msgid "_Transfer Call"
+msgstr "འབོད་བརྡ་གནས་སོར་གཏང་།(_T)"
+
+#: ../src/gui/main.cpp:948
+msgid "Transfer the current call"
+msgstr "ད་ལྟོའི་འབོད་བརྡ་དེ་ གནས་སོར་གཏང་།"
+
+#: ../src/gui/main.cpp:955
+#: ../src/gui/main.cpp:3182
+msgid "Suspend _Audio"
+msgstr "རྣར་ཉན་འཕྲལ་བཀག་འབད།(_A)"
+
+#: ../src/gui/main.cpp:956
+msgid "Suspend or resume the audio transmission"
+msgstr "རྣར་ཉན་སྤེལ་བཀྲམ་ འཕྲལ་བཀག་གམ་ བསྐྱར་ལོག་འབད།"
+
+#: ../src/gui/main.cpp:960
+#: ../src/gui/main.cpp:3184
+msgid "Suspend _Video"
+msgstr "ཝི་ཌིའོ་ འཕྲལ་བཀག་འབད།(_V)"
+
+#: ../src/gui/main.cpp:961
+msgid "Suspend or resume the video transmission"
+msgstr "ཝི་ཌིའོ་སྤེལ་བཀྲམ་དེ་ འཕྲལ་བཀག་གམ་ བསྐྱར་ལོག་འབད།"
+
+#: ../src/gui/main.cpp:968
+msgid "_Save Current Picture"
+msgstr "ད་ལྟོའི་པར་སྲུངས།(_S)"
+
+#: ../src/gui/main.cpp:969
+msgid "Save a snapshot of the current video"
+msgstr "ད་ལྟོའི་ཝི་ཌིའོ་དེ་གི་ པར་ཅིག་སྲུངས།"
+
+#: ../src/gui/main.cpp:975
+msgid "Close the Ekiga window"
+msgstr "ཨེ་ཀི་ག་སྒོ་སྒྲིག་ཁ་བསྡམས།"
+
+#: ../src/gui/main.cpp:982
+#: ../src/gui/statusicon.cpp:185
+msgid "_Quit"
+msgstr "སྤངས་།(_Q)"
+
+#: ../src/gui/main.cpp:982
+#: ../src/gui/statusicon.cpp:186
+msgid "Quit Ekiga"
+msgstr "ཨེ་ཀི་ག་སྤངས།"
+
+#: ../src/gui/main.cpp:986
+msgid "_Edit"
+msgstr "ཞུན་དག།(_E)"
+
+#: ../src/gui/main.cpp:988
+msgid "_Configuration Druid"
+msgstr "རིམ་སྒྲིག་ཌུའིཌི་(_C)"
+
+#: ../src/gui/main.cpp:989
+msgid "Run the configuration druid"
+msgstr "རིམ་སྒྲིག་ཌུའིཌི་དེ་ གཡོག་བཀོལ།"
+
+#: ../src/gui/main.cpp:996
+msgid "_Accounts"
+msgstr "རྩིས་ཐོ་ཚུ།(_A)"
+
+#: ../src/gui/main.cpp:997
+msgid "Edit your accounts"
+msgstr "ཁྱོད་རའི་རྩིས་ཐོ་ཞུན་དག་རྐྱབས།"
+
+#: ../src/gui/main.cpp:1002
+#: ../src/gui/statusicon.cpp:152
+msgid "_Preferences"
+msgstr "དགའ་གདམ་ཚུ།(_P)"
+
+#: ../src/gui/main.cpp:1003
+#: ../src/gui/statusicon.cpp:153
+msgid "Change your preferences"
+msgstr "ཁྱོད་རའི་གདའ་གདམ་ཚུ་ བསྒྱུར་བཅོས་འབད།"
+
+#: ../src/gui/main.cpp:1008
+msgid "_View"
+msgstr "མཐོང་སྣང་།(_V)"
+
+#: ../src/gui/main.cpp:1010
+msgid "View _Mode"
+msgstr "མཐོང་སྣང་ཐབས་ལམ།(_M)"
+
+#: ../src/gui/main.cpp:1012
+msgid "Softp_hone"
+msgstr "སོཕཊི་ཕཱོན།(_h)"
+
+#: ../src/gui/main.cpp:1013
+msgid "Show the softphone view"
+msgstr "སོཕཊི་ཕཱོན་གྱི་མཐོང་སྣང་སྟོན།"
+
+#: ../src/gui/main.cpp:1018
+msgid "_Videophone"
+msgstr "ཝི་ཌིའོ་ཕཱོན།(_V)"
+
+#: ../src/gui/main.cpp:1019
+msgid "Show the videophone view"
+msgstr "ཝི་ཌིའོ་ཕཱོན་གྱི་མཐོང་སྣང་སྟོན།"
+
+#: ../src/gui/main.cpp:1024
+msgid "_Full View"
+msgstr "མཐོང་སྣང་ཧྲིལ་བུ།(_F)"
+
+#: ../src/gui/main.cpp:1025
+msgid "View all components"
+msgstr "ཆ་ཤས་ཆ་མཉམ་སྟོན།"
+
+#: ../src/gui/main.cpp:1033
+msgid "_Control Panel"
+msgstr "ཚད་འཛིན་ པེ་ནཱལ།"
+
+#: ../src/gui/main.cpp:1035
+msgid "_Dialpad"
+msgstr "བསྒྱིར་གདན།(_D)"
+
+#: ../src/gui/main.cpp:1035
+msgid "View the dialpad"
+msgstr "བསྒྱིར་གདན་སྟོན།"
+
+#: ../src/gui/main.cpp:1040
+msgid "_Audio Settings"
+msgstr "རྣར་ཉན་གཞི་སྒྲིག་ཚུ།(_A)"
+
+#: ../src/gui/main.cpp:1041
+msgid "View audio settings"
+msgstr "རྣར་ཉན་གཞི་སྒྲིག་གསརཔ་ཚུ།"
+
+#: ../src/gui/main.cpp:1046
+msgid "_Video Settings"
+msgstr "ཝི་ཌིའོ་གཞི་སྒྲིག་ཚུ།(_V)"
+
+#: ../src/gui/main.cpp:1047
+msgid "View video settings"
+msgstr "ཝི་ཌིའོ་གཞི་སྒྲིག་ཚུ་སྟོན།"
+
+#: ../src/gui/main.cpp:1052
+msgid "_Statistics"
+msgstr "ཚད་རྩིས་ཚུ་(_S)"
+
+#: ../src/gui/main.cpp:1053
+msgid "View audio/video transmission and reception statistics"
+msgstr "རྣར་ཉན་/ཝི་ཌིའོ་གི་སྤེལ་བཀྲམ་དང་ སྒྲ་འབྱོར་གྱི་ཚད་རྩིས་ཚུ་སྟོན།"
+
+#: ../src/gui/main.cpp:1061
+msgid "_Local Video"
+msgstr "ཉེ་གནས་ཀྱི་ ཝི་ཌིའོ།"
+
+#: ../src/gui/main.cpp:1062
+msgid "Local video image"
+msgstr "ཉེ་གནས་ཀྱི་ཝི་ཌིའོ་གཟུགས་བརྙན།"
+
+#: ../src/gui/main.cpp:1067
+msgid "_Remote Video"
+msgstr "ཐག་རིང་གི་ ཝི་ཌིའོ།"
+
+#: ../src/gui/main.cpp:1068
+msgid "Remote video image"
+msgstr "ཐག་རིང་གི་ཝི་ཌིའོ་གཟུགས་བརྙན།"
+
+#: ../src/gui/main.cpp:1073
+msgid "Both (_Picture-in-Picture)"
+msgstr "གཉིས་ཆ་ར། (པར་གྱི་ནང་ན་པར)(_P)"
+
+#: ../src/gui/main.cpp:1074
+#: ../src/gui/main.cpp:1080
+#: ../src/gui/main.cpp:1087
+msgid "Both video images"
+msgstr "ཝི་ཌིའོ་གཟུགས་བརྙན་གཉིས་ཆ་ར།"
+
+#: ../src/gui/main.cpp:1079
+msgid "Both (_Side-by-Side)"
+msgstr "གཉིས་ཆ་ར། (དུས་མཉམ་ལུ)(_S)"
+
+#: ../src/gui/main.cpp:1086
+msgid "Both (_Both in New Windows)"
+msgstr "གཉིས་ཆ་ར། (གཉིས་ཆ་ར་སྒོ་སྒྲིག་གསར་པའི་ནང་)(_B)"
+
+#: ../src/gui/main.cpp:1095
+msgid "Zoom _In"
+msgstr "ཕྱིར་རྒྱས་(_Z)"
+
+#: ../src/gui/main.cpp:1095
+#: ../src/gui/main.cpp:1573
+#: ../src/gui/main.cpp:1598
+msgid "Zoom in"
+msgstr "ཕྱིར་རྒྱས།"
+
+#: ../src/gui/main.cpp:1099
+msgid "Zoom _Out"
+msgstr "ནང་ན་ཟུམ་(_Z)"
+
+#: ../src/gui/main.cpp:1099
+#: ../src/gui/main.cpp:1577
+#: ../src/gui/main.cpp:1602
+msgid "Zoom out"
+msgstr "ནང་ན་ཟུམ།"
+
+#: ../src/gui/main.cpp:1103
+msgid "_Normal Size"
+msgstr "སྤྱིར་བཏང་གི་ཚད་(_N)"
+
+#: ../src/gui/main.cpp:1103
+#: ../src/gui/main.cpp:1581
+#: ../src/gui/main.cpp:1606
+msgid "Normal size"
+msgstr "སྤྱིར་བཏང་གི་ཚད།"
+
+#: ../src/gui/main.cpp:1109
+msgid "_Fullscreen"
+msgstr "གསལ་གཞི་གངམ་(_F)"
+
+#: ../src/gui/main.cpp:1115
+msgid "_Tools"
+msgstr "ལག་ཆས།(_T)"
+
+#: ../src/gui/main.cpp:1117
+#: ../src/gui/statusicon.cpp:136
+msgid "Address _Book"
+msgstr "ཁ་བྱང་ཀི་དེབ།(_B)"
+
+#: ../src/gui/main.cpp:1118
+#: ../src/gui/statusicon.cpp:137
+msgid "Open the address book"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཁ་ཕྱེ།"
+
+#: ../src/gui/main.cpp:1125
+msgid "C_hat Window"
+msgstr "ཁ་སླབ་སྒོ་སྒྲིག(_C)"
+
+#: ../src/gui/main.cpp:1126
+msgid "Open the chat window"
+msgstr "ཁ་སླབ་སྒོ་སྒྲིག་ཁ་ཕྱེ།"
+
+#: ../src/gui/main.cpp:1131
+msgid "_General History"
+msgstr "ཡོངས་ཁྱབ་ལོ་རྒྱུས་(_G)"
+
+#: ../src/gui/main.cpp:1132
+msgid "View the operations history"
+msgstr "བཀོལ་སྤྱོད་ཚུ་གི་ལོ་རྒྱུས་སྟོན།"
+
+#: ../src/gui/main.cpp:1136
+msgid "_Calls History"
+msgstr "འབོད་བརྡའི་ལོ་རྒྱུས་(_C)"
+
+#: ../src/gui/main.cpp:1137
+#: ../src/gui/statusicon.cpp:145
+msgid "View the calls history"
+msgstr "འབོད་བརྡ་ཚུ་གི་ལོ་རྒྱུས་སྟོན།"
+
+#: ../src/gui/main.cpp:1144
+msgid "_PC-To-Phone Account"
+msgstr "གློག་རིག་ལས་བརྒྱུད་འཕྲིན་གྱི་རྩིས་ཐོ་ལུ་(_P)"
+
+#: ../src/gui/main.cpp:1145
+msgid "Manage your PC-To-Phone account"
+msgstr "ཁྱོད་རའི་གློག་རིག་ལས་བརྒྱུད་འཕྲིན་གྱི་རྩིས་ཐོ་ འཛིན་སྐྱོང་འཐབ།"
+
+#: ../src/gui/main.cpp:1150
+msgid "_Help"
+msgstr "གྲོགས་རམ།(_H)"
+
+#: ../src/gui/main.cpp:1152
+#: ../src/gui/statusicon.cpp:161
+#: ../src/gui/statusicon.cpp:172
+msgid "_Contents"
+msgstr "ནང་དོན་ཚུ།(_C)"
+
+#: ../src/gui/main.cpp:1153
+#: ../src/gui/statusicon.cpp:162
+#: ../src/gui/statusicon.cpp:173
+msgid "Get help by reading the Ekiga manual"
+msgstr "ཨེ་ཀི་ག་ལག་དེབ་ ལྷག་ཐོག་ལས་གྲོགས་རམ་ལེན།"
+
+#: ../src/gui/main.cpp:1157
+#: ../src/gui/main.cpp:1163
+#: ../src/gui/statusicon.cpp:166
+#: ../src/gui/statusicon.cpp:177
+msgid "_About"
+msgstr "སྐོར་ལས།(_A)"
+
+#: ../src/gui/main.cpp:1158
+#: ../src/gui/main.cpp:1164
+#: ../src/gui/statusicon.cpp:167
+#: ../src/gui/statusicon.cpp:178
+msgid "View information about Ekiga"
+msgstr "ཨེ་ཀི་ག་གི་སྐོར་ལས་བརྡ་དོན་སྟོན།"
+
+#: ../src/gui/main.cpp:1232
+msgid "Statistics"
+msgstr "ཚད་རྩིས་ཚུ།"
+
+#: ../src/gui/main.cpp:1315
+msgid "Dialpad"
+msgstr "བསྒྱིར་གདན།"
+
+#: ../src/gui/main.cpp:1368
+msgid "Adjust brightness"
+msgstr "དཀར་མདངས་ བདེ་སྒྲིག་འབད།"
+
+#: ../src/gui/main.cpp:1390
+msgid "Adjust whiteness"
+msgstr "དཀར་མདངས་བདེ་སྒྲིག་འབད།"
+
+#: ../src/gui/main.cpp:1412
+msgid "Adjust color"
+msgstr "ཚོན་མདངས་བདེ་སྒྲིག་འབད།"
+
+#: ../src/gui/main.cpp:1434
+msgid "Adjust contrast"
+msgstr "ཁྱད་པར་བདེ་བསྒྲིག་འབད།"
+
+#: ../src/gui/main.cpp:1440
+msgid "Video"
+msgstr "ཝི་ཌིའོ།"
+
+#: ../src/gui/main.cpp:1524
+msgid "Audio"
+msgstr "རྣར་ཉན།"
+
+#: ../src/gui/main.cpp:1573
+#: ../src/gui/main.cpp:1598
+msgid "Zoom In"
+msgstr "ཕྱིར་རྒྱས།"
+
+#: ../src/gui/main.cpp:1577
+#: ../src/gui/main.cpp:1602
+msgid "Zoom Out"
+msgstr "ནང་ན་ཟུམ།"
+
+#: ../src/gui/main.cpp:1581
+#: ../src/gui/main.cpp:1606
+msgid "Normal Size"
+msgstr "སྤྱིར་བཏང་གི་ཚད།"
+
+#: ../src/gui/main.cpp:1587
+#: ../src/gui/main.cpp:1612
+msgid "Fullscreen"
+msgstr "གསལ་གཞི་གངམ།"
+
+#: ../src/gui/main.cpp:1775
+msgid "Notification area not detected"
+msgstr "བརྡ་བསྐུལ་མངའ་ཁོངས་ སྐྱོན་འཛིན་མ་འབད་བས།"
+
+#: ../src/gui/main.cpp:1775
+msgid "The notification area is not present in your panel, so Ekiga cannot start hidden."
+msgstr "ཁྱོད་ཀྱི་པེ་ནཱལ་ནང་ བརྡ་བསྐུལ་མངའ་ཁོངས་དེ་མིན་འདུག དེ་གིས་སྦེ་  ཨེ་ཀི་ག་གིས་ གསང་བ་འགོ་བཙུགས་མི་ཚུགས།"
+
+#: ../src/gui/main.cpp:2088
+#, c-format
+msgid "Sent DTMF %c"
+msgstr "ཌི་ཊི་ཨེམ་ཨེཕ་%c བཏང་ཡོད།"
+
+#: ../src/gui/main.cpp:2311
+#: ../src/gui/main.cpp:4308
+#, c-format
+msgid "Missed calls: %d - Voice Mails: %s"
+msgstr "བྱིག་སོང་བའི་འབོད་བརྡ་:%d - སྐད་འཕྲིན་:%s"
+
+#: ../src/gui/main.cpp:3132
+msgid "_Retrieve Call"
+msgstr "འབོད་བརྡ་སླར་འདྲེན་འབད།(_R)"
+
+#: ../src/gui/main.cpp:3186
+msgid "Resume _Audio"
+msgstr "རྣར་ཉན་བསྐྱར་ལོག་འབད།(_A)"
+
+#: ../src/gui/main.cpp:3188
+msgid "Resume _Video"
+msgstr "ཝི་ཌིའོ་བསྐྱར་ལོག་འབད།(_V)"
+
+#: ../src/gui/main.cpp:3730
+msgid "Out:"
+msgstr "ཕྱིར་:"
+
+#: ../src/gui/main.cpp:3733
+msgid "In:"
+msgstr "ནང་:"
+
+#: ../src/gui/main.cpp:3757
+msgid "Registered accounts:"
+msgstr "ཐོ་འཁོན་ཅན་གྱི་རྩིས་ཐོ།"
+
+#: ../src/gui/main.cpp:3882
+msgid "Transfer call to:"
+msgstr "འབོད་བརྡ་གནས་སོར་གཏང་ཡུལ་: "
+
+#: ../src/gui/main.cpp:3883
+#: ../src/gui/main.cpp:3948
+msgid "Transfer"
+msgstr "གནས་སོར།"
+
+#: ../src/gui/main.cpp:3946
+msgid "Reject"
+msgstr "དང་ལེན་སྤངས་།"
+
+#: ../src/gui/main.cpp:3950
+msgid "Accept"
+msgstr "དང་ལེན་འབད།"
+
+#: ../src/gui/main.cpp:3957
+msgid "Incoming call from"
+msgstr "ནང་འབྱོར་འབོད་བརྡ་འོང་ས།"
+
+#: ../src/gui/main.cpp:3970
+msgid "Remote URL:"
+msgstr "ཐག་རིང་གི་ ཡུ་ཨར་ཨེལ་:"
+
+#: ../src/gui/main.cpp:3982
+msgid "Remote Application:"
+msgstr "ཐག་རིང་གི་གློག་རིམ།"
+
+#. Add the window icon and title
+#: ../src/gui/main.cpp:4050
+#: ../src/gui/main.cpp:4238
+msgid "Ekiga"
+msgstr "ཨེ་ཀི་ག"
+
+#: ../src/gui/main.cpp:4218
+msgid "Local Video"
+msgstr "ཉེ་གནས་ཀྱི་ཝི་ཌིའོ།"
+
+#: ../src/gui/main.cpp:4225
+msgid "Remote Video"
+msgstr "ཐག་རིང་གི་ཝི་ཌིའོ།"
+
+#: ../src/gui/main.cpp:4476
+#, c-format
+msgid ""
+"Lost packets: %.1f %%\n"
+"Late packets: %.1f %%\n"
+"Out of order packets: %.1f %%\n"
+"Jitter buffer: %d ms"
+msgstr ""
+"བརླག་སྟོར་ཤོར་བའི་འཕྲིན་ཚན: %.1f་%% \n"
+"ཕྱིས་པའི་འཕྲིན་ཚན་: %.1f་%%  \n"
+"གོ་རིམ་མེད་པའི་འཕྲིན་ཚན་:  %.1f %%\n"
+"ཇི་ཊར་གནད་ཁོངས་: %d ཨེམ་ཨེསི།"
+
+#: ../src/gui/main.cpp:4575
+#, c-format
+msgid ""
+"Ekiga got an invalid value for the GConf key %s.\n"
+"\n"
+"It probably means that your GConf schemas have not been correctly installed or the that permissions are not correct.\n"
+"\n"
+"Please check the FAQ (http://www.ekiga.org/), the troubleshooting section of the GConf site (http://www.gnome.org/projects/gconf/) or the mailing list archives for more information (http://mail.gnome.org) about this problem."
+msgstr ""
+"ཨེ་ཀི་ག་གིས་ ཇི་ཀཱོནཕི་ལྡེ་མིག་%sགི་དོན་ལུ་ ནུས་མེད་ཀྱི་བེ་ལུ་ཅིག་ཐོབ་ནུག\n"
+"\n"
+"དེ་གི་དོན་དག་ ཁྱོད་ཀྱི་ཇི་ཀཱོནཕ་ལས་འཆར་དེ་ ཚུལ་ལྡན་སྦེ་ གཞི་བཙུགས་མ་འབད་བའམ་ གནང་བ་ཚུ་ ངེས་ཏིག་མེནམ་འོང་ནི་མས།\n"
+"\n"
+"དཀའ་ངལ་འདི་གི་སྐོར་ལས་ (http://www.gnome.org/projects/gconf/)དང་ ཨེཕ་ཨེ་ཀིའུ་ (http://www.ekiga.org/) དང་ ཇི་ཀཱོནཕི་ས་ཁོངས་ཀྱི་དཀའ་ངལ་སེལ་ནིའི་སྡེ་ཚན་ནང་  (http://www.gnome.org/projects/gconf/) ཡང་ན་ བརྡ་དོན་ཧེང་འཐོབ་ནིའི་དོན་ལས་ འཕྲིན་གཏང་ཐོ་ཡིག་གི་ཡིག་མཛོད་ (http://mail.gnome.org)  ལུ་ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../src/gui/main.cpp:4578
+msgid "Gconf key error"
+msgstr "ཇི་ཀཱོནཕ་ལྡེ་མིག་གི་འཛོལ་བ།"
+
+#: ../src/gui/main.cpp:4609
+#: ../src/gui/main.cpp:4628
+msgid "Prints debug messages in the console (level between 1 and 6)"
+msgstr "མ་སྒྲོམ་ནང་གི་ རྐྱེན་སེལ་གྱི་འཕྲིན་དོན་ཚུ་ དཔར་བསྐྲུན་འབདཝ་ཨིན། (གནས་རིམ་༡ དང་༦གི་བར་ན)"
+
+#: ../src/gui/main.cpp:4612
+#: ../src/gui/main.cpp:4633
+msgid "Makes Ekiga call the given URL"
+msgstr "ཨེ་ཀི་ག་འབོད་བརྡ་ གྲ་བསྒྲིགས་ཡོད་པའི་ ཡུ་ཨར་ཨེལ་ལུ་བཟོཝ་ཨིན།"
+
+#: ../src/gui/main.cpp:4666
+msgid "No usable audio plugin detected"
+msgstr "ལག་ལེན་འཐབ་བཏུབ་པའི་ རྣར་ཉན་པ་ལག་ཨིན་ སྐྱོན་འཛིན་མ་འབད་བས།"
+
+#: ../src/gui/main.cpp:4666
+msgid "Ekiga didn't find any usable audio plugin. Make sure that your installation is correct."
+msgstr "ཨེ་ཀི་ག་གིས་ ལག་ལེན་འཐབ་བཏུབ་པའི་ རྣར་ཉན་པ་ལག་ཨིན་ ག་ནི་ཡང་ འཚོལ་མ་ཐོབ་པས། ཁྱོད་རའི་གཞི་བཙུགས་དེ་ ངེས་བདེན་ཨིནམ་བཟོ།"
+
+#: ../src/gui/misc.cpp:115
+msgid "Error"
+msgstr "འཛོལ་བ།"
+
+#: ../src/gui/preferences.cpp:497
+msgid "Bandwidth"
+msgstr "བེནཌི་ཝིཐ།"
+
+#: ../src/gui/preferences.cpp:505
+msgid "Clock Rate"
+msgstr "ཆེ་འཁོར་གྱི་གོང་ཚད།"
+
+#: ../src/gui/preferences.cpp:630
+msgid "Personal Information"
+msgstr "རང་དོན་བརྡ་དོན།"
+
+#: ../src/gui/preferences.cpp:633
+msgid "_First name:"
+msgstr "མགོ་མིང་:(_F)"
+
+#: ../src/gui/preferences.cpp:640
+msgid "Sur_name:"
+msgstr "རུས་མིང་:(_n)"
+
+#: ../src/gui/preferences.cpp:642
+msgid "Enter your surname"
+msgstr "ཁྱོད་རའི་རུས་མིང་བཙུགས།"
+
+#: ../src/gui/preferences.cpp:648
+msgid "E-_mail address:"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་:(_m)"
+
+#: ../src/gui/preferences.cpp:650
+msgid "Enter your e-mail address"
+msgstr "ཁྲོད་རའི་གློག་འཕྲིན་ཁ་བྱང་བཙུགས།"
+
+#: ../src/gui/preferences.cpp:655
+msgid "_Comment:"
+msgstr "བསམ་བཀོད་:(_C)"
+
+#: ../src/gui/preferences.cpp:657
+msgid "Enter a comment about yourself"
+msgstr "ཁྱོད་རའི་སྐོར་ལས་ བསམ་བཀོད་ཅིག་བཙུགས།"
+
+#: ../src/gui/preferences.cpp:662
+msgid "_Location:"
+msgstr "གནས་ཁོངས་:(_L)"
+
+#: ../src/gui/preferences.cpp:664
+msgid "Enter your country or city"
+msgstr "ཁྱོད་རའི་རྒྱལ་ཁབ་ ཡང་ན་ ཁྲོམ་སྡེ་བཙུགས།"
+
+#. Add the update button
+#: ../src/gui/preferences.cpp:669
+#: ../src/gui/preferences.cpp:963
+msgid "_Apply"
+msgstr "འཇུག་སྤྱོད་འབད།(_A)"
+
+#: ../src/gui/preferences.cpp:669
+msgid "Click here to update the users directory you are registered to with the new First Name, Last Name, E-Mail, Comment and Location"
+msgstr "ཁྱོད་རང་ཐོ་འགོད་འབད་དེ་ཡོད་པའི་ ལག་ལེན་པའི་སྣོད་ཐོ་ལུ་ མགོ་མིང་དང་ མཇུག་མིང་ གློག་འཕྲིན་ བསམ་བཀོད་ གནས་ཁོངས་དང་བཅསཔ་འབད་ དུས་མཐུན་བཟོ་ནི་དང་ དུས་མཐུན་བཟོ་ནི་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/gui/preferences.cpp:683
+msgid "Ekiga GUI"
+msgstr "ཨེ་ཀི་ག་ ཇི་ཡུ་ཨའི།"
+
+#: ../src/gui/preferences.cpp:685
+msgid "Start _hidden"
+msgstr "གསང་བ་འགོ་བཙུགས།(_h)"
+
+#: ../src/gui/preferences.cpp:691
+msgid "Video Display"
+msgstr "ཝི་ཌིའོ་བཀྲམ་སྟོན།"
+
+#: ../src/gui/preferences.cpp:693
+msgid "Place windows displaying video _above other windows"
+msgstr "ཝི་ཌིའོ་བཀྲམ་སྟོན་འབད་མི་སྒོ་སྒྲིག་ཚུ་ སྒོ་སྒྲིག་གཞན་ཚུ་གི་ལྟག་ལུ་བཀལ།"
+
+#: ../src/gui/preferences.cpp:706
+msgid "Users Directory"
+msgstr "ལག་ལེན་པའི་སྣོད་ཐོ།"
+
+#. Add all the fields
+#: ../src/gui/preferences.cpp:710
+msgid "Users directory:"
+msgstr "ལག་ལེན་པའི་སྣོད་ཐོ་:"
+
+#: ../src/gui/preferences.cpp:710
+msgid "The users directory server to register with"
+msgstr "ཐོ་འགོད་འབད་ནིའི་ ལག་ལེན་པའི་སྣོད་ཐོའི་སར་བར།"
+
+#: ../src/gui/preferences.cpp:712
+msgid "Enable _registering"
+msgstr "ཐོ་འགོད་འབད་ནི་ ལྕོགས་ཅན་བཟོ།(_r)"
+
+#: ../src/gui/preferences.cpp:712
+msgid "If enabled, register with the selected users directory"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ སེལ་འཐུ་འབད་མི་ ལག་ལེན་པའི་སྣོད་ཐོ་ལུ་ ཐོ་འགོད་འབད།"
+
+#: ../src/gui/preferences.cpp:714
+msgid "_Publish my details in the users directory when registering"
+msgstr "ཐོ་འགོད་འབད་བའི་སྐབས་ལུ་ ངེད་ཀྱི་རྒྱས་བཤད་ཚུ་ ལག་ལེན་པའི་སྣོད་ཐོ་ནང་ དཔེ་བསྐྲུན་འབད།"
+
+#: ../src/gui/preferences.cpp:714
+msgid "If enabled, your details are shown to people browsing the users directory. If disabled, you are not visible to users browsing the users directory, but they can still use the callto URL to call you."
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཁྱོད་ཀྱི་རྒྱས་བཤད་ཚུ་ ལག་ལེན་པའི་སྣོད་ཐོ་ལུ་ བརྡ་འཚོལ་འབད་མི་ཚུ་ལུ་སྟོནམ་ཨིན། ལྕོགས་མིན་ཨིན་པ་ཅིན་ ལག་ལེན་པའི་སྣོད་ཐོ་ལུ་ བརྡ་འཚོལ་འབད་མི་ཚུ་གིས་ ཁྱོད་མཐོང་མི་ཚུགས། དེ་འབདཝ་ད་ ཁྱོད་ལུ་འབོད་བརྡ་གཏང་ནི་ལུ་ ཁོང་གིས་ གཏང་ཡུལ་ཡུ་ཨར་ཨེལ་དེ་ ལག་ལེན་འཐབ་ཚུགས།"
+
+#: ../src/gui/preferences.cpp:725
+msgid "Call Forwarding"
+msgstr "འབོད་བརྡ་གདོང་བསྐྱོད་འབད་དོ།"
+
+#: ../src/gui/preferences.cpp:727
+msgid "_Always forward calls to the given host"
+msgstr "ཨ་རྟག་ར་ འབོད་བརྡ་ཚུ་ གྲ་བསྒྲིགས་ཧོསཊི་ལུ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../src/gui/preferences.cpp:727
+msgid "If enabled, all incoming calls will be forwarded to the host that is specified in the protocol settings"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ནང་འབྱོར་འབོད་བརྡ་ཆ་མཉམ་ གནད་སྤེལ་ལམ་ལུགས་སྒྲིག་སྟངས་ནང་ གསལ་བཀོད་འབད་མི་ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད་འོང་། "
+
+#: ../src/gui/preferences.cpp:729
+msgid "Forward calls to the given host if _no answer"
+msgstr "གལ་སྲིད་ལན་གསལ་མེད་པ་ཅིན་ འབོད་བརྡ་ཚུ་ གྲ་བསྒྲིགས་ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../src/gui/preferences.cpp:729
+msgid "If enabled, all incoming calls will be forwarded to the host that is specified in the protocol settings if you do not answer the call"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཁྱོད་ཀྱིས་འབོད་བརྡ་ལུ་ ལན་གསལ་མ་འབད་བ་ཅིན་ ནང་འབྱོར་འབོད་བརྡ་ཆ་མཉམ་ གནས་སྤེལ་ལམ་ལུགས་སྒྲིག་སྟངས་ནང་ གསལ་བཀོད་འབད་མི་ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད་ནི་ཨིན།"
+
+#: ../src/gui/preferences.cpp:731
+msgid "Forward calls to the given host if _busy"
+msgstr "ཁོམ་མེད་ཨིན་པ་ཅིན་ འབོད་བརྡ་ཚུ་ གྲ་བསྒྲིགས་ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད།(_b)"
+
+#: ../src/gui/preferences.cpp:731
+msgid "If enabled, all incoming calls will be forwarded to the host that is specified in the protocol settings if you already are in a call or if you are in Do Not Disturb mode"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཁྱོད་ཧེ་མ་ལས་རང་ འབོད་བརྡ་ཅིག་ནང་ཡོདཔ་ད་ ཡང་ན་ མ་དཀྲོགས་ཟེར་མི་ ཐབས་ལམ་ནང་ཡོད་པ་ཅིན་ ནང་འབྱོར་འབོད་བརྡ་ཆ་མཉམ་ གནས་སྤེལ་ལམ་ལུགས་སྒྲིག་སྟངས་ནང་ གསལ་བཀོད་འབད་མི་ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད་འོང་།"
+
+#: ../src/gui/preferences.cpp:735
+#: ../src/gui/preferences.cpp:1977
+msgid "Call Options"
+msgstr "འབོད་བརྡའི་གདམ་ཁ་ཚུ།"
+
+#. Add all the fields
+#: ../src/gui/preferences.cpp:738
+msgid "Automatically _clear calls after 30 seconds of inactivity"
+msgstr "སྐར་ཆ་༣༠ ཤུགས་མེད་སྦེ་སྡོད་པའི་ཤུལ་ལུ་ འབོད་བརྡ་ཚུ་ རང་བཞིན་གྱིས་བསལ་གཏང་།(_c)"
+
+#: ../src/gui/preferences.cpp:740
+msgid "Timeout to reject or forward unanswered incoming calls (in seconds):"
+msgstr "ལན་གསལ་མ་འབད་བའི་ ནང་འབྱོར་འབོད་བརྡ་ཚུ་ ངོས་ལེན་སྤང་ནི་ ཡང་ན་ གདོང་བསྐྱོད་འབད་ནིའི་ངལ་མཚམས།(སྐར་ཆའི་ནང་)"
+
+#: ../src/gui/preferences.cpp:780
+msgid "Ekiga Sound Events"
+msgstr "ཨེ་ཀི་གའི་སྒྲ་སྐད་བྱུང་ལས།"
+
+#: ../src/gui/preferences.cpp:829
+#: ../src/gui/preferences.cpp:838
+#: ../src/gui/preferences.cpp:847
+msgid "Event"
+msgstr "བྱུང་ལས།"
+
+#: ../src/gui/preferences.cpp:859
+msgid "Choose a sound"
+msgstr "སྒྲ་སྐད་ཅིག་གདམ་ཁ་རྐྱབས།"
+
+#: ../src/gui/preferences.cpp:865
+msgid "Wavefiles"
+msgstr "ཝེབ་ཕ་ཡེལསི།"
+
+#: ../src/gui/preferences.cpp:874
+#: ../src/gui/preferences.cpp:893
+msgid "Play"
+msgstr "གཏང་།"
+
+#: ../src/gui/preferences.cpp:907
+msgid "Alternative Output Device"
+msgstr "ཨའུཊི་པུཊི་ཐབས་འཕྲུལ་གཞན།"
+
+#: ../src/gui/preferences.cpp:913
+msgid "Alternative output device:"
+msgstr "ཨའུཊི་པུཊི་ཐབས་ལམ་གཞན་:"
+
+#: ../src/gui/preferences.cpp:913
+msgid "Select an alternative audio output device to use for sound events"
+msgstr "སྒྲ་སྐད་བྱུང་ལས་ཀྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྣར་ཉན་ཨའུཊི་པུཊི་ཐབས་འཕྲུལ་གཞན་ སེལ་འཐུ་འབད།"
+
+#: ../src/gui/preferences.cpp:931
+msgid "STUN"
+msgstr "སི་ཊཱན།"
+
+#: ../src/gui/preferences.cpp:932
+msgid "IP Translation"
+msgstr "ཨའི་པི་སྐད་བསྒྱུར།"
+
+#: ../src/gui/preferences.cpp:945
+msgid "Network Interface"
+msgstr "ཡོངས་འབྲེལ་གྱི་ངོས་འདྲ་བ།"
+
+#: ../src/gui/preferences.cpp:950
+msgid "Listen on:"
+msgstr "ཉན་ས་:"
+
+#: ../src/gui/preferences.cpp:957
+msgid "NAT Settings"
+msgstr "ཨེན་ཨེ་ཊི་ གཞི་སྒྲིག་ཚུ།"
+
+#: ../src/gui/preferences.cpp:959
+msgid "NAT Traversal Method:"
+msgstr "ཨེན་ཨེ་ཊི་ཀྱོག་འགྲུལ་ཐབས་ཤེས།"
+
+#: ../src/gui/preferences.cpp:961
+msgid "STUN Se_rver:"
+msgstr "སི་ཊཱན་སར་བར་:(_r)"
+
+#: ../src/gui/preferences.cpp:961
+msgid "The STUN server to use for STUN Support."
+msgstr "སི་ཊཱན་རྒྱབ་སྐྱོར་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ སི་ཊཱན་སར་བར།"
+
+#: ../src/gui/preferences.cpp:963
+msgid "Click here to update your NAT settings"
+msgstr "ཁྱོད་ཀྱི་ཨེན་ཨེ་ཊི་སྒྲིག་སྟངས་ཚུ་ དུས་མཐུན་བཟོ་ནིའི་དོན་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/gui/preferences.cpp:975
+msgid "String"
+msgstr "ཡིག་རྒྱུན།"
+
+#: ../src/gui/preferences.cpp:976
+msgid "Tone"
+msgstr "སྒྲ་འབྱངས།"
+
+#: ../src/gui/preferences.cpp:977
+#: ../src/gui/preferences.cpp:1027
+msgid "RFC2833"
+msgstr "ཨར་ཨེཕ་སི་༢༨༣༣།"
+
+#: ../src/gui/preferences.cpp:978
+msgid "Q.931"
+msgstr "ཀིའུ་.༩༣༡།"
+
+#: ../src/gui/preferences.cpp:984
+#: ../src/gui/preferences.cpp:1035
+msgid "Misc Settings"
+msgstr "སྣ་ཚོགས་སྒྲིག་སྟངས།"
+
+#: ../src/gui/preferences.cpp:986
+msgid "Default _gateway:"
+msgstr "སྔོན་སྒྲིག་འཛུལ་སྒོ།(_g)"
+
+#: ../src/gui/preferences.cpp:989
+#: ../src/gui/preferences.cpp:1040
+msgid "Forward _URL:"
+msgstr "ཡུ་ཨར་ཨེལ་ གདོང་བསྐྱོད་འབད།(_U)"
+
+#: ../src/gui/preferences.cpp:998
+msgid "Advanced Settings"
+msgstr "མཐོ་རིམ་ཅན་གྱི་ གཞི་སྒྲིག་ཚུ།"
+
+#. The toggles
+#: ../src/gui/preferences.cpp:1001
+msgid "Enable H.245 _tunneling"
+msgstr "H.245 ཊ་ན་ལིང་ ལྕོགས་ཅན་བཟོ།(_t)"
+
+#: ../src/gui/preferences.cpp:1003
+msgid "Enable _early H.245"
+msgstr "སྔ་ཆའི་H.245 ལྕོགས་ཅན་བཟོ།(_e)"
+
+#: ../src/gui/preferences.cpp:1005
+msgid "Enable fast _start procedure"
+msgstr "མགྱོགས་པར་འགོ་བཙུགས་ཀྱི་ བྱ་སྒོའི་ལམ་ལུགས་ ལྕོགས་ཅན་བཟོ།(_s)"
+
+#: ../src/gui/preferences.cpp:1005
+msgid "Connection will be established in Fast Start mode. Fast Start is a new way to start calls faster that was introduced in H.323v2. It is not supported by Netmeeting and using both Fast Start and H.245 Tunneling can crash some versions of Netmeeting."
+msgstr "མགྱོགས་པར་འགོ་བཙུགས་ཐབས་ལམ་ནང་ མཐུད་ལམ་གཞི་བཙུགས་འབད་ནི་ཨིན། མགྱོགས་པར་འགོ་བཙུགས་དེ་ H.323v2 ནང་འགོ་བཙུགས་ཏེ་ཡོད་མི་ མགྱོགས་པར་འབོད་བརྡ་གཏང་ནིའི་ ཐབས་ཤེས་གསརཔ་ཅིག་ཨིན། ཇི་ནོམ་མི་ཊིང་གིས་ འདི་ལུ་རྒྱབ་སྐྱོར་མེདཔ་ལས་ མགྱོགས་པར་འགོ་བཙུགས་དང་ H.245 ཊ་ན་ལིང་གཉིས་ཆ་ར་ ལག་ལེན་འཐབ་པ་ཅིན་ ཇི་ནོམ་མི་ཊིང་གི་ ཐོན་རིམ་ལ་ལོ་ཅིག་ མེདཔ་འགྱོ་འོང་། "
+
+#: ../src/gui/preferences.cpp:1011
+#: ../src/gui/preferences.cpp:1048
+msgid "DTMF Mode"
+msgstr "ཌི་ཊི་ཨེམ་ཨེཕ་ཐབས་ལམ།"
+
+#: ../src/gui/preferences.cpp:1013
+#: ../src/gui/preferences.cpp:1050
+msgid "_Send DTMF as:"
+msgstr "ཌི་ཊི་ཨེམ་ཨེཕ་བཟུམ་སྦེ་གཏང་།: (_S)"
+
+#: ../src/gui/preferences.cpp:1013
+msgid "This permits to set the mode for DTMFs sending. The values can be \"String\" (0), \"Tone\" (1), \"RFC2833\" (2), \"Q.931\" (3) (default is \"String\"). Choosing other values than \"String\" disables the Text Chat."
+msgstr "འདི་གིས་ཌི་ཊི་ཨེམ་ཨེཕ་ཚུ་གཏང་ནིའི་དོན་ལུ་ ཐབས་ལམ་གཞི་སྒྲིག་འབད་བཅུགཔ་ཨིན། བཏུབ་པའི་བེ་ལུསི་ཚུ་ \"String\" (༡), \"Tone\" (༡), \"RFC2833\" (༢), \"Q.931\" (༣) (སྔོན་སྒྲིག་དེ་ \"String\")ཨིན། \"String\")མ་ཡིན་པའི་ བེལུསི་གཞན་ གདམ་ཁ་བརྐྱབ་པ་ཅིན་ ཁ་སླབ་ཚིག་ཡིག་དེ་ ལྕོགས་མིན་བཟོཝ་ཨིན།"
+
+#: ../src/gui/preferences.cpp:1037
+msgid "_Outbound Proxy:"
+msgstr "ཨའུཊི་བའུན་པོ་རོག་སི་:(_O)"
+
+#: ../src/gui/preferences.cpp:1050
+msgid "This permits to set the mode for DTMFs sending. The value can be \"RFC2833\" (0) only."
+msgstr "འདི་གིས་ཌི་ཊི་ཨེམ་ཨེཕ་ཚུ་ གཏང་ནིའི་དོན་ལུ་ ཐབས་ལམ་གཞི་སྒྲིག་འབད་བཅུངཝགཔ་ཨིན། བེ་ལུ་དེ་\"RFC2833\" (༠)རྐྱངམ་གཅིག་འོང་།"
+
+#: ../src/gui/preferences.cpp:1070
+msgid "Audio Plugin"
+msgstr "རྣར་ཉན་ པ་ལག་ཨིན།"
+
+#: ../src/gui/preferences.cpp:1075
+msgid "Audio plugin:"
+msgstr "རྣར་ཉན་ པ་ལག་ཨིན:"
+
+#: ../src/gui/preferences.cpp:1075
+msgid "The audio plugin that will be used to detect the devices and manage them."
+msgstr "ཐབས་འཕྲུལ་ཚུ་ སྐྱོན་འཛིན་འབད་དེ་ འཛིན་སྐྱོང་འཐབ་ནི་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྣར་ཉན་པ་ལག་ཨིན།"
+
+#: ../src/gui/preferences.cpp:1081
+#: ../src/gui/preferences.cpp:2013
+msgid "Audio Devices"
+msgstr "རྣར་ཉན་ ཐབས་འཕྲུལ་ཚུ།"
+
+#: ../src/gui/preferences.cpp:1088
+msgid "Output device:"
+msgstr "ཨའུཊི་པུཊི་ ཐབས་འཕྲུལ་:"
+
+#: ../src/gui/preferences.cpp:1095
+#: ../src/gui/preferences.cpp:1168
+msgid "Input device:"
+msgstr "ཨིན་པུཊི་ཐབས་འཕྲུལ་:"
+
+#. That button will refresh the devices list
+#: ../src/gui/preferences.cpp:1100
+#: ../src/gui/preferences.cpp:1234
+msgid "_Detect devices"
+msgstr "ཐབས་འཕྲུལ་ཚུ་ སྐྱོན་འཛིན་འབད།(_D)"
+
+#: ../src/gui/preferences.cpp:1100
+msgid "Click here to refresh the devices list"
+msgstr "ཐབས་འཕྲུལ་ཐོ་ཡིག་ ཡང་སེལ་འབད་ནི་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/gui/preferences.cpp:1126
+msgid "Normal"
+msgstr "སྤྱིར་བཏང་།"
+
+#: ../src/gui/preferences.cpp:1127
+msgid "Large"
+msgstr "ཆེ་བ།"
+
+#: ../src/gui/preferences.cpp:1133
+msgid "PAL (Europe)"
+msgstr "པི་ཨེ་ཨེལ། (ཡུ་རོབ)"
+
+#: ../src/gui/preferences.cpp:1134
+msgid "NTSC (America)"
+msgstr "ཨེན་ཊི་ཨེསི་སི། (ཨེ་མི་རི་ཀ)"
+
+#: ../src/gui/preferences.cpp:1135
+msgid "SECAM (France)"
+msgstr "སི་ཀམ། (ཕརཱནསི)"
+
+#: ../src/gui/preferences.cpp:1136
+msgid "Auto"
+msgstr "རང་བཞིན།"
+
+#: ../src/gui/preferences.cpp:1152
+msgid "Video Plugin"
+msgstr "ཝི་ཌིའོ་ པ་ལག་ཨིན།"
+
+#: ../src/gui/preferences.cpp:1156
+msgid "Video plugin:"
+msgstr "ཝི་ཌིའོ་ པ་ལག་ཨིན:"
+
+#: ../src/gui/preferences.cpp:1162
+#: ../src/gui/preferences.cpp:2017
+msgid "Video Devices"
+msgstr "ཝི་ཌིའོ་ ཐབས་འཕྲུལ་ཚུ།"
+
+#. Video Channel
+#: ../src/gui/preferences.cpp:1172
+msgid "Channel:"
+msgstr "རྒྱུ་ལམ་:"
+
+#: ../src/gui/preferences.cpp:1175
+msgid "Size:"
+msgstr "ཚད་:"
+
+#: ../src/gui/preferences.cpp:1175
+msgid "Select the transmitted video size: Normal (QCIF 176x144) or Large (CIF 352x288)"
+msgstr "སྤེལ་བཀྲམ་འབད་མི་ ཝི་ཌིའོ་གི་ཚད་ སེལ་འཐུ་འབད་: སྤྱིར་བཏང་(ཀིའུ་སི་ཨའི་ཨེཕ་ ༡༧༦x༡༤༤) ཡང་ན་ ཆེ་བ་(སི་ཨའི་ཨེཕ་ ༣༥༢x༢༨༨)"
+
+#: ../src/gui/preferences.cpp:1178
+msgid "Format:"
+msgstr "རྩ་སྒྲིག་:"
+
+#. The file selector button
+#: ../src/gui/preferences.cpp:1181
+msgid "Image:"
+msgstr "གཟུགས་བརྙན་:"
+
+#: ../src/gui/preferences.cpp:1184
+msgid "Choose a Picture"
+msgstr "པར་ཅིག་གདམ་ཁ་རྐྱབས།"
+
+#: ../src/gui/preferences.cpp:1188
+msgid "Preview"
+msgstr "སྔོན་ལྟ།"
+
+#: ../src/gui/preferences.cpp:1198
+msgid "Images"
+msgstr "གཟུགས་བརྙན་ཚུ་:"
+
+#: ../src/gui/preferences.cpp:1234
+msgid "Click here to refresh the devices list."
+msgstr "ཐབས་འཕྲུལ་ཚུ་གི་ཐོ་ཡིག་ ཡང་སེལ་འབད་ནི་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/gui/preferences.cpp:1257
+msgid "Available Audio Codecs"
+msgstr "འཐོབ་ཚུགས་པའི་ རྣར་ཉན་ ཀོ་ཌེཀསི་ཚུ།"
+
+#: ../src/gui/preferences.cpp:1272
+msgid "Audio Codecs Settings"
+msgstr "རྣར་ཉན་ ཀོ་ཌེཀསི་གི་ གཞི་སྒྲིག་ཚུ།"
+
+#. Translators: the full sentence is Automatically adjust jitter buffer
+#. between X and Y ms
+#: ../src/gui/preferences.cpp:1276
+msgid "Automatically adjust _jitter buffer between"
+msgstr "ཇི་ཊར་གནད་ཁོངས་ཀྱི་བར་ན་ལུ་ རང་བཞིན་གྱིས་ བདེ་སྒྲིག་འབདཝ་ཨིན།(_j)"
+
+#: ../src/gui/preferences.cpp:1276
+msgid "and"
+msgstr "དང་།"
+
+#: ../src/gui/preferences.cpp:1276
+msgid "ms"
+msgstr "ཨེམ་ཨེསི།"
+
+#: ../src/gui/preferences.cpp:1276
+msgid "The minimum jitter buffer size for audio reception (in ms)."
+msgstr "རྣར་ཉན་སྒྲ་འབྱོར་གྱི་དོན་ལུ་ ཇི་ཊར་གནད་ཁོངས་ཀྱི་ ཉུང་མཐའི་ཚད། (ཨེམ་ཨེསི་ནང་)"
+
+#: ../src/gui/preferences.cpp:1276
+msgid "The maximum jitter buffer size for audio reception (in ms)."
+msgstr "རྣར་ཉན་སྒྲ་འབྱོར་གྱི་དོན་ལུ་ ཇི་ཊར་གནད་ཁོངས་ཀྱི་ མང་མཐའི་ཚད། (ཨེམ་ཨེསི་ནང་) "
+
+#: ../src/gui/preferences.cpp:1278
+msgid "Enable silence _detection"
+msgstr "ཁུ་སིམ་སིམ་གྱི་སྐྱོན་འཛིན་ ལྕོགས་ཅན་བཟོ།(_d)"
+
+#: ../src/gui/preferences.cpp:1278
+msgid "If enabled, use silence detection with the codecs supporting it."
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཀོ་ཌེཀསི་དང་གཅིག་ཁར་ ཁུ་སིམ་སིམ་གྱི་སྐྱོན་འཛིན་ ལག་ལེན་འཐབ།"
+
+#: ../src/gui/preferences.cpp:1280
+msgid "Enable echo can_celation"
+msgstr "བྲག་ཅ་ཆ་མེད་ལྕོགས་ཅན་བཟོ་:(_c)"
+
+#: ../src/gui/preferences.cpp:1280
+msgid "If enabled, use echo cancelation."
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ བྲག་ཅ་ཆ་མེད་ལག་ལེན་འཐབ་ཨིན།"
+
+#: ../src/gui/preferences.cpp:1293
+#: ../src/gui/preferences.cpp:1966
+msgid "General Settings"
+msgstr "ཡོངས་ཁྱབ་གཞི་སྒྲིག་ཚུ།"
+
+#: ../src/gui/preferences.cpp:1295
+msgid "Enable _video support"
+msgstr "ཝི་ཌིའོ་རྒྱབ་སྐྱོར་ལྕོགས་ཅན་བཟོ།(_v)"
+
+#: ../src/gui/preferences.cpp:1295
+msgid "If enabled, allows video during calls."
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ འབོད་བརྡ་གཏང་བའི་རིང་ལུ་ ཝི་ཌིའོ་འཐོན་བཅུགཔ་ཨིན།"
+
+#: ../src/gui/preferences.cpp:1299
+msgid "Bandwidth Control"
+msgstr "བེནཌི་ཝིཐ་ ཚད་འཛིན།"
+
+#: ../src/gui/preferences.cpp:1301
+msgid "Maximum video _bandwidth (in kB/s):"
+msgstr "ཝི་ཌིའོ་གི་ བེནཌི་གི་མང་མཐའ།(ཀེ་བི་ནང་)(_b)"
+
+#: ../src/gui/preferences.cpp:1301
+msgid "The maximum video bandwidth in kbytes/s. The video quality and the number of transmitted frames per second will be dynamically adjusted above their minimum during calls to try to minimize the bandwidth to the given value."
+msgstr "ཝི་ཌིའོ་གི་ ་བེནཌི་མང་མཐའ་ ཀེ་བའིཊིསི་ནང་། གྲ་བསྒྲིགས་བེ་ལུ་དེ་ལུ་ བེནཌི་ཝིཐ་ མར་ཕབ་བརྐྱབ་ཐབས་ལུ་ ཝི་ཌིའོ་གི་སྤུས་ཚད་དང་ སྐར་ཆ་རེ་ནང་ སྤེལ་བཀྲམ་འབད་མི་ གཞི་ཁྲམ་གྱི་གྲངས་་ཚུ་ ནུས་ཅན་གྱི་ཐོག་ལས་ རང་སོའི་ཉུང་མཐའི་འབོད་བརྡ་ཚུ་གི་སྐབས་ལུ་ རང་བཞིན་གྱིས་ བདེ་སྒྲིག་འབད་འོང་།"
+
+#: ../src/gui/preferences.cpp:1306
+msgid "Advanced Quality Settings"
+msgstr "མཐོ་རིམ་ཅན་གྱི་ སྤུས་ཚད་གཞི་སྒྲིག་ཚུ།"
+
+#. Translators: the full sentence is Keep a minimum video quality of X %
+#: ../src/gui/preferences.cpp:1309
+msgid "Frame Rate"
+msgstr "གཞི་ཁྲམ་གྱི་གོང་ཚད།"
+
+#: ../src/gui/preferences.cpp:1309
+msgid "Picture Quality"
+msgstr "པར་གྱི་སྤུས་ཚད།"
+
+#: ../src/gui/preferences.cpp:1309
+msgid "Choose if you want to favour speed or quality for the transmitted video."
+msgstr "སྤེལ་བཀྲམ་འབད་མི་ ཝི་ཌིའོ་གི་དོན་ལུ་ མགྱོགས་ཚད་དང་ སྤུས་ཚད་གཉིས་ལས་ ག་དེ་དགོ་ནི་ཨིན་ན་ གདམ་ཁ་རྐྱབས།"
+
+#: ../src/gui/preferences.cpp:1907
+msgid "Play sound for new voice mails"
+msgstr "སྐད་འཕྲིན་གསར་པའི་དོན་ལུ་སྒྲ་སྐད་གཏང་།"
+
+#: ../src/gui/preferences.cpp:1916
+msgid "Play sound for new instant messages"
+msgstr "འཕྲལ་མྱུར་འཕྲིན་དོན་གསརཔ་ཚུ་གི་དོན་ལུ་སྒྲ་སྐད་གཏང་།"
+
+#: ../src/gui/preferences.cpp:1945
+msgid "Ekiga Preferences"
+msgstr "ཨེ་ཀི་ག་དགའ་གདམ་ཚུ།"
+
+#: ../src/gui/preferences.cpp:1960
+msgid "General"
+msgstr "ཡོངས་ཁྱབ།"
+
+#: ../src/gui/preferences.cpp:1961
+msgid "Personal Data"
+msgstr "རང་དོན་གནད་སྡུད།"
+
+#: ../src/gui/preferences.cpp:1972
+msgid "Directory Settings"
+msgstr "སྣོད་ཐོའི་གཞི་སྒྲིག་ཚུ།"
+
+#: ../src/gui/preferences.cpp:1982
+msgid "Sound Events"
+msgstr "སྒྲ་སྐད་བྱུང་ལས།"
+
+#: ../src/gui/preferences.cpp:1986
+msgid "Protocols"
+msgstr "གནད་སྤེལ་ལམ་ལུགས་ཚུ།"
+
+#: ../src/gui/preferences.cpp:1988
+msgid "Network Settings"
+msgstr "ཡོངས་འཕྲེལ་སྒྲིག་སྟངས་་ཚུ།"
+
+#: ../src/gui/preferences.cpp:1993
+msgid "SIP Settings"
+msgstr "ཨེསི་པི་ཨའི་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../src/gui/preferences.cpp:1998
+msgid "H.323 Settings"
+msgstr "H.323 གཞི་སྒྲིག་ཚུ།"
+
+#: ../src/gui/preferences.cpp:2002
+msgid "Codecs"
+msgstr "ཀོ་ཌེཀསི།"
+
+#: ../src/gui/preferences.cpp:2004
+msgid "Audio Codecs"
+msgstr "རྣར་ཉན་ཀོ་ཌེཀསི།"
+
+#: ../src/gui/preferences.cpp:2008
+msgid "Video Codecs"
+msgstr "ཝི་ཌིའོ་ ཀོ་ཌེཀསི།"
+
+#: ../src/gui/preferences.cpp:2012
+msgid "Devices"
+msgstr "ཐབས་འཕྲུལ་ཚུ།"
+
+#: ../src/gui/tools.cpp:174
+msgid "Invalid parameters"
+msgstr "ནུས་མེད་ལོག་མཚམས།"
+
+#: ../src/gui/tools.cpp:174
+msgid "Please provide your username and password in order to be able to use the PC-To-Phone service."
+msgstr "གློག་རིག་-ལས་- བརྒྱུད་འཕྲིན་ཞབས་ཏོག་ལུ་ ལག་ལེན་འཐབ་ཚུགས་ནིའི་དོན་ལུ་ ཁྱོད་རའི་ལག་ལེན་པའི་མིང་དང་ ཆོག་ཡིག་བྱིན་གནང་།"
+
+#: ../src/gui/tools.cpp:312
+#: ../src/gui/tools.cpp:331
+msgid "PC-To-Phone Settings"
+msgstr "གློག་རིག་ལས་བརྒྱུད་འཕྲིན་ལུ་གཞི་སྒྲིག"
+
+#. Introduction label
+#: ../src/gui/tools.cpp:322
+msgid ""
+"You can make calls to regular phones and cell numbers worldwide using Ekiga. To enable this, you need to do three things. First create an account at the URL below. Then enter your account number and password. Finally, activate the registration below.\n"
+"\n"
+"The service will work only if your account is created using the URL in this dialog."
+msgstr ""
+"ཁྱོད་ཀྱིསཨེ་ཀི་ག་ལག་ལེན་འཐབ་ཐོག་ལས་ དུས་རྒྱུན་གྱི་བརྒྱུད་འཕྲིན་དང་ འགྲུལ་འཕྲིན་ཨང་གྲངས་ཚུ་ལུ་ འབོད་བརྡ་གཏང་ཚུགས། འདི་འབད་ཚུགས་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱིས་འབད་དགོཔ་གསུམ་ཡོད། དང་པ་ར་ འོག་གི་ཡུ་ཨར་ཨེལ་ནང་ རྩིས་ཐོ་ཅིག་གསར་བསྐྲུན་འབད། དེ་ལས་ཁྱོད་རའི་ རྩིས་ཐོ་ཨང་དང་ ཆོག་ཡིག་བཙུགས། མཐའ་མཇུག་ལུ་ འོགི་ཐོ་འགོད་ལྕོགས་ཅན་བཟོ།\n"
+"\n"
+"ཁྱོད་རའི་རྩིས་ཐོ་དེ་ ཌའི་ལོག་འདི་ནང་ ཡུ་ཨར་ཨེལ་ ལག་ལེན་འཐབ་སྟེ་ གསར་བསྐྲུན་འབད་འབདཝ་ཨིན་པ་ཅིན་རྐྱངམ་གཅིག་ ཞབས་ཏོག་དེ་གིས་ ལཱ་འབད་འོང་།"
+
+#: ../src/gui/tools.cpp:333
+msgid "Account _number:"
+msgstr "རྩིས་ཐོ་ཨང་:(_n)"
+
+#: ../src/gui/tools.cpp:350
+msgid "_Password:"
+msgstr "ཆོག་ཡིག་:(_P)"
+
+#: ../src/gui/tools.cpp:369
+msgid "Use PC-To-Phone service"
+msgstr "གློག་རིག་ལས་བརྒྱུད་འཕྲིན་ཞབས་ཏོག་ལུ་ ལག་ལེན་འཐབ།"
+
+#: ../src/gui/tools.cpp:381
+msgid "Click on one of the following links to get more information about your existing Ekiga PC-To-Phone account, or to create a new account."
+msgstr "ཁྱོད་རའི་ད་ལྟོ་ཡོད་མི་ ཨེ་ཀི་ག་གི་ གློག་རིག་-ལས་-བརྒྱུད་འཕྲིན་རྩིས་ཐོའི་སྐོར་ལས་  བརྡ་དོན་ཧེང་བཀལ་ འཐོབ་ནི་དང་ ཡང་ན་ རྩིས་ཐོ་གསརཔ་བཟོ་ནིའི་དོན་ལུ་ འོག་གི་འབྲེལ་ལམ་ཚུ་ལས་གཅིག་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../src/gui/tools.cpp:389
+msgid "Get an Ekiga PC-To-Phone account"
+msgstr "ཨེ་ཀི་ག་གི་ གློག་རིག་-ལས་-བརྒྱུད་འཕྲིན་གྱི་ རྩིས་ཐོ་ཅིག་ལེན།"
+
+#: ../src/gui/tools.cpp:403
+msgid "Recharge the account"
+msgstr "རྩིས་ཐོ་བསྐྱར་གསོ་འབད།"
+
+#: ../src/gui/tools.cpp:417
+msgid "Consult the balance history"
+msgstr "ལྷག་ལུས་ལོ་རྒྱུས་ལུ་ གྲོས་བསྟུན་འབད།"
+
+#: ../src/gui/tools.cpp:431
+msgid "Consult the calls history"
+msgstr "འབོད་བརྡའི་་ལོ་རྒྱུས་ལུ་ གྲོས་བསྟུན་འབད།"
+
+#~ msgid "Credits"
+#~ msgstr ""
+#~ "ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་"
+#~ "གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>"
+#~ msgid "Written by"
+#~ msgstr "བྲིས་མི།"
+#~ msgid "Documented by"
+#~ msgstr "ཡིག་ཐོག་ལུ་བཀོད་མི།"
+#~ msgid "Translated by"
+#~ msgstr "སྐད་བསྒྱུར་འབད་མི།"
+#~ msgid "C_redits"
+#~ msgstr ""
+#~ "\"ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་"
+#~ "གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>"
+#~ msgid "Authors"
+#~ msgstr "རྩོམ་པ་པོ་ཚུ།"
+#~ msgid "List of authors of the programs"
+#~ msgstr "ལས་རིམ་ཚུ་གི་རྩོམ་པ་པོ་ཚུ་གི་ཐོ་ཡིག"
+#~ msgid "Documenter entry"
+#~ msgstr "ཡིག་ཐོག་ལུ་བཀོད་མིའི་ཐོ་བཀོད།"
+#~ msgid "A single documenter entry"
+#~ msgstr "ཡིག་ཐོག་ལུ་བཀོད་མི་ རྐྱང་པོའི་ཐོ་བཀོད།"
+#~ msgid "About %s"
+#~ msgstr "སྐོར་ལས་%s།"
+#~ msgid ""
+#~ "Please provide your first name and e-mail in the Personal Data section in "
+#~ "order to be able to register to the users directory."
+#~ msgstr ""
+#~ "ལག་ལེན་པའི་སྣོད་ཐོའི་ནང་ ཐོ་འགོད་འབད་ཚུགས་ནིའི་དོན་ལུ་ རང་དོན་གནད་སྡུད་དབྱེ་ཚན་ནང་ ཁྱོད་རའི་མགོ་"
+#~ "མིང་དང་ གློག་འཕྲིན་ཁ་བྱང་བྱིན་གནང་།"
+#~ msgid "Invalid users directory"
+#~ msgstr "ནུས་མེད་ལག་ལེན་པའི་སྣོད་ཐོ།"
+#~ msgid "Operation impossible since there is no users directory specified."
+#~ msgstr "ལག་ལེན་པའི་སྣོད་ཐོ་ གསལ་བཀོད་མ་འབདཝ་ལས་ བཀོལ་སྤྱོད་འབད་མི་ཚུགས།"
+#~ msgid "Failed to parse XML file"
+#~ msgstr "ཨེགསི་ཨེམ་ཡིག་སྣོད་ མིང་དཔྱད་འབད་མ་ཚུགས།"
+#~ msgid ""
+#~ "There was an error while parsing the XML file. Please make sure that it "
+#~ "is correctly installed in your system."
+#~ msgstr ""
+#~ "ཨེགསི་ཨེམ་ཡིག་སྣོད་ མིང་དཔྱད་འབད་བའི་སྐབས་ འཛོལ་བ་ཅིག་བྱུང་ནུག དེ་ཁྱོད་རའི་རིམ་ལུགས་ནང་ ཚུལ་ལྡན་"
+#~ "སྦེ་ གཞི་བཙུགས་འབད་ཡོདཔ་ ངེས་ཏིག་བཟོ།"
+#~ msgid "Bad information"
+#~ msgstr "བརྡ་དོན་བྱང་ཉེས།"
+#~ msgid "Bad LDAP information from XML file: %s."
+#~ msgstr "ཨེགསི་ཨེམ་ཨེལ་ཡིག་སྣོད་: %sནང་ལས་ ཨེལ་ཌི་ཨེ་པི་ བརྡ་དོན་བྱང་ཉེས།"
+#~ msgid "ILS registration failed: unable to connect to %s"
+#~ msgstr "ཨའི་ཨེལ་ཨེསི་ ཐོ་འགོད་འབད་མ་ཚུགས་: %s ལུ་མཐུད་མ་ཚུགས།"
+#~ msgid "ILS registration failed: unable to set time limit on operations"
+#~ msgstr "ཨའི་ཨེལ་ཨེསི་ ཐོ་འགོད་འབད་མ་ཚུགས་: བཀོལ་སྤྱོད་ལུ་ དུས་ཚོད་གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+#~ msgid "ILS registration failed: failed to bind to %s"
+#~ msgstr "ཨའི་ཨེལ་ཨེསི་ ཐོ་འགོད་འབད་མ་ཚུགས་: %sལུ་ བསྡམས་མ་ཚུགས།"
+#~ msgid "Updated information on %s"
+#~ msgstr "%sགི་སྐོར་ལས་ དུས་མཐུན་བཟོས་པའི་བརྡ་དོན།"
+#~ msgid "GnomeMeeting"
+#~ msgstr "ཇི་ནོམ་མི་ཊིང།"
+#~ msgid "Videoconferencing"
+#~ msgstr "གློག་ཐོག་ཞལ་འཛོམས།"
+#~ msgid "Automatically clear the text chat at the end of calls"
+#~ msgstr "བོད་བརྡ་ཚུ་ ་མཇུག་བསྡུཝ་ད་ ཁ་སླབ་ཚིག་ཡིག་ཚུ་ རང་བཞིན་གྱིས་བསལ།"
+#~ msgid ""
+#~ "Change the control panel section (4 means that the control panel is off)"
+#~ msgstr "ཚད་འཛིན་པེ་ནཱལ་གྱི་དབྱེ་ཚན་ བསྒྱུར་བཅོས་འབད། (༤ གི་དོན་དག་ ཚད་འཛིན་པེ་ནཱལ་དེ་ཨོཕ་ཨིན་)"
+#~ msgid ""
+#~ "Choose the number of blocks (that have not changed) transmitted with each "
+#~ "frame. These blocks fill in the background"
+#~ msgstr ""
+#~ "གཞི་ཁྲམ་རེ་རེ་དང་གཅིག་ཁར་ སྤེལ་བཀྲམ་འབད་མི་ སྡེབ་ཚན་ཚུ་ གདམ་ཁ་རྐྱབས། (བསྒྱུར་བཅོས་མ་འགྱོ་མི་ཚུ) "
+#~ "སྡེབ་ཚན་འདི་ཚུ་གིས་ རྒྱབ་གཞི་བཀངམ་ཨིན་།"
+#~ msgid "E-mail address"
+#~ msgstr "གློག་འཕྲིན་ཁ་བྱང་།"
+#~ msgid "Enable H.245 tunnelling"
+#~ msgstr "H.245 ཊ་ན་ལིང་ ལྕོགས་ཅན་བཟོ།"
+#~ msgid "Enable IP translation"
+#~ msgstr "ཨའི་པི་སྐད་བསྒྱུར་ ལྕོགས་ཅན་བཟོ།"
+#~ msgid "Enable video reception"
+#~ msgstr "ཝི་ཌིའོ་སྒྲ་འབྱོར་ ལྕོགས་ཅན་བཟོ།"
+#~ msgid "Enable video transmission"
+#~ msgstr "ཝི་ཌིའོ་སྤེལ་བཀྲམ་ ལྕོགས་ཅན་བཟོ།"
+#~ msgid "Enter a comment about yourself for the user directory"
+#~ msgstr "ལག་ལེན་པའི་སྣོད་ཐོའི་དོན་ལུ་ ཁྱོད་རའི་སྐོར་ལས་ བསམ་བཀོད་ཅིག་བཙུགས།"
+#~ msgid ""
+#~ "Enter the public IP of your NAT/PAT router if you want to use IP "
+#~ "translation. If you are registered to ils.seconix.com, GnomeMeeting will "
+#~ "automatically fetch the public IP using the ILS service"
+#~ msgstr ""
+#~ "ཁྱོད་ཀྱིས་ཨའི་པི་སྐད་བསྒྱུར་ ལག་ལེན་འཐབ་འདོད་ཡོད་པ་ཅིན་ ཁྱོད་རའི་ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ རོ་ཊར་གྱི་ མི་"
+#~ "མང་ཨའི་པི་དེ་བཙུགས། ཁྱོད་རང་ ils.seconix.com ལུ་ཐོ་འགོད་འབད་དེ་ཡོད་པ་ཅིན་ ཇི་ནོམ་མི་ཊིང་"
+#~ "གིས་ རང་བཞིན་གྱིས་ ཨའི་ཨེལ་ཨེསི་ཞབས་ཏོག་ ལག་ལེན་འཐབ་པའི་ཐོག་ལས་ མི་མང་གི་ཨའི་པི་ལེན་འོང་།"
+#~ msgid "Enter your location (country or city) for the user directory"
+#~ msgstr "ལག་ལེན་པའི་སྣོད་ཐོའི་དོན་ལུ་ ཁྱོད་རའི་ཉེ་གནས་བཙུགས། (རྒྱལ་ཁབ་བམ་ཁྲོམ་སྡེ་)"
+#~ msgid "Gatekeeper ID"
+#~ msgstr "སྒོ་སྲུང་པའི་ཨའི་ཌི།"
+#~ msgid "Gatekeeper alias"
+#~ msgstr "སྒོ་སྲུང་པའི་མིང་གཞན།"
+#~ msgid "Gatekeeper alias as primary alias"
+#~ msgstr "སྒོ་སྲུང་པའི་མིང་གཞན་ གཞི་རིམ་གྱི་མིང་གཞན་བཟུམ་སྦེ།"
+#~ msgid "Gatekeeper host"
+#~ msgstr "སྒོ་སྲུང་པའི་ཧོསིཊི།"
+#~ msgid "Gatekeeper password"
+#~ msgstr "སྒོ་སྲུང་པའི་ཆོག་ཡིག"
+#~ msgid "If enabled, register with the selected user directory"
+#~ msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ སེལ་འཐུ་འབད་མི་ ལག་ལེན་པའི་སྣོད་ཐོ་ནང་ ཐོ་འགོད་འབདཝ་ཨིན།"
+#~ msgid ""
+#~ "If enabled, the splash screen will be displayed when GnomeMeeting starts"
+#~ msgstr ""
+#~ "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ ཇི་ནོམ་མི་ཊིང་འགོ་བཙུགསཔ་ད་ སིཔེལེཤ་གསལ་གཞི་དེ་ བཀྲམ་སྟོན་འབད་འོང་།"
+#~ msgid ""
+#~ "If enabled, the text chat will automatically be cleared at the end of "
+#~ "calls"
+#~ msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ འབོད་བརྡ་མཇུག་བསྡུཝ་ད་ ཁ་སླབ་ཚིག་ཡིག་ཚུ་ རང་བཞིན་གྱིས་བསལཝ་ཨིན།"
+#~ msgid "If enabled, video is transmitted during a call"
+#~ msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ འབོད་བརྡའི་སྐབས་ལུ་ ཝི་ཌིའོ་སྤེལ་བཀྲམ་འབདཝ་ཨིན།"
+#~ msgid ""
+#~ "If enabled, your details are shown to people browsing the user directory. "
+#~ "If disabled, you are not visible to users browsing the user directory, "
+#~ "but they can still use the callto URL to call you"
+#~ msgstr ""
+#~ "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ ཁྱོད་རའི་རྒྱས་བཤད་ཚུ་ ལག་ལེན་པའི་སྣོད་ཐོ་ བརྡ་འཚོལ་འབད་མི་ མི་མང་ལུ་སྟོནམ་"
+#~ "ཨིན། ལྕོགས་མིན་བཟོ་བ་ཅིན་ ལག་ལེན་པའི་སྣོད་ཐོ་ བརྡ་འཚོལ་འབད་མི་ཚུ་གིས་ ཁྱོད་མི་མཐོང་། དེ་འབདཝ་"
+#~ "ད་ ཁྱོད་ལུ་འབོད་བརྡ་གཏང་ནིའི་དོན་ལུ་ ཁོང་ཆ་ཁྱབ་ཀྱིས་ གཏང་ཡུལ་ ཡུ་ཨར་ཨེལ་ ལག་ལེན་འཐབ་ཚུགས།"
+#~ msgid "Show my details to other registered users"
+#~ msgstr "ཐོ་འགོད་འབད་མི་ ལག་ལེན་པ་གཞན་ཚུ་ལུ་ ངེད་ཀྱི་རྒྱས་བཤད་སྟོན།"
+#~ msgid "Show splash screen at startup"
+#~ msgstr "འགོ་བཙུགས་སྐབས་ སིཔེ་ལེཤ་ གསལ་གཞི་སྟོན།"
+#~ msgid "Show the chat window in the main window"
+#~ msgstr "ཁ་སླབ་སྒོ་སྒྲིག་དེ་ སྒོ་སྒྲིག་གཙོ་བོའི་ནང་སྟོན།"
+#~ msgid ""
+#~ "The Gatekeeper alias to use when registering (string, or E164 ID if only "
+#~ "0123456789#)"
+#~ msgstr ""
+#~ "ཐོ་འགོད་འབདཝ་ད་ སྒོ་སྲུང་པ་གིས་ མིང་གཞན་ལག་ལེན་འཐབ་དགོཔ། (ཡིག་རྒྱུན་ ཡང་ན་ ཨི་༡༦༤ ཨའི་ཌི་"
+#~ "ཨིན་པ་ཅིན་༠༡༢༣༤༥༦༧༨༩#"
+#~ msgid "The Gatekeeper host to register with"
+#~ msgstr "ཐོ་འགོད་འབད་དགོ་པའི་ སྒོ་སྲུང་པའི་ཧོསིཊི།"
+#~ msgid "The Gatekeeper identifier to register with"
+#~ msgstr "ཐོ་འགོད་འབད་དགོ་པའི་ སྒོ་སྲུང་པའི་ངོས་འཛིན་པ།"
+#~ msgid ""
+#~ "The Gatekeeper password to use for H.235 authentication to the Gatekeeper"
+#~ msgstr "སྒོ་སྲུང་པ་ལུ་ H.235 བདེན་བཤད་ཀྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ སྒོ་སྲུང་པའི་ཆོག་ཡིག"
+#~ msgid ""
+#~ "The range of UDP ports that GnomeMeeting will use for RTP (audio and "
+#~ "video communication channels). You can change the UDP port range if you "
+#~ "are using IP translation and if you need to have several GnomeMeeting "
+#~ "running behind your NAT/PAT router. GnomeMeeting needs to be restarted "
+#~ "for the new values to take effect."
+#~ msgstr ""
+#~ "ཇི་ནོམ་མི་ཊིང་གིས་ ཨར་ཊི་པི་ (རྣར་ཉན་དང་ ཝི་ཌིའོ་གི་བརྒྱུད་འབྲེལ་གྱི་རྒྱུ་ལམ་ཚུ) གི་དོན་ལུ་ ལག་ལེན་"
+#~ "འཐབ་ནིའི་ ཡུ་ཌི་པི་འདྲེན་ལམ་གྱི་ཁྱབ་ཚད། ཁྱོད་ཀྱིས་ཨའི་པི་སྐད་བསྒྱུར་ ལག་ལེན་འཐབ་པའི་བསྒང་ཨིནམ་ད་ "
+#~ "ཡང་ན་ ཁྱོད་རའི་ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ རོ་ཊར་གྱི་རྒྱབ་ལས་ ཇི་ནོམ་མི་ཊིང་ལེ་ཤ་ཅིག་དགོ་པ་ཅིན་ ཁྱོད་ཀྱིས་"
+#~ "ཡུ་ཌི་པི་ འདྲེན་ལམ་གྱི་ཁྱབ་ཚད་དེ་སོར་བཏུབ། བེ་ལུསི་གསརཔ་ཚུ་ལུ་ ནུས་པ་འཐོབ་ནིའི་དོན་ལས་ ཇི་ནོམ་མི་"
+#~ "ཊིང་དེ་ ལོག་འགོ་བཙུགས་དགོ"
+#~ msgid ""
+#~ "The range of UDP ports that GnomeMeeting will use when registering to "
+#~ "gatekeepers. You can change the UDP port range if you are using IP "
+#~ "translation and if you need to have several GnomeMeeting running behind "
+#~ "your NAT/PAT router. GnomeMeeting needs to be restarted for the new "
+#~ "values to take effect. This port range has no effect if you are not "
+#~ "registering to a gatekeeper."
+#~ msgstr ""
+#~ "ཇི་ནོམ་མི་ཊིང་གིས་ སྒོ་སྲུང་པ་ལུ་ ཐོ་འགོད་འབད་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ ཡུ་ཌི་པི་གི་འདྲེན་ལམ་གྱི་"
+#~ "ཁྱབ་ཚད། ཁྱོད་ཀྱིས་ཨའི་པི་སྐད་བསྒྱུར་ ལག་ལེན་འཐབ་པའི་བསྒང་ཨིནམ་ད་ ཡང་ན་ ཁྱོད་རའི་ཨེན་ཨེ་ཊི་/པི་ཨེ་"
+#~ "ཊི་ རོ་ཊར་གྱི་རྒྱབ་ལས་ ཇི་ནོམ་མི་ཊིང་ལེ་ཤ་ཅིག་དགོ་པ་ཅིན་ ཁྱོད་ཀྱིས་ཡུ་ཌི་པི་ འདྲེན་ལམ་གྱི་ཁྱབ་ཚད་དེ་"
+#~ "སོར་བཏུབ། བེ་ལུསི་གསརཔ་ཚུ་ལུ་ ནུས་པ་འཐོབ་ནིའི་དོན་ལས་ ཇི་ནོམ་མི་ཊིང་དེ་ ལོག་འགོ་བཙུགས་དགོ ཁྱོད་"
+#~ "ཀྱིས་སྒོ་སྲུང་པ་ཅིག་ལུ་ ཐོ་འགོད་མ་འབད་བ་ཅིན་ འདྲེན་ལམ་གྱི་ཁྱབ་ཚད་འདི་ལུ་ ནུས་པ་མེད།"
+#~ msgid "The registering method to use"
+#~ msgstr "ལག་ལེན་འཐབ་ནིའི་ ཐོ་འགོད་ཐབས་ཤེས།"
+#~ msgid "The user directory server to register with"
+#~ msgstr "ཐོ་འགོད་འབད་དགོ་པའི་ ལག་ལེན་པའི་སྣོད་ཐོ་སར་བར།"
+#~ msgid ""
+#~ "This enables H.245 Tunnelling mode. In H.245 Tunnelling mode H.245 "
+#~ "messages are encapsulated into the the H.225 channel (port 1720). This "
+#~ "saves one TCP connection during calls. H.245 Tunnelling was introduced in "
+#~ "H.323v2 and Netmeeting does not support it. Using both Fast Start and "
+#~ "H.245 Tunnelling can crash some versions of Netmeeting."
+#~ msgstr ""
+#~ "འདི་གིས་H.245 ཊ་ན་ལིང་ཐབས་ལམ་ ལྕོགས་ཅན་བཟོཝ་ཨིན། H.245 ཊ་ན་ལིང་ཐབས་ལམ་ནང་ "
+#~ "H.245འཕྲིན་དོན་ཚུ་ H.225 རྒྱུ་ལམ་ འདྲེན་ལམ་༡༧༢༠) ནང་ལུ་ མདོར་བསྡུས་ཏེ་ཡོདཔ་ཨིན། འདི་གིས་འབོད་"
+#~ "བརྡ་གཏང་བའི་སྐབས་ལུ་ ཊི་སི་པི་མཐུད་ལམ་གཅིག་ སྲུང་བཞག་འབདཝ་ཨིན། H.245  ཊ་ན་ལིང་དེ་ "
+#~ "H.323v2 ནང་འགོ་བཙུགས་ཏེ་ཡོདཔ་ད་ ནེཊི་མི་ཊིང་གིས་ དེ་ལུ་རྒྱབ་སྐྱོར་མི་འབད། མགྱོགས་པར་འགོ་བཙུགས་"
+#~ "དང་ H.245  ཊ་ན་ལིང་གཉིས་ཆ་ར་ ལག་ལེན་འཐབ་པ་ཅིན་ ནེཊི་མི་ཊིང་གི་ ཐོན་རིམ་ལ་ལོ་ཅིག་ མེདཔ་"
+#~ "འགྱོ་འོང་།"
+#~ msgid ""
+#~ "This enables IP checking from seconix.com and fills the IP in the public "
+#~ "IP of the NAT/PAT gateway field of GnomeMeeting. The returned IP is only "
+#~ "used when IP Translation is enabled. If you disable IP checking, you will "
+#~ "have to manually enter the IP of your gateway in the GnomeMeeting "
+#~ "preferences"
+#~ msgstr ""
+#~ "འདི་གིས་ seconix.com ་ནང་ལས་ ཨའི་པི་གི་ཞིབ་དཔྱད་ ལྕོགས་ཅན་བཟོ་བའི་ཁར་ ཇི་ནོམ་མི་ཊིང་གི་ "
+#~ "ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ འཛུལ་སྒོ་ས་སྒོ་གི་ མི་མང་ཨའི་པི་ནང་ལུ་ ཨའི་པི་བཀངམ་ཨིན། སླར་ལོག་གི་ཨའི་པི་དེ་ "
+#~ "ཨའི་པི་སྐད་བསྒྱུར་ ལྕོགས་ཅན་ཨིན་པའི་སྐབས་ལུ་རྐྱངམ་གཅིག་ ལག་ལེན་འཐབ་ཨིན། ཁྱོད་ཀྱིས་ཨའི་པི་ཞིབ་དཔྱད་ "
+#~ "ལྕོགས་མིན་བཟོ་བ་ཅིན་ ཇི་ནོམ་མི་ཊིང་གི་ དགའ་གདམ་ཚུ་ནང་ ཁྱོད་རའི་འཛུལ་སྒོའི་ཨའི་པི་དེ་ ལག་ཐོག་ལས་"
+#~ "བཙུགས་དགོ"
+#~ msgid ""
+#~ "This enables IP translation. IP translation is useful if GnomeMeeting is "
+#~ "running behind a NAT/PAT router. You have to put the public IP of the "
+#~ "router in the field below. If you are registered to ils.seconix.com, "
+#~ "GnomeMeeting will automatically fetch the public IP using the ILS "
+#~ "service. If your router natively supports H.323, you can disable this"
+#~ msgstr ""
+#~ "འདི་གིས་ཨའི་པི་སྐད་བསྒྱུར་ ལྕོགས་ཅན་བཟོཝ་ཨིན། ཨའི་པི་སྐད་བསྒྱུར་དེ་ ཇི་ནོམ་མི་ཊིང་དེ་ ཨེན་ཨེ་ཊི་/པི་ཨེ་"
+#~ "ཊི་རོ་ཊར་གྱི་རྒྱབ་ཁར་ གཡོག་བཀོལ་བའི་བསྒང་ཡོད་པ་ཅིན་ ཕན་ཐོགས་ཡོད། ཁྱོད་ཀྱིས་འོག་གི་ས་སྒོ་ནང་ རོ་"
+#~ "ཊར་གྱི་ མི་མང་ཨའི་པི་བཙུགས་དགོ  ཁྱོད་རང་ils.seconix.com ལུ་ཐོ་འགོད་འབད་དེ་ཡོད་པ་ཅིན་ ཇི་"
+#~ "ནོམ་མི་ཊིང་གིས་ རང་བཞིན་གྱིས་ ཨའི་ཨེལཨེསི་ཞབས་ཏོག་ ལག་ལེན་འཐབ་པའི་སྒོ་ལས་ མི་མང་གི་ཨའི་པི་ལེནམ་"
+#~ "ཨིན། ཁྱོད་རའི་རོ་ཊར་གྱིས་ H.323 ལུ་རྒྱབ་སྐྱོར་འབད་བ་ཅིན་ ཁྱོད་ཀྱིས་འདི་ལྕོགས་མིན་བཟོ་རུང་བཏུབ།"
+#~ msgid ""
+#~ "This enables STUN Support. STUN is a technic that permits to go through "
+#~ "some types of NAT gateways."
+#~ msgstr ""
+#~ "འདི་གིས་ཨེསི་ཊི་ཡུ་ཨེན་ རྒྱབ་སྐྱོར་ལྕོགས་ཅན་བཟོཝ་ཨིན། ཨེསི་ཊི་ཡུ་ཨེན་དེ་ ཨེན་ཨེ་ཊི་ འཛུལ་སྒོའི་དབྱེ་བ་ ལ་"
+#~ "ལོ་ཅིག་བརྒྱུད་དེ་ འགྱོ་ནིའི་གནང་བ་བྱིན་མི་ ཐབས་རིག་ཅིག་ཨིན།"
+#~ msgid "Transmitted background blocks"
+#~ msgstr "རྒྱབ་གཞིའི་འགག་ཆ་ སྤེལ་བཀྲམ་འབད་ཡོདཔ།"
+#~ msgid "Use the specified gateway to do calls"
+#~ msgstr "འབོད་བརྡ་གཏང་ནིའི་དོན་ལུ་ གསལ་བཀོད་འབད་མི་ འཛུལ་སྒོ་ལག་ལེན་འཐབ།"
+#~ msgid ""
+#~ "Use this option to ensure the above alias is used as the primary alias "
+#~ "when registering with a gatekeeper. This may be required if your "
+#~ "gatekeeper can only perform authentication using the first alias in the "
+#~ "list"
+#~ msgstr ""
+#~ "སྒོ་སྲུང་པ་ལུ་ ཐོ་འགོད་འབད་བའི་སྐབས་ གོང་གི་མིང་གཞན་དེ་ མིང་གཞན་གཙོ་བོ་སྦེ་ ངེས་ཏིག་བཟོ་ནི་ལུ་ "
+#~ "གདམ་ཁ་འདི་ ལག་ལེན་འཐབ། དེ་ཡང་ ཁྱོད་ཀྱི་སྒོ་སྲུང་པ་གིས་ ཐོ་ཡིག་ནང་གི་ མིང་གཞན་དང་པམ་དེ་ ལག་"
+#~ "ལེན་འཐབ་སྟེ་མ་གཏོགས་ བདེན་བཤད་འབད་མ་ཚུགས་པ་ཅིན་དགོཔ་འོང་"
+#~ msgid "Total: %.2f MB"
+#~ msgstr "བསྡོམས་:%.2f་ ཨེམ་བི།"
+#~ msgid "URL"
+#~ msgstr "ཡུ་ཨར་ཨེལ།"
+#~ msgid "Code contributors:"
+#~ msgstr "ཀོཌི་གི་ཕན་འདེབས་པ་:"
+#~ msgid "---- Call begins at %s\n"
+#~ msgstr "---- འབོད་བརྡ་%sལུ་ འགོ་བཙུགསཔ་ཨིན། \n"
+#~ msgid "---- Call ends at %s\n"
+#~ msgstr "---- འབོད་བརྡ་%sལུ་ མཇུག་བསྡུཝ་ཨིན། \n"
+#~ msgid "Copy Link Location"
+#~ msgstr "འབྲེལ་ལམ་གྱི་གནས་ཁོངས་འདྲ་བཤུས་རྐྱབས།"
+#~ msgid "Connect to"
+#~ msgstr "མཐུད་ས།"
+#~ msgid "Add to Address Book"
+#~ msgstr "སྣོད་ཐོ་ལུ་ ཁ་སྐོང་རྐྱབས།"
+#~ msgid "YES"
+#~ msgstr "ཨིན། "
+#~ msgid "Sorry, this script won't work while GnomeMeeting is running"
+#~ msgstr "དགོངས་མ་འཁྲེལ། ཇི་ནོམ་མི་ཊིང་ལཱ་འབད་བའི་སྐབས་ ཡིག་ཚུགས་འདི་གིས་ ལཱ་འབད་མི་བཏུབ།"
+#~ msgid "  WARNING!!!"
+#~ msgstr "ཉེན་བརྡ་!!!"
+#~ msgid ""
+#~ "  This script will delete all user GnomeMeeting configuration,\n"
+#~ "  including preferences that may be important! \n"
+#~ "  The GConf daemon will be shut down, so make sure you have no\n"
+#~ "  applications depending on it running.\n"
+#~ "\n"
+#~ "  Do you really want to do this?\n"
+#~ "\n"
+#~ "  If so, say \"YES\".\n"
+#~ "\n"
+#~ msgstr ""
+#~ "ཡིག་ཚུགས་འདི་གིས་ གལ་ཆེ་བའི་དགའ་གདམ་ཚུ་བརྩིས་པའི་ ཇི་ནོམ་མི་ཊིང་གི་རིམ་སྒྲིག་\n"
+#~ " ལག་ལེན་པ་ཆ་མཉམ་ བཏོན་གཏང་འོང་། \n"
+#~ "ཇི་ཀཱོནཕ་ཌེ་མཱོན་ སྒོ་བསྡམ་ནི་ཨིནམ་ལས་ དེ་ལུ་བརྟེན་ཏེ་ལཱ་འབད་མི་ \n"
+#~ " གློག་རིམ་མེདཔ་ ངེས་ཏིག་བཟོ། \n"
+#~ "ཁྱོད་ཀྱིས་ འདི་ངེས་པར་དུ་འབད་ནི་ཨིན་ན? \n"
+#~ "\n"
+#~ "འབད་འདོད་ཡོད་པ་ཅིན་ \"YES\" ཟེར་སླབ། \n"
+#~ "\n"
+#~ msgid "Removing $HOME/.gconf/apps/gnomemeeting"
+#~ msgstr "རྩ་བསྐྲད་གཏང་དོ་ $ཧོམ་/.ཇི་ཀཱོནཕ་/ཨེ་པི་པི་ཨེསི་/ཇི་ནོམ་མི་ཊིང་།"
+#~ msgid "Shutting down GConf daemon"
+#~ msgstr "ཇི་ཀཱོནཕ་ཌེ་མཱོན་ སྒོ་བསྡམ་དོ།"
+#~ msgid "...Done."
+#~ msgstr "... ཚར།"
+#~ msgid "Leaving configuration alone."
+#~ msgstr "རིམ་སྒྲིག་རྐྱངམ་གཅིག་བཞག་དོ།"
+#~ msgid "Have a nice day."
+#~ msgstr "ཉིནམ་ལེགས་ཤོམ་ཅིག་འབྱུང་བཅུག"
+#~ msgid ""
+#~ "  The GConf daemon will be shut down, so make sure you have no\n"
+#~ "  applications depending on it running.\n"
+#~ "\n"
+#~ "  Do you really want to do this?\n"
+#~ "\n"
+#~ "  If so, say \"YES\".\n"
+#~ "\n"
+#~ msgstr ""
+#~ "ཇི་ཀཱོནཕ་ཌེ་མཱོན་ སྒོ་བསྡམ་ནི་ཨིནམ་ལས་ དེ་ལུ་བརྟེན་ཏེ་ལཱ་འབད་མི་ \n"
+#~ " གློག་རིམ་མེདཔ་ ངེས་ཏིག་བཟོ། \n"
+#~ "ཁྱོད་ཀྱིས་ འདི་ངེས་པར་དུ་འབད་ནི་ཨིན་ན? \n"
+#~ "\n"
+#~ "འབད་འདོད་ཡོད་པ་ཅིན་ \"YES\" ཟེར་སླབ། \n"
+#~ "\n"
+#~ msgid "Removing schemas"
+#~ msgstr "ལས་འཆར་རྩ་བསྐྲད་གཏང་དོ།"
+#~ msgid "Installing schemas"
+#~ msgstr "ལས་འཆར་གཞི་བཙུགས་འབད་དོ།"
+#~ msgid ""
+#~ "CRITICAL ERROR -- Schema installation failed.\n"
+#~ "Most probably you have the GConf daemon running as root.\n"
+#~ "\n"
+#~ "Run \"gnomemeeting-config-tool --install-schemas\" as root.\n"
+#~ msgstr ""
+#~ "ཚབས་ཆེན་གྱི་འཛོལ་བ་--ལས་འཆར་གཞི་བཙུགས་འབད་མ་ཚུགས།\n"
+#~ " ཇི་ཀཱོནཕ་ཌེ་མཱོན་དེ་ རྩ་བ་བཟུམ་ཅིག་སྦེ་ གཡོག་བཀོལ་དོ་ཡོདཔ་འོང་ནི་མས།.\n"
+#~ "\n"
+#~ "\"gnomemeeting-config-tool --install-schemas\"ཚུ་རྩ་བ་བཟུམ་སྦེ་ གཡོག་བཀོལ།\n"
+#~ msgid "Usage:  gnomemeeting-config-tool OPTION"
+#~ msgstr "ལག་ལེན་: ཇི་ནོམ་མི་ཊིང་-རིམ་སྒྲིག་-ལག་ཆས་ གདམ་ཁ།"
+#~ msgid "Fixes problems with the GnomeMeeting settings"
+#~ msgstr "ཇི་ནོམ་མི་ཊིང་གི་ གཞི་སྒྲིག་ཚུ་གི་ཐོག་ལས་ དཀའ་ངལ་སེལཝ་ཨིན།"
+#~ msgid "  --clean                remove all user settings"
+#~ msgstr "--གཙང་དག་བཟོ།     ལག་ལེན་པའི་གཞི་སྒྲིག་ཆ་མཉམ་ རྩ་བསྐྲད་གཏང་།"
+#~ msgid ""
+#~ "  --install-schemas      install schemas with default settings (run as "
+#~ "root)"
+#~ msgstr ""
+#~ "--ལས་འཆར་-གཞི་བཙུགས་འབད།   ལས་འཆར་ཚུ་ སྔོན་སྒྲིག་གཞི་སྒྲིག་དང་གཅིག་ཁར་ གཞི་བཙུགས་འབད། (རྩ་"
+#~ "བ་སྦེ་གཡོག་བཀོལ)"
+#~ msgid ""
+#~ "  --clean-schemas        remove schemas with default settings (run as "
+#~ "root)"
+#~ msgstr ""
+#~ "--ལས་འཆར་-གཙང་དག་བཟོ།   ལས་འཆར་ཚུ་ སྔོན་སྒྲིག་གཞི་སྒྲིག་དང་བཅསཔ་འབད་ རྩ་བསྐྲད་གཏང་། (རྩ་"
+#~ "བ་སྦེ་གཡོག་བཀོལ)"
+#~ msgid ""
+#~ "  --fix-permissions      fix permissions of GConf repository (run as root)"
+#~ msgstr ""
+#~ "--གནང་བ་ཚུ་-ཉམས་བཅོས་འབད།  ཇི་ཀཱོནཕ་མཛོད་གནས་ཀྱི་ གནང་བ་ཚུ་ཉམས་བཅོས་འབད། (རྩ་བ་སྦེ་གཡོག་"
+#~ "བཀོལ) "
+#~ msgid "No gateway or proxy specified"
+#~ msgstr "འཛུལ་སྒོའམ་ པོརོག་སི་ ག་ནི་ཡང་ གསལ་བཀོད་མ་འབད་བས།"
+#~ msgid "You need to specify a host to use as gateway or proxy."
+#~ msgstr "ཁྱོད་ཀྱིས་འཛུལ་སྒོ་འམ་ པོརོག་སི་འབད་ལག་ལེན་འཐབ་ནིའི་ ཧོསིཊི་ཅིག་ གསལ་བཀོད་འབད་དགོ"
+#~ msgid "Forward URL not specified"
+#~ msgstr "གསལ་བཀོད་མ་འབད་མི་ ཡུ་ཨར་ཨེལ་ གདོང་བསྐྱོད་འབད།"
+#~ msgid ""
+#~ "You need to specify an URL where to forward calls in the call forwarding "
+#~ "section of the preferences!\n"
+#~ "\n"
+#~ "Disabling forwarding."
+#~ msgstr ""
+#~ "ཁྱོད་ཀྱིས་འབོད་བརྡ་གདོང་བསྐྱོད་ཀྱི་ དགའ་གདམ་ཚུ་ནང་ འབོད་བརྡ་ཚུ་ ག་ཏེ་གདོང་བསྐྱོད་འབད་ནི་ཨིན་ན་གི་ "
+#~ "ཡུ་ཨར་ཨེལ་ཅིག་ གསལ་བཀོད་འབད་དགོ!\n"
+#~ "\n"
+#~ "གདོང་བསྐྱོད་ལྕོགས་མིན་བཟོ་དོ།"
+#~ msgid "Failure opening %s for transmission, will try with next common codec"
+#~ msgstr ""
+#~ "སྤེལ་བཀྲམ་གྱི་དོན་ལུ་%sཁ་ཕྱེ་མ་ཚུགས། ཤུལ་མའི་མཐུན་མོང་གི་ ཀོ་ཌེཀ་གི་ཐོག་ལས་ འབད་རྩོལ་བསྐྱེད་འོང་།"
+#~ msgid "Failure opening %s for reception, will try with next common codec"
+#~ msgstr ""
+#~ "སྤེལ་བཀྲམ་གྱི་དོན་ལུ་%sཁ་ཕྱེ་མ་ཚུགས། ཤུལ་མའི་མཐུན་མོང་གི་ ཀོ་ཌེཀ་གི་ཐོག་ལས་ འབད་རྩོལ་བསྐྱེད་འོང་།"
+#~ msgid "Call transfer failed"
+#~ msgstr "འབོད་བརྡ་གནས་སོར་ འབད་མ་བཏུབ།"
+#~ msgid ""
+#~ "The remote user tried to transfer your call to another user, but it "
+#~ "failed."
+#~ msgstr ""
+#~ "ཐག་རིང་ལག་ལེན་པ་དེ་གིས་ ཁྱོད་ཀྱི་འབོད་བརྡ་དེ་ ལག་ལེན་པ་གཞན་ཅིག་ལུ་ གནས་སོར་འབད་ཐབས་འབད་"
+#~ "ནུག དེ་འབདཝ་ད་ འབད་མ་ཚུགས་པས།"
+#~ msgid "Callto URL - page %d/%d"
+#~ msgstr "གཏང་ཡུལ་ ཡུ་ཨར་ཨེལ་-ཤོག་ལེབ་%d/%d"
+#~ msgid ""
+#~ "Your e-mail address is used when registering to the GnomeMeeting users "
+#~ "directory. It is used to create a callto address permitting your contacts "
+#~ "to easily call you wherever you are."
+#~ msgstr ""
+#~ "ཁྱོད་ཀྱི་གློག་འཕྲིན་ཁ་བྱང་དེ་ ཇི་ནོམ་ལག་ལེན་པའི་ སྣོད་ཐོ་ལུ་ ཐོ་འགོད་འབདཝ་ད་ ལག་ལེན་འཐབ་ཨིན། དེ་"
+#~ "ཡང་ ཁྱོད་རའི་འབྲེལ་ས་ཚུ་གིས་ ཁྱོད་རང་ག་ཏེ་ཡོད་རུང་ འཇམ་ཏོང་ཏོ་སྦེ་ འབོད་བརྡ་གཏང་ཚུགས་པའི་ གཏང་"
+#~ "ཡུལ་ཁ་བྱང་ཅིག་ བཟོ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ཨིན།"
+#~ msgid ""
+#~ "I don't want to register to the GnomeMeeting users directory and get a "
+#~ "callto address"
+#~ msgstr ""
+#~ "ང་ ཇི་ནོམ་མི་ཊིང་ ལག་ལེན་པའི་སྣོད་ཐོ་ལུ་ ཐོ་འགོད་འབད་ནི་དང་ གཏང་ཡུལ་གྱིཁ་བྱང་ཅིག་ ལེན་དགོ་མནོཝ་"
+#~ "མེད།"
+#~ msgid "Forwarding call from %s to %s (Forward all calls)"
+#~ msgstr "%sལས་%sལུ་ འབོད་བརྡ་གདོང་བསྐྱོད་འབད་བའི་བསྒང་། (འབོད་བརྡ་ཆ་མཉམ་གདོང་བསྐྱོད་འབད)"
+#~ msgid "Rejecting call from %s (Do Not Disturb)"
+#~ msgstr "%sལས་འོང་མི་ འབོད་བརྡ་ལུ་ དང་ལེན་སྤང་བའི་བསྒང་། (མ་དཀྲོགས)"
+#~ msgid "Accepting call from %s (Auto Answer)"
+#~ msgstr "%s ནང་ལས་འབྱོར་མི་ འབོད་བརྡ་ལུ་ དང་ལེན་འབད་བའི་བསྒང་། (རང་བཞིན་ལན་གསལ)"
+#~ msgid "Call rejected"
+#~ msgstr "འབོད་བརྡ་ལུ་ དང་ལེན་སྤངས་ཡོདཔ།"
+#~ msgid "Call automatically answered"
+#~ msgstr "འབོད་བརྡ་ལུ་ རང་བཞིན་གྱིས་ལན་བརྐྱབས་ཡོདཔ།"
+#~ msgid "Error while forwarding call to %s"
+#~ msgstr "འབོད་བརྡ་%sལུ་ གདོང་བསྐྱོད་འབདཝ་ད་འཛོལ་བ།"
+#~ msgid "There was an error when forwarding the call to the given host."
+#~ msgstr "འབོད་བརྡ་དེ་ གྲ་བསྒྲིགས་ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབདཝ་ད་ འཛོལ་བ་ཅིག་བྱུང་ནུག"
+#~ msgid "Connected"
+#~ msgstr "མཐུད་ཡོདཔ།"
+#~ msgid "Remote user did not accept the call"
+#~ msgstr "ཐག་རིང་ལག་ལེན་པ་གིས་ འབོད་བརྡ་ལུ་ དང་ལེན་འབད་མ་བཏུབ།"
+#~ msgid "Local user did not accept the call"
+#~ msgstr "ཉེ་གནས་ཀྱི་ལག་ལེན་པ་གིས་ འབོད་བརྡ་ལུ་ དང་ལེན་འབད་མ་བཏུབ།"
+#~ msgid "Missed %d call"
+#~ msgid_plural "Missed %d calls"
+#~ msgstr[0] "འབོད་བརྡ་%dབྱིག་སོ་ནུག"
+#~ msgstr[1] "འབོད་བརྡ་%dབྱིག་སོ་ནུག"
+#~ msgid "Attaching lid hardware to codec"
+#~ msgstr "ལིཌི་སྲ་ཆས་ ཀོ་ཌེཀ་ལུ་ མཉམ་སྦྲགས་གཏང་དོ།"
+#~ msgid "Forwarding Call to %s (No Answer)"
+#~ msgstr "འབོད་བརྡ་%sལུ་ གདོང་བསྐྱོད་འབད་དོ། (ལན་གསལ་མིན་འདུག)"
+#~ msgid "Unregistered from gatekeeper %s"
+#~ msgstr "སྒོ་སྲུང་པ་%sནང་ལས་ ཐོ་འགོད་མ་འབདཝ།"
+#~ msgid "Invalid gatekeeper hostname"
+#~ msgstr "ནུས་མེད་སྒོ་སྲུང་པའི་ ཧོསིཊི་ནེམ།"
+#~ msgid "Please provide a hostname to use for the gatekeeper."
+#~ msgstr "སྒོ་སྲུང་པའི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཧོསིཊི་ནེམ་ཅིག་བྱིན་གནང་།"
+#~ msgid "Invalid gatekeeper ID"
+#~ msgstr "ནུས་མེད་སྒོ་སྲུང་པའི་ཨའི་ཌི།"
+#~ msgid "Please provide a valid ID for the gatekeeper."
+#~ msgstr "སྒོ་སྲུང་པའི་དོན་ལུ་ ནུས་ཅན་གྱི་ཨའི་ཌི་ཅིག་བྱིན་གནང་།"
+#~ msgid "Gatekeeper set to %s"
+#~ msgstr "སྒོ་སྲུང་པ་%sལུ་ གཞི་སྒྲིག་འབད་ནུག"
+#~ msgid "Trying to stop calling"
+#~ msgstr "འབོད་བརྡ་བཀག་ཐབས་འབད་དོ།"
+#~ msgid "Stopping current call"
+#~ msgstr "ད་ལྟོའི་འབོད་བརྡ་བཀག་དོ།"
+#~ msgid "Opened Quicknet device %s"
+#~ msgstr "ཁ་ཕྱེ་སྟེ་ཡོད་པའི་ ཀུའིཀ་ནེཊི་ཐབས་འཕྲུལ་%s།"
+#~ msgid "Error while opening the Quicknet device."
+#~ msgstr "ཀུའིཀ་ནེཊི་ཐབས་འཕྲུལ་ ཁ་ཕྱེ་བའི་སྐབས་འཛོལ་བ།"
+#~ msgid ""
+#~ "Please check that your driver is correctly installed and that the device "
+#~ "is working correctly."
+#~ msgstr ""
+#~ "ཁྱོད་རའི་འདྲེན་བྱེད་དེ་ ཚུལ་ལྡན་སྦེ་གཞི་བཙུགས་འབད་མ་འབད་ ཞིབ་དཔྱད་འབད་དེ་ ཐབས་འཕྲུལ་དེ་ ཚུལ་ལྡན་"
+#~ "སྦེ་ ལཱ་འབད་བཏུབ་བཟོ།"
+#~ msgid "Closed Quicknet device %s"
+#~ msgstr "ཁ་བསྡམས་ཏེ་ཡོད་པའི་ ཀུའིཀ་ནེཊི་ཐབས་འཕྲུལ་%s།"
+#~ msgid "Phone is off hook"
+#~ msgstr "བརྒྱུད་འཕྲིན་དེ་ གཟེར་གུ་མིན་འདུག"
+#~ msgid "Phone is on hook"
+#~ msgstr "བརྒྱུད་འཕྲིན་་དེ་ གཟེར་གུ་འདུག"
+#~ msgid "Open control panel"
+#~ msgstr "ཚད་འཛིན་པེ་ནཱལ་ཁ་ཕྱེ།"
+#~ msgid "C_onnect"
+#~ msgstr "མཐུད།(_o)"
+#~ msgid "Create a new connection"
+#~ msgstr "མཐུད་ལམ་གསརཔ་ཅིག་བཟོ།"
+#~ msgid "Close the current connection"
+#~ msgstr "ད་ལྟོའི་མཐུད་ལམ་དེ་ཁ་བསྡམས།"
+#~ msgid "Quit GnomeMeeting"
+#~ msgstr "ཇི་ནོམ་མི་ཊིང་སྤངས་།"
+#~ msgid "Text Chat"
+#~ msgstr "ཡིག་ཐོག་ཁ་སླབ།"
+#~ msgid "View/Hide the text chat window"
+#~ msgstr "ཡིག་ཐོག་ཁ་སླབ་ སྒོ་སྒྲིག་དེ་ སྟོན་/སྦ་བཞག"
+#~ msgid "Off"
+#~ msgstr "ཨོཕ།"
+#~ msgid "Hide the control panel"
+#~ msgstr "ཚད་འཛིན་པེ་ནཱལ་སྦ་བཞག"
+#~ msgid "_Clear Text Chat"
+#~ msgstr "ཡིག་ཐོག་ཁ་སླབ་ བསལ།(_C)"
+#~ msgid "Clear the text chat"
+#~ msgstr "ཡིག་ཐོག་ཁ་སླབ་ བསལ།"
+#~ msgid ""
+#~ "Lost packets:\n"
+#~ "Late packets:\n"
+#~ "Round-trip delay:\n"
+#~ "Jitter buffer:"
+#~ msgstr ""
+#~ "བརླག་སྟོར་ཤོར་བའི་འཕྲིན་ཚན: \n"
+#~ "ཕྱིས་པའི་འཕྲིན་ཚན་: \n"
+#~ "འོ་ལོག་ ཕྱིར་འགྱངས་: \n"
+#~ "ཇི་ཊར་གནད་ཁོངས་: "
+#~ msgid "Click to clear"
+#~ msgstr "བསལ་ནིའི་དོན་ལུ ཨེབ་གཏང་འབད།"
+#~ msgid "Generic error"
+#~ msgstr "ཇེ་ནི་རིཀ་གི་འཛོལ་བ།"
+#~ msgid "GnomeMeeting GUI"
+#~ msgstr "ཇི་ནོམ་མི་ཊིང་གི་ ཇི་ཡུ་ཨའི།"
+#~ msgid "_Show splash screen"
+#~ msgstr "སི་པེལེཤ་གསལ་གཞི་སྟོན།(_S)"
+#~ msgid "Forward calls to _host:"
+#~ msgstr "འབོད་བརྡ་ཚུ་ ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད:(_h)"
+#~ msgid ""
+#~ "If enabled, all incoming calls will be forwarded to the host that is "
+#~ "specified in the field above"
+#~ msgstr ""
+#~ "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ནང་འབྱོར་འབོད་བརྡ་ཆ་མཉམ་ གོང་གི་ས་སྒོ་ནང་ གསལ་བཀོད་འབད་མི་ ཧོསིཊི་ལུ་ "
+#~ "གདོང་བསྐྱོད་འབད་འོང་།"
+#~ msgid "seconds"
+#~ msgstr "སྐར་ཆ།"
+#~ msgid "GnomeMeeting Sound Events"
+#~ msgstr "ཇི་ནོམ་མི་ཊིང་གི་ སྒྲ་སྐད་བྱུང་ལས་ཚུ།"
+#~ msgid "Sound to play:"
+#~ msgstr "གཏང་ནིའི་སྒྲ་སྐད་:"
+#~ msgid "Ring Output device:"
+#~ msgstr "བརྡ་སྐད་ཀྱི་ ཨའུཊི་པུཊི་ཐབས་འཕྲུལ་:"
+#~ msgid "All"
+#~ msgstr "ཆ་མཉམ་།"
+#~ msgid "rfc2833"
+#~ msgstr "rfc2833།"
+#~ msgid "Signal"
+#~ msgstr "བརྡ་རྟགས།"
+#~ msgid "H.323 Version 2 Settings"
+#~ msgstr "H.323 ཐོན་རིམ་ ༢ ཀྱི་གཞི་སྒྲིག་ཚུ།"
+#~ msgid "DTMF Sending"
+#~ msgstr "ཌི་ཊི་ཨེམ་ཨེཕ་གཏང་དོ།"
+#~ msgid ""
+#~ "This permits to set the mode for DTMFs sending. The values can be \"All"
+#~ "\", \"None\", \"rfc2833\", \"Signal\" or \"String\" (default is \"All\"). "
+#~ "Choosing other values than \"All\", \"String\" or \"rfc2833\" disables "
+#~ "the Text Chat."
+#~ msgstr ""
+#~ "འདི་གིས་ ཌི་ཊི་ཨེམ་ཨེསི་ གཏང་ནི་ལུ་ ཐབས་ལམ་གཞི་སྒྲིག་འབདཝ་ཨིན། བེ་ལུ་ཚུ་ \"All\", \"None"
+#~ "\", \"rfc2833\", \"Signal\" ཡང་ན་ \"String\" (default is \"All\") ཨིན། "
+#~ "\"All\", \"String\" ཡང་ན་ \"rfc2833\" མིན་པའི་ བེ་ལུ་གཞན་ གདམ་ཁ་རྐྱབ་པ་ཅིན་ ཡིག་"
+#~ "ཐོག་ཁ་སླབ་ ལྕོགས་མིན་བཟོཝ་ཨིན།"
+#~ msgid "Do not register"
+#~ msgstr "ཐོ་འགོད་མ་འབད།"
+#~ msgid "Automatically discover"
+#~ msgstr "རང་བཞིན་གྱིས་ གསར་རྙེད་འབད་ནི།"
+#~ msgid "Gatekeeper _host:"
+#~ msgstr "སྒོ་སྲུང་པའི་ ཧོསིཊི་:(_h)"
+#~ msgid "Gatekeeper _alias:"
+#~ msgstr "སྒོ་སྲུང་པའི་མིང་གཞན་:(_a)"
+#~ msgid "Gatekeeper _password:"
+#~ msgstr "སྒོ་སྲུང་པའི་ ཆོག་ཡིག་:(_p)"
+#~ msgid "Registration timeout of"
+#~ msgstr "ཐོ་འགོད་ངལ་མཚམས།"
+#~ msgid "minutes"
+#~ msgstr "སྐར་མ།"
+#~ msgid "Register this alias as the primary alias with the gatekeeper"
+#~ msgstr "མིང་གཞན་འདི་ སྒོ་སྲུང་པ་དང་གཅིག་ཁར་ མིང་གཙོ་བོ་སྦེ་ ཐོ་འགོད་འབད།"
+#~ msgid ""
+#~ "Use this option to ensure the above alias is used as the primary alias "
+#~ "when registering with a gatekeeper. This may be required if your "
+#~ "gatekeeper can only perform authentication using the first alias in the "
+#~ "list."
+#~ msgstr ""
+#~ "སྒོ་སྲུང་པ་དང་གཅིག་ཁར་ ཐོ་འགོད་འབད་བའི་སྐབས་ གོང་གི་མིང་གཞན་དེ་ ངེས་པར་ལག་ལེན་འཐབ་ནིའི་དོན་"
+#~ "ལུ་ གདམ་ཁ་འདི་ ལག་ལེན་འཐབ། དེ་ཡང་ ཁྱོད་ཀྱི་སྒོ་སྲུང་པ་གིས་ ཐོ་ཡིག་ནང་གི་ མིང་གཞན་དང་པ་དེ་ "
+#~ "ལག་ལེན་འཐབ་སྟེ་མ་གཏོགས་ བདེན་དཔྱད་འབད་མ་ཚུགས་པའི་སྐབས་ལུ་དགོཔ་འོང་།"
+#~ msgid "Registering method:"
+#~ msgstr "ཐོ་འགོད་ཀྱི་ཐབས་ཤེས་:"
+#~ msgid "Click here to update your Gatekeeper settings"
+#~ msgstr "ཁྱོད་རའི་སྒོ་སྲུང་པའི་གཞི་སྒྲིག་ཚུ་ དུས་མཐུན་བཟོ་ནི་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+#~ msgid "Gateway/Proxy"
+#~ msgstr "འཛུལ་སྒོ་/པོརོག་སི།"
+#~ msgid "Gateway / Proxy host:"
+#~ msgstr "འཛུལ་སྒོ་/པོརོག་སི་ ཧོསིཊི་:"
+#~ msgid "Use gateway or proxy"
+#~ msgstr "འཛུལ་སྒོ་ ཡང་ན་ པོརོག་སི་ལག་ལེན་འཐབ།"
+#~ msgid "Enable IP _translation"
+#~ msgstr "ཨིའི་པི་སྐད་བསྒྱུར་ ལྕོགས་ཅན་བཟོ།(_t)"
+#~ msgid ""
+#~ "This enables IP translation. IP translation is useful if GnomeMeeting is "
+#~ "running behind a NAT/PAT router. You have to put the public IP of the "
+#~ "router in the field below. If you are registered to ils.seconix.com, "
+#~ "GnomeMeeting will automatically fetch the public IP using the ILS "
+#~ "service. If your router natively supports H.323, you can disable this."
+#~ msgstr ""
+#~ "འདི་གིས་ཨའི་པི་སྐད་བསྒྱུར་ ལྕོགས་ཅན་བཟོཝ་ཨིན། ཇི་ནོམ་མི་ཊིང་དེ་ ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ རོ་ཊར་ཅིག་གི་"
+#~ "རྒྱབ་ལུ་ གཡོག་བཀོལ་དེ་ཡོད་པ་ཅིན་ ཨའི་པི་སྐད་བསྒྱུ་དེ་ ཕན་ཐོགས་ཡོད། ཁྱོད་ཀྱིས་འོག་གི་སྒོ་ནང་ རོ་ཊར་གྱི་"
+#~ "མི་མང་ཨའི་པི་ བཙུགས་དགོ ཁྱོད་རང་ ils.seconix.comལུ་ ཐོ་འགོད་འབད་དེ་ཡོད་པ་ཅིན་ ཇི་ནོམ་མི་"
+#~ "ཊིང་གིས་ ཨེའི་ཨེལ་ཨེསི་ཞབས་ཏོག་ ལག་ལེན་འཐབ་པའི་ཐོག་ལས་ རང་བཞིན་གྱིས་སྦེ་ མི་མང་ཨའི་པི་ལེན་འོང་"
+#~ "། ཁྱོད་ཀྱི་རོ་ཊར་གྱིས་ H.323 ལུ་རྒྱབ་སྐྱོར་འབད་བ་ཅིན་ འདི་ལྕོགས་མིན་བཟོ་རུང་བཏུབ།"
+#~ msgid "Enable _automatic IP checking"
+#~ msgstr "རང་བཞིན་གྱིས་ ཨའི་པི་ཞིབ་དཔྱད་ ལྕོགས་ཅན་བཟོ།(_a)"
+#~ msgid ""
+#~ "This enables IP checking from seconix.com and fills the IP in the public "
+#~ "IP of the NAT/PAT gateway field of GnomeMeeting. The returned IP is only "
+#~ "used when IP Translation is enabled. If you disable IP checking, you will "
+#~ "have to manually enter the IP of your gateway in the GnomeMeeting "
+#~ "preferences."
+#~ msgstr ""
+#~ "འདི་གིས་seconix.com་ནང་ལས་ ཨའི་པི་ཞིབ་དཔྱད་ ལྕོགས་ཅན་བཟོ་བའི་ཁར་ ཇི་ནོམ་མི་ཊིང་གི་ ཨེན་ཨེ་"
+#~ "ཊི་/པི་ཨེ་ཊི་ འཛུལ་སྒོ་ས་སྒོ་གི་ མི་མང་ཨའི་པི་ནང་ ཨའི་པི་བཀངམ་ཨིན། ལོག་བཏང་མི་ཨའི་པི་དེ་ སྐད་"
+#~ "བསྒྱུར་ལྕོགས་ཅན་ཨིན་པའི་སྐབས་རྐྱངམ་གཅིག་ ལག་ལེན་འཐབ་ཨིན། ཁྱོད་ཀྱིས་ཨའི་པི་ཞིབ་དཔྱད་ ལྕོགས་མིན་བཟོ་"
+#~ "བ་ཅིན་ ཇི་ནོམ་མི་ཊིང་གི་དགའ་གདམ་ཚུ་ནང་ ཁྱོད་རའི་འཛུལ་སྒོའི་ ཨའི་པི་དེ་ ལག་ཐོག་ལས་བཙུགས་དགོ"
+#~ msgid "Public _IP of the NAT/PAT router:"
+#~ msgstr "ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ རོ་ཊར་གྱི་ མི་མང་ཨའི་པི།(_I)"
+#~ msgid ""
+#~ "Enter the public IP of your NAT/PAT router if you want to use IP "
+#~ "translation. If you are registered to ils.seconix.com, GnomeMeeting will "
+#~ "automatically fetch the public IP using the ILS service."
+#~ msgstr ""
+#~ "ཁྱོད་ཀྱིས་ཨའི་པི་སྐད་བསྒྱུར་ ལག་ལེན་འཐབ་དགོ་མནོ་བ་ཅིན་ ཁྱོད་རའི་ ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ རོ་ཊར་གྱི་ མི་"
+#~ "མང་ཨའི་པི་བཙུགས། ཁྱོད་ils.seconix.com་ལུ་ ཐོ་འགོད་འབད་དེ་ཡོད་པ་ཅིན་ ཇི་ནོམ་མི་ཊིང་གིས་ ཨའི་"
+#~ "ཨེལ་ཨེསི་ཞབས་ཏོག་ ལག་ལེན་འཐབ་སྟེ་ མི་མང་ཨའི་པི་དེ་ རང་བཞིན་གྱིས་ལེན་འོང་།"
+#~ msgid "STUN Support"
+#~ msgstr "ཨེསི་ཊི་ཡུ་ཨེན་ རྒྱབ་སྐྱོར།"
+#~ msgid "Low"
+#~ msgstr "དམའ།"
+#~ msgid "Medium"
+#~ msgstr "འབྲིང་།"
+#~ msgid "High"
+#~ msgstr "མཐོ།"
+#~ msgid "AGC"
+#~ msgstr "ཨེ་ཇི་སི།"
+#~ msgid "POTS"
+#~ msgstr "པོ་ཨོ་ཊི་ཨེསི།"
+#~ msgid "Headset"
+#~ msgstr "རྣར་དཔག་སྒྲ་ཆས།"
+#~ msgid "Quicknet Hardware"
+#~ msgstr "ཀུའིཀ་ནེཊི་ སྲ་ཆས།"
+#~ msgid "Output device type:"
+#~ msgstr "ཨའུཊི་པུཊི་ ཐབས་འཕྲུལ་གྱི་དབྱེ་བ:"
+#~ msgid "Country _code:"
+#~ msgstr "རྒྱལ་ཁབ་ཀྱི་ཨང་རྟགས་:(_c)"
+#~ msgid ""
+#~ "The two-letter country code of your country (e.g.: BE, UK, FR, DE, ...)."
+#~ msgstr ""
+#~ "ཁྱོད་རའི་རྒྱལ་ཁབ་ཀྱི་ ཡི་གུ་གཉིས་འབད་མི་ཨང་རྟགས། (དཔེར་ན་: BE, UK, FR, DE, ...ལྟ་བུ)"
+#~ msgid "Small"
+#~ msgstr "ཆུང་ཀུ།"
+#~ msgid "Enable video _transmission"
+#~ msgstr "ཝི་ཌིའོ་སྤེལ་བཀྲམ་ ལྕོགས་ཅན་བཟོ།(_t)"
+#~ msgid "If enabled, video is transmitted during a call."
+#~ msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ འབོད་བརྡ་ཅིག་གི་རིང་ལུ་ ཝི་ཌིའོ་སྤེལ་བཀྲམ་འབདཝ་ཨིན།"
+#~ msgid "Enable video _reception"
+#~ msgstr "ཝི་ཌིའོ་སྒྲ་འབྱོར་ ལྕོགས་ཅན་བཟོ།(_r)"
+#~ msgid "kB/s"
+#~ msgstr "ཀེ་བི་/ཨེསི།"
+#~ msgid "Transmit"
+#~ msgstr "སྤེལ་བཀྲམ་འབད།"
+#~ msgid ""
+#~ "Choose the number of blocks (that have not changed) transmitted with each "
+#~ "frame. These blocks fill in the background."
+#~ msgstr ""
+#~ "གཞི་ཁྲམ་རེ་རེ་བཞིན་དུ་དང་གཅིག་ཁར་ སྤེལ་བཀྲམ་འབད་ནིའི་ སྡེབ་ཚན་་གྱི་གྱངས་ གདམ་ཁ་རྐྱབས། (བསྒྱུར་"
+#~ "བཅོས་མ་འགྱོ་མི་ཚུ) སྡེབ་ཚན་འདི་ཚུ་གིས་ རྒྱབ་གཞི་བཀངམ་ཨིན།"
+#~ msgid "background _blocks with each frame"
+#~ msgstr "གཞི་ཁྲམ་རེ་རེ་དང་སྦྲགས་པའི་ རྒྱབ་གཞིའི་སྡེབ་ཚན།(_b)"
+#~ msgid "GnomeMeeting Preferences"
+#~ msgstr "ཇི་ནོམ་མི་ཊིང་གི་ དགའ་གདམ་ཚུ།"
+#~ msgid "Gatekeeper Settings"
+#~ msgstr "སྒོ་སྲུང་པའི་ གཞི་སྒྲིག་ཚུ།"
+#~ msgid "Gateway / Proxy Settings"
+#~ msgstr "འཛུལ་སྒོ་/པོརོག་སི་ གཞི་སྒྲིག་ཚུ།"
+#~ msgid "The type of NAT was successfully detected"
+#~ msgstr "ཨེf་ཨེ་ཊི་གི་དབྱེ་བ་དེ་ མཐར་འཁྱོལ་སྦེ་ སྐྱོན་འཛིན་བྱུང་ཡི།"
+#~ msgid "Use your MicroTelco account number"
+#~ msgstr "ཁྱོད་རའི་མའི་ཀོརོ་ ཊེལ་ཀོ་ རྩིས་ཐོ་ཨང་ལག་ལེན་འཐབ།"
+#~ msgid "_Pin:"
+#~ msgstr "ངོ་རྟགས་ཨང་:(_P)"
+#~ msgid "Use your MicroTelco PIN"
+#~ msgstr "ཁྱོད་རའི་ མའི་ཀོརོ་ ཊེལ་ཀོ་ ངོ་རྟགས་ཨང་ ལག་ལེན་འཐབ།"
+#~ msgid "GnomeMeeting Tray Icon"
+#~ msgstr "ཇི་ནོམ་མི་ཊིང་གི་ ཤོག་སྣོད་ངོས་དཔར།"
+#~ msgid "_Connect"
+#~ msgstr "མཐུད།(_C)"
+#~ msgid ""
+#~ "The call transfer failed, the user was either unreachable, or simply busy "
+#~ "when he received the call transfer request."
+#~ msgstr ""
+#~ "འབོད་བརྡ་གནས་སོར་ གཏང་མ་ཚུགས། ལག་ལེན་པ་དེ་ཡང་ ལྷོད་སར་མིན་འདུག ཡང་ན་ འབོད་བརྡ་གནས་སོར་"
+#~ "གྱི་ཞུ་བ་ འབྱོར་བའི་སྐབས་ ཁོ་ཁོམ་མེད་ཨིནམ་འོང་ནི་མས།"
+#~ msgid "No contact with speed dial %s# found, will call number %s instead"
+#~ msgstr ""
+#~ "མགྱོགས་ཚད་ཌ་ཡེལ་%s#དང་གཅིག་ཁར་ འབྲེལ་ས་འཚོལ་མ་ཐོབ། དེ་གི་ཚབ་ལུ་ ཨང་%sནང་ འབོད་བརྡ་གཏང་"
+#~ "འོང་།"
+

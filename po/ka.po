@@ -1,0 +1,4631 @@
+# translation of ka.po to Georgian
+# Alexander Didebulidze <didebuli@in.tum.de>, 2005, 2006.
+# Vladimer Sichinava <vsichi@gnome.org>, 2007.
+# Georgian translation for ekiga (ეკიგას ქართული თარგმანი)
+# This file is distributed under the same license as the ekiga package.
+# Vladimer Sichinava  ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: ka\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-02 00:28+0200\n"
+"PO-Revision-Date: 2008-09-02 01:21+0200\n"
+"Last-Translator: Vladimer Sichinava  ვლადიმერ სიჭინავა <vsichi@gnome.org>\n"
+"Language-Team: Georgian <http://mail.gnome.org/mailman/listinfo/gnome-ge-"
+"list>\n"
+"MIME-Version: 1.0\n"
+"Content-Type:  text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../ekiga.desktop.in.in.h:1
+msgid "Ekiga Softphone"
+msgstr "ეკიგა ტელეფონი"
+
+#: ../ekiga.desktop.in.in.h:2
+msgid "IP Telephony, VoIP and Video Conferencing"
+msgstr "IP ტელეკავშირგაბმულობა და ვიდეო კონფერენცია"
+
+#: ../ekiga.desktop.in.in.h:3
+msgid "Talk to people over the Internet"
+msgstr "ხალხთან ლაპარაკი ინტერნეტის საშუალებით"
+
+#: ../ekiga.schemas.in.in.h:1
+msgid "0: 56Kbps, 1: ISDN, 2:DSL, 3: LAN, 4: Custom"
+msgstr "0: 56Kbps, 1: ISDN, 2:DSL, 3: LAN, 4: ინდივიდუალური"
+
+#: ../ekiga.schemas.in.in.h:2
+msgid ""
+"Allow Ekiga to fall back to software scaling the picture-in-picture if "
+"hardware support is not available. If this is set to false, Ekiga will not "
+"try to open the PIP if hardware support is not available."
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:3
+msgid "Allow picture-in-picture software scaling"
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:4
+msgid "Alternative audio output device"
+msgstr "ალტერნატიული აუდიო გასავალის მოწყობილობა"
+
+#: ../ekiga.schemas.in.in.h:5
+msgid "Always forward calls to the given host"
+msgstr "ყოველთვის ზარების მოცემულ მისამართზე გადაგზავნა"
+
+#: ../ekiga.schemas.in.in.h:6
+msgid "Audio input device"
+msgstr "აუდიო შესავალის მოწყობილობა"
+
+#: ../ekiga.schemas.in.in.h:7
+msgid "Audio output device"
+msgstr "აუდიო გასავალის მოწყობილობა"
+
+#: ../ekiga.schemas.in.in.h:8
+msgid "Automatic echo cancellation"
+msgstr "ავტომატური ექოს მოშორება"
+
+#: ../ekiga.schemas.in.in.h:9 ../src/gui/preferences.cpp:439
+msgid ""
+"Automatically reject or forward incoming calls if no answer is given after "
+"the specified amount of time (in seconds)"
+msgstr ""
+"ზარის უარყოფა, პასუხის გაუცემლობის შემთხვევაში გარკვეული დროის შემდგომ "
+"(წამებში)"
+
+#: ../ekiga.schemas.in.in.h:10
+msgid "Calls history"
+msgstr "ზარების ისტორია"
+
+#: ../ekiga.schemas.in.in.h:11
+#, fuzzy
+msgid "Change the main window panel section"
+msgstr "მართვის პანელის სექციის შეცვლა"
+
+#: ../ekiga.schemas.in.in.h:12
+msgid ""
+"Connection will be established in Fast Start mode. Fast Start is a new way "
+"to start calls faster that was introduced in H.323v2. It is not supported by "
+"Netmeeting and using both Fast Start and H.245 Tunneling can crash some "
+"versions of Netmeeting"
+msgstr ""
+"კავშირი დამყარდება \"სწრაფი ჩართვა\" მეთოდით, \"სწრაფი ჩართვა\" პირველად "
+"გამოყენებულ იქნა H.323v2 -ში. იგი არ იმუშავებს Netmeeting -ის ადრეულ "
+"ვესრიებთან."
+
+#: ../ekiga.schemas.in.in.h:13
+#, fuzzy
+msgid "Contact long status"
+msgstr "კონტაქტის შეცდომა"
+
+#: ../ekiga.schemas.in.in.h:14
+msgid "Contact short status"
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:15
+msgid "Country code"
+msgstr "ქვეყნის კოდი"
+
+#: ../ekiga.schemas.in.in.h:16
+msgid "DTMF sending"
+msgstr "DTMF-ის გაგზავნა"
+
+#: ../ekiga.schemas.in.in.h:17
+#, fuzzy
+msgid "Disable video hardware acceleration"
+msgstr "გამორთე ექოს მოშორება"
+
+#: ../ekiga.schemas.in.in.h:18
+msgid "Display a popup window when receiving a call"
+msgstr "რთავს დამხმარე ფანჯარას ზარის მიგებისას"
+
+#: ../ekiga.schemas.in.in.h:19
+msgid "Enable 'Fast Start'"
+msgstr "გააქტიურე 'სწრაფი ჩართვა'"
+
+#: ../ekiga.schemas.in.in.h:20
+msgid "Enable H.245 tunneling"
+msgstr "ჩართე H.245 ტუნელინგი"
+
+#: ../ekiga.schemas.in.in.h:21
+msgid "Enable early H.245"
+msgstr "ჩართე early H.245"
+
+#: ../ekiga.schemas.in.in.h:22
+msgid "Enable echo cancelation"
+msgstr "ჩართე ავტომატური ექოს მოშორება"
+
+#: ../ekiga.schemas.in.in.h:23
+msgid "Enable silence detection"
+msgstr "ჩართე სიჩუმის დეტექტორი"
+
+#: ../ekiga.schemas.in.in.h:24
+msgid "Enable video support"
+msgstr "ჩართე ვიდეო მხარდაჭერა"
+
+#: ../ekiga.schemas.in.in.h:25
+msgid ""
+"Enter the number of seconds after which Ekiga should try refreshing the NAT "
+"binding when STUN is being used"
+msgstr ""
+"შეიყვანეთ წამების რაოდენობა რათა ეკიგამ განაახლოს NAT binding -გი,STUN -"
+"ისგამოყენების შემთხვევაში"
+
+#: ../ekiga.schemas.in.in.h:26 ../src/gui/preferences.cpp:386
+#, fuzzy
+msgid "Enter your full name"
+msgstr "შეიყვანეთ თქვენი გვარი"
+
+#: ../ekiga.schemas.in.in.h:27
+msgid "Forward calls to host"
+msgstr "ზარების ჰოსტისკენ გადაგზავნა"
+
+#: ../ekiga.schemas.in.in.h:28
+msgid "Forward calls to the given host if busy"
+msgstr "თუ დაკავებულია ზარების მოცემულ მისამართზე დაგაგზავნა"
+
+#: ../ekiga.schemas.in.in.h:29
+msgid "Forward calls to the given host if no answer"
+msgstr ""
+"ზარზე პასუხის გაუცემლობის შემთხვევაში ზარის მოცემულ მისამართზე გადაგზავნა"
+
+#: ../ekiga.schemas.in.in.h:30 ../src/gui/preferences.cpp:1009
+msgid "Frame Rate"
+msgstr "კადრი წამში"
+
+#: ../ekiga.schemas.in.in.h:31
+#, fuzzy
+msgid "Full name"
+msgstr "სახელი"
+
+#: ../ekiga.schemas.in.in.h:32 ../src/gui/preferences.cpp:407
+msgid ""
+"If enabled, Ekiga will start hidden provided that the notification area is "
+"present in the GNOME panel"
+msgstr ""
+"მონიშვნის შემთხვევაში, ეკიგა ფარულ რეჯიმში გნომის სისტემურ პანელში გამოჩნდება"
+
+#: ../ekiga.schemas.in.in.h:33
+msgid ""
+"If enabled, a popup window will be displayed when receiving an incoming call"
+msgstr "თუ·მონიშნულია,·დაინახავთ მოლივლივე ფანჯარას შემომავალი ზარის დროს"
+
+#: ../ekiga.schemas.in.in.h:34
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below"
+msgstr ""
+"თუ·მონიშნულია,·შემოვამალი ზარი გადაიგზავნება ქვემოთ მინიშნულ მისამართზე"
+
+#: ../ekiga.schemas.in.in.h:35
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you already are in a call or if you are in "
+"Do Not Disturb mode"
+msgstr ""
+"მონიშვნის შემთხვევაში,თუ დაკავებული ბრძანდებით ან თქვენი სტატუსია 'არ "
+"შემიშალოთ ხელი', მაშინ ყოველი შემომავალი ზარი გადაიგზავნება ქვემოთ მოცემულ "
+"მისამართზე"
+
+#: ../ekiga.schemas.in.in.h:36
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you do not answer the call"
+msgstr ""
+"თუ მონიშნულია, ზარზე პასუხის გაუცემლობის შემთხვევაში ყველა შემომავალი ზარი "
+"ქვემოთ მოცემულ მისამართზე იქნება გადაგზავნილი"
+
+#: ../ekiga.schemas.in.in.h:37
+msgid "If enabled, allows video during calls"
+msgstr "მონიშვნის შემთხვევაში, რთავს ვიდეო ზარების რეჯიმს"
+
+#: ../ekiga.schemas.in.in.h:38 ../src/gui/preferences.cpp:409
+msgid "If enabled, offline contacts will be shown in the roster"
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:39
+msgid "If enabled, use echo cancelation"
+msgstr "მონიშნვნის შემთხვევში, გამოიყენებს ავტომატური ექოს მოშორებას"
+
+#: ../ekiga.schemas.in.in.h:40
+msgid "If enabled, use silence detection with the codecs supporting it"
+msgstr ""
+"მონიშვნის შემთხვევაში, მოიხმარს სიჩუმის დეტექტორს თუ რა თქმა უნდა კოდეს აქვს "
+"ამის მხარდაჭერა"
+
+#: ../ekiga.schemas.in.in.h:41
+msgid "Kind of network selected in the druid"
+msgstr "დრუიდში ამორჩეული ქსელი"
+
+#: ../ekiga.schemas.in.in.h:42
+msgid "LDAP servers"
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:43
+msgid "List of configured LDAP servers"
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:44
+#, fuzzy
+msgid "List of folded groups in the roster"
+msgstr "პროგრამის ავტორების სია:"
+
+#: ../ekiga.schemas.in.in.h:45
+msgid "Listen port"
+msgstr "მსმენელი პორტი"
+
+#: ../ekiga.schemas.in.in.h:46
+msgid "Local video window size"
+msgstr "ლოკალური ვიდეო ფანჯრის ზომა"
+
+#: ../ekiga.schemas.in.in.h:47
+#, fuzzy
+msgid "Maximum RX video bitrate"
+msgstr "ვიდეოს მაქსიმალური გამტარუნარიანობა"
+
+#: ../ekiga.schemas.in.in.h:48
+#, fuzzy
+msgid "Maximum TX video bitrate"
+msgstr "ვიდეოს მაქსიმალური გამტარუნარიანობა"
+
+#: ../ekiga.schemas.in.in.h:49
+msgid "Maximum jitter buffer"
+msgstr "მაქსიმალური jitter-ბუფერი"
+
+#: ../ekiga.schemas.in.in.h:50
+msgid "NAT Binding Timeout"
+msgstr "NAT·Binding -ის დრო"
+
+#: ../ekiga.schemas.in.in.h:51
+msgid "No answer timeout"
+msgstr "არავითარი პასუხი"
+
+#: ../ekiga.schemas.in.in.h:52
+msgid "Outbound Proxy"
+msgstr "გამავალი პროქსი"
+
+#: ../ekiga.schemas.in.in.h:53
+msgid "Output device type"
+msgstr "გასავალი ხელსაწყოს ტიპი"
+
+#: ../ekiga.schemas.in.in.h:54 ../src/gui/preferences.cpp:416
+msgid "Place windows displaying video above other windows during calls"
+msgstr ""
+"ეკიგას მთავარი ფანჯრის სხვა ფანჯრებთან შედარებით წინაპლანზე გამოჩენის "
+"პრიორიტეტი რეკვის დროს"
+
+#: ../ekiga.schemas.in.in.h:55 ../src/gui/preferences.cpp:1394
+msgid "Play busy tone"
+msgstr "დაკავების ტონის დაკვრა"
+
+#: ../ekiga.schemas.in.in.h:56 ../src/gui/preferences.cpp:1385
+msgid "Play ring tone"
+msgstr "გასვლის ტონის დაკვრა"
+
+#: ../ekiga.schemas.in.in.h:57 ../src/gui/preferences.cpp:1376
+msgid "Play sound on incoming calls"
+msgstr "შემომავალი ზარების დროს დაკვრა"
+
+#: ../ekiga.schemas.in.in.h:58
+msgid "Play sound on new message"
+msgstr "დაუკარი ახალი შეტყობინების დროს"
+
+#: ../ekiga.schemas.in.in.h:59
+msgid "Play sound on new voice mail"
+msgstr "ხმის დაკვრა ახალი ხმოვანი მეილის მიღებისას"
+
+#: ../ekiga.schemas.in.in.h:60
+msgid "Position of the local video window"
+msgstr "ლოკალური ვიდეო ფანჯრის პოზიცია"
+
+#: ../ekiga.schemas.in.in.h:61
+msgid "Position on the screen of the PC-To-Phone window"
+msgstr "ეკრანზე PC-To-Phone -ის ფანჯრის მდებარეობა"
+
+#: ../ekiga.schemas.in.in.h:62
+msgid "Position on the screen of the address book window"
+msgstr "მისამართების წიგნაკის ფანჯრის მდებარეობა ეკრანზე"
+
+#: ../ekiga.schemas.in.in.h:63
+#, fuzzy
+msgid "Position on the screen of the audio settings window"
+msgstr "მთავარი ფანჯრის პოზიცია ეკრანზე"
+
+#: ../ekiga.schemas.in.in.h:64
+msgid "Position on the screen of the chat window"
+msgstr "სასაუბრო ფანჯრის პოზიცია ეკრანზე"
+
+#: ../ekiga.schemas.in.in.h:65
+msgid "Position on the screen of the druid window"
+msgstr "დრუიდის ფანჯრის ეკრანზე მდებარეობა"
+
+#: ../ekiga.schemas.in.in.h:66
+msgid "Position on the screen of the log window"
+msgstr "ეკრანზე ჯურნალის ფანჯრის ადგილმდებარეობა"
+
+#: ../ekiga.schemas.in.in.h:67
+msgid "Position on the screen of the main window"
+msgstr "მთავარი ფანჯრის პოზიცია ეკრანზე"
+
+#: ../ekiga.schemas.in.in.h:68
+msgid "Position on the screen of the preferences window"
+msgstr "პარამეტრების ფანჯრის პოზიცია ეკრანზე"
+
+#: ../ekiga.schemas.in.in.h:69
+#, fuzzy
+msgid "Position on the screen of the video settings window"
+msgstr "ეკრანზე ჯურნალის ფანჯრის ადგილმდებარეობა"
+
+#: ../ekiga.schemas.in.in.h:70
+msgid "Registration timeout"
+msgstr "რეგისტრაციის ტაიმაუტი"
+
+#: ../ekiga.schemas.in.in.h:71
+msgid "Remote video window position"
+msgstr "მიღებული ვიდეოს ფანჯრის პოზიცია"
+
+#: ../ekiga.schemas.in.in.h:72
+msgid "Remote video window size"
+msgstr "მიღებული ვიდეოს ფანჯრის ზომა"
+
+#: ../ekiga.schemas.in.in.h:73
+msgid "Revision of the schema file"
+msgstr "სქემური ფაილის რევიზია"
+
+#: ../ekiga.schemas.in.in.h:74
+msgid "Roster view saving group status"
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:75
+msgid "Select an alternative audio output device to use for sound events."
+msgstr "სხვაგვარი აუდიო გამოტანის მოწყობილობის ამორჩევა ხმოვან მოვლენებისთვის."
+
+#: ../ekiga.schemas.in.in.h:76 ../src/gui/preferences.cpp:718
+msgid "Select the audio input device to use"
+msgstr "ამოირჩიეთ·გამოსაყენებელი·აუდიო·შეტანის·მოწყობილობა"
+
+#: ../ekiga.schemas.in.in.h:77 ../src/gui/preferences.cpp:711
+msgid "Select the audio output device to use"
+msgstr "ამოირჩიეთ გამოსაყენებელი აუდიო გამოტანის მოწყობილობა"
+
+#: ../ekiga.schemas.in.in.h:78 ../src/gui/preferences.cpp:874
+msgid ""
+"Select the format for video cameras (does not apply to most USB cameras)"
+msgstr ""
+"ამოირჩიეთ ვიდეო კამერების ფორმატი (არ იმუშავებს მეტ წილ USB კამერებთან)"
+
+#: ../ekiga.schemas.in.in.h:79
+msgid ""
+"Select the transmitted video size: Small (QCIF 176x144) or Large (CIF "
+"352x288)"
+msgstr "გასაგზავნი ვიდეოს ზომა: პატარა (QCIF 176x144) ან დიდი (CIF 352x288)"
+
+#: ../ekiga.schemas.in.in.h:80 ../src/gui/preferences.cpp:866
+msgid ""
+"Select the video input device to use. If an error occurs when using this "
+"device a test picture will be transmitted."
+msgstr ""
+"ამოირჩიეთ ვიდეო შეტანის მოწყობილობა. შეცდომის შემთხვევაში, ვიდეოს მაგივრად "
+"გაიგზავნება ნახატი."
+
+#: ../ekiga.schemas.in.in.h:81
+msgid "Show offline contacts"
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:82 ../src/gui/main.cpp:1840
+msgid "Show the call panel"
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:83
+msgid "Size of the PC-To-Phone window"
+msgstr "PC-To-Phone ფანჯრის ზომა"
+
+#: ../ekiga.schemas.in.in.h:84
+msgid "Size of the address book window"
+msgstr "მისამართების წიგნაკის ფანჯრის ზომა"
+
+#: ../ekiga.schemas.in.in.h:85
+#, fuzzy
+msgid "Size of the audio settings window"
+msgstr "ლოგ ფანჯრის ზომა"
+
+#: ../ekiga.schemas.in.in.h:86
+msgid "Size of the chat window"
+msgstr "ჩატ ფანჯრის ზომა"
+
+#: ../ekiga.schemas.in.in.h:87
+msgid "Size of the druid window"
+msgstr "დრუიდის ფანჯრის ზომა"
+
+#: ../ekiga.schemas.in.in.h:88
+msgid "Size of the preferences window"
+msgstr "პარამეტრების ფანჯრის ზომა"
+
+#: ../ekiga.schemas.in.in.h:89
+#, fuzzy
+msgid "Size of the video settings window"
+msgstr "ლოგ ფანჯრის ზომა"
+
+#: ../ekiga.schemas.in.in.h:90
+msgid "Specify the software scaling algorithm"
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:91
+msgid ""
+"Specify the software scaling algorithm: 0: nearest neighbor, 1: nearest "
+"neighbor with box filter, 2: bilinear filtering, 3: hyperbolic filtering. "
+"Does not apply on windows systems."
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:92
+msgid "Start hidden"
+msgstr "ჩართე დამალულად"
+
+#: ../ekiga.schemas.in.in.h:93
+msgid "TCP port range"
+msgstr "TCP პორტ ინტერვალი"
+
+#: ../ekiga.schemas.in.in.h:94
+msgid "Temporal Spatial Trade Off"
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:95
+msgid "The Audio Codecs List"
+msgstr "აუდიო კოდეკების სია"
+
+#: ../ekiga.schemas.in.in.h:96
+msgid ""
+"The Automatic Echo Cancellation level: Off, Low, Medium, High, Automatic "
+"Gain Compensation. Choosing Automatic Gain Compensation modulates the volume "
+"for best quality."
+msgstr ""
+"ავტომატური ექოს წაშლის დონე:გათიშული, დაბალი, საშუალო, მაღალი, ავტომატური "
+"გეინი. ვირჩევ ბოლო პარამეტრს უკეთესი ხარისხისთვის."
+
+#: ../ekiga.schemas.in.in.h:97 ../src/gui/preferences.cpp:668
+msgid "The SIP Outbound Proxy to use for outgoing calls"
+msgstr "გამავალი ზარებისთვის SIP Outbound·Proxy -ის გამოყენება"
+
+#: ../ekiga.schemas.in.in.h:98
+msgid "The STUN Server"
+msgstr "STUN სერვერი"
+
+#: ../ekiga.schemas.in.in.h:99
+#, fuzzy
+msgid ""
+"The STUN server to use for STUN Support. STUN is a technology that permits "
+"passage through some types of NAT gateway"
+msgstr ""
+"STUN სერვერის გამოყენება STUN სერვერის მხარდაჭერისთვის. STUN საშუალებას "
+"იძლევა ზოგიერთ NAT კარიბჭეში გასვლას"
+
+#: ../ekiga.schemas.in.in.h:100
+#, fuzzy
+msgid "The Video Codecs List"
+msgstr "აუდიო კოდეკების სია"
+
+#: ../ekiga.schemas.in.in.h:101
+msgid "The accounts list"
+msgstr "ანგარიშების სია"
+
+#: ../ekiga.schemas.in.in.h:102
+#, fuzzy
+msgid "The audio codecs list"
+msgstr "აუდიო კოდეკების სია"
+
+#: ../ekiga.schemas.in.in.h:103
+msgid "The busy tone sound"
+msgstr "დაკავების ხმა"
+
+#: ../ekiga.schemas.in.in.h:104
+msgid ""
+"The chosen sound will be played at the end of calls or calling somebody who "
+"is busy, if enabled"
+msgstr ""
+"თუ მონიშნულია, შემდეგი ხმა გაისმება ზარის დასრულებისას ან როცა მომხმარებელი "
+"რომელსაც ურეკავთ დაკავებულია"
+
+#: ../ekiga.schemas.in.in.h:105
+msgid "The chosen sound will be played on incoming calls, if enabled"
+msgstr "თუ·მონიშნულია,·გაიგებთ·მონიშნულ·ბგერას·შემომავალი·ზარის შემთხვევაში"
+
+#: ../ekiga.schemas.in.in.h:106
+msgid ""
+"The chosen sound will be played when a new instant message is received, if "
+"enabled"
+msgstr ""
+"მონიშვნის შემთხვევაში, გაიგებთ მონიშნულ ბგერას შემომავალი შეტყობინების "
+"შემთხვევაში"
+
+#: ../ekiga.schemas.in.in.h:107
+msgid ""
+"The chosen sound will be played when a new voice mail is received, if enabled"
+msgstr ""
+"თუ მონიშნულია, ამორჩეული ხმა დაიკვრება ახალი ხმოვანი ფოსტის მიღების "
+"შემთხვევაში"
+
+#: ../ekiga.schemas.in.in.h:108
+msgid "The chosen sound will be played when calling somebody, if enabled"
+msgstr "თუ მონიშნულია, გაიგებთ თქვენს მიერ ამორჩეულ ხმას დარეკვის დროს"
+
+#: ../ekiga.schemas.in.in.h:109
+msgid "The default video view"
+msgstr "საწყისი ვიდეო ხედი"
+
+#: ../ekiga.schemas.in.in.h:110
+#, fuzzy
+msgid ""
+"The default video view (0: Local, 1: Remote, 2: Both layered, 3: Both with "
+"local video in a separate window, 4: Both)"
+msgstr ""
+"საწყისი ვიდეო ხედი (0: ლოკალური, 1: დაშორებული, 2: ერთი მეორეზე, 3: ორივე "
+"სხვადასხვა ფანჯარაში, 4: ორივე)"
+
+#: ../ekiga.schemas.in.in.h:111
+msgid "The dial tone sound"
+msgstr "აკრეფვის ტონის ხმა"
+
+#: ../ekiga.schemas.in.in.h:112
+#, fuzzy
+msgid "The history of the 100 last calls"
+msgstr "ბოლო 100 გამავალი ზარის სია"
+
+#: ../ekiga.schemas.in.in.h:113 ../src/gui/preferences.cpp:617
+#: ../src/gui/preferences.cpp:671
+msgid "The host where calls should be forwarded if call forwarding is enabled"
+msgstr "თუ მონიშნულია, მისამართი რომელზეც გადაიგზავნება შემომავალი ზარები"
+
+#: ../ekiga.schemas.in.in.h:114
+msgid ""
+"The image to transmit if \"Picture\" is selected as video plugin or if the "
+"opening of the device fails. Leave blank to use the default Ekiga logo."
+msgstr ""
+"\"სურათი\" რეჟიმის დროს, გამოსახულება რომელიც იქნება გაგზავნილი ვიდეო "
+"ტრანსლაციის დროს, სხვაგვარად ეკიგას ლოგო და წარწერა იქნება გამოსახული."
+
+#: ../ekiga.schemas.in.in.h:115
+msgid "The incoming call sound"
+msgstr "შემომავალი ზარის ხმა"
+
+#: ../ekiga.schemas.in.in.h:116
+msgid "The list of accounts to which Ekiga should register"
+msgstr "ანგარიშთა სია რომლებიც ეკიგამ უნდა დაარეგისტრიროს"
+
+#: ../ekiga.schemas.in.in.h:117
+#, fuzzy
+msgid "The long status information"
+msgstr "დაარედაქტირე საკონტაქტო ინფორმაცია"
+
+#: ../ekiga.schemas.in.in.h:118
+msgid ""
+"The maximum RX video bitrate in kbit/s. This value will be signaled to the "
+"peer endpoint that can adjust (if it supports it) its TX bitrate if it is "
+"above the signaled value"
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:119
+#, fuzzy
+msgid ""
+"The maximum TX video bitrate in kbit/s. The video quality and the number of "
+"transmitted frames per second (depends on selected codec) will be "
+"dynamically adjusted above their minimum during calls to try to minimize the "
+"bandwidth to the given value"
+msgstr ""
+"მაქსიმალური ვიდეო გამტარუნარიანობა კბ/წამებში. ვიდეო გამოსახულების ხარისხი "
+"და გაგზავნილი ფოტოგრამების რიცხვი ავტომატურად გასწორდება"
+
+#: ../ekiga.schemas.in.in.h:120
+msgid "The maximum jitter buffer size for audio reception (in ms)"
+msgstr "მაქსიმალური jitter ბუფერის ზომა აუდიო მიღებისთვის (ბ/წმ)"
+
+#: ../ekiga.schemas.in.in.h:121
+msgid ""
+"The maximum transmitted frame rate in frames/s. This rate may not be reached "
+"in case a minimum quality was configure via a TSTO value smaller than 31 and "
+"the bitrate selected is not sufficient to support this minimum quality"
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:122
+msgid "The new instant message sound"
+msgstr "ახალი შეტყობინების ხმის ბგერა"
+
+#: ../ekiga.schemas.in.in.h:123
+msgid "The new voice mail sound"
+msgstr "ახალი ხმოვანი წერილის ხმის ბგერა"
+
+#: ../ekiga.schemas.in.in.h:124
+msgid ""
+"The output device type is the type of device connected to your Quicknet "
+"card. It can be either a POTS (Plain Old Telephone System) or a headset."
+msgstr "გამოტანის მოწყობილობათ თქვენი დინამიკებიც ჩაითვალოს.."
+
+#: ../ekiga.schemas.in.in.h:125
+msgid ""
+"The port to listen to for incoming connections. Ekiga needs to be restarted "
+"for the new value to take effect"
+msgstr ""
+"შემომავალი კავშირებისთვის გათვალისწინებული პორტი.ცვლილებების დამტკიცებისთვის "
+"საჭიროა ეკიგას გადატვირთვა"
+
+#: ../ekiga.schemas.in.in.h:126
+msgid ""
+"The port to listen to for incoming connections. Ekiga needs to be restarted "
+"for the new value to take effect."
+msgstr ""
+"პორტი შემომავალი კავშირებისთვის. საჭიროა ეკიგას გადათვირთვა ახალი "
+"ცვლილებების დასამტკიცებლად."
+
+#: ../ekiga.schemas.in.in.h:127
+msgid "The position of the local video window"
+msgstr "ლოკალური ვიდეო ფანჯრის მდებარეობა"
+
+#: ../ekiga.schemas.in.in.h:128
+msgid "The position of the remote video window"
+msgstr "დაშორებული ვიდეო ფანჯრის პოზიცია"
+
+#: ../ekiga.schemas.in.in.h:129
+msgid ""
+"The prefix that will be used to save pictures of the conversation. That "
+"prefix is followed by the snapshot number."
+msgstr ""
+"ვიდეო სურათის პრეფიქსი სახელწოდება რომელიც ვიდო ფანჯრის სურათს დაერქმევა, "
+"აგრეთვე დაემატება ნუმერაცია."
+
+#: ../ekiga.schemas.in.in.h:130
+#, fuzzy
+msgid ""
+"The range of TCP ports that Ekiga will use for the H.323 H.245 channel. This "
+"port range has no effect if both participants to the conference are using "
+"H.245 Tunneling."
+msgstr ""
+"TCP პორტ ინტერვალი რომელთაც ეკიგა H.323·H.245 არხებისთვის გამოიყენებს. ახალი "
+"ცვლილებების დასამტკიცებლად ეკიგას გადატვირთვაა საჭირო. ამ პორტ ინტერვალებს "
+"არ აქვთ მნიშვნელობა თუ ორივე მომხმარებელი იყენებს H.245 ტუნელინგს."
+
+#: ../ekiga.schemas.in.in.h:131
+msgid "The range of UDP ports that Ekiga will use."
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:132
+msgid "The save prefix"
+msgstr "პრეფიქსის დამახსოვრება"
+
+#: ../ekiga.schemas.in.in.h:133
+#, fuzzy
+msgid "The short status information"
+msgstr "დაარედაქტირე საკონტაქტო ინფორმაცია"
+
+#: ../ekiga.schemas.in.in.h:134
+msgid "The size of the local video window"
+msgstr "ლოკალური ვიდეოს ფანჯრის ზომა"
+
+#: ../ekiga.schemas.in.in.h:135
+msgid "The size of the remote video window"
+msgstr "დაშორებული ვიდეოს ფანრის ზომა"
+
+#: ../ekiga.schemas.in.in.h:136
+msgid ""
+"The sound that will be played at the end of calls or when calling somebody "
+"who is busy, if enabled"
+msgstr ""
+"თუ ჩართულია, მომხმარებელი რომელიც გირეკავთ, ან თქვენს მიერ განხორციელებულ "
+"ზარის დროს გაიგებთ დაკავების ზუმერს "
+
+#: ../ekiga.schemas.in.in.h:137
+msgid "The sound that will be played on incoming calls, if enabled"
+msgstr "მონიშვნის შემთხვევაში, გაიგებთ ხმას შემომავალი ზარების დროს"
+
+#: ../ekiga.schemas.in.in.h:138
+msgid "The sound that will be played when calling somebody, if enabled"
+msgstr "თუ·მონიშნულია,·გაიგებთ·ხმას უცნობი შემომავალი ზარების დროს"
+
+#: ../ekiga.schemas.in.in.h:139
+msgid ""
+"The sound that will be played when there is a new instant message, if enabled"
+msgstr "თუ·მონიშნულია,·გაიგებთ·ხმას·შემომავალი·შეტყობინების მიღების დროს"
+
+#: ../ekiga.schemas.in.in.h:140
+msgid ""
+"The sound that will be played when there is a new voice mail, if enabled"
+msgstr "მონიშვნის შემთხვევაში, გაიგებთ ხმას ახალი ხმოვანი ფოსტის მიღებისას"
+
+#: ../ekiga.schemas.in.in.h:141
+msgid ""
+"The time after which Ekiga will renew its registration with the registrar"
+msgstr "ეკიგას რეგისტრაციის ტაიმაუტის განახლების დრო"
+
+#: ../ekiga.schemas.in.in.h:142
+msgid "The two-letter country code of your country (e.g.: BE, UK, FR, DE, ...)"
+msgstr "თქვენი ქვეყნის ორ-ასოიანი კოდი (მაგალითად: BE, UK, FR, DE, ...)"
+
+#: ../ekiga.schemas.in.in.h:143 ../src/gui/preferences.cpp:870
+msgid "The video channel number to use (to select camera, tv or other sources)"
+msgstr ""
+"გამოსაყენებელი ვიდეო არხების რაოდენობა (კამერა, ტელე ან სხვა წყაროებიდან)"
+
+#: ../ekiga.schemas.in.in.h:144
+#, fuzzy
+msgid "The video codecs list"
+msgstr "აუდიო კოდეკების სია"
+
+#: ../ekiga.schemas.in.in.h:145
+msgid "The video view before having switched to fullscreen"
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:146
+msgid ""
+"The video view before having switched to fullscreen (same values as "
+"video_view)"
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:147
+msgid "The zoom value"
+msgstr "მიახლოების ზომა"
+
+#: ../ekiga.schemas.in.in.h:148
+#, fuzzy
+msgid ""
+"The zoom value in percent to apply to images displayed in the main GUI (can "
+"be 50, 100, or 200)"
+msgstr "მიახლოსბი"
+
+#: ../ekiga.schemas.in.in.h:149
+#, fuzzy
+msgid ""
+"This allows you to set the mode for sending DTMFs. The values can be "
+"\"RFC2833\" (0), \"INFO\" (1)"
+msgstr ""
+"გადაცემის DTMF რეჟიმის ჩართვა. დასაშვები მნიშვნელობაა მხოლოდ  \"RFC2833\"·(0)"
+
+#: ../ekiga.schemas.in.in.h:150
+#, fuzzy
+msgid ""
+"This allows you to set the mode for sending DTMFs. The values can be \"String"
+"\" (0), \"Tone\" (1), \"RFC2833\" (2), \"Q.931\" (3) (default is \"String"
+"\"). Choosing other values than \"String\" disables the Text Chat"
+msgstr ""
+"იძლევა საშუალებას DTMF-ის გაგზავნას. შეიძლება გაიგზავნოს როგორც \"String\"·"
+"(0),·\"Tone\"·(1),·\"RFC2833\"·(2),·\"Q.931\"·(3) (ძირითადია \"String\") "
+"სხვა ოფციების \"String\" -ის მაგივრად ამორჩევის შემთხვევაში ტექსტუალური "
+"ჩატი·გაუქმდება"
+
+#: ../ekiga.schemas.in.in.h:151 ../src/gui/preferences.cpp:629
+#, fuzzy
+msgid ""
+"This enables H.245 Tunneling mode. In H.245 Tunneling mode H.245 messages "
+"are encapsulated into the H.225 channel (port 1720). This saves one TCP "
+"connection during calls. H.245 Tunneling was introduced in H.323v2 and "
+"Netmeeting does not support it. Using both Fast Start and H.245 Tunneling "
+"can crash some versions of Netmeeting."
+msgstr ""
+"რთავს H.245 ტუნელინგს. H.245 ტუნელინგის დროს, H.245 გზავნილებები გადიან "
+"H.225 არხის პორტში (ანუ პორტ 1720). ანუ საჭიროებს 1 TCP კავშირით ნაკლებს. "
+"H.245 შემოღებულ იქნა H.323v2 -ში და Netmeeting -ს არ გააჩნია მისი "
+"მხარდაჭერა. 'სწრაფი კავშირი' და H.245 ტუნელინგის ერთდროული გამოყენება "
+"ავარიული გათიშვას გამოიწვევს."
+
+#: ../ekiga.schemas.in.in.h:152 ../src/gui/preferences.cpp:631
+msgid "This enables H.245 early in the setup"
+msgstr "რთავს ადრეულ H.245"
+
+#: ../ekiga.schemas.in.in.h:153
+msgid ""
+"This key disables DirectX (on win32) and XVideo (on Linux) video hardware "
+"acceleration"
+msgstr ""
+
+#: ../ekiga.schemas.in.in.h:154
+msgid "UDP port range"
+msgstr "UDP პორტის ინტერვალი"
+
+#: ../ekiga.schemas.in.in.h:155
+msgid "Version"
+msgstr "ვერსია"
+
+#: ../ekiga.schemas.in.in.h:156
+msgid "Video channel"
+msgstr "ვიდეო არხი"
+
+#: ../ekiga.schemas.in.in.h:157
+msgid "Video format"
+msgstr "ვიდეო ფორმატი"
+
+#: ../ekiga.schemas.in.in.h:158
+msgid "Video image"
+msgstr "ვიდეო სურათი"
+
+#: ../ekiga.schemas.in.in.h:159 ../src/gui/assistant.cpp:1045
+msgid "Video input device"
+msgstr "ვიდეოს შესავალი ხელსაწყო"
+
+#: ../ekiga.schemas.in.in.h:160
+msgid "Video preview"
+msgstr "ვიდეო გადახედვა"
+
+#: ../ekiga.schemas.in.in.h:161
+msgid "Video size"
+msgstr "ვიდეოს ზომა"
+
+#: ../ekiga.schemas.in.in.h:162
+msgid ""
+"Whether to prefer to sustain the max. frame rate or lower it possibly in "
+"order to keep a minimum level of (spatial) quality for all frames. 0: "
+"Highest minimal quality, 31: lowest minimal quality"
+msgstr ""
+
+#: ../lib/engine/addressbook/call-history/history-contact.cpp:148
+#, fuzzy
+msgid "Received"
+msgstr "მიღებული ზარები"
+
+#: ../lib/engine/addressbook/call-history/history-contact.cpp:151
+#, fuzzy
+msgid "Placed"
+msgstr "დანარეკი ზარები"
+
+#: ../lib/engine/addressbook/call-history/history-contact.cpp:154
+#, fuzzy
+msgid "Missed"
+msgstr "გაცდენილი ზარები"
+
+#: ../lib/engine/addressbook/evolution/evolution-contact.cpp:234
+#: ../lib/engine/presence/local-roster/local-presentity.cpp:194
+#: ../src/endpoints/opal-account.cpp:306 ../src/gui/main.cpp:1798
+msgid "_Edit"
+msgstr "_დამუშავება"
+
+#: ../lib/engine/addressbook/evolution/evolution-contact.cpp:236
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:312
+#: ../lib/engine/presence/local-roster/local-presentity.cpp:196
+#: ../src/endpoints/opal-account.cpp:308
+msgid "_Remove"
+msgstr ""
+
+#: ../lib/engine/addressbook/evolution/evolution-contact.cpp:325
+#, fuzzy
+msgid "Edit contact"
+msgstr "კონტრასტის გასწორება"
+
+#: ../lib/engine/addressbook/evolution/evolution-contact.cpp:327
+#: ../lib/engine/addressbook/evolution/evolution-book.cpp:313
+#: ../src/endpoints/opal-account.cpp:349
+msgid "Please update the following fields:"
+msgstr ""
+
+#: ../lib/engine/addressbook/evolution/evolution-contact.cpp:329
+#: ../lib/engine/presence/local-roster/local-presentity.cpp:221
+#: ../lib/engine/presence/local-roster/local-heap.cpp:177
+#: ../lib/engine/presence/local-roster/local-heap.cpp:324
+#: ../src/endpoints/opal-account.cpp:351 ../src/endpoints/opal-bank.cpp:101
+#: ../src/endpoints/opal-bank.cpp:111
+msgid "Name:"
+msgstr "სახელი:"
+
+#: ../lib/engine/addressbook/evolution/evolution-contact.cpp:338
+#: ../lib/engine/addressbook/evolution/evolution-book.cpp:316
+#, fuzzy
+msgid "VoIP _URI:"
+msgstr "VoIP მისამართი:"
+
+#: ../lib/engine/addressbook/evolution/evolution-contact.cpp:339
+#: ../lib/engine/addressbook/evolution/evolution-book.cpp:317
+#, fuzzy
+msgid "_Home phone:"
+msgstr "_ვიდეოფონი"
+
+#: ../lib/engine/addressbook/evolution/evolution-contact.cpp:340
+#: ../lib/engine/addressbook/evolution/evolution-book.cpp:318
+#, fuzzy
+msgid "_Office phone:"
+msgstr "_ვიდეოფონი"
+
+#: ../lib/engine/addressbook/evolution/evolution-contact.cpp:341
+#: ../lib/engine/addressbook/evolution/evolution-book.cpp:319
+#, fuzzy
+msgid "_Cell phone:"
+msgstr "_ვიდეოფონი"
+
+#: ../lib/engine/addressbook/evolution/evolution-contact.cpp:342
+#: ../lib/engine/addressbook/evolution/evolution-book.cpp:320
+#, fuzzy
+msgid "_Pager:"
+msgstr "სურათი:"
+
+#: ../lib/engine/addressbook/evolution/evolution-contact.cpp:392
+#, fuzzy
+msgid "Remove contact"
+msgstr "შორი კონტაქტი"
+
+#: ../lib/engine/addressbook/evolution/evolution-contact.cpp:394
+#, fuzzy, c-format
+msgid "Are you sure you want to remove %s from the addressbook?"
+msgstr "ნამდვილად გნებავთ %s -დან %s -ის წაშლა?"
+
+#: ../lib/engine/addressbook/evolution/evolution-book.cpp:86
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:590
+#, fuzzy, c-format
+msgid "%d user found"
+msgid_plural "%d users found"
+msgstr[0] "ვერ ვიპოვე მომხმარებელი"
+
+#: ../lib/engine/addressbook/evolution/evolution-book.cpp:259
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:309
+#, fuzzy
+msgid "_Refresh"
+msgstr "_პარამეტრები"
+
+#: ../lib/engine/addressbook/evolution/evolution-book.cpp:262
+msgid "New _Contact"
+msgstr "ახალი კონტაქტი"
+
+#: ../lib/engine/addressbook/evolution/evolution-book.cpp:311
+#: ../lib/engine/presence/local-roster/local-heap.cpp:118
+#, fuzzy
+msgid "New contact"
+msgstr "ახალი კონტაქტი"
+
+#: ../lib/engine/addressbook/evolution/evolution-book.cpp:315
+#: ../lib/engine/addressbook/ldap/ldap-source.cpp:157
+#, fuzzy
+msgid "_Name:"
+msgstr "სახელი:"
+
+#: ../lib/engine/addressbook/ldap/ldap-source.cpp:139
+#, fuzzy
+msgid "Add an LDAP Address Book"
+msgstr "წიგნაკის დამატება"
+
+#: ../lib/engine/addressbook/ldap/ldap-source.cpp:142
+msgid "Add the Ekiga.net Directory"
+msgstr ""
+
+#: ../lib/engine/addressbook/ldap/ldap-source.cpp:153
+#, fuzzy
+msgid "Create LDAP directory"
+msgstr "მომხმარებელის დირექტორია"
+
+#: ../lib/engine/addressbook/ldap/ldap-source.cpp:155
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:610
+msgid "Please edit the following fields"
+msgstr ""
+
+#: ../lib/engine/addressbook/ldap/ldap-source.cpp:158
+#, fuzzy
+msgid "_Hostname:"
+msgstr "ჰოსტის სახელი:"
+
+#: ../lib/engine/addressbook/ldap/ldap-source.cpp:159
+#, fuzzy
+msgid "_Port:"
+msgstr "პორტი:"
+
+#: ../lib/engine/addressbook/ldap/ldap-source.cpp:160
+#, fuzzy
+msgid "_Base DN:"
+msgstr "ძირითადი DN:"
+
+#: ../lib/engine/addressbook/ldap/ldap-source.cpp:164
+#, fuzzy
+msgid "_Subtree"
+msgstr "განშტოება"
+
+#: ../lib/engine/addressbook/ldap/ldap-source.cpp:165
+#, fuzzy
+msgid "Single _Level"
+msgstr "პირველი საფეხური"
+
+#: ../lib/engine/addressbook/ldap/ldap-source.cpp:166
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:628
+msgid "_Scope"
+msgstr ""
+
+#: ../lib/engine/addressbook/ldap/ldap-source.cpp:169
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:631
+#, fuzzy
+msgid "Call _Attribute"
+msgstr "ძებნა:"
+
+#: ../lib/engine/addressbook/ldap/ldap-source.cpp:170
+#, fuzzy
+msgid "Password"
+msgstr "პაროლი:"
+
+#: ../lib/engine/addressbook/ldap/ldap-source.cpp:188
+#, fuzzy
+msgid "Ekiga.net Directory"
+msgstr "მომხმარებელთა ქსელი"
+
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:314
+msgid "_Properties"
+msgstr "_პარამეტრები"
+
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:379
+msgid "Refreshing"
+msgstr ""
+
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:387
+msgid "Could not initialize server"
+msgstr ""
+
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:420
+#, fuzzy
+msgid "Could not contact server"
+msgstr "ვერ ვუკავშირდები დაშორებულ ჰოსტს"
+
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:428
+#, fuzzy
+msgid "Contacted server"
+msgstr "ახლომახლოსთან კონტაქტი"
+
+#. patience == 0
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:465
+#, fuzzy
+msgid "Could not connect to server"
+msgstr "ვერ ვუკავშირდები დაშორებულ ჰოსტს"
+
+#. patience == 0
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:515
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:563
+msgid "Could not search"
+msgstr ""
+
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:523
+msgid "Waiting for search results"
+msgstr ""
+
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:608
+#, fuzzy
+msgid "Edit LDAP directory"
+msgstr "მომხმარებელის დირექტორია"
+
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:612
+#, fuzzy
+msgid "_Name"
+msgstr "სახელი"
+
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:613
+#, fuzzy
+msgid "_Hostname"
+msgstr "ჰოსტის სახელი:"
+
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:619
+#, fuzzy
+msgid "_Port"
+msgstr "პორტი:"
+
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:621
+#, fuzzy
+msgid "_Base DN"
+msgstr "ძირითადი DN:"
+
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:626
+msgid "Subtree"
+msgstr "განშტოება"
+
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:627
+#, fuzzy
+msgid "Single Level"
+msgstr "პირველი საფეხური"
+
+#: ../lib/engine/addressbook/ldap/ldap-book.cpp:633
+#, fuzzy
+msgid "_Password"
+msgstr "_პაროლი:"
+
+#: ../lib/engine/addressbook/skel/contact-core.cpp:57
+#, fuzzy
+msgid "_Find"
+msgstr "_ფაილი"
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:660
+msgid "Address Book"
+msgstr "მისამართების წიგნაკი"
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:680
+#: ../src/gui/main.cpp:1747
+msgid "Address _Book"
+msgstr "მისამართების წიგნაკი"
+
+#. This will add static and dynamic actions
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:689
+#, fuzzy
+msgid "_Action"
+msgstr "_ადგილმდებარეობა:"
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:734
+#, fuzzy
+msgid "Category"
+msgstr "კატეგორიები"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:241
+#: ../lib/engine/gui/gtk-frontend/chat-window-page.cpp:968
+msgid "says:"
+msgstr "ამბობს:"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:364
+msgid "Open link in browser"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:370
+#, fuzzy
+msgid "Copy link"
+msgstr "განტოლება _კოპირება"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:878
+msgid "_Smile..."
+msgstr ""
+
+#. The window
+#. we can't do much here since we get the Chat as reference...
+#: ../lib/engine/gui/gtk-frontend/chat-window-old.cpp:562
+#: ../lib/engine/gui/gtk-frontend/chat-window.cpp:420
+msgid "Chat Window"
+msgstr "ჩატ ფანჯარა"
+
+#: ../lib/engine/gui/gtk-frontend/book-view-gtk.cpp:628
+#: ../src/gui/assistant.cpp:1253
+#, fuzzy
+msgid "Full Name"
+msgstr "_სრული ხედი"
+
+#: ../lib/engine/gui/gtk-frontend/book-view-gtk.cpp:639
+#, fuzzy
+msgid "_Search Filter:"
+msgstr "ძებნა:"
+
+#: ../lib/engine/gui/gtk-frontend/roster-view-gtk.cpp:967
+#: ../lib/engine/gui/gtk-frontend/roster-view-gtk.cpp:1001
+#, fuzzy
+msgid "Unsorted"
+msgstr "არარეგისტრირებული"
+
+#: ../lib/engine/gui/gtk-frontend/chat-window-page.cpp:752
+msgid "_Send"
+msgstr "_გაგზავნა"
+
+#: ../lib/engine/gui/gtk-frontend/chat-window-page.cpp:963
+#, fuzzy, c-format
+msgid "You say:\n"
+msgstr ":"
+
+#: ../lib/engine/gui/gtk-frontend/call-history-view-gtk.cpp:163
+#: ../src/gui/statusmenu.cpp:545
+msgid "Clear"
+msgstr ""
+
+#: ../lib/engine/presence/avahi/avahi-presentity.cpp:47
+msgid "Neighbours"
+msgstr ""
+
+#: ../lib/engine/presence/local-roster/local-presentity.cpp:218
+msgid "Edit roster element"
+msgstr ""
+
+#: ../lib/engine/presence/local-roster/local-presentity.cpp:219
+msgid ""
+"Please fill in this form to change an existing element of ekiga's internal "
+"roster"
+msgstr ""
+
+#: ../lib/engine/presence/local-roster/local-presentity.cpp:222
+#: ../lib/engine/presence/local-roster/local-heap.cpp:186
+#: ../lib/engine/presence/local-roster/local-heap.cpp:188
+#, fuzzy
+msgid "Address:"
+msgstr "მისამართების წიგნაკი"
+
+#: ../lib/engine/presence/local-roster/local-presentity.cpp:224
+#, fuzzy
+msgid "Choose groups:"
+msgstr "ხმის ამორჩევა"
+
+#: ../lib/engine/presence/local-roster/local-roster-bridge.cpp:94
+#: ../lib/engine/presence/local-roster/local-heap.cpp:174
+#, fuzzy
+msgid "Add to local roster"
+msgstr "ვერ ვურეკავ მომხმარებელს"
+
+#: ../lib/engine/presence/local-roster/local-heap.cpp:93
+#, fuzzy
+msgid "Services"
+msgstr "მოწყობილობები"
+
+#: ../lib/engine/presence/local-roster/local-heap.cpp:94
+msgid "Echo test"
+msgstr ""
+
+#: ../lib/engine/presence/local-roster/local-heap.cpp:95
+msgid "Conference room"
+msgstr ""
+
+#: ../lib/engine/presence/local-roster/local-heap.cpp:111
+#, fuzzy
+msgid "Local roster"
+msgstr "ლოკალური კონტაქტები"
+
+#: ../lib/engine/presence/local-roster/local-heap.cpp:128
+#, fuzzy
+msgid "Rename"
+msgstr "სახელი"
+
+#: ../lib/engine/presence/local-roster/local-heap.cpp:175
+msgid ""
+"Please fill in this form to add a new contact to ekiga's internal roster"
+msgstr ""
+
+#: ../lib/engine/presence/local-roster/local-heap.cpp:192
+msgid "Put contact in groups:"
+msgstr ""
+
+#: ../lib/engine/presence/local-roster/local-heap.cpp:295
+msgid "You supplied an unsupported address"
+msgstr ""
+
+#: ../lib/engine/presence/local-roster/local-heap.cpp:297
+msgid "You already have a contact with this address!"
+msgstr ""
+
+#: ../lib/engine/presence/local-roster/local-heap.cpp:322
+msgid "Rename group"
+msgstr ""
+
+#: ../lib/engine/presence/local-roster/local-heap.cpp:323
+#, fuzzy
+msgid "Please edit this group name"
+msgstr "გთხოვთ შეიყვანოთ თქვენი მომხმარებლის სახელი:"
+
+#: ../lib/gui/codecsbox.cpp:476
+msgid "Move selected codec priority upwards"
+msgstr ""
+
+#: ../lib/gui/codecsbox.cpp:486
+msgid "Move selected codec priority downwards"
+msgstr ""
+
+#: ../lib/gui/gmdialog.c:474
+msgid "Do not show this dialog again"
+msgstr "გეთაყვა აღარ მაჩვენო ეს ფანჯარა"
+
+#: ../src/devices/audio.cpp:281
+msgid "Opening device for playing"
+msgstr "ვხსნი მოწკობილობას დაკვრისთვის"
+
+#: ../src/devices/audio.cpp:283
+msgid "Opening device for recording"
+msgstr "ვხსნი მოწყობილობას ჩაწერისთვის"
+
+#: ../src/devices/audio.cpp:294 ../src/devices/audio.cpp:296
+msgid "Failed to open the device"
+msgstr "ვერ ვხსნი მოწყობილობას"
+
+#: ../src/devices/audio.cpp:294
+#, c-format
+msgid ""
+"Impossible to open the selected audio device (%s) for recording. Please "
+"check your audio setup, the permissions and that the device is not busy."
+msgstr ""
+"ვერ ვხსნი მონიშნულ აუდიო მოწყობილობა (%s) ჩაწერისთვის. გთხოვთ შეამოწმეთ "
+"თქვენი აუდიო პარამეტრები, უფლებები, თავისუფლება და ასე შემდეგ..."
+
+#: ../src/devices/audio.cpp:296
+#, c-format
+msgid ""
+"Impossible to open the selected audio device (%s) for playing. Please check "
+"your audio setup, the permissions and that the device is not busy."
+msgstr ""
+"ვერ ვრთავ აუდიო მოწყობილობას (%s) შეამოწმეთ რომ მოწყობილობა არ არის "
+"დაკავებულისხვა პროგრამის მიერ, ან მასზე დაყენებულია არასწორი უფლებანი."
+
+#: ../src/devices/audio.cpp:312 ../src/devices/audio.cpp:381
+msgid "Cannot use the audio device"
+msgstr "ვერ ვიყენებ აუდიო ხელსაწყოს"
+
+#: ../src/devices/audio.cpp:312
+#, c-format
+msgid ""
+"The selected audio device (%s) was successfully opened but it is impossible "
+"to read data from this device. Please check your audio setup."
+msgstr ""
+"აუდიო მოწყობილობა (%s) უპრობლემოდ გაიხსნა, მაგრამ შეუძლებელია მისგან "
+"მონაცემების მიღება. გთხოვთ შემოწმოთ თქვენი აუდიო რეგულაცია."
+
+#: ../src/devices/audio.cpp:321
+msgid "Recording your voice"
+msgstr "შენი ხმის ჩაწერა"
+
+#: ../src/devices/audio.cpp:360
+msgid "Recording and playing back"
+msgstr "ჩაწერა და დაკვრა"
+
+#: ../src/devices/audio.cpp:381
+#, c-format
+msgid ""
+"The selected audio device (%s) was successfully opened but it is impossible "
+"to write data to this device. Please check your audio setup."
+msgstr ""
+"აუდიო·მოწყობილობა·(%s)·უპრობლემოდ·გაიხსნა,·მაგრამ·შეუძლებელია·მასზე "
+"·მონაცემების·ჩაწერა.·გთხოვთ·შემოწმოთ·თქვენი·აუდიო·რეგულაცია."
+
+#: ../src/devices/audio.cpp:476 ../src/devices/audio.cpp:477
+#: ../src/gui/assistant.cpp:1118 ../src/gui/assistant.cpp:1141
+#: ../src/gui/assistant.cpp:1164 ../src/gui/preferences.cpp:745
+#: ../src/gui/preferences.cpp:769 ../src/gui/preferences.cpp:792
+msgid "No device found"
+msgstr "ვერ ვპოულობ მოწყობილობას"
+
+#: ../src/devices/audio.cpp:488
+#, fuzzy
+msgid "Audio test running"
+msgstr "_აუდიო პარამეტრები"
+
+#: ../src/devices/audio.cpp:495
+#, fuzzy, c-format
+msgid ""
+"Ekiga is now recording from %s and playing back to %s. Please say \"1, 2, 3, "
+"Ekiga rocks!\" in your microphone. You should hear yourself from the "
+"speakers after a four-second delay."
+msgstr ""
+"ეკიგა იწერს თქვენს ხმას %s -დან და უკრავს %s -დან. გთხოვთ თქვათ:\"1, 2 , 3, "
+"ეკიგა მაგარია!\" თქვენს მიკროფონში და გაიგებთ თქვენს ხმას რამოდენიმე წამის "
+"შემდეგ."
+
+#: ../src/endpoints/h323-endpoint.cpp:149
+#: ../src/endpoints/sip-endpoint.cpp:273 ../src/endpoints/sip-endpoint.cpp:277
+#, fuzzy
+msgid "Call"
+msgstr "_ზარი"
+
+#: ../src/endpoints/h323-endpoint.cpp:314
+msgid "Duplicate alias"
+msgstr ""
+
+#: ../src/endpoints/h323-endpoint.cpp:317
+msgid "Bad username/password"
+msgstr ""
+
+#: ../src/endpoints/h323-endpoint.cpp:320
+#: ../src/endpoints/sip-endpoint.cpp:891
+#, fuzzy
+msgid "Transport error"
+msgstr "გადაგზავნა"
+
+#: ../src/endpoints/h323-endpoint.cpp:331
+#: ../src/endpoints/h323-endpoint.cpp:336
+#: ../src/endpoints/sip-endpoint.cpp:898
+#, fuzzy
+msgid "Failed"
+msgstr "_ფაილი"
+
+#: ../src/endpoints/manager.cpp:101
+msgid ""
+"Ekiga did not manage to configure your network settings automatically. You "
+"can still use it, but you need to configure your network settings manually.\n"
+"\n"
+"Please see http://wiki.ekiga.org/index.php/Enable_port_forwarding_manually "
+"for instructions"
+msgstr ""
+
+#: ../src/endpoints/opal-account.cpp:298
+#, fuzzy
+msgid "_Disable"
+msgstr "_თავისუფალი"
+
+#: ../src/endpoints/opal-account.cpp:301
+msgid "_Enable"
+msgstr ""
+
+#: ../src/endpoints/opal-account.cpp:322 ../src/gui/assistant.cpp:664
+msgid "Recharge the account"
+msgstr "ანგარიშის დატენვა"
+
+#: ../src/endpoints/opal-account.cpp:327 ../src/gui/assistant.cpp:676
+msgid "Consult the balance history"
+msgstr "ბალანსის კონსულტაცია"
+
+#: ../src/endpoints/opal-account.cpp:332
+#, fuzzy
+msgid "Consult the call history"
+msgstr "ძველი ზარების ისტორიის დათვალიერება"
+
+#: ../src/endpoints/opal-account.cpp:347 ../src/endpoints/opal-bank.cpp:74
+#, fuzzy
+msgid "Edit account"
+msgstr "თქვენი ანგარიშების დამუშავება"
+
+#: ../src/endpoints/opal-account.cpp:353 ../src/endpoints/opal-bank.cpp:112
+msgid "Registrar:"
+msgstr "SIP მისამართი:"
+
+#: ../src/endpoints/opal-account.cpp:355 ../src/endpoints/opal-bank.cpp:102
+msgid "Gatekeeper:"
+msgstr "გეითქიფერი:"
+
+#: ../src/endpoints/opal-account.cpp:356 ../src/endpoints/opal-bank.cpp:83
+#: ../src/endpoints/opal-bank.cpp:103 ../src/endpoints/opal-bank.cpp:113
+msgid "User:"
+msgstr "მომხმარებელი:"
+
+#: ../src/endpoints/opal-account.cpp:358 ../src/endpoints/opal-bank.cpp:114
+#, fuzzy
+msgid "Authentication User:"
+msgstr "აუტენთიფიკაცია:"
+
+#: ../src/endpoints/opal-account.cpp:359 ../src/endpoints/opal-bank.cpp:85
+#: ../src/endpoints/opal-bank.cpp:105 ../src/endpoints/opal-bank.cpp:115
+msgid "Password:"
+msgstr "პაროლი:"
+
+#: ../src/endpoints/opal-account.cpp:360 ../src/endpoints/opal-bank.cpp:106
+#: ../src/endpoints/opal-bank.cpp:116
+#, fuzzy
+msgid "Timeout:"
+msgstr "ტაიმაუტი"
+
+#: ../src/endpoints/opal-account.cpp:361 ../src/endpoints/opal-bank.cpp:119
+#, fuzzy
+msgid "Enable Account"
+msgstr "ანგარიშები"
+
+#: ../src/endpoints/opal-account.cpp:396 ../src/endpoints/opal-bank.cpp:155
+msgid "You did not supply a name for that account."
+msgstr ""
+
+#: ../src/endpoints/opal-account.cpp:398 ../src/endpoints/opal-bank.cpp:157
+msgid "You did not supply a host to register to."
+msgstr ""
+
+#: ../src/endpoints/opal-account.cpp:400 ../src/endpoints/opal-bank.cpp:159
+msgid "You did not supply a user name for that account."
+msgstr ""
+
+#: ../src/endpoints/opal-account.cpp:402 ../src/endpoints/opal-bank.cpp:161
+msgid "The timeout should have a bigger value."
+msgstr ""
+
+#: ../src/endpoints/opal-bank.cpp:55
+#, fuzzy
+msgid "_Add an Ekiga.net Account"
+msgstr "თავისუფალი ekiga.net·SIP ანგარიშის აღება"
+
+#: ../src/endpoints/opal-bank.cpp:57
+msgid "_Add an Ekiga Call Out Account"
+msgstr ""
+
+#: ../src/endpoints/opal-bank.cpp:59
+msgid "_Add a SIP Account"
+msgstr ""
+
+#: ../src/endpoints/opal-bank.cpp:61
+msgid "_Add an H.323 Account"
+msgstr ""
+
+#: ../src/endpoints/opal-bank.cpp:75
+msgid "Please update the following fields."
+msgstr ""
+
+#: ../src/endpoints/opal-bank.cpp:80 ../src/gui/assistant.cpp:540
+#, fuzzy
+msgid "Get an Ekiga.net SIP account"
+msgstr "თავისუფალი ekiga.net·SIP ანგარიშის აღება"
+
+#: ../src/endpoints/opal-bank.cpp:90 ../src/gui/assistant.cpp:652
+#, fuzzy
+msgid "Get an Ekiga Call Out account"
+msgstr "ეკიგას PC-To-Phone ანგარიშის გახსნა"
+
+#: ../src/endpoints/opal-bank.cpp:94
+#, fuzzy
+msgid "Account ID:"
+msgstr "ანგარიშის სახელი:"
+
+#: ../src/endpoints/opal-bank.cpp:96
+msgid "PIN Code:"
+msgstr ""
+
+#: ../src/endpoints/opal-call.cpp:393
+msgid "Local user cleared the call"
+msgstr "ლოკალურმა მომხმარებელმა დაკიდა ყურმილი"
+
+#: ../src/endpoints/opal-call.cpp:396 ../src/endpoints/opal-call.cpp:399
+msgid "Local user rejected the call"
+msgstr "ზარი გათიშულია ლოკალური მომხმარებლის მიერ"
+
+#: ../src/endpoints/opal-call.cpp:402
+msgid "Remote user cleared the call"
+msgstr "დაშორებულმა მომხმარებელმა გათიშა ზარი"
+
+#: ../src/endpoints/opal-call.cpp:405
+msgid "Remote user rejected the call"
+msgstr "დაშორებულმა მომხმარებელმა იუარა ზარზე პასუხი"
+
+#: ../src/endpoints/opal-call.cpp:408
+msgid "Remote user has stopped calling"
+msgstr "დაშორებულმა მომხმარებელმა გათიშა ზარი"
+
+#: ../src/endpoints/opal-call.cpp:411
+msgid "Abnormal call termination"
+msgstr "ზარი უჩვეულოდ გაწყდა"
+
+#: ../src/endpoints/opal-call.cpp:414
+msgid "Could not connect to remote host"
+msgstr "ვერ ვუკავშირდები დაშორებულ ჰოსტს"
+
+#: ../src/endpoints/opal-call.cpp:417
+msgid "The Gatekeeper cleared the call"
+msgstr "გეითქიფერის მიერ გათიშული ზარი"
+
+#: ../src/endpoints/opal-call.cpp:420
+msgid "User not found"
+msgstr "ვერ ვიპოვე მომხმარებელი"
+
+#: ../src/endpoints/opal-call.cpp:423
+msgid "Insufficient bandwidth"
+msgstr "არასაკმარისი ნეტ სიჩქარე"
+
+#: ../src/endpoints/opal-call.cpp:426
+msgid "No common codec"
+msgstr "ვერ ვიპოვე საერთო კოდეკი"
+
+#: ../src/endpoints/opal-call.cpp:429
+msgid "Call forwarded"
+msgstr "გადაგზავნილი ზარი"
+
+#: ../src/endpoints/opal-call.cpp:432
+msgid "Security check failed"
+msgstr "უსაფრთხოების ტესტირებამ ჩაიშალა"
+
+#: ../src/endpoints/opal-call.cpp:435
+msgid "Local user is busy"
+msgstr "ლოკალური მომხმარებელი დაკავებულია"
+
+#: ../src/endpoints/opal-call.cpp:438 ../src/endpoints/opal-call.cpp:444
+msgid "Congested link to remote party"
+msgstr "ხაზი გადატვირტულია"
+
+#: ../src/endpoints/opal-call.cpp:441
+msgid "Remote user is busy"
+msgstr "დაშორებული მომხმარებელი დაკავებულია"
+
+#: ../src/endpoints/opal-call.cpp:447
+msgid "Remote host is offline"
+msgstr "დაშორებული მისამართი ხაზიდან გასულია"
+
+#: ../src/endpoints/opal-call.cpp:453
+#, fuzzy
+msgid "User is not available"
+msgstr "დროებით გათიშული"
+
+#: ../src/endpoints/opal-call.cpp:465
+msgid "Call completed"
+msgstr "დასრულებული ზარი"
+
+#: ../src/endpoints/sip-endpoint.cpp:274 ../src/endpoints/sip-endpoint.cpp:278
+#: ../src/gui/main.cpp:3649
+msgid "Transfer"
+msgstr "გადაგზავნა"
+
+#: ../src/endpoints/sip-endpoint.cpp:298 ../src/endpoints/sip-endpoint.cpp:300
+#, fuzzy
+msgid "Message"
+msgstr "_შეტყობინების გაგზავნა"
+
+#: ../src/endpoints/sip-endpoint.cpp:706
+msgid "Bad request"
+msgstr "ცუდი მოთხოვნა"
+
+#: ../src/endpoints/sip-endpoint.cpp:710
+msgid "Payment required"
+msgstr "საჭიროებს ფულად გადასახადს"
+
+#: ../src/endpoints/sip-endpoint.cpp:714
+msgid "Unauthorized"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:718
+msgid "Forbidden"
+msgstr "აკრძალული"
+
+#: ../src/endpoints/sip-endpoint.cpp:722
+msgid "Timeout"
+msgstr "ტაიმაუტი"
+
+#: ../src/endpoints/sip-endpoint.cpp:726
+msgid "Conflict"
+msgstr "კონფლიქტი"
+
+#: ../src/endpoints/sip-endpoint.cpp:730
+msgid "Temporarily unavailable"
+msgstr "დროებით გათიშული"
+
+#: ../src/endpoints/sip-endpoint.cpp:734
+#, fuzzy
+msgid "Not acceptable"
+msgstr "დაუშვებელი"
+
+#: ../src/endpoints/sip-endpoint.cpp:738
+msgid "Illegal status code"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:742
+msgid "Multiple choices"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:746
+msgid "Moved permanently"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:750
+msgid "Moved temporarily"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:754
+#, fuzzy
+msgid "Use proxy"
+msgstr "მომხმარებელის დირექტორია"
+
+#: ../src/endpoints/sip-endpoint.cpp:758
+#, fuzzy
+msgid "Alternative service"
+msgstr "ალტერნატიული გამოტანის მოწყობილობა"
+
+#: ../src/endpoints/sip-endpoint.cpp:762
+#, fuzzy
+msgid "Not found"
+msgstr "ვერ ვიპოვე მომხმარებელი"
+
+#: ../src/endpoints/sip-endpoint.cpp:766
+msgid "Method not allowed"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:770
+#, fuzzy
+msgid "Proxy auth. required"
+msgstr "საჭიროებს ფულად გადასახადს"
+
+#: ../src/endpoints/sip-endpoint.cpp:774
+#, fuzzy
+msgid "Length required"
+msgstr "საჭიროებს ფულად გადასახადს"
+
+#: ../src/endpoints/sip-endpoint.cpp:778
+msgid "Request entity too big"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:782
+msgid "Request URI too long"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:786
+msgid "Unsupported media type"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:790
+msgid "Unsupported URI scheme"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:794
+msgid "Bad extension"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:798
+#, fuzzy
+msgid "Extension required"
+msgstr "საჭიროებს ფულად გადასახადს"
+
+#: ../src/endpoints/sip-endpoint.cpp:802
+msgid "Interval too brief"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:806
+msgid "Loop detected"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:810
+msgid "Too many hops"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:814
+#, fuzzy
+msgid "Address incomplete"
+msgstr "მისამართების წიგნაკი"
+
+#: ../src/endpoints/sip-endpoint.cpp:818
+msgid "Ambiguous"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:822
+msgid "Busy Here"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:826
+msgid "Request terminated"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:830
+#, fuzzy
+msgid "Not acceptable here"
+msgstr "დაუშვებელი"
+
+#: ../src/endpoints/sip-endpoint.cpp:834
+#, fuzzy
+msgid "Bad event"
+msgstr "ცუდი მოთხოვნა"
+
+#: ../src/endpoints/sip-endpoint.cpp:838
+#, fuzzy
+msgid "Request pending"
+msgstr "გადის რეგისტრაციას"
+
+#: ../src/endpoints/sip-endpoint.cpp:842
+msgid "Undecipherable"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:846
+msgid "Internal server error"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:850
+msgid "Not implemented"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:854
+#, fuzzy
+msgid "Bad gateway"
+msgstr "ნაგულისხმევი კარიბჭე(gateway):"
+
+#: ../src/endpoints/sip-endpoint.cpp:858
+#, fuzzy
+msgid "Service unavailable"
+msgstr "დროებით გათიშული"
+
+#: ../src/endpoints/sip-endpoint.cpp:862
+#, fuzzy
+msgid "Server timeout"
+msgstr "არავითარი პასუხი"
+
+#: ../src/endpoints/sip-endpoint.cpp:866
+msgid "SIP version not supported"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:870
+msgid "Message too large"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:874
+msgid "Busy everywhere"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:878
+msgid "Decline"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:882
+msgid "Does not exist anymore"
+msgstr ""
+
+#: ../src/endpoints/sip-endpoint.cpp:886
+#, fuzzy
+msgid "Globally not acceptable"
+msgstr "დაუშვებელი"
+
+#: ../src/endpoints/sip-endpoint.cpp:999
+#, fuzzy
+msgid "Could not send message"
+msgstr "შეტყობინების გაგზავნა"
+
+#: ../src/gui/accounts.cpp:165
+msgid "Registered"
+msgstr "რეგისტრირებული"
+
+#: ../src/gui/accounts.cpp:169
+msgid "Unregistered"
+msgstr "არარეგისტრირებული"
+
+#: ../src/gui/accounts.cpp:173
+msgid "Could not unregister"
+msgstr ""
+
+#: ../src/gui/accounts.cpp:179
+#, fuzzy
+msgid "Could not register"
+msgstr "არარეგისტრირებული"
+
+#: ../src/gui/accounts.cpp:185
+msgid "Processing..."
+msgstr ""
+
+#: ../src/gui/accounts.cpp:522
+msgid "Account Name"
+msgstr "ანგარიშის სახელი"
+
+#: ../src/gui/accounts.cpp:523
+msgid "Voice Mails"
+msgstr "ხმოვანი მეილი"
+
+#: ../src/gui/accounts.cpp:524
+msgid "Status"
+msgstr "სტატუსი"
+
+#: ../src/gui/accounts.cpp:535 ../src/gui/accounts.cpp:573
+msgid "Accounts"
+msgstr "ანგარიშები"
+
+#: ../src/gui/accounts.cpp:550
+#, fuzzy
+msgid "Account"
+msgstr "ანგარიშები"
+
+#: ../src/gui/accounts.cpp:576 ../src/gui/preferences.cpp:508
+msgid "A"
+msgstr "ჩ/გ"
+
+#: ../src/gui/assistant.cpp:258
+msgid ""
+"This is the Ekiga general configuration assistant. The following steps will "
+"set up Ekiga by asking a few simple questions.\n"
+"\n"
+"Once you have completed these steps, you can always change them later by "
+"selecting Preferences in the Edit menu."
+msgstr ""
+"წარმოგიდგენთ ეკიგას ტელეფონის საერთო კონფიგურაციის დრუიდს. მოცემულ კითხვებზე "
+"პასუხის გაცემით, თქვენ შეძლებთ პროგრამის გამართვას რამოდენიმე მარტივი "
+"ნაბიჯის მეშვეობით.\n"
+"\n"
+"სურვილისამებრ, შემდგომში, თქვენ შეგეძლებათ დრუიდის პარამეტრების შეცვლა. "
+"უბრალოდ დააწკაპეთ: დამუშავება -> პარამეტრები. ეს ყოველივე მოიპოვება "
+"პროგრამის ძირითად ფანჯარაში."
+
+#: ../src/gui/assistant.cpp:266
+msgid "Welcome in Ekiga"
+msgstr ""
+
+#: ../src/gui/assistant.cpp:300 ../src/gui/preferences.cpp:381
+msgid "Personal Information"
+msgstr "პირადი ინფორმაცია"
+
+#. The user fields
+#: ../src/gui/assistant.cpp:303
+msgid "Please enter your first name and your surname:"
+msgstr "გთხოვთ შეიყვანოთ თქვენი სახელი და გვარი:"
+
+#: ../src/gui/assistant.cpp:312
+msgid ""
+"Your first name and surname will be used when connecting to other VoIP and "
+"videoconferencing software."
+msgstr ""
+"თქვენი სახელი და გვარი სხვა VoIP ან ვიდეოკონფერენციის პროგრამის "
+"მომხმარებელთან კავშირის დროს გამოჩნდება."
+
+#: ../src/gui/assistant.cpp:503
+#, fuzzy
+msgid "Ekiga.net Account"
+msgstr "ekiga.net ანგარიში - გვერდი %d/%d"
+
+#: ../src/gui/assistant.cpp:505
+msgid "Please enter your username:"
+msgstr "გთხოვთ შეიყვანოთ თქვენი მომხმარებლის სახელი:"
+
+#: ../src/gui/assistant.cpp:513
+msgid "Please enter your password:"
+msgstr "გთხოვთ შეიყვანოთ თქვენი მომხმარებლის პაროლი:"
+
+#: ../src/gui/assistant.cpp:523
+msgid ""
+"The username and password are used to login to your existing account at the "
+"ekiga.net free SIP service. If you do not have an ekiga.net SIP address yet, "
+"you may first create an account below. This will provide a SIP address that "
+"allows people to call you.\n"
+"\n"
+"You may skip this step if you use an alternative SIP service, or if you "
+"would prefer to specify the login details later."
+msgstr ""
+"თქვენი სახელი და პაროლი გამოყენებული იქნება ekiga.net -ის თავისუფალ SIP "
+"სერვისში რეგისტრაციისთვის. თუ თქვენ, ჯერ კიდევ არ გაგაჩნიათ პირადი SIP "
+"მისამართი, მაშინ დარეგისტრირდით. რის შედეგადაც სხვა მომხმარებლებსაც "
+"შეეძლებათ თქვენთან დარეკვა.\n"
+"\n"
+"იმ შემთხვევაში თუ თქვენ სარგებლობთ სხვა SIP სერვისით, ან გნებავთ მოგვიანებით "
+"გაიაროთ უკვე არსებული ანგარიშის რეგისტრაცია, შეგიძლიათ გამოტოვოთ ეს ნაბიჯი."
+
+#: ../src/gui/assistant.cpp:550
+msgid "I do not want to sign up for the ekiga.net free service"
+msgstr "არ მსურს ekiga.net -ის თავისუფალი სერვისის გამოყენება"
+
+#: ../src/gui/assistant.cpp:617
+msgid "Ekiga Call Out Account"
+msgstr ""
+
+#: ../src/gui/assistant.cpp:619
+#, fuzzy
+msgid "Please enter your account ID:"
+msgstr "გთხოვთ შეიყვანოთ თქვენი მომხმარებლის სახელი:"
+
+#: ../src/gui/assistant.cpp:627
+#, fuzzy
+msgid "Please enter your PIN code:"
+msgstr "გთხოვთ შეიყვანოთ თქვენი მომხმარებლის პაროლი:"
+
+#: ../src/gui/assistant.cpp:638
+#, fuzzy
+msgid ""
+"You can make calls to regular phones and cell numbers worldwide using "
+"Ekiga.\n"
+"\n"
+"To enable this, you need to do three things:\n"
+"- First buy an account at the URL below.\n"
+"- Then enter your account ID and PIN code.\n"
+"The service will work only if your account is created using the URL in this "
+"dialog.\n"
+msgstr ""
+"ეკიგას მეშვეობით თქვენ შეგიძლიათ რეკოთ მსოფლიოს ნებისმიერ კუთხეში ამისათვის "
+"საჭიროა ანგარიშის გახსნა ქვემოთ მოცემულ მისამართზე. გთხოვთ აკტივირებისთვის "
+"შეიყვანოთ თქვენი სახელი და პაროლი.\n"
+"\n"
+"დააჭირეთ მხოლოდ ქვემოთ მოცემულ ბმულებს სერვისის გამოსაყენებლად."
+
+#: ../src/gui/assistant.cpp:688
+msgid "Consult the calls history"
+msgstr "ძველი ზარების ისტორიის დათვალიერება"
+
+#: ../src/gui/assistant.cpp:698
+#, fuzzy
+msgid "I do not want to sign up for the Ekiga Call Out service"
+msgstr "არ მსურს ekiga.net -ის თავისუფალი სერვისის გამოყენება"
+
+#: ../src/gui/assistant.cpp:767 ../src/gui/assistant.cpp:1264
+#, fuzzy
+msgid "Connection Type"
+msgstr "კავშირის ტიპი - გვერდი %d/%d"
+
+#. The connection type
+#: ../src/gui/assistant.cpp:770
+msgid "Please choose your connection type:"
+msgstr "გთხოვთ ამოირჩიოთ თქვენი შეერთების ტიპი:"
+
+#: ../src/gui/assistant.cpp:787
+msgid "56k Modem"
+msgstr "56k მოდემი"
+
+#: ../src/gui/assistant.cpp:792
+msgid "ISDN"
+msgstr "ISDN"
+
+#: ../src/gui/assistant.cpp:797
+msgid "DSL/Cable (128 kbit/s uplink)"
+msgstr ""
+
+#: ../src/gui/assistant.cpp:802
+msgid "DSL/Cable (512 kbit/s uplink)"
+msgstr ""
+
+#: ../src/gui/assistant.cpp:807
+#, fuzzy
+msgid "LAN"
+msgstr "T1/LAN"
+
+#: ../src/gui/assistant.cpp:812
+msgid "Keep current settings"
+msgstr "დატოვე არსებული პარამეტრები"
+
+#: ../src/gui/assistant.cpp:817
+msgid ""
+"The connection type will permit determining the best quality settings that "
+"Ekiga will use during calls. You can later change the settings individually "
+"in the preferences window."
+msgstr ""
+"კავშირის ტიპის მიხედვით ეკიგა შეეცდება საუკეთესო პარამეტრების გამოყენებას "
+"ჩვეულებრივი და ვიდეო-ზარის დროს. აგრეთვე შეგიძლიათ პარამეტრების "
+"ინდივიდუალური შეცვლა."
+
+#: ../src/gui/assistant.cpp:907 ../src/gui/preferences.cpp:701
+msgid "Audio Devices"
+msgstr "აუდიო მოწყობილობა"
+
+#: ../src/gui/assistant.cpp:909
+#, fuzzy
+msgid "Please choose the audio ringing device:"
+msgstr "გთხოვთ ამოირჩიოთ აუდიო·შეტანის მოწყობილობა:"
+
+#: ../src/gui/assistant.cpp:917
+#, fuzzy
+msgid ""
+"The audio ringing device is the device that will be used to play the ringing "
+"sound on incoming calls."
+msgstr ""
+"აუდიო მენეჯერი მართავს აუდიო შეტანის მოწყობილობას რომელიც თქვენი ხმის "
+"ჩაწერისთვის გამოიყენება."
+
+#. ---
+#: ../src/gui/assistant.cpp:928
+msgid "Please choose the audio output device:"
+msgstr "გთხოვთ ამოირჩიოთ აუდიო გამოტანის მოწყობილობა:"
+
+#: ../src/gui/assistant.cpp:936
+#, fuzzy
+msgid ""
+"The audio output device is the device that will be used to play audio during "
+"calls."
+msgstr ""
+"აუდიო მენეჯერი მართავს აუდიო გამოტანის მოწყობილობას რომელიც აუდიო "
+"დაკვრისთვისაა გათვალისწინებული."
+
+#. ---
+#: ../src/gui/assistant.cpp:947
+msgid "Please choose the audio input device:"
+msgstr "გთხოვთ ამოირჩიოთ აუდიო·შეტანის მოწყობილობა:"
+
+#: ../src/gui/assistant.cpp:955
+#, fuzzy
+msgid ""
+"The audio input device is the device that will be used to record your voice "
+"during calls."
+msgstr ""
+"აუდიო მენეჯერი მართავს აუდიო შეტანის მოწყობილობას რომელიც თქვენი ხმის "
+"ჩაწერისთვის გამოიყენება."
+
+#: ../src/gui/assistant.cpp:1047
+#, fuzzy
+msgid "Please choose your video input device:"
+msgstr "ამოირჩიეთ ვიდეო შეტანის მოწყობილობა:"
+
+#: ../src/gui/assistant.cpp:1055
+#, fuzzy
+msgid ""
+"The video input device is the device that will be used to capture video "
+"during calls."
+msgstr ""
+"ვიდეო მენეჯერი მართავს ვიდეო შეტანის მოწყობილობას რომელიც ვიდეო ჩაწერისთვის "
+"გამოიყენება."
+
+#: ../src/gui/assistant.cpp:1195
+#, fuzzy
+msgid "Configuration Complete"
+msgstr "კონფიგურაცია დასრულებულია - გვერდი %d/%d"
+
+#: ../src/gui/assistant.cpp:1197
+msgid ""
+"You have now finished the Ekiga configuration. All the settings can be "
+"changed in the Ekiga preferences. Enjoy!"
+msgstr ""
+
+#: ../src/gui/assistant.cpp:1204
+#, fuzzy
+msgid "Configuration summary:"
+msgstr "კონფიგურაციის დრუიდი"
+
+#: ../src/gui/assistant.cpp:1274
+#, fuzzy
+msgid "Audio Ringing Device"
+msgstr "აუდიო შესავალის მოწყობილობა"
+
+#: ../src/gui/assistant.cpp:1283
+#, fuzzy
+msgid "Audio Output Device"
+msgstr "აუდიო გასავალის მოწყობილობა"
+
+#: ../src/gui/assistant.cpp:1292
+#, fuzzy
+msgid "Audio Input Device"
+msgstr "აუდიო შესავალის მოწყობილობა"
+
+#: ../src/gui/assistant.cpp:1301
+#, fuzzy
+msgid "Video Input Device"
+msgstr "ვიდეოს შესავალი ხელსაწყო"
+
+#: ../src/gui/assistant.cpp:1314
+#, fuzzy
+msgid "SIP URI"
+msgstr "VoIP მისამართი"
+
+#: ../src/gui/assistant.cpp:1326
+msgid "Ekiga Call Out"
+msgstr ""
+
+#: ../src/gui/assistant.cpp:1368
+#, fuzzy, c-format
+msgid "Ekiga Configuration Assistant (%d of %d)"
+msgstr "მმართველი ასისტენტი - გვერდი 1/%d"
+
+#: ../src/gui/callbacks.cpp:130
+msgid "Contributors:"
+msgstr "წილი გაიღეს:"
+
+#: ../src/gui/callbacks.cpp:140
+msgid "Artwork:"
+msgstr "შემოქმედება:"
+
+#: ../src/gui/callbacks.cpp:147
+msgid "See AUTHORS file for full credits"
+msgstr "იხილეთ ავტორების სრული სია"
+
+#: ../src/gui/callbacks.cpp:163
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version. "
+msgstr ""
+
+#: ../src/gui/callbacks.cpp:167
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for "
+"more details. You should have received a copy of the GNU General Public "
+"License along with this program; if not, write to the Free Software "
+"Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr ""
+
+#: ../src/gui/callbacks.cpp:174
+msgid ""
+"Ekiga is licensed under the GPL license and as a special exception, you have "
+"permission to link or otherwise combine this program with the programs OPAL, "
+"OpenH323 and PWLIB, and distribute the combination, without applying the "
+"requirements of the GNU GPL to the OPAL, OpenH323 and PWLIB programs, as "
+"long as you do follow the requirements of the GNU GPL for all the rest of "
+"the software thus combined."
+msgstr ""
+
+#. Translators: Please write translator credits here, and
+#. * separate names with \n
+#: ../src/gui/callbacks.cpp:186
+msgid "translator-credits"
+msgstr ""
+"Vladimer Sichinava    <alinux@siena.linux.it>\n"
+"Alexander Didebulidze <didebuli@in.tum.de>"
+
+#: ../src/gui/callbacks.cpp:191
+msgid ""
+"Ekiga is full-featured SIP and H.323 compatible VoIP, IP-Telephony and "
+"Videoconferencing application that allows you to make audio and video calls "
+"to remote users with SIP and H.323 hardware or software."
+msgstr ""
+"Ekiga (ეკიგა) არის სრულყოფილი სოფტ-VoIP-ტელეფონი SIP და .323 პროტოკოლების "
+"მხარდაჭერით, ამავ დროს იგი ვიდეო ტელეფონია, მისი დახმარებით თქვენ დაშორებული "
+"მომხმარებლის არა მარტო ხმის გაგება შეგიძლიათ არამედ მისი ხილვაც."
+
+#: ../src/gui/dialpad.cpp:59
+msgid "abc"
+msgstr ""
+
+#: ../src/gui/dialpad.cpp:60
+msgid "def"
+msgstr ""
+
+#: ../src/gui/dialpad.cpp:61
+msgid "ghi"
+msgstr ""
+
+#: ../src/gui/dialpad.cpp:62
+msgid "jkl"
+msgstr ""
+
+#: ../src/gui/dialpad.cpp:63
+msgid "mno"
+msgstr ""
+
+#: ../src/gui/dialpad.cpp:64
+msgid "pqrs"
+msgstr ""
+
+#: ../src/gui/dialpad.cpp:65
+msgid "tuv"
+msgstr ""
+
+#: ../src/gui/dialpad.cpp:66
+msgid "wxyz"
+msgstr ""
+
+#. Translators: Is displayed once an account "%s" is registered.
+#: ../src/gui/main.cpp:582
+#, fuzzy, c-format
+msgid "Registered %s"
+msgstr "დავრეგისტრირდი %s -ში"
+
+#. Translators: Is displayed once an account "%s" is unregistered.
+#: ../src/gui/main.cpp:588
+#, fuzzy, c-format
+msgid "Unregistered %s"
+msgstr "არარეგისტრირებული"
+
+#: ../src/gui/main.cpp:593
+#, fuzzy, c-format
+msgid "Could not unregister %s"
+msgstr "ვერ ვუკავშირდები დაშორებულ ჰოსტს"
+
+#: ../src/gui/main.cpp:597
+#, fuzzy, c-format
+msgid "Could not register %s"
+msgstr "ვერ ვუკავშირდები დაშორებულ ჰოსტს"
+
+#: ../src/gui/main.cpp:657
+#, c-format
+msgid "A:%.1f/%.1f   V:%.1f/%.1f   FPS:%d/%d"
+msgstr ""
+
+#: ../src/gui/main.cpp:732
+#, c-format
+msgid "Connected with %s"
+msgstr "კავშირი დამყარებულია %s -თან"
+
+#: ../src/gui/main.cpp:765 ../src/gui/main.cpp:2336
+msgid "Standby"
+msgstr "მზადყოფნაში"
+
+#: ../src/gui/main.cpp:826
+#, fuzzy
+msgid "Call on hold"
+msgstr "დასრულებული ზარი"
+
+#: ../src/gui/main.cpp:839
+#, fuzzy
+msgid "Call retrieved"
+msgstr "გადაგზავნილი ზარი"
+
+#: ../src/gui/main.cpp:858
+#, fuzzy, c-format
+msgid "Missed call from %s"
+msgstr "შემოვიდა ზარი %s"
+
+#: ../src/gui/main.cpp:1005 ../src/gui/misc.cpp:94
+msgid "Error"
+msgstr "შეცდომა"
+
+#: ../src/gui/main.cpp:1138
+#, fuzzy, c-format
+msgid "Added video input device %s"
+msgstr "აუდიო შესავალის მოწყობილობა"
+
+#: ../src/gui/main.cpp:1155
+#, fuzzy, c-format
+msgid "Removed video input device %s"
+msgstr "ვიდეოს შესავალი ხელსაწყო"
+
+#: ../src/gui/main.cpp:1172
+#, fuzzy, c-format
+msgid "Error while accessing video device %s"
+msgstr "დაიშვა შეცდომა ვიდეო მოწყობილობა %s გახსნის დროს"
+
+#: ../src/gui/main.cpp:1175
+#, fuzzy
+msgid ""
+"A moving logo will be transmitted during calls. Notice that you can always "
+"transmit a given image or the moving logo by choosing \"Picture\" as video "
+"plugin and \"Moving logo\" or \"Static picture\" as device."
+msgstr ""
+"ზარების დროს მოძრავი ემბლემა იქნება გადაცემული. გაითვალისწინეთ რომ თქვენ "
+"შეგიძლიათ თქვენი ფოტოს ამოირჩევა. "
+
+#: ../src/gui/main.cpp:1179
+#, fuzzy
+msgid ""
+"There was an error while opening the device. In case it is a pluggable "
+"device it may be sufficient to reconnect it. If not, or if it still is not "
+"accessible, please check your permissions and make sure that the appropriate "
+"driver is loaded."
+msgstr ""
+"დაიშვა შეცდომა მოწყობილობის გახსნისას. გთხოვთ შეამოწმოთ თქვენი უფლებები და "
+"დარწმუნდით რომ სწორი დრაივერია ჩატვირთული."
+
+#: ../src/gui/main.cpp:1183
+msgid "Your video driver doesn't support the requested video format."
+msgstr "თქვენს ვიდეო დრაივერს არ გააჩნია მოცემული ვიდეო ფორმატის მხარდაჭერა."
+
+#: ../src/gui/main.cpp:1187
+msgid "Could not open the chosen channel."
+msgstr "ვერ ვხსნი ამორჩეულ არხს."
+
+#: ../src/gui/main.cpp:1191
+msgid ""
+"Your driver doesn't seem to support any of the color formats supported by "
+"Ekiga.\n"
+" Please check your kernel driver documentation in order to determine which "
+"Palette is supported."
+msgstr ""
+"თქვენს დრაივერს არ გააჩნია ეკიგასთან მომუშავე ფერთა მხარდაჭერა.\n"
+"გთხოვთ შეამოწმოთ თქვენი კერნელის დრაივერის დოკუმენტაცია."
+
+#: ../src/gui/main.cpp:1195
+msgid "Error while setting the frame rate."
+msgstr "შეცდომა ფოტოგრამის რაოდენობის ამორჩევისას."
+
+#: ../src/gui/main.cpp:1199
+msgid "Error while setting the frame size."
+msgstr "დაიშვა შეცდომა ფოტოგრამის ზომის დაყენების დროს."
+
+#: ../src/gui/main.cpp:1204 ../src/gui/main.cpp:1313 ../src/gui/main.cpp:1433
+#, fuzzy
+msgid "Unknown error."
+msgstr "უცნობი NAT"
+
+#: ../src/gui/main.cpp:1260
+#, fuzzy, c-format
+msgid "Added audio input device %s"
+msgstr "აუდიო შესავალის მოწყობილობა"
+
+#: ../src/gui/main.cpp:1280
+#, fuzzy, c-format
+msgid "Removed audio input device %s"
+msgstr "აუდიო შესავალის მოწყობილობა"
+
+#: ../src/gui/main.cpp:1297
+#, fuzzy, c-format
+msgid "Error while opening audio input device %s"
+msgstr "დაიშვა შეცდომა ვიდეო მოწყობილობა %s გახსნის დროს"
+
+#: ../src/gui/main.cpp:1300
+msgid "Only silence will be transmitted."
+msgstr ""
+
+#: ../src/gui/main.cpp:1304
+#, fuzzy
+msgid ""
+"Unable to open the selected audio device for recording. In case it is a "
+"pluggable device it may be sufficient to reconnect it. If not, or if it "
+"still is not accessible, please check your audio setup, the permissions and "
+"that the device is not busy."
+msgstr ""
+"ვერ ვხსნი მონიშნულ აუდიო მოწყობილობა (%s) ჩაწერისთვის. გთხოვთ შეამოწმეთ "
+"თქვენი აუდიო პარამეტრები, უფლებები, თავისუფლება და ასე შემდეგ..."
+
+#: ../src/gui/main.cpp:1308
+#, fuzzy
+msgid ""
+"The selected audio device was successfully opened but it is impossible to "
+"read data from this device. In case it is a pluggable device it may be "
+"sufficient to reconnect it. If not, or if it still is not accessible, please "
+"check your audio setup."
+msgstr ""
+"აუდიო მოწყობილობა (%s) უპრობლემოდ გაიხსნა, მაგრამ შეუძლებელია მისგან "
+"მონაცემების მიღება. გთხოვთ შემოწმოთ თქვენი აუდიო რეგულაცია."
+
+#: ../src/gui/main.cpp:1378
+#, fuzzy, c-format
+msgid "Added audio output device %s"
+msgstr "აუდიო გასავალის მოწყობილობა"
+
+#: ../src/gui/main.cpp:1396
+#, fuzzy, c-format
+msgid "Removed audio output device %s"
+msgstr "ალტერნატიული აუდიო გასავალის მოწყობილობა"
+
+#: ../src/gui/main.cpp:1417
+#, fuzzy, c-format
+msgid "Error while opening audio output device %s"
+msgstr "დაიშვა შეცდომა ვიდეო მოწყობილობა %s გახსნის დროს"
+
+#: ../src/gui/main.cpp:1420
+msgid "No incoming sound will be played."
+msgstr ""
+
+#: ../src/gui/main.cpp:1424
+#, fuzzy
+msgid ""
+"Unable to open the selected audio device for playing. In case it is a "
+"pluggable device it may be sufficient to reconnect it. If not, or if it "
+"still is not accessible, please check your audio setup, the permissions and "
+"that the device is not busy."
+msgstr ""
+"ვერ ვრთავ აუდიო მოწყობილობას (%s) შეამოწმეთ რომ მოწყობილობა არ არის "
+"დაკავებულისხვა პროგრამის მიერ, ან მასზე დაყენებულია არასწორი უფლებანი."
+
+#: ../src/gui/main.cpp:1428
+#, fuzzy
+msgid ""
+"The selected audio device was successfully opened but it is impossible to "
+"write data from this device. In case it is a pluggable device it may be "
+"sufficient to reconnect it. If not, or if it still is not accessible, please "
+"check your audio setup."
+msgstr ""
+"აუდიო·მოწყობილობა·(%s)·უპრობლემოდ·გაიხსნა,·მაგრამ·შეუძლებელია·მასზე "
+"·მონაცემების·ჩაწერა.·გთხოვთ·შემოწმოთ·თქვენი·აუდიო·რეგულაცია."
+
+#: ../src/gui/main.cpp:1650
+#, fuzzy
+msgid "Enter a URI on the left, and click this button to place a call"
+msgstr "შეიყვანეთ მისამართი მარცხნივ, და დააჭირეთ ღილაკს დარეკვისთვის"
+
+#: ../src/gui/main.cpp:1731
+#, fuzzy
+msgid "_Chat"
+msgstr "_ზარი"
+
+#: ../src/gui/main.cpp:1733
+msgid "Ca_ll"
+msgstr "_დარეკვა"
+
+#: ../src/gui/main.cpp:1733
+msgid "Place a new call"
+msgstr "ახალი ზარის გაშვება"
+
+#: ../src/gui/main.cpp:1736
+msgid "_Hang up"
+msgstr "_გათიშვა"
+
+#: ../src/gui/main.cpp:1737
+msgid "Terminate the current call"
+msgstr "ზარის შეწყვეტა"
+
+#: ../src/gui/main.cpp:1743
+#, fuzzy
+msgid "A_dd Contact"
+msgstr "დაურეკე _მომხმარებელს"
+
+#: ../src/gui/main.cpp:1743
+#, fuzzy
+msgid "Add a contact to the roster"
+msgstr "მომხმარებლის წიგნაკში დამატება"
+
+#: ../src/gui/main.cpp:1748
+#, fuzzy
+msgid "Find contacts"
+msgstr "ადგილმდებარეობა შეიცავს"
+
+#: ../src/gui/main.cpp:1755
+#, fuzzy
+msgid "_Contact"
+msgstr "კ_ავშირი"
+
+#: ../src/gui/main.cpp:1756
+msgid "Act on selected contact"
+msgstr ""
+
+#: ../src/gui/main.cpp:1762
+#, fuzzy
+msgid "H_old Call"
+msgstr "ზ_არის შეყოვნება"
+
+#: ../src/gui/main.cpp:1762 ../src/gui/main.cpp:2434
+msgid "Hold the current call"
+msgstr "მოცემული ზარის დაყოვნება"
+
+#: ../src/gui/main.cpp:1766
+msgid "_Transfer Call"
+msgstr "ზარის _გადაგზავნა"
+
+#: ../src/gui/main.cpp:1767
+msgid "Transfer the current call"
+msgstr "მიმდინარე ზარის გადაგზავნა"
+
+#: ../src/gui/main.cpp:1774 ../src/gui/main.cpp:3201
+msgid "Suspend _Audio"
+msgstr "_აუდიოს შეჩერება"
+
+#: ../src/gui/main.cpp:1775
+msgid "Suspend or resume the audio transmission"
+msgstr "გამორთე ან ჩართე აუდიოს გაგზავნა"
+
+#: ../src/gui/main.cpp:1779 ../src/gui/main.cpp:3203
+msgid "Suspend _Video"
+msgstr "_ვიდეოს შეჩერება"
+
+#: ../src/gui/main.cpp:1780
+msgid "Suspend or resume the video transmission"
+msgstr "გამორთე ან ჩართე ვიდეოს გაგზავნა"
+
+#: ../src/gui/main.cpp:1787
+msgid "Close the Ekiga window"
+msgstr "დახურე Ekiga-ს ფანჯარა"
+
+#: ../src/gui/main.cpp:1794 ../src/gui/statusicon.cpp:419
+#, fuzzy
+msgid "Quit"
+msgstr "_გამორთვა"
+
+#: ../src/gui/main.cpp:1800
+#, fuzzy
+msgid "_Configuration Assistant"
+msgstr "პირველადი გამართვის ასისტენტი"
+
+#: ../src/gui/main.cpp:1801
+#, fuzzy
+msgid "Run the configuration assistant"
+msgstr "კონფიგურაციის დრუიდის გაშვება"
+
+#: ../src/gui/main.cpp:1808
+msgid "_Accounts"
+msgstr "_ანგარიშები"
+
+#: ../src/gui/main.cpp:1809
+msgid "Edit your accounts"
+msgstr "თქვენი ანგარიშების დამუშავება"
+
+#: ../src/gui/main.cpp:1815
+msgid "Change your preferences"
+msgstr "საკუთარი პარამეტრების შეცვლა"
+
+#: ../src/gui/main.cpp:1820
+msgid "_View"
+msgstr "ხ_ედი"
+
+#: ../src/gui/main.cpp:1822
+#, fuzzy
+msgid "Con_tacts"
+msgstr "კ_ავშირი"
+
+#: ../src/gui/main.cpp:1822
+#, fuzzy
+msgid "View the contacts list"
+msgstr "იხილე წარსული ზარების სია"
+
+#: ../src/gui/main.cpp:1827
+msgid "_Dialpad"
+msgstr "_ღილაკები"
+
+#: ../src/gui/main.cpp:1827
+msgid "View the dialpad"
+msgstr "ღილაკების ნახვა"
+
+#: ../src/gui/main.cpp:1832
+#, fuzzy
+msgid "_Call History"
+msgstr "ზარების სია"
+
+#: ../src/gui/main.cpp:1832
+#, fuzzy
+msgid "View the call history"
+msgstr "იხილე წარსული ზარების სია"
+
+#: ../src/gui/main.cpp:1840
+msgid "_Show Call Panel"
+msgstr ""
+
+#: ../src/gui/main.cpp:1848
+#, fuzzy
+msgid "_Local Video"
+msgstr "ლოკალური ვიდეო"
+
+#: ../src/gui/main.cpp:1849
+msgid "Local video image"
+msgstr "ლოკალური ვიდეო გამოსახულება"
+
+#: ../src/gui/main.cpp:1854
+#, fuzzy
+msgid "_Remote Video"
+msgstr "დაშორებული ვიდეო"
+
+#: ../src/gui/main.cpp:1855
+msgid "Remote video image"
+msgstr "შორი ვიდეო გამოსახულება"
+
+#: ../src/gui/main.cpp:1860
+#, fuzzy
+msgid "_Picture-in-Picture"
+msgstr "ორივე (სურათი-სურათში)"
+
+#: ../src/gui/main.cpp:1861 ../src/gui/main.cpp:1867
+msgid "Both video images"
+msgstr "ორივე ვიდეო გამოსახულება"
+
+#: ../src/gui/main.cpp:1866
+msgid "Picture-in-Picture in Separate _Window"
+msgstr ""
+
+#: ../src/gui/main.cpp:1874
+msgid "Zoom in"
+msgstr "გადიდება"
+
+#: ../src/gui/main.cpp:1878
+msgid "Zoom out"
+msgstr "დაპატარავება"
+
+#: ../src/gui/main.cpp:1882
+msgid "Normal size"
+msgstr "ნორმალური ზომა"
+
+#: ../src/gui/main.cpp:1886
+#, fuzzy
+msgid "_Fullscreen"
+msgstr "მთლიან ეკრანზე"
+
+#: ../src/gui/main.cpp:1886
+msgid "Switch to fullscreen"
+msgstr "გადართე მთლიან ეკრანზე"
+
+#: ../src/gui/main.cpp:1891
+msgid "_Help"
+msgstr "დახ_მარება"
+
+#: ../src/gui/main.cpp:1894 ../src/gui/statusicon.cpp:396
+#: ../src/gui/statusicon.cpp:407
+msgid "Get help by reading the Ekiga manual"
+msgstr "მიიღეთ დახმარება ეკიგას დოკუმენტაციის მეშვეობით"
+
+#: ../src/gui/main.cpp:1899 ../src/gui/statusicon.cpp:401
+#: ../src/gui/statusicon.cpp:412
+msgid "View information about Ekiga"
+msgstr "ეკიგას (Ekiga) შესახებ ინფორმაციის ნახვა"
+
+#: ../src/gui/main.cpp:1936
+#, fuzzy
+msgid "Contacts"
+msgstr "კ_ავშირი"
+
+#: ../src/gui/main.cpp:1964
+msgid "Dialpad"
+msgstr "ღილაკები"
+
+#: ../src/gui/main.cpp:2000
+#, fuzzy
+msgid "Video Settings"
+msgstr "ვი_დეო პარამეტრები"
+
+#: ../src/gui/main.cpp:2027
+msgid "Adjust brightness"
+msgstr "სიკაშკაშის გამართვა"
+
+#: ../src/gui/main.cpp:2048
+msgid "Adjust whiteness"
+msgstr "თეთრი იერის გასწორება"
+
+#: ../src/gui/main.cpp:2069
+msgid "Adjust color"
+msgstr "ფერის რეგულირება"
+
+#: ../src/gui/main.cpp:2090
+msgid "Adjust contrast"
+msgstr "კონტრასტის გასწორება"
+
+#: ../src/gui/main.cpp:2144
+#, fuzzy
+msgid "Audio Settings"
+msgstr "_აუდიო პარამეტრები"
+
+#: ../src/gui/main.cpp:2370
+msgid "Change the volume of your soundcard"
+msgstr ""
+
+#: ../src/gui/main.cpp:2392
+msgid "Change the color settings of your video device"
+msgstr ""
+
+#: ../src/gui/main.cpp:2414
+msgid "Display images from your camera device"
+msgstr "კამერის ჩართვა და დისპლეიზე ჩვენება"
+
+#: ../src/gui/main.cpp:2465
+#, fuzzy
+msgid "Call history"
+msgstr "ზარების სია"
+
+#: ../src/gui/main.cpp:3149
+msgid "_Retrieve Call"
+msgstr "_ზარის გამეორება"
+
+#: ../src/gui/main.cpp:3162
+msgid "_Hold Call"
+msgstr "ზ_არის შეყოვნება"
+
+#: ../src/gui/main.cpp:3205
+msgid "Resume _Audio"
+msgstr "_აუდიო რეჟიმი"
+
+#: ../src/gui/main.cpp:3207
+msgid "Resume _Video"
+msgstr "_ვიდეო რეჟიმი"
+
+#: ../src/gui/main.cpp:3611
+#, fuzzy, c-format
+msgid "Call Duration: %s\n"
+msgstr "ლაპარაკის ხანგძლიობა"
+
+#: ../src/gui/main.cpp:3648
+msgid "Transfer call to:"
+msgstr "გადააგზავნე ზარი:"
+
+#: ../src/gui/main.cpp:3713
+msgid "Reject"
+msgstr "აკრძალვა"
+
+#: ../src/gui/main.cpp:3715
+msgid "Accept"
+msgstr "მიიღე"
+
+#: ../src/gui/main.cpp:3722
+msgid "Incoming call from"
+msgstr "შემომავალი ზარი"
+
+#: ../src/gui/main.cpp:3741
+#, fuzzy
+msgid "Remote URI:"
+msgstr "დაშორებული URL:"
+
+#: ../src/gui/main.cpp:3753
+msgid "Remote Application:"
+msgstr "დაშორებული პროგრამა:"
+
+#: ../src/gui/main.cpp:3761
+#, c-format
+msgid "Call from %s"
+msgstr "შემოვიდა ზარი %s"
+
+#: ../src/gui/main.cpp:3803
+#, fuzzy
+msgid "No"
+msgstr "არაფერი"
+
+#: ../src/gui/main.cpp:3805
+msgid "Yes"
+msgstr ""
+
+#: ../src/gui/main.cpp:3815
+#, fuzzy
+msgid "Detected new audio input device:"
+msgstr "გთხოვთ ამოირჩიოთ აუდიო·შეტანის მოწყობილობა:"
+
+#: ../src/gui/main.cpp:3818
+#, fuzzy
+msgid "Detected new audio output device:"
+msgstr "გთხოვთ ამოირჩიოთ აუდიო გამოტანის მოწყობილობა:"
+
+#: ../src/gui/main.cpp:3821
+#, fuzzy
+msgid "Detected new video input device:"
+msgstr "ამოირჩიეთ ვიდეო შეტანის მოწყობილობა:"
+
+#: ../src/gui/main.cpp:3839
+msgid "Do you want to use it as default device?"
+msgstr ""
+
+#. Add title
+#: ../src/gui/main.cpp:3897 ../src/gui/main.cpp:4002
+msgid "Ekiga"
+msgstr "- Ekiga - შენი ხმის თავისუფლება"
+
+#: ../src/gui/main.cpp:4191
+#, fuzzy, c-format
+msgid "Missed calls: %d - Voice Mails: %d"
+msgstr "დაკარგული ზარი: %d - ხმოვანი მეილი: %s"
+
+#: ../src/gui/main.cpp:4350
+#, c-format
+msgid "TX: %dx%d "
+msgstr ""
+
+#: ../src/gui/main.cpp:4353
+#, c-format
+msgid "RX: %dx%d "
+msgstr ""
+
+#: ../src/gui/main.cpp:4355
+#, fuzzy, c-format
+msgid ""
+"Lost packets: %.1f %%\n"
+"Late packets: %.1f %%\n"
+"Out of order packets: %.1f %%\n"
+"Jitter buffer: %d ms%s%s%s"
+msgstr ""
+"დაკარგული პაკეტი: %.1f %%\n"
+"დაგვიანებული პაკეტი: %.1f %%\n"
+"დაზიანებული პაკეტი: %.1f %%\n"
+"Jitter ბუფერი: %d ms"
+
+#: ../src/gui/main.cpp:4501
+#, fuzzy
+msgid "Prints debug messages in the console (level between 1 and 5)"
+msgstr "ბეჭდავს განბზიკვის შეტობინებას კონსოლში (1სა და მე6 ტერმინალს შორის)"
+
+#: ../src/gui/main.cpp:4506
+#, fuzzy
+msgid "Prints user plane debug messages in the console (level between 1 and 4)"
+msgstr "ბეჭდავს განბზიკვის შეტობინებას კონსოლში (1სა და მე6 ტერმინალს შორის)"
+
+#: ../src/gui/main.cpp:4511
+#, fuzzy
+msgid "Makes Ekiga call the given URI"
+msgstr "ეკიგა რეკავს მოცემულ URL მისამართზე"
+
+#: ../src/gui/main.cpp:4620
+msgid "No usable audio plugin detected"
+msgstr "ვერ ვპოულობ აუდიო მოდულს"
+
+#: ../src/gui/main.cpp:4621
+msgid ""
+"Ekiga didn't find any usable audio plugin. Make sure that your installation "
+"is correct."
+msgstr ""
+"ეკიგა ვერ პოულობს აუდიო პლაგინს. შეიძლება პროგრამა არასწორედა არის ჩადგმული."
+
+#: ../src/gui/main.cpp:4624
+#, fuzzy
+msgid "No usable audio codecs detected"
+msgstr "ვერ ვპოულობ აუდიო მოდულს"
+
+#: ../src/gui/main.cpp:4625
+#, fuzzy
+msgid ""
+"Ekiga didn't find any usable audio codec. Make sure that your installation "
+"is correct."
+msgstr ""
+"ეკიგა ვერ პოულობს აუდიო პლაგინს. შეიძლება პროგრამა არასწორედა არის ჩადგმული."
+
+#: ../src/gui/main.cpp:4631
+#, fuzzy
+msgid "Configuration database corruption"
+msgstr "კონფიგურაციის დრუიდი"
+
+#: ../src/gui/main.cpp:4632
+#, fuzzy, c-format
+msgid ""
+"Ekiga got an invalid value for the configuration key %s.\n"
+"\n"
+"It probably means that your configuration schemas have not been correctly "
+"installed or that the permissions are not correct.\n"
+"\n"
+"Please check the FAQ (http://www.ekiga.org/), the troubleshooting section of "
+"the GConf site (http://www.gnome.org/projects/gconf/) or the mailing list "
+"archives for more information (http://mail.gnome.org) about this problem."
+msgstr ""
+"დაიშვა შეცდომა ეკიგას GConf -ში %s.\n"
+"\n"
+"ან GConf -ის სქემაა არასწორედ ჩადგმული ან დაყენებულია არასწორი უფლებები.\n"
+" \n"
+"გთხოვთ შეამოწმოთ FAQ (ხშირად დასმული კითხვები) (http://www.ekiga.org/) -ზე "
+"GConf -ის გამართვის სექციაში, ან იხილეთ (http://www.gnome.org/projects/"
+"gconf/) ოფიციალურ მისამართზე ან დასვით კითხვა თქვენი პრობლემის შესახებ "
+"წერილების სიაში შემდეგ მისამართზე (http://mail.gnome.org)."
+
+#: ../src/gui/preferences.cpp:384
+#, fuzzy
+msgid "_Full name:"
+msgstr "_სახელი:"
+
+#. Add the update button
+#: ../src/gui/preferences.cpp:391
+msgid "_Apply"
+msgstr "_მიიღე"
+
+#: ../src/gui/preferences.cpp:391
+msgid ""
+"Click here to update the users directory you are registered to with the new "
+"First Name, Last Name, E-Mail, Comment and Location"
+msgstr ""
+"აქ დააწკაპეთ რათა განაახლოთ თქვენი მონაცემები სახელი, გვარი, კომენტარი, ელ-"
+"ფოსტა მომხმარებელთა ქსელში."
+
+#: ../src/gui/preferences.cpp:405
+#, fuzzy
+msgid "User Interface"
+msgstr "ქსელის ინტერფეისი"
+
+#: ../src/gui/preferences.cpp:407
+msgid "Start _hidden"
+msgstr "ფარული _გაშვება"
+
+#: ../src/gui/preferences.cpp:409
+msgid "Show offline _contacts"
+msgstr ""
+
+#: ../src/gui/preferences.cpp:414
+msgid "Video Display"
+msgstr "ვიდეო გაშვება"
+
+#: ../src/gui/preferences.cpp:416
+msgid "Place windows displaying video _above other windows"
+msgstr "ვიდეო ფანჯრის სხვა ფანჯრებთან შედარებით წინა _პლანზე გამოჩენა"
+
+#: ../src/gui/preferences.cpp:426
+msgid "Call Forwarding"
+msgstr "ზარების გადაგზავნა"
+
+#: ../src/gui/preferences.cpp:428
+msgid "_Always forward calls to the given host"
+msgstr "_ყოველთვის ზარების მოცემულ მისამართზე გადაგზავნა"
+
+#: ../src/gui/preferences.cpp:428
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the protocol settings"
+msgstr ""
+"თუ მონიშნულია, შემოვამალი·ზარი·გადაიგზავნება პროტოკოლში მიცემულ მისამართზე"
+
+#: ../src/gui/preferences.cpp:430
+msgid "Forward calls to the given host if _no answer"
+msgstr "ზარის გადაგზავნა პასუხის ა_რ გაცემის შემთხვევაში"
+
+#: ../src/gui/preferences.cpp:430
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the protocol settings if you do not answer the call"
+msgstr "თუ მონიშნულია"
+
+#: ../src/gui/preferences.cpp:432
+msgid "Forward calls to the given host if _busy"
+msgstr "ზარის გადაგზავნა თუ ხაზი _დაკავებულია"
+
+#: ../src/gui/preferences.cpp:432
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the protocol settings if you already are in a call or if you "
+"are in Do Not Disturb mode"
+msgstr ""
+"მონიშვნის·შემთხვევაში,"
+"თუ·დაკავებული·ბრძანდებით·ან·თქვენი·სტატუსია·'არ·შემიშალოთ·ხელი',"
+"·მაშინ·ყოველი·შემომავალი·ზარი·გადაიგზავნება·ქვემოთ·მოცემულ·მისამართზე"
+
+#: ../src/gui/preferences.cpp:436 ../src/gui/preferences.cpp:1469
+msgid "Call Options"
+msgstr "რეკვის პარამეტრები"
+
+#. Add all the fields
+#: ../src/gui/preferences.cpp:439
+msgid "Timeout to reject or forward unanswered incoming calls (in seconds):"
+msgstr "შემომავალი ზარების გადაგზავნის ან უარყოფის დრო (წამებში):"
+
+#: ../src/gui/preferences.cpp:471
+msgid "Ekiga Sound Events"
+msgstr "ეკიგას ხმოვანი მოვლენები"
+
+#: ../src/gui/preferences.cpp:520 ../src/gui/preferences.cpp:529
+#: ../src/gui/preferences.cpp:538
+msgid "Event"
+msgstr "მოვლენა"
+
+#: ../src/gui/preferences.cpp:550
+msgid "Choose a sound"
+msgstr "ხმის ამორჩევა"
+
+#: ../src/gui/preferences.cpp:556
+msgid "Wavefiles"
+msgstr "Wave ტიპის ფაილი"
+
+#: ../src/gui/preferences.cpp:565 ../src/gui/preferences.cpp:584
+msgid "Play"
+msgstr "დაკვრა"
+
+#: ../src/gui/preferences.cpp:605
+msgid "String"
+msgstr "ტექსტ სტრიქონი"
+
+#: ../src/gui/preferences.cpp:606
+msgid "Tone"
+msgstr "ტონი"
+
+#: ../src/gui/preferences.cpp:607 ../src/gui/preferences.cpp:656
+msgid "RFC2833"
+msgstr "RFC2833"
+
+#: ../src/gui/preferences.cpp:608
+msgid "Q.931"
+msgstr "Q.931"
+
+#: ../src/gui/preferences.cpp:614 ../src/gui/preferences.cpp:666
+msgid "Misc Settings"
+msgstr "სხვადასხვა პარამეტრები"
+
+#: ../src/gui/preferences.cpp:617 ../src/gui/preferences.cpp:671
+#, fuzzy
+msgid "Forward _URI:"
+msgstr "URL -ის გადაგზავნა:"
+
+#: ../src/gui/preferences.cpp:626
+msgid "Advanced Settings"
+msgstr "დამატებითი პარამეტრები"
+
+#. The toggles
+#: ../src/gui/preferences.cpp:629
+msgid "Enable H.245 _tunneling"
+msgstr "H.245 _ტუნელინგის ჩართვა"
+
+#: ../src/gui/preferences.cpp:631
+msgid "Enable _early H.245"
+msgstr "ადრეული H.245 -ის ჩართვა"
+
+#: ../src/gui/preferences.cpp:633
+msgid "Enable fast _start procedure"
+msgstr "სწრაფი ჩართვის _პროცედურის აქტივირება"
+
+#: ../src/gui/preferences.cpp:633
+msgid ""
+"Connection will be established in Fast Start mode. Fast Start is a new way "
+"to start calls faster that was introduced in H.323v2. It is not supported by "
+"Netmeeting and using both Fast Start and H.245 Tunneling can crash some "
+"versions of Netmeeting."
+msgstr ""
+"კავშირი დამყარდება 'სწრაფი ჩართვის' მეთოდით.'სწრაფი ჩართვა' შემოღებულ "
+"იქნაH.323v2 -ში. მას არ გააჩნია Netmeeting -ის მხარდაჭერა."
+
+#: ../src/gui/preferences.cpp:639 ../src/gui/preferences.cpp:679
+msgid "DTMF Mode"
+msgstr "DTMF მოდუსი"
+
+#: ../src/gui/preferences.cpp:641 ../src/gui/preferences.cpp:681
+msgid "_Send DTMF as:"
+msgstr "_გააგზავნე DTMF როგორც:"
+
+#: ../src/gui/preferences.cpp:641 ../src/gui/preferences.cpp:681
+#, fuzzy
+msgid "This allows you to set the mode for DTMFs sending."
+msgstr ""
+"გადაცემის DTMF რეჟიმის ჩართვა. დასაშვები მნიშვნელობაა მხოლოდ  \"RFC2833\"·(0)"
+
+#: ../src/gui/preferences.cpp:657
+msgid "INFO"
+msgstr ""
+
+#: ../src/gui/preferences.cpp:668
+msgid "_Outbound Proxy:"
+msgstr "_გამავალი პროქსი:"
+
+#: ../src/gui/preferences.cpp:709
+msgid "Ringing Device"
+msgstr ""
+
+#: ../src/gui/preferences.cpp:709
+#, fuzzy
+msgid "Select the ringing audio device to use"
+msgstr "ამოირჩიეთ·გამოსაყენებელი·აუდიო·შეტანის·მოწყობილობა"
+
+#: ../src/gui/preferences.cpp:711
+msgid "Output device:"
+msgstr "გამავალი მოწყობილობა:"
+
+#: ../src/gui/preferences.cpp:718 ../src/gui/preferences.cpp:866
+msgid "Input device:"
+msgstr "შემავალი მოწყობილობა:"
+
+#. That button will refresh the device list
+#: ../src/gui/preferences.cpp:723 ../src/gui/preferences.cpp:930
+msgid "_Detect devices"
+msgstr "_მოწყობილობათა ამოცნობა"
+
+#: ../src/gui/preferences.cpp:723 ../src/gui/preferences.cpp:930
+#, fuzzy
+msgid "Click here to refresh the device list."
+msgstr "დააწკაპეთ აქ, მოწყობილობების სიის განახლებისთვის."
+
+#: ../src/gui/preferences.cpp:844
+msgid "PAL (Europe)"
+msgstr "PAL (ევროპა)"
+
+#: ../src/gui/preferences.cpp:845
+msgid "NTSC (America)"
+msgstr "NTSC (ამერიკა)"
+
+#: ../src/gui/preferences.cpp:846
+msgid "SECAM (France)"
+msgstr "SECAM (საქართველო,საფრანგეთი..)"
+
+#: ../src/gui/preferences.cpp:847
+msgid "Auto"
+msgstr "ავტო"
+
+#: ../src/gui/preferences.cpp:859
+msgid "Video Devices"
+msgstr "ვიდეო მოწყობილობა"
+
+#. Video Channel
+#: ../src/gui/preferences.cpp:870
+msgid "Channel:"
+msgstr "არხი:"
+
+#: ../src/gui/preferences.cpp:872
+msgid "Size:"
+msgstr "ზომა:"
+
+#: ../src/gui/preferences.cpp:872
+#, fuzzy
+msgid "Select the transmitted video size"
+msgstr "ამოირჩიეთ გამოსაყენებელი აუდიო გამოტანის მოწყობილობა"
+
+#: ../src/gui/preferences.cpp:874
+msgid "Format:"
+msgstr "ფორმატი:"
+
+#. The file selector button
+#: ../src/gui/preferences.cpp:877
+msgid "Image:"
+msgstr "სურათი:"
+
+#: ../src/gui/preferences.cpp:880
+msgid "Choose a Picture"
+msgstr "ამოირჩიე სურათი"
+
+#: ../src/gui/preferences.cpp:884
+msgid "Preview"
+msgstr "წინასწარი ნახვა"
+
+#: ../src/gui/preferences.cpp:894
+msgid "Images"
+msgstr "სურათები"
+
+#: ../src/gui/preferences.cpp:954 ../src/gui/preferences.cpp:993
+#: ../src/gui/preferences.cpp:1494 ../src/gui/preferences.cpp:1504
+msgid "Codecs"
+msgstr "კოდეკები"
+
+#: ../src/gui/preferences.cpp:967 ../src/gui/preferences.cpp:1006
+#, fuzzy
+msgid "Settings"
+msgstr "NAT პარამეტრები"
+
+#. Translators: the full sentence is Automatically adjust jitter buffer
+#. between X and Y ms
+#: ../src/gui/preferences.cpp:971
+msgid "Enable silence _detection"
+msgstr "სიჩუმის დეტექტორის ჩა_რთვა"
+
+#: ../src/gui/preferences.cpp:971
+msgid "If enabled, use silence detection with the codecs supporting it."
+msgstr ""
+"თუ მონიშნულია, გამოიყენება სიჩუმის დეტექტორი, თუ რა თქმა უნდა კოდეკს გააჩნია "
+"მისი მხარდაჭერა."
+
+#: ../src/gui/preferences.cpp:973
+msgid "Enable echo can_celation"
+msgstr "ჩართე ექოს მოშორება"
+
+#: ../src/gui/preferences.cpp:973
+msgid "If enabled, use echo cancelation."
+msgstr "მონიშნვნის შემთხვევში, გამოიყენებს ავტომატური ექოს მოშორებას"
+
+#: ../src/gui/preferences.cpp:975
+#, fuzzy
+msgid "Maximum _jitter buffer (in ms):"
+msgstr "მაქსიმალური jitter-ბუფერი"
+
+#: ../src/gui/preferences.cpp:975
+msgid "The maximum jitter buffer size for audio reception (in ms)."
+msgstr "jitter-ბუფერის მაქსიმალური ზომა შემომავალი აუდიოსთვის(მწ.-ებში)."
+
+#. Translators: the full sentence is Keep a minimum video quality of X %
+#: ../src/gui/preferences.cpp:1009
+msgid "Picture Quality"
+msgstr "სურათის ხარისხი"
+
+#: ../src/gui/preferences.cpp:1009
+msgid ""
+"Choose if you want to guarantee a minimum image quality (possibly leading to "
+"dropped frames in order not to surpass the bitrate limit) or if you prefer "
+"to keep the frame rate."
+msgstr ""
+
+#: ../src/gui/preferences.cpp:1011
+#, fuzzy
+msgid "Maximum video _bitrate (in kbits/s):"
+msgstr "მაქსიმალური ვიდეო გამტარობა (კბ/წ -ში)"
+
+#: ../src/gui/preferences.cpp:1011
+#, fuzzy
+msgid ""
+"The maximum video bitrate in kbits/s. The video quality and the effective "
+"frame rate will be dynamically adjusted to keep the bitrate at the given "
+"value."
+msgstr ""
+"მაქსმმალური ვიდეო გამტარუნარიანობა კილობაიტ/წმ-ში. ვიდეო ხარისხი და "
+"გაგზავნილი ვიდეო ფოტოგრამები დინამიურად გასწორდდებიან."
+
+#: ../src/gui/preferences.cpp:1403
+msgid "Play sound for new voice mails"
+msgstr "დაკვრა ხმოვანი ფოსტის მიღების დროს"
+
+#: ../src/gui/preferences.cpp:1412
+msgid "Play sound for new instant messages"
+msgstr "ახალი შეტყობინების მიღებისას ხმის ჩართვა"
+
+#: ../src/gui/preferences.cpp:1441
+msgid "Ekiga Preferences"
+msgstr "ეკიგას პარამეტრები"
+
+#: ../src/gui/preferences.cpp:1459
+msgid "General"
+msgstr "ზოგადი"
+
+#: ../src/gui/preferences.cpp:1460
+msgid "Personal Data"
+msgstr "პირადი მონაცემები"
+
+#: ../src/gui/preferences.cpp:1465
+msgid "General Settings"
+msgstr "ზოგადი პარამეტრები"
+
+#: ../src/gui/preferences.cpp:1474
+msgid "Sound Events"
+msgstr "ხმოვანი მოვლენები"
+
+#: ../src/gui/preferences.cpp:1478
+msgid "Protocols"
+msgstr "პროტოკოლი"
+
+#: ../src/gui/preferences.cpp:1480
+msgid "SIP Settings"
+msgstr "SIP პარამეტრები"
+
+#: ../src/gui/preferences.cpp:1485
+msgid "H.323 Settings"
+msgstr "H.323 პარამეტრები"
+
+#: ../src/gui/preferences.cpp:1489
+msgid "Audio"
+msgstr "აუდიო"
+
+#: ../src/gui/preferences.cpp:1490 ../src/gui/preferences.cpp:1500
+msgid "Devices"
+msgstr "მოწყობილობები"
+
+#: ../src/gui/preferences.cpp:1499
+msgid "Video"
+msgstr "ვიდეო"
+
+#: ../src/gui/statusicon.cpp:304
+#, fuzzy, c-format
+msgid "You have %d message"
+msgid_plural "You have %d messages"
+msgstr[0] "შეტყობინების გაგზავნა"
+
+#: ../src/gui/statusicon.cpp:406
+msgid "_Contents"
+msgstr "_შინაარსი"
+
+#: ../src/gui/statusicon.cpp:411
+msgid "_About"
+msgstr "_შესახებ"
+
+#: ../src/gui/statusmenu.cpp:90
+msgid "Online"
+msgstr ""
+
+#: ../src/gui/statusmenu.cpp:91
+msgid "Away"
+msgstr ""
+
+#: ../src/gui/statusmenu.cpp:92
+#, fuzzy
+msgid "Do Not Disturb"
+msgstr "_არ შემიშალოთ ხელი"
+
+#: ../src/gui/statusmenu.cpp:510
+msgid "Custom message..."
+msgstr ""
+
+#: ../src/gui/statusmenu.cpp:624 ../src/gui/statusmenu.cpp:759
+msgid "Custom Message"
+msgstr ""
+
+#: ../src/gui/statusmenu.cpp:640
+msgid "Delete custom messages:"
+msgstr ""
+
+#: ../src/gui/statusmenu.cpp:780
+msgid "Define a custom message:"
+msgstr ""
+
+#~ msgid "Address of public IP detector"
+#~ msgstr "IP ამომცნობი საიტის მისამართი"
+
+#~ msgid "Audio plugin"
+#~ msgstr "აუდიო პლაგინი"
+
+#~ msgid ""
+#~ "Automatically switch to fullscreen for images displayed in the main GUI "
+#~ "at the beginning of the call"
+#~ msgstr ""
+#~ "\"მთლიან ეკრანზე\" რეჟიმზე ავტომატურად გადასვლა შემომავალ ზარზე პასუხის "
+#~ "გაცემის შემთხვევაში"
+
+#~ msgid "Change the view mode of the UI"
+#~ msgstr "UI -ს საერთო ხედის შეცვლა "
+
+#~ msgid "Change the view mode of the UI (softphone, videophone, full view)"
+#~ msgstr ""
+#~ "პროგრამის ზოგადი ხედის შეცვლა (სოფტ-ტელეფონი, ვიდეო-ტელეფონი, სრული ხედი)"
+
+#~ msgid "Clear inactive calls"
+#~ msgstr "გაასუფთავე არააქტუირი ზარებისგან"
+
+#~ msgid "Enable IP checking"
+#~ msgstr "ჩართე IP-ს შემოწმება"
+
+#~ msgid "Enable bilinear filtering on displayed video"
+#~ msgstr "ჩართე bilinear filtering-ი ნაჩვენებ ვიდეოზე"
+
+#~ msgid ""
+#~ "Enable or disable bilinear interpolation when rendering video images "
+#~ "(this has no effect in fullscreen mode)"
+#~ msgstr ""
+#~ "ჩართე ან გამორთე ბილინეარული ინტერპოლაცია ვიდეოს ჩვენებისას (არავითარი "
+#~ "გავლენა მთლიან-ეკრანიან დაკვრის დროს)"
+
+#~ msgid ""
+#~ "Enter a valid URL to connect to a web application that outputs the public "
+#~ "IP of your host"
+#~ msgstr ""
+#~ "შეიყვანეთ სწორი მისამართი, რათა დაუკავშირდეთ ვებ საიტს რომელიც მიანიჭებს "
+#~ "IP მისამართს თქვენს ჰოსტს."
+
+#~ msgid ""
+#~ "Enter the public IP of your NAT/PAT router if you want to use IP "
+#~ "translation"
+#~ msgstr ""
+#~ "შეიყვანეთ პუბლიკური IP თქვენი NAT/PAT რუტერისთვის თუ გნებავთ IP "
+#~ "ტრანსლაციის გამოყენება"
+
+#~ msgid "Enter your first name"
+#~ msgstr "შეიყვანეთ თქვენი სახელი"
+
+#~ msgid "Gateway/proxy host"
+#~ msgstr "Gateway/proxy საკვანძო კომპიუტერი"
+
+#~ msgid ""
+#~ "If enabled, calls for which no audio and video has been received in the "
+#~ "last 30 seconds are automatically cleared"
+#~ msgstr ""
+#~ "თუ მონიშნულია, მიღებული ზარი რომელსაც არ გააჩნია აუდიო და ვიდეო იქნება "
+#~ "ანულირებული 30 წამის განმავლობაში"
+
+#~ msgid "Incoming call mode"
+#~ msgstr "შემომავალი ზარის რეჟიმი"
+
+#~ msgid "Last name"
+#~ msgstr "გვარი"
+
+#~ msgid "Minimum jitter buffer"
+#~ msgstr "მინიმალირი jitter-ბუფერი"
+
+#~ msgid "Minimum transmitted video quality"
+#~ msgstr "გაგზავნილი ვიდეოს მინიმალური ხარისხი"
+
+#~ msgid "Missed calls history"
+#~ msgstr "დაკარგული ზარების სია"
+
+#~ msgid "Number of frames for G.711"
+#~ msgstr "აუდიო კადრების რაოდენობა G.711 თვის"
+
+#~ msgid "Number of frames for GSM"
+#~ msgstr "აუდიო კადრების რაოდენობა GSM თვის"
+
+#~ msgid "Number of frames transmitted in each packet for the G.711 codec"
+#~ msgstr "კადრების რიცხვი ყოველ გაგზავნილ პაკეტში G.711 -ის კოდეკისთვის"
+
+#~ msgid "Number of frames transmitted in each packet for the GSM codec"
+#~ msgstr "კადრების·რიცხვი·ყოველ·გაგზავნილ·პაკეტში GSM კოდეკისთვის"
+
+#~ msgid "Placed calls history"
+#~ msgstr "დანარეკი ზარების სია"
+
+#~ msgid "Position on the screen of the calls history window"
+#~ msgstr "ზარების ისტორიის ფანჯრის მდებარეობა ეკრანზე"
+
+#~ msgid "Public IP of the NAT/PAT router"
+#~ msgstr "Public·IP NAT/PAT რუტერისთვის"
+
+#~ msgid "Received calls history"
+#~ msgstr "მიღებული ზარების სია"
+
+#~ msgid ""
+#~ "Select the desired method for NAT traversal (STUN is strongly suggested)"
+#~ msgstr "ამოირჩიეთ NAT -ში გასვლის მეთოდი (STUN საუკეთესო არჩევანია)"
+
+#~ msgid "Size of the calls history window"
+#~ msgstr "ზარების ისტორიის ფანჯრის ზომა"
+
+#~ msgid ""
+#~ "The Gateway host is the host to use to do H.323 calls through a gateway "
+#~ "that will relay calls"
+#~ msgstr ""
+#~ "კარიბჭე არის მისამართი რომელიც გამოიყენება H.323 ზარების დროს და "
+#~ "უზრუნველყობს მათ გარეთ გაყვანას"
+
+#~ msgid "The NAT method"
+#~ msgstr "NAT -ში გასვლის მეთოდი"
+
+#~ msgid ""
+#~ "The audio plugin that will be used to detect the devices and manage them"
+#~ msgstr ""
+#~ "აუდიო მოდული რომელიც გამოყენებული იქნება მოწყობილობათა ამოცნობა/გამართვაში"
+
+#~ msgid "The history of the last 100 missed calls"
+#~ msgstr "ბოლო 100 დაკარგული ზარის სია"
+
+#~ msgid "The history of the last 100 received calls"
+#~ msgstr "ბოლო 100 მიღებული ზარის სია"
+
+#~ msgid "The local zoom value"
+#~ msgstr "ლოკალური მიახლოების ზომა"
+
+#~ msgid "The minimum jitter buffer size for audio reception (in ms)"
+#~ msgstr "მინიმალური jitter ბუფერი აუდიო მიღებისთვის (მ/წამში)"
+
+#~ msgid ""
+#~ "The minimum transmitted video quality to keep when trying to minimize the "
+#~ "used bandwidth: choose 100% on a LAN for the best quality, 1% being the "
+#~ "worst quality"
+#~ msgstr ""
+#~ "გაგზავნილი ვიდეო გამტარუნარიანობა გამოსახული პროცენტებში: გამოიყენეთ 100% "
+#~ "ლოკალური ქსელისთვის და გამოსახულების მაღალი ხარისხისთვის, 1% კი უარესი "
+#~ "ხარისხისთვის"
+
+#~ msgid "The network interface"
+#~ msgstr "ქსელის ინტერფეისი"
+
+#~ msgid "The network interface to listen on"
+#~ msgstr "ქსელის მოწყობილობა რომელიც მზადყოფნაშია"
+
+#~ msgid ""
+#~ "The range of UDP ports that Ekiga will use for RTP (audio and video "
+#~ "communication channels). Ekiga needs to be restarted for the new values "
+#~ "to take effect."
+#~ msgstr ""
+#~ "UDP პორტთა ინტერვალი რომელსაც ეკიგა იყენებს RTP -თვის (აუდიო-ვიდეო "
+#~ "კომუნიკაციის არხები). საჭიროა ეკიგას გადატვირთვა ცვლილებების "
+#~ "დამტკიცებისთვის."
+
+#~ msgid ""
+#~ "The range of UDP ports that Ekiga will use for SIP signaling and when "
+#~ "registering to gatekeepers. Ekiga needs to be restarted for the new "
+#~ "values to take effect."
+#~ msgstr ""
+#~ "UDP პორტების ინტერვალი რომელთაც ეკიგა გეითქიფერებში რეგისტრაციისთვის "
+#~ "გამოიყენებს. საჭიროა ეკიგას შემდგომ გადატვირთვა."
+
+#~ msgid "The remote zoom value"
+#~ msgstr "დაშორებული ვიდეოს ზომა"
+
+#~ msgid ""
+#~ "The video plugin that will be used to detect the devices and manage them"
+#~ msgstr ""
+#~ "ვიდეო მოდული რომელიც მოწყობილობათა ამოსაცნობათ და მათ სამართავად "
+#~ "გამოიყენება"
+
+#~ msgid ""
+#~ "The way to react to incoming calls: 0 displays a popup, 1 automatically "
+#~ "answers the call, 2 automatically rejects the call and 3 forwards the "
+#~ "call to the given URL, if any"
+#~ msgstr ""
+#~ "შემომავალი ზარების რეჟიმები: 0 მხტუნავი ფანჯრის ჩვენება, 1 ავტომატური "
+#~ "პასუხი, 2 ზარის უარყოფა და 3 მოცემულ მისამართზე ზარის გადაგზავნა"
+
+#~ msgid ""
+#~ "The zoom value to apply to images displayed in the local video window "
+#~ "(can be 0.50, 1.00, or 2.00)"
+#~ msgstr ""
+#~ "მიახლოების ზომა ლოკალურ ვიდეო გამოსახულებისთვის (მისაღები ზომებია 0.50, "
+#~ "1.00, ან 2.00)"
+
+#~ msgid ""
+#~ "The zoom value to apply to images displayed in the remote video window "
+#~ "(can be 0.50, 1.00, or 2.00)"
+#~ msgstr ""
+#~ "მიახლოების ზომა დაშორებულ ვიდეო გამოსახულებებში:(შეიძლება იყოს 0.50, "
+#~ "1.00, ან 2.00)"
+
+#~ msgid ""
+#~ "This enables IP checking from ekiga.com. The returned IP is only used "
+#~ "when IP Translation is enabled."
+#~ msgstr ""
+#~ "ამოწმებს IP მისამართს ekiga.com -იდან. მიღებული IP გამოიყენება როდესაცIP "
+#~ "ტრანსლაცია ჩართულია."
+
+#~ msgid "Video plugin"
+#~ msgstr "ვიდეო პლაგინი"
+
+#~ msgid "Credits"
+#~ msgstr "პროექტში მონაწილეობდნენ"
+
+#~ msgid "Written by"
+#~ msgstr "კოდირების ავტორები"
+
+#~ msgid "Documented by"
+#~ msgstr "დოკუმენტირებულია"
+
+#~ msgid "Translated by"
+#~ msgstr "თარგმანი შესრულებულია"
+
+#~ msgid "C_redits"
+#~ msgstr "მ_ონაწილეობდნენ"
+
+#~ msgid "Authors"
+#~ msgstr "ავტორები"
+
+#~ msgid "Documenter entry"
+#~ msgstr "დოკუმენტაციის ჩანაწერი"
+
+#~ msgid "A single documenter entry"
+#~ msgstr "დოკუმენტაციის პროგრამის ცალკეული ჩანაწერი"
+
+#~ msgid "About %s"
+#~ msgstr "%s შესახებ"
+
+#~ msgid ""
+#~ "An error has happened in the configuration backend.\n"
+#~ "Maybe some of your settings won't be saved."
+#~ msgstr ""
+#~ "პრორამის კონფიგურაციის დროს დაიშვა  შეცდომა, შესაძლებელია\n"
+#~ "რომ, რომელიმე თქვენი პარამეტრი არ იქნას დამახსოვრებული."
+
+#~ msgid "Invalid parameters"
+#~ msgstr "არასწორი პარამეტრები"
+
+#~ msgid ""
+#~ "Please provide your first name and e-mail in the Personal Data section in "
+#~ "order to be able to register to the users directory."
+#~ msgstr ""
+#~ "გთხოვთ მოგვაწოდოთ თქვენი სახელი, გვარი და ელ-ფოსტა პირადი მონაცემების "
+#~ "სექციაში რათა დარეგისტრირდეთ მომხმარებელთა ქსელში."
+
+#~ msgid "Invalid users directory"
+#~ msgstr "მომხმარებელთა მცდარი ქსელი"
+
+#~ msgid "Operation impossible since there is no users directory specified."
+#~ msgstr "შეუძლებელია მოქმედების დასრულება, მომხმარებელთა ქსელი ცარიელია"
+
+#~ msgid "Failed to parse XML file"
+#~ msgstr "ვერ შევასრულე XML ფაილისკენ პარსინგი"
+
+#~ msgid ""
+#~ "There was an error while parsing the XML file. Please make sure that it "
+#~ "is correctly installed in your system."
+#~ msgstr ""
+#~ "დაიშვა შეცდომა XML ფაილის პარსინგის დროს. დარწმუნდით რომ იგი ჩაყენებულია "
+#~ "სისტემაში"
+
+#~ msgid "Bad information"
+#~ msgstr "შეცდომიანი ინფორმაცია"
+
+#~ msgid "Bad LDAP information from XML file: %s."
+#~ msgstr "მცდარი LDAP ინფორმაცია XML ფაილიდან: %s."
+
+#~ msgid "ILS registration failed: unable to connect to %s"
+#~ msgstr "ILS რეგისტრაცია არ მოხერხდა: ვერ ვუერთდები %s "
+
+#~ msgid "ILS registration failed: unable to set time limit on operations"
+#~ msgstr "ILS -ში რეგისტრაციამ ჩაიშალა: ვერ ვზღუდავ დროში მოქმედებებს"
+
+#~ msgid "ILS registration failed: failed to bind to %s"
+#~ msgstr "ჩაიშალა ILS -ში რეგისტრაცია: ვერ ვუკავშირდები %s"
+
+#~ msgid "Updated information on %s"
+#~ msgstr "განახლებული ინფორმაცია %s"
+
+#~ msgid "Unregistered from %s"
+#~ msgstr "გავეწერე  %s -დან"
+
+#~ msgid "STUN server set to %s"
+#~ msgstr "STUN სერვერი დაყენებულია %s"
+
+#~ msgid "Removed STUN server"
+#~ msgstr "მოღებული STUN სერვერი"
+
+#~ msgid ""
+#~ "STUN test result: %s.\n"
+#~ "\n"
+#~ "Ekiga could not detect the type of NAT you are using. The most "
+#~ "appropriate method, if your router does not natively support SIP or "
+#~ "H.323, is probably to forward the required ports to your internal machine "
+#~ "and use IP translation if you are behind a NAT router. Please also make "
+#~ "sure you are not running a local firewall."
+#~ msgstr ""
+#~ "STUN -ის ტესტის შედეგი: %s.\n"
+#~ "\n"
+#~ ".ეკიგამ ვერ ამოიცნო NAT -ის ტიპი. თუ თქვენს რუტერს არ გააჩნია SIP ან "
+#~ "H.323 მხარდაჭერა მაშინ საჭიროა თქვენი კომპიუტერისთვის პორტ ფორვარდინგის "
+#~ "განხორციელება. აგრეთვე დარწმუნდით რომ ლოკალური ცეცხლოვანი კედელი "
+#~ "გამორთულია."
+
+#~ msgid ""
+#~ "STUN test result: %s.\n"
+#~ "\n"
+#~ "Your system does not need any specific configuration as long as you do "
+#~ "not have a local firewall blocking the ports required by Ekiga."
+#~ msgstr ""
+#~ "STUN ტესტის შედეგი: %s.\n"
+#~ "\n"
+#~ "თქვენი სისტემა არ საჭიროებს რაიმე განსაკუთრებულ კონფიგურაციას, "
+#~ "რამეთუfirewall -ლი არ ბლოკავს რომელიმე ეკიგასთვის მნიშვნელოვან პორტს."
+
+#~ msgid ""
+#~ "Ekiga detected Symmetric NAT. The most appropriate method, if your router "
+#~ "does not natively support SIP or H.323, is to forward the required ports "
+#~ "to your internal machine in order to change your Symmetric NAT into Cone "
+#~ "NAT. If you run this test again after the port forwarding has been done, "
+#~ "it should report Cone NAT. This should allow Ekiga to be used with STUN "
+#~ "support enabled. If it does not report Cone NAT, then it means that there "
+#~ "is a problem in your forwarding rules."
+#~ msgstr ""
+#~ "ეკიგამ აღმოაჩინა სიმეტრიული NAT. ეს იმას ნიშნავს რომ თქვენს რუტერს არ "
+#~ "გააჩნია SIP და H.323 პროტოკოლების მხარდაჭერა საჭიროა პორტ ფორვარდინგის "
+#~ "ჩატარება რათა სიმეტრიული NAT -ი კონისებრით შეიცვალოს. გაიმეორეთ ტესტირება "
+#~ "და დარწმუნდით რომ კონისებრი NAT -ი მუშაობს და STUN -ი აქტივირებულია. სხვა "
+#~ "შემთხვევაში შეამოწმეთ თქვენი რუტერის პორტ ფორვარდინგის წესები."
+
+#~ msgid ""
+#~ "STUN test result: %s.\n"
+#~ "\n"
+#~ "You do not seem to be using a NAT router. STUN support is not required."
+#~ msgstr ""
+#~ "STUN -ის შედეგი: %s.\n"
+#~ "\n"
+#~ "თქვენ არ გაგაჩნიათ NAT რუტერი, ამიტომ  STUN მხარდაჭერა არ არის საჭირო."
+
+#~ msgid ""
+#~ "STUN test result: %s.\n"
+#~ "\n"
+#~ "Using a STUN server is most probably the most appropriate method if your "
+#~ "router does not natively support SIP or H.323.\n"
+#~ "\n"
+#~ "Enable STUN Support?"
+#~ msgstr ""
+#~ "STUN სერვერის შედეგი: %s.\n"
+#~ "\n"
+#~ "იმ შემთხვევაში თუ თქვენს რუტერს არ გააჩნია SIP და H.323 პროტოკოლების "
+#~ "მხარდაჭერა, ურიგო არ იქნებოდა STUN სერვერის აქტივირება.\n"
+#~ "ჩავრთო STUN მხარდაჭერა?"
+
+#~ msgid "NAT Detection Finished"
+#~ msgstr "NAT -ის ამოცნობა დასრულებულია"
+
+#~ msgid "The detection of your NAT type is finished"
+#~ msgstr "NAT -ის ტიპის ამოცნობა დასრულებულია"
+
+#~ msgid "Open NAT"
+#~ msgstr "ღია NAT"
+
+#~ msgid "Cone NAT"
+#~ msgstr "კონური NAT -ი"
+
+#~ msgid "Restricted NAT"
+#~ msgstr "დაცული NAT -ი"
+
+#~ msgid "Port Restricted NAT"
+#~ msgstr "პორტ შეზღუდული NAT"
+
+#~ msgid "Symmetric NAT"
+#~ msgstr "სიმეტრიული NAT"
+
+#~ msgid "Symmetric Firewall"
+#~ msgstr "სიმეტრიული ცეცხლოვანი კედელი"
+
+#~ msgid "Blocked"
+#~ msgstr "დაბლოკილი"
+
+#~ msgid "Partially Blocked"
+#~ msgstr "ნაწილობრივად დაბლოკილი"
+
+#~ msgid "No NAT"
+#~ msgstr "არავითარი NAT -ი"
+
+#~ msgid "Detection in progress"
+#~ msgstr "მიმდინარეობს ამოცნობა"
+
+#~ msgid "Please wait while your type of NAT is being detected."
+#~ msgstr "გთხოვთ მოითმინოთ სანამ ვცდილობ ამოვიცნო თქვენი NAT ტიპი."
+
+#~ msgid "Set STUN server to %s (%s)"
+#~ msgstr "დააყენე STUN სერვერი %s·(%s)"
+
+#~ msgid "Ignored STUN server (%s)"
+#~ msgstr "იგნორირებულია STUN სერვერი (%s)"
+
+#~ msgid "Cannot run Ekiga"
+#~ msgstr "ვერ ვრთავ ეკიგას"
+
+#~ msgid ""
+#~ "Ekiga is already running, if you want it to call a given SIP, H.323, or "
+#~ "callto address, please use \"ekiga -c address\"."
+#~ msgstr ""
+#~ "ეკიგა უკვე ჩართულია, თუ გნებავთ დარეკვა მოცემულ SIP, H.323 ან callto: "
+#~ "მისამართზე, გთხოვთ გამოიყენოთ \"ekiga -c მისამართი\"."
+
+#~ msgid ""
+#~ "It appears that you do not have ekiga.server installed in a valid "
+#~ "location. Factory mode disabled.\n"
+#~ msgstr ""
+#~ "თუ გამოჩნდა, ესეიგი ეკიგა არ არის დაყენებული სწორ ადგილას.გაუქმებულია "
+#~ "პირველადი პარამეტრები.\n"
+
+#~ msgid ""
+#~ "Error registering Ekiga with the activation service; factory mode "
+#~ "disabled.\n"
+#~ msgstr ""
+#~ "დაიშვა შეცდომა ეკიგას რეგისტრაციის გავლის დროს, საწყისი პარამეტრები "
+#~ "გაუქმებულია.\n"
+
+#~ msgid "Failed to retrieve Ekiga server from activation server\n"
+#~ msgstr "ვერ ვიღებ ეკიგას აქტივაციის დასტურს\n"
+
+#~ msgid "Opening video device %s with plugin %s"
+#~ msgstr "ვხსნი ვიდეო მოწყობილობა %s მოდულ %s -ის გამოყენებით"
+
+#~ msgid "Successfully opened video device %s, channel %d"
+#~ msgstr "წარმატებული გახსნა ვიდეო მოწყობილობა %s, მე %d არხზე"
+
+#~ msgid "Couldn't open the video device"
+#~ msgstr "ვერ ვხსნი ვიდეო მოწვობილობას"
+
+#~ msgid "Opened the video device using the \"Picture\" video plugin"
+#~ msgstr "გახსნლია ვიდეო მოწყობილობა მოდულ\"სურათი\" -ის გამოყენებით"
+
+#~ msgid "Picture"
+#~ msgstr "სურათი"
+
+#~ msgid ""
+#~ "Ekiga is now testing the %s video device. If you experience machine "
+#~ "crashes, then report a bug to the video driver author."
+#~ msgstr ""
+#~ "ეკიგა ატესტირებს თქვენს %s ვიდეო მოწყობილობას. მარცხის შემთხვევაში "
+#~ "გაუგზავნეთ შეცდომების გამონატანი ვიდეო დრაივერის ავტორს."
+
+#~ msgid "Test %d done"
+#~ msgstr "ტესტი %d დასრულებულია"
+
+#~ msgid "Test %d failed"
+#~ msgstr "შეცდომა ტესტი %d დროს"
+
+#~ msgid "Error while opening %s."
+#~ msgstr "შეცდომა %s -ის გახსნისას."
+
+#~ msgid "Could not open the chosen channel with the chosen video format."
+#~ msgstr "ვერ ვხსნი ამორჩეულ არხს, ამორჩეული ვიდეო ფორმატის გამო"
+
+#~ msgid "Your driver doesn't support any of the color formats tried by Ekiga"
+#~ msgstr "თქვენს დრაივერს არ გააჩნია ეკიგას მიერ გამოყენებულ ფერთა მხარდაჭერა"
+
+#~ msgid "Error with the frame rate."
+#~ msgstr "შეცდომა ფოტოგრამების მართვისას."
+
+#~ msgid "Error with the frame size."
+#~ msgstr "შეცდომა ფოტოგრამის ზომაში."
+
+#~ msgid "Registration of %s to %s failed"
+#~ msgstr "%s -ის %s -ში რეგისტრაცია ჩაიშალა"
+
+#~ msgid "Registration failed"
+#~ msgstr "რეგისტრაცია ვერ მოხერხდა"
+
+#~ msgid "Unregistering"
+#~ msgstr "გაწერა"
+
+#~ msgid "Gatekeeper registration failed: duplicate alias"
+#~ msgstr "გეითქიფერში რეგისტრაციამ ჩაიშალა: ორი ერთნაირი მეტსახელი"
+
+#~ msgid "Gatekeeper registration failed: bad username/password"
+#~ msgstr "გეითქიფერში რეგისტრაციამ ჩაიშალა: არასწორი სახელი/პაროლი"
+
+#~ msgid "Gatekeeper registration failed: transport error"
+#~ msgstr "გეითქიფერში რეგისტრაციის შეცდომა: გადატანის შეცდომა"
+
+#~ msgid "Gatekeeper registration failed"
+#~ msgstr "გეითქიფერში რეგისტრაციამ ჩაიშალა"
+
+#~ msgid "Answering incoming call"
+#~ msgstr "ვპასუხობ შემომავალ ზარს"
+
+#~ msgid "On This Computer"
+#~ msgstr "ამ კომპიუტერზე"
+
+#~ msgid "Personal"
+#~ msgstr "პირადი სია"
+
+#~ msgid "Started Ekiga %d.%d.%d for user %s"
+#~ msgstr "ეკიგა ჩართულია %d.%d.%d მომხმარებელ %s -ისთვის"
+
+#~ msgid "Forwarding call to %s"
+#~ msgstr "გადამყავს ზარი %s -ზე"
+
+#~ msgid "Rejecting incoming call"
+#~ msgstr "შემომავალი ზარის უარყოფა"
+
+#~ msgid "Rejecting incoming call from %s"
+#~ msgstr "ვუარყობ %s -ისგან შემომავალ ზარს"
+
+#~ msgid "Forwarding incoming call"
+#~ msgstr "შემომავალი ზარის გადაგზავნა"
+
+#~ msgid "Forwarding incoming call from %s to %s"
+#~ msgstr "გადამაქვს შემომავალი ზარი %s მისამართ %s -ზე"
+
+#~ msgid "Auto-Answering incoming call"
+#~ msgstr "ავტოპასუხი შემომავალ ზარზე"
+
+#~ msgid "Auto-Answering incoming call from %s"
+#~ msgstr "ავტო-პასუხი ზარზე %s -იდან"
+
+#~ msgid "Connected with %s using %s"
+#~ msgstr "კავშირი დამყარებულია %s ვიყენებ %s"
+
+#~ msgid "Call not answered in the required time"
+#~ msgstr "ვერ ვპასუხობ საჭირო დროში"
+
+#~ msgid "Remote user is unreachable"
+#~ msgstr "დაშორებული მომხმარებელი ხელმიუწვდომელია"
+
+#~ msgid "Remote user is offline"
+#~ msgstr "ხაზგარეშე მდგომარეობაშია"
+
+#~ msgid "Error while starting the listener for the H.323 protocol"
+#~ msgstr "შეცდომა H.323 პროტოკოლისთვის საჭირო პორტის გააქტიურებისას"
+
+#~ msgid ""
+#~ "You will not be able to receive incoming H.323 calls. Please check that "
+#~ "no other program is already running on the port used by Ekiga."
+#~ msgstr ""
+#~ "შეუძლებელია H.323 ზარების მიღება. გთხოვთ დარწმუნდეთ რომ სხვა პროგრამა არ "
+#~ "იყენებდეს ეკიგას პორტებს."
+
+#~ msgid "Error while starting the listener for the SIP protocol"
+#~ msgstr "დაიშვა შეცდომა SIP პროტოკოლის აკტივირების დროს"
+
+#~ msgid ""
+#~ "You will not be able to receive incoming SIP calls. Please check that no "
+#~ "other program is already running on the port used by Ekiga."
+#~ msgstr ""
+#~ "შეუძლებელია SIP ზარების განხორციელება. გთხოვთ დარწმუნდეთ რომ სხვა "
+#~ "პროგრამა არ იყენებდეს ეკიგას პორტებს."
+
+#~ msgid "Opened codec %s for transmission"
+#~ msgstr "გაიხსნა კოდეკი %s გაგზავნისთვის"
+
+#~ msgid "Closed codec %s which was opened for transmission"
+#~ msgstr "დაიხურა კოდეკი %s რომელიც გახსნილი იყო გაგზავნისთვის"
+
+#~ msgid "Opened codec %s for reception"
+#~ msgstr "გაიხსნა კოდეკი %s მიღებისთვის"
+
+#~ msgid "Closed codec %s which was opened for reception"
+#~ msgstr "დაიხურა კოდეკი %s რომელიც მიღებისთვის იყო ღია"
+
+#~ msgid "%.2ld:%.2ld:%.2ld  A:%.2f/%.2f   V:%.2f/%.2f"
+#~ msgstr "%.2ld:%.2ld:%.2ld··A:%.2f/%.2f···V:%.2f/%.2f"
+
+#~ msgid "Opened %s for recording with plugin %s"
+#~ msgstr "გახსნილია %s რათა ჩაწეროს %s მოდულით"
+
+#~ msgid "Opened %s for playing with plugin %s"
+#~ msgstr "გახსნილია %s რათა დაიკრას %s მოდულის მეშვეობით"
+
+#~ msgid "Could not open audio channel for audio transmission"
+#~ msgstr "ვერ ვხსნი აუდიო არხს აუდიოს გაგზავნისთვის"
+
+#~ msgid ""
+#~ "An error occured while trying to record from the soundcard for the audio "
+#~ "transmission. Please check that your soundcard is not busy and that your "
+#~ "driver supports full-duplex.\n"
+#~ "The audio transmission has been disabled."
+#~ msgstr ""
+#~ "ხმის ჩაწერისას დაიშვა შეცდომა, გთხოვთ შეამოწმოთ თქვენი ხმის პლატა, "
+#~ "შეიძლება იგი დაკავებულია ან არ აქვს full-duplex -ის მხარდაჭერა.\n"
+#~ "აუდიო გადაცემა გამორთულია."
+
+#~ msgid "Could not open audio channel for audio reception"
+#~ msgstr "ვერ ვხსნი აუდიო არხს აუდიო მიღებისთვის"
+
+#~ msgid ""
+#~ "An error occured while trying to play audio to the soundcard for the "
+#~ "audio reception. Please check that your soundcard is not busy and that "
+#~ "your driver supports full-duplex.\n"
+#~ "The audio reception has been disabled."
+#~ msgstr ""
+#~ "დაიშვა შეცდომა აუდიოს დაკვრის დროს, შეამოწმეთ რომ თქვენი ხმის კარტა "
+#~ "დაკავებული არ არის და თქვენს დრაივერს გააჩნია full-duplex -ის "
+#~ "მხარდაჭერა.\n"
+#~ "აუდიო მიღება გათიშულია."
+
+#~ msgid "Registration failed: %s"
+#~ msgstr "რეგისტრაციამ ვერ ჩაიარა: %s"
+
+#~ msgid "Unregistration failed: %s"
+#~ msgstr "ამოწერამ ჩაიშალა: %sშ"
+
+#~ msgid "Unregistration failed"
+#~ msgstr "ამოწერამ ჩაიშალა"
+
+#~ msgid "Error: User not found"
+#~ msgstr "შეცდომა: ვერ ვპოულობ მომხმარებელს"
+
+#~ msgid "Error: User offline"
+#~ msgstr "შეცდომა: მომხმარებელი ხაზიდან გასულია"
+
+#~ msgid "Error: Forbidden"
+#~ msgstr "შეცდომა: აკრძალული"
+
+#~ msgid "Error: Timeout"
+#~ msgstr "შეცდომა ტაიმაუტი"
+
+#~ msgid "Error: Failed to transmit message"
+#~ msgstr "შეცდომა: ვერ ვაგზავნი შეტყობინებას"
+
+#~ msgid "Invalid URL handler"
+#~ msgstr "არასწორი URL"
+
+#~ msgid ""
+#~ "Please specify a valid URL handler. Currently both h323: and callto: are "
+#~ "supported."
+#~ msgstr ""
+#~ "გთხოვთ მიუთითოთ სწორი მისამართი. შესაძლებელია h323: და callto: -ს "
+#~ "გამოყენება."
+
+#~ msgid "Calling %s"
+#~ msgstr "ვურეკავ %s -თან"
+
+#~ msgid "Transferring call to %s"
+#~ msgstr "ზარის გადაგზავნა %s"
+
+#~ msgid "Edit the Account Information"
+#~ msgstr "დაარედაქტირე ანგარიშის ინფორმაცია"
+
+#~ msgid "Protocol:"
+#~ msgstr "პროტოკოლი:"
+
+#~ msgid "More _Options"
+#~ msgstr "მეტი პარამე_ტრი"
+
+#~ msgid "Realm/Domain:"
+#~ msgstr "Realm/დომეინი"
+
+#~ msgid "Gatekeeper ID:"
+#~ msgstr "გეითქიპერის ID:"
+
+#~ msgid "Registration Timeout:"
+#~ msgstr "რეგისტრაცია ტაიმაუტი:"
+
+#~ msgid "Missing information"
+#~ msgstr "დაკარგული ინფორმაცია"
+
+#~ msgid ""
+#~ "Please make sure to provide a valid account name, host name, and user "
+#~ "name."
+#~ msgstr "დარწმუნდით თქვენი ანგარიშის სისწორეში, შეამოწმეთ ყველა პარამეტრი."
+
+#~ msgid ""
+#~ "Please make sure to provide a valid account name, host name and "
+#~ "registration timeout."
+#~ msgstr ""
+#~ "დარწმუნდით·თქვენი·ანგარიშის სახელის·სისწორეში,·შეამოწმეთ·ყველა·დანარჩენი "
+#~ "პარამეტრიც."
+
+#~ msgid "Are you sure you want to delete account %s?"
+#~ msgstr "დარწმუნებული ხართ რომ გსურთ %s -ის წიგნაკიდან ამოშლა?"
+
+#~ msgid "Protocol"
+#~ msgstr "პროტოკოლი"
+
+#~ msgid "_Default"
+#~ msgstr "_ნაგულისხმევი"
+
+#~ msgid ""
+#~ "Another contact with the same speed dial already exists in your address "
+#~ "book:\n"
+#~ "\n"
+#~ "<b>Name</b>: %s\n"
+#~ "<b>URL</b>: %s\n"
+#~ "<b>Speed Dial</b>: %s\n"
+#~ msgstr ""
+#~ "თქვენს წიგნაკში უკვე არსებობს მომხმარებელი იგივე მისამართით \n"
+#~ "\n"
+#~ "<b>სახელი</b>: %s\n"
+#~ "<b>მისამართი</b>\n"
+#~ ": %s\n"
+#~ "<b>შეერთების სიჩქარე</b>: %s\n"
+
+#~ msgid ""
+#~ "Another contact with similar information already exists in your address "
+#~ "book:\n"
+#~ "\n"
+#~ "<b>Name</b>: %s\n"
+#~ "<b>URL</b>: %s\n"
+#~ "<b>Speed Dial</b>: %s\n"
+#~ "\n"
+#~ "Do you still want to add the contact?"
+#~ msgstr ""
+#~ "ამდაგვარი მომხმარებელი უკვე არსებობს თქვენს წიგნაკში:\n"
+#~ "\n"
+#~ "<b>სახელი</b>: %s\n"
+#~ "<b>მისამართი</b>: %s\n"
+#~ "<b>შეერთების სიჩქარე</b>: %s\n"
+#~ "\n"
+#~ "მიუხედავად ამისა, გნებავთ მისი წიგნაკში დამატება?"
+
+#~ msgid "S"
+#~ msgstr "S"
+
+#~ msgid "Comment"
+#~ msgstr "შენიშვნა"
+
+#~ msgid "Software"
+#~ msgstr "პროგრამა"
+
+#~ msgid "E-Mail"
+#~ msgstr "ელ-ფოსტა"
+
+#~ msgid "Location"
+#~ msgstr "ადგილმდებარეობა"
+
+#~ msgid "Speed Dial"
+#~ msgstr "ჩქარი აკრეფვა"
+
+#~ msgid "Name contains"
+#~ msgstr "სახელი შეიცავს"
+
+#~ msgid "URL contains"
+#~ msgstr "URL შეიცავს"
+
+#~ msgid "Belongs to category"
+#~ msgstr "მიეკუთვნება კატეგორიას"
+
+#~ msgid "_Copy URL to Clipboard"
+#~ msgstr "მისამართის ბუფერში დაკოპირება"
+
+#~ msgid "_Write e-Mail"
+#~ msgstr "_ელ-ფოსტის მიწერა"
+
+#~ msgid "_Delete"
+#~ msgstr "_წაშლა"
+
+#~ msgid "Error while fetching users list from %s"
+#~ msgstr "დაიშვა შეცდომა მომხმარებელთა სიის გადმოტვირთვის დროს %s"
+
+#~ msgid "Found %d user in %s"
+#~ msgid_plural "Found %d users in %s"
+#~ msgstr[0] "ვიპოვე %d მომხმარებელი %s-ში"
+
+#~ msgid "Found %d user in %s for a total of %d users"
+#~ msgid_plural "Found %d users in %s for a total of %d users"
+#~ msgstr[0] "ნაპოვნია %d მომხმარებელი %s -ში, სულ %d მომხმარებელი"
+
+#~ msgid "New _Address Book"
+#~ msgstr "ახალი მისამართების წიგნაკი"
+
+#~ msgid "_Close"
+#~ msgstr "_დახურვა"
+
+#~ msgid "Email:"
+#~ msgstr "ელ-ფოსტა:"
+
+#~ msgid "Speed Dial:"
+#~ msgstr "ჩქარი აკრეფვა:"
+
+#~ msgid "Categories:"
+#~ msgstr "კატეგორიები:"
+
+#~ msgid "Local Addressbook:"
+#~ msgstr "ლოკალური მისამართების წიგნაკი:"
+
+#~ msgid ""
+#~ "Please make sure to provide at least a full name or an URL for the "
+#~ "contact."
+#~ msgstr ""
+#~ "დარწმუნდით რომ გაგაჩნიათ პირად წიგნაკში ჩასაწერი მომხმარებლის მისამართი "
+#~ "ან სახელი და გვარი"
+
+#~ msgid "Edit an address book"
+#~ msgstr "მისამართების წიგნაკის რედაქტირება"
+
+#~ msgid "Type:"
+#~ msgstr "ტიპი:"
+
+#~ msgid "Local"
+#~ msgstr "ლოკალური"
+
+#~ msgid "Remote LDAP"
+#~ msgstr "დაშორებული LDAP"
+
+#~ msgid "Remote ILS"
+#~ msgstr "დაშორებული ILS"
+
+#~ msgid "Search Scope:"
+#~ msgstr "ძებნის დიაპაზონი:"
+
+#~ msgid "Please make sure you fill in all required fields."
+#~ msgstr "დარწმუნდით რომ ყველა რაფა შევსებულია."
+
+#~ msgid "Are you sure you want to delete %s and all its contacts?"
+#~ msgstr "დარწმუნებული ბრძანდებით %s -ის წაშლაში საკონტაქტო წიგნაკიდან?"
+
+#~ msgid "Date"
+#~ msgstr "თარიღი"
+
+#~ msgid "Remote User"
+#~ msgstr "დაშორებული მომხმარებელი"
+
+#~ msgid "Call End Reason"
+#~ msgstr "საუბრის დამთავრების მიზეზი"
+
+#~ msgid "Hang _up"
+#~ msgstr "_გათიშვა"
+
+#~ msgid "_Call user"
+#~ msgstr "_დაურეკე"
+
+#~ msgid "Call this user"
+#~ msgstr "დაურეკე მომხმარებელს"
+
+#~ msgid "_Open URL"
+#~ msgstr "_გახსენი URL"
+
+#~ msgid "You"
+#~ msgstr "თქვენ"
+
+#~ msgid "New Remote User"
+#~ msgstr "ახალი დაშორებული მომხმარებელი"
+
+#~ msgid "Changing this setting will only affect new calls"
+#~ msgstr "ეს ცვლილება მხოლოდ მომავალ ზარებზე იმოქმედებს"
+
+#~ msgid ""
+#~ "Ekiga cannot apply one or more changes to the current call. Your new "
+#~ "settings will take effect for the next call."
+#~ msgstr ""
+#~ "რათა დამტკიცდეს თქვენს მიერ შესრულებული ცვლილებები, აუცილებელია ეკიგას "
+#~ "ხელახალი ჩართვა."
+
+#~ msgid "H.245 Tunneling disabled"
+#~ msgstr "H.245 ტუნელირება გამორთულია"
+
+#~ msgid "H.245 Tunneling enabled"
+#~ msgstr "H.245 ტუნელირება ჩართულია"
+
+#~ msgid "Early H.245 disabled"
+#~ msgstr "ადრეული H.245 გამორთულია"
+
+#~ msgid "Early H.245 enabled"
+#~ msgstr "ადრეული H.245 ჩართულია"
+
+#~ msgid "Fast Start disabled"
+#~ msgstr "სწრაფი ჩართვა გამორთულია"
+
+#~ msgid "Fast Start enabled"
+#~ msgstr "სწრაფი ჩართვა აქტივირებულია"
+
+#~ msgid "Enabled silence detection"
+#~ msgstr "სიჩუმის დეტექტორი ჩართულია"
+
+#~ msgid "Disabled silence detection"
+#~ msgstr "სიჩუმის დეტექტორი გამორთულია"
+
+#~ msgid "Enabled echo cancelation"
+#~ msgstr "ექოს მოშორების ჩართვა"
+
+#~ msgid "Personal Information - page %d/%d"
+#~ msgstr "პირადი ინფორმაცია - გვერდი %d/%d"
+
+#~ msgid "NAT Type - page %d/%d"
+#~ msgstr "NAT ტიპი - გვერდი %d/%d"
+
+#~ msgid "Click here to detect your NAT Type:"
+#~ msgstr ""
+#~ "დააწკაპეთ ღილაკზე თქვენი NAT -ის (ქსელთა მისამართების ტრანსლაციის) "
+#~ "ამოსაცნობათ:"
+
+#~ msgid "Detect NAT Type"
+#~ msgstr "NAT -ის ტიპის ამოცნობა"
+
+#~ msgid ""
+#~ "The NAT type detection will permit to assist you in configuring your NAT "
+#~ "router to be able to do calls with Ekiga."
+#~ msgstr ""
+#~ "NAT -ის ტიპის დადგენით, რუტერის ქონის შემთხვევაში ეკიგით დარეკვა "
+#~ "შეგეძლებათ"
+
+#~ msgid "Audio Manager - page %d/%d"
+#~ msgstr "აუდიო მმართველი - გვერდი·%d/%d"
+
+#~ msgid "Please choose your audio manager:"
+#~ msgstr "გთხოვთ ამოირჩიოთ თქვენი აუდიო მენეჯერი:"
+
+#~ msgid ""
+#~ "The audio manager is the plugin that will manage your audio devices. "
+#~ "WindowsMultimedia is probably the best choice when available."
+#~ msgstr ""
+#~ "აუდიო მენეჯერი არის თქვენი აუდიო მოწყობილობის მოდული ანუ დრაივერი. "
+#~ "WindowsMultimedia არის საუკეთესო არჩევანი, თუ ხელმისაწვდომია."
+
+#~ msgid ""
+#~ "The audio manager is the plugin that will manage your audio devices. ALSA "
+#~ "is probably the best choice when available."
+#~ msgstr ""
+#~ "აუდიო მენეჯერი არის თქვენი აუდიო მოწყობილობის მოდული ანუ დრაივერი, ALSA "
+#~ "არის საუკეთესო აუდიო მოდულთა კრებული ლინუქსის სამყაროში."
+
+#~ msgid "Audio Devices - page %d/%d"
+#~ msgstr "აუდიო მოწყობილობები - გვერდი %d/%d"
+
+#~ msgid "Test Settings"
+#~ msgstr "პარამეტრების შემოწმება"
+
+#~ msgid "Video Manager - page %d/%d"
+#~ msgstr "ვიდეო მმართველი - გვერდი·%d/%d"
+
+#~ msgid "Please choose your video manager:"
+#~ msgstr "ამოირჩიეთ ვიდეო მენეჯერი:"
+
+#~ msgid ""
+#~ "The video manager is the plugin that will manage your video devices, "
+#~ "Video4Linux is the most common choice if you own a webcam."
+#~ msgstr ""
+#~ "ვიდეო მენეჯერი არის მოდული რომელიც მართავს თქვენს ვიდეო მოწყობილობებს, "
+#~ "ვებ-კამერის ქონის შემთხვევაში Video4Linux არის ყველაზე გავრცელებული "
+#~ "არჩევანი."
+
+#~ msgid "Video Devices - page %d/%d"
+#~ msgstr "ვიდეო მოწყობილობები - გვერდი %d/%d"
+
+#~ msgid "xDSL/Cable"
+#~ msgstr "xDSL/კაბელი"
+
+#~ msgid ""
+#~ "You have now finished the Ekiga configuration. All the settings can be "
+#~ "changed in the Ekiga preferences. Enjoy!\n"
+#~ "\n"
+#~ "\n"
+#~ "Configuration summary:\n"
+#~ "\n"
+#~ "Username: %s\n"
+#~ "Connection type: %s\n"
+#~ "Audio manager: %s\n"
+#~ "Audio player: %s\n"
+#~ "Audio recorder: %s\n"
+#~ "Video manager: %s\n"
+#~ "Video input: %s\n"
+#~ "SIP URL: %s\n"
+#~ msgstr ""
+#~ "ეკიგის კონფიგურაცია დასრულებულია. ყოველი პარამეტრი შეიძლება მოგვიანებით "
+#~ "შეიცვალოს -პარამეტრები-ის სექციიდან. გისურვებთ გართობას!\n"
+#~ "\n"
+#~ "\n"
+#~ "კონფიგურაციის შეჯამება:\n"
+#~ "\n"
+#~ "მომხმარებელი: %s\n"
+#~ "კავშირის ტიპი: %s\n"
+#~ "აუდიო მენეჯერი: %s\n"
+#~ "აუდიო გამშვები: %s\n"
+#~ "აუდიო ჩამწერი: %s\n"
+#~ "ვიდეო მენეჯერი: %s\n"
+#~ "ვიდეო შეტანა: %s\n"
+#~ "SIP მისამართი: %s\n"
+
+#~ msgid "General History"
+#~ msgstr "ზოგადი პროტოკოლი"
+
+#~ msgid "Open text chat"
+#~ msgstr "ტექსტ საუბრის გახსნა"
+
+#~ msgid "Change the view mode"
+#~ msgstr "საერთო ხედის შეცვლა"
+
+#~ msgid "Open address book"
+#~ msgstr "გახსენი მისამართების წიგნაკი"
+
+#~ msgid ""
+#~ "Audio transmission status. During a call, click here to suspend or resume "
+#~ "the audio transmission."
+#~ msgstr ""
+#~ "აუდიო ტრანსლაციის სტატუსი. ზარის დროს დააჭირეთ აქ ტრანსლაციის გაშვება/"
+#~ "გაჩერებისთვის."
+
+#~ msgid ""
+#~ "Video transmission status. During a call, click here to suspend or resume "
+#~ "the video transmission."
+#~ msgstr ""
+#~ "ვიდეოს გაგზავნის სტატუსი. საუბრის დროს შეგიძლიათ ჩართოთ ან გამორთოდ ვიდეო "
+#~ "ტრანსლაცია."
+
+#~ msgid "Display a popup to accept the call"
+#~ msgstr "მოლივლივე ფანჯრის ჩვენება ზარის მიღების დროს"
+
+#~ msgid "Aut_o Answer"
+#~ msgstr "ავტო_მოპასუხე"
+
+#~ msgid "Auto answer calls"
+#~ msgstr "ზარებს ავტომატურად  უპასუხე"
+
+#~ msgid "Reject calls"
+#~ msgstr "ზარების აკრძალვა"
+
+#~ msgid "_Forward"
+#~ msgstr "_გადაგზავნა"
+
+#~ msgid "Forward calls"
+#~ msgstr "ზარების გადაგზავნა"
+
+#~ msgid "Speed dials"
+#~ msgstr "სწრაფი გადარეკვა"
+
+#~ msgid "_Save Current Picture"
+#~ msgstr "სურათის შე_ნახვა"
+
+#~ msgid "Save a snapshot of the current video"
+#~ msgstr "მოცემულ ვიდეო ტრანსლაციისთვის სურათის გადაღება"
+
+#~ msgid "Quit Ekiga"
+#~ msgstr "გამორთე Ekiga"
+
+#~ msgid "View _Mode"
+#~ msgstr "ხედის _რეჟიმი"
+
+#~ msgid "Softp_hone"
+#~ msgstr "_ტელეფონი"
+
+#~ msgid "Show the softphone view"
+#~ msgstr "სოფტ-ტელეფონის რეჯიმი"
+
+#~ msgid "Show the videophone view"
+#~ msgstr "ვიდეო-ტელეფონის რეჯიმი"
+
+#~ msgid "View all components"
+#~ msgstr "ყველა კომპონენტის დათვალიერება"
+
+#~ msgid "Control Panel"
+#~ msgstr "კონტროლის პანელი"
+
+#~ msgid "View audio settings"
+#~ msgstr "იხილე აუდიო პარამეტრები"
+
+#~ msgid "View video settings"
+#~ msgstr "ვიდეო ხედის პარამეტრები"
+
+#~ msgid "Statistics"
+#~ msgstr "სტატისტიკა"
+
+#~ msgid "View audio/video transmission and reception statistics"
+#~ msgstr "ვიდეო/აუდიო გაგზავნა-მიღების სტატისტიკის ჩვენება"
+
+#~ msgid "Both (Side-by-Side)"
+#~ msgstr "ორივე (გვერდიგვერდ)"
+
+#~ msgid "Both (Both in New Windows)"
+#~ msgstr "ორივე (ორივე ახალ ფანჯარაში)"
+
+#~ msgid "Zoom In"
+#~ msgstr "გადიდება"
+
+#~ msgid "Zoom Out"
+#~ msgstr "დაპატარავება"
+
+#~ msgid "Normal Size"
+#~ msgstr "ნორმალური ზომა"
+
+#~ msgid "_Tools"
+#~ msgstr "_ხელსაწყო"
+
+#~ msgid "Open the address book"
+#~ msgstr "გახსენი მისამართების წიგნაკი"
+
+#~ msgid "C_hat Window"
+#~ msgstr "_ჩატ ფანჯარა"
+
+#~ msgid "Open the chat window"
+#~ msgstr "ჩატ ფანჯრის გახსნა"
+
+#~ msgid "View the operations history"
+#~ msgstr "ჩადენილ ქმედებათა სია"
+
+#~ msgid "PC-To-Phone Account"
+#~ msgstr "PC-To-Phone ანგარიში"
+
+#~ msgid "Manage your PC-To-Phone account"
+#~ msgstr "თქვენი PC-To-Phone ანგარიშის მართვა"
+
+#~ msgid "Notification area not detected"
+#~ msgstr "შეუზლებელია სტატუს პანელის პოვნა"
+
+#~ msgid ""
+#~ "The notification area is not present in your panel, so Ekiga cannot start "
+#~ "hidden."
+#~ msgstr ""
+#~ "თქვენ არ გაგაჩნიათ სტატუს პანელი, ასე რომ ეკიგა ვერ იმუშავებს დამალულ "
+#~ "რეჯიმში."
+
+#~ msgid "Sent DTMF %c"
+#~ msgstr "გაგზავნილი DTMF %c"
+
+#~ msgid "Out:"
+#~ msgstr "გარე:"
+
+#~ msgid "In:"
+#~ msgstr "შიდა:"
+
+#~ msgid "Registered accounts:"
+#~ msgstr "რეგისტრირებული ანგარიში:"
+
+#~ msgid "Gconf key error"
+#~ msgstr "Gconf key შეცდომა"
+
+#~ msgid "Bandwidth"
+#~ msgstr "გამტარობა"
+
+#~ msgid "Clock Rate"
+#~ msgstr "სიხშირე"
+
+#~ msgid "Sur_name:"
+#~ msgstr "_გვარი:"
+
+#~ msgid "Enter your surname"
+#~ msgstr "შეიყვანეთ თქვენი გვარი"
+
+#~ msgid "E-_mail address:"
+#~ msgstr "ელ-ფოსტის მისამართი:"
+
+#~ msgid "Enter your e-mail address"
+#~ msgstr "შეიყვანეთ თქვენი სახელი"
+
+#~ msgid "_Comment:"
+#~ msgstr "_კომენტარი"
+
+#~ msgid "Enter a comment about yourself"
+#~ msgstr "შეიყვანეთ კომენტარი თქვენს შესახებ"
+
+#~ msgid "Enter your country or city"
+#~ msgstr "თქვენი ადგილსამყოფელი, ქვეყანა ან ქალაქი"
+
+#~ msgid "Ekiga GUI"
+#~ msgstr "ეკიგას მგგ (მომხმარებლის გრაფიკული გარსი)"
+
+#~ msgid "Users directory:"
+#~ msgstr "მომხმარებელთა ქსელი:"
+
+#~ msgid "The users directory server to register with"
+#~ msgstr "მოხმარებელთა ქსელი რეგისტრაციის გატარებისთვის"
+
+#~ msgid "Enable _registering"
+#~ msgstr "ჩართე _რეგისტრაცია"
+
+#~ msgid "If enabled, register with the selected users directory"
+#~ msgstr ""
+#~ "მონიშვნის შემთხვევაში, მოცემული მომხმარებელთა ჯგუფში გაივლის რეგისტრაციას"
+
+#~ msgid "_Publish my details in the users directory when registering"
+#~ msgstr "საკუთარი მონაცემების _გამოქვეყნება მომხმარებელთა სიაში"
+
+#~ msgid ""
+#~ "If enabled, your details are shown to people browsing the users "
+#~ "directory. If disabled, you are not visible to users browsing the users "
+#~ "directory, but they can still use the callto URL to call you."
+#~ msgstr ""
+#~ "მონიშვნის შემთხვევაში, თქვენი მონაცემები გამოჩნდება მომხმარებელთა სიაში. "
+#~ "არ მონიშვნის შემთხვევაში, მონაცემები არ გამოქვეყნდება, მაგრამ "
+#~ "მომხმარებლებს მაინც შეეძლებათ თქვენთან callto URL -ით დაკავშირება."
+
+#~ msgid "Automatically _clear calls after 30 seconds of inactivity"
+#~ msgstr "ზარების ავტომატურად გაწმენდა 30 წამიანი უმოქმედობის შემდგომ"
+
+#~ msgid "Alternative output device:"
+#~ msgstr "ალტერნატიული გამავალი მოწყობილობა:"
+
+#~ msgid "Select an alternative audio output device to use for sound events"
+#~ msgstr "ამოირჩიეთ ალტერნატიული აუდიო გამოტანი ხმოვან მოვლენათათვის."
+
+#~ msgid "STUN"
+#~ msgstr "STUN"
+
+#~ msgid "IP Translation"
+#~ msgstr "IP ტრანსლაცია"
+
+#~ msgid "Listen on:"
+#~ msgstr "მოწყობილობა:"
+
+#~ msgid "NAT Traversal Method:"
+#~ msgstr "NAT -ში გასვლის მეთოდი:"
+
+#~ msgid "STUN Se_rver:"
+#~ msgstr "STUN სე_რვერი:"
+
+#~ msgid "The STUN server to use for STUN Support."
+#~ msgstr "STUN სერვერი საჭიროა STUN -ის მხარდაჭერისათვის."
+
+#~ msgid "Click here to update your NAT settings"
+#~ msgstr "დააწკაპეთ აქ რათა განაახლოთ თქვენი NAT -ის პარამეტრები"
+
+#~ msgid ""
+#~ "This permits to set the mode for DTMFs sending. The values can be \"String"
+#~ "\" (0), \"Tone\" (1), \"RFC2833\" (2), \"Q.931\" (3) (default is \"String"
+#~ "\"). Choosing other values than \"String\" disables the Text Chat."
+#~ msgstr ""
+#~ "იძლევა·საშუალებას·DTMF-ის·გაგზავნის რეჯიმის დაყენებას. შეიძლება "
+#~ "გაიგზავნოს·როგორც \"String\" (0), \"Tone\" (1), \"RFC2833\" (2), \"Q.931"
+#~ "\" (3)·(ძირითადია·\"String\")·სხვა·ოფციების·\"String\"·-ის "
+#~ "·მაგივრად·ამორჩევის·შემთხვევაში· ტექსტუალური·ჩატი გაუქმდება"
+
+#~ msgid "SIP Outbound Proxy"
+#~ msgstr "SIP გამავალი პროქსი"
+
+#~ msgid ""
+#~ "This permits to set the mode for DTMFs sending. The value can be \"RFC2833"
+#~ "\" (0) only."
+#~ msgstr ""
+#~ "This·permits·to·set·the·mode·for·DTMFs·sending.·The·value·can·be·\"RFC2833"
+#~ "\"·(0)·only."
+
+#~ msgid "Audio Plugin"
+#~ msgstr "აუდიო პლაგინი"
+
+#~ msgid "Audio plugin:"
+#~ msgstr "აუდიო პლაგინი:"
+
+#~ msgid ""
+#~ "The audio plugin that will be used to detect the devices and manage them."
+#~ msgstr "აუდიო პლაგინი რომელიც მოწყობილობათა ამოცნობაში გამოიყენება."
+
+#~ msgid "Click here to refresh the devices list"
+#~ msgstr "დააწკაპეთ რათა განაახლოთ მიერთებულ მოწყობილობათა სია"
+
+#~ msgid "Normal"
+#~ msgstr "ნორმალური"
+
+#~ msgid "Large"
+#~ msgstr "დიდი"
+
+#~ msgid "Video Plugin"
+#~ msgstr "ვიდეო პლაგინი"
+
+#~ msgid "Video plugin:"
+#~ msgstr "ვიდეო პლაგინი:"
+
+#~ msgid ""
+#~ "Select the transmitted video size: Normal (QCIF 176x144) or Large (CIF "
+#~ "352x288)"
+#~ msgstr ""
+#~ "ამოირჩიეთ გასაგზავნი ვიდეოს ზომა: ნორმალური (QCIF 176x144) ან დიდი (CIF "
+#~ "352x288)"
+
+#~ msgid "Available Audio Codecs"
+#~ msgstr "აუდიო კოდეკები"
+
+#~ msgid "Audio Codecs Settings"
+#~ msgstr "აუდიო კოდეკების პარამეტრები"
+
+#~ msgid "Automatically adjust _jitter buffer between"
+#~ msgstr "ავტომატურად დააყენე _jitter-ბუფერი"
+
+#~ msgid "and"
+#~ msgstr "და"
+
+#~ msgid "ms"
+#~ msgstr "მწ"
+
+#~ msgid "The minimum jitter buffer size for audio reception (in ms)."
+#~ msgstr "jitter-ბუფერის მინიმალური ზომა შემომავალი აუდიოსთვის(მწ.-ებში)."
+
+#~ msgid "Enable _video support"
+#~ msgstr "ვიდეო მხარდაჭერის ჩართვა"
+
+#~ msgid "If enabled, allows video during calls."
+#~ msgstr ""
+#~ "მონიშვნის შემთხვევაში, იძლევა ვიდეო გამოსახულების გაგზავნის საშუალებას."
+
+#~ msgid "Bandwidth Control"
+#~ msgstr "გამტარუნარიანობის მართვა"
+
+#~ msgid "Advanced Quality Settings"
+#~ msgstr "ხარისხის დამატებითი პარამეტრები"
+
+#~ msgid ""
+#~ "Choose if you want to favour speed or quality for the transmitted video."
+#~ msgstr ""
+#~ "ამოირჩიეთ, თუ გნებავთ გააუმჯობესოთ გაგზავნილი ვიდეოს სიჩქარე ან ხარისხი"
+
+#~ msgid "Directory Settings"
+#~ msgstr "დირექტორიის პარამეტრები"
+
+#~ msgid "Network Settings"
+#~ msgstr "ქსელის პარამეტრები"
+
+#~ msgid "Audio Codecs"
+#~ msgstr "აუდიო კოდეკები"
+
+#~ msgid "Video Codecs"
+#~ msgstr "ვიდეო კოდეკები"
+
+#~ msgid ""
+#~ "Please provide your username and password in order to be able to use the "
+#~ "PC-To-Phone service."
+#~ msgstr ""
+#~ "გთხოვთ მოგვაწოდოთ თქვენი მომხმარებლის სახელი და პაროლი რათა შეძლოთ PC-To-"
+#~ "Phone ანუ კომპიუტერიდან-ტელეფონზე რეკვის სერვისის გამოყენება."
+
+#~ msgid "PC-To-Phone Settings"
+#~ msgstr "PC-To-Phone პარამეტრები"
+
+#~ msgid "Account _number:"
+#~ msgstr "_ანგარიშის ნომერი:"
+
+#~ msgid "Use PC-To-Phone service"
+#~ msgstr "PC-To-Phone სერვისის გამოყენება"
+
+#~ msgid ""
+#~ "Click on one of the following links to get more information about your "
+#~ "existing Ekiga PC-To-Phone account, or to create a new account."
+#~ msgstr ""
+#~ "დააწკაპეთ ქვემოთ მოცემულ ბმულებს თუ გნებავთ დამატებითი ინფორმაცია თქვენი "
+#~ "ეკიგა PC-To-Phone ანგარიშის შესახებ."

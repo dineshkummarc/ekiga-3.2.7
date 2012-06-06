@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<node name="/">
+  <interface name="org.ekiga.Ekiga">
+
+    <!-- Show the main Ekiga window -->
+    <method name="Show"/>
+    <!-- Shutdown Ekiga -->
+    <method name="Shutdown"/>
+
+    <!-- Call a remote extension -->
+    <method name="Call">
+      <arg name="uri" type="s" direction="in"/>
+    </method>
+
+    <!-- Get local user informations -->
+    <method name="GetUserName">
+      <arg type="s" direction="out"/>
+    </method>
+    <method name="GetUserLocation">
+      <arg type="s" direction="out"/>
+    </method>
+    <method name="GetUserComment">
+      <arg type="s" direction="out"/>
+    </method>
+  </interface>
+</node>
